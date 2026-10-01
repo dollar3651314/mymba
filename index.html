@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MBA 学习助手</title>
+  <meta name="description" content="Greenwich MBA 中文学习引导：截止日期、每周任务、作业拆解、tutorial 笔记和术语表">
+  <meta name="theme-color" content="#1f3a68">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="MBA 助手">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand">MBA 学习助手</a>
+    <span id="today" class="today"></span>
+  </header>
+  <main id="app" class="wrap" aria-live="polite"></main>
+  <nav class="tabbar" aria-label="主导航">
+    <a href="#/" data-tab="home"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>首页</span></a>
+    <a href="#/modules" data-tab="modules"><svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"/></svg><span>课程</span></a>
+    <a href="#/notes" data-tab="notes"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM8 11h8M8 15h8M8 7h4"/></svg><span>笔记</span></a>
+    <a href="#/glossary" data-tab="glossary"><svg viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4zM8 9h8M8 13h5"/></svg><span>词汇</span></a>
+    <a href="#/tools" data-tab="tools"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg><span>工具</span></a>
+  </nav>
+  <script src="data/program.js"></script>
+  <script src="data/modules/busi1764.js"></script>
+  <script src="data/glossary.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
