@@ -44,6 +44,9 @@ Vercel Hobby（免费）计划下，私有仓库只部署**作者是 Vercel 账�
 | `data/glossary.js` | 术语表、常用句型、Harvard 示例、提交清单 |
 | `content/<课程>/week-XX.md` | 每周课堂笔记（由录音文字稿整理） |
 | `transcripts/` | 原始录音文字稿（不发布到网站） |
+| `docs/progress.md` | 学习进度记录：下一步、待确认问题、决定、收到的材料（网站“工具 → 学习进度记录”） |
+| `CLAUDE.md` | 给 Claude 的项目说明，新会话自动读取 |
+| `scripts/dev/` | 本地测试服务器 |
 
 ## 每周流程
 

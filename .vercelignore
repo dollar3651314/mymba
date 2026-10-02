@@ -1,3 +1,7 @@
 # 原始录音文字稿只留在仓库里，不发布到网站
 transcripts/
 content/_template.md
+
+# 开发和说明文件，不发布到网站
+scripts/
+CLAUDE.md

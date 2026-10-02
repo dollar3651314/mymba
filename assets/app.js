@@ -395,7 +395,19 @@
   }
 
   // ---------- 工具 ----------
+  views.log = async () => {
+    let h = `<a class="back" href="#/tools">‹ 工具</a>`;
+    try {
+      const r = await fetch('docs/progress.md', { cache: 'no-cache' });
+      if (!r.ok) throw new Error(r.status);
+      const md = await r.text();
+      h += `<div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
+    } catch { h += `<div class="card muted">进度记录加载失败，请检查网络后刷新。</div>`; }
+    return h;
+  };
+
   views.tools = () => `<h1>工具</h1>
+    <a class="card" href="#/log"><h3>学习进度记录</h3><p class="small muted">和 Claude 沟通的记录：下一步、待确认问题、已做决定、收到的材料</p></a>
     <a class="card" href="#/writing"><h3>写作助手</h3><p class="small muted">提交前检查清单、Harvard 引用格式、tutorial 发言和学术写作句型</p></a>
     <a class="card" href="#/grades"><h3>成绩计算</h3><p class="small muted">录入分数，算出及格还需要多少分、目前的学位等级</p></a>
     <a class="card" href="#/rules"><h3>学校规则</h3><p class="small muted">及格线、补考、宽限期、延期、查重、AI 使用</p></a>
@@ -510,6 +522,7 @@
     [/^\/notes\/edit\/([\w-]+)$/, (id) => views.noteForm('edit', id), 'notes'],
     [/^\/glossary$/, () => views.glossary(), 'glossary'],
     [/^\/tools$/, () => views.tools(), 'tools'],
+    [/^\/log$/, () => views.log(), 'tools'],
     [/^\/rules$/, () => views.rules(), 'tools'],
     [/^\/writing$/, () => views.writing(), 'tools'],
     [/^\/grades$/, () => views.grades(), 'tools'],
