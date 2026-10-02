@@ -86,6 +86,7 @@ a.card:active { background: var(--surface-2); }
 .pill.ok { background: var(--ok-soft); color: var(--ok); }
 .pill.warn { background: var(--warn-soft); color: var(--warn); }
 .pill.danger { background: var(--danger-soft); color: var(--danger); }
+.card .pill.accent { white-space: normal; max-width: 100%; }
 
 .callout { border-left: 4px solid var(--warn); background: var(--warn-soft); padding: 10px 12px; border-radius: 8px; margin: 0 0 12px; font-size: .95rem; }
 .callout.info { border-color: var(--accent); background: var(--accent-soft); }

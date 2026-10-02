@@ -1,4 +1,4 @@
-// BUSI 1763 Dynamics of Global Business and Practices — 内容来自 2026-27 课程手册（手册是未完成的草稿，多处矛盾）
+// BUSI 1763 Dynamics of Global Business and Practices — 最初来自 2026-27 课程手册草稿；2026-10-02 按 Moodle 上的 2025-26 完整版手册、Tip、Induction PPS、3 份样例、第 1–2 周课件更新
 MBA.addModule({
   id: 'busi1763',
   code: 'BUSI 1763',
@@ -13,14 +13,19 @@ MBA.addModule({
     '<b>第 1 次课老师说：小组展示在 10 月 31 日</b>（双节课：上午准备，下午正式展示），个人反思报告 <b>12 月 2 日</b>截止。这两个日期都比手册早，网站已按老师说的日期安排。',
     '小组 4 人，<b>自己组队</b>（老师不分配、不传话），全班 41 人。还没组的要马上找组。',
     '学习建议：别拍照截图课件，用<b>纸笔手写笔记</b>；去问往届（intake 1、2）的同学看他们的作品。',
+    '<b>Moodle 上的资料都是 2025 年（甚至 2024 年）的旧版</b>：手册写展示 2025-11-19、报告 2025-12-08；Tip 写 2024 年 11 月。<b>日期一律以老师课上说的为准</b>，规则（评分标准、理论清单）可以参考。',
+    '<b>Tip 里的流程值得注意</b>：第 6、7 周先做一次<b>形成性展示（练习，6–8 分钟，每人约 2 分钟）</b>听老师意见，之后才是正式展示。我们的第 6、7 次课正好都在 <b>10/31</b>，所以 10/31 可能是“练习展示”，正式展示可能在 11/21（第 9、10 次课）。<b>10/3 一定要问清楚。</b>在问清楚之前，按 10/31 正式展示来准备，不会吃亏。',
+    '<b>每组的研究对象不能重复</b>（Tip：两组不能做同一家公司，例如 Tata）。研究对象可以是一家跨国公司、一个国家或一个国际机构，但老师建议选<b>英国公司</b>。<b>尽早把公司报给老师占位。</b>',
   ],
   todos: [
     { d: '2026-10-03', t: '课上问清：展示是 10/31 还是 11/20？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？引用用 Harvard 还是 APA？' },
     { d: '2026-10-03', t: '定下 4 人小组和组长，选一家英国公司，选方向（全球化 / 逆全球化，老师建议区域一体化）' },
-    { d: '2026-10-05', t: '把第 1 次课课件、Moodle 展示指导、Mind Map 样例、报告样例发给 Claude' },
+    { d: '2026-10-03', t: '课上再问：10/31 是练习展示（formative）还是正式展示？最后要不要在 Turnitin 交 Mind Map 照片 + PPT？截止哪天？第 5 周的 GVC/GPN 算不算可选理论？' },
+    { d: '2026-10-03', t: '课前看完预习包；课后把第 2 次课录音发给 Claude' },
   ],
   people: [
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
+    { role: '课程负责人（英国，Sept 批次）', name: 'Dr Young-Chan Kim', email: 'y.kim@gre.ac.uk' },
     { role: '讲师', name: 'Mr. Vincent Tai', email: 'vtai@lsbf.edu.sg' },
   ],
   weekTasks: [
@@ -55,18 +60,18 @@ MBA.addModule({
     { n: 12, d: '2026-12-05', t: '08:30–11:30', room: '23-3' },
   ],
   weeks: [
-    { n: 1, en: 'De/Globalism vs. Regionalism – Geographical approach', zh: '全球化 / 逆全球化 vs. 区域主义（地理视角）', use: ['a', 'b'], rec: true, notes: true, detail: '<p>可选理论：<b>Globalisation（全球化）</b>、<b>De-globalisation（逆全球化）</b></p><p>学习目标：分组、选公司、找 8 篇文章。</p>' },
-    { n: 2, en: 'Regional Integration and the Role of Institutions through Political Economic View', zh: '区域一体化与制度的作用（政治经济学视角）', use: ['a', 'b'], detail: '<p>可选理论：<b>Regional Integration（区域一体化）</b>、<b>Political Economy（政治经济学）</b></p><p>第 2 周结束前要把小组名单交给老师，没有小组的会被分配。</p>' },
+    { n: 1, en: 'De/Globalism vs. Regionalism – Geographical approach', zh: '全球化 / 逆全球化 vs. 区域主义（地理视角）', use: ['a', 'b'], rec: true, notes: true, detail: '<p>可选理论：<b>Globalisation（全球化）</b>、<b>De-globalisation（逆全球化）</b></p><p>学习目标：分组、选公司、找 8 篇文章。</p><p>Tutorial 阅读：Chase-Dunn (2023) 结构性逆全球化浪潮；Farrell & Newman (2020) 来不及脱钩了；Ripsman (2021) 全球化、逆全球化与大国政治。</p>' },
+    { n: 2, en: 'Regional Integration and the Role of Institutions through Political Economic View', zh: '区域一体化与制度的作用（政治经济学视角）', use: ['a', 'b'], pre: true, detail: '<p>可选理论：<b>Regional Integration（区域一体化）</b>、<b>Political Economy（政治经济学）</b></p><p>第 2 周结束前要把小组名单交给老师，没有小组的会被分配。</p><p>Tutorial 阅读：Alami & Dixon (2019) 国家资本主义；Doner (1992) 国家能力的局限；Jetschke & Murray (2012) 欧盟与东盟的区域一体化。</p>' },
     { n: 3, en: 'Multinational Enterprises (MNEs) – Western vs. Emerging countries', zh: '跨国企业：西方 vs. 新兴经济体', use: ['a', 'b'], detail: '<p>可选理论：<b>MNEs from emerging economies</b>、<b>MNEs from advanced economies</b></p>' },
     { n: 4, en: 'FDI, M&A; from outsourcing to development? – a development focused approach', zh: 'FDI、并购：从外包到发展？', use: ['a', 'b'], detail: '<p>可选理论：<b>FDI（对外直接投资）</b>、<b>M&A（并购）</b></p>' },
-    { n: 5, en: 'Western Money vs. Asian Morals: a shifting paradigm?', zh: '西方资本 vs. 亚洲道德：范式在转变吗？', use: ['a'] },
-    { n: 6, en: 'Corporate Diplomacy under Uncertain Global Business', zh: '不确定全球环境下的企业外交', use: ['a'], detail: '<p>学习目标：找公司财务报表，分析公司发展和战略地位。</p>' },
-    { n: 7, en: 'TBC', zh: '（手册未写，待定）', use: ['a'], detail: '<p>手册写小组 Mind Map 展示安排在第 7–9 周。</p>' },
-    { n: 8, en: 'TBC', zh: '（手册未写，待定）', use: ['a'] },
-    { n: 9, en: 'Financial Market Failures', zh: '金融市场失灵', use: ['a'] },
-    { n: 10, en: 'Sustainable Finance', zh: '可持续金融', use: ['b'] },
-    { n: 11, en: 'Small Business and its Sustainability', zh: '小企业及其可持续性', use: ['b'] },
-    { n: 12, en: 'Global Business from theory into practices', zh: '全球商业：从理论到实践', use: ['b'] },
+    { n: 5, en: 'Competitive Advantage Mapping within Global Value Chains: From Firm Activities to Global Networks', zh: '全球价值链中的竞争优势：从企业活动到全球网络', use: ['a', 'b'], detail: '<p>2025-26 手册把 <b>Global Value Chains / Global Production Networks</b> 也列为可选理论（Tip 只列了 8 个），待老师确认。</p><p>按 Tip：第 5 周起开始设计 Mind Map。</p>' },
+    { n: 6, en: 'Internationalisation of SMEs – Challenges, Strategies, and Global Opportunities', zh: '中小企业国际化：挑战、战略与全球机会', use: ['a'], detail: '<p>学习目标：找公司财务报表，分析公司发展和战略地位。</p><p>本次课和第 7 次课都在 10/31（老师说的展示日）。</p>' },
+    { n: 7, en: 'Western Money vs. Asian Morals: a shifting paradigm?', zh: '西方资本 vs. 亚洲道德：范式在转变吗？', use: ['a'], detail: '<p>10/31 下午。手册：Mind Map 展示从第 7 周开始。</p>' },
+    { n: 8, en: 'Corporate Diplomacy under Uncertain Global Business', zh: '不确定全球环境下的企业外交', use: ['a', 'b'] },
+    { n: 9, en: 'Geostrategy and Splinternet World', zh: '地缘战略与“分裂的互联网”世界', use: ['a', 'b'] },
+    { n: 10, en: 'Financial Market Failures', zh: '金融市场失灵', use: ['b'] },
+    { n: 11, en: 'Sustainable Finance', zh: '可持续金融', use: ['b'] },
+    { n: 12, en: 'Small Business and its Sustainability', zh: '小企业及其可持续性', use: ['b'] },
   ],
   assessments: [
     {
@@ -82,11 +87,15 @@ MBA.addModule({
         '<b>日期按老师第 1 次课说的 10 月 31 日（周六）下午</b>安排：上午是准备时间，下午正式展示。手册写 11 月 20 日，录音里也提到 11 月 20 日，可能是另一个提交节点，<b>10 月 3 日课上确认</b>。',
         '<b>老师的展示规则</b>：20 分钟 = 每人 <b>4 分钟讲 + 1 分钟答问</b>（4 人一组）；组内顺序自己定；没准时到或没准备好会扣分；穿正式一点；线上参加必须开摄像头。',
         '<b>老师的选题建议</b>：只选一个方向深入（全球化或逆全球化）；如果做全球化，聚焦<b>区域一体化</b>；<b>只用一个理论</b>；优先选<b>英国公司</b>（英国复核老师更认同）；要举例说明其他公司怎么做。',
+        '<b>Moodle 资料补充的规则（2025 年版，参考）</b>：展示当天<b>不能带手机、不能看手机</b>，只能用小提示卡；展示当天不公布分数（要经过复核）；展示后要在 Turnitin 交<b>最终 Mind Map 照片 + 小组 PPT（PDF 或 JPEG）</b>。',
+        '<b>往届样例（Tesla 组）的 Mind Map 长这样</b>：中间是公司 logo，向外分出几条主干（每条一个理论 / 主题，如全球化、逆全球化、区域一体化、FDI、M&A），主干下再分要点，每个要点只写几个词。另配一套黑底 PPT：公司简介 → 每个理论一两页（配图和数据）→ 东道国的弊端 → 结论 → 参考文献。',
       ],
+      materials: 'content/busi1763/a-materials.md',
       brief: [
         '小组共同制作一张 <b>A1 尺寸的实体 Mind Map 海报</b>，分析一家选定的跨国公司。',
         '展示 20 分钟，<b>每人至少讲 5 分钟</b>，之后是问答。',
-        '<b>每人从 8 个理论中选 1 个</b>，用它分析你们的公司：Globalisation、De-globalisation（第 1 周）；Regional Integration、Political Economy（第 2 周）；MNEs from emerging economies、MNEs from advanced economies（第 3 周）；FDI、M&A（第 4 周）。',
+        '<b>每人从理论清单中选 1 个</b>，用它分析你们的公司：Globalisation、De-globalisation（第 1 周）；Regional Integration、Political Economy（第 2 周）；MNEs from emerging economies、MNEs from advanced economies（第 3 周）；FDI、M&A（第 4 周）；2025-26 手册还加了 Global Value Chains、Global Production Networks（第 5 周），共 10 个。',
+        '研究对象（Tip）：可以是一家跨国公司、一个国家或一个国际机构；<b>各组不能重复</b>。',
         '要用<b>自己的话</b>讲，可以带简短提示卡，但不能照稿念。',
         '问答环节：<b>每人回答自己负责部分的问题</b>。',
         '<b>其他组展示时也要到场</b>，出勤会计入评分。',
@@ -107,8 +116,8 @@ MBA.addModule({
         { en: 'Delivery', zh: '现场表达', w: 25, d: '时间控制、自信、仪态、眼神交流、声音、少看提示卡、专业度、小组配合。' },
         { en: 'Answers to questions', zh: '回答提问', w: 10, d: '听完整个问题，想清楚再答，回答清晰、有理有据。' },
       ],
-      theoriesTitle: '8 个可选理论（每人选 1 个）',
-      theories: ['Globalisation 全球化', 'De-globalisation 逆全球化', 'Regional Integration 区域一体化', 'Political Economy 政治经济学', 'MNEs from emerging economies 新兴经济体跨国企业', 'MNEs from advanced economies 发达经济体跨国企业', 'FDI 对外直接投资', 'M&A 并购'],
+      theoriesTitle: '可选理论（每人选 1 个；前 8 个确定，后 2 个待确认）',
+      theories: ['Globalisation 全球化（第 1 周）', 'De-globalisation 逆全球化（第 1 周）', 'Regional Integration 区域一体化（第 2 周）', 'Political Economy 政治经济学（第 2 周）', 'MNEs from emerging economies 新兴经济体跨国企业（第 3 周）', 'MNEs from advanced economies 发达经济体跨国企业（第 3 周）', 'FDI 对外直接投资（第 4 周）', 'M&A 并购（第 4 周）', 'Global Value Chains 全球价值链（第 5 周，待确认）', 'Global Production Networks 全球生产网络（第 5 周，待确认）'],
       pitfalls: [
         '照稿念——“现场表达”占 25%，要求少看提示卡。',
         '只懂自己那部分——老师会观察每个人是否了解整个小组的方向。',
@@ -117,6 +126,8 @@ MBA.addModule({
         '不参加展示——个人报告直接不评分。',
         '答问太短——老师说以前有组答问只用了 35 秒，被扣分；每人准备 1 分钟的回答。',
         '想同时用好几个理论——老师要求只用一个，保持聚焦。',
+        '展示时看手机——Moodle 规则明确禁止，只能用小提示卡。',
+        '和别的组撞公司——各组不能重复，尽早报给老师。',
       ],
       milestones: [
         { d: '2026-10-03', t: '第 2 次课：定小组（4 人）、组长、英国公司、方向和理论；问清展示日期' },
@@ -139,6 +150,7 @@ MBA.addModule({
         '我的部分能讲 5 分钟以上，不看稿',
         '准备好可能被问到的问题和答案',
         '保存了海报照片和展示材料（个人报告要附上）',
+        'Mind Map 照片 + 小组 PPT 已在 Turnitin 提交（如果老师要求）',
       ],
     },
     {
@@ -153,6 +165,8 @@ MBA.addModule({
       lo: [1, 2, 3, 4, 5],
       notes: [
         '<b>截止日按老师第 1 次课说的 12 月 2 日</b>安排（手册写 12 月 11 日）。10 月 3 日课上确认。',
+        '<b>字数</b>：Induction PPS 写“最多 1000 词（±10%）”，即 900–1100 词。报告是“对小组 Mind Map 内容的理论回顾 + 你自己的理论分析”，再加上反思。',
+        '<b>3 份往届样例的写法</b>（详见素材库）：样例 1（Unilever 并购）几乎全是公司分析，最后一段才反思；样例 2（IKEA）用 <b>Gibbs 反思循环 + Belbin 团队角色</b>，有具体问题（两套 PPT 重复劳动、当众演讲紧张）和行动计划；样例 3（Tesla）用 <b>Kolb 体验学习循环</b>的四个阶段做小标题，文末附了整套 PPT 和 Mind Map。<b>样例 2 最值得学</b>：评分里“扎实度”要求深入写自己的角色和改进建议。',
         '<b>老师的硬性要求</b>：只能用 <b>Google Scholar 上已发表的学术论文</b>，不能用未发表资料或 AI 生成内容；至少 5 篇；建议在 Google Scholar 用“自定义范围”只看 <b>2020–2022 年</b>；相似度<b>必须低于 25%</b>，超过 30% 可能要<b>口头答辩</b>（老师说会用答辩检查是否 AI 代写）。',
       ],
       brief: [
@@ -166,7 +180,7 @@ MBA.addModule({
       outline: [
         { s: '1 引言', w: 120, g: '公司、你的理论、你在小组中的角色，以及报告结构。' },
         { s: '2 理论与小组分析', w: 330, g: '你的理论如何用于公司分析；对照理论评估团队的研究和展示表现。' },
-        { s: '3 我的角色与贡献', w: 300, g: '你具体做了什么、做得好和不足的地方；用具体事例。可以用 Gibbs 反思循环组织。' },
+        { s: '3 我的角色与贡献', w: 300, g: '你具体做了什么、做得好和不足的地方；用具体事例。可以用 Gibbs 反思循环组织；分析团队分工可以用 Belbin 团队角色（样例 2 的做法）。' },
         { s: '4 改进建议', w: 200, g: '团队今后如何更好地合作；你个人下一步怎么做。' },
         { s: '5 结论', w: 50, g: '一两句总结。' },
         { s: '附录', g: '展示用的幻灯片或海报照片（不计入字数，以 Moodle 为准）。' },
@@ -183,9 +197,12 @@ MBA.addModule({
         '只描述做了什么，没有对照理论分析——“相关性”占 30%。',
         '只写团队，不写自己——要深入写你自己的角色。',
         '没有具体事例——从筹备开始就在笔记里记录你的贡献。',
-        '用了 Google Scholar 以外的来源或 AI 生成内容——老师明确禁止。',
+        '用了 Google Scholar 以外的来源或 AI 生成内容——老师明确禁止。（样例 1 用了 CNN、FT 等网页，那是往届；我们按老师说的做。）',
+        '像样例 1 那样通篇写公司分析、几乎不反思——这是“反思报告”，要写团队和你自己。',
+        '样例 3 里“they found this project...”人称混乱——全文统一用 I / we。',
         '相似度超过 25%——超过 30% 可能要口头答辩；手写笔记、用自己的话写能降低相似度。',
       ],
+      materials: 'content/busi1763/b-materials.md',
       milestones: [
         { d: '2026-11-01', t: '展示结束后马上整理小组过程笔记，列出反思要点（喜欢 / 不喜欢 / 学到什么）' },
         { d: '2026-11-08', t: '在 Google Scholar 找 5 篇以上已发表论文（2020–2022），读摘要' },
