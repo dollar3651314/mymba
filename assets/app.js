@@ -101,6 +101,11 @@
   const nextSession = m => (m.sessions || []).find(x => !held(x));
   const sessLabel = x => `${fmt(x.d)}（${wk(x.d)}）${x.t}`;
   // 未来 7 天内要上、但还没有预习包的课 → 提醒用户下载课件发给 Claude
+  // Markdown → HTML；表格外包一层可横向滚动的容器（手机上列太多时左右滑动，不会把列挤扁）
+  function mdHtml(md) {
+    if (!window.marked) return `<pre>${esc(md)}</pre>`;
+    return window.marked.parse(md).replace(/<table>/g, '<div class="tbl"><table>').replace(/<\/table>/g, '</table></div>');
+  }
   function pendingPreviews(days = 7) {
     const limit = new Date(today().getTime() + days * DAY);
     return M.modules.flatMap(m => (m.sessions || []).filter(x => !held(x) && parseDate(x.d) <= limit).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
@@ -339,7 +344,7 @@
         const r = await fetch(path, { cache: 'no-cache' });
         if (!r.ok) throw new Error(r.status);
         const md = await r.text();
-        h += `<h2>📘 课前预习</h2><div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
+        h += `<h2>📘 课前预习</h2><div class="card md">${mdHtml(md)}</div>`;
       } catch { h += `<div class="card muted">预习包加载失败，请检查网络后刷新。</div>`; }
     } else if (!(sessOf(m, n) && held(sessOf(m, n)))) {
       h += `<h2>📘 课前预习</h2><div class="card empty">还没有预习包。<br>请到 Canvas / Moodle 下载这一周的课件（tutorial slides、mini-lecture），发给 Claude。</div>`;
@@ -351,7 +356,7 @@
         const r = await fetch(path, { cache: 'no-cache' });
         if (!r.ok) throw new Error(r.status);
         const md = await r.text();
-        h += `<div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
+        h += `<div class="card md">${mdHtml(md)}</div>`;
       } catch { h += `<div class="card muted">笔记加载失败（${esc(path)}），请检查网络后刷新。</div>`; }
     } else {
       h += `<div class="card empty">这一周还没有整理好的笔记。<br>${sessOf(m, n) && held(sessOf(m, n)) && !w.rec ? '<b>这节课已经上完，</b>' : ''}把这节课的<b>录音文字稿</b>发给 Claude，整理后会出现在这里：中文总结、重点概念、老师强调的内容、和作业的关系、可以在 tutorial 上用的英文句子。</div>`;
@@ -379,7 +384,7 @@
           if (!r.ok) throw new Error(r.status);
           const md = await r.text();
           const mine = store.get('notes', []).filter(x => x.m === mid).sort((x, y) => Number(x.w) - Number(y.w));
-          return `<h2 id="s-mat">素材库</h2><div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>
+          return `<h2 id="s-mat">素材库</h2><div class="card md">${mdHtml(md)}</div>
             <h2 id="s-mine">我的 tutorial 笔记 <span class="pill">${mine.length} 条</span></h2>
             ${mine.length ? mine.map(noteCard).join('') : `<div class="card empty">还没有这门课的 tutorial 笔记。<br><a href="#/notes/new/${mid}/1">现在去写</a></div>`}`;
         } catch { return `<div class="card muted">素材库加载失败，请检查网络后刷新。</div>`; }
@@ -476,7 +481,7 @@
       const r = await fetch('docs/progress.md', { cache: 'no-cache' });
       if (!r.ok) throw new Error(r.status);
       const md = await r.text();
-      h += `<div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
+      h += `<div class="card md">${mdHtml(md)}</div>`;
     } catch { h += `<div class="card muted">进度记录加载失败，请检查网络后刷新。</div>`; }
     return h;
   };
