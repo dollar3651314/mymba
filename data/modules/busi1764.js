@@ -22,7 +22,8 @@ MBA.addModule({
     { d: '2026-10-08', t: '课上问清：“周五下午 5 点前提交”指的是什么？最后一周的一对一咨询是哪天？' },
     { d: '2026-10-05', t: '截图 Canvas 讨论区 1.1–1.4、2.1、2.2（题目 + 你和组员的回帖）发给 Claude' },
     { d: '2026-10-07', t: '看第 3 周预习包；读 IMD 案例（家族企业 25 条成功原则）第 3 页图 1 和第 5 页三个案例' },
-    { d: '2026-10-12', t: '在学校图书馆找 Costales & Zeyen (2022)（国际社会创业者的社会资本，录播课讲者写的），发给 Claude——学习日志最相关的文献' },
+    { d: '2026-10-12', t: '在学校图书馆找 Costales & Zeyen 的论文（待办原写 2022；Mini-Lecture 4.2 引用的是 2023 年那篇，讲社会创新与系统变革），发给 Claude——学习日志最相关的文献。Moodle 上没有，可以 10/15 问老师' },
+    { d: '2026-10-14', t: '10/15 上课前看第 4 周预习包和 Mini-Lecture 4.1、4.2；想好课堂活动（家乡的社会问题 + 赚钱的解决方案）；带上 Ashoka Fellow 候选去问老师（tutorial 第二部分是作业 1 辅导）' },
     { d: '2026-10-08', t: '课上问清：A2 说“不能和小组展示的想法相同”，今年没有小组展示，tutorial 讨论过的想法能不能用？' },
   ],
   weekTasks: [
@@ -64,7 +65,7 @@ MBA.addModule({
     { n: 1, en: 'Main theories of International Business and International Entrepreneurship', zh: '国际商务与国际创业的主要理论', use: ['a1'], rec: true, notes: true },
     { n: 2, en: 'Innovation and Global Competitiveness', zh: '创新与全球竞争力', use: ['a1', 'a2'], rec: true, notes: true },
     { n: 3, en: 'Family Firms', zh: '家族企业', use: ['a2'], notes: false, pre: true, detail: '<p>Mini-Lecture 3.1–3.3：家族企业的性质和核心价值、五个理论视角（代理、管家、资源基础观、社会情感财富、二分偏差）、国际化路径。</p><p>Tutorial：IMD 文章《长寿家族企业的成功秘诀》（25 条原则 + Frescobaldi、Takanashi、Miele 三个案例）；老师自己的故事“我拒绝投资人对吗？”；西武集团的衰落（继承问题）。</p>' },
-    { n: 4, en: 'Social Entrepreneurship', zh: '社会创业', use: ['a1', 'a2'], notes: false },
+    { n: 4, en: 'Social Entrepreneurship', zh: '社会创业', use: ['a1', 'a2'], notes: false, pre: true, detail: '<p><b>Tutorial 第二部分是作业 1（学习日志）辅导</b>，带着你的 Ashoka Fellow 候选和问题去。</p><p>Mini-Lecture 4.1：负责任的创业与社会企业；4.2：社会创业、社会创新与系统变革（4.3 Moodle 上还没发布）。Tutorial：社会问题、尤努斯、社会企业的七种创新方式、国际社会创业者；课堂活动：家乡的社会问题和赚钱的解决方案。</p>' },
     { n: 5, en: 'Feasibility analysis and writing a business plan', zh: '可行性分析与撰写商业计划书', use: ['a2'], notes: false },
     { n: 6, en: 'Building and managing the international entrepreneurial firm', zh: '建立和管理国际创业企业', use: ['a2'], notes: false },
     { n: 7, en: 'International market entry strategies', zh: '国际市场进入策略', use: ['a1', 'a2'], notes: false },

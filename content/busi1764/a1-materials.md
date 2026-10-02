@@ -204,3 +204,25 @@
 - 范例 1 的国际创业判断只写了半句（“currently focused on Brazil”），理由偏弱。
 - 范例 2 有明显的错字和病句（“The church was started…”，其实指的是组织），还有一段把自己的组织当成“我们的地区”。交之前一定要检查语言。
 - 两份的 tutorial 经历都只有一两句。**你的 tutorial 笔记更详细，这一项可以拿更多分。**
+
+
+---
+
+## 第 4 周：社会创业（课件 10/2 收到，第 4 次课 10/15，tutorial 第二部分是作业 1 辅导）
+
+| 日志部分 | 能用的课堂内容 | 出处 |
+|---|---|---|
+| ② 创业类型 | 社会创业定义：解决**社会市场失灵**、系统性创造社会价值 | Nicholls (2006)；Mini-Lecture 4.1 |
+| ② 创业类型 | 社会改善优先于利润 | Dees (1998)；Mini-Lecture 4.1 |
+| ② 创业类型 | 社会企业学派（赚取收入策略；社会商业：不亏损、不分红，Yunus 2007）vs. 社会创新学派（创新和社会变革，不限法律形式，Dees & Anderson 2006） | Mini-Lecture 4.1 |
+| ② 创业类型 | 生态创业：用环境创新取得市场成功（Schaltegger 2002）；Schaltegger 的分类（生态先锋、生态创业者、环境管理、环境行政） | Mini-Lecture 4.1 |
+| ② 创业类型 | 社会企业 vs. 非营利组织：社会企业自己创造收入，非营利组织靠捐赠和资助 | Tutorial 4 |
+| ③ 创新 | 创新是现有要素的重新组合（Schumpeter 1911）；创新程度三条轴 | Mini-Lecture 4.1 |
+| ③ 创新 | 社会创业者的七种创新方式（新产品服务、新流程技术、服务不足的市场、新原料来源、新组织结构、新劳动力来源、新融资模式） | Tutorial 4 |
+| ③ 创新 | 社会创新三要素（Moulaert et al. 2013）；社会创新是现有要素的新组合、跨界、建立新关系（Mulgan 2007）；社会行动主义 vs. 社会创业（Martin & Osberg 2007） | Mini-Lecture 4.2 |
+| ④ 国际化 | 国际社会创业者（ISE）四要点：了解当地情况、网络、围绕社会使命的商业模式、使命一致的伙伴 | Tutorial 4 |
+| ⑤ tutorial 经历 | 第 4 次课课堂活动：家乡的社会问题 + 赚钱的创新方案 + 国际复制 | Tutorial 4（课后记进笔记） |
+| 例子 | 尤努斯和格莱珉银行（小额信贷，2006 年诺贝尔和平奖）；TOMS | Tutorial 4 |
+
+参考文献写法示例（课件当参考文献，范例这样写过）：
+Costales, E. (2026) *Mini-Lecture 4.1: Responsible Entrepreneurship and the Social Enterprise*, BUSI1764 Global Entrepreneurship and Innovation. University of Greenwich, unpublished.（年份按你下载的版本，10/15 问老师确认这样引用可以）
