@@ -9,6 +9,25 @@ MBA.addModule({
   credits: 15,
   format: '每周 1 小时录播课 + 2 小时线下 tutorial',
   warning: '手册原话：缺乏参与（包括缺勤）与挂科直接相关。',
+  alerts: [
+    '<b>翻转课堂</b>：每周上课前要先看<b>录播课（约 1 小时）</b>并预习课件，课上 2 小时用来讨论和辅导。不看录播课，课上会跟不上。',
+    '<b>作业只能通过指定链接提交，不要用邮件发给老师</b>；交之前检查链接、文件和课程是否正确。',
+    '最后一周有<b>一对一咨询</b>，老师说非常重要：带着个人报告（A2）的想法和草稿去。',
+    '<b>课上的案例练习就是学习日志（A1）要写的“tutorial 经历”</b>：每次课后马上在网站 tutorial 笔记里记下你们组讨论了什么、你说了什么、怎么判断的。',
+  ],
+  todos: [
+    { d: '2026-10-03', t: '趁还记得，把第 1、2 次课案例练习（披萨炉、日程工具、健身房 / Airbnb 商业模式画布）的小组讨论写进 tutorial 笔记' },
+    { d: '2026-10-07', t: '10/8 上课前看完第 3 周录播课（家族企业）并预习课件' },
+    { d: '2026-10-08', t: '课上问清：“周五下午 5 点前提交”指的是什么？最后一周的一对一咨询是哪天？' },
+    { d: '2026-10-09', t: '把第 1、2 周课件和录播课、商业模式画布模板、A1/A2 评分标准原文发给 Claude' },
+  ],
+  weekTasks: [
+    { id: 'lec', t: '课前：看录播课（约 1 小时）+ 预习课件' },
+    { id: 'pre', t: '把课件发给 Claude，读中文讲解和术语' },
+    { id: 'tut', t: '参加 tutorial（2 小时），扫码签到' },
+    { id: 'note', t: '{note}（记下案例、你们组的判断和你说的话——A1 日志要用）' },
+    { id: 'send', t: '把录音文字稿和笔记发给 Claude' },
+  ],
   people: [
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
     { role: '讲师', name: 'Mr. Jeffrey Koh', email: 'jkoh@lsbf.edu.sg' },
@@ -37,8 +56,8 @@ MBA.addModule({
     { n: 12, d: '2026-12-03', t: '19:00–22:00', room: '18-3' },
   ],
   weeks: [
-    { n: 1, en: 'Main theories of International Business and International Entrepreneurship', zh: '国际商务与国际创业的主要理论', use: ['a1'], notes: false },
-    { n: 2, en: 'Innovation and Global Competitiveness', zh: '创新与全球竞争力', use: ['a1'], notes: false },
+    { n: 1, en: 'Main theories of International Business and International Entrepreneurship', zh: '国际商务与国际创业的主要理论', use: ['a1'], rec: true, notes: true },
+    { n: 2, en: 'Innovation and Global Competitiveness', zh: '创新与全球竞争力', use: ['a1', 'a2'], rec: true, notes: true },
     { n: 3, en: 'Family Firms', zh: '家族企业', use: ['a2'], notes: false },
     { n: 4, en: 'Social Entrepreneurship', zh: '社会创业', use: ['a1', 'a2'], notes: false },
     { n: 5, en: 'Feasibility analysis and writing a business plan', zh: '可行性分析与撰写商业计划书', use: ['a2'], notes: false },
@@ -92,7 +111,8 @@ MBA.addModule({
         '只有企业网站一个来源——还需要背景数据（统计等）和学术文献。',
         '选了欧美或大洋洲的 Fellow——必须是南美、非洲或亚洲。',
       ],
-      theories: ['Uppsala 国际化过程模型', '国际新创企业 / 天生全球化企业（Oviatt & McDougall）', '网络理论（Coviello & Munro）', 'OLI 折衷范式（Dunning）', '效果推理 Effectuation', '颠覆式创新（Christensen）', '创造性破坏（Schumpeter）', '市场进入模式'],
+      theoriesTitle: '可以用的理论（第 1 次课讲的 8 个国际商务理论 + 创新理论）',
+      theories: ['交易成本理论', '国际产品生命周期（Vernon）', '垄断优势理论', '寡占反应理论', 'OLI 折衷范式（Dunning）', 'Uppsala 渐进模型（心理距离）', '网络理论（4 种状态）', '天生全球化 / 国际新创企业（Oviatt & McDougall）', '渐进式 vs. 突破式创新', '创造性破坏（Schumpeter）', '颠覆式创新（Christensen）', '发现型 vs. 创造型机会', '市场进入模式'],
       milestones: [
         { d: '2026-10-09', t: '在 Ashoka 网站选出 2–3 位候选 Fellow 发给 Claude' },
         { d: '2026-10-16', t: '确定 A1 的 Ashoka Fellow' },
@@ -129,6 +149,7 @@ MBA.addModule({
       brief: [
         '自己创办一家<b>初创公司</b>，或选一家现有的<b>小型 SME / 家族企业</b>（不能是大型跨国公司）。',
         '<b>不能和小组展示中的商业想法相同。</b>',
+        '老师第 1 次课强调：核心是<b>提出一个商业想法并用证据支持</b>，还要有<b>反思</b>；必须独立完成。第 2 次课的<b>商业模式画布</b>可以直接作为分析框架和报告里的图表。',
         '如果选现有企业，要为它设计一个<b>新产品或新服务</b>，并按下面全部步骤分析。',
         '全文要引用相关理论和概念，使用可靠来源和 Harvard 格式，<b>要用图表</b>。',
       ],
@@ -166,7 +187,7 @@ MBA.addModule({
         '没有图表——手册明确要求用图表。',
         '融资、营销、IP、数字创业在第 9–12 次课（11/19、11/26、12/1、12/3）才讲；按 12 月 4 日提交的计划，写第 5–7 节时这些课还没上，要提前自学 Moodle 上的课件。',
       ],
-      theories: ['可行性分析 / 商业计划书', '机会识别（发现 vs 创造）', '资源基础观 / 资源稀缺', '网络理论', '融资阶段（自筹 → 天使 → VC → 众筹）', '知识产权类型', '市场进入模式', 'STP 市场细分', '创业营销'],
+      theories: ['商业模式画布（9 个模块）', '可行机会三要素（需求、技术可行、盈利）', '价值创造 vs. 价值获取', '可行性分析 / 商业计划书', '机会识别（发现 vs 创造）', '资源基础观 / 资源稀缺', '网络理论', '融资阶段（自筹 → 天使 → VC → 众筹）', '知识产权类型', '市场进入模式', 'STP 市场细分', '创业营销'],
       milestones: [
         { d: '2026-10-23', t: '想 2–3 个 A2 商业想法发给 Claude（不能和小组想法重复）' },
         { d: '2026-10-31', t: '确定 A2 商业想法 + 大纲' },
