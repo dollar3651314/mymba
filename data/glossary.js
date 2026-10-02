@@ -137,6 +137,12 @@ MBA.glossary = [
   { en: 'Psychological and social capital', zh: '心理资本与社会资本', c: '创业过程', m: ['busi1764'], x: '心理资本：冒险精神、抗压、远见；社会资本：人脉和关系网络。', e: '' },
   { en: 'Customer journey map', zh: '客户旅程图', c: '营销', m: ['busi1764'], x: '画出客户从了解到使用服务的每一步，用来发现痛点、优化服务。', e: '' },
   { en: 'Switching cost', zh: '转换成本', c: '营销', m: ['busi1764'], x: '客户换到竞争对手要付出的代价；价值主张越独特，转换成本越高。', e: '' },
+  { en: 'Causation vs. effectuation', zh: '因果逻辑 vs. 效果推理', c: '创业过程', m: ['busi1764'], x: 'Sarasvathy (2001)：因果逻辑先定目标再选手段，适合可预测的市场；效果推理从手头的手段出发，看可承受的损失、和伙伴合作，适合不可预测的新市场。', e: 'Rather than predicting the market, the founder followed an effectual logic, starting with available means and partners.' },
+  { en: 'Affordable loss', zh: '可承受的损失', c: '创业过程', m: ['busi1764'], x: '效果推理的原则之一：不追求预期回报最大，而是只投入失败了也能承受的资源。', e: '' },
+  { en: 'Perfect market', zh: '完全市场', c: '创业过程', m: ['busi1764'], x: '假设：价格接受者、产品同质、完全信息、没有进入退出壁垒。现实不满足这些假设，就是市场不完美，机会由此产生。', e: '' },
+  { en: 'Risk vs. uncertainty', zh: '风险 vs. 不确定性', c: '创业过程', m: ['busi1764'], x: '风险：结果概率已知（发现型机会）；不确定性：概率未知（创造型机会）。奈特不确定性指未来不可知。', e: '' },
+  { en: 'Aggregator business model', zh: '聚合商业模式', c: '创业过程', m: ['busi1764'], x: '收集供给方信息、与之合作，以平台品牌销售服务、收取佣金，不拥有资产（Airbnb、Uber、OYO）。', e: '' },
+  { en: 'Dynamic capabilities (sensing, seizing, transforming)', zh: '动态能力：感知、抓住、转化', c: '创业过程', m: ['busi1764'], x: 'Teece (2007)：创业型企业善于感知机会、调动资源抓住机会、围绕机会持续更新企业。', e: '' },
   // 学术写作（通用）
   { en: 'Critically evaluate', zh: '批判性评估', c: '学术写作', m: [], x: '不只是描述，要分析优点、缺点、局限和适用条件，并给出自己的判断。', e: '' },
   { en: 'Synthesise', zh: '综合', c: '学术写作', m: [], x: '把多个来源的观点整合在一起，得出新的理解。', e: '' },

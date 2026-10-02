@@ -3,7 +3,7 @@
 > 按评分标准分区，收集每节课里能用在学习日志上的内容。每收到一节课的录音，Claude 都会更新这里。
 > **这些是帮你写作的线索，不是可以直接抄的句子。** 日志要用你自己的分析和语言写，而且必须写进你在 tutorial 里的真实经历。
 
-**已收录**：第 1、2 次课录音；第 1、2 周 tutorial 课件；第 1 周 Mini-Lecture 1.1–1.3（10/2）
+**已收录**：第 1、2 次课录音；第 1、2 周 tutorial 课件；Mini-Lecture 1.1–1.3、2.1–2.3；Airbnb 案例（10/2）
 **接下来特别重要的课**：第 4 次课 10/15 社会创业（→ 创业类型判断，补充更多例子）、第 7 次课 10/29 国际市场进入策略（→ 跨境转移的进入模式）
 **还缺**：Moodle 上的范例（examples）；Canvas 讨论区 1.1–1.4、2.1、2.2 的截图（你们组当时的讨论记录）
 
@@ -72,6 +72,7 @@
 | Airbnb | 商业模式创新：利用闲置房间，平台抽成 | 第 2 次课 |
 | 打印机按页收费 | 商业模式创新：设备免费，按使用量收费 | 第 2 次课 |
 | Netflix | DVD 邮寄 → 订阅流媒体，商业模式创新 | 第 2 次课 |
+| Airbnb 的国际扩张 | 2011 年开伦敦办公室，并**收购德国竞争对手 Accoleo** 进入欧洲（跨境部分可作进入模式的例子） | Airbnb 案例 PDF |
 
 **判断创新程度时可以用的概念**
 - 发现型 vs. 创造型机会（第 2 次课）：你的企业是发现了已有的需求，还是创造了新市场？
@@ -118,6 +119,11 @@
 - **创始人的人脉和网络推动国际化**（McDougall et al., 1994；Coviello & Munro, 1995）。⭐ **Costales & Zeyen (2022)** 专门研究**国际社会创业者的社会资本**，作者就是录播课讲者，和 Ashoka 日志最相关，建议找来读。Ashoka Fellow 网络本身就是一种社会资本，可以结合这篇文献讨论。
 - 全球化的定义（Robertson, 1992；Giddens, 1990；Waters, 2013）可以用在跨境部分的开头。
 
+**效果推理（Effectuation）——解释资源有限的社会企业怎样出海**（Mini-Lecture 2.2）
+- 因果逻辑：先定目标再找手段，适合可预测的现有市场；效果推理：从手头的手段出发（我是谁、我知道什么、我认识谁），看**可承受的损失**，和伙伴**合作**而不是竞争，适合不可预测的新市场（Sarasvathy, 2001, 2009）。
+- 写法思路：Ashoka 企业进入新国家时，很可能更适合效果推理，先和当地伙伴合作、小规模试点，而不是先做完整的市场预测。可以结合手册推荐的 **Galkina & Chetty (2015)**《效果推理与国际化中小企业的网络》来写，这篇正好把效果推理和网络理论连在一起。
+- 对照 Uppsala 模型：两者都强调边做边学，但 Uppsala 讲的是逐步加大投入，效果推理讲的是从伙伴关系出发、控制损失。
+
 **课件补充的跨境工具**
 - **PESTEL**：第 1 周 tutorial 的最后一步，就是用 PESTEL 分析新市场的外部环境，再用 8 个理论说明怎么国际化。日志可以写：“在 tutorial 里我们用 PESTEL 分析了……，所以我对 {Ashoka 企业} 也做了同样的分析……”
 - **SWOT**（第 2 周 tutorial 课件）：用企业的优势和目标市场的机会来匹配。
@@ -141,6 +147,8 @@
   - Schaltegger, S. (2002) 'A framework for ecopreneurship', *Greener Management International*, 38, pp. 45–58.
   - Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159.
   - Vahlne, J.E. and Johanson, J. (2017) 'From internationalization to evolution: The Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102.
+  - Sarasvathy, S.D. (2001) 'Causation and effectuation: Toward a theoretical shift from economic inevitability to entrepreneurial contingency', *Academy of Management Review*, 26(2), pp. 243–263.
+  - Zucchella, A., Hagen, B. and Serapio, M.G. (2018) *International entrepreneurship*. Cheltenham: Edward Elgar.（书名用前核对）
 - **课件里提到的其他出处**：Coase (1937)；Hennart (2010)；Hymer (1960)；Ito & Rose (2002)；Dunning & Lundan (2008)；Vahlne & Johanson (2017)；Johanson & Mattsson (1988)；Oviatt & McDougall (1994, 2005)；Nicholls (2006)；Schumpeter (1911, 1947)；Zucchella, Hagen & Serapio (2018)；Teece (2007)。用之前在图书馆数据库确认原文信息。
 - 手册推荐的文献里，跨境部分最有用：Vahlne & Johanson (2017) Uppsala 模型；Oviatt & McDougall (1994) 国际新创企业；Coviello & Munro (1997) 网络关系；Galkina & Chetty (2015) 效果推理与网络。
 - 引用要用 Harvard 格式，见网站“工具 → 写作助手”。

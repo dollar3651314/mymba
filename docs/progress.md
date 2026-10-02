@@ -67,8 +67,7 @@
 
 | 课程 | 要找的资料 | 在哪里找 |
 |---|---|---|
-| BUSI 1764 | ✅ 两份作业说明、两份 tutorial 课件、Week 1 Mini-Lecture 1.1–1.3（10/2 收到） | |
-| BUSI 1764 | Week 2 Mini-Lecture 2.1–2.3 课件；Airbnb 案例 PDF；商业模式画布 PDF | Canvas |
+| BUSI 1764 | ✅ 两份作业说明、两份 tutorial 课件、Mini-Lecture 1.1–1.3 和 2.1–2.3、画布模板、Airbnb 案例（10/2 收到） | |
 | BUSI 1764 | **Moodle 上的范例（examples）** | Moodle（BUSI 1764-M04-2026-27） |
 | BUSI 1764 | **Canvas 讨论区 1.1–1.4、2.1、2.2 截图**（题目 + 回帖） | Canvas |
 | BUSI 1764 | Costales & Zeyen (2022) 论文 | 学校图书馆 |
@@ -87,6 +86,10 @@
 录音：目前已收到全部已上课程的录音（截至 10/2）。下一批：10/3 的 BUSI 1763、BUSI 1772 第 2 次课。
 
 ## 对话记录
+### 2026-10-02（BUSI 1764 第 2 周资料）
+- 收到 Mini-Lecture 2.1–2.3、商业模式画布模板、Airbnb 案例。补进笔记和素材库：完全市场假设、风险 vs 不确定性、**因果逻辑 vs 效果推理**（A1 跨境、A2 资源部分都能用）、画布 9 个引导问题、Airbnb 的国际扩张路径（收购 Accoleo）。
+- BUSI 1764 课件已齐（第 1–2 周）。还缺：Moodle 范例、Canvas 讨论区截图、Costales & Zeyen (2022)。
+
 ### 2026-10-02（BUSI 1764 资料）
 - 收到 BUSI 1764 两份作业说明（和手册一致，没有额外评分细则）、第 1、2 周 tutorial 课件、第 1 周 Mini-Lecture 1.1–1.3。
 - 补进笔记和素材库：四种创业类型的正式定义和出处、创新程度三条轴的定义、第 1 周 4 个案例（Dialogue、Ooni、RUR Greenlife、Calendly）和 8 个分析问题、INV 定义和 4 要素、Lammsbräu 生态创业案例、Barringer & Ireland 生存框架、参考文献清单。
