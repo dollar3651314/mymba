@@ -90,6 +90,20 @@
     const n = Math.floor((today() - parseDate(termStart(t))) / DAY / 7) + 1;
     return n;
   }
+  // 课表：第 n 次课 = 第 n 周。held = 已经上完（当天以下课时间为准）
+  const sessEnd = x => { const m = /–(\d\d):(\d\d)/.exec(x.t || ''); const d = parseDate(x.d); if (m) d.setHours(+m[1], +m[2]); else d.setHours(23, 59); return d; };
+  const held = x => sessEnd(x) <= new Date();
+  const sessOf = (m, n) => (m.sessions || []).find(x => x.n === n);
+  function moduleWeek(m) {
+    if (!m.sessions) return currentWeek(termOf(m.term));
+    return m.sessions.filter(x => x.d <= iso(today())).length;
+  }
+  const nextSession = m => (m.sessions || []).find(x => !held(x));
+  const sessLabel = x => `${fmt(x.d)}（${wk(x.d)}）${x.t}`;
+  function pendingRecordings() {
+    return M.modules.flatMap(m => (m.sessions || []).filter(x => held(x) && !m.weeks.find(w => w.n === x.n)?.rec).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
+      .sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+  }
   function currentTerm() {
     const t0 = today();
     let cur = M.terms[0];
@@ -164,20 +178,29 @@
       </a>`;
     }
 
-    h += `<h2>本周任务 <span class="pill accent">${esc(t.name)} · ${w < 1 ? '未开学' : w > 12 ? '课程已结束' : `第 ${w} 周`}</span></h2>`;
-    if (w >= 1 && w <= 12 && termMods.length) {
-      for (const m of termMods) {
-        const wkData = m.weeks.find(x => x.n === w);
-        const tasks = weekTasks(m, w);
-        const p = progressOf(tasks.map(x => x.k));
+    const pend = pendingRecordings();
+    if (pend.length) {
+      h += `<h2>要发给 Claude 的录音 <span class="pill warn">${pend.length} 节</span></h2><div class="card"><p class="small muted">这些课已经上完，还没收到录音文字稿。直接发过来就行，不用标注是哪一课，Claude 会按课表对应。</p><ul class="list">${pend.map(({ m, x, w }) => `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div>
+        <div class="grow"><a href="#/w/${m.id}/${x.n}">${esc(m.code)} 第 ${x.n} 次课</a><div class="small muted">${esc(w?.zh || '')} · ${esc(x.t)}</div></div></li>`).join('')}</ul></div>`;
+    }
+    h += `<h2>接下来的课 <span class="pill accent">${esc(t.name)}</span></h2>`;
+    const upcomingSess = termMods.map(m => ({ m, x: nextSession(m) })).filter(o => o.x).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+    if (upcomingSess.length) {
+      for (const { m, x } of upcomingSess) {
+        const wkData = m.weeks.find(w => w.n === x.n);
+        const tasks = weekTasks(m, x.n);
+        const p = progressOf(tasks.map(k => k.k));
+        const isToday = x.d === iso(today());
         h += `<div class="card">
-          <div class="card-title"><h3><a href="#/w/${m.id}/${w}">${esc(m.code)} · 第 ${w} 周</a></h3><span class="pill">${p.done}/${p.total}</span></div>
+          <div class="card-title"><h3><a href="#/w/${m.id}/${x.n}">${esc(m.code)} · 第 ${x.n} 次课</a></h3>${isToday ? '<span class="pill danger">今天</span>' : `<span class="pill">${p.done}/${p.total}</span>`}</div>
+          <p class="small" style="margin-bottom:4px">${esc(sessLabel(x))} · 教室 ${esc(x.room)}（或 Zoom）</p>
           <p>${esc(wkData?.zh || '')}<br><span class="en">${esc(wkData?.en || '')}</span></p>
-          ${tasks.map(x => checkbox(x.k, x.t)).join('')}
+          ${tasks.map(k => checkbox(k.k, k.t)).join('')}
         </div>`;
       }
-    } else {
-      h += `<div class="card muted">${w < 1 ? '学期还没开始。' : '本学期课程周已结束，专心完成作业。'}如果周数不对，请到 <a href="#/settings">设置</a> 修改开学日期。</div>`;
+      h += `<p class="small"><a href="#/schedule">查看完整课表 ›</a></p>`;
+    } else if (termMods.length) {
+      h += `<div class="card muted">本学期的课已经全部上完，专心完成作业。</div>`;
     }
 
     h += `<h2>接下来要做</h2><div class="card"><ul class="list">`;
@@ -206,8 +229,22 @@
     return h;
   };
 
+  views.schedule = () => {
+    const all = M.modules.flatMap(m => (m.sessions || []).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) }))).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+    if (!all.length) return `<h1>课表</h1><div class="card empty">还没有课表。</div>`;
+    let h = `<h1>课表</h1><p class="small muted">来自 LSBF 学生门户。每门课 12 次课，第 n 次课对应手册里的第 n 周。时间是新加坡时间。</p>`;
+    let month = '';
+    for (const { m, x, w } of all) {
+      const mo = parseDate(x.d).getMonth() + 1;
+      if (mo + '' !== month) { if (month) h += '</ul></div>'; month = mo + ''; h += `<h2>${mo} 月</h2><div class="card"><ul class="list">`; }
+      const st = held(x) ? (w?.rec ? '<span class="pill ok">录音已收到</span>' : '<span class="pill warn">待发录音</span>') : x.d === iso(today()) ? '<span class="pill danger">今天</span>' : '';
+      h += `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${wk(x.d)}</div><div class="grow"><a href="#/w/${m.id}/${x.n}">${esc(m.code)} 第 ${x.n} 次课</a> ${st}<div class="small muted">${esc(x.t)} · ${esc(w?.zh || '')}</div></div></li>`;
+    }
+    return h + '</ul></div>';
+  };
+
   views.modules = () => {
-    let h = `<h1>课程</h1>`;
+    let h = `<h1>课程</h1><div class="chips"><a class="chip" href="#/schedule">完整课表</a></div>`;
     const ct = currentTerm();
     const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
     if (termAs.length) {
@@ -237,7 +274,7 @@
 
   views.module = id => {
     const m = mod(id); if (!m) return notFound();
-    const t = termOf(m.term); const cw = currentWeek(t);
+    const t = termOf(m.term); const cw = moduleWeek(m);
     let h = `<a class="back" href="#/modules">‹ 全部课程</a>
       <h1>${esc(m.code)} ${esc(m.zh)}</h1><p class="en">${esc(m.name)}</p>
       <div class="chips"><a class="chip" href="#sec-asm">作业</a><a class="chip" href="#sec-weeks">12 周</a><a class="chip" href="#sec-lo">学习目标</a><a class="chip" href="#sec-read">阅读</a><a class="chip" href="#sec-people">联系人</a></div>
@@ -256,7 +293,7 @@
     h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
     for (const w of m.weeks) {
       const p = progressOf(weekTasks(m, w.n).map(x => x.k));
-      h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>
+      h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>${sessOf(m, w.n) ? `<div class="small muted">${esc(sessLabel(sessOf(m, w.n)))}${held(sessOf(m, w.n)) ? (w.rec ? ' · 录音已收到' : ' · <span style="color:var(--warn)">待发录音</span>') : ''}</div>` : ''}
         <div class="small">${w.notes ? '<span class="pill ok">有课堂笔记</span> ' : ''}${w.n === cw ? '<span class="pill accent">本周</span> ' : ''}${(w.use || []).map(u => `<span class="pill">${esc(asmt(m, u)?.zh || u)}</span>`).join(' ')}</div></div>
         <span class="small muted">${p.done}/${p.total}</span></li>`;
     }
@@ -276,6 +313,7 @@
     const myNotes = store.get('notes', []).filter(x => x.m === id && Number(x.w) === n);
     let h = `<a class="back" href="#/m/${id}">‹ ${esc(m.code)}</a>
       <h1>第 ${n} 周 · ${esc(w.zh)}</h1><p class="en">${esc(w.en)}</p>
+      ${sessOf(m, n) ? `<p class="small">上课时间：<b>${esc(sessLabel(sessOf(m, n)))}</b> · 教室 ${esc(sessOf(m, n).room)}（或 Zoom）</p>` : ''}
       <div class="chips">${n > 1 ? `<a class="chip" href="#/w/${id}/${n - 1}">‹ 第 ${n - 1} 周</a>` : ''}${n < m.weeks.length ? `<a class="chip" href="#/w/${id}/${n + 1}">第 ${n + 1} 周 ›</a>` : ''}</div>
       <div class="card"><h3>本周任务</h3>${weekTasks(m, n).map(x => checkbox(x.k, x.t)).join('')}</div>
       ${w.detail ? `<div class="card"><h3>本周安排</h3>${w.detail}</div>` : ''}
@@ -290,7 +328,7 @@
         h += `<div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
       } catch { h += `<div class="card muted">笔记加载失败（${esc(path)}），请检查网络后刷新。</div>`; }
     } else {
-      h += `<div class="card empty">这一周还没有整理好的笔记。<br>把这节课的<b>录音文字稿</b>发给 Claude，整理后会出现在这里：中文总结、重点概念、老师强调的内容、和作业的关系、可以在 tutorial 上用的英文句子。</div>`;
+      h += `<div class="card empty">这一周还没有整理好的笔记。<br>${sessOf(m, n) && held(sessOf(m, n)) && !w.rec ? '<b>这节课已经上完，</b>' : ''}把这节课的<b>录音文字稿</b>发给 Claude，整理后会出现在这里：中文总结、重点概念、老师强调的内容、和作业的关系、可以在 tutorial 上用的英文句子。</div>`;
     }
     h += `<h2>我的 tutorial 笔记</h2>`;
     h += myNotes.length ? myNotes.map(noteCard).join('') : `<div class="card empty">还没有记录。</div>`;
@@ -365,7 +403,7 @@
     if (mode === 'edit') { x = notes.find(n => n.id === a); if (!x) return notFound(); }
     else {
       const t = currentTerm(); const mm = a || M.modules.find(m => m.term === t.id)?.id || M.modules[0].id;
-      const cw = Math.min(12, Math.max(1, currentWeek(termOf(mod(mm).term))));
+      const cw = Math.min(12, Math.max(1, moduleWeek(mod(mm))));
       x = { id: '', m: mm, w: b || cw, date: iso(today()) };
     }
     return `<a class="back" href="#/notes">‹ 笔记</a><h1>${mode === 'edit' ? '编辑' : '新建'} tutorial 笔记</h1>
@@ -514,6 +552,7 @@
   const routes = [
     [/^\/?$/, () => views.home(), 'home'],
     [/^\/modules$/, () => views.modules(), 'modules'],
+    [/^\/schedule$/, () => views.schedule(), 'modules'],
     [/^\/m\/(\w+)$/, (id) => views.module(id), 'modules'],
     [/^\/w\/(\w+)\/(\d+)$/, (id, n) => views.week(id, n), 'modules'],
     [/^\/a\/(\w+)\/(\w+)$/, (m, a) => views.assessment(m, a), 'modules'],

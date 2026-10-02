@@ -25,14 +25,17 @@
 |---|---|
 | 课程手册 | 新建 `data/modules/<id>.js`（参考现有文件结构），在 `index.html` 引入；注意手册里的矛盾并写进 `alerts` / `notes` |
 | Assessment brief | 更新对应作业的 brief、rubric、outline、sections、milestones、checklist |
-| 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX-<lecture\|tutorial>.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `notes` 改为 `true` |
+| 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `rec` 和 `notes` 改为 `true` |
 | 有版权的原文（报告、Sage 案例等） | **不放进仓库**，只写中文解读和数据要点 |
 
-**仓库目前是 public**：用户改成 private 之前，不要提交录音文字稿原文（`transcripts/`）和个人反思内容；先提醒用户。
+仓库已于 2026-10-02 设为 **private**，可以提交录音文字稿原文。不要在仓库里写用户的真实姓名和学号。
 
 ## 重要日期和偏好
 - 用户要求**本学期所有作业 12 月 5 日前完成**（`data/program.js` 的 `finishBy`，设置页可改）。
-- 第 1 周开始日期按 2026-09-14 推测，未确认。
+- **课表**：每门课 12 次课，写在 `data/modules/<id>.js` 的 `sessions`；**第 n 次课 = 手册第 n 周**（不是按日历周）。学期 1 第一次课 9/24。
+- **录音不用用户标注**：用户发来录音文字稿时，按内容和课表日期判断是哪门课第几次课；收到后把该周 `rec` 设为 `true`（首页“要发给 Claude 的录音”会自动去掉）。拿不准时问用户日期。
+- 首页会列出“已上完但还没发录音”的课，这就是对用户的提醒；每次对话也要主动提醒还欠哪些录音。
+- 停本地测试服务器用 `pkill -f "scripts/dev/[d]evserver"`（带方括号，避免匹配到自己的命令把 shell 杀掉）。
 
 ## 技术约定
 - 纯静态前端（`index.html`、`assets/app.js`、`assets/style.css`、`data/*.js`），无构建步骤。

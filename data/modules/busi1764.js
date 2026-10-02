@@ -21,6 +21,21 @@ MBA.addModule({
     { en: 'Demonstrate the ability to fully engage and comment on real-world cases of global entrepreneurial businesses and showcase your own innovative mindset', zh: '能深入评论全球创业企业的真实案例，并展示自己的创新思维' },
     { en: 'Apply the functional knowledge necessary to identify new market opportunities, undertake substantial investigation in the creation of a new venture and demonstrate your understanding of operational challenges in foreign markets', zh: '运用职能知识识别新市场机会、深入调研新企业的创建，并理解海外市场的运营挑战' },
   ],
+  // 课表（LSBF 学生门户 Calendar，2026-10-02 截图）：第 n 次课 = 第 n 周
+  sessions: [
+    { n: 1, d: '2026-09-24', t: '19:00–22:00', room: '18-3' },
+    { n: 2, d: '2026-10-01', t: '19:00–22:00', room: '18-3' },
+    { n: 3, d: '2026-10-08', t: '19:00–22:00', room: '18-3' },
+    { n: 4, d: '2026-10-15', t: '19:00–22:00', room: '23-3' },
+    { n: 5, d: '2026-10-22', t: '19:00–22:00', room: '18-3' },
+    { n: 6, d: '2026-10-29', t: '19:00–22:00', room: '18-3' },
+    { n: 7, d: '2026-11-05', t: '19:00–22:00', room: '18-3' },
+    { n: 8, d: '2026-11-12', t: '19:00–22:00', room: '18-3' },
+    { n: 9, d: '2026-11-19', t: '19:00–22:00', room: '18-3' },
+    { n: 10, d: '2026-11-26', t: '19:00–22:00', room: '18-3' },
+    { n: 11, d: '2026-12-01', t: '19:00–22:00', room: '18-3' },
+    { n: 12, d: '2026-12-03', t: '19:00–22:00', room: '18-3' },
+  ],
   weeks: [
     { n: 1, en: 'Main theories of International Business and International Entrepreneurship', zh: '国际商务与国际创业的主要理论', use: ['a1'], notes: false },
     { n: 2, en: 'Innovation and Global Competitiveness', zh: '创新与全球竞争力', use: ['a1'], notes: false },
@@ -149,7 +164,7 @@ MBA.addModule({
         '反思部分写得太短——它占 30%，是最大的单项。',
         '只有想法没有证据——每个判断都要有数据或文献支撑。',
         '没有图表——手册明确要求用图表。',
-        '融资、营销、IP、数字创业在第 9–12 周才讲；按 12 月 5 日前完成的目标，第 12 周（数字创业）会在提交之后才讲，要提前自学。',
+        '融资、营销、IP、数字创业在第 9–12 次课（11/19、11/26、12/1、12/3）才讲；按 12 月 4 日提交的计划，写第 5–7 节时这些课还没上，要提前自学 Moodle 上的课件。',
       ],
       theories: ['可行性分析 / 商业计划书', '机会识别（发现 vs 创造）', '资源基础观 / 资源稀缺', '网络理论', '融资阶段（自筹 → 天使 → VC → 众筹）', '知识产权类型', '市场进入模式', 'STP 市场细分', '创业营销'],
       milestones: [
