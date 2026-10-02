@@ -78,6 +78,7 @@
   const dueLabel = n => n < 0 ? `已过 ${-n} 天` : n === 0 ? '今天' : n === 1 ? '明天' : `还有 ${n} 天`;
   const duePill = n => `<span class="pill ${n < 0 ? '' : n <= 3 ? 'danger' : n <= 14 ? 'warn' : 'accent'}">${dueLabel(n)}</span>`;
   const mod = id => M.modules.find(m => m.id === id);
+  const lenLabel = a => a.length || `${a.words} 词`;
   const asmt = (m, id) => m.assessments.find(a => a.id === id);
   const termOf = id => M.terms.find(t => t.id === id);
   const termStart = t => store.get('termStart:' + t.id, t.start);
@@ -126,7 +127,7 @@
       { d: a.due, t: `<b>${esc(a.zh)}截止</b>（${m.code}）`, m, a, key: `ms:${m.id}:${a.id}:due`, due: true },
     ])).sort((x, y) => x.d.localeCompare(y.d));
   }
-  const weekTasks = (m, n) => [
+  const weekTasks = (m, n) => m.weekTasks ? m.weekTasks.filter(x => !x.weeks || x.weeks.includes(n)).map(x => ({ k: `wk:${m.id}:${n}:${x.id}`, t: x.t.replace('{note}', `<a href="#/notes/new/${m.id}/${n}">写 tutorial 笔记</a>`) })) : [
     { k: `wk:${m.id}:${n}:pre`, t: '课前：把课件发给 Claude，读中文讲解和术语' },
     { k: `wk:${m.id}:${n}:lec`, t: '看录播课（1 小时），记下看不懂的时间点' },
     { k: `wk:${m.id}:${n}:tut`, t: '参加线下 tutorial（2 小时），扫码签到' },
@@ -154,7 +155,7 @@
         <div style="display:flex;align-items:flex-end;gap:12px;margin:8px 0">
           <div class="big">${n < 0 ? '宽限期' : n}</div><div>${n < 0 ? `已过截止 ${-n} 天，宽限期内尽快提交` : '天'}</div>
         </div>
-        <div><b>${esc(next.a.zh)}</b> ${esc(next.a.en)} · ${next.a.words} 词 · 占 ${next.a.weight}%</div>
+        <div><b>${esc(next.a.zh)}</b> ${esc(next.a.en)} · ${esc(lenLabel(next.a))} · 占 ${next.a.weight}%</div>
         <div class="label">${fmt(next.a.due)}（${wk(next.a.due)}）· 建议提前一天提交</div>
       </a>`;
     }
@@ -203,6 +204,12 @@
 
   views.modules = () => {
     let h = `<h1>课程</h1>`;
+    const ct = currentTerm();
+    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => x.a.due.localeCompare(y.a.due));
+    if (termAs.length) {
+      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3><ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(x.a.due).getDate()}</b>${parseDate(x.a.due).getMonth() + 1}月</div>
+        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div></div>${duePill(daysUntil(x.a.due))}</li>`).join('')}</ul></div>`;
+    }
     for (const t of M.terms) {
       const ms = M.modules.filter(m => m.term === t.id);
       h += `<h2>${esc(t.name)} <span class="muted small">${esc(t.period)}</span></h2>`;
@@ -231,27 +238,30 @@
       <div class="chips"><a class="chip" href="#sec-asm">作业</a><a class="chip" href="#sec-weeks">12 周</a><a class="chip" href="#sec-lo">学习目标</a><a class="chip" href="#sec-read">阅读</a><a class="chip" href="#sec-people">联系人</a></div>
       <div class="card"><dl class="kv"><dt>学期</dt><dd>${esc(t.name)}（${esc(t.period)}）</dd><dt>学分</dt><dd>${m.credits}</dd><dt>形式</dt><dd>${esc(m.format)}</dd><dt>及格</dt><dd>总分 ≥ 50</dd></dl></div>
       ${m.warning ? `<div class="callout">${esc(m.warning)}</div>` : ''}
+      ${(m.alerts || []).map(x => `<div class="callout">${x}</div>`).join('')}
       <h2 id="sec-asm">作业</h2>`;
     for (const a of m.assessments) {
       const n = daysUntil(a.due);
       const p = progressOf(a.checklist.map((_, i) => `cl:${m.id}:${a.id}:${i}`));
       h += `<a class="card" href="#/a/${m.id}/${a.id}">
         <div class="card-title"><h3>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h3>${duePill(n)}</div>
-        <div class="small">${fmt(a.due)} 截止 · ${a.words} 词 · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
+        <div class="small">${fmt(a.due)} 截止 · ${esc(lenLabel(a))} · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
         <div class="progress"><i style="width:${p.pct}%"></i></div><div class="small muted">清单 ${p.done}/${p.total}</div></a>`;
     }
     h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
     for (const w of m.weeks) {
       const p = progressOf(weekTasks(m, w.n).map(x => x.k));
       h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>
-        <div class="small">${w.notes ? '<span class="pill ok">有课堂笔记</span> ' : ''}${w.n === cw ? '<span class="pill accent">本周</span> ' : ''}${w.use.map(u => `<span class="pill">${esc(asmt(m, u)?.zh || u)}</span>`).join(' ')}</div></div>
+        <div class="small">${w.notes ? '<span class="pill ok">有课堂笔记</span> ' : ''}${w.n === cw ? '<span class="pill accent">本周</span> ' : ''}${(w.use || []).map(u => `<span class="pill">${esc(asmt(m, u)?.zh || u)}</span>`).join(' ')}</div></div>
         <span class="small muted">${p.done}/${p.total}</span></li>`;
     }
     h += `</ul></div>`;
     h += `<h2 id="sec-lo">学习目标</h2><div class="card"><ol>${m.outcomes.map(o => `<li>${esc(o.zh)}<div class="en small">${esc(o.en)}</div></li>`).join('')}</ol></div>`;
-    h += `<h2 id="sec-read">阅读与资料</h2><div class="card"><h3>核心教材</h3><ul>${m.readings.filter(r => r.core).map(r => `<li><i>${esc(r.t)}</i> — ${esc(r.a)}，${esc(r.p)}</li>`).join('')}</ul>
-      <h3>推荐论文</h3><ul>${m.readings.filter(r => !r.core).map(r => `<li>${esc(r.a)} <i>${esc(r.t)}</i>. ${esc(r.p)}${r.zh ? `<div class="small muted">${esc(r.zh)}</div>` : ''}</li>`).join('')}</ul>
-      <h3>网站</h3><ul>${m.websites.map(s => `<li><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a></li>`).join('')}</ul></div>`;
+    const core = (m.readings || []).filter(r => r.core), more = (m.readings || []).filter(r => !r.core);
+    h += `<h2 id="sec-read">阅读与资料</h2><div class="card">
+      ${core.length ? `<h3>核心教材</h3><ul>${core.map(r => `<li><i>${esc(r.t)}</i> — ${esc(r.a)}，${esc(r.p)}</li>`).join('')}</ul>` : ''}
+      ${more.length ? `<h3>${esc(m.moreReadingsTitle || '推荐论文')}</h3><ul>${more.map(r => `<li>${esc(r.a)} <i>${esc(r.t)}</i>. ${esc(r.p)}${r.zh ? `<div class="small muted">${esc(r.zh)}</div>` : ''}</li>`).join('')}</ul>` : ''}
+      ${(m.websites || []).length ? `<h3>网站</h3><ul>${m.websites.map(s => `<li><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a></li>`).join('')}</ul>` : ''}</div>`;
     h += `<h2 id="sec-people">联系人</h2><div class="card"><ul class="list">${m.people.map(p => `<li><div class="grow"><b>${esc(p.name)}</b> <span class="muted small">${esc(p.role)}</span><div><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div></div></li>`).join('')}</ul></div>`;
     return h;
   };
@@ -263,7 +273,8 @@
       <h1>第 ${n} 周 · ${esc(w.zh)}</h1><p class="en">${esc(w.en)}</p>
       <div class="chips">${n > 1 ? `<a class="chip" href="#/w/${id}/${n - 1}">‹ 第 ${n - 1} 周</a>` : ''}${n < m.weeks.length ? `<a class="chip" href="#/w/${id}/${n + 1}">第 ${n + 1} 周 ›</a>` : ''}</div>
       <div class="card"><h3>本周任务</h3>${weekTasks(m, n).map(x => checkbox(x.k, x.t)).join('')}</div>
-      <div class="card"><h3>这周内容用在哪里</h3><ul>${w.use.map(u => { const a = asmt(m, u); return `<li><a href="#/a/${id}/${u}">${esc(a.zh)}</a>（${fmt(a.due)} 截止）</li>`; }).join('')}</ul></div>
+      ${w.detail ? `<div class="card"><h3>本周安排</h3>${w.detail}</div>` : ''}
+      ${(w.use || []).length ? `<div class="card"><h3>这周内容用在哪里</h3><ul>${w.use.map(u => { const a = asmt(m, u); return `<li><a href="#/a/${id}/${u}">${esc(a.zh)}</a>（${fmt(a.due)} 截止）</li>`; }).join('')}</ul></div>` : ''}
       <h2>课堂笔记</h2>`;
     if (w.notes) {
       const path = `content/${id}/week-${String(n).padStart(2, '0')}.md`;
@@ -289,19 +300,21 @@
     const p = progressOf(keys);
     let h = `<a class="back" href="#/m/${mid}">‹ ${esc(m.code)}</a>
       <h1>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h1>
-      <div class="card"><dl class="kv"><dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd><dt>字数</dt><dd>${a.words} 词</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
+      <div class="card"><dl class="kv"><dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd><dt>形式</dt><dd>${esc(lenLabel(a))}</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
       <p class="small muted" style="margin-top:8px">具体截止时间以 Moodle 为准。截止后 2 天为宽限期；建议提前一天提交。</p></div>
-      <div class="chips"><a class="chip" href="#s-brief">要求</a><a class="chip" href="#s-rubric">评分</a><a class="chip" href="#s-outline">结构</a><a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
+      ${(a.notes || []).map(x => `<div class="callout">${x}</div>`).join('')}
+      <div class="chips"><a class="chip" href="#s-brief">要求</a><a class="chip" href="#s-rubric">评分</a>${(a.outline || []).length ? '<a class="chip" href="#s-outline">结构</a>' : ''}<a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
       <h2 id="s-brief">作业要求</h2><div class="card"><ul>${a.brief.map(b => `<li>${b}</li>`).join('')}</ul>
-      <h3>必须回答的问题</h3><ol>${a.questions.map(q => `<li>${esc(q)}</li>`).join('')}</ol></div>
-      <h2 id="s-rubric">评分标准</h2><div class="card">${a.rubric.map(r => `<div class="rubric-row"><div class="top"><span>${esc(r.zh)} <span class="en">${esc(r.en)}</span></span><span>${r.w}%</span></div>
-        <div class="progress"><i style="width:${r.w / Math.max(...a.rubric.map(x => x.w)) * 100}%"></i></div><div class="small muted">${esc(r.d)}</div></div>`).join('')}</div>
-      <h2 id="s-outline">建议结构与字数</h2><div class="card">
-        ${a.outline.map(o => `<div class="outline-item"><div class="top"><span>${esc(o.s)}</span><span class="pill">≈${o.w} 词</span></div><div class="g">${o.g}</div></div>`).join('')}
-        <p class="small muted" style="margin-top:8px">合计约 ${a.outline.reduce((s, o) => s + o.w, 0)} 词，按评分权重分配。参考文献通常不计入字数，以 Moodle 说明为准。</p>
+      ${(a.questions || []).length ? `<h3>${esc(a.questionsTitle || '必须回答的问题')}</h3><ol>${a.questions.map(q => `<li>${esc(q)}</li>`).join('')}</ol>` : ''}</div>
+      ${(a.options || []).length ? `<h2>${esc(a.optionsTitle || '题目选项')}</h2>${a.options.map(o => `<div class="card"><div class="card-title"><h3>${esc(o.k)}</h3>${o.tag ? `<span class="pill accent">${esc(o.tag)}</span>` : ''}</div><p>${esc(o.zh)}</p><p class="en small">${esc(o.en)}</p>${o.read ? `<div class="small"><b>必须用的阅读：</b>${o.read}</div>` : ''}${o.tip ? `<div class="small muted" style="margin-top:4px">${o.tip}</div>` : ''}</div>`).join('')}` : ''}
+      <h2 id="s-rubric">评分标准</h2><div class="card">${(a.rubric || []).length ? a.rubric.map(r => `<div class="rubric-row"><div class="top"><span>${esc(r.zh)} <span class="en">${esc(r.en)}</span></span><span>${r.w}%</span></div>
+        <div class="progress"><i style="width:${r.w / Math.max(...a.rubric.map(x => x.w)) * 100}%"></i></div><div class="small muted">${esc(r.d)}</div></div>`).join('') : `<p class="muted">${esc(a.rubricNote || '手册里没有评分细则，见 Moodle 上的 assessment brief 和 marking rubric。')}</p>`}</div>
+      ${(a.outline || []).length ? `<h2 id="s-outline">${esc(a.outlineTitle || '建议结构与字数')}</h2><div class="card">
+        ${a.outline.map(o => `<div class="outline-item"><div class="top"><span>${esc(o.s)}</span>${o.w ? `<span class="pill">≈${o.w} 词</span>` : ''}</div><div class="g">${o.g}</div></div>`).join('')}
+        ${a.outline.every(o => o.w) ? `<p class="small muted" style="margin-top:8px">合计约 ${a.outline.reduce((s, o) => s + o.w, 0)} 词，按评分权重分配。参考文献通常不计入字数，以 Moodle 说明为准。</p>` : ''}
         ${a.template ? `<h3 style="margin-top:12px">手册给的反思句式 <button class="copy" data-copy="${esc(a.template)}">复制</button></h3><blockquote class="small" style="margin:0;padding:8px 12px;background:var(--surface-2);border-radius:8px">${esc(a.template)}</blockquote>` : ''}
-      </div>
-      <h2>可以用的理论</h2><div class="card"><div style="display:flex;flex-wrap:wrap;gap:6px">${a.theories.map(x => `<span class="pill accent">${esc(x)}</span>`).join('')}</div><p class="small muted" style="margin-top:8px">在 <a href="#/glossary">词汇</a> 里可以查到解释。</p></div>
+      </div>` : ''}
+      ${(a.theories || []).length ? `<h2>${esc(a.theoriesTitle || '可以用的理论')}</h2><div class="card"><div style="display:flex;flex-wrap:wrap;gap:6px">${a.theories.map(x => `<span class="pill accent">${esc(x)}</span>`).join('')}</div><p class="small muted" style="margin-top:8px">在 <a href="#/glossary">词汇</a> 里可以查到解释。</p></div>` : ''}
       <h2 id="s-pit">容易丢分的地方</h2>${a.pitfalls.map(x => `<div class="callout">${esc(x)}</div>`).join('')}
       <h2 id="s-plan">时间计划</h2><div class="card"><ul class="list">
         ${a.milestones.map((x, i) => `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div><div class="grow">${checkbox(`ms:${mid}:${aid}:${i}`, esc(x.t)).replace('class="check"', 'class="check" style="border:0;padding:0"')}<div class="small muted">${dueLabel(daysUntil(x.d))}</div></div></li>`).join('')}
