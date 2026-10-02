@@ -59,8 +59,8 @@ MBA.addModule({
   weeks: [
     { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', rec: true, notes: true, detail: '<p>Tutorial：评估你的起点水平；练习：雕塑家画廊 vs. 自己卖的 Excel 对比。</p><p>阅读：James Bell Associates (2018) 数据驱动决策指南；van Es (2022) Netflix 与大数据。</p>' },
     { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], pre: true, detail: '<p>Tutorial：认知偏差如何影响决策。练习：Maya 咖啡车 Excel 建模 + “偏差大战”说服游戏 + 200–250 词小报告。</p><p>阅读：Hammond et al. (1998) 决策中的隐藏陷阱；Soll et al. (2015) 战胜自己的偏差；Soll et al. (2013) 去偏差指南；Lovallo, Kahneman et al. (2020) 你的公司太规避风险。</p>' },
-    { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p>' },
-    { n: 4, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], detail: '<p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课。</b></p>' },
+    { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], pre: true, detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p><p><b>Moodle 本周放了往届个人报告样例（评估 McKinsey 报告，72 分）和老师反馈</b>，拆解见个人报告素材库。必读：De Veaux & Hand (2005) How to Lie with Bad Data。</p>' },
+    { n: 4, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], pre: true, detail: '<p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课</b>（课件每部分都标着 Important for Assessment 1），练习评估 BCG 报告的图表。</p><p>讲座：McKinsey (2018) 多元化与财务表现（文件名写 Lecture 6，Moodle 放在第 4 周）；Excel 练习：50 家公司数据的描述统计、散点图、相关系数。必读：教材第 7 章 Visualising Data Effectively。</p>' },
     { n: 5, en: 'Visualizing Data: Simple descriptive statistics', zh: '数据可视化：简单描述统计', use: ['a', 'b'], detail: '<p>Tutorial：应用描述统计；报告写作辅导</p>' },
     { n: 6, en: 'Analysing Surveys results to test hypotheses', zh: '分析调查结果以检验假设', use: ['a', 'b'], detail: '<p>Tutorial：应用假设检验；报告写作辅导</p>' },
     { n: 7, en: 'Simple regression modelling', zh: '简单回归模型', use: ['a', 'b'], detail: '<p>Tutorial：应用简单回归；报告写作辅导</p>' },
@@ -190,6 +190,10 @@ MBA.addModule({
       length: '2000 词（不含参考文献）',
       lo: [3, 4, 5],
       materials: 'content/comp1913/a-materials.md',
+      notes: [
+        '<b>Moodle 第 3 周有一份往届个人报告样例</b>（评估 McKinsey《Women in the Workplace 2024》，总分 72，Evaluation / Clarity / Presentation / Focus 各 79）和老师反馈。结构：执行摘要 → 背景 → 评估（4 个主题）→ 建议 → 参考文献。<b>拆解和老师的改进意见见素材库</b>。',
+        '老师反馈的三条改进：执行摘要要精炼；<b>用统计数字</b>（例如说明每个主题有几张图）；建议要写给<b>“原本只会依赖这份报告的咨询服务买家”</b>。',
+      ],
       brief: [
         '以“桌面案例研究”的方式，批判性评估 <b>Bain & Company《Innovation Report 2025》</b>。',
         '<b>1 商业问题与背景</b>：报告要解决什么商业问题、目的、目标读者、对管理决策的意义。',
