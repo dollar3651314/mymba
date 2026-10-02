@@ -142,7 +142,8 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 .md h1 { font-size: 1.3rem; } .md h2 { font-size: 1.1rem; } .md h3 { font-size: 1rem; }
 .md blockquote { margin: 0 0 .8em; padding: 6px 12px; border-left: 3px solid var(--accent); background: var(--surface-2); border-radius: 6px; }
 .md code { background: var(--surface-2); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
-.md table { margin-bottom: 1em; }
+.md table { margin-bottom: 1em; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.md td:first-child { white-space: nowrap; }
 .md pre { white-space: pre-wrap; }
 
 .term { padding: 12px 0; border-bottom: 1px solid var(--border); }
