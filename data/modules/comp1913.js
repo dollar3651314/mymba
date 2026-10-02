@@ -1,4 +1,4 @@
-// COMP 1913 International Data Analytics — 内容来自 2026-27 课程手册
+// COMP 1913 International Data Analytics — 内容来自 2026-27 课程手册；2026-10-02 按 Moodle 资料（第 1–2 周课件、tutorial 练习、阅读）更新
 MBA.addModule({
   id: 'comp1913',
   code: 'COMP 1913',
@@ -11,11 +11,15 @@ MBA.addModule({
     '两份作业的 assessment brief 已整理进作业页。报告评估的是 <b>Bain & Company《Innovation Report 2025》</b>；小组展示用的是 Sage 案例 <b>American Egg: Strategic Growth and International Expansion</b>。',
     '原始 PDF 有版权（Sage 案例只允许在格林威治大学内部使用），所以网站上只放中文解读和数据要点，不放原文。',
     '<b>第 1 次课老师说</b>：课件和官方通知都在 <b>Canvas</b>（一定要订阅通知）；作业通过 Turnitin 提交；上课<b>带个人笔记本电脑</b>（公司电脑可能连不上 Google 协作工具）；这是最技术性的一门课，<b>课前先读课件</b>。',
-    '课程要求提交一份 <b>AI 使用报告</b>（具体要求待找来）。',
+    '课程要求提交一份 <b>AI 使用报告</b>（Moodle 上的手册和两份 brief 都没提到，可能在 Canvas，10/6 问老师）。',
+    '<b>第 1 周 tutorial 课件提醒：个人报告要用的内容在第 2、3 周的讲座里讲</b>（认知偏差、数字为什么会说谎）。这两周的笔记要记好——报告第 4 部分“数据完整性与认知偏差”就靠它们。',
+    'Moodle 上第 1 周的课件和 tutorial 课件是英国 2024-25 / 4 月批次的版本，里面写的截止日期（6 月、7 月）<b>不适用</b>，以我们的课表和老师说的为准。',
+    '<b>tutorial 要用 Excel 做表和图</b>（必须用公式，不能手填总数）。上课带装了 Excel 的个人电脑。',
   ],
   todos: [
     { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
-    { d: '2026-10-05', t: '把第 1 次课课件、补充阅读链接、AI 使用报告要求、你的小组名单发给 Claude' },
+    { d: '2026-10-06', t: '课前看第 2 周预习包和讲座视频；在 Excel 里先把 Maya 咖啡车的表算一遍' },
+    { d: '2026-10-06', t: '课后把录音、你的小组名单发给 Claude；问老师 AI 使用报告的要求' },
     { d: '2026-10-06', t: '课上问清：小组 4 人还是 5 人？你们组 11/24 还是 11/28 展示？' },
   ],
   people: [
@@ -53,8 +57,8 @@ MBA.addModule({
     { n: 12, d: '2026-11-28', t: '15:30–18:30', room: '23-3' },
   ],
   weeks: [
-    { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', rec: true, notes: true, detail: '<p>Tutorial：评估你的起点水平</p>' },
-    { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], detail: '<p>Tutorial：认知偏差如何影响决策</p>' },
+    { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', rec: true, notes: true, detail: '<p>Tutorial：评估你的起点水平；练习：雕塑家画廊 vs. 自己卖的 Excel 对比。</p><p>阅读：James Bell Associates (2018) 数据驱动决策指南；van Es (2022) Netflix 与大数据。</p>' },
+    { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], pre: true, detail: '<p>Tutorial：认知偏差如何影响决策。练习：Maya 咖啡车 Excel 建模 + “偏差大战”说服游戏 + 200–250 词小报告。</p><p>阅读：Hammond et al. (1998) 决策中的隐藏陷阱；Soll et al. (2015) 战胜自己的偏差；Soll et al. (2013) 去偏差指南；Lovallo, Kahneman et al. (2020) 你的公司太规避风险。</p>' },
     { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p>' },
     { n: 4, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], detail: '<p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课。</b></p>' },
     { n: 5, en: 'Visualizing Data: Simple descriptive statistics', zh: '数据可视化：简单描述统计', use: ['a', 'b'], detail: '<p>Tutorial：应用描述统计；报告写作辅导</p>' },
@@ -185,6 +189,7 @@ MBA.addModule({
       words: 2000,
       length: '2000 词（不含参考文献）',
       lo: [3, 4, 5],
+      materials: 'content/comp1913/a-materials.md',
       brief: [
         '以“桌面案例研究”的方式，批判性评估 <b>Bain & Company《Innovation Report 2025》</b>。',
         '<b>1 商业问题与背景</b>：报告要解决什么商业问题、目的、目标读者、对管理决策的意义。',
