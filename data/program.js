@@ -6,9 +6,9 @@ window.MBA = {
     totalModules: 12,
     perTerm: 4,
   },
-  // start：第 1 周周一。日期为推测值，请在“设置”页确认后修改。
+  // start：第 1 周周一（推测值，可在“设置”页修改）；finishBy：我的完成目标，所有作业最晚这天前完成
   terms: [
-    { id: 't1', name: '学期 1', period: '2026 年 9 月 – 12 月', start: '2026-09-14' },
+    { id: 't1', name: '学期 1', period: '2026 年 9 月 – 12 月', start: '2026-09-14', finishBy: '2026-12-05' },
     { id: 't2', name: '学期 2', period: '2027 年 1 月 – 4 月', start: '2027-01-11' },
     { id: 't3', name: '学期 3', period: '2027 年 5 月 – 8 月', start: '2027-05-10' },
   ],

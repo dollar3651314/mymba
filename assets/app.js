@@ -79,6 +79,10 @@
   const duePill = n => `<span class="pill ${n < 0 ? '' : n <= 3 ? 'danger' : n <= 14 ? 'warn' : 'accent'}">${dueLabel(n)}</span>`;
   const mod = id => M.modules.find(m => m.id === id);
   const lenLabel = a => a.length || `${a.words} 词`;
+  // 我的完成目标：取官方截止日和本学期“最晚完成日期”中较早的一个
+  const finishBy = t => store.get('finishBy:' + t.id, t.finishBy || '');
+  const goal = (m, a) => { const f = finishBy(termOf(m.term)); return f && f < a.due ? f : a.due; };
+  const goalNote = (m, a) => goal(m, a) < a.due ? `官方截止 ${fmt(a.due)}，我的目标 ${fmt(goal(m, a))}` : '';
   const asmt = (m, id) => m.assessments.find(a => a.id === id);
   const termOf = id => M.terms.find(t => t.id === id);
   const termStart = t => store.get('termStart:' + t.id, t.start);
@@ -124,7 +128,7 @@
   function allMilestones() {
     return M.modules.flatMap(m => m.assessments.flatMap(a => [
       ...a.milestones.map((x, i) => ({ d: x.d, t: x.t, m, a, key: `ms:${m.id}:${a.id}:${i}` })),
-      { d: a.due, t: `<b>${esc(a.zh)}截止</b>（${m.code}）`, m, a, key: `ms:${m.id}:${a.id}:due`, due: true },
+      { d: goal(m, a), t: `<b>${esc(a.zh)}${goal(m, a) < a.due ? '完成目标' : '截止'}</b>（${m.code}）`, m, a, key: `ms:${m.id}:${a.id}:due`, due: true },
     ])).sort((x, y) => x.d.localeCompare(y.d));
   }
   const weekTasks = (m, n) => m.weekTasks ? m.weekTasks.filter(x => !x.weeks || x.weeks.includes(n)).map(x => ({ k: `wk:${m.id}:${n}:${x.id}`, t: x.t.replace('{note}', `<a href="#/notes/new/${m.id}/${n}">写 tutorial 笔记</a>`) })) : [
@@ -141,7 +145,7 @@
   views.home = () => {
     const t = currentTerm();
     const w = currentWeek(t);
-    const upcoming = allAssessments().filter(x => daysUntil(x.a.due) >= -2).sort((x, y) => x.a.due.localeCompare(y.a.due));
+    const upcoming = allAssessments().filter(x => daysUntil(goal(x.m, x.a)) >= -2).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
     const next = upcoming[0];
     const ms = allMilestones().filter(x => daysUntil(x.d) >= -7 && !store.get('chk:' + x.key, false)).slice(0, 6);
     const termMods = M.modules.filter(m => m.term === t.id);
@@ -149,14 +153,14 @@
 
     let h = '';
     if (next) {
-      const n = daysUntil(next.a.due);
+      const nd = goal(next.m, next.a); const n = daysUntil(nd);
       h += `<a class="card hero" href="#/a/${next.m.id}/${next.a.id}">
-        <div class="label">下一个截止 · ${esc(next.m.code)}</div>
+        <div class="label">${nd < next.a.due ? '下一个完成目标' : '下一个截止'} · ${esc(next.m.code)}</div>
         <div style="display:flex;align-items:flex-end;gap:12px;margin:8px 0">
           <div class="big">${n < 0 ? '宽限期' : n}</div><div>${n < 0 ? `已过截止 ${-n} 天，宽限期内尽快提交` : '天'}</div>
         </div>
         <div><b>${esc(next.a.zh)}</b> ${esc(next.a.en)} · ${esc(lenLabel(next.a))} · 占 ${next.a.weight}%</div>
-        <div class="label">${fmt(next.a.due)}（${wk(next.a.due)}）· 建议提前一天提交</div>
+        <div class="label">${fmt(nd)}（${wk(nd)}）${nd < next.a.due ? ` · 官方截止 ${fmt(next.a.due)}` : ' · 建议提前一天提交'}</div>
       </a>`;
     }
 
@@ -205,10 +209,11 @@
   views.modules = () => {
     let h = `<h1>课程</h1>`;
     const ct = currentTerm();
-    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => x.a.due.localeCompare(y.a.due));
+    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
     if (termAs.length) {
-      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3><ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(x.a.due).getDate()}</b>${parseDate(x.a.due).getMonth() + 1}月</div>
-        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div></div>${duePill(daysUntil(x.a.due))}</li>`).join('')}</ul></div>`;
+      const fb = finishBy(ct);
+      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3>${fb ? `<p class="small muted">我的目标：所有作业 ${fmt(fb)} 前完成（<a href="#/settings">修改</a>）</p>` : ''}<ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(goal(x.m, x.a)).getDate()}</b>${parseDate(goal(x.m, x.a)).getMonth() + 1}月</div>
+        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}${goal(x.m, x.a) < x.a.due ? ` · 官方截止 ${fmt(x.a.due)}` : ''}</div></div>${duePill(daysUntil(goal(x.m, x.a)))}</li>`).join('')}</ul></div>`;
     }
     for (const t of M.terms) {
       const ms = M.modules.filter(m => m.term === t.id);
@@ -219,7 +224,7 @@
         h += `<a class="card" href="#/m/${m.id}">
           <div class="card-title"><h3>${esc(m.code)} ${esc(m.zh)}</h3><span class="pill">${m.credits} 学分</span></div>
           <div class="en">${esc(m.name)}</div>
-          <div class="small" style="margin-top:6px">${m.assessments.map(a => `${esc(a.zh)} ${a.weight}% · ${fmt(a.due)}`).join('　')}</div>
+          <div class="small" style="margin-top:6px">${m.assessments.map(a => `${esc(a.zh)} ${a.weight}% · ${fmt(goal(m, a))}`).join('　')}</div>
           <div class="progress"><i style="width:${p.pct}%"></i></div><div class="small muted">作业清单完成 ${p.pct}%</div>
         </a>`;
       }
@@ -241,11 +246,11 @@
       ${(m.alerts || []).map(x => `<div class="callout">${x}</div>`).join('')}
       <h2 id="sec-asm">作业</h2>`;
     for (const a of m.assessments) {
-      const n = daysUntil(a.due);
+      const n = daysUntil(goal(m, a));
       const p = progressOf(a.checklist.map((_, i) => `cl:${m.id}:${a.id}:${i}`));
       h += `<a class="card" href="#/a/${m.id}/${a.id}">
         <div class="card-title"><h3>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h3>${duePill(n)}</div>
-        <div class="small">${fmt(a.due)} 截止 · ${esc(lenLabel(a))} · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
+        <div class="small">${goalNote(m, a) ? esc(goalNote(m, a)) : `${fmt(a.due)} 截止`} · ${esc(lenLabel(a))} · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
         <div class="progress"><i style="width:${p.pct}%"></i></div><div class="small muted">清单 ${p.done}/${p.total}</div></a>`;
     }
     h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
@@ -295,12 +300,12 @@
 
   views.assessment = (mid, aid) => {
     const m = mod(mid); const a = m && asmt(m, aid); if (!a) return notFound();
-    const n = daysUntil(a.due);
+    const n = daysUntil(goal(m, a));
     const keys = a.checklist.map((_, i) => `cl:${mid}:${aid}:${i}`);
     const p = progressOf(keys);
     let h = `<a class="back" href="#/m/${mid}">‹ ${esc(m.code)}</a>
       <h1>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h1>
-      <div class="card"><dl class="kv"><dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd><dt>形式</dt><dd>${esc(lenLabel(a))}</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
+      <div class="card"><dl class="kv">${goal(m, a) < a.due ? `<dt>我的目标</dt><dd><b>${fmt(goal(m, a))}（${wk(goal(m, a))}）</b> ${duePill(n)}</dd><dt>官方截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）</dd>` : `<dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd>`}<dt>形式</dt><dd>${esc(lenLabel(a))}</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
       <p class="small muted" style="margin-top:8px">具体截止时间以 Moodle 为准。截止后 2 天为宽限期；建议提前一天提交。</p></div>
       ${(a.notes || []).map(x => `<div class="callout">${x}</div>`).join('')}
       <div class="chips"><a class="chip" href="#s-brief">要求</a><a class="chip" href="#s-rubric">评分</a>${(a.outline || []).length ? '<a class="chip" href="#s-outline">结构</a>' : ''}<a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
@@ -475,6 +480,8 @@
     <div class="card"><h3>开学日期（第 1 周周一）</h3><p class="small muted">用来计算“本周”。默认值是推测的，请按学校课表修改。</p>
       ${M.terms.map(t => `<label>${esc(t.name)} <span class="hint">${esc(t.period)}</span></label><input type="date" data-term="${t.id}" value="${esc(termStart(t))}">`).join('')}
       <p class="small" style="margin-top:8px">今天是 ${esc(currentTerm().name)}第 <b>${currentWeek(currentTerm())}</b> 周</p></div>
+    <div class="card"><h3>我的完成目标</h3><p class="small muted">每学期所有作业最晚在这一天前完成。官方截止日期更晚的作业，倒计时和提醒都按这个日期算。留空表示按官方截止日期。</p>
+      ${M.terms.map(t => `<label>${esc(t.name)}</label><input type="date" data-finish="${t.id}" value="${esc(finishBy(t))}">`).join('')}</div>
     <div class="card"><h3>显示</h3><div class="chips" style="margin:0">${[['', '跟随系统'], ['light', '浅色'], ['dark', '深色']].map(([v, l]) => `<button class="chip ${theme === v ? 'on' : ''}" data-theme-set="${v}">${l}</button>`).join('')}</div></div>
     <div class="card"><h3>登录密码</h3>${defaultPw ? '<div class="callout">你还在用默认密码 123456，建议马上修改。</div>' : ''}
       <form id="pw-form"><label>当前密码</label><input type="password" name="current" autocomplete="current-password" required>
@@ -545,6 +552,7 @@
       store.set('chk:' + t.dataset.check, t.checked);
       if (t.closest('.list') && lastRoute === '/') setTimeout(render, 300);
     }
+    if (t.dataset.finish !== undefined) { store.set('finishBy:' + t.dataset.finish, t.value); toast('已保存'); render(); }
     if (t.dataset.term) { if (t.value) { store.set('termStart:' + t.dataset.term, t.value); toast('已保存'); render(); } }
     if (t.id === 'import' && t.files[0]) {
       t.files[0].text().then(txt => {
