@@ -26,6 +26,7 @@
 | 课程手册 | 新建 `data/modules/<id>.js`（参考现有文件结构），在 `index.html` 引入；注意手册里的矛盾并写进 `alerts` / `notes` |
 | Assessment brief | 更新对应作业的 brief、rubric、outline、sections、milestones、checklist |
 | 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `rec` 和 `notes` 改为 `true` |
+| 录音 / 课件里对作业有用的内容 | 追加到该作业的**素材库** `content/<课程id>/<作业id>-materials.md`（按评分标准分区，注明出自第几次课；作业数据里用 `materials` 字段引用）。目前有 BUSI 1764 的 A1、A2；其他作业有了足够素材后新建 |
 | 有版权的原文（报告、Sage 案例等） | **不放进仓库**，只写中文解读和数据要点 |
 
 仓库已于 2026-10-02 设为 **private**，可以提交录音文字稿原文。不要在仓库里写用户的真实姓名和学号。

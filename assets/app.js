@@ -338,7 +338,7 @@
     return h;
   };
 
-  views.assessment = (mid, aid) => {
+  views.assessment = async (mid, aid) => {
     const m = mod(mid); const a = m && asmt(m, aid); if (!a) return notFound();
     const n = daysUntil(goal(m, a));
     const keys = a.checklist.map((_, i) => `cl:${mid}:${aid}:${i}`);
@@ -348,7 +348,18 @@
       <div class="card"><dl class="kv">${goal(m, a) < a.due ? `<dt>我的目标</dt><dd><b>${fmt(goal(m, a))}（${wk(goal(m, a))}）</b> ${duePill(n)}</dd><dt>官方截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）</dd>` : `<dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd>`}<dt>形式</dt><dd>${esc(lenLabel(a))}</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
       <p class="small muted" style="margin-top:8px">具体截止时间以 Moodle 为准。截止后 2 天为宽限期；建议提前一天提交。</p></div>
       ${(a.notes || []).map(x => `<div class="callout">${x}</div>`).join('')}
-      <div class="chips"><a class="chip" href="#s-brief">要求</a>${(a.sections || []).map((x, i) => `<a class="chip" href="#s-g${i}">${esc(x.chip || x.t)}</a>`).join('')}<a class="chip" href="#s-rubric">评分</a>${(a.outline || []).length ? '<a class="chip" href="#s-outline">结构</a>' : ''}<a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
+      <div class="chips"><a class="chip" href="#s-brief">要求</a>${a.materials ? '<a class="chip" href="#s-mat">素材库</a><a class="chip" href="#s-mine">我的笔记</a>' : ''}${(a.sections || []).map((x, i) => `<a class="chip" href="#s-g${i}">${esc(x.chip || x.t)}</a>`).join('')}<a class="chip" href="#s-rubric">评分</a>${(a.outline || []).length ? '<a class="chip" href="#s-outline">结构</a>' : ''}<a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
+      ${a.materials ? await (async () => {
+        try {
+          const r = await fetch(a.materials, { cache: 'no-cache' });
+          if (!r.ok) throw new Error(r.status);
+          const md = await r.text();
+          const mine = store.get('notes', []).filter(x => x.m === mid).sort((x, y) => Number(x.w) - Number(y.w));
+          return `<h2 id="s-mat">素材库</h2><div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>
+            <h2 id="s-mine">我的 tutorial 笔记 <span class="pill">${mine.length} 条</span></h2>
+            ${mine.length ? mine.map(noteCard).join('') : `<div class="card empty">还没有这门课的 tutorial 笔记。<br><a href="#/notes/new/${mid}/1">现在去写</a></div>`}`;
+        } catch { return `<div class="card muted">素材库加载失败，请检查网络后刷新。</div>`; }
+      })() : ''}
       <h2 id="s-brief">作业要求</h2><div class="card"><ul>${a.brief.map(b => `<li>${b}</li>`).join('')}</ul>
       ${(a.questions || []).length ? `<h3>${esc(a.questionsTitle || '必须回答的问题')}</h3><ol>${a.questions.map(q => `<li>${esc(q)}</li>`).join('')}</ol>` : ''}</div>
       ${(a.sections || []).map((x, i) => `<h2 id="s-g${i}">${esc(x.t)}</h2><div class="card md">${x.html}</div>`).join('')}

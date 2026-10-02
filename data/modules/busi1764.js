@@ -73,6 +73,7 @@ MBA.addModule({
     {
       id: 'a1',
       en: 'Learning Diary',
+      materials: 'content/busi1764/a1-materials.md',
       zh: '学习日志',
       due: '2026-11-17',
       weight: 30,
@@ -141,6 +142,7 @@ MBA.addModule({
     {
       id: 'a2',
       en: 'Individual Report',
+      materials: 'content/busi1764/a2-materials.md',
       zh: '个人报告',
       due: '2026-12-08',
       weight: 70,
