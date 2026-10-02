@@ -10,6 +10,13 @@ MBA.addModule({
   alerts: [
     '两份作业的 assessment brief 已整理进作业页。报告评估的是 <b>Bain & Company《Innovation Report 2025》</b>；小组展示用的是 Sage 案例 <b>American Egg: Strategic Growth and International Expansion</b>。',
     '原始 PDF 有版权（Sage 案例只允许在格林威治大学内部使用），所以网站上只放中文解读和数据要点，不放原文。',
+    '<b>第 1 次课老师说</b>：课件和官方通知都在 <b>Canvas</b>（一定要订阅通知）；作业通过 Turnitin 提交；上课<b>带个人笔记本电脑</b>（公司电脑可能连不上 Google 协作工具）；这是最技术性的一门课，<b>课前先读课件</b>。',
+    '课程要求提交一份 <b>AI 使用报告</b>（具体要求待找来）。',
+  ],
+  todos: [
+    { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
+    { d: '2026-10-05', t: '把第 1 次课课件、补充阅读链接、AI 使用报告要求、你的小组名单发给 Claude' },
+    { d: '2026-10-06', t: '课上问清：小组 4 人还是 5 人？你们组 11/24 还是 11/28 展示？' },
   ],
   people: [
     { role: '课程负责人（英国）', name: 'Rhonda A. Best', email: 'r.a.best@greenwich.ac.uk' },
@@ -46,7 +53,7 @@ MBA.addModule({
     { n: 12, d: '2026-11-28', t: '15:30–18:30', room: '23-3' },
   ],
   weeks: [
-    { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', detail: '<p>Tutorial：评估你的起点水平</p>' },
+    { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', rec: true, notes: true, detail: '<p>Tutorial：评估你的起点水平</p>' },
     { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], detail: '<p>Tutorial：认知偏差如何影响决策</p>' },
     { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p>' },
     { n: 4, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], detail: '<p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课。</b></p>' },
@@ -69,7 +76,8 @@ MBA.addModule({
       length: '15–20 页幻灯片 · 15–20 分钟 · 个人答问',
       lo: [1, 2],
       notes: [
-        '<b>小组人数有冲突</b>：assessment brief 写每组 <b>5 人</b>，Sage 案例里写 3–4 人。<b>以 brief 和老师的安排为准</b>，尽快把组员名单交给老师。',
+        '<b>小组人数有冲突</b>：assessment brief 写每组 <b>5 人</b>，老师第 1 次课说 <b>4 人</b>，Sage 案例写 3–4 人。<b>以老师最终说的为准</b>。',
+        '<b>PPT 提交（老师说的）</b>：不管哪天展示，<b>所有组都要在 11 月 27 日前提交幻灯片</b>，而且<b>每个组员都要各自上传同一份 PPT</b>。幻灯片相同，但按每个人的讲解单独评分。第一天 3 个组展示，第二天其余的组。',
         '<b>没有小组分</b>：每个人单独评分，按分工和个人表现给分，现场会单独提问。',
         '展示是必须参加的：不参加可能 0 分；无正当理由、未提前通知缺席扣 10%。展示后（或截止日前）在 Moodle 提交 PPT。',
         '展示在第 11–12 次课：<b>11 月 24 日（周二晚）或 11 月 28 日（周六下午）</b>，截止日写 11 月 27 日。请问清你们组是哪一天。',
@@ -165,7 +173,7 @@ MBA.addModule({
         '有明确的推荐方案和时间线',
         '幻灯片 15–20 页，时间 15–20 分钟',
         '我负责的部分能脱稿讲，并准备好答问',
-        '展示后在 Moodle 提交 PPT',
+        '11/27 前我自己上传了全组同一份 PPT',
       ],
     },
     {

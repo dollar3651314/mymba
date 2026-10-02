@@ -140,10 +140,11 @@
     return M.modules.flatMap(m => m.assessments.map(a => ({ m, a })));
   }
   function allMilestones() {
-    return M.modules.flatMap(m => m.assessments.flatMap(a => [
+    const todos = M.modules.flatMap(m => (m.todos || []).map((x, i) => ({ d: x.d, t: x.t, m, a: null, key: `todo:${m.id}:${i}` })));
+    return todos.concat(M.modules.flatMap(m => m.assessments.flatMap(a => [
       ...a.milestones.map((x, i) => ({ d: x.d, t: x.t, m, a, key: `ms:${m.id}:${a.id}:${i}` })),
       { d: goal(m, a), t: `<b>${esc(a.zh)}${goal(m, a) < a.due ? '完成目标' : '截止'}</b>（${m.code}）`, m, a, key: `ms:${m.id}:${a.id}:due`, due: true },
-    ])).sort((x, y) => x.d.localeCompare(y.d));
+    ]))).sort((x, y) => x.d.localeCompare(y.d));
   }
   const weekTasks = (m, n) => m.weekTasks ? m.weekTasks.filter(x => !x.weeks || x.weeks.includes(n)).map(x => ({ k: `wk:${m.id}:${n}:${x.id}`, t: x.t.replace('{note}', `<a href="#/notes/new/${m.id}/${n}">写 tutorial 笔记</a>`) })) : [
     { k: `wk:${m.id}:${n}:pre`, t: '课前：把课件发给 Claude，读中文讲解和术语' },
@@ -207,7 +208,7 @@
     h += ms.length ? ms.map(x => {
       const n = daysUntil(x.d);
       return `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div>
-        <div class="grow">${x.due ? x.t : esc(x.t)}<div class="small muted"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a></div></div>
+        <div class="grow">${x.due ? x.t : esc(x.t)}<div class="small muted">${x.a ? `<a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a>` : `<a href="#/m/${x.m.id}">${esc(x.m.code)} 老师交代的事</a>`}</div></div>
         ${x.due ? duePill(n) : `<input type="checkbox" aria-label="完成" data-check="${esc(x.key)}" style="width:20px;height:20px;accent-color:var(--accent)">`}</li>`;
     }).join('') : '<li class="muted">没有待办事项</li>';
     h += `</ul></div>`;
@@ -281,6 +282,7 @@
       <div class="card"><dl class="kv"><dt>学期</dt><dd>${esc(t.name)}（${esc(t.period)}）</dd><dt>学分</dt><dd>${m.credits}</dd><dt>形式</dt><dd>${esc(m.format)}</dd><dt>及格</dt><dd>总分 ≥ 50</dd></dl></div>
       ${m.warning ? `<div class="callout">${esc(m.warning)}</div>` : ''}
       ${(m.alerts || []).map(x => `<div class="callout">${x}</div>`).join('')}
+      ${(m.todos || []).length ? `<div class="card"><h3>老师交代的事 / 要找的资料</h3>${m.todos.map((x, i) => checkbox(`todo:${m.id}:${i}`, `<b>${fmt(x.d)}</b> ${esc(x.t)}`)).join('')}</div>` : ''}
       <h2 id="sec-asm">作业</h2>`;
     for (const a of m.assessments) {
       const n = daysUntil(goal(m, a));
