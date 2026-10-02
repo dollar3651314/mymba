@@ -3,8 +3,9 @@
 > 按评分标准分区，收集每节课里能用在学习日志上的内容。每收到一节课的录音，Claude 都会更新这里。
 > **这些是帮你写作的线索，不是可以直接抄的句子。** 日志要用你自己的分析和语言写，而且必须写进你在 tutorial 里的真实经历。
 
-**已收录**：第 1 次课（9/24）、第 2 次课（10/1）
-**接下来特别重要的课**：第 4 次课 10/15 社会创业（→ 创业类型判断）、第 7 次课 10/29 国际市场进入策略（→ 跨境转移）
+**已收录**：第 1、2 次课录音；第 1、2 周 tutorial 课件；第 1 周 Mini-Lecture 1.1–1.3（10/2）
+**接下来特别重要的课**：第 4 次课 10/15 社会创业（→ 创业类型判断，补充更多例子）、第 7 次课 10/29 国际市场进入策略（→ 跨境转移的进入模式）
+**还缺**：Moodle 上的范例（examples）；Canvas 讨论区 1.1–1.4、2.1、2.2 的截图（你们组当时的讨论记录）
 
 ---
 
@@ -28,7 +29,20 @@
 |---|---|---|
 | 创业的定义：识别、抓住、利用机会 | 第 1 次课 | 先说明它为什么是“创业” |
 | 创业者特质：冒险、愿景、行动力、心理资本和社会资本 | 第 1 次课 | 描述这位 Ashoka Fellow 时可以用 |
-| 四种创业类型的定义 | ⏳ 第 4 次课（10/15）社会创业 | 等这节课的录音后补充 |
+| 第 1 周 tutorial 的 8 个分析问题之一：“属于哪种创业类型？” | 第 1 周 tutorial 课件 | 你们组在 Ooni / Calendly 案例里回答过这个问题，可以写进日志 |
+
+**课件给的四种类型定义（带出处，可以直接引用）**
+
+| 类型 | 判断的关键 | 引用 |
+|---|---|---|
+| 社会创业 | 战略性地解决**社会层面的市场失灵**、创造社会价值；**社会改善优先于利润** | Nicholls (2006, p. 43)；Dees (1998) |
+| 生态创业 | 用**环境创新**取得市场成功，基于可持续原则 | Schaltegger (2002)；Kirkwood & Walton (2010) |
+| 内部创业 | 发生在**已有组织内部**，由员工发起新业务或战略更新 | Antoncic & Hisrich (2003)；Gawke et al. (2017) |
+| 国际创业 | **跨越国界**发现和利用机会 | Oviatt & McDougall (2005) |
+
+**课件里的例子可以作为对照**：Lammsbräu（德国有机啤酒厂，Mini-Lecture 1.3）是典型的**生态创业**：以环境创新取得市场成功，“生态是长期的经济”。如果你选的 Ashoka 企业也有环保成分，要说明它的**首要目标**是社会改善还是环境创新，以此区分社会创业和生态创业。
+
+“为什么不是另外三种”可以逐条对照上表的“判断的关键”来写：它的首要目标是不是社会改善？核心是不是环境创新？是不是在已有组织内部发起？是不是已经跨国利用机会？
 
 小提示：Ashoka Fellow 大多是社会创业者。“为什么不是内部创业”通常好写（不是在已有公司内部发起的）；“为什么不是国际创业”要看它现在是否已经跨国经营。
 
@@ -63,7 +77,19 @@
 - 发现型 vs. 创造型机会（第 2 次课）：你的企业是发现了已有的需求，还是创造了新市场？
 - 可行机会三要素：需求、技术可行、盈利（第 2 次课）：可以用来说明这个创新为什么能成立。
 - 价值创造 vs. 价值获取（第 2 次课）：社会企业通常“创造价值”很强，“获取价值”的方式（谁付钱）往往就是创新点所在。
-- ⏳ 颠覆式、持续性、地区首创、世界首创的区分，第 2 周录播课应该有讲，**看完录播课把要点发给 Claude**。
+**课件给的正式定义（第 1、2 周 tutorial 课件，可以直接引用）**
+- 创新是把已有要素重新组合（Schumpeter, 1911）；“用新的方式做已经在做的事”（Schumpeter, 1947, p. 151）。**创新 ≠ 发明。**
+- 四种类型：
+  - **流程创新**：改进创造或交付的**方式**（效率、成本、质量）
+  - **产品创新**：新产品或大幅改进功能、设计、特性
+  - **商业模式创新**：改变创造、传递、**获取价值**的方式（收入来源、客户关系、关键活动）
+  - 服务创新：课件没单独定义，可以参照产品创新的定义用在服务上，并引用教材
+- **创新程度要在三条轴上分别判断**，日志里三条都写会更完整：
+  1. 渐进式 ↔ 突破式：小改进，还是全新的做法？
+  2. 企业 / 地区首创 ↔ 世界首创：这个做法在别处已经有了吗？（Ashoka 企业很多是“地区首创”）
+  3. 持续性 ↔ 颠覆式：是在主流客户看重的维度上改进，还是先服务被忽视的小众、更便宜更简单？
+- **创新 ≠ 发明**：“发明者产生想法，创业者把事情做成，不一定包含任何科学上的新东西”（Schumpeter, 1947, p. 152）。Ashoka 企业的创新往往不是新技术，而是新的做法，这句话正好用来说明。
+- 课件里的发现型 vs. 创造型：发现型面对的是**风险**（结果概率已知），创造型面对的是**不确定性**（概率未知）（Zucchella, Hagen & Serapio, 2018）。课件把达芬奇手术系统归为发现型，Airbnb、Netflix、iPad 归为创造型。
 
 ---
 
@@ -86,6 +112,17 @@
 
 **课上案例里的跨境思考**（第 1 次课，披萨炉）：同一个产品在美国市场很大（沃尔玛订单能让工厂满负荷 6 个月），但在亚洲很难做，因为很多家庭没有私人花园，客户需求也不一样。这正是“换个国家要改什么”的思路，可以在日志里写成你们组讨论得出的启发。
 
+**国际新创企业（INV）的视角**（Mini-Lecture 1.2）
+- INV：成立 6 年内国际化、25%–30% 收入来自海外（Oviatt & McDougall, 1994）。可以用来判断你的 Ashoka 企业**现在是不是国际创业**，这也是“创业类型判断”的依据。
+- 可持续 INV 的 4 个要素（Oviatt & McDougall, 2018）：交易内部化、替代性治理结构（资源稀缺）、海外区位优势、独特资源。→ 用来分析 Ashoka 企业出海时缺什么、靠什么。
+- **创始人的人脉和网络推动国际化**（McDougall et al., 1994；Coviello & Munro, 1995）。⭐ **Costales & Zeyen (2022)** 专门研究**国际社会创业者的社会资本**，作者就是录播课讲者，和 Ashoka 日志最相关，建议找来读。Ashoka Fellow 网络本身就是一种社会资本，可以结合这篇文献讨论。
+- 全球化的定义（Robertson, 1992；Giddens, 1990；Waters, 2013）可以用在跨境部分的开头。
+
+**课件补充的跨境工具**
+- **PESTEL**：第 1 周 tutorial 的最后一步，就是用 PESTEL 分析新市场的外部环境，再用 8 个理论说明怎么国际化。日志可以写：“在 tutorial 里我们用 PESTEL 分析了……，所以我对 {Ashoka 企业} 也做了同样的分析……”
+- **SWOT**（第 2 周 tutorial 课件）：用企业的优势和目标市场的机会来匹配。
+- 第 2 周课件：国际化时，**产品或服务的特性可以调整以适应外国客户**；犯过的错误会帮助形成应对未来机会的规则。→ 回答“要改什么”。
+- OLI 的内部化：判断自己做，还是外包、授权、特许给第三方；内部化能保护知识产权、降低交易成本（课件第 1 周）。
 - ⏳ 进入模式（出口、许可、特许经营、合资、子公司）在第 7 次课（10/29）讲，之后补充。
 
 ---
@@ -93,6 +130,18 @@
 ## ⑤ 理论运用（15%）
 
 - 每个部分至少明确引用 1 个理论，并说明“这个理论帮我看到了什么”。
+- **参考文献（来自课件，用前在图书馆数据库核对卷期页码）**
+  - Antoncic, B. and Hisrich, R.D. (2003) 'Clarifying the intrapreneurship concept', *Journal of Small Business and Enterprise Development*, 10(1), pp. 7–24.
+  - Costales, E. and Zeyen, A. (2022) 'Social capital and the morphogenesis of actors: lessons from international social entrepreneurs', in *The International Dimension of Entrepreneurial Decision-Making: Cultures, Contexts, and Behaviours*, pp. 193–222.
+  - Dees, J.G. (1998) *The meaning of social entrepreneurship*. Duke University: Fuqua School of Business.
+  - Kirkwood, J. and Walton, S. (2010) 'What motivates ecopreneurs to start businesses?', *International Journal of Entrepreneurial Behavior & Research*, 16(3), pp. 204–228.
+  - Nicholls, A. (ed.) (2006) *Social entrepreneurship: New models of sustainable social change*. Oxford: Oxford University Press.
+  - Oviatt, B.M. and McDougall, P.P. (1994) 'Toward a theory of international new ventures', *Journal of International Business Studies*, 25(1), pp. 45–64.
+  - Oviatt, B.M. and McDougall, P.P. (2005) 'Defining international entrepreneurship and modeling the speed of internationalization', *Entrepreneurship Theory and Practice*, 29(5), pp. 537–553.
+  - Schaltegger, S. (2002) 'A framework for ecopreneurship', *Greener Management International*, 38, pp. 45–58.
+  - Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159.
+  - Vahlne, J.E. and Johanson, J. (2017) 'From internationalization to evolution: The Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102.
+- **课件里提到的其他出处**：Coase (1937)；Hennart (2010)；Hymer (1960)；Ito & Rose (2002)；Dunning & Lundan (2008)；Vahlne & Johanson (2017)；Johanson & Mattsson (1988)；Oviatt & McDougall (1994, 2005)；Nicholls (2006)；Schumpeter (1911, 1947)；Zucchella, Hagen & Serapio (2018)；Teece (2007)。用之前在图书馆数据库确认原文信息。
 - 手册推荐的文献里，跨境部分最有用：Vahlne & Johanson (2017) Uppsala 模型；Oviatt & McDougall (1994) 国际新创企业；Coviello & Munro (1997) 网络关系；Galkina & Chetty (2015) 效果推理与网络。
 - 引用要用 Harvard 格式，见网站“工具 → 写作助手”。
 
@@ -102,13 +151,20 @@
 
 手册给的句式：*"During the tutorial my group and I worked through {XXX} case and we thought that {XXX} was innovative because of the way they did {YYY}, but we also discussed that {ZZZ} was quite innovative of them..."*
 
+**第 1 周 tutorial 的 8 个分析问题**（每个案例都要回答，和日志要求一一对应）：问题是什么？创业者怎么发现的？哪种创业类型？核心想法？创新是什么？谁直接 / 间接受益？收入来源？怎么带到新市场？——最后用 PESTEL 和 8 个理论分析国际化。
+
 **目前上过的案例练习**（录音只记了老师讲的内容，**你们组说了什么要你自己补**）
 
-| 日期 | 案例 | 课上讨论的要点 | 你需要补充 |
+| 日期 | 案例（Canvas 讨论区） | 课上讨论的要点 | 你需要补充 |
 |---|---|---|---|
-| 9/24 | 家用户外披萨炉 | 痛点、产品创新但非突破式、硬件 + App + 病毒传播、美国 vs 亚洲市场差异、满足的是“想要”不是“需要” | 你们组一开始怎么判断？有没有分歧？你说了什么？ |
-| 9/24 | 在线日程预约工具 | 减少邮件往来、获取用户是最大挑战、免费增值、价值不直观难推广 | 同上 |
-| 10/1 | 现有产品讨论 | 产品创新要从真实需求出发 | 你们组举了哪些产品？ |
-| 10/1 | 商业模式画布练习（健身器材、健身房、Airbnb、打印机） | 价值主张、客户关系、客户细分、收入来源 | 你们组分析了哪家公司？画布哪一块最难填？ |
+| 9/24 | 1.1 Dialogue Social Enterprises（Andreas Heinecke） | 录音没提到，你们组做了吗？ | 做了就写下来 |
+| 9/24 | 1.2 **Ooni** 家用披萨炉 | 痛点、产品创新但非突破式、硬件 + App + 病毒传播、美国 vs 亚洲市场差异、满足的是“想要”不是“需要” | 你们组一开始怎么判断？有没有分歧？你说了什么？ |
+| 9/24 | 1.3 RUR Greenlife（Monisha Narke） | 录音没提到 | 同上 |
+| 9/24 | 1.4 **Calendly** 日程预约工具 | 减少邮件往来、获取用户是最大挑战、免费增值、价值不直观难推广 | 同上 |
+| 10/1 | 讨论 2.1（个人）：一个现有产品是发现型还是创造型机会 | 产品创新要从真实需求出发 | 你举了哪个产品？怎么判断的？ |
+| 10/1 | 讨论 2.2（小组）：为 **Echelon Fitness** 和 **Pure Gym** 设计新商业模式 | 价值主张、客户关系、客户细分、收入来源 | 你们组设计了什么？画布哪一块最难填？ |
+| 10/1 | Airbnb、Toyota 画布案例 | 平台抽成、信任和安全、Toyota 的供应商网络 | 你对哪个问题发了言？ |
+
+💡 据公开资料，Dialogue Social Enterprises 的创始人 Andreas Heinecke 也是 Ashoka Fellow（德国，**请在 Ashoka 网站上确认**），可以作为日志里“我们在 tutorial 分析过类似的社会企业”的对照。但他在欧洲，**不能当作你日志的主案例**（必须选南美、非洲或亚洲的 Fellow）。
 
 👉 **把这些补进网站“笔记”页**（课程选 BUSI 1764，第 1 / 2 周）。写下来的内容会显示在这个作业页的“我的 tutorial 笔记”里。

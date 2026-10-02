@@ -19,7 +19,11 @@ MBA.addModule({
     { d: '2026-10-03', t: '趁还记得，把第 1、2 次课案例练习（披萨炉、日程工具、健身房 / Airbnb 商业模式画布）的小组讨论写进 tutorial 笔记' },
     { d: '2026-10-07', t: '10/8 上课前看完第 3 周录播课（家族企业）并预习课件' },
     { d: '2026-10-08', t: '课上问清：“周五下午 5 点前提交”指的是什么？最后一周的一对一咨询是哪天？' },
-    { d: '2026-10-09', t: '把第 1、2 周课件和录播课、商业模式画布模板、A1/A2 评分标准原文发给 Claude' },
+    { d: '2026-10-05', t: '找 Moodle（BUSI 1764-M04-2026-27）上的范例（examples），发给 Claude' },
+    { d: '2026-10-05', t: '截图 Canvas 讨论区 1.1–1.4、2.1、2.2（题目 + 你和组员的回帖）发给 Claude' },
+    { d: '2026-10-09', t: '把第 1、2 周 Mini-Lecture 课件、Airbnb 案例、商业模式画布 PDF 发给 Claude' },
+    { d: '2026-10-12', t: '在学校图书馆找 Costales & Zeyen (2022)（国际社会创业者的社会资本，录播课讲者写的），发给 Claude——学习日志最相关的文献' },
+    { d: '2026-10-08', t: '课上问清：A2 说“不能和小组展示的想法相同”，今年没有小组展示，tutorial 讨论过的想法能不能用？' },
   ],
   weekTasks: [
     { id: 'lec', t: '课前：看录播课（约 1 小时）+ 预习课件' },
@@ -29,6 +33,7 @@ MBA.addModule({
     { id: 'send', t: '把录音文字稿和笔记发给 Claude' },
   ],
   people: [
+    { role: '课程负责人（英国）', name: 'Dr Sylvester Mujakperuo', email: 'S.O.Mujakperuo@greenwich.ac.uk' },
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
     { role: '讲师', name: 'Mr. Jeffrey Koh', email: 'jkoh@lsbf.edu.sg' },
   ],
@@ -236,6 +241,7 @@ MBA.addModule({
   ],
   websites: [
     { n: 'Ashoka（A1 选题）', u: 'https://www.ashoka.org' },
+    { n: '录播课 YouTube 频道', u: 'https://youtube.com/@IntEntrepreneurship_UoG' },
     { n: 'Global Entrepreneurship Monitor', u: 'https://www.gemconsortium.org/' },
     { n: 'GlobalEDGE（国家数据）', u: 'https://globaledge.msu.edu/' },
     { n: 'Tech London', u: 'https://www.tech.london/' },

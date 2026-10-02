@@ -1,10 +1,10 @@
 // 术语表：c = 分类，m = 相关课程（空数组表示通用）
 MBA.glossary = [
   // 创业类型
-  { en: 'Social entrepreneurship', zh: '社会创业', c: '创业类型', m: ['busi1764'], x: '以解决社会问题为首要目标的创业，利润是手段而不是目的。Ashoka Fellow 大多属于这一类。', e: 'The venture is a clear example of social entrepreneurship, as its primary mission is to ...' },
-  { en: 'Intrapreneurship', zh: '内部创业', c: '创业类型', m: ['busi1764'], x: '在现有组织内部，由员工发起的创新和新业务。关键：发生在已有企业内部。', e: 'It is not intrapreneurship, because the venture was not developed within an existing organisation.' },
-  { en: 'Ecopreneurship', zh: '生态创业 / 环保创业', c: '创业类型', m: ['busi1764'], x: '以解决环境问题为核心的创业，商业模式本身带来环境效益。', e: 'Although the venture has some environmental benefits, its core mission is social rather than ecological, so it is not ecopreneurship.' },
-  { en: 'International entrepreneurship', zh: '国际创业', c: '创业类型', m: ['busi1764'], x: '跨越国界识别和利用商业机会的创业行为。', e: 'The venture operates in five countries, which reflects international entrepreneurship.' },
+  { en: 'Social entrepreneurship', zh: '社会创业', c: '创业类型', m: ['busi1764'], x: '以解决社会问题为首要目标的创业。课件定义：战略性地解决社会层面的市场失灵、创造社会价值（Nicholls, 2006）；社会改善优先于利润（Dees, 1998）。Ashoka Fellow 大多属于这一类。', e: 'The venture is a clear example of social entrepreneurship, as its primary mission is to ...' },
+  { en: 'Intrapreneurship', zh: '内部创业', c: '创业类型', m: ['busi1764'], x: '在已有组织内部的创业（Antoncic & Hisrich, 2003）；员工为组织创建新业务、推动战略更新（Gawke et al., 2017）。关键：发生在已有企业内部。', e: 'It is not intrapreneurship, because the venture was not developed within an existing organisation.' },
+  { en: 'Ecopreneurship', zh: '生态创业 / 环保创业', c: '创业类型', m: ['busi1764'], x: '从环境视角看的创业，用环境创新取得市场成功（Schaltegger, 2002）；基于可持续原则（Kirkwood & Walton, 2010）。', e: 'Although the venture has some environmental benefits, its core mission is social rather than ecological, so it is not ecopreneurship.' },
+  { en: 'International entrepreneurship', zh: '国际创业', c: '创业类型', m: ['busi1764'], x: '跨越国界发现、实施、评估和利用机会，创造未来的商品和服务（Oviatt & McDougall, 2005）。', e: 'The venture operates in five countries, which reflects international entrepreneurship.' },
   { en: 'Family firm', zh: '家族企业', c: '创业类型', m: ['busi1764'], x: '由一个家族拥有并控制、通常希望代际传承的企业。', e: '' },
   { en: 'Digital entrepreneurship', zh: '数字创业', c: '创业类型', m: ['busi1764'], x: '以数字技术和平台为核心创造价值的创业。', e: '' },
   // 创新类型
@@ -15,7 +15,7 @@ MBA.glossary = [
   // 创新程度
   { en: 'Incremental innovation', zh: '渐进式创新', c: '创新程度', m: ['busi1764'], x: '在现有产品或流程上的小幅改进。', e: '' },
   { en: 'Radical innovation', zh: '突破式创新', c: '创新程度', m: ['busi1764'], x: '与现有方式根本不同的全新做法。', e: '' },
-  { en: 'Disruptive innovation', zh: '颠覆式创新', c: '创新程度', m: ['busi1764'], x: 'Christensen 提出：从低端或新市场切入、更便宜更简单的方案，最终取代主流产品。', e: '' },
+  { en: 'Disruptive innovation', zh: '颠覆式创新', c: '创新程度', m: ['busi1764'], x: '先服务小众市场，比现有产品更简单、更便宜或更方便，之后逐步向上替代原有竞争者（Christensen；课件定义）。', e: '' },
   { en: 'Sustaining innovation', zh: '持续性创新', c: '创新程度', m: ['busi1764'], x: '为现有主流客户改进产品性能，与颠覆式创新相对。', e: '' },
   { en: 'New to region / new to world', zh: '地区首创 / 世界首创', c: '创新程度', m: ['busi1764'], x: '“地区首创”是别处已有、但在该地区是新的；“世界首创”是全球第一次出现。', e: '' },
   { en: 'Creative destruction', zh: '创造性破坏', c: '创新理论', m: ['busi1764'], x: 'Schumpeter 提出：创新者推出新组合，取代旧产品和旧企业，推动经济发展。', e: '' },
