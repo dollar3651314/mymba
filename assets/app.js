@@ -100,6 +100,12 @@
   }
   const nextSession = m => (m.sessions || []).find(x => !held(x));
   const sessLabel = x => `${fmt(x.d)}（${wk(x.d)}）${x.t}`;
+  // 未来 7 天内要上、但还没有预习包的课 → 提醒用户下载课件发给 Claude
+  function pendingPreviews(days = 7) {
+    const limit = new Date(today().getTime() + days * DAY);
+    return M.modules.flatMap(m => (m.sessions || []).filter(x => !held(x) && parseDate(x.d) <= limit).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
+      .filter(o => !o.w?.pre).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+  }
   function pendingRecordings() {
     return M.modules.flatMap(m => (m.sessions || []).filter(x => held(x) && !m.weeks.find(w => w.n === x.n)?.rec).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
       .sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
@@ -179,6 +185,11 @@
       </a>`;
     }
 
+    const prev = pendingPreviews();
+    if (prev.length) {
+      h += `<h2>要预习的课 <span class="pill accent">${prev.length} 节</span></h2><div class="card"><p class="small muted">这些课 7 天内就要上。请到 Canvas / Moodle 下载这一周的<b>课件（tutorial slides 和 mini-lecture）</b>发给 Claude，Claude 会做好预习包放在课程页面上。</p><ul class="list">${prev.map(({ m, x, w }) => `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div>
+        <div class="grow"><a href="#/w/${m.id}/${x.n}">${esc(m.code)} 第 ${x.n} 次课</a><div class="small muted">${esc(w?.zh || '')} · ${esc(wk(x.d))} ${esc(x.t)}</div></div></li>`).join('')}</ul></div>`;
+    }
     const pend = pendingRecordings();
     if (pend.length) {
       h += `<h2>要发给 Claude 的录音 <span class="pill warn">${pend.length} 节</span></h2><div class="card"><p class="small muted">这些课已经上完，还没收到录音文字稿。直接发过来就行，不用标注是哪一课，Claude 会按课表对应。</p><ul class="list">${pend.map(({ m, x, w }) => `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div>
@@ -196,6 +207,7 @@
           <div class="card-title"><h3><a href="#/w/${m.id}/${x.n}">${esc(m.code)} · 第 ${x.n} 次课</a></h3>${isToday ? '<span class="pill danger">今天</span>' : `<span class="pill">${p.done}/${p.total}</span>`}</div>
           <p class="small" style="margin-bottom:4px">${esc(sessLabel(x))} · 教室 ${esc(x.room)}（或 Zoom）</p>
           <p>${esc(wkData?.zh || '')}<br><span class="en">${esc(wkData?.en || '')}</span></p>
+          <p class="small">${wkData?.pre ? `<a href="#/w/${m.id}/${x.n}">📘 预习包已准备好，点这里预习 ›</a>` : '<span style="color:var(--warn)">还没有预习包：请下载这周课件发给 Claude</span>'}</p>
           ${tasks.map(k => checkbox(k.k, k.t)).join('')}
         </div>`;
       }
@@ -320,7 +332,19 @@
       <div class="card"><h3>本周任务</h3>${weekTasks(m, n).map(x => checkbox(x.k, x.t)).join('')}</div>
       ${w.detail ? `<div class="card"><h3>本周安排</h3>${w.detail}</div>` : ''}
       ${(w.use || []).length ? `<div class="card"><h3>这周内容用在哪里</h3><ul>${w.use.map(u => { const a = asmt(m, u); return `<li><a href="#/a/${id}/${u}">${esc(a.zh)}</a>（${fmt(a.due)} 截止）</li>`; }).join('')}</ul></div>` : ''}
-      <h2>课堂笔记</h2>`;
+      `;
+    if (w.pre) {
+      const path = `content/${id}/week-${String(n).padStart(2, '0')}-pre.md`;
+      try {
+        const r = await fetch(path, { cache: 'no-cache' });
+        if (!r.ok) throw new Error(r.status);
+        const md = await r.text();
+        h += `<h2>📘 课前预习</h2><div class="card md">${window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`}</div>`;
+      } catch { h += `<div class="card muted">预习包加载失败，请检查网络后刷新。</div>`; }
+    } else if (!(sessOf(m, n) && held(sessOf(m, n)))) {
+      h += `<h2>📘 课前预习</h2><div class="card empty">还没有预习包。<br>请到 Canvas / Moodle 下载这一周的课件（tutorial slides、mini-lecture），发给 Claude。</div>`;
+    }
+    h += `<h2>课堂笔记</h2>`;
     if (w.notes) {
       const path = `content/${id}/week-${String(n).padStart(2, '0')}.md`;
       try {

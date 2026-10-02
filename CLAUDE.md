@@ -27,6 +27,7 @@
 | 课程手册 | 新建 `data/modules/<id>.js`（参考现有文件结构），在 `index.html` 引入；注意手册里的矛盾并写进 `alerts` / `notes` |
 | Assessment brief | 更新对应作业的 brief、rubric、outline、sections、milestones、checklist |
 | 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `rec` 和 `notes` 改为 `true` |
+| **下一节课的课件（预习）** | 写**预习包** `content/<课程id>/week-XX-pre.md`（模板 `content/_preview_template.md`），把该周 `pre` 设为 `true`；课件内容同时整理进 `week-XX.md` 的“课件补充”和作业素材库 |
 | 录音 / 课件里对作业有用的内容 | 追加到该作业的**素材库** `content/<课程id>/<作业id>-materials.md`（按评分标准分区，注明出自第几次课；作业数据里用 `materials` 字段引用）。目前有 BUSI 1764 的 A1、A2；其他作业有了足够素材后新建 |
 | 有版权的原文（报告、Sage 案例等） | **不放进仓库**，只写中文解读和数据要点 |
 
@@ -37,6 +38,7 @@
 - **课表**：每门课 12 次课，写在 `data/modules/<id>.js` 的 `sessions`；**第 n 次课 = 手册第 n 周**（不是按日历周）。学期 1 第一次课 9/24。
 - **录音不用用户标注**：用户发来录音文字稿时，按内容和课表日期判断是哪门课第几次课；收到后把该周 `rec` 设为 `true`（首页“要发给 Claude 的录音”会自动去掉）。拿不准时问用户日期。
 - 首页会列出“已上完但还没发录音”的课，这就是对用户的提醒；每次对话也要主动提醒还欠哪些录音。
+- **课前预习也是固定流程**：首页“要预习的课”列出 7 天内要上、但还没有预习包的课。每次对话都要主动提醒用户下载哪几节课的课件（Canvas / Moodle 上的 tutorial slides 和 mini-lecture），收到后做预习包。
 - 停本地测试服务器用 `pkill -f "scripts/dev/[d]evserver"`（带方括号），而且**要单独一条命令执行**，不要和启动服务器的命令放在同一个 shell 里（否则会匹配到自己把 shell 杀掉）。
 - 用户发来的“录音文字稿”实际是 AI 生成的课堂笔记，术语常被转错（如“卮言主义”= 后果主义）。整理时纠正并注明；用户说他会忽略临时安排、老师要求和课程技巧，**这些要专门提取出来**，写进课程的 `alerts` / `todos` / 作业 `notes` / milestones，并列出录音里提到但缺少的资料。
 
