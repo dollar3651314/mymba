@@ -1,4 +1,4 @@
-// BUSI 1764 Global Entrepreneurship and Innovation — 内容来自 2026-27 课程手册
+// BUSI 1764 Global Entrepreneurship and Innovation — 内容来自 2026-27 课程手册；2026-10-02 加入 Moodle 范例（日志 2 份、报告 3 份）和第 3 周课件
 // 每周笔记：把 content/busi1764/week-XX.md 写好后，把对应 week 的 notes 改为 true。
 MBA.addModule({
   id: 'busi1764',
@@ -13,15 +13,15 @@ MBA.addModule({
     '<b>翻转课堂</b>：每周上课前要先看<b>录播课（约 1 小时）</b>并预习课件，课上 2 小时用来讨论和辅导。不看录播课，课上会跟不上。',
     '<b>作业只能通过指定链接提交，不要用邮件发给老师</b>；交之前检查链接、文件和课程是否正确。',
     '最后一周有<b>一对一咨询</b>，老师说非常重要：带着个人报告（A2）的想法和草稿去。',
+    '<b>Moodle 上有两段作业讲解视频</b>（Learning Diary、Individual Report 各一段），网址在资料包的视频链接里。<b>建议你自己找时间看一遍</b>，有新要求告诉 Claude。',
     '<b>课上的案例练习就是学习日志（A1）要写的“tutorial 经历”</b>：每次课后马上在网站 tutorial 笔记里记下你们组讨论了什么、你说了什么、怎么判断的。',
   ],
   todos: [
     { d: '2026-10-03', t: '趁还记得，把第 1、2 次课案例练习（披萨炉、日程工具、健身房 / Airbnb 商业模式画布）的小组讨论写进 tutorial 笔记' },
     { d: '2026-10-07', t: '10/8 上课前看完第 3 周录播课（家族企业）并预习课件' },
     { d: '2026-10-08', t: '课上问清：“周五下午 5 点前提交”指的是什么？最后一周的一对一咨询是哪天？' },
-    { d: '2026-10-05', t: '找 Moodle（BUSI 1764-M04-2026-27）上的范例（examples），发给 Claude' },
     { d: '2026-10-05', t: '截图 Canvas 讨论区 1.1–1.4、2.1、2.2（题目 + 你和组员的回帖）发给 Claude' },
-    { d: '2026-10-09', t: '把第 1、2 周 Mini-Lecture 课件、Airbnb 案例、商业模式画布 PDF 发给 Claude' },
+    { d: '2026-10-07', t: '看第 3 周预习包；读 IMD 案例（家族企业 25 条成功原则）第 3 页图 1 和第 5 页三个案例' },
     { d: '2026-10-12', t: '在学校图书馆找 Costales & Zeyen (2022)（国际社会创业者的社会资本，录播课讲者写的），发给 Claude——学习日志最相关的文献' },
     { d: '2026-10-08', t: '课上问清：A2 说“不能和小组展示的想法相同”，今年没有小组展示，tutorial 讨论过的想法能不能用？' },
   ],
@@ -63,7 +63,7 @@ MBA.addModule({
   weeks: [
     { n: 1, en: 'Main theories of International Business and International Entrepreneurship', zh: '国际商务与国际创业的主要理论', use: ['a1'], rec: true, notes: true },
     { n: 2, en: 'Innovation and Global Competitiveness', zh: '创新与全球竞争力', use: ['a1', 'a2'], rec: true, notes: true },
-    { n: 3, en: 'Family Firms', zh: '家族企业', use: ['a2'], notes: false },
+    { n: 3, en: 'Family Firms', zh: '家族企业', use: ['a2'], notes: false, pre: true, detail: '<p>Mini-Lecture 3.1–3.3：家族企业的性质和核心价值、五个理论视角（代理、管家、资源基础观、社会情感财富、二分偏差）、国际化路径。</p><p>Tutorial：IMD 文章《长寿家族企业的成功秘诀》（25 条原则 + Frescobaldi、Takanashi、Miele 三个案例）；老师自己的故事“我拒绝投资人对吗？”；西武集团的衰落（继承问题）。</p>' },
     { n: 4, en: 'Social Entrepreneurship', zh: '社会创业', use: ['a1', 'a2'], notes: false },
     { n: 5, en: 'Feasibility analysis and writing a business plan', zh: '可行性分析与撰写商业计划书', use: ['a2'], notes: false },
     { n: 6, en: 'Building and managing the international entrepreneurial firm', zh: '建立和管理国际创业企业', use: ['a2'], notes: false },
@@ -79,6 +79,10 @@ MBA.addModule({
       id: 'a1',
       en: 'Learning Diary',
       materials: 'content/busi1764/a1-materials.md',
+      notes: [
+        '<b>Moodle 上的两份往届日志范例</b>（详见素材库）：Educafro（巴西，社会创业）和 Pumakawa（阿根廷，生态创业）。两份都按“概况与创业类型 → 创新 → 国际化”写，<b>逐条说明为什么不是另外三种创业类型</b>，并引用了 Mini-Lecture（如 “Costales (2024) Mini-Lecture 1.1, unpublished”）——说明<b>课件本身可以作为参考文献引用</b>。',
+        '范例写 tutorial 经历的方式：“During the tutorials, my group and I analysed Calendly’s case and found…”——一两句具体经历，再连到自己选的企业。你的 tutorial 笔记就是这部分的素材。',
+      ],
       zh: '学习日志',
       due: '2026-11-17',
       weight: 30,
@@ -148,6 +152,10 @@ MBA.addModule({
       id: 'a2',
       en: 'Individual Report',
       materials: 'content/busi1764/a2-materials.md',
+      notes: [
+        '<b>Moodle 上的 3 份往届报告范例</b>（详见素材库）：两份好范例都是<b>自己创办的初创公司</b>（英国共享办公 KY Workspace、伦敦环保女装 Eco Fibre Wear），按 brief 的问题逐节写，有目录、市场数据图、目标市场比较表，并用了课程理论（机会识别、效果推理 vs. 因果推理、网络、Uppsala、进入模式）。',
+        '<b>差范例（Meituan）的问题</b>：把美团这种大公司当“初创企业”写（brief 要求初创或小型 SME / 家族企业）；大段描述、口语化，很少用理论和可靠数据。<b>不要选大公司。</b>',
+      ],
       zh: '个人报告',
       due: '2026-12-08',
       weight: 70,

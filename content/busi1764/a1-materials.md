@@ -5,7 +5,7 @@
 
 **已收录**：第 1、2 次课录音；第 1、2 周 tutorial 课件；Mini-Lecture 1.1–1.3、2.1–2.3；Airbnb 案例（10/2）
 **接下来特别重要的课**：第 4 次课 10/15 社会创业（→ 创业类型判断，补充更多例子）、第 7 次课 10/29 国际市场进入策略（→ 跨境转移的进入模式）
-**还缺**：Moodle 上的范例（examples）；Canvas 讨论区 1.1–1.4、2.1、2.2 的截图（你们组当时的讨论记录）
+**还缺**：Canvas 讨论区 1.1–1.4、2.1、2.2 的截图（你们组当时的讨论记录）
 
 ---
 
@@ -176,3 +176,31 @@
 💡 据公开资料，Dialogue Social Enterprises 的创始人 Andreas Heinecke 也是 Ashoka Fellow（德国，**请在 Ashoka 网站上确认**），可以作为日志里“我们在 tutorial 分析过类似的社会企业”的对照。但他在欧洲，**不能当作你日志的主案例**（必须选南美、非洲或亚洲的 Fellow）。
 
 👉 **把这些补进网站“笔记”页**（课程选 BUSI 1764，第 1 / 2 周）。写下来的内容会显示在这个作业页的“我的 tutorial 笔记”里。
+
+
+---
+
+## 📄 Moodle 上的两份往届范例（10/2 收到）
+
+> 这两份是“写到什么程度”的参照，**不要模仿句子**。都是约 1000 词。
+
+| | 范例 1：Educafro（巴西） | 范例 2：Pumakawa（阿根廷） |
+|---|---|---|
+| 企业 | 非营利组织，帮黑人和低收入学生上大学（预科课程、奖学金合作） | 非政府组织，野生动物保护和环境教育 |
+| 创业类型 | **社会创业**：引用 Bessant & Tidd (2015, p.47)；再逐条说明为什么不是内部创业（独立运作）、生态创业（使命是社会包容）、国际创业（目前只在巴西） | **生态创业**：引用 Schaltegger (2002)；不是社会创业（首要目的是生态，Dees 1998）、不是内部创业（Antoncic & Hisrich 2003）、不是国际创业（只在阿根廷，Oviatt & McDougall 2005） |
+| 创新 | 先写 **tutorial 里分析 Calendly 的经历**（产品创新），再说 Educafro 的产品、流程创新，程度为**渐进式** | 选一个创新点（Cacu 项目），判断为**流程创新**，再逐条说明为什么不是产品、商业模式、服务创新；程度为**渐进式**（Christensen et al. 2015） |
+| tutorial 经历 | “During the tutorials, my group and I analyzed Calendly's case…” | 单列一节 “Reflection from Tutorials”：Dialogue Social Enterprises 案例 → 连到自己的企业 |
+| 国际化 | **Uppsala 模型**（Johanson & Vahlne 1977）：先去文化和地理相近的哥伦比亚；进入模式选**数字化进入**（引用 Mujakperuo 2024 Mini-Lecture 7.2） | **网络理论**（Johanson & Mattsson 1988）+ Uppsala（Vahlne & Johanson 2017）；进入模式选**和当地保护组织结成战略联盟**；列出三条需要调整的地方 |
+| 参考文献 | 13 条，**包括 Mini-Lecture 课件**（如 “Costales, E. (2024) Mini-Lecture 1.1, BUSI1764 … University of Greenwich, unpublished.”） | 12 条，学术文献为主 |
+
+**能学的地方**
+1. 结构完全跟着 brief：概况与类型 → 创新 → 国际化。
+2. **“为什么不是另外三种”逐条写**，每条一句理由 + 一个出处。两份范例都这样做。
+3. 创新部分选**一个**创新点，判断类型，说明为什么不是另外三种，再判断程度。
+4. **课件可以当参考文献**（unpublished 讲义格式），这样理论定义有出处。
+5. tutorial 经历写得具体：案例名 + 你们组的判断 + 连到自己的企业。
+
+**范例的不足（你可以做得更好）**
+- 范例 1 的国际创业判断只写了半句（“currently focused on Brazil”），理由偏弱。
+- 范例 2 有明显的错字和病句（“The church was started…”，其实指的是组织），还有一段把自己的组织当成“我们的地区”。交之前一定要检查语言。
+- 两份的 tutorial 经历都只有一两句。**你的 tutorial 笔记更详细，这一项可以拿更多分。**
