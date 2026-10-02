@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>登录 · MBA 学习助手</title>
+  <meta name="theme-color" content="#1f3a68">
+  <meta name="robots" content="noindex">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    body { padding: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .login { width: 100%; max-width: 360px; padding: 16px; }
+    .login img { width: 64px; height: 64px; display: block; margin: 0 auto 12px; }
+    .login h1 { text-align: center; }
+    .err { color: var(--danger); font-size: .9rem; min-height: 1.4em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <main class="login">
+    <img src="icon.svg" alt="">
+    <h1>MBA 学习助手</h1>
+    <form id="f" class="card">
+      <label for="pw">密码</label>
+      <input id="pw" type="password" autocomplete="current-password" inputmode="text" required autofocus>
+      <div class="err" id="err"></div>
+      <div class="btn-row" style="margin-top:8px"><button class="btn" type="submit" style="width:100%">登录</button></div>
+    </form>
+  </main>
+  <script>
+    const f = document.getElementById('f'), err = document.getElementById('err');
+    f.addEventListener('submit', async e => {
+      e.preventDefault();
+      err.textContent = '';
+      const btn = f.querySelector('button'); btn.disabled = true; btn.textContent = '登录中…';
+      try {
+        const r = await fetch('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: document.getElementById('pw').value }) });
+        const j = await r.json().catch(() => ({}));
+        if (r.ok) { location.replace('/'); return; }
+        err.textContent = j.message || '登录失败（' + r.status + '）';
+      } catch { err.textContent = '网络错误，请检查网络后重试'; }
+      btn.disabled = false; btn.textContent = '登录';
+    });
+  </script>
+</body>
+</html>

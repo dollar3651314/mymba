@@ -127,7 +127,7 @@ th { color: var(--muted); font-weight: 600; font-size: .82rem; }
 
 form label { display: block; font-weight: 600; font-size: .9rem; margin: 12px 0 4px; }
 form .hint { font-weight: 400; color: var(--muted); font-size: .8rem; }
-input[type=text], input[type=date], input[type=number], input[type=search], select, textarea {
+input[type=text], input[type=password], input[type=date], input[type=number], input[type=search], select, textarea {
   width: 100%; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px;
 }
 textarea { min-height: 90px; resize: vertical; }

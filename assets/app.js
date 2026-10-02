@@ -4,13 +4,68 @@
   const $app = document.getElementById('app');
   const DAY = 86400000;
 
-  // ---------- 本地存储（只保存在这台设备的浏览器里） ----------
-  const store = {
+  // ---------- 数据存储：服务器为准，内存缓存 + 批量同步 ----------
+  // theme 是每台设备自己的偏好，只存在本机
+  const local = {
     get(k, d) { try { const v = localStorage.getItem('mba:' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
-    set(k, v) { try { localStorage.setItem('mba:' + k, JSON.stringify(v)); } catch { toast('无法保存：浏览器禁止了本地存储'); } },
-    del(k) { try { localStorage.removeItem('mba:' + k); } catch {} },
-    keys() { try { return Object.keys(localStorage).filter(k => k.startsWith('mba:')); } catch { return []; } },
+    set(k, v) { try { localStorage.setItem('mba:' + k, JSON.stringify(v)); } catch {} },
   };
+  let state = {};
+  const pending = { set: {}, del: new Set() };
+  let flushTimer = null, flushing = false, syncState = 'ok';
+  function setSync(s) {
+    syncState = s;
+    const el = document.getElementById('sync');
+    if (el) el.textContent = { ok: '', saving: '保存中…', error: '⚠ 未保存，点此重试' }[s];
+  }
+  function schedule() { clearTimeout(flushTimer); setSync('saving'); flushTimer = setTimeout(flush, 400); }
+  async function flush() {
+    if (flushing) { schedule(); return; }
+    const body = { set: pending.set, del: [...pending.del] };
+    if (!Object.keys(body.set).length && !body.del.length) { setSync('ok'); return; }
+    pending.set = {}; pending.del = new Set();
+    flushing = true;
+    try {
+      const r = await api('/api/data', { method: 'POST', body });
+      if (!r.ok) throw new Error(r.status);
+      setSync(Object.keys(pending.set).length || pending.del.size ? 'saving' : 'ok');
+    } catch {
+      // 失败的改动放回队列（不覆盖期间的新改动）
+      for (const [k, v] of Object.entries(body.set)) if (!(k in pending.set) && !pending.del.has(k)) pending.set[k] = v;
+      for (const k of body.del) if (!(k in pending.set)) pending.del.add(k);
+      setSync('error');
+    } finally { flushing = false; }
+  }
+  const store = {
+    get(k, d) { return k === 'theme' ? local.get(k, d) : (k in state ? state[k] : d); },
+    set(k, v) {
+      if (k === 'theme') return local.set(k, v);
+      state[k] = v; pending.set[k] = v; pending.del.delete(k); schedule();
+    },
+    del(k) { delete state[k]; delete pending.set[k]; pending.del.add(k); schedule(); },
+    keys() { return Object.keys(state); },
+  };
+  async function api(url, { method = 'GET', body } = {}) {
+    const r = await fetch(url, { method, credentials: 'same-origin', headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
+    if (r.status === 401) { location.replace('/login.html'); throw new Error('auth'); }
+    return r;
+  }
+  async function loadState() {
+    const r = await api('/api/data');
+    if (!r.ok) throw new Error(r.status);
+    state = (await r.json()).items || {};
+  }
+  // 第一版把数据存在浏览器里；服务器还没有数据时，自动上传本机旧数据
+  function migrateLocal() {
+    if (Object.keys(state).length || local.get('migrated', false)) return;
+    local.set('migrated', true);
+    try {
+      const old = Object.keys(localStorage).filter(k => k.startsWith('mba:') && k !== 'mba:theme');
+      if (!old.length) return;
+      for (const k of old) { try { store.set(k.slice(4), JSON.parse(localStorage.getItem(k))); } catch {} }
+      toast('已把本机原有的笔记和进度上传到服务器');
+    } catch {}
+  }
 
   // ---------- 工具函数 ----------
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -282,7 +337,7 @@
       <div class="callout info">每次 tutorial 下课后 10 分钟内用中文记下来。两份作业都要求写你在 tutorial 里的真实经历，A2 的反思部分占 30%。</div>
       <div class="btn-row" style="margin:0 0 16px"><a class="btn" href="#/notes/new">新建笔记</a>${notes.length ? `<button class="btn ghost" id="copy-all">全部复制发给 Claude</button><button class="btn ghost" id="dl-all">下载 .md</button>` : ''}</div>`;
     h += notes.length ? notes.map(noteCard).join('') : `<div class="card empty">还没有笔记。</div>`;
-    h += `<p class="small muted">笔记只保存在这台设备的浏览器里。换手机或清除浏览器数据前，请到 <a href="#/settings">设置</a> 导出备份。</p>`;
+    h += `<p class="small muted">笔记保存在服务器上，手机和电脑登录后都能看到。</p>`;
     return h;
   };
   views.noteForm = (mode, a, b) => {
@@ -350,7 +405,7 @@
   }
   views.grades = () => {
     const grades = store.get('grades', {});
-    let h = `<a class="back" href="#/tools">‹ 工具</a><h1>成绩计算</h1><p class="muted small">拿到分数后录入，自动计算课程总分、及格还需要多少分和学位等级。只保存在本机。</p>`;
+    let h = `<a class="back" href="#/tools">‹ 工具</a><h1>成绩计算</h1><p class="muted small">拿到分数后录入，自动计算课程总分、及格还需要多少分和学位等级。</p>`;
     for (const m of M.modules) {
       const g = grades[m.id] || {};
       h += `<div class="card"><h3>${esc(m.code)} ${esc(m.zh)}</h3>${m.assessments.map(a => `<label class="small" style="display:flex;align-items:center;gap:10px;margin:8px 0"><span style="flex:1">${esc(a.zh)}（${a.weight}%）</span>
@@ -408,9 +463,16 @@
       ${M.terms.map(t => `<label>${esc(t.name)} <span class="hint">${esc(t.period)}</span></label><input type="date" data-term="${t.id}" value="${esc(termStart(t))}">`).join('')}
       <p class="small" style="margin-top:8px">今天是 ${esc(currentTerm().name)}第 <b>${currentWeek(currentTerm())}</b> 周</p></div>
     <div class="card"><h3>显示</h3><div class="chips" style="margin:0">${[['', '跟随系统'], ['light', '浅色'], ['dark', '深色']].map(([v, l]) => `<button class="chip ${theme === v ? 'on' : ''}" data-theme-set="${v}">${l}</button>`).join('')}</div></div>
-    <div class="card"><h3>备份</h3><p class="small muted">笔记、勾选和成绩只保存在这台设备的浏览器里，不会上传。换设备或清除浏览器数据前请先导出。</p>
+    <div class="card"><h3>登录密码</h3>${defaultPw ? '<div class="callout">你还在用默认密码 123456，建议马上修改。</div>' : ''}
+      <form id="pw-form"><label>当前密码</label><input type="password" name="current" autocomplete="current-password" required>
+      <label>新密码 <span class="hint">至少 6 位</span></label><input type="password" name="next" autocomplete="new-password" minlength="6" required>
+      <label>再输一次新密码</label><input type="password" name="again" autocomplete="new-password" minlength="6" required>
+      <div class="btn-row"><button class="btn" type="submit">修改密码</button></div></form>
+      <p class="small muted" style="margin-top:8px">修改后，其他已登录的浏览器需要用新密码重新登录。</p>
+      <div class="btn-row"><button class="btn ghost" id="logout">退出登录</button></div></div>
+    <div class="card"><h3>数据与备份</h3><p class="small muted">笔记、勾选和成绩保存在服务器上，换浏览器或换手机登录后都能看到。深浅色设置只对当前设备生效。建议每月导出一次备份。</p>
       <div class="btn-row"><button class="btn" id="export">导出备份</button><label class="btn ghost" style="margin:0">导入备份<input type="file" id="import" accept="application/json,.json" hidden></label></div>
-      <div class="btn-row"><button class="btn danger" id="wipe">清除本机所有数据</button></div></div>`;
+      <div class="btn-row"><button class="btn danger" id="wipe">清除服务器上的所有数据</button></div></div>`;
   };
 
   const notFound = () => `<div class="empty">页面不存在。<br><a href="#/">回到首页</a></div>`;
@@ -475,7 +537,7 @@
       t.files[0].text().then(txt => {
         const data = JSON.parse(txt);
         if (!data || data.app !== 'mba-helper') throw new Error();
-        for (const [k, v] of Object.entries(data.items)) store.set(k, v);
+        for (const [k, v] of Object.entries(data.items)) if (k !== 'theme') store.set(k, v);
         toast('导入成功'); render();
       }).catch(() => toast('导入失败：文件格式不对'));
     }
@@ -510,14 +572,28 @@
     if (t.id === 'reset-submit') { M.submitChecklist.forEach((_, i) => store.del(`chk:submit:${i}`)); render(); }
     if (t.dataset.themeSet !== undefined) { store.set('theme', t.dataset.themeSet); applyTheme(); render(); }
     if (t.id === 'export') {
-      const items = {}; store.keys().forEach(k => { items[k.slice(4)] = store.get(k.slice(4)); });
+      const items = { ...state };
       download(`mba-backup-${iso(today())}.json`, JSON.stringify({ app: 'mba-helper', exported: new Date().toISOString(), items }, null, 2), 'application/json');
     }
-    if (t.id === 'wipe' && confirm('确定清除本机所有笔记、勾选和成绩？此操作无法撤销。建议先导出备份。')) {
-      store.keys().forEach(k => { try { localStorage.removeItem(k); } catch {} }); applyTheme(); toast('已清除'); render();
+    if (t.id === 'wipe' && confirm('确定清除服务器上所有笔记、勾选和成绩？所有设备都会被清空，无法撤销。建议先导出备份。')) {
+      clearTimeout(flushTimer); pending.set = {}; pending.del = new Set();
+      api('/api/data', { method: 'DELETE' }).then(r => { if (!r.ok) throw 0; state = {}; toast('已清除'); render(); }).catch(() => toast('清除失败，请重试'));
     }
+    if (t.id === 'logout') {
+      flush().finally(() => fetch('/api/logout', { method: 'POST' }).finally(() => location.replace('/login.html')));
+    }
+    if (t.id === 'sync' && syncState === 'error') flush();
   });
-  document.addEventListener('submit', e => {
+  document.addEventListener('submit', async e => {
+    if (e.target.id === 'pw-form') {
+      e.preventDefault();
+      const f = Object.fromEntries(new FormData(e.target).entries());
+      if (f.next !== f.again) { toast('两次输入的新密码不一样'); return; }
+      const r = await api('/api/password', { method: 'POST', body: { current: f.current, next: f.next } }).catch(() => null);
+      const j = r ? await r.json().catch(() => ({})) : {};
+      if (r && r.ok) { defaultPw = false; toast('密码已修改'); render(); } else toast(j.message || '修改失败，请重试');
+      return;
+    }
     if (e.target.id !== 'note-form') return;
     e.preventDefault();
     const f = new FormData(e.target);
@@ -535,9 +611,34 @@
     if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
   }
 
-  applyTheme();
-  const d = today();
-  document.getElementById('today').textContent = `${d.getMonth() + 1}月${d.getDate()}日 ${'周' + '日一二三四五六'[d.getDay()]}`;
-  window.addEventListener('hashchange', render);
-  render();
+  let defaultPw = false;
+  async function start() {
+    applyTheme();
+    const d = today();
+    document.getElementById('today').textContent = `${d.getMonth() + 1}月${d.getDate()}日 ${'周' + '日一二三四五六'[d.getDay()]}`;
+    $app.innerHTML = '<div class="empty">加载中…</div>';
+    try {
+      const [, sess] = await Promise.all([loadState(), api('/api/session').then(r => r.json()).catch(() => ({}))]);
+      defaultPw = Boolean(sess.defaultPassword);
+    } catch (e) {
+      if (e.message === 'auth') return;
+      $app.innerHTML = '<div class="empty">无法连接服务器，请检查网络后<a href="javascript:location.reload()">刷新</a>。</div>';
+      return;
+    }
+    migrateLocal();
+    window.addEventListener('hashchange', render);
+    render();
+    if (defaultPw) toast('还在用默认密码，请到 工具 → 设置 修改');
+    // 切回这个页面时，拉取其他设备的最新进度
+    document.addEventListener('visibilitychange', async () => {
+      if (document.visibilityState !== 'visible' || syncState !== 'ok') return;
+      try {
+        const before = JSON.stringify(state);
+        await loadState();
+        if (JSON.stringify(state) !== before && !document.activeElement?.matches('input, textarea, select')) render();
+      } catch {}
+    });
+    window.addEventListener('pagehide', () => { if (Object.keys(pending.set).length || pending.del.size) navigator.sendBeacon?.('/api/data', new Blob([JSON.stringify({ set: pending.set, del: [...pending.del] })], { type: 'application/json' })); });
+  }
+  start();
 })();
