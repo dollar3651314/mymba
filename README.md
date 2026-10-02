@@ -18,7 +18,8 @@ University of Greenwich MBA（LSBF 新加坡校区）的中文学习引导网站
 
 1. 在 Vercel 中 Import 这个 GitHub 仓库
 2. Framework Preset 选 **Other**，Build Command 和 Output Directory 留空
-3. **添加数据库**：项目页 → Storage → Create Database → 选 **Upstash for Redis**（免费档即可）→ 连接到本项目（Production、Preview、Development 都勾上）
+3. **添加数据库**：项目页 → Storage → Create Database → 选 **Upstash for Redis**（免费档即可）→ 连接到本项目（Production、Preview、Development 都勾上）。
+   已经有 Upstash 数据库（比如给别的项目建的）也可以直接共用：Storage 里点开那个数据库 → Connect Project → 选本项目。本项目的数据都以 `mba:` 开头，不会和其他项目冲突；环境变量前缀可以随意填
 4. 到 Deployments 里对最新部署点 **Redeploy**，让环境变量生效
 5. 打开网站，用默认密码 `123456` 登录，然后马上在设置里改密码
 
