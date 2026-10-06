@@ -147,6 +147,17 @@
   const progressOf = keys => { const done = keys.filter(k => store.get('chk:' + k, false)).length; return { done, total: keys.length, pct: keys.length ? Math.round(done / keys.length * 100) : 0 }; };
 
   // ---------- 汇总数据 ----------
+  const READY = { go: ['可以开始', 'ok'], partial: ['可以先做一部分', 'accent'], wait: ['还不能开始', 'warn'] };
+  function readyCard(mid, aid, full) {
+    const r = (M.readiness || {})[`${mid}/${aid}`]; if (!r) return '';
+    const [label, cls] = READY[r.status] || READY.wait;
+    if (!full) return `<span class="pill ${cls}">${label} · ${r.pct}%</span>`;
+    return `<div class="card ready"><div class="card-title"><h3>能开始写了吗？</h3><span class="pill ${cls}">${label}</span></div>
+      <div class="progress"><i style="width:${r.pct}%"></i></div><p class="small muted">资料和条件约齐了 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估，每收到一节课的录音都会更新）</p>
+      <h4>已经有了</h4><ul>${r.have.map(x => `<li>${x}</li>`).join('')}</ul>
+      <h4>还差</h4><ul>${r.missing.map(x => `<li>${x}</li>`).join('')}</ul>
+      <div class="callout info"><b>下一步：</b>${r.next}</div></div>`;
+  }
   function allAssessments() {
     return M.modules.flatMap(m => m.assessments.map(a => ({ m, a })));
   }
@@ -190,6 +201,10 @@
       </a>`;
     }
 
+    const rd = allAssessments().filter(({ m }) => termMods.includes(m)).filter(({ m, a }) => (M.readiness || {})[`${m.id}/${a.id}`]);
+    if (rd.length) {
+      h += `<h2>作业准备度</h2><div class="card"><p class="small muted">资料够不够开始写？点进去看还差什么。</p><ul class="list">${rd.map(({ m, a }) => `<li><div class="grow"><a href="#/a/${m.id}/${a.id}">${esc(m.code)} ${esc(a.zh)}</a><div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${readyCard(m.id, a.id)}</li>`).join('')}</ul></div>`;
+    }
     const prev = pendingPreviews();
     if (prev.length) {
       h += `<h2>要预习的课 <span class="pill accent">${prev.length} 节</span></h2><div class="card"><p class="small muted">这些课 7 天内就要上。请到 Canvas / Moodle 下载这一周的<b>课件（tutorial slides 和 mini-lecture）</b>发给 Claude，Claude 会做好预习包放在课程页面上。</p><ul class="list">${prev.map(({ m, x, w }) => `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${parseDate(x.d).getMonth() + 1}月</div>
@@ -376,6 +391,7 @@
       <h1>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h1>
       <div class="card"><dl class="kv">${goal(m, a) < a.due ? `<dt>我的目标</dt><dd><b>${fmt(goal(m, a))}（${wk(goal(m, a))}）</b> ${duePill(n)}</dd><dt>官方截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）</dd>` : `<dt>截止</dt><dd>${fmt(a.due)}（${wk(a.due)}）${duePill(n)}</dd>`}<dt>形式</dt><dd>${esc(lenLabel(a))}</dd><dt>权重</dt><dd>占课程总分 <b>${a.weight}%</b></dd><dt>及格</dt><dd>50 分</dd><dt>学习目标</dt><dd>LO ${a.lo.join(', ')}</dd></dl>
       <p class="small muted" style="margin-top:8px">具体截止时间以 Moodle 为准。截止后 2 天为宽限期；建议提前一天提交。</p></div>
+      ${readyCard(mid, aid, true)}
       ${(a.notes || []).map(x => `<div class="callout">${x}</div>`).join('')}
       <div class="chips"><a class="chip" href="#s-brief">要求</a>${a.materials ? '<a class="chip" href="#s-mat">素材库</a><a class="chip" href="#s-mine">我的笔记</a>' : ''}${(a.sections || []).map((x, i) => `<a class="chip" href="#s-g${i}">${esc(x.chip || x.t)}</a>`).join('')}<a class="chip" href="#s-rubric">评分</a>${(a.outline || []).length ? '<a class="chip" href="#s-outline">结构</a>' : ''}<a class="chip" href="#s-pit">易错</a><a class="chip" href="#s-plan">计划</a><a class="chip" href="#s-check">清单</a></div>
       ${a.materials ? await (async () => {

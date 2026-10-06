@@ -170,3 +170,6 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 .outline-item:last-child { border-bottom: 0; }
 .outline-item .top { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; margin-bottom: 2px; }
 .outline-item .g { font-size: .92rem; }
+.card.ready h4 { margin: 10px 0 4px; font-size: .95rem; }
+.card.ready ul { margin: 0 0 8px; padding-left: 1.2em; }
+.card.ready .callout { margin: 8px 0 0; }
