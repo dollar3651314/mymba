@@ -20,7 +20,6 @@ MBA.addModule({
   todos: [
     { d: '2026-10-03', t: '定下 4 人小组和组长，选一家英国公司，选方向（全球化 / 逆全球化，老师建议区域一体化）' },
     { d: '2026-10-03', t: '课上问清：10/31 是练习展示（formative）还是正式展示？要不要在 Turnitin 交 Mind Map 照片 + PPT？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？GVC/GPN 算不算可选理论？引用用 Harvard 还是 APA？' },
-    { d: '2026-10-03', t: '课前看完预习包；课后把第 2 次课录音发给 Claude' },
   ],
   people: [
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
