@@ -11,15 +11,16 @@ MBA.addModule({
   alerts: [
     '<b>这份手册是没写完的草稿</b>：里面还留着给老师的批注，第 7、8 周内容是空的，小组人数写了 3 人、4 人、3–5 人三种说法，展示安排在第 7–9 周、截止日期却写 11 月 20 日，还写着“形成性评估”却又占 40%。<b>请向老师确认：小组人数、展示日期、选题范围。</b>',
     '<b>第 1 次课老师说：小组展示在 10 月 31 日</b>（双节课：上午准备，下午正式展示），个人反思报告 <b>12 月 2 日</b>截止。这两个日期都比手册早，网站已按老师说的日期安排。',
-    '小组 4 人，<b>自己组队</b>（老师不分配、不传话），全班 41 人。还没组的要马上找组。',
+    '小组 4 人，<b>自己组队</b>（老师不分配、不传话），全班约 40 人。10/10 老师又说：第 5、6 周别再说没有组；组员不合作可以换组。',
+    '签到二维码<b>开课前 15 分钟（8:15）开放，约半小时后失效</b>。',
     '学习建议：别拍照截图课件，用<b>纸笔手写笔记</b>；去问往届（intake 1、2）的同学看他们的作品。',
     '<b>Moodle 上的资料都是 2025 年（甚至 2024 年）的旧版</b>：手册写展示 2025-11-19、报告 2025-12-08；Tip 写 2024 年 11 月。<b>日期一律以老师课上说的为准</b>，规则（评分标准、理论清单）可以参考。',
-    '<b>Tip 里的流程值得注意</b>：第 6、7 周先做一次<b>形成性展示（练习，6–8 分钟，每人约 2 分钟）</b>听老师意见，之后才是正式展示。我们的第 6、7 次课正好都在 <b>10/31</b>，所以 10/31 可能是“练习展示”，正式展示可能在 11/21（第 9、10 次课）。<b>10/3 一定要问清楚。</b>在问清楚之前，按 10/31 正式展示来准备，不会吃亏。',
+    '<b>10/10 老师确认：10/31 就是小组展示日</b>（约 10 组，每组 15–20 分钟，没有固定顺序，看重时间控制）。<b>11/14（第 8 次课）也有展示</b>：请假的组在这天展示，老师还说 11/14 可能是“recovery session”，给 10/31 表现不好的组再来一次——具体怎么算分录音不清，10/17 再问。',
     '<b>每组的研究对象不能重复</b>（Tip：两组不能做同一家公司，例如 Tata）。研究对象可以是一家跨国公司、一个国家或一个国际机构，但老师建议选<b>英国公司</b>。<b>尽早把公司报给老师占位。</b>',
   ],
   todos: [
     { d: '2026-10-03', t: '定下 4 人小组和组长，选一家英国公司，选方向（全球化 / 逆全球化，老师建议区域一体化）' },
-    { d: '2026-10-03', t: '课上问清：10/31 是练习展示（formative）还是正式展示？要不要在 Turnitin 交 Mind Map 照片 + PPT？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？GVC/GPN 算不算可选理论？引用用 Harvard 还是 APA？' },
+    { d: '2026-10-17', t: '课上问清：11/14 的“recovery session”是什么——10/31 表现不好的组能重新展示提高分数吗？展示后要不要在 Turnitin 交 Mind Map 照片 + PPT？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？GVC/GPN 算不算可选理论？引用用 Harvard 还是 APA？' },
   ],
   people: [
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
@@ -60,7 +61,7 @@ MBA.addModule({
   weeks: [
     { n: 1, en: 'De/Globalism vs. Regionalism – Geographical approach', zh: '全球化 / 逆全球化 vs. 区域主义（地理视角）', use: ['a', 'b'], rec: true, notes: true, detail: '<p>可选理论：<b>Globalisation（全球化）</b>、<b>De-globalisation（逆全球化）</b></p><p>学习目标：分组、选公司、找 8 篇文章。</p><p>Tutorial 阅读：Chase-Dunn (2023) 结构性逆全球化浪潮；Farrell & Newman (2020) 来不及脱钩了；Ripsman (2021) 全球化、逆全球化与大国政治。</p>' },
     { n: 2, en: 'Regional Integration and the Role of Institutions through Political Economic View', zh: '区域一体化与制度的作用（政治经济学视角）', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>可选理论：<b>Regional Integration（区域一体化）</b>、<b>Political Economy（政治经济学）</b></p><p>第 2 周结束前要把小组名单交给老师，没有小组的会被分配。</p><p>Tutorial 阅读：Alami & Dixon (2019) 国家资本主义；Doner (1992) 国家能力的局限；Jetschke & Murray (2012) 欧盟与东盟的区域一体化。</p>' },
-    { n: 3, en: 'Diversification: M&A and/or FDI?', zh: '多元化：并购和 / 或 FDI？', use: ['a', 'b'], pre: true, detail: '<p>⚠️ Moodle 上第 3 讲是 M&A 和 FDI（手册写在第 4 周），网站按 Moodle 的顺序。</p><p>可选理论：<b>FDI（对外直接投资）</b>、<b>M&A（并购）</b>。往届样例 1（Unilever）、样例 3（Tesla）用的就是这两个。</p><p>Tutorial 阅读：Gopalan et al. (2017) 新建投资 vs. 并购；Chattopadhyay et al. (2021) 金砖国家 FDI；Lebedev et al. (2015) 新兴经济体的并购。</p>' },
+    { n: 3, en: 'Diversification: M&A and/or FDI?', zh: '多元化：并购和 / 或 FDI？', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>⚠️ Moodle 上第 3 讲是 M&A 和 FDI（手册写在第 4 周），网站按 Moodle 的顺序。</p><p>可选理论：<b>FDI（对外直接投资）</b>、<b>M&A（并购）</b>。往届样例 1（Unilever）、样例 3（Tesla）用的就是这两个。</p><p>Tutorial 阅读：Gopalan et al. (2017) 新建投资 vs. 并购；Chattopadhyay et al. (2021) 金砖国家 FDI；Lebedev et al. (2015) 新兴经济体的并购。</p>' },
     { n: 4, en: 'MNEs from Emerging Economies and Advanced Economies', zh: '新兴经济体和发达经济体的跨国企业', use: ['a', 'b'], pre: true, detail: '<p>可选理论：<b>MNEs from emerging economies</b>、<b>MNEs from advanced economies</b>。讲稿说第 8 张幻灯片（MNE vs. 东道国）可以用来搭 Mind Map。</p><p>Tutorial 阅读：Fu (2021)；Moschieri et al. (2022)；van der Straaten et al. (2023)。</p>' },
     { n: 5, en: 'Competitive Advantage Mapping within Global Value Chains: From Firm Activities to Global Networks', zh: '全球价值链中的竞争优势：从企业活动到全球网络', use: ['a', 'b'], detail: '<p>2025-26 手册把 <b>Global Value Chains / Global Production Networks</b> 也列为可选理论（Tip 只列了 8 个），待老师确认。</p><p>按 Tip：第 5 周起开始设计 Mind Map。</p>' },
     { n: 6, en: 'Internationalisation of SMEs – Challenges, Strategies, and Global Opportunities', zh: '中小企业国际化：挑战、战略与全球机会', use: ['a'], detail: '<p>学习目标：找公司财务报表，分析公司发展和战略地位。</p><p>本次课和第 7 次课都在 10/31（老师说的展示日）。</p>' },
@@ -77,11 +78,11 @@ MBA.addModule({
       en: 'Mind-Map Poster and Group Presentation',
       zh: 'Mind Map 海报与小组展示',
       due: '2026-10-31',
-      tbc: true,
       weight: 40,
       length: 'A1 实体海报 + 20 分钟展示',
       lo: [1, 2, 3, 4, 5],
       notes: [
+        '<b>10/10 老师确认 10/31 是展示日</b>，11/14 有补充场次（见课程页提醒）。老师说<b>答问不给准备时间、提问会很严格</b>（“no scripts, no preparation, you better be prepared”）——每人都要能用自己的话解释自己的理论和它的弊端。',
         '<b>日期按老师第 1 次课说的 10 月 31 日（周六）下午</b>安排：上午是准备时间，下午正式展示。手册写 11 月 20 日，录音里也提到 11 月 20 日，可能是另一个提交节点，<b>10 月 3 日课上确认</b>。',
         '<b>老师的展示规则</b>：20 分钟 = 每人 <b>4 分钟讲 + 1 分钟答问</b>（4 人一组）；组内顺序自己定；没准时到或没准备好会扣分；穿正式一点；线上参加必须开摄像头。',
         '<b>老师的选题建议</b>：只选一个方向深入（全球化或逆全球化）；如果做全球化，聚焦<b>区域一体化</b>；<b>只用一个理论</b>；优先选<b>英国公司</b>（英国复核老师更认同）；要举例说明其他公司怎么做。',
