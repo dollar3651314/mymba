@@ -14,12 +14,13 @@ MBA.addModule({
     '课程要求提交一份 <b>AI 使用报告</b>（Moodle 上的手册和两份 brief 都没提到，可能在 Canvas，10/6 问老师）。',
     '<b>第 1 周 tutorial 课件提醒：个人报告要用的内容在第 2、3 周的讲座里讲</b>（认知偏差、数字为什么会说谎）。这两周的笔记要记好——报告第 4 部分“数据完整性与认知偏差”就靠它们。',
     'Moodle 上第 1 周的课件和 tutorial 课件是英国 2024-25 / 4 月批次的版本，里面写的截止日期（6 月、7 月）<b>不适用</b>，以我们的课表和老师说的为准。',
+    '<b>10/10 老师说：作业要开始做了</b>，和小组一起推进；组内有问题或看不懂题目，<b>发邮件给老师</b>。',
     '<b>tutorial 要用 Excel 做表和图</b>（必须用公式，不能手填总数）。上课带装了 Excel 的个人电脑。',
   ],
   todos: [
     { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
-    { d: '2026-10-06', t: '课后把录音、你的小组名单发给 Claude；问老师 AI 使用报告的要求' },
-    { d: '2026-10-06', t: '课上问清：小组 4 人还是 5 人？你们组 11/24 还是 11/28 展示？' },
+    { d: '2026-10-14', t: '第 2、3 次课都没讲小组人数、展示日期、AI 使用报告：<b>发邮件问老师</b>（老师 10/10 说有问题可以发邮件），或问组长；你在哪个组、几个人，告诉 Claude' },
+    { d: '2026-10-16', t: '10/17 下次课（周六 15:30）老师说“更技术性”，<b>课前读第 4 周课件</b>；老师提到下节课讲“假设（hypothesis）”，和网站第 4 周“评估报告”不同——下载 Canvas 第 4 周课件发给 Claude 核对' },
   ],
   people: [
     { role: '课程负责人（英国）', name: 'Rhonda A. Best', email: 'r.a.best@greenwich.ac.uk' },
@@ -58,7 +59,7 @@ MBA.addModule({
   weeks: [
     { n: 1, en: 'Introduction to International Data Analytics', zh: '国际数据分析导论', rec: true, notes: true, detail: '<p>Tutorial：评估你的起点水平；练习：雕塑家画廊 vs. 自己卖的 Excel 对比。</p><p>阅读：James Bell Associates (2018) 数据驱动决策指南；van Es (2022) Netflix 与大数据。</p>' },
     { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：认知偏差如何影响决策。练习：Maya 咖啡车 Excel 建模 + “偏差大战”说服游戏 + 200–250 词小报告。</p><p>阅读：Hammond et al. (1998) 决策中的隐藏陷阱；Soll et al. (2015) 战胜自己的偏差；Soll et al. (2013) 去偏差指南；Lovallo, Kahneman et al. (2020) 你的公司太规避风险。</p>' },
-    { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], pre: true, detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p><p><b>Moodle 本周放了往届个人报告样例（评估 McKinsey 报告，72 分）和老师反馈</b>，拆解见个人报告素材库。必读：De Veaux & Hand (2005) How to Lie with Bad Data。</p>' },
+    { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p><p><b>Moodle 本周放了往届个人报告样例（评估 McKinsey 报告，72 分）和老师反馈</b>，拆解见个人报告素材库。必读：De Veaux & Hand (2005) How to Lie with Bad Data。</p>' },
     { n: 4, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], pre: true, detail: '<p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课</b>（课件每部分都标着 Important for Assessment 1），练习评估 BCG 报告的图表。</p><p>讲座：McKinsey (2018) 多元化与财务表现（文件名写 Lecture 6，Moodle 放在第 4 周）；Excel 练习：50 家公司数据的描述统计、散点图、相关系数。必读：教材第 7 章 Visualising Data Effectively。</p>' },
     { n: 5, en: 'Visualizing Data: Simple descriptive statistics', zh: '数据可视化：简单描述统计', use: ['a', 'b'], detail: '<p>Tutorial：应用描述统计；报告写作辅导</p>' },
     { n: 6, en: 'Analysing Surveys results to test hypotheses', zh: '分析调查结果以检验假设', use: ['a', 'b'], detail: '<p>Tutorial：应用假设检验；报告写作辅导</p>' },
