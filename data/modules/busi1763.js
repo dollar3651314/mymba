@@ -66,11 +66,11 @@ MBA.addModule({
     { n: 5, en: 'Western Money vs. Asian Values', zh: '西方资本 vs. 亚洲价值观', use: ['a', 'b'], pre: true, detail: '<p>⚠️ <b>Moodle 第 5 讲是这个主题</b>（10/13 下载的课件）；网站原来按 2025-26 手册写的“全球价值链”在 Moodle 上没有，<b>10/17 问老师确认</b>。</p><p>不是新的可选理论，但能补 Mind Map 的 CSR / 可持续 / 弊端部分：道德两难（童工、性别薪酬差距、监管、腐败、避税）、英美 vs. 欧洲大陆 CSR 对比、亚洲商业网络（关系、信任）。</p><p>Seminar 阅读：Ardichvili et al. (2010) 13 国道德商业文化；Koehn (2013) 东西方美德伦理；Sen (1997) 商业原则与道德情操。</p>' },
     { n: 6, en: 'Corporate Diplomacy under patriotic national regionalism', zh: '企业外交：民族主义和区域化下的企业外交官', use: ['a', 'b'], pre: true, detail: '<p>10/31 上午，和小组展示同一天，以老师当天安排为准（按 Moodle 第 6 讲；“中小企业国际化”“全球价值链”两讲 Moodle 上没有）。不是新的可选理论，可以给答问补例子：MNE 和政府的关系、经营许可、传统外交 vs. 企业外交、脱欧银行 / 道达尔和伊朗制裁。</p><p>Seminar 阅读：Asquer (2012) 什么是企业外交；Bolewski (2018) 企业外交作为全球管理；Henisz (2016) 企业外交的动态能力。</p>' },
     { n: 7, en: 'Confucius Goes Digital: China\'s Mobile IT Strategy in the ASEAN region', zh: '中国在东盟的移动 IT 战略（分裂的互联网）', use: ['a', 'b'], pre: true, detail: '<p>10/31 下午，可能被展示占用，以老师当天安排为准。Moodle 上这一节叫 “Cases Application and Conclusion”。不是新的可选理论，可以补例子：华为、中兴在东盟、先安装后融资、中美技术脱钩、分裂网。</p><p>Seminar 阅读：Hoffmann et al. (2020) 中国技术标准与分裂网；Mayer & Nock (2024/25) 数字碎片化；Nocetti (2024) 分裂的互联网（Ifri 智库报告）。</p>' },
-    { n: 8, en: 'Sustainability (Moodle Lecture 8, to be confirmed)', zh: '可持续发展（Moodle 第 8 讲，待确认）', use: ['b'], detail: '<p>11/14（也是补充展示 / recovery session）。Moodle 第 8 讲以后是：可持续发展、两次嘉宾讲座、废物管理——具体顺序下载后再核对。</p>' },
-    { n: 9, en: 'Guest lecture (to be confirmed)', zh: '嘉宾讲座（待确认）', use: ['b'], detail: '<p>按 Moodle 第 9 讲安排，下载后核对。</p>' },
-    { n: 10, en: 'Financial Market Failures', zh: '金融市场失灵', use: ['b'] },
-    { n: 11, en: 'Sustainable Finance', zh: '可持续金融', use: ['b'] },
-    { n: 12, en: 'Small Business and its Sustainability', zh: '小企业及其可持续性', use: ['b'] },
+    { n: 8, en: 'Sustainability in the Global Business Context', zh: '全球商业环境中的可持续发展', use: ['b'], detail: '<p>11/14（同一天也是补充展示 / recovery session）。Moodle 第 8 讲，Dr Yuliya Darmenova。</p>' },
+    { n: 9, en: 'Guest Lecture 1: Efficient Markets and Financial Market Failures', zh: '嘉宾讲座 1：有效市场与金融市场失灵', use: ['b'], detail: '<p>Moodle 第 9 讲（嘉宾讲座）。</p>' },
+    { n: 10, en: 'Guest Lecture 2: Sustainable Finance', zh: '嘉宾讲座 2：可持续金融', use: ['b'], detail: '<p>Moodle 第 10 讲（嘉宾讲座）。</p>' },
+    { n: 11, en: 'Waste Management and Environmental Crisis', zh: '废物管理与环境危机', use: ['b'], detail: '<p>Moodle 第 11 讲，Dr Yuliya Darmenova。</p>' },
+    { n: 12, en: 'Guest Speaker (not yet published)', zh: '嘉宾演讲（Moodle 上还没发布）', use: ['b'], detail: '<p>Moodle 第 12 讲 “Guest Speaker”，10/13 检查时还是空的。注意：个人反思报告 12/2 截止，这节课在截止之后。</p>' },
   ],
   assessments: [
     {
