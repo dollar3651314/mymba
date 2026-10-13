@@ -75,6 +75,11 @@
 
 ---
 
+## 第 6、7 讲能用的分析工具（10/13 收到课件）
+> **这是帮你看懂的线索，要用你自己的分析和语言写。** 只有在你们组真的发生过的时候才能用。
+- **第 6 讲 企业外交**：企业外交官的五个角色（代表、保护、谈判、信息、促进关系）可以对照小组里谁和老师沟通、谁协调分歧、谁收集资料；“纵向命令 vs. 横向谈判”可以描述小组怎样做决定。三篇阅读（Asquer 2012、Bolewski 2018、Henisz 2016）都早于 2020 年，只用来理解。
+- **第 7 讲 中国在东盟的移动 IT 战略**：如果你的理论是逆全球化或政治经济学，**Hoffmann, Lazanski & Taylor (2020)**（*Journal of Cyber Policy*，讲中国技术标准和互联网分裂）在 2020–2022 年范围内，可以考虑放进理论回顾（自己读过再用）。**Nocetti (2024)** 是智库报告、不是期刊论文，用之前先问老师。
+
 ## 可用的反思类文献线索（要自己在 Google Scholar 找到原文、确认发表年份）
 - 团队合作、反思学习的文献：在 Google Scholar 搜 "Gibbs reflective cycle business students"、"Belbin team roles student group work"、"Kolb experiential learning cycle"，用“自定义范围 2020–2022”。
 - 和理论相关的 2020–2022 年文献：Farrell & Newman (2020)、Ripsman (2021)（第 1 周阅读，正好在范围内）。
