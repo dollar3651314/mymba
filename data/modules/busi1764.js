@@ -74,8 +74,8 @@ MBA.addModule({
     { n: 8, en: 'Building and managing networks', zh: '建立和管理网络关系', use: ['a2'], notes: false, pre: true, detail: '<p>Lecture：网络与国际化网络理论、社会资本三种作用（主动利用 / 意外机缘 / 负担）、强关系与弱关系、6 种关系定义表。</p><p>Tutorial：比尔·盖茨的网络（HBR 文章）；画自己的网络图（Network Mapping 练习表）。<b>A1 截止（11/17）前最后一课；A2 第 4 节“资源与网络”的核心素材。</b></p>' },
     { n: 9, en: 'Entrepreneurial financing', zh: '创业融资', use: ['a2'], notes: false, pre: true, detail: '<p>Mini Lecture 9.1：短期 / 长期融资、自力更生、债务、天使、风投、IPO、战略伙伴；9.2：众筹四种类型和平台。</p><p>Tutorial：制造业初创企业营运资金情景（4 问）；Ryla 风投案例。<b>A2 第 5 节“融资”的核心一课。</b></p>' },
     { n: 10, en: 'Entrepreneurial marketing', zh: '创业营销', use: ['a2'], notes: false, pre: true, detail: '<p>Lecture 10：创业营销 vs. 传统营销、市场调研、STP、品牌、4P 与七种定价策略。</p><p>Tutorial：JD 营销组合案例；<b>Part 3 作业 2 讲解：Gibbs 反思循环（A2 反思 30% 的框架）</b>——这节课一定录音。课太晚，11/20 前先自学。</p>' },
-    { n: 11, en: 'Intellectual property rights', zh: '知识产权', use: ['a2'], notes: false },
-    { n: 12, en: 'Digital entrepreneurship', zh: '数字创业', use: ['a2'], notes: false },
+    { n: 11, en: 'Intellectual property rights', zh: '知识产权', use: ['a2'], notes: false, pre: true, detail: '<p>讲座：知识产权 6 种类型、英国 4 部法律、IPEC、版权 / 商标 / 专利 / 外观设计 / 地理标志。Tutorial：HOTTA 电水壶案例（课件附答案）；<b>后半节是 A2 作业说明（Gibbs 反思循环，反思占 30%）——11/25 前先自学</b>。</p>' },
+    { n: 12, en: 'Digital entrepreneurship', zh: '数字创业', use: ['a2'], notes: false, pre: true, detail: '<p>讲座：数字创业、6 种数字商业模式、优缺点、数字化国际化。没有 tutorial 课件，案例是一整本书（Soltanifar et al. 2021），选读 MVP、众筹、数字国际化 3 章。<b>最后一周有 A2 一对一咨询；11/25 前先自学</b>。</p>' },
   ],
   assessments: [
     {

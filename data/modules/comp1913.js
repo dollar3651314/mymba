@@ -19,6 +19,7 @@ MBA.addModule({
   ],
   todos: [
     { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
+    { d: '2026-10-17', t: '课上问清：小组展示是 11/24 还是 11/28？幻灯片 10–15 页（第 9 周课件）还是 15–20 页（brief）？' },
     { d: '2026-10-14', t: '第 2、3 次课都没讲小组人数、展示日期、AI 使用报告：<b>发邮件问老师</b>（老师 10/10 说有问题可以发邮件），或问组长；你在哪个组、几个人，告诉 Claude' },
     { d: '2026-10-16', t: '10/17 下次课（周六 15:30）老师说“更技术性”，<b>课前读第 4 周课件</b>；老师说下节课讲“假设（hypothesis）”，课件编号 Lecture 4 也是假设检验——<b>10/17 前看第 4 周预习包（网站已按老师的讲次调整）</b>' },
   ],
@@ -65,10 +66,10 @@ MBA.addModule({
     { n: 6, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], pre: true, detail: '<p>📌 <b>按老师的讲次排</b>：Moodle 把课件放错了周次，但课件封面的编号是 Lecture 1–8，本地老师按这个编号上课（10/10 老师说下节课讲假设，正好是 Lecture 4）。所以网站把第 4↔6、7↔8 周对调了。</p><p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课</b>（课件每部分都标着 Important for Assessment 1），练习评估 BCG 报告的图表。</p><p>讲座：McKinsey (2018) 多元化与财务表现（课件封面写 Lecture 6，Moodle 放在第 4 周）。必读：教材第 7 章 Visualising Data Effectively。</p>' },
     { n: 7, en: 'Time series Analysis', zh: '时间序列分析', use: ['a', 'b'], pre: true, detail: '<p>课件封面写 Lecture 7（Moodle 放在第 8 周）。讲时间序列的趋势、季节性、移动平均，以及 Excel 预测工作表；<b>Tutorial 8 用 Stata 做</b>，要问老师能不能用 Excel；课末会答疑作业。</p>' },
     { n: 8, en: 'Simple regression modelling', zh: '简单回归模型', use: ['a', 'b'], pre: true, detail: '<p>课件封面写 Lecture 8（Moodle 放在第 7 周）。讲简单回归 Y=β₀+β₁X，用 SLOPE / INTERCEPT / RSQ 和分析工具库（Analysis ToolPak）做回归，再看 R²；另有 GPA–IQ 选做练习。回归不能证明因果，可以用来评 Bain。</p>' },
-    { n: 9, en: 'Emerging Trends in International Data Analytics', zh: '国际数据分析的新趋势', use: ['b'], detail: '<p>Tutorial：分析新趋势；展示辅导</p>' },
-    { n: 10, en: 'Simple Mathematical Calculations', zh: '简单数学计算', use: ['b'], detail: '<p>Tutorial：应用简单数学；展示辅导</p>' },
+    { n: 9, en: 'Emerging Trends in International Data Analytics', zh: '国际数据分析的新趋势', use: ['b'], pre: true, detail: '<p>Tutorial：按展示小组用 Copilot 做 AI 趋势“寻宝”，结果存共享 OneNote，做 5 分钟小展示。<b>课件里 6/24、7/15 的截止日期是上一期的，不适用</b>；课件写展示 10–15 页，brief 写 15–20 页，要问老师。</p>' },
+    { n: 10, en: 'Simple Mathematical Calculations', zh: '简单数学计算', use: ['b'], pre: true, detail: '<p>Tutorial：Masala Brews 第四季度每日数据缺失，要提出假设并估算；Cloudy Drizzle 自建还是收购（PMT、FV、机会成本、风险打分），<b>和 American Egg 的借款、收购问题几乎一样</b>。</p>' },
     { n: 11, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'] },
-    { n: 12, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'] },
+    { n: 12, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'], pre: true, detail: '<p>没有课件和录像：复习 + Power BI 实操（十大咨询公司样例数据）。<b>11/28 在展示 PPT 截止（11/27）之后</b>，主要对个人报告“分析工具”部分有用。</p>' },
   ],
   assessments: [
     {
