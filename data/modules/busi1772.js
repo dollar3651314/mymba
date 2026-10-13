@@ -19,7 +19,7 @@ MBA.addModule({
     '论文指导课件：<b>相似度分数不是关键</b>——即使只有 2%，没正确引用就是抄袭；AI 或别人代写会被查出来。可以用 Grammarly 改英文（它不是 AI 代写）。',
   ],
   todos: [
-    { d: '2026-11-03', t: '第 7 次课（作业辅导）带着论文大纲去问：Quiz 是否 11/28？详细 rubric 在哪？AI 内容 20–60% 怎么扣分？第 5 周多出的必读（RBG 视频、Lou Adler 图）算不算？第 2 题能不能用第 1 周的义务论阅读（课件说只用所选那一周的阅读）？引言能不能超过 300 词？' },
+    { d: '2026-11-03', t: '第 7 次课（作业辅导）带着论文大纲去问：Quiz 是否 11/28、几点开始、在教室还是远程做、开卷还是闭卷？详细 rubric 在哪？AI 内容 20–60% 怎么扣分？第 5 周多出的必读（RBG 视频、Lou Adler 图）算不算？第 2 题能不能用第 1 周的义务论阅读（课件说只用所选那一周的阅读）？引言能不能超过 300 词？' },
     { d: '2026-10-05', t: '做完第 1、2 周自测 quiz（还没做的话），截图题目和答案发给 Claude' },
     { d: '2026-10-06', t: '去 Canvas 公告下载老师上传的封面页（cover sheet）、AI 声明表（AI declaration）模板和引用指南，发给 Claude' },
     { d: '2026-10-13', t: '课上问：Quiz 是不是 11/28 第 12 次课？论文详细 rubric 在哪里看？AI 内容超过 20% 具体怎么扣分？' },
@@ -70,8 +70,8 @@ MBA.addModule({
     { n: 8, en: 'Basic right to privacy and workplace analytics', zh: '隐私权与职场数据分析', use: ['b'], detail: '<p><b>观看：</b>Demis Hassabis 谈人工智能<br><b>案例：</b>Humanyze——如何保护职场隐私？<br><b>必读：</b>Palm (2009) Securing Privacy at Work<br><b>推荐：</b>HBS (2018) Humanyze-ing the Workplace</p>' },
     { n: 9, en: 'Efficient markets and automation', zh: '有效市场与自动化', use: ['b'], detail: '<p><b>案例：</b>自动化——工作的终结？<br><b>Tutorial：</b>自动化的分配和效率影响；创造性破坏的赢家与输家；如何为失业风险提供保障<br><b>必读：</b>Ferretti (2024) Value Alignment alone cannot mitigate AI risks<br><b>推荐：</b>Manning (2021) How will new technology affect the future of work?</p>' },
     { n: 10, en: 'Fairness and organisational design', zh: '公平与组织设计', use: ['b'], detail: '<p><b>案例：</b>Uber——平台经济是市场改进吗？<br><b>Tutorial：</b>零工经济的组织变革；不稳定工作与风险转嫁；公平 vs. 效率<br><b>必读：</b>Ferretti (2020) A Liberal Egalitarian Perspective on the Platform Economy<br><b>推荐：</b>Coyle (2017) Precarious and Productive Work in the Digital Economy</p>' },
-    { n: 11, en: 'Fairness and algorithmic bias', zh: '公平与算法偏见', use: ['b'], detail: '<p><b>案例：</b>亚马逊招聘机器人——什么是算法偏见？<br><b>Tutorial：</b>招聘中的 AI 公平与算法偏见；个体公平与群体公平的张力<br><b>必读：</b>Ferretti (2024)；Dattner et al. (2019) The Legal and Ethical Implications of Using AI in Hiring<br><b>推荐：</b>Dwork (2018) Making Machines Play Fair</p>' },
-    { n: 12, en: 'Global Governance of artificial intelligence', zh: '人工智能的全球治理', use: ['b'], detail: '<p><b>案例：</b>Facebook——言论自由与 AI 内容审核<br><b>本周 tutorial 时间就是期末 Quiz</b>（线上远程）<br><b>必读：</b>Ferretti (2022) An Institutionalist Approach to AI Ethics<br><b>推荐：</b>Gorwa et al. (2020) Algorithmic Content Moderation</p>' },
+    { n: 11, en: 'Fairness and algorithmic bias', zh: '公平与算法偏见', use: ['b'], pre: true, detail: '<p><b>案例：</b>亚马逊 AI 招聘工具歧视女性；Princeton 案例 Strategeion（用“运动经历”做代理变量，拒绝坐轮椅的求职者）<br><b>Tutorial：</b>网页游戏 Survival of the Best Fit（30 分钟，带手机或电脑）；个体公平 vs. 群体公平<br><b>必读：</b>Dwork (2018) Royal Society；Dattner et al. (2019)；Princeton Hiring by Machine<br><b>推荐：</b>Binns (2018)；Zimmermann et al. (2020)；Ferretti (2024)（同第 9 周）</p>' },
+    { n: 12, en: 'Global Governance of artificial intelligence', zh: '人工智能的全球治理', use: ['b'], pre: true, detail: '<p>⚠️ <b>本次 tutorial 就是期末 Quiz（40%）</b>：11/28 tutorial 开始时间起（12:00，待确认），Moodle Coursework Submission 区，15 题 90 分钟，只能做一次，不能返回。在教室还是远程做、开卷还是闭卷，11/3 问老师。<br><b>案例：</b>Facebook——言论自由与 AI 内容审核<br><b>必读：</b>Ferretti (2022)；LeCun (2020) TED<br><b>推荐：</b>Gorwa et al. (2020)；Gabriel (2020)</p>' },
   ],
   assessments: [
     {
