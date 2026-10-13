@@ -19,6 +19,7 @@ MBA.addModule({
     '论文指导课件：<b>相似度分数不是关键</b>——即使只有 2%，没正确引用就是抄袭；AI 或别人代写会被查出来。可以用 Grammarly 改英文（它不是 AI 代写）。',
   ],
   todos: [
+    { d: '2026-11-03', t: '第 7 次课（作业辅导）带着论文大纲去问：Quiz 是否 11/28？详细 rubric 在哪？AI 内容 20–60% 怎么扣分？第 5 周多出的必读（RBG 视频、Lou Adler 图）算不算？第 2 题能不能用第 1 周的义务论阅读（课件说只用所选那一周的阅读）？引言能不能超过 300 词？' },
     { d: '2026-10-05', t: '做完第 1、2 周自测 quiz（还没做的话），截图题目和答案发给 Claude' },
     { d: '2026-10-06', t: '去 Canvas 公告下载老师上传的封面页（cover sheet）、AI 声明表（AI declaration）模板和引用指南，发给 Claude' },
     { d: '2026-10-13', t: '课上问：Quiz 是不是 11/28 第 12 次课？论文详细 rubric 在哪里看？AI 内容超过 20% 具体怎么扣分？' },
@@ -65,7 +66,7 @@ MBA.addModule({
     { n: 4, en: 'Fairness and CEO compensations', zh: '公平与 CEO 薪酬', use: ['a', 'b'], pre: true, detail: '<p>必看视频：Sandel (2020) The Tyranny of Merit（TED）。必读网页：Rosenfeld (2021) HBR。推荐阅读另有 Moriarty (2009)、Dietsch (2008)、Scanlon (2013)、ProPublica (2021)、Murphy & Christensen (2012)。</p><p><b>案例：</b>马斯克、扎克伯格……多少才算太多？<br><b>Tutorial：</b>罗尔斯正义论与不公平的不平等；Boatright 对高薪的辩护；基于功绩 vs. 基于激励的不平等论证<br><b>必读：</b>Wenar (2021) John Rawls（斯坦福哲学百科）<br><b>推荐：</b>Boatright (2010) Executive Compensation: Unjust or Just Right?</p>' },
     { n: 5, en: 'Fairness and discrimination', zh: '公平与歧视', use: ['a', 'b'], pre: true, detail: '<p><b>案例：</b>职场性别歧视——还有多少工作要做？<br><b>Tutorial：</b>学生评教中的性别偏见（Mitchell & Martin 2018）；显性、隐性、结构性歧视；控制型 vs. 改变型干预；育儿假<br><b>必读：</b>Wenar (2021)；McKinsey (2018)；RBG 视频（NYT）；Lou Adler 减少面试偏见 10 法<br><b>推荐：</b>EIGE (2019) 育儿假；Young (2006)</p><p>论文第 5 题就是这一周。⚠️ Moodle 必读比手册多两项（RBG 视频、Lou Adler 图），算不算“必须引用的必读”要问老师。</p>' },
     { n: 6, en: 'Global governance and democracy', zh: '全球治理与民主', use: ['b'], pre: true, detail: '<p><b>案例：</b>联合国可持续发展目标——是普世价值吗？<br><b>Tutorial：</b>四场民主辩论；Sen 民主的三种价值；全球治理；小组选一家跨国公司讲 SDGs<br><b>必读：</b>Sen (1999) Democracy as a Universal Value；联合国 17 个可持续发展目标<br><b>推荐：</b>Sen (2006)；Vogel (2005) 第 6 章</p>' },
-    { n: 7, en: 'Assessment guidance: Essay and Quiz', zh: '作业辅导：论文与 Quiz', use: ['a', 'b'], detail: '<p>录播课 Part 1–3 讲作业要求；tutorial（11 月 3 日）专门答疑论文和 Quiz。<b>提前把论文大纲和问题准备好带去。</b></p>' },
+    { n: 7, en: 'Assessment guidance: Essay and Quiz', zh: '作业辅导：论文与 Quiz', use: ['a', 'b'], pre: true, detail: '<p>⚠️ 11/3 周二晚 <b>18-3 教室</b>。答疑课：论文（11/26 截止）+ Quiz。Moodle 有论文、Quiz 两段讲解视频。<b>先定题（最晚 10/28），带大纲和具体问题去</b>，老师不看完整初稿。</p>' },
     { n: 8, en: 'Basic right to privacy and workplace analytics', zh: '隐私权与职场数据分析', use: ['b'], detail: '<p><b>观看：</b>Demis Hassabis 谈人工智能<br><b>案例：</b>Humanyze——如何保护职场隐私？<br><b>必读：</b>Palm (2009) Securing Privacy at Work<br><b>推荐：</b>HBS (2018) Humanyze-ing the Workplace</p>' },
     { n: 9, en: 'Efficient markets and automation', zh: '有效市场与自动化', use: ['b'], detail: '<p><b>案例：</b>自动化——工作的终结？<br><b>Tutorial：</b>自动化的分配和效率影响；创造性破坏的赢家与输家；如何为失业风险提供保障<br><b>必读：</b>Ferretti (2024) Value Alignment alone cannot mitigate AI risks<br><b>推荐：</b>Manning (2021) How will new technology affect the future of work?</p>' },
     { n: 10, en: 'Fairness and organisational design', zh: '公平与组织设计', use: ['b'], detail: '<p><b>案例：</b>Uber——平台经济是市场改进吗？<br><b>Tutorial：</b>零工经济的组织变革；不稳定工作与风险转嫁；公平 vs. 效率<br><b>必读：</b>Ferretti (2020) A Liberal Egalitarian Perspective on the Platform Economy<br><b>推荐：</b>Coyle (2017) Precarious and Productive Work in the Digital Economy</p>' },
@@ -83,6 +84,7 @@ MBA.addModule({
       length: '2000 词（不含参考文献）',
       lo: [3, 4, 5],
       notes: [
+        '<b>⚠️ EC 陷阱</b>：如果用 “with EC” 的提交链接，却没有申请延期（EC）或申请被拒，这份作业<b>记 0 分</b>。没有获批 EC 就用普通链接提交。',
         '<b>截止日期：11 月 26 日</b>（10/3 第 2 次课老师亲口说：“individual essay… due on the 26th of November”，两位老师的班都一样）。之前 Moodle FAQ 写“第 9 周”是英国的默认安排，以老师说的为准。',
         '<b>老师 10/3 交代的提交规定</b>（录音核实过）：① 交到<b>你自己老师</b>名下的提交链接（Canvas / Moodle 的 Course Submission 下，两位老师的链接不同，交错了不受理）；② 用老师在 Canvas 发的<b>封面页模板</b>和<b>AI 声明模板</b>；③ 可以提交 <b>3 次</b>，先用第一次看相似度；<b>相似度不能超过 20%</b>（标题、封面、参考文献、目录不计入）；④ 这个校区<b>允许用 AI，但必须声明</b>，不能照抄，要改写；AI 内容超过 20% 开始扣分，越多扣得越多，<b>60% 以上直接不及格</b>（中间每档具体扣几分录音听不清）；⑤ 生病等特殊情况可申请 EC，截止后 7 天内办好。',
         '<b>论文指导课件（第 7 周）的硬要求</b>：题目原文抄在文章最上面（不计字数）；不写名字（匿名评分）；参考文献 <b>5–8 篇</b>，必须引用必读文献并用上推荐文献，可以有 2–3 句直接引用；外部来源只能用来举例；Harvard 格式。',
@@ -124,6 +126,8 @@ MBA.addModule({
         { en: 'Mechanical Soundness', zh: '语言与引用', w: 10, d: '表达清楚、拼写语法正确、引用规范。' },
       ],
       pitfalls: [
+        '没有反思自己立场的弱点——课件把<b>原创性（Originality）</b>单列为评分点：要有自己的思考，并讨论自己观点的局限。',
+        '字数没用够——课件原话 “Too short does not use all the words allowed”，要写到接近 2000 词。',
         '用了其他周的文献或外部理论——手册明确：违反直接不及格。',
         '题目没按要求选——FAQ 列为最常见错误：只能从 5 个题目里选 1 个，题目原文照抄。',
         '只总结、不分析——FAQ：“高度描述性”的论文会被扣分；列了很多文献却没有批判性评价也一样。',
@@ -146,6 +150,9 @@ MBA.addModule({
         { d: '2026-11-25', t: '论文正式提交（提前一天）' },
       ],
       checklist: [
+        '字数接近 2000 词（不含封面、目录、参考文献）',
+        '文内引用写成（作者, 年份, 页码）',
+        '参考文献表只列正文里用过的文献',
         '只用了所选那一周的阅读做理论分析',
         '用了该周全部必读文献',
         '用了至少 1 篇推荐文献',
@@ -187,7 +194,7 @@ MBA.addModule({
         '<b>只能做一次</b>，开始前确认网络稳定。',
         '<b>进入下一题后不能返回</b>，每题想好再走。',
         '第 12 周不点名，提交 Quiz 即算出勤。',
-        '要打开<b>和你的 tutorial 对应的那个 Quiz</b>（按课表确认），开错了没有权限。交卷后马上显示分数。',
+        'Quiz 入口在 Moodle 的 <b>Coursework Submission</b> 区。要打开<b>和你的 tutorial 对应的那个 Quiz</b>（按课表确认），开错了没有权限。交卷后马上显示分数。',
         '考试规则同样适用：考试中<b>不能用任何方式和别人联系</b>（邮件、WhatsApp、屏幕共享、社交媒体），不能小组做。',
       ],
       rubricNote: '选择题，按答对题数计分。',

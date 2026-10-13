@@ -3,9 +3,9 @@
 > 按评分标准分区，收集每节课里能用在论文上的内容。每收到一节课的录音 / 课件，Claude 都会更新这里。
 > **这些是帮你看懂的线索，不是可以直接抄的句子。** 论文要用你自己的分析和语言写；学校会随机抽人当面讲解自己的论文。
 
-**已收录**：第 1 次课录音；论文指导课件（第 7 周）、Quiz 指导、FAQ、优秀论文样例（第 2 题）；第 1、2 周录播课和 tutorial 课件；Zwolinski (2007)、Kates (2015)、Friedman (1970)；第 3、4 周课件和阅读（10/2）；第 5 周课件、Lou Adler 图表、EIGE (2019)、Young (2006)（10/13）
+**已收录**：第 1 次课录音；论文指导课件（第 7 周）、Quiz 指导、FAQ、优秀论文样例（第 2 题）；第 1、2 周录播课和 tutorial 课件；Zwolinski (2007)、Kates (2015)、Friedman (1970)；第 3、4 周课件和阅读（10/2）；第 5 周课件、Lou Adler 图表、EIGE (2019)、Young (2006)（10/13）；第 7 周论文 / Quiz 指导、样例、FAQ 按 10/13 下载版逐条重核（文件和 10/2 版完全相同，补上了之前漏记的规则，标“10/13 更新版课件”）
 **还缺**：AI 使用声明格式；Turnitin 页面里的详细 rubric
-**选题建议**：第 2 题（有优秀样例、商业案例好找）或第 5 题（结构现成）。第 1 题内容也已经齐全。10/26 第 5 次课后定题。
+**选题建议**：第 2 题（有优秀样例、商业案例好找）或第 5 题（结构现成）。第 1 题内容也已经齐全。10/26 第 5 次课后定题，最晚 10/28；11/3 第 7 次课（答疑课，18-3 教室）带大纲去问。
 
 ---
 
@@ -17,11 +17,19 @@
 | 理论只能用**本课程讲过的**（如 Freeman、Friedman）；外部来源只能用来举例 | 手册、指导课件、FAQ |
 | 必须引用该周**全部必读**，并用上推荐阅读；2–3 句直接引用（带页码） | 手册、指导课件 |
 | 参考文献 5–8 篇，Harvard 格式，按字母排序，正文要有文内引用 | 指导课件、FAQ |
+| 文内引用写成 **（作者, 年份, 页码）**（原文 “(Author, Date, Page)”）；参考文献表**只列正文用过的**（“Include ONLY the references used”）（10/13 更新版课件） | 指导课件 |
+| 直接引用：课件说“可以”有 2–3 句（“You can also provide 2-3 direct quotes”），手册说“应该”用推荐阅读的直接引用（“you should use direct quotations”）→ **按必须准备**（10/13 更新版课件） | 指导课件、手册 |
+| 理论只能用**所选那一周**的阅读（手册 “Week 1 only (not other weeks)”）；但第 1、2 题课件要求写“义务论”——第 2 题能否用第 1 周讲的义务论，11/3 问老师（10/13 更新版课件） | 手册、指导课件 |
+| 样例**不用照搬论证顺序**，但**整体结构要按手册**（“You should not feel obliged to follow the flow of ideas/arguments in a sample exactly … you should follow the overall structure as indicated in the module handbook”）（10/13 更新版课件） | 指导课件 |
+| 结构要服务论证，**不要多余的小节或讨论**（“Avoid unnecessary sections or discussions”）（10/13 更新版课件） | 指导课件 |
 | 2000 词，不含封面、目录、参考文献、图表、附录 | FAQ |
-| 不写名字（匿名评分） | 样例批注 |
+| **要用够字数**：坏引言的毛病之一是“Too short does not use all the words allowed”（10/13 更新版课件） | 指导课件 |
+| 不写名字（匿名评分，原文 “No name for anonymous marking”） | 指导课件的引言批注（之前误记为样例批注；10/13 更新版课件） |
 | 不用营销词（championing、inspire、lead、celebrate），不说空话 | 指导课件 |
 | 至少讨论一个反对意见并回应 | 指导课件 |
 | 相似度分数不是关键：没正确引用就是抄袭，哪怕只有 2% | 指导课件 |
+| 截止 **11/26**。FAQ 写 “The Individual Essay is in Week 9”，Moodle 第 7 周页面写 “Week 9 10 March 2026”，都是旧文字；以手册、Moodle 提交区和老师 10/3 说的为准（10/13 更新版课件） | 手册、Moodle、录音 |
+| ⚠️ 用 “with EC” 链接提交却**没申请 EC 或 EC 被拒 → 记 0 分**（10/13 更新版课件） | FAQ |
 
 ---
 
@@ -54,7 +62,7 @@
 - Heath (2014) 多重受托义务的反对。
 - Vogel (2005) 对三条回应的解决办法；伦理有时能带来利润的 5 种情况。
 - 例子：BP 漏油（490 万桶、11 人死亡、约 650 亿美元）；BlackRock Fink (2019) 的信；The Economist (2022) 对 ESG 的质疑；McKinsey (2018)。
-- 60 Minutes (2010) *Blowout* 视频（样例论文引用了它）。
+- 60 Minutes *Blowout: The Deepwater Horizon Disaster* 视频（2010 年的节目；样例论文引用时写的是 60 Minutes (2018)，Harvard 格式按你实际看的版本写年份；10/13 更新版课件核对）。
 
 **第 3 题能用的**（第 3 周，课件 10/2 收到）
 - 后果主义 / 功利主义三特点（公平、加总、最大化；Mill 1863；Rachels & Rachels 2012）。
@@ -92,8 +100,16 @@
   - 外部：另一种理论（如用后果主义反驳义务论）
   - 经验：事实证据不支持（如 Vogel：利益相关者管理不一定带来更多利润）
 
+## ③+ 原创性 Originality（10/13 更新版课件）
+> 手册评分表**没有**这一项、也没有权重；论文指导课件单列为第 3 部分。可能分散在 Synthesis / Soundness 里打分——11/3 问老师。
+- 用必读和推荐阅读把论证讲得**更深**（“Use mandatory and further readings to discuss arguments in greater details”）。
+- 能**独立判断**（“make independent judgements”）。
+- 批判性思考和反思——不只针对别人的立场，**也针对你自己的立场**（“not only of other positions, but of your own position”）。
+- 有没有和别人不一样的论证或呈现方式。
+- 另：课件把“拼写、语法、引用”（Mechanical soundness）写在 Soundness 下面；手册单列 10%。
+
 ## ④ 结构 Clarity of structure（10%）
-**好的引言**（指导课件）：亮出论点 → 说明为什么重要 → 交代每一节做什么 → 简短。坏引言的问题：没有论点、没有背景、没有大纲、太短。
+**好的引言**（指导课件）：亮出论点 → 说明为什么重要 → 交代每一节做什么 → 简短。坏引言的问题：没有论点、没有背景、没有大纲、太短。课件批注还说 “You can have a slightly longer Introduction in your case”——指哪种情况没说清，手册上限仍是 300 词，11/3 问老师（10/13 更新版课件）。
 
 **优秀样例（第 2 题）的结构**——参考结构，内容不能照搬：
 1. 引言：背景（石油行业安全）→ 立场（建议采用 Freeman）→ “In section one I will…, in section two…”
@@ -102,6 +118,8 @@
 4. 第 3 节：利益相关者理论的伦理版 vs. 战略版——Fink (2019)；Vogel (2005)；战略论证的局限（**放了图就要解释图**）
 5. 结论和建议
 6. 参考文献（6 篇）
+
+注意：样例抬头是另一门课 **BUSI 1602**，正文大部分被老师用乱码遮掉，**只能参考结构**（10/13 更新版课件）。
 
 样例批注里老师表扬的：引言短、大纲清楚；理论总结细致并有带页码的直接引用；明确表态；讨论了自己支持的理论的反对意见，再回应。
 
