@@ -20,7 +20,7 @@ MBA.addModule({
   ],
   todos: [
     { d: '2026-10-13', t: '（已加入小组，10/10）和组长定下：公司（建议英国公司，尽早报给老师占位）、方向、每人负责的理论；把组员人数、公司、你的理论告诉 Claude' },
-    { d: '2026-10-17', t: '课上问清：11/14 的“recovery session”是什么——10/31 表现不好的组能重新展示提高分数吗？展示后要不要在 Turnitin 交 Mind Map 照片 + PPT？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？GVC/GPN 算不算可选理论？引用用 Harvard 还是 APA？' },
+    { d: '2026-10-17', t: '课上问清：第 5 次课（10/24）讲“西方资本 vs. 亚洲价值观”（Moodle 第 5 讲）还是“全球价值链”？GVC/GPN 还算不算可选理论？11/14 的“recovery session”是什么——10/31 表现不好的组能重新展示提高分数吗？展示后要不要在 Turnitin 交 Mind Map 照片 + PPT？个人报告 12/2 还是 12/11？每人一个理论还是全组一个？GVC/GPN 算不算可选理论？引用用 Harvard 还是 APA？' },
   ],
   people: [
     { role: '讲师', name: 'Dr. Albert Ng', email: 'ang@lsbf.edu.sg' },
@@ -63,9 +63,9 @@ MBA.addModule({
     { n: 2, en: 'Regional Integration and the Role of Institutions through Political Economic View', zh: '区域一体化与制度的作用（政治经济学视角）', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>可选理论：<b>Regional Integration（区域一体化）</b>、<b>Political Economy（政治经济学）</b></p><p>第 2 周结束前要把小组名单交给老师，没有小组的会被分配。</p><p>Tutorial 阅读：Alami & Dixon (2019) 国家资本主义；Doner (1992) 国家能力的局限；Jetschke & Murray (2012) 欧盟与东盟的区域一体化。</p>' },
     { n: 3, en: 'Diversification: M&A and/or FDI?', zh: '多元化：并购和 / 或 FDI？', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>⚠️ Moodle 上第 3 讲是 M&A 和 FDI（手册写在第 4 周），网站按 Moodle 的顺序。</p><p>可选理论：<b>FDI（对外直接投资）</b>、<b>M&A（并购）</b>。往届样例 1（Unilever）、样例 3（Tesla）用的就是这两个。</p><p>Tutorial 阅读：Gopalan et al. (2017) 新建投资 vs. 并购；Chattopadhyay et al. (2021) 金砖国家 FDI；Lebedev et al. (2015) 新兴经济体的并购。</p>' },
     { n: 4, en: 'MNEs from Emerging Economies and Advanced Economies', zh: '新兴经济体和发达经济体的跨国企业', use: ['a', 'b'], pre: true, detail: '<p>可选理论：<b>MNEs from emerging economies</b>、<b>MNEs from advanced economies</b>。讲稿说第 8 张幻灯片（MNE vs. 东道国）可以用来搭 Mind Map。</p><p>Tutorial 阅读：Fu (2021)；Moschieri et al. (2022)；van der Straaten et al. (2023)。</p>' },
-    { n: 5, en: 'Competitive Advantage Mapping within Global Value Chains: From Firm Activities to Global Networks', zh: '全球价值链中的竞争优势：从企业活动到全球网络', use: ['a', 'b'], detail: '<p>2025-26 手册把 <b>Global Value Chains / Global Production Networks</b> 也列为可选理论（Tip 只列了 8 个），待老师确认。</p><p>按 Tip：第 5 周起开始设计 Mind Map。</p>' },
+    { n: 5, en: 'Western Money vs. Asian Values', zh: '西方资本 vs. 亚洲价值观', use: ['a', 'b'], detail: '<p>⚠️ <b>Moodle 第 5 讲是这个主题</b>（10/13 下载的课件）；网站原来按 2025-26 手册写的“全球价值链”在 Moodle 上没有。本地老师按 Moodle 讲次上课，所以 10/24 很可能讲这一讲，<b>10/17 问老师确认</b>。</p>' },
     { n: 6, en: 'Internationalisation of SMEs – Challenges, Strategies, and Global Opportunities', zh: '中小企业国际化：挑战、战略与全球机会', use: ['a'], detail: '<p>学习目标：找公司财务报表，分析公司发展和战略地位。</p><p>本次课和第 7 次课都在 10/31（老师说的展示日）。</p>' },
-    { n: 7, en: 'Western Money vs. Asian Morals: a shifting paradigm?', zh: '西方资本 vs. 亚洲道德：范式在转变吗？', use: ['a'], detail: '<p>10/31 下午。手册：Mind Map 展示从第 7 周开始。</p>' },
+    { n: 7, en: 'Competitive Advantage Mapping within Global Value Chains (to be confirmed)', zh: '全球价值链中的竞争优势（待确认）', use: ['a', 'b'], detail: '<p>10/31 下午。2025-26 手册把这一讲排在第 5 周，但 Moodle 上找不到这一讲的课件（10/13）；它和第 5 讲的位置可能对调了，<b>待老师确认</b>。GVC / GPN 是不是可选理论也待确认。</p><p>手册：Mind Map 展示从第 7 周开始。</p>' },
     { n: 8, en: 'Corporate Diplomacy under Uncertain Global Business', zh: '不确定全球环境下的企业外交', use: ['a', 'b'] },
     { n: 9, en: 'Geostrategy and Splinternet World', zh: '地缘战略与“分裂的互联网”世界', use: ['a', 'b'] },
     { n: 10, en: 'Financial Market Failures', zh: '金融市场失灵', use: ['b'] },
@@ -93,7 +93,7 @@ MBA.addModule({
       brief: [
         '小组共同制作一张 <b>A1 尺寸的实体 Mind Map 海报</b>，分析一家选定的跨国公司。',
         '展示 20 分钟，<b>每人至少讲 5 分钟</b>，之后是问答。',
-        '<b>每人从理论清单中选 1 个</b>，用它分析你们的公司：Globalisation、De-globalisation（第 1 周）；Regional Integration、Political Economy（第 2 周）；FDI、M&A（第 3 周，Moodle 顺序）；MNEs from emerging economies、MNEs from advanced economies（第 4 周）；2025-26 手册还加了 Global Value Chains、Global Production Networks（第 5 周），共 10 个。',
+        '<b>每人从理论清单中选 1 个</b>，用它分析你们的公司：Globalisation、De-globalisation（第 1 周）；Regional Integration、Political Economy（第 2 周）；FDI、M&A（第 3 周，Moodle 顺序）；MNEs from emerging economies、MNEs from advanced economies（第 4 周）；2025-26 手册还加了 Global Value Chains、Global Production Networks（Moodle 上没有这一讲，待确认），共 10 个。',
         '研究对象（Tip）：可以是一家跨国公司、一个国家或一个国际机构；<b>各组不能重复</b>。',
         '要用<b>自己的话</b>讲，可以带简短提示卡，但不能照稿念。',
         '问答环节：<b>每人回答自己负责部分的问题</b>。',
@@ -116,7 +116,7 @@ MBA.addModule({
         { en: 'Answers to questions', zh: '回答提问', w: 10, d: '听完整个问题，想清楚再答，回答清晰、有理有据。' },
       ],
       theoriesTitle: '可选理论（每人选 1 个；前 8 个确定，后 2 个待确认）',
-      theories: ['Globalisation 全球化（第 1 周）', 'De-globalisation 逆全球化（第 1 周）', 'Regional Integration 区域一体化（第 2 周）', 'Political Economy 政治经济学（第 2 周）', 'FDI 对外直接投资（第 3 周）', 'M&A 并购（第 3 周）', 'MNEs from emerging economies 新兴经济体跨国企业（第 4 周）', 'MNEs from advanced economies 发达经济体跨国企业（第 4 周）', 'Global Value Chains 全球价值链（第 5 周，待确认）', 'Global Production Networks 全球生产网络（第 5 周，待确认）'],
+      theories: ['Globalisation 全球化（第 1 周）', 'De-globalisation 逆全球化（第 1 周）', 'Regional Integration 区域一体化（第 2 周）', 'Political Economy 政治经济学（第 2 周）', 'FDI 对外直接投资（第 3 周）', 'M&A 并购（第 3 周）', 'MNEs from emerging economies 新兴经济体跨国企业（第 4 周）', 'MNEs from advanced economies 发达经济体跨国企业（第 4 周）', 'Global Value Chains 全球价值链（Moodle 上没有这一讲，待确认）', 'Global Production Networks 全球生产网络（Moodle 上没有这一讲，待确认）'],
       pitfalls: [
         '照稿念——“现场表达”占 25%，要求少看提示卡。',
         '只懂自己那部分——老师会观察每个人是否了解整个小组的方向。',
