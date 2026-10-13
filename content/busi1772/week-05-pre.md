@@ -83,7 +83,7 @@
 
 | 英文 | 中文意思 |
 |---|---|
-| Define the job, not the person | 定义岗位而不是定义人：看候选人在岗位上要做什么，而不是他“应该有”什么经历 |
+| Define the job, not the person | 定义岗位而不是定义人：看候选人在岗位上要做什么，而不是对方“应该有”什么经历 |
 | Conduct a phone screen first | 先电话初筛：电话减少第一印象里“看外表”的偏见 |
 | Use panel interviews | 用小组面试：把 30 分钟一对一换成 2–3 人有组织的面试小组 |
 | Script the interview | 面试照脚本：回顾工作经历，每个候选人问同样的问题 |
