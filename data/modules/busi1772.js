@@ -22,7 +22,7 @@ MBA.addModule({
     { d: '2026-11-03', t: '第 7 次课（作业辅导）带着论文大纲去问：Quiz 是否 11/28、几点开始、在教室还是远程做、开卷还是闭卷？详细 rubric 在哪？AI 内容 20–60% 怎么扣分？第 5 周多出的必读（RBG 视频、Lou Adler 图）算不算？第 2 题能不能用第 1 周的义务论阅读（课件说只用所选那一周的阅读）？引言能不能超过 300 词？' },
     { d: '2026-10-05', t: '做完第 1、2 周自测 quiz（还没做的话），截图题目和答案发给 Claude' },
     { d: '2026-10-06', t: '去 Canvas 公告下载老师上传的封面页（cover sheet）、AI 声明表（AI declaration）模板和引用指南，发给 Claude' },
-    { d: '2026-10-13', t: '课上问：Quiz 是不是 11/28 第 12 次课？论文详细 rubric 在哪里看？AI 内容超过 20% 具体怎么扣分？' },
+    { d: '2026-10-17', t: '课上问（10/13 课上没讲到）：Quiz 是不是 11/28 第 12 次课？论文详细 rubric 在哪里看？AI 内容超过 20% 具体怎么扣分？' },
   ],
   people: [
     { role: '讲师', name: 'Dr Roy Yap', email: 'ryap@lsbf.edu.sg' },
@@ -62,7 +62,7 @@ MBA.addModule({
   weeks: [
     { n: 1, en: 'Basic rights and global labour standards', zh: '基本权利与全球劳工标准', use: ['a', 'b'], rec: true, notes: true, detail: '<p><b>案例：</b>耐克血汗工厂——经营血汗工厂合乎伦理吗？<br><b>Tutorial：</b>讨论 Matt Zwolinski 关于血汗工厂劳动的论证<br><b>必读：</b>Zwolinski (2007) Sweatshops, Choice, and Exploitation<br><b>推荐：</b>Kates (2015) The Ethics of Sweatshops and the Limits of Choice</p>' },
     { n: 2, en: 'Basic rights and strategic management', zh: '基本权利与战略管理', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p><b>案例：</b>BP 漏油事件——BP 的责任是什么？<br><b>Tutorial：</b>Friedman 股东理论 vs. Freeman 利益相关者理论；职业伦理与企业社会责任<br><b>必读：</b>Friedman (1970) The Social Responsibility of Business is to Increase its Profits<br><b>推荐：</b>Vogel (2005) The Market for Virtue，第 1、2 章</p>' },
-    { n: 3, en: 'Efficient markets and marketing', zh: '有效市场与营销', use: ['a', 'b'], pre: true, detail: '<p>⚠️ 这次课是<b>周二晚上</b>（13-1 教室）。必看视频：大众排放门两段（60 Minutes 14 分钟、CNN 4 分钟）。</p><p><b>案例：</b>大众汽车排放丑闻——哪里出了问题，为什么？<br><b>Tutorial：</b>Joseph Heath 的市场失灵方法（MFA），讨论两个案例<br><b>必读：</b>Heath (2014) Morality, Competition, and the Firm，第 1 章<br><b>推荐：</b>Singer (2018) Justice Failure</p>' },
+    { n: 3, en: 'Efficient markets and marketing', zh: '有效市场与营销', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>⚠️ 这次课是<b>周二晚上</b>（13-1 教室）。必看视频：大众排放门两段（60 Minutes 14 分钟、CNN 4 分钟）。</p><p><b>案例：</b>大众汽车排放丑闻——哪里出了问题，为什么？<br><b>Tutorial：</b>Joseph Heath 的市场失灵方法（MFA），讨论两个案例<br><b>必读：</b>Heath (2014) Morality, Competition, and the Firm，第 1 章<br><b>推荐：</b>Singer (2018) Justice Failure</p>' },
     { n: 4, en: 'Fairness and CEO compensations', zh: '公平与 CEO 薪酬', use: ['a', 'b'], pre: true, detail: '<p>必看视频：Sandel (2020) The Tyranny of Merit（TED）。必读网页：Rosenfeld (2021) HBR。推荐阅读另有 Moriarty (2009)、Dietsch (2008)、Scanlon (2013)、ProPublica (2021)、Murphy & Christensen (2012)。</p><p><b>案例：</b>马斯克、扎克伯格……多少才算太多？<br><b>Tutorial：</b>罗尔斯正义论与不公平的不平等；Boatright 对高薪的辩护；基于功绩 vs. 基于激励的不平等论证<br><b>必读：</b>Wenar (2021) John Rawls（斯坦福哲学百科）<br><b>推荐：</b>Boatright (2010) Executive Compensation: Unjust or Just Right?</p>' },
     { n: 5, en: 'Fairness and discrimination', zh: '公平与歧视', use: ['a', 'b'], pre: true, detail: '<p><b>案例：</b>职场性别歧视——还有多少工作要做？<br><b>Tutorial：</b>学生评教中的性别偏见（Mitchell & Martin 2018）；显性、隐性、结构性歧视；控制型 vs. 改变型干预；育儿假<br><b>必读：</b>Wenar (2021)；McKinsey (2018)；RBG 视频（NYT）；Lou Adler 减少面试偏见 10 法<br><b>推荐：</b>EIGE (2019) 育儿假；Young (2006)</p><p>论文第 5 题就是这一周。⚠️ Moodle 必读比手册多两项（RBG 视频、Lou Adler 图），算不算“必须引用的必读”要问老师。</p>' },
     { n: 6, en: 'Global governance and democracy', zh: '全球治理与民主', use: ['b'], pre: true, detail: '<p><b>案例：</b>联合国可持续发展目标——是普世价值吗？<br><b>Tutorial：</b>四场民主辩论；Sen 民主的三种价值；全球治理；小组选一家跨国公司讲 SDGs<br><b>必读：</b>Sen (1999) Democracy as a Universal Value；联合国 17 个可持续发展目标<br><b>推荐：</b>Sen (2006)；Vogel (2005) 第 6 章</p>' },
