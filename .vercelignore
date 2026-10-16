@@ -5,3 +5,8 @@ content/_template.md
 # 开发和说明文件，不发布到网站
 scripts/
 CLAUDE.md
+
+# Cloudflare 用的文件
+functions/
+wrangler.toml
+dist/

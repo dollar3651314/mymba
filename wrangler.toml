@@ -1,0 +1,5 @@
+# Cloudflare Pages 配置（2026-10-16 从 Vercel 搬过来）
+name = "mymba"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-09-01"
+compatibility_flags = ["nodejs_compat"]

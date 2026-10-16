@@ -19,3 +19,14 @@ cd /tmp && npm pack marked@12.0.2 && tar xzf marked-12.0.2.tgz   # 得到 /tmp/p
 await page.route('**/marked.min.js', r => r.fulfill({ body: fs.readFileSync('/tmp/package/marked.min.js'), contentType: 'application/javascript' }));
 ```
 检查时另外看一下 `.md td` 有没有宽度小于 80px 的格子（表格被挤扁）。
+
+## Cloudflare Pages 本地测试（2026-10-16 起现用）
+
+```bash
+npm i wrangler@4            # 装在 scratchpad 里即可
+node scripts/build-pages.mjs
+node scripts/dev/fakeredis.mjs &
+CI=1 npx wrangler pages dev dist --port 8788 \
+  --binding KV_REST_API_URL=http://127.0.0.1:8790 --binding KV_REST_API_TOKEN=tok &
+```
+登录页是 `/login`（Cloudflare 会把 `/login.html` 跳转到 `/login`）。停服务：`pkill -f "[w]rangler pages dev"; pkill -f "[w]orkerd"`（单独一条命令）。测完删掉 `dist/` 和 `.wrangler/`。

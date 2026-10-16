@@ -115,6 +115,11 @@
 录音：目前已收到全部已上课程的录音（截至 10/2）。下一批：10/3 的 BUSI 1763、BUSI 1772 第 2 次课。
 
 ## 对话记录
+### 2026-10-16（网站搬到 Cloudflare Pages：代码准备好了）
+- 决定：MBA 网站从 Vercel 搬到 **Cloudflare Pages**（免费，和 Vercel 上的其他项目分开）。
+- 做了：新增 Cloudflare 版的登录检查和数据接口（`functions/`）、构建脚本（只发布网页和课程内容，录音原文不发布）、`wrangler.toml`；密码哈希改成 PBKDF2（Cloudflare 免费版 CPU 限制）。本地用 Cloudflare 官方工具模拟测试通过：登录、改密码、旧密码兼容、页面显示、保存笔记都正常。Vercel 版代码保留，不受影响。
+- 等用户：注册 Cloudflare → 连接 GitHub 仓库 → 填构建设置和两个环境变量 → 绑定域名（步骤见对话）。
+
 ### 2026-10-16（网站打不开）
 - 检查结果：mba.sghulian.com 所有页面（包括登录页）都返回 Vercel 的 **402 Payment required / DEPLOYMENT_DISABLED**。域名解析正常，代码没有问题——是 **Vercel 账号层面停用了这个项目**。
 - 最可能的原因：项目所在的 Vercel 团队是 **Pro 14 天试用**，10/1 左右建站，试用刚好到期、没有绑定付款方式；也可能是免费额度用完。需要用户登录 Vercel 查看。

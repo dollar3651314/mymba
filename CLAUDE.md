@@ -5,7 +5,7 @@
 - **最高优先级（用户 2026-10-02 明确）：完成作业、通过课程、拿到证书。** 一切工作围绕这个目标；网站功能只做对完成作业有直接帮助的，不做锦上添花的东西。
 - 用户的目标：**顺利毕业**。12 门课、3 个学期（9–12 月、1–4 月、5–8 月），每学期 4 门，每门总分 ≥ 50 才及格；补考封顶 50 分，再挂要重修付费。
 - 用户自己说对“怎么拿下课程”没有明确思路，会把能拿到的所有材料（手册、brief、录音文字稿、课件）发过来，**需要 Claude 主动引导和带领**：每次对话结束前告诉用户下一步做什么。
-- 网站：`mba.sghulian.com`（Vercel，生产分支 `claude/mba-english-study-support-5hws4h`），登录密码保护，数据存在 Upstash Redis。
+- 网站：`mba.sghulian.com`，登录密码保护，数据存在 Upstash Redis。**2026-10-16 起从 Vercel 搬到 Cloudflare Pages**（Vercel 免费版因同账号其他项目用完 CPU 额度被暂停）；生产分支仍是 `claude/mba-english-study-support-5hws4h`。
 
 ## 每次会话开始时（每日更新流程，用户 2026-10-02 明确要求）
 用户会**每天**来找 Claude 更新网站，并持续补充资料。不管用户这次说了什么，都先按教学时间表做一遍下面的更新，不用等用户交代：
@@ -53,7 +53,10 @@
 
 ## 技术约定
 - 纯静态前端（`index.html`、`assets/app.js`、`assets/style.css`、`data/*.js`），无构建步骤。
-- 服务端：`middleware.js`（未登录跳转 login.html）、`api/*.js`（login / logout / session / password / data）、`lib/*.js`。
+- 服务端（两套并存，共用 `lib/auth.js`、`lib/redis.js`）：
+  - **Cloudflare Pages（现用）**：`functions/_middleware.js`（未登录跳转 /login）、`functions/api/*.js`、`lib/cf.js`；构建 `node scripts/build-pages.mjs` → `dist/`（只发布网页、data、content、docs/progress.md，录音原文等不发布）；`wrangler.toml` 开 `nodejs_compat`。环境变量 `KV_REST_API_URL`、`KV_REST_API_TOKEN` 在 Cloudflare 项目设置里。
+  - Vercel（旧）：`middleware.js`、`api/*.js`、`lib/http.js`。
+  - Cloudflare 免费版每次请求约 10 ms CPU：密码哈希用 PBKDF2（2 万次迭代），旧的 scrypt 哈希在登录成功时自动换掉。
 - 本地测试见 `scripts/dev/README.md`；改完页面要在 390px 宽度下检查。
 - `scripts/status.mjs`：每日更新用的状态清单，可传日期参数模拟某一天（`node scripts/status.mjs 2026-10-10`）。
-- 提交作者用 `dollar3651314 <237158396+dollar3651314@users.noreply.github.com>`（Vercel Hobby + 私有仓库只部署作者是账号所有者的提交）。
+- 提交作者用 `dollar3651314 <237158396+dollar3651314@users.noreply.github.com>`（Vercel Hobby + 私有仓库只部署作者是账号所有者的提交；Cloudflare 没有这个限制，照旧即可）。
