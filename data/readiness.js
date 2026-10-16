@@ -7,7 +7,7 @@ MBA.readiness = {
     status: 'partial', pct: 75,
     have: ['作业要求、评分标准、2 份往届范例', '创业类型定义（第 1、4 周课件：社会创业、生态创业、内部创业、国际创业）', '创新类型和程度（第 1、2 周）', '国际化理论（第 1 周 8 个理论：Uppsala、网络理论等）', '第 1–3 次课的 tutorial 案例（Calendly、Ooni、Dialogue、三家长寿家族企业、拒绝投资人）', '<b>社会创业整节课（10/15 录音）</b>：社会企业定义、七种创新方式、国际社会创业要找使命一致的伙伴、老龄化练习'],
     missing: ['<b>你选定的 Ashoka Fellow</b>（南美、非洲或亚洲）——这是开始写的唯一硬条件', '你在 tutorial 里的真实经历记录（第 1–4 次课的案例练习，写进网站“笔记”）', '国际市场进入模式（第 7 次课 10/29，可以先用第 1 周的理论）'],
-    next: '这周就选 Fellow：在 ashoka.org 按国家找 2–3 个候选发给 Claude，Claude 帮你比较哪个最好写；选定后就开始写“概况 + 创业类型 + 创新”三部分。',
+    next: '10/16 Claude 已找好 3 位候选（Harish Hande / SELCO、Jack Sim / 世界厕所组织、Anshu Gupta / Goonj），选一位就开始：先读 Ashoka 页面做资料卡，再按 5 个部分搭大纲。',
   },
   'busi1764/a2': {
     status: 'wait', pct: 35,

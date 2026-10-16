@@ -115,6 +115,14 @@
 录音：目前已收到全部已上课程的录音（截至 10/2）。下一批：10/3 的 BUSI 1763、BUSI 1772 第 2 次课。
 
 ## 对话记录
+### 2026-10-16（网站恢复 + 开始 BUSI 1764 学习日志）
+- 网站：Cloudflare 版 **mymba-2nb.pages.dev 已可正常使用**（数据库连通，登录拦截正常）。mba.sghulian.com 还指向 Vercel（402），等用户在 Cloudflare 加自定义域名、阿里云改 CNAME。
+- 开始带做 **A1 学习日志（11/17 截止）**。第 1 步：选 Ashoka Fellow。Claude 在 Ashoka 网站核实了 3 位亚洲候选（都有 Ashoka 官方页面）：
+  1. **Harish Hande / SELCO（印度，太阳能，Fellow since 2008）**——推荐第一：营利性社会企业、商业模式创新（融资 + 上门服务）、对应课上“金字塔底层”，“为什么是社会创业不是生态创业”好写出分数。
+  2. **Jack Sim / 世界厕所组织（新加坡，Fellow since 2007）**——10/15 课上老师讲过，tutorial 经历好联系；但已经全球化，“跨境转移”要换个角度写。
+  3. **Anshu Gupta / Goonj（印度，旧衣换劳动，Fellow since 2004）**——创新点直观、资料多。
+- 等用户选定。
+
 ### 2026-10-16（网站搬到 Cloudflare Pages：代码准备好了）
 - 决定：MBA 网站从 Vercel 搬到 **Cloudflare Pages**（免费，和 Vercel 上的其他项目分开）。
 - 做了：新增 Cloudflare 版的登录检查和数据接口（`functions/`）、构建脚本（只发布网页和课程内容，录音原文不发布）、`wrangler.toml`；密码哈希改成 PBKDF2（Cloudflare 免费版 CPU 限制）。本地用 Cloudflare 官方工具模拟测试通过：登录、改密码、旧密码兼容、页面显示、保存笔记都正常。Vercel 版代码保留，不受影响。
