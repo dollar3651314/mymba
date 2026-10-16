@@ -129,7 +129,9 @@ MBA.addModule({
       theories: ['交易成本理论', '国际产品生命周期（Vernon）', '垄断优势理论', '寡占反应理论', 'OLI 折衷范式（Dunning）', 'Uppsala 渐进模型（心理距离）', '网络理论（4 种状态）', '天生全球化 / 国际新创企业（Oviatt & McDougall）', '渐进式 vs. 突破式创新', '创造性破坏（Schumpeter）', '颠覆式创新（Christensen）', '发现型 vs. 创造型机会', '市场进入模式'],
       milestones: [
         { d: '2026-10-09', t: '在 Ashoka 网站选出 2–3 位候选 Fellow 发给 Claude' },
-        { d: '2026-10-16', t: '确定 A1 的 Ashoka Fellow' },
+        { d: '2026-10-16', t: '✅ 确定 A1 的 Ashoka Fellow：SELCO India（Harish Hande）' },
+        { d: '2026-10-22', t: 'A1 资料卡：按素材库里的 12 个问题读资料，用中文填好发给 Claude（注明出处）' },
+        { d: '2026-10-27', t: 'A1 大纲：5 个部分各写几条要点，和 Claude 对照评分标准' },
         { d: '2026-10-30', t: 'A1 资料收集完成（企业资料 + 国家数据 + 2–3 篇文献）' },
         { d: '2026-11-07', t: 'A1 初稿完成，发给 Claude 反馈' },
         { d: '2026-11-13', t: 'A1 Studiosity 检查 + Turnitin 预提交' },
