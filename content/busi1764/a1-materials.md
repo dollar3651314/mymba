@@ -101,6 +101,14 @@
 **你 10/16 写的分析（可以用在 ③ 和 ②）**：上门融资改写了画布的“收入来源”和“客户关系”——上门服务让客户关系更紧密，帮客户融资让双方都受益；SELCO 服务金字塔底层，Hande 先了解村民需要（定制系统）而不是急着卖产品。
 ⚠️ 这是**分析**，还不是 **tutorial 经历**。日志要的是：“During the tutorial my group and I …”——你们组当时做了什么、你说了什么、怎么想的。
 
+### 📚 参考文献列表（Harvard，10/16 整理；交稿前再核对访问日期）
+- Ashoka (n.d.) *Harish Hande*. Available at: https://www.ashoka.org/en-sg/fellow/harish-hande (Accessed: 16 October 2026).
+- Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
+- Ramon Magsaysay Award Foundation (2011) *Hande, Harish*. Available at: https://rmaward.asia/rmawardees/hande-harish/ (Accessed: 16 October 2026).
+- Skoll Foundation (n.d.) *SELCO Foundation*. Available at: https://skoll.org/organization/selco-foundation/ (Accessed: 16 October 2026).
+- 文内引用：(Ashoka, n.d.)、(Ramon Magsaysay Award Foundation, 2011)、(Goyal, Sergi and Kapoor, 2017, p. 101)、(Skoll Foundation, n.d.)。
+- Magsaysay 页面要点 Citation / Response 标签才能看到内容；Citation 开头：“In India, where nearly half of all households do[not have] electricity…”——这是 2011 年的说法，用时写清年份。
+
 ### ✏️ 写第 ① 部分的指引（10/16）
 > 这是帮你看懂的线索，正文要用你自己的英文写。
 
