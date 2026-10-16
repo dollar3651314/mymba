@@ -1,6 +1,6 @@
 import { redis, redisConfigured } from '../../lib/redis.js';
 import { getAuthState, checkPassword, makeToken, sessionCookie, savePassword } from '../../lib/auth.js';
-import { json, readJson, clientIp } from '../../lib/cf.js';
+import { errHint, json, readJson, clientIp } from '../../lib/cf.js';
 
 const MAX_FAILS = 10;     // 15 分钟内同一 IP 最多失败 10 次
 const WINDOW = 15 * 60;
@@ -25,6 +25,6 @@ export async function onRequestPost({ request }) {
     return json(200, { ok: true, defaultPassword: !auth }, { 'Set-Cookie': sessionCookie(makeToken(secret, auth?.ver || 0)) });
   } catch (e) {
     console.error(e);
-    return json(e.status || 500, { error: 'server', message: '服务器出错，请稍后再试。' });
+    return json(e.status || 500, { error: 'server', message: '服务器出错，请稍后再试。', hint: errHint(e) });
   }
 }
