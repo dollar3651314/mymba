@@ -37,6 +37,7 @@
 | 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `rec` 和 `notes` 改为 `true` |
 | **下一节课的课件（预习）** | 写**预习包** `content/<课程id>/week-XX-pre.md`（模板 `content/_preview_template.md`），把该周 `pre` 设为 `true`；课件内容同时整理进 `week-XX.md` 的“课件补充”和作业素材库 |
 | 录音 / 课件里对作业有用的内容 | 追加到该作业的**素材库** `content/<课程id>/<作业id>-materials.md`（按评分标准分区，注明出自第几次课；作业数据里用 `materials` 字段引用）。目前有 BUSI 1764 的 A1、A2；其他作业有了足够素材后新建 |
+| 正在写的作业（资料卡、大纲、参考稿、参考文献、用户的草稿） | 放进该作业的**写作区** `content/<课程id>/<作业id>-workspace.md`（作业数据 `workspace` 字段），显示在作业页最上面、首页“正在写的作业”；按“现在要用的”排在前面 |
 | 有版权的原文（报告、Sage 案例等） | **不放进仓库**，只写中文解读和数据要点 |
 
 仓库已于 2026-10-02 设为 **private**，可以提交录音文字稿原文。不要在仓库里写用户的真实姓名和学号。

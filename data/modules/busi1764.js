@@ -83,6 +83,7 @@ MBA.addModule({
       id: 'a1',
       en: 'Learning Diary',
       materials: 'content/busi1764/a1-materials.md',
+      workspace: 'content/busi1764/a1-workspace.md',
       notes: [
         '<b>Moodle 上的两份往届日志范例</b>（详见素材库）：Educafro（巴西，社会创业）和 Pumakawa（阿根廷，生态创业）。两份都按“概况与创业类型 → 创新 → 国际化”写，<b>逐条说明为什么不是另外三种创业类型</b>，并引用了 Mini-Lecture（如 “Costales (2024) Mini-Lecture 1.1, unpublished”）——说明<b>课件本身可以作为参考文献引用</b>。',
         '范例写 tutorial 经历的方式：“During the tutorials, my group and I analysed Calendly’s case and found…”——一两句具体经历，再连到自己选的企业。你的 tutorial 笔记就是这部分的素材。',
