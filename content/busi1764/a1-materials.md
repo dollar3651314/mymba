@@ -47,6 +47,17 @@
 
 **来源要多样化**：目前几乎都来自 Magsaysay。日志评分要求“多个来源”，还要补：Yale 案例、Skoll 资料，最好有一篇学术文章（Goyal, Sergi & Kapoor 2017）。
 
+**你补充的来源（10/16）**
+- ProQuest 学术文章（学校图书馆链接 docview/1860055491）——Claude 打不开学校的登录页面，**请确认标题和作者**（应该就是 Goyal, Sergi & Kapoor 2017, *Journal of Management Development*）。
+- Skoll Foundation：SELCO Foundation 页面（skoll.org/organization/selco-foundation）——Claude 已核对，要点：SELCO India 是营利性社会企业（⚠️ Skoll 写 **1994 年**成立，Magsaysay 写 1995 年，日志里写一个并注明来源，或写 “in the mid-1990s”）；SELCO Foundation 2010 年成立；累计约 45 万套系统、58.5 万户 / 290 万人用上照明和融资；覆盖印度 15 个以上的邦；模式在非洲、东南亚复制，**Foundation 在菲律宾和坦桑尼亚有项目**（菲律宾和印尼一样是群岛国家，可以作为“搬到印尼”的佐证）；2018 年 Skoll 奖。
+
+### 🧭 大纲的三个决定（10/16）
+| 决定 | 你的选择 | Claude 意见 |
+|---|---|---|
+| 重点分析的创新 | **B. 上门融资（doorstep financing）**，判断为**商业模式创新** | ✅ 好选择。写的时候要逐条说明**为什么不是产品创新**（太阳能板本身不是新产品）、**不是流程创新**（不是生产方式的改变）、**不是服务创新**（这一条最容易混，要说清：它改变的是“穷人怎样付得起”，即价值获取和收入方式，所以是商业模式）。再判断创新程度：渐进式还是突破式、对这个市场是不是“颠覆式”（Christensen）——第 3 步一起讨论 |
+| 搬去哪个国家 | **印度尼西亚**：需要这类服务的村镇更多 | ✅ 可以。要找**数据**支持（例如印尼没通电或用电不稳定的农村人口比例——用世界银行、国际能源署等可靠来源，不要用估计）；Skoll 说 SELCO Foundation 在菲律宾有项目，可以作为“东南亚群岛国家可行”的佐证 |
+| tutorial 经历 | 待写（先回顾 4 次 tutorial） | 见下面对话里的回顾 |
+
 **可以用的来源**（日志要求多个来源；引用前自己打开核对）
 - Ashoka 页面：ashoka.org/fellow/harish-hande
 - Goyal, Sergi & Kapoor (2017) *Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco*, Journal of Management Development, 36(1)——**学术文章，最有分量**，学校图书馆应该能下载
