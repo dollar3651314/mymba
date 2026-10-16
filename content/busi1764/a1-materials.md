@@ -101,6 +101,14 @@
 **你 10/16 写的分析（可以用在 ③ 和 ②）**：上门融资改写了画布的“收入来源”和“客户关系”——上门服务让客户关系更紧密，帮客户融资让双方都受益；SELCO 服务金字塔底层，Hande 先了解村民需要（定制系统）而不是急着卖产品。
 ⚠️ 这是**分析**，还不是 **tutorial 经历**。日志要的是：“During the tutorial my group and I …”——你们组当时做了什么、你说了什么、怎么想的。
 
+### 🀄 第 ① 部分中文参考稿（10/16，按你的资料卡整理的事实，**不能直接翻译提交**：先用自己的理解改写，再自己译成英文）
+1. SELCO India 是 Harish Hande 于 1995 年在班加罗尔创立的营利性社会企业（Ramon Magsaysay Award Foundation, 2011）；Hande 是 Ashoka Fellow（Ashoka, n.d.）。
+2. 2011 年印度将近一半家庭没有电，农村穷人靠煤油灯和蜡烛照明；人们普遍认为穷人用不起、也维护不好先进技术（Ramon Magsaysay Award Foundation, 2011）。创立前，Hande 先走访无电村庄，了解村民真正的能源需求（Goyal, Sergi and Kapoor, 2017, p. 100）。
+3. SELCO 提供小型、分散的太阳能系统——照明、热水器和生计用电设备，按每户的需要定制，并负责安装和上门维修（Ramon Magsaysay Award Foundation, 2011）。
+4. 客户自己付钱：SELCO 说服农村银行按客户的收入和现金流提供分期小额贷款（Goyal, Sergi and Kapoor, 2017, p. 105）。
+5. 主要合作伙伴是农村银行、小额信贷机构、自助组织和 NGO（Ramon Magsaysay Award Foundation, 2011）。
+6. 到 2015 年，SELCO 已安装 20 多万套家用太阳能照明系统，影响 100 多万人，在印度多个邦设有 45 个以上能源服务中心（Goyal, Sergi and Kapoor, 2017, p. 101）。
+
 ### 📚 参考文献列表（Harvard，10/16 整理；交稿前再核对访问日期）
 - Ashoka (n.d.) *Harish Hande*. Available at: https://www.ashoka.org/en-sg/fellow/harish-hande (Accessed: 16 October 2026).
 - Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
