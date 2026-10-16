@@ -48,7 +48,10 @@
 **来源要多样化**：目前几乎都来自 Magsaysay。日志评分要求“多个来源”，还要补：Yale 案例、Skoll 资料，最好有一篇学术文章（Goyal, Sergi & Kapoor 2017）。
 
 **你补充的来源（10/16）**
-- ProQuest 学术文章（学校图书馆链接 docview/1860055491）——Claude 打不开学校的登录页面，**请确认标题和作者**（应该就是 Goyal, Sergi & Kapoor 2017, *Journal of Management Development*）。
+- ✅ ProQuest 学术文章（10/16 用户截图确认）：Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
+  - 文内引用：(Goyal, Sergi and Kapoor, 2017)；直接引用原话要加页码，例如 (Goyal, Sergi and Kapoor, 2017, p. 100)。
+  - 摘要要点：研究**营利性社会企业**怎样服务**金字塔底层（BoP）**的基本需求，用 SELCO 说明一种“社会—经济”商业模式和“包容性”做法——正好支撑“社会创业”和“商业模式创新”两部分。
+  - PDF 有版权，**不放进网站仓库**；可以放进私有的 `linshi` 仓库给 Claude 读。
 - Skoll Foundation：SELCO Foundation 页面（skoll.org/organization/selco-foundation）——Claude 已核对，要点：SELCO India 是营利性社会企业（⚠️ Skoll 写 **1994 年**成立，Magsaysay 写 1995 年，日志里写一个并注明来源，或写 “in the mid-1990s”）；SELCO Foundation 2010 年成立；累计约 45 万套系统、58.5 万户 / 290 万人用上照明和融资；覆盖印度 15 个以上的邦；模式在非洲、东南亚复制，**Foundation 在菲律宾和坦桑尼亚有项目**（菲律宾和印尼一样是群岛国家，可以作为“搬到印尼”的佐证）；2018 年 Skoll 奖。
 
 ### 🧭 大纲的三个决定（10/16）
