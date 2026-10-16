@@ -101,6 +101,21 @@
 **你 10/16 写的分析（可以用在 ③ 和 ②）**：上门融资改写了画布的“收入来源”和“客户关系”——上门服务让客户关系更紧密，帮客户融资让双方都受益；SELCO 服务金字塔底层，Hande 先了解村民需要（定制系统）而不是急着卖产品。
 ⚠️ 这是**分析**，还不是 **tutorial 经历**。日志要的是：“During the tutorial my group and I …”——你们组当时做了什么、你说了什么、怎么想的。
 
+### ✏️ 写第 ① 部分的指引（10/16）
+> 这是帮你看懂的线索，正文要用你自己的英文写。
+
+**每句话做什么（共 5–6 句，约 150 词）**
+1. 是谁、什么时候、在哪里：Hande 创立 SELCO India（1995，班加罗尔）；他是 Ashoka Fellow（2008）。
+2. 要解决的问题：农村低收入家庭没电，用煤油灯、蜡烛——穷人被认为“用不起、维护不了”太阳能。
+3. 卖什么：小型、分散的太阳能系统（照明、热水器、生计用电设备），按需求定制；加上安装、上门维修。
+4. 谁付钱：穷人自己付；SELCO 说服农村银行按客户的收入和现金流发放小额贷款（这里只点一句，第 ③ 部分再展开）。
+5. 关键伙伴：农村银行、小额信贷机构、自助组织 / NGO。
+6. 规模（写年份和来源）：例如“by 2015, more than 200,000 systems … over one million people (Goyal, Sergi and Kapoor, 2017)”或 Skoll 的数字。
+
+**事实和出处**：1995 + 班加罗尔（Magsaysay）；Hande 1994 年先走访村庄（Goyal et al. 2017, p. 100）；20 多万套、100 多万人、45 个以上服务中心（同上, p. 101）；for-profit social enterprise（Magsaysay；Skoll）。
+**不要写**：Neville Williams（还没有来源）；Wikipedia 不能引用。
+**常用句型**（通用表达，可以用）：was founded in … by … / aims to … / targets … who … / Rather than …, SELCO … / In partnership with … / By 2015, … (Author, year).
+
 **可以用的来源**（日志要求多个来源；引用前自己打开核对）
 - Ashoka 页面：ashoka.org/fellow/harish-hande
 - Goyal, Sergi & Kapoor (2017) *Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco*, Journal of Management Development, 36(1)——**学术文章，最有分量**，学校图书馆应该能下载
