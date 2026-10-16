@@ -75,6 +75,18 @@
 **一个很重要的发现**：印尼官方通电率已经是 **99.83%**。所以“跨境转移”部分不能只说“印尼很多人没电”，要写得更精准：**问题集中在东部偏远岛屿，以及靠昂贵柴油、供电不稳定的家庭**——这正是 SELCO“小型、分散、独立的系统 + 上门维护 + 上门融资”擅长的。
 还可以写一个“反方观点”来拿高分：国家电网覆盖率很高，SELCO 的潜在市场比在印度小、而且分散在岛屿上，物流成本高——所以进入方式要谨慎（第 7 周 11/5 讲进入模式，再展开）。
 
+### 📄 学术文章要点（Goyal, Sergi & Kapoor 2017，PDF 已存进私有 `linshi` 仓库：mba-materials/busi1764/a1-sources/）
+> Claude 10/16 通读全文，下面是**能直接支持你论点的地方和页码**。引用原话要加引号和页码；转述要用你自己的话，也要注明出处。
+
+| 用在日志哪部分 | 原文要点（页码） |
+|---|---|
+| ① 概况 | Hande 1991 年在多米尼加看到分布式太阳能；**1994 年走访印度无电村庄，了解村民真正的能源需求**；1995 年创立 SELCO（p. 100）。到 2015 年装了 20 多万套家用太阳能照明，影响 100 多万人；在卡纳塔克、古吉拉特、马哈拉施特拉、比哈尔、泰米尔纳德有 45 个以上能源服务中心（p. 101） |
+| ② 创业类型（社会创业） | “empowering the rural segment as **customers rather than treating them as beneficiaries**”（p. 101）；SELCO 把利润率限制在**个位数**，同时扩大社会影响（p. 101）；混合组织：营利的 SELCO Solar Lights 服务能贷到款的人，非营利的 SELCO Foundation 用慈善资金服务最穷的人（p. 103） |
+| ③ 创新（上门融资 = 商业模式创新） | ⭐ “Collaborating with RRBs enabled Selco to create a unique ecosystem of providing the **door-step financing** to the rural households at minimal interest rates as well as enabling the BoP households to pay their installments (daily, monthly, quarterly) as per their income and cash-flow cycle”（p. 105）；⭐ 管理层原话：“[The] **business model** involves providing energy solutions by integrating technology support and financing with product offerings”（p. 105）——直接支持“商业模式创新”；先评估客户的需求类型、现金流和支付能力，再配设备 + 农村银行贷款 + 售后（p. 104） |
+| ③ 创新（反面思考） | SELCO Labs 说创新发生在“products, financing and services”三方面（p. 102）——写“为什么不是服务创新”时要正面回应这一点 |
+| ④ 跨境转移（印尼） | ⭐ SELCO 选卡纳塔克邦是因为当地农村银行体系成熟：“Banking infrastructure in rural areas is an **integral part to the success of our business model**”（p. 102）→ **去印尼的关键条件是找到愿意给农民贷款的农村银行或小额信贷伙伴**；BoP 市场“one size fits all”行不通，要细分（p. 101–102）；**先在少数地点把模式打磨好再扩张**（P9，p. 105–106）→ 先选印尼东部一个省试点（也呼应第 1 周的 Uppsala 渐进模型）；SELCO 放弃了加盟经销商模式、改为自建分支，成本高但保住了质量和信任（p. 104）；靠培训当地人当技术员和微型创业者建立信任（p. 103） |
+| ⑤ 理论 / 总结 | 金字塔底层（Hammond et al. 2007，p. 97）；可持续发展三重底线（WCED 1987，p. 106） |
+
 **可以用的来源**（日志要求多个来源；引用前自己打开核对）
 - Ashoka 页面：ashoka.org/fellow/harish-hande
 - Goyal, Sergi & Kapoor (2017) *Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco*, Journal of Management Development, 36(1)——**学术文章，最有分量**，学校图书馆应该能下载
