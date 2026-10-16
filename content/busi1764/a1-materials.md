@@ -28,6 +28,25 @@
 | 11 | 太阳能是环保的——它的**首要目标**是环保还是帮穷人？（决定“为什么是社会创业、不是生态创业”） | ② 类型（15%） | Ashoka 页面 |
 | 12 | 如果把 SELCO 的模式搬到另一个国家（你来选：例如印尼、菲律宾、肯尼亚的农村），哪些能照搬、哪些要改？ | ④ 跨境（25%） | 先自己想，第 3 步一起分析 |
 
+### ✍️ 你的答案（10/16 填写）+ Claude 的核对意见
+
+| # | 你的答案（摘要） | 出处 | Claude 核对（10/16） |
+|---|---|---|---|
+| 1 | 1995 年在印度班加罗尔成立，Harish Hande 和 Neville Williams 共同创立；要打破“穷人用不起、维护不好高科技”的偏见，用清洁能源解决农村贫困 | Ashoka、Magsaysay | ✅ 1995、班加罗尔、Hande 都对（Magsaysay、Wikipedia）。⚠️ **Neville Williams 这两个来源里没有**，要找一个写了他的来源（可以查 Yale 案例），找不到就先不写 |
+| 2 | 太阳能照明系统、生计设备；定制安装、上门维护、协助对接银行贷款 | Magsaysay | ✅ 对。Magsaysay 还提到太阳能热水器、炉灶，以及按需求定制（夜间工作的头灯、缝纫机用电） |
+| 3 | 农村缺电阻碍发展；服务偏远农村低收入人群（小摊贩、无电村）；原来用煤油灯和蜡烛 | Ashoka、Magsaysay | ✅ 对 |
+| 4 | 早期社会企业（SELCO India），后成立非营利 SELCO Foundation；盈利用于持续运营、扩大服务 | Wikipedia、Magsaysay | ✅ 基本对。更准确：SELCO India 是**营利性社会企业**（Magsaysay 原话 for-profit social enterprise，用“社会资本”而不只是财务回报衡量成功）；SELCO Foundation 是非营利研发机构（Skoll：2010 年成立）；Hande 2014 年转任 Foundation CEO（Wikipedia）。⚠️ **Wikipedia 只能帮你了解，不要在日志里引用** |
+| 5 | 穷人自己付钱；“上门融资”，说服农村银行按收入和现金流提供分期小额贷款 | Magsaysay | ✅ 对，这是最重要的创新点之一 |
+| 6 | 农村银行、小额信贷机构、自助组织和 NGO、技术供应商、政府 | Ashoka、Magsaysay | ✅ 对。补充：国际金融公司（IFC）帮它重组（Magsaysay） |
+| 7 | 生计导向；“产品 + 金融 + 售后”一站式定制服务；为穷人重建金融信贷桥梁 | Magsaysay | ✅ 很好。可再加：小型、分散、独立的系统，适合偏远村庄（不是大电网） |
+| 8 | 累计超过 10 万户家庭和企业 | Magsaysay | ⚠️ 改成：**12 万户家庭、小微企业和社区设施，覆盖 50 多万人（Magsaysay，2011 年）**；Skoll 的较新资料说 750 万人用上了它的能源产品——两个数字都要写年份 |
+| 9 | 银行对穷人的偏见、用户不信任新技术、农村物流和运营成本高 | Magsaysay | ⚠️ 太笼统。Magsaysay 里有一个**具体的失败**：投资人施压用**加盟经销商网络**快速扩张（Hande 反对），加上太阳能设备涨价，公司差点倒闭、偏离社会使命；后来和合作伙伴分开、在 IFC 帮助下重组；用了约 5 年才盈利。**这正是 10/15 课上老师说的“扩张太快、伙伴理念不一致”**——跨境部分很有用，请用你自己的话重写这一条 |
+| 10 | 起步于卡纳塔克邦，扩展到印度南部多个邦；模式分享到全球发展中国家 | Ashoka、Magsaysay | ⚠️ “分享到全球”太模糊。Skoll 写的是：SELCO 的模式通过 SELCO Foundation 的“生态系统建设”在**非洲、东南亚和南亚其他地区复制**。注意：**SELCO India 本身主要在印度经营**——这是“为什么不是国际创业”的依据 |
+| 11 | 首要目标是消除贫困、赋能底层；环保是协同效益 | Ashoka、Magsaysay | ✅ 很好。可引用 Hande 的话：“Until the poor become asset creators, we are not empowering them.”（Magsaysay） |
+| 12 | 可照搬：生计优先、信任穷人的能力、“产品 + 金融 + 服务”；要调整：当地农村金融、政策法规、适合当地产业的硬件 | Magsaysay | ✅ 好的开始，第 3 步用第 1 周的国际化理论和第 7 周的进入模式展开 |
+
+**来源要多样化**：目前几乎都来自 Magsaysay。日志评分要求“多个来源”，还要补：Yale 案例、Skoll 资料，最好有一篇学术文章（Goyal, Sergi & Kapoor 2017）。
+
 **可以用的来源**（日志要求多个来源；引用前自己打开核对）
 - Ashoka 页面：ashoka.org/fellow/harish-hande
 - Goyal, Sergi & Kapoor (2017) *Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco*, Journal of Management Development, 36(1)——**学术文章，最有分量**，学校图书馆应该能下载
