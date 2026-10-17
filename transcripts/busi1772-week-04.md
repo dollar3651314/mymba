@@ -634,7 +634,7 @@ Then I can go and learn about it.
 You are here.
 
 说话人 4 01:59:48 
-EMOS, yeah, that's the bear, exactly.
+[同学], yeah, that's the bear, exactly.
 
 说话人 2 01:59:51 
 I'll give it to you first, then you put it on, right.
