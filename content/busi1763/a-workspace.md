@@ -30,6 +30,19 @@
 | 成本 | 全球采购和生产的规模经济；工厂数量；近年的节约成本计划 | 年报 |
 | 竞争 | 主要对手 P&G、Nestlé、L'Oréal + 各国本土品牌和超市自有品牌；竞争逼它把精力集中在少数核心品牌、卖掉 / 拆分其他业务（茶叶、冰淇淋） | 年报；财经新闻 |
 
+## 🔎 怎样找 Unilever 往年的例子（10/17）
+| 去哪找 | 找什么 |
+|---|---|
+| Unilever 官网 **Our history / archives**（官网搜 “history”） | 按年代的大事记：1929 合并、进入各国的年份、2020 统一总部 |
+| Unilever 官网 **Investors → Annual report and accounts**（往年年报都能下载） | 按地区的营业额、员工数、工厂数、成本计划——给“市场”“成本”找数字 |
+| Hindustan Unilever 官网 history | 印度开放（1991）后的发展、Project Shakti——给“政治”“市场” |
+| 学校图书馆 ProQuest / Business Source（A1 用过 ProQuest） | 搜 “Unilever globalisation”“Unilever emerging markets”，找学术文章 |
+| BBC、Reuters、FT、CNN 新闻 | 搜 “Unilever + 关键词 + 年份”，例：“Unilever Kraft Heinz 2017”“Unilever headquarters London 2020” |
+
+**每个推动力的英文搜索词**：政治 → Unilever India liberalisation / Unilever tariffs / Unilever single headquarters；技术 → Unilever e-commerce / Unilever AI digital；市场 → Unilever emerging markets turnover / Unilever sachets / Project Shakti；成本 → Unilever economies of scale / Unilever productivity programme；竞争 → Unilever Procter & Gamble competition / Unilever power brands。
+
+**Moodle 往届样例 1（Unilever M&A，个人报告）里的来源可以顺着找**：CNN 2000（收购 Bestfoods 243 亿美元、Ben & Jerry's 3.26 亿美元）、TechCrunch 2016（Dollar Shave Club 10 亿美元）、FT 2020（Horlicks 38 亿美元）。⚠️ 这份样例有说错的地方（例如 2017 年是 **Kraft Heinz 撤回**收购要约，不是 Unilever 撤回；Horlicks 是 Unilever 从 GSK 买的），**只把它当找来源的线索，事实一律自己核对**。
+
 ## 4 分钟讲稿结构（每个推动力约 40 秒）
 1. 开场 15 秒：接上一位（定义）——“What pushes a company like Unilever to go global? Five drivers.”
 2. 每个推动力：**一句定义 → 一个 Unilever 事例（带一个数字和年份）→ 一句“所以”**（对 Unilever 意味着什么）
