@@ -90,6 +90,7 @@ MBA.addModule({
         '<b>往届样例（Tesla 组）的 Mind Map 长这样</b>：中间是公司 logo，向外分出几条主干（每条一个理论 / 主题，如全球化、逆全球化、区域一体化、FDI、M&A），主干下再分要点，每个要点只写几个词。另配一套黑底 PPT：公司简介 → 每个理论一两页（配图和数据）→ 东道国的弊端 → 结论 → 参考文献。',
       ],
       materials: 'content/busi1763/a-materials.md',
+      workspace: 'content/busi1763/a-workspace.md',
       brief: [
         '小组共同制作一张 <b>A1 尺寸的实体 Mind Map 海报</b>，分析一家选定的跨国公司。',
         '展示 20 分钟，<b>每人至少讲 5 分钟</b>，之后是问答。',
