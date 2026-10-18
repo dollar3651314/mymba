@@ -567,8 +567,8 @@
   function playFrom(i) {
     const els = [...document.querySelectorAll('#pr-list .pr-item')];
     if (!prPlay || i >= els.length) { stopPlay(); return; }
-    els.forEach(e => e.classList.remove('playing'));
-    const el = els[i]; el.classList.add('playing'); el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    els.forEach(e => e.classList.remove('playing', 'sel'));
+    const el = els[i]; el.classList.add('playing', 'sel'); el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     const text = el.dataset.say, token = prPlay;
     speak(text, () => {
       if (prPlay !== token) return;
@@ -819,7 +819,13 @@
     }
   });
   document.addEventListener('click', e => {
-    const z = e.target.closest('.pr-zh.hid'); if (z) { z.classList.remove('hid'); return; }
+    const z = e.target.closest('.pr-zh.hid'); if (z) { z.classList.remove('hid'); e.stopImmediatePropagation(); return; }
+    // 点句子卡片任意位置（底部按钮除外）都朗读，并标出选中的那一句
+    const it = e.target.closest('.pr-item');
+    if (it && !e.target.closest('.btn-row')) {
+      document.querySelectorAll('.pr-item.sel').forEach(x => x.classList.remove('sel'));
+      it.classList.add('sel'); prPlay = null; speak(it.dataset.say); e.stopImmediatePropagation();
+    }
   });
   document.addEventListener('click', e => {
     const t = e.target.closest('button, [data-cat]');
@@ -828,6 +834,7 @@
     if (t.dataset.prK !== undefined) { pr.k = t.dataset.prK; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
     if (t.classList.contains('pr-say') || t.dataset.prSlow !== undefined) {
       const say = t.dataset.say || t.closest('.pr-item')?.dataset.say; if (!say) return; prPlay = null;
+      const it = t.closest('.pr-item'); if (it) { document.querySelectorAll('.pr-item.sel').forEach(x => x.classList.remove('sel')); it.classList.add('sel'); }
       speak(say, null, t.dataset.prSlow !== undefined ? 0.6 : 0);
       return;
     }
