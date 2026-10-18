@@ -247,20 +247,20 @@ Keurig 的胶囊咖啡机很成功（约 17% 美国家庭有），2015 年照搬
 5. 背景提示（Claude 的一般知识，未核实，以可靠来源为准）：这两个案例来自 2018 年的教材，之后两家公司的情况都有很大变化。课上如果有人提到，可以讨论“当时的评分在今天看对不对”，但写进作业要引用可靠来源。
 
 ## 可以在课上说的英文
-- "Feasibility analysis is a preliminary evaluation of an idea. It comes before the business plan."
-- "I think the most damaging factor was that Kold asked people to change their behaviour. People never made soda at home."
-- "Keurig should have talked to potential customers and run a survey before launching the product."
-- "A business plan has a dual purpose: it guides the team inside the firm and persuades investors outside."
-- "Ginny should first segment the market and choose a specific target market, then analyse buyer behaviour and competitors."
-- "I would give Beyond Meat four out of five for the team, because experienced people like the former CEO of McDonald's are on the board."
-- "Go-Jek is strong in Indonesia, but it has no presence in other markets, so it needs to expand before competitors do."
-- "Rent the Runway changed its positioning after talking to designers. That shows feasibility analysis can improve an idea."
+- "Feasibility analysis is a preliminary evaluation of an idea. It comes before the business plan." —— 可行性分析是对一个想法的初步评估，在写商业计划书之前做。
+- "I think the most damaging factor was that Kold asked people to change their behaviour. People never made soda at home." —— 我认为最致命的因素是 Kold 要求人们改变行为习惯。人们从来不在家自己做汽水。
+- "Keurig should have talked to potential customers and run a survey before launching the product." —— Keurig 在推出产品之前，应该先和潜在客户沟通，并做一次调查。
+- "A business plan has a dual purpose: it guides the team inside the firm and persuades investors outside." —— 商业计划书有双重目的：对内指导公司团队，对外说服投资者。
+- "Ginny should first segment the market and choose a specific target market, then analyse buyer behaviour and competitors." —— Ginny 应该先细分市场、选定一个具体的目标市场，然后再分析购买者行为和竞争对手。
+- "I would give Beyond Meat four out of five for the team, because experienced people like the former CEO of McDonald's are on the board." —— 在团队这一项上我会给 Beyond Meat 打五分中的四分，因为董事会里有经验丰富的人，比如麦当劳的前 CEO。
+- "Go-Jek is strong in Indonesia, but it has no presence in other markets, so it needs to expand before competitors do." —— Go-Jek 在印度尼西亚很强，但在其他市场没有业务，所以它需要赶在竞争对手之前扩张。
+- "Rent the Runway changed its positioning after talking to designers. That shows feasibility analysis can improve an idea." —— Rent the Runway 在和设计师交流后调整了自己的定位。这说明可行性分析能让一个想法变得更好。
 
 ## 想问老师的问题
-- "The tutorial slide says we should submit a one-page reflective report by Friday 23:30. Is this every week? Where do we submit it, and is it part of the assessment?"
-- "For Assignment 2, should we include a start-up budget or simple financial projections, or is that not required?"
-- "Can we use a feasibility analysis framework, such as the four stages, to structure the evidence in Assignment 2?"
-- "Is a small survey or interviews with potential customers acceptable as evidence in the report?"
-- "Is the Birchbox case for this week's tutorial, or is it extra reading?"
-- "Can we cite the mini-lecture slides, or should we cite Barringer and Ireland's textbook directly?"
-- （如果 10/15 还没问到）"Since there is no group presentation this year, can we use ideas discussed in tutorials for Assignment 2?"
+- "The tutorial slide says we should submit a one-page reflective report by Friday 23:30. Is this every week? Where do we submit it, and is it part of the assessment?" —— 辅导课课件说我们要在周五 23:30 前提交一页的反思报告。这是每周都要交吗？在哪里提交？它算评分的一部分吗？
+- "For Assignment 2, should we include a start-up budget or simple financial projections, or is that not required?" —— 作业 2 需要包括启动预算或简单的财务预测吗？还是不要求？
+- "Can we use a feasibility analysis framework, such as the four stages, to structure the evidence in Assignment 2?" —— 我们可以用可行性分析框架（比如四个阶段）来组织作业 2 里的证据吗？
+- "Is a small survey or interviews with potential customers acceptable as evidence in the report?" —— 在报告里，用一个小型调查或对潜在客户的访谈作为证据，可以吗？
+- "Is the Birchbox case for this week's tutorial, or is it extra reading?" —— Birchbox 案例是这周辅导课用的，还是额外阅读材料？
+- "Can we cite the mini-lecture slides, or should we cite Barringer and Ireland's textbook directly?" —— 我们可以引用小讲座课件吗？还是应该直接引用 Barringer and Ireland 的教材？
+- （如果 10/15 还没问到）"Since there is no group presentation this year, can we use ideas discussed in tutorials for Assignment 2?" —— 既然今年没有小组展示，作业 2 可以用辅导课上讨论过的创意吗？

@@ -99,14 +99,14 @@
 - **反思**（A2 占 30%）：把今晚任务 2 的讨论（你站哪边、为什么）记进 tutorial 笔记。
 
 ## 可以在课上说的英文
-- "I think you were right, because keeping full control protects the family's socioemotional wealth and the legacy for your children."
-- "But one drawback of familiness is the reluctance to sell equity, which may limit growth."
-- "Miele succeeded by going against management fashions: it didn't outsource and it invested in its employees."
-- "The Frescobaldi family opened leadership to talented siblings, which shows a good succession process."
-- "Bifurcation bias means family members are treated differently from non-family employees."
+- "I think you were right, because keeping full control protects the family's socioemotional wealth and the legacy for your children." —— 我认为您是对的，因为保持完全控制权能保护家族的社会情感财富，以及留给子女的传承。
+- "But one drawback of familiness is the reluctance to sell equity, which may limit growth." —— 但"家族性"的一个缺点是不愿出让股权，这可能会限制企业成长。
+- "Miele succeeded by going against management fashions: it didn't outsource and it invested in its employees." —— Miele 的成功在于不跟风管理潮流：它不搞外包，而且投资于员工。
+- "The Frescobaldi family opened leadership to talented siblings, which shows a good succession process." —— Frescobaldi 家族把领导权向有才能的兄弟姐妹开放，这说明它的传承过程做得好。
+- "Bifurcation bias means family members are treated differently from non-family employees." —— 双重标准偏差（bifurcation bias）是指家族成员和非家族员工受到不同的对待。
 
 ## 想问老师的问题
-- "In Assignment 2, can we choose an existing small family business, and does it have to be outside Singapore?"
-- "Does 'submit before Friday 5 pm' refer to a weekly task or to the assignments?"
-- "When is the one-to-one consultation in the last week?"
-- "Assignment 2 says the idea cannot be the same as the group presentation. Since there is no group presentation this year, can we use ideas discussed in tutorials?"
+- "In Assignment 2, can we choose an existing small family business, and does it have to be outside Singapore?" —— 作业 2 能不能选一家现有的小型家族企业？它必须在新加坡以外吗？
+- "Does 'submit before Friday 5 pm' refer to a weekly task or to the assignments?" —— "周五下午 5 点前提交"指的是每周的任务，还是指作业？
+- "When is the one-to-one consultation in the last week?" —— 最后一周的一对一辅导是什么时候？
+- "Assignment 2 says the idea cannot be the same as the group presentation. Since there is no group presentation this year, can we use ideas discussed in tutorials?" —— 作业 2 说创意不能和小组展示的一样。今年没有小组展示，那我们可以用辅导课上讨论过的创意吗？

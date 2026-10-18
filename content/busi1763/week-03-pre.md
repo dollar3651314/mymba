@@ -110,13 +110,13 @@
 4. **强大的本地政府对企业本地化的成功有多大影响？**（新加坡是一个好例子：政府积极吸引 FDI）
 
 ## 可以在课上说的英文
-- "Our company grew mainly through acquisitions rather than greenfield investment."
-- "According to Dunning's OLI framework, the firm has an ownership advantage in its brand and technology."
-- "Most M&As fail because of integration problems, especially cultural differences."
-- "In Singapore, the government actively attracts FDI, so localisation is easier for MNEs."
-- "Gopalan and colleagues found that greenfield FDI supports growth more than M&A in developing Asia."
+- "Our company grew mainly through acquisitions rather than greenfield investment." —— 我们的公司主要是通过收购而不是绿地投资来发展的。
+- "According to Dunning's OLI framework, the firm has an ownership advantage in its brand and technology." —— 根据 Dunning 的 OLI 框架，这家公司在品牌和技术上具有所有权优势。
+- "Most M&As fail because of integration problems, especially cultural differences." —— 大多数并购失败是因为整合问题，尤其是文化差异。
+- "In Singapore, the government actively attracts FDI, so localisation is easier for MNEs." —— 在新加坡，政府积极吸引外国直接投资，所以跨国企业更容易实现本地化。
+- "Gopalan and colleagues found that greenfield FDI supports growth more than M&A in developing Asia." —— Gopalan 等人发现，在亚洲发展中国家，绿地型外国直接投资比并购更能促进增长。
 
 ## 想问老师的问题
-- "Moodle shows Lecture 3 as M&A and FDI. Is that the order we follow here?"
-- "For the mind map, can one member use M&A and another use FDI for the same company?"
-- （如果 10/3 还没问清）"Is the presentation on 31 October formative or summative?"
+- "Moodle shows Lecture 3 as M&A and FDI. Is that the order we follow here?" —— Moodle 上第 3 讲是并购和外国直接投资。我们这里也按这个顺序上吗？
+- "For the mind map, can one member use M&A and another use FDI for the same company?" —— 做思维导图时，同一家公司可以一个组员用并购、另一个组员用外国直接投资吗？
+- （如果 10/3 还没问清）"Is the presentation on 31 October formative or summative?" —— 10 月 31 日的展示是形成性评估还是总结性评估（计分）？

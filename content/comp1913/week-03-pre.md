@@ -91,13 +91,13 @@
 | Grieser (2022) *Numbers don't lie, except when they do*（LinkedIn） | 网络文章 | 不建议在报告里引用（非学术） |
 
 ## 可以在课上说的英文
-- "This chart's Y-axis doesn't start at zero, so the difference looks bigger than it is."
-- "The sample only includes successful companies — that's survivorship bias."
-- "This is correlation, not causation; there may be a confounding variable."
-- "What incentive does the author have in presenting the data this way?"
-- "The report doesn't state its sample size or methodology, which is missing information."
+- "This chart's Y-axis doesn't start at zero, so the difference looks bigger than it is." —— 这张图的 Y 轴不是从零开始的，所以差距看起来比实际更大。
+- "The sample only includes successful companies — that's survivorship bias." —— 样本只包括成功的公司——这是幸存者偏差。
+- "This is correlation, not causation; there may be a confounding variable." —— 这是相关性，不是因果关系；可能存在混杂变量。
+- "What incentive does the author have in presenting the data this way?" —— 作者这样呈现数据，有什么利益动机？
+- "The report doesn't state its sample size or methodology, which is missing information." —— 报告没有说明样本量和研究方法，这属于信息缺失。
 
 ## 想问老师的问题
-- "In the exemplar, the student cited lecture recordings. Can we cite your lectures in the report?"
-- "For the Bain report, should we evaluate every exhibit, or group them into themes like the exemplar?"
-- "Is there a template for the AI usage report?"
+- "In the exemplar, the student cited lecture recordings. Can we cite your lectures in the report?" —— 在范文里，那位学生引用了课程录音。我们可以在报告里引用您的讲课吗？
+- "For the Bain report, should we evaluate every exhibit, or group them into themes like the exemplar?" —— 对于 Bain 的报告，我们应该逐个评价每张图表，还是像范文那样按主题归类？
+- "Is there a template for the AI usage report?" —— AI 使用报告有模板吗？

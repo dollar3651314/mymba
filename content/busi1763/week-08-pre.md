@@ -129,15 +129,15 @@
 5. 你们组的公司支持哪几个 SDGs？它真的做到了吗？
 
 ## 可以在课上说的英文
-- "Sustainability means meeting today's needs without harming the ability of future generations to meet theirs."
-- "The triple bottom line asks companies to measure people, planet and profit, not just profit."
-- "I think sustainability and profit can go together, but only if the company thinks long-term."
-- "The tragedy of the commons happens when everyone only follows self-interest, so we need rules and collective action."
-- "Apple paid very little tax. It may be legal, but I am not sure it is fair."
-- "In our group project, our company says it supports SDG 13, climate action."
+- "Sustainability means meeting today's needs without harming the ability of future generations to meet theirs." —— 可持续发展是指满足当代人的需求，同时不损害后代人满足自身需求的能力。
+- "The triple bottom line asks companies to measure people, planet and profit, not just profit." —— 三重底线要求企业衡量人、地球和利润，而不只是利润。
+- "I think sustainability and profit can go together, but only if the company thinks long-term." —— 我认为可持续发展和利润可以兼得，但前提是公司要着眼长远。
+- "The tragedy of the commons happens when everyone only follows self-interest, so we need rules and collective action." —— 当每个人都只追求自身利益时，就会发生公地悲剧，所以我们需要规则和集体行动。
+- "Apple paid very little tax. It may be legal, but I am not sure it is fair." —— 苹果交的税非常少。这可能是合法的，但我不确定这公平。
+- "In our group project, our company says it supports SDG 13, climate action." —— 在我们的小组项目中，我们的公司说它支持可持续发展目标 13（气候行动）。
 
 ## 想问老师的问题
-- "Can we use the triple bottom line or the SDGs in our individual reflective report, together with the theory we chose for the Mind Map?"
-- "The recommended readings are a blog, an HBR article and an Oxfam report. Can we cite them in the report, or should we only use academic journal articles?"
-- "For the presentation on 14 November, how will the recovery session be marked?"（如果 10/17 还没问清）
-- "Where does the definition of sustainability on slide 7 come from — is it the Brundtland Report (1987)?"
+- "Can we use the triple bottom line or the SDGs in our individual reflective report, together with the theory we chose for the Mind Map?" —— 我们可以在个人反思报告里，把三重底线或可持续发展目标和我们为思维导图选的理论一起用吗？
+- "The recommended readings are a blog, an HBR article and an Oxfam report. Can we cite them in the report, or should we only use academic journal articles?" —— 推荐阅读是一篇博客、一篇《哈佛商业评论》文章和一份乐施会（Oxfam）报告。我们可以在报告里引用它们吗？还是只能用学术期刊文章？
+- "For the presentation on 14 November, how will the recovery session be marked?" —— 11 月 14 日的展示，补救课会怎么评分？（如果 10/17 还没问清）
+- "Where does the definition of sustainability on slide 7 come from — is it the Brundtland Report (1987)?" —— 第 7 页课件上可持续发展的定义出自哪里——是《布伦特兰报告》（1987）吗？

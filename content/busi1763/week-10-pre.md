@@ -112,15 +112,15 @@
 5. 小额信贷帮助了穷人，还是让他们欠了更多债？
 
 ## 可以在课上说的英文
-- "ESG stands for environmental, social and governance criteria."
-- "Negative screening means excluding industries such as tobacco or weapons."
-- "Greenwashing happens because of information asymmetry: investors cannot easily check what the fund really does."
-- "The DWS case shows that ESG claims need to be verified."
-- "Microfinance can help poor people, especially women, but high interest rates can create debt traps."
-- "I think best-in-class is more practical, but it still invests in oil companies."
+- "ESG stands for environmental, social and governance criteria." —— ESG 代表环境、社会和治理标准。
+- "Negative screening means excluding industries such as tobacco or weapons." —— 负面筛选是指把烟草或武器等行业排除在投资之外。
+- "Greenwashing happens because of information asymmetry: investors cannot easily check what the fund really does." —— "漂绿"之所以发生，是因为信息不对称：投资者很难核实基金实际上在做什么。
+- "The DWS case shows that ESG claims need to be verified." —— DWS 案例说明，ESG 方面的说法需要核实。
+- "Microfinance can help poor people, especially women, but high interest rates can create debt traps." —— 小额信贷可以帮助穷人，尤其是女性，但高利率可能造成债务陷阱。
+- "I think best-in-class is more practical, but it still invests in oil companies." —— 我认为同类最佳（best-in-class）方法更实际，但它仍然会投资石油公司。
 
 ## 想问老师的问题
-- "Who is the guest speaker for this lecture?"（课件没写）
-- "In our reflective report, can we discuss whether our company's sustainability claims might be greenwashing?"
-- "Which ESG rating sources are reliable enough to cite in an academic report?"
-- "Can we cite chapters from Boatright (2010), or only journal articles from 2020–2022?"
+- "Who is the guest speaker for this lecture?" —— 这一讲的客座讲者是谁？（课件没写）
+- "In our reflective report, can we discuss whether our company's sustainability claims might be greenwashing?" —— 在我们的反思报告里，可以讨论我们公司的可持续发展说法是否可能是"漂绿"吗？
+- "Which ESG rating sources are reliable enough to cite in an academic report?" —— 哪些 ESG 评级来源足够可靠，可以在学术报告里引用？
+- "Can we cite chapters from Boatright (2010), or only journal articles from 2020–2022?" —— 我们可以引用 Boatright (2010) 的章节吗？还是只能用 2020–2022 年的期刊文章？

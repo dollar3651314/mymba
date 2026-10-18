@@ -160,17 +160,17 @@
 - Moodle 这一讲**没有指定阅读**，只有录播课。课件总结提到“进一步阅读 ARIMA 和 VAR 模型”，但没有给具体书目。
 
 ## 可以在课上说的英文
-- "The sales data has a clear upward trend and strong seasonality: January is always the lowest month."
-- "I added a 3-month moving average trendline to smooth out the fluctuations."
-- "A 12-month moving average removes the seasonal pattern, so we can see the trend."
-- "The ADF p-value is 0.337, which is above 0.05, so the series is not stationary."
-- "With only five months of data, we cannot tell if there is seasonality."
-- "Forecasts become less accurate the further we look into the future."
+- "The sales data has a clear upward trend and strong seasonality: January is always the lowest month." —— 销售数据有明显的上升趋势和很强的季节性：一月份总是最低的月份。
+- "I added a 3-month moving average trendline to smooth out the fluctuations." —— 我加了一条 3 个月移动平均趋势线，用来平滑波动。
+- "A 12-month moving average removes the seasonal pattern, so we can see the trend." —— 12 个月移动平均能去掉季节性规律，这样我们就能看到趋势。
+- "The ADF p-value is 0.337, which is above 0.05, so the series is not stationary." —— ADF 检验的 p 值是 0.337，高于 0.05，所以这个序列不平稳。
+- "With only five months of data, we cannot tell if there is seasonality." —— 只有五个月的数据，我们无法判断是否存在季节性。
+- "Forecasts become less accurate the further we look into the future." —— 预测得越远，预测就越不准确。
 
 ## 想问老师的问题
-- "Tutorial 8 uses Stata. Can we use Stata on campus, or can we do the same tasks in Excel?"
-- "On slide 7 the data is described as S&P 500 for 2018, but the charts show 2001. Which is correct?"
-- "Why do we estimate the AR model on 'close' instead of the differenced series 'd_close'?"
-- "The ADF output shows 140 observations, but the dataset has 248. Why are some observations dropped?"
-- "For the American Egg presentation, is a moving average and scenario analysis enough, or should we use the Excel Forecast Sheet?"
-- "The tutorial ends with 'Assessment 1 Q&A'. Which assessment is Assessment 1 — the report or the presentation?"
+- "Tutorial 8 uses Stata. Can we use Stata on campus, or can we do the same tasks in Excel?" —— Tutorial 8 用的是 Stata。我们可以在学校用 Stata 吗，还是可以在 Excel 里完成同样的任务？
+- "On slide 7 the data is described as S&P 500 for 2018, but the charts show 2001. Which is correct?" —— 第 7 页说数据是 2018 年的标普 500，但图表显示的是 2001 年。哪个是对的？
+- "Why do we estimate the AR model on 'close' instead of the differenced series 'd_close'?" —— 为什么我们用 “close”（收盘价）来估计 AR 模型，而不是用差分后的序列 “d_close”？
+- "The ADF output shows 140 observations, but the dataset has 248. Why are some observations dropped?" —— ADF 的输出显示有 140 个观测值，但数据集里有 248 个。为什么有些观测值被去掉了？
+- "For the American Egg presentation, is a moving average and scenario analysis enough, or should we use the Excel Forecast Sheet?" —— 对于 American Egg 的展示，用移动平均和情景分析就够了吗，还是应该用 Excel 的“预测工作表”功能？
+- "The tutorial ends with 'Assessment 1 Q&A'. Which assessment is Assessment 1 — the report or the presentation?" —— 辅导课最后是“Assessment 1 答疑”。Assessment 1 指的是哪份作业——报告还是展示？

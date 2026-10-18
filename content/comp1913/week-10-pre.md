@@ -150,19 +150,19 @@
 5. 收购竞争对手还有哪些数字算不出来的好处和风险（客户、员工、整合）？
 
 ## 可以在课上说的英文
-- "The monthly totals for October to December are in the Total Sales sheet, so we only need to estimate the daily figures."
-- "Our hypothesis is that daily sales are higher at weekends than on weekdays."
-- "We can split each monthly total by day-of-week weights based on January to September."
-- "December's average daily sales are higher than any day in the first nine months, so this is an extrapolation."
-- "The product totals in the daily sheets do not match the Total Sales sheet. Which one should we trust?"
-- "The total interest on the loan is about 2.73 million pounds, and the opportunity cost of the acquisition is about 2.75 million, so the costs are very similar."
-- "We need more information about the risks before choosing between building and acquiring."
+- "The monthly totals for October to December are in the Total Sales sheet, so we only need to estimate the daily figures." —— 10 月到 12 月的月度总额在 Total Sales 表里，所以我们只需要估算每天的数据。
+- "Our hypothesis is that daily sales are higher at weekends than on weekdays." —— 我们的假设是：周末的日销售额高于工作日。
+- "We can split each monthly total by day-of-week weights based on January to September." —— 我们可以根据 1 月到 9 月的数据得出“星期几”的权重，用它来拆分每个月的总额。
+- "December's average daily sales are higher than any day in the first nine months, so this is an extrapolation." —— 12 月的日均销售额比前九个月的任何一天都高，所以这属于外推。
+- "The product totals in the daily sheets do not match the Total Sales sheet. Which one should we trust?" —— 每日表里的产品总数和 Total Sales 表对不上。我们应该相信哪一个？
+- "The total interest on the loan is about 2.73 million pounds, and the opportunity cost of the acquisition is about 2.75 million, so the costs are very similar." —— 贷款的总利息约为 273 万英镑，收购的机会成本约为 275 万英镑，所以两者成本非常接近。
+- "We need more information about the risks before choosing between building and acquiring." —— 在“自建”和“收购”之间做选择之前，我们需要更多关于风险的信息。
 
 ## 想问老师的问题
-- "In Activity 1, what data are we asked to collect from the Masala Brews workbook?"
-- "The monthly figures for October to December are already in the Total Sales sheet. Should we only estimate the daily figures?"
-- "The product totals in the daily sheets do not match the Total Sales sheet, for example Regular coffee in April. Which data should we use?"
-- "In the Cloudy Drizzle exercise, what do the numbers in the risk formula mean? Is a higher score more risky?"
-- "In Part B, step 8, should the formula be =(B5*B3*B4)-B1? The multiplication signs seem to be missing."
-- "The Part 2 recording is named 'Lecture7_Part 2_LO2'. Is it the correct recording for this week?"
-- "For the American Egg presentation, can we use a loan amortisation schedule like Cloudy Drizzle to show the cost of borrowing?"
+- "In Activity 1, what data are we asked to collect from the Masala Brews workbook?" —— 在活动 1 里，要求我们从 Masala Brews 工作簿里收集哪些数据？
+- "The monthly figures for October to December are already in the Total Sales sheet. Should we only estimate the daily figures?" —— 10 月到 12 月的月度数据已经在 Total Sales 表里了。我们只需要估算每天的数据吗？
+- "The product totals in the daily sheets do not match the Total Sales sheet, for example Regular coffee in April. Which data should we use?" —— 每日表里的产品总数和 Total Sales 表对不上，比如四月的 Regular 咖啡。我们应该用哪份数据？
+- "In the Cloudy Drizzle exercise, what do the numbers in the risk formula mean? Is a higher score more risky?" —— 在 Cloudy Drizzle 练习里，风险公式中的数字是什么意思？分数越高代表风险越大吗？
+- "In Part B, step 8, should the formula be =(B5*B3*B4)-B1? The multiplication signs seem to be missing." —— 在 B 部分第 8 步，公式应该是 =(B5*B3*B4)-B1 吗？乘号好像漏掉了。
+- "The Part 2 recording is named 'Lecture7_Part 2_LO2'. Is it the correct recording for this week?" —— 第 2 部分的录音名叫 “Lecture7_Part 2_LO2”。这是本周正确的录音吗？
+- "For the American Egg presentation, can we use a loan amortisation schedule like Cloudy Drizzle to show the cost of borrowing?" —— 对于 American Egg 的展示，我们可以像 Cloudy Drizzle 那样用贷款摊还表来展示借款成本吗？

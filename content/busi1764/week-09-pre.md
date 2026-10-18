@@ -187,20 +187,20 @@ Ryla 是美国佐治亚州的**呼叫中心**公司，2001 年 10 月由 Mark Wi
 5. 一份投资方自己写的案例，能当作“风投好处”的证据吗？
 
 ## 可以在课上说的英文
-- "The business is profitable on paper, but the cash is tied up in 60-day credit to wholesalers."
-- "To solve the working capital problem, I would consider factoring or invoice discounting, so we can get cash from our receivables now."
-- "We could also ask our suppliers for trade credit and ask some customers to pay in advance."
-- "For the packaging machine, leasing or hire purchase is more realistic than a bank loan, because the machine itself can secure the finance."
-- "At this early stage, venture capital may not be suitable, because VCs usually prefer firms with a track record."
-- "Venture capital gave Ryla more than money. SJF also helped with management recruitment, a stock option plan and further funding."
-- "The CEO was sceptical because he thought venture capital was predatory and would not share his vision."
-- "We should remember that this case study was written by the investor, so it may only show the positive side."
-- "For my own business idea, I would start with personal savings and bootstrapping, and then use reward-based crowdfunding to test demand."
+- "The business is profitable on paper, but the cash is tied up in 60-day credit to wholesalers." —— 这家企业账面上是盈利的，但现金被压在给批发商的 60 天赊账里。
+- "To solve the working capital problem, I would consider factoring or invoice discounting, so we can get cash from our receivables now." —— 为了解决营运资金问题，我会考虑保理或发票贴现，这样就能现在从应收账款中拿到现金。
+- "We could also ask our suppliers for trade credit and ask some customers to pay in advance." —— 我们也可以请供应商给我们商业信用（赊账），并请部分客户预付货款。
+- "For the packaging machine, leasing or hire purchase is more realistic than a bank loan, because the machine itself can secure the finance." —— 对于包装机，租赁或分期付款购买比银行贷款更现实，因为机器本身就可以作为融资的担保。
+- "At this early stage, venture capital may not be suitable, because VCs usually prefer firms with a track record." —— 在这个早期阶段，风险投资可能不合适，因为风投通常更喜欢有过往业绩的公司。
+- "Venture capital gave Ryla more than money. SJF also helped with management recruitment, a stock option plan and further funding." —— 风险投资给 Ryla 带来的不只是钱。SJF 还帮忙招聘管理人员、制定股票期权计划和争取后续融资。
+- "The CEO was sceptical because he thought venture capital was predatory and would not share his vision." —— CEO 一开始持怀疑态度，因为他觉得风险投资很掠夺性，不会认同他的愿景。
+- "We should remember that this case study was written by the investor, so it may only show the positive side." —— 我们要记住，这个案例是投资方写的，所以可能只展示了好的一面。
+- "For my own business idea, I would start with personal savings and bootstrapping, and then use reward-based crowdfunding to test demand." —— 对于我自己的商业创意，我会先用个人储蓄和自力更生（bootstrapping），然后用回报型众筹来测试需求。
 
 ## 想问老师的问题
-- "The cover of Mini Lecture 9.1 says 'Week 6 Tutorial Slides'. Is it the correct file for Week 9?"
-- "For Assignment 2, is it better to describe different sources for different stages, or to choose one main source of finance?"
-- "Do we need to include a start-up budget or financial figures in the finance section?"
-- "The reading uses US examples, such as the SBA. Is it acceptable to use them if our business is in Singapore, or should we find local sources?"
-- "For Case Study 1, should we answer question 4 using the entry modes from Week 7?"
-- "Do we need to submit the case study answers this week? Is there a deadline?"
+- "The cover of Mini Lecture 9.1 says 'Week 6 Tutorial Slides'. Is it the correct file for Week 9?" —— 小讲座 9.1 的封面写着"Week 6 Tutorial Slides"。这是第 9 周的正确文件吗？
+- "For Assignment 2, is it better to describe different sources for different stages, or to choose one main source of finance?" —— 作业 2 里，是针对不同阶段介绍不同的资金来源更好，还是选一个主要的资金来源更好？
+- "Do we need to include a start-up budget or financial figures in the finance section?" —— 融资部分需要包括启动预算或财务数据吗？
+- "The reading uses US examples, such as the SBA. Is it acceptable to use them if our business is in Singapore, or should we find local sources?" —— 阅读材料用的是美国的例子，比如 SBA。如果我们的企业在新加坡，用这些例子可以吗？还是应该找本地的资料？
+- "For Case Study 1, should we answer question 4 using the entry modes from Week 7?" —— 案例分析 1 的第 4 题，我们应该用第 7 周的进入方式来回答吗？
+- "Do we need to submit the case study answers this week? Is there a deadline?" —— 这周需要提交案例分析答案吗？有截止时间吗？

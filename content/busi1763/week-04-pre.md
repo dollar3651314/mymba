@@ -99,7 +99,7 @@
 4. 新加坡怎样平衡吸引外资和保护本地利益？
 
 ## 可以在课上说的英文
-- "Host governments have a love-hate relationship with MNEs."
-- "After the MNE invests in fixed assets, its bargaining power declines."
-- "Our company is an MNE from an advanced economy, and it faced tax avoidance criticism in…"
-- "Hisense is an example of an emerging-market MNE taking a domestic brand global."
+- "Host governments have a love-hate relationship with MNEs." —— 东道国政府和跨国企业之间是一种又爱又恨的关系。
+- "After the MNE invests in fixed assets, its bargaining power declines." —— 跨国企业投资固定资产之后，它的议价能力就下降了。
+- "Our company is an MNE from an advanced economy, and it faced tax avoidance criticism in…" —— 我们的公司是来自发达经济体的跨国企业，它在……曾因避税受到批评。
+- "Hisense is an example of an emerging-market MNE taking a domestic brand global." —— 海信是新兴市场跨国企业把国内品牌推向全球的一个例子。

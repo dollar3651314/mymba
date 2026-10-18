@@ -226,17 +226,17 @@
 > 注意：课件第 25 页写“p < 0.05 说明 H₀ 不太可能成立，应拒绝”。课上和练习按课件的规则做；但写报告时，按 Greenland et al. 的说法更严谨：**p 值小只说明“如果 H₀ 成立，这样的数据不太常见”**。
 
 ## 可以在课上说的英文
-- "My null hypothesis is: there is no relationship between AI adoption and recruitment cost."
-- "The independent variable is department, and the dependent variable is support for AI."
-- "Both variables are categorical, so we should use a chi-square test."
-- "Both variables are continuous, so we can use correlation."
-- "The p-value is less than 0.05, so we reject the null hypothesis."
-- "Failing to reject the null does not prove there is no relationship."
-- "This paragraph only describes the data. It needs analysis and a justified recommendation."
+- "My null hypothesis is: there is no relationship between AI adoption and recruitment cost." —— 我的原假设是：AI 的采用和招聘成本之间没有关系。
+- "The independent variable is department, and the dependent variable is support for AI." —— 自变量是部门，因变量是对 AI 的支持度。
+- "Both variables are categorical, so we should use a chi-square test." —— 两个变量都是分类变量，所以我们应该用卡方检验。
+- "Both variables are continuous, so we can use correlation." —— 两个变量都是连续变量，所以我们可以用相关分析。
+- "The p-value is less than 0.05, so we reject the null hypothesis." —— p 值小于 0.05，所以我们拒绝原假设。
+- "Failing to reject the null does not prove there is no relationship." —— 没能拒绝原假设，并不能证明两者之间没有关系。
+- "This paragraph only describes the data. It needs analysis and a justified recommendation." —— 这一段只是在描述数据。它需要分析，以及有理有据的建议。
 
 ## 想问老师的问题
-- "Is this hypothesis lecture today (17 October), or on 24 October? What will we cover in the other session?"
-- "Will we use the diversity dataset (Tutorial 6 guide in the Week 4 folder) for hypothesis testing in Excel?"
-- "In the tutorial slides, the examples for continuous data are the same as for categorical data. Could you give the correct examples?"
-- "For the Bain report, the sample is only about 20 companies. Is it enough to say the results are not statistically reliable?"
-- "In the group presentation, do we need to run a statistical test, or are descriptive statistics enough?"
+- "Is this hypothesis lecture today (17 October), or on 24 October? What will we cover in the other session?" —— 假设检验这一讲是今天（10 月 17 日），还是 10 月 24 日？另一次课讲什么？
+- "Will we use the diversity dataset (Tutorial 6 guide in the Week 4 folder) for hypothesis testing in Excel?" —— 我们会用多样性数据集（第 4 周文件夹里的 Tutorial 6 指南）在 Excel 里做假设检验吗？
+- "In the tutorial slides, the examples for continuous data are the same as for categorical data. Could you give the correct examples?" —— 辅导课课件里，连续数据的例子和分类数据的例子是一样的。您能给出正确的例子吗？
+- "For the Bain report, the sample is only about 20 companies. Is it enough to say the results are not statistically reliable?" —— 对于 Bain 的报告，样本只有大约 20 家公司。可以据此说结果在统计上不可靠吗？
+- "In the group presentation, do we need to run a statistical test, or are descriptive statistics enough?" —— 在小组展示中，我们需要做统计检验吗，还是描述性统计就够了？

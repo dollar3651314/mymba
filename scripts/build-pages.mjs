@@ -1,6 +1,7 @@
 // Cloudflare Pages 构建：只把要发布的文件复制到 dist/（录音原文、说明文件、服务端代码都不发布）。
 // Cloudflare 项目设置：Build command = node scripts/build-pages.mjs，Build output directory = dist
 import { cpSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
+import './build-practice.mjs'; // 先重新生成跟读练习数据
 
 const OUT = 'dist';
 rmSync(OUT, { recursive: true, force: true });

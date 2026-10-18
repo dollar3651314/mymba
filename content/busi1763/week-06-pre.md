@@ -171,15 +171,15 @@
 5. 新加坡作为一个小国，在中美之间更像“狮子”还是“狐狸”？（可以结合你自己在新加坡的观察）
 
 ## 可以在课上说的英文
-- "Some MNEs are bigger than many countries. For example, Apple's market cap was larger than Italy's GDP."
-- "Corporate diplomacy is about managing geopolitical and non-commercial risks like a diplomat."
-- "Traditional diplomacy is hierarchical and force-oriented, while corporate diplomacy is horizontal and negotiation-based."
-- "The company needs a licence to operate, not only from the government but also from the local community."
-- "Our company had to deal with Brexit, so it needed to build its own relationships with the EU."
-- "I think corporate diplomacy is necessary, but it should be transparent and ethical."
+- "Some MNEs are bigger than many countries. For example, Apple's market cap was larger than Italy's GDP." —— 有些跨国企业比很多国家还大。比如，苹果的市值曾经超过意大利的 GDP。
+- "Corporate diplomacy is about managing geopolitical and non-commercial risks like a diplomat." —— 企业外交是指像外交官一样管理地缘政治风险和非商业风险。
+- "Traditional diplomacy is hierarchical and force-oriented, while corporate diplomacy is horizontal and negotiation-based." —— 传统外交是等级化、以强制力为导向的，而企业外交是平行的、以谈判为基础的。
+- "The company needs a licence to operate, not only from the government but also from the local community." —— 公司需要"经营许可"，不仅来自政府，也来自当地社区。
+- "Our company had to deal with Brexit, so it needed to build its own relationships with the EU." —— 我们的公司必须应对脱欧，所以它需要和欧盟建立自己的关系。
+- "I think corporate diplomacy is necessary, but it should be transparent and ethical." —— 我认为企业外交是必要的，但应该透明、合乎道德。
 
 ## 想问老师的问题
-- "Since 31 October is the presentation day, will Lectures 6 and 7 still be delivered on that day, or should we watch the recordings on Moodle?"（最好 10/24 就问）
-- "Can we use corporate diplomacy as an example in the Q&A, even though it is not one of the eight theories?"
-- "The slides show Apple's market cap and countries' GDP. Which year is this data from?"
-- "Is corporate diplomacy the same as lobbying? Where is the line?"
+- "Since 31 October is the presentation day, will Lectures 6 and 7 still be delivered on that day, or should we watch the recordings on Moodle?" —— 既然 10 月 31 日是展示日，第 6 讲和第 7 讲那天还会上吗？还是我们应该在 Moodle 上看录像？（最好 10/24 就问）
+- "Can we use corporate diplomacy as an example in the Q&A, even though it is not one of the eight theories?" —— 我们可以在问答环节用企业外交作为例子吗？虽然它不是八个理论之一。
+- "The slides show Apple's market cap and countries' GDP. Which year is this data from?" —— 课件里展示了苹果的市值和各国的 GDP。这些数据是哪一年的？
+- "Is corporate diplomacy the same as lobbying? Where is the line?" —— 企业外交和游说是一回事吗？界线在哪里？

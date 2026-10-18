@@ -90,16 +90,16 @@
 4. 如果你要用这份数据写报告，第一步要清理哪些问题？
 
 ## 可以在课上说的英文
-- "The ranking is not based on revenue, because Accenture has the highest revenue but is ranked fifth."
-- "The revenue is stored as both numbers and text, so we need to clean the data types first."
-- "It is not a fair comparison, because Deloitte and PwC also have audit and tax services."
-- "A slicer lets users filter the whole report page, which a static PDF cannot do."
-- "A donut chart is fine for two or three parts, but a column chart is better for comparing ten firms."
-- "In my report, I will argue that Bain's charts would be more useful if readers could filter by industry and see the sample size."
+- "The ranking is not based on revenue, because Accenture has the highest revenue but is ranked fifth." —— 排名不是按收入排的，因为 Accenture 收入最高，却排在第五。
+- "The revenue is stored as both numbers and text, so we need to clean the data types first." —— 收入数据有的存成数字、有的存成文本，所以我们要先清理数据类型。
+- "It is not a fair comparison, because Deloitte and PwC also have audit and tax services." —— 这不是公平的比较，因为 Deloitte 和 PwC 还有审计和税务业务。
+- "A slicer lets users filter the whole report page, which a static PDF cannot do." —— 切片器能让用户筛选整个报告页面，这是静态 PDF 做不到的。
+- "A donut chart is fine for two or three parts, but a column chart is better for comparing ten firms." —— 环形图适合两三个部分，但要比较十家公司，柱形图更好。
+- "In my report, I will argue that Bain's charts would be more useful if readers could filter by industry and see the sample size." —— 在我的报告里，我会论证：如果读者能按行业筛选、并看到样本量，Bain 的图表会更有用。
 
 ## 想问老师的问题
-- "The group presentation slides are due on 27 November, but this session is on 28 November. Is our group presenting today, or on 24 November?"
-- "Can we use Power BI on the campus computers? Is Power BI available with our university account?"
-- "How was the Top 10 ranking in the sample data decided, and which year is the revenue from?"
-- "In the report, is it enough to suggest that Bain could use an interactive BI dashboard, or should we include an example chart we made ourselves?"
-- "Is there an AI use report that we need to submit with the individual report?"
+- "The group presentation slides are due on 27 November, but this session is on 28 November. Is our group presenting today, or on 24 November?" —— 小组展示课件 11 月 27 日截止，但这次课是 11 月 28 日。我们小组是今天展示，还是 11 月 24 日？
+- "Can we use Power BI on the campus computers? Is Power BI available with our university account?" —— 我们可以在学校电脑上用 Power BI 吗？用我们的大学账号能使用 Power BI 吗？
+- "How was the Top 10 ranking in the sample data decided, and which year is the revenue from?" —— 样本数据里的前 10 名排名是怎么定的？收入是哪一年的？
+- "In the report, is it enough to suggest that Bain could use an interactive BI dashboard, or should we include an example chart we made ourselves?" —— 在报告里，只建议 Bain 可以使用交互式 BI 仪表板就够了吗，还是应该附上一张我们自己做的示例图表？
+- "Is there an AI use report that we need to submit with the individual report?" —— 个人报告需要同时提交一份 AI 使用报告吗？

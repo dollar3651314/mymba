@@ -103,13 +103,13 @@
 | Vogel (2005) *The Market for Virtue* 第 6 章：企业对人权的责任与全球企业公民 | ① 案例：**壳牌在尼日利亚**（奥戈尼地区抗议、漏油、安全部队暴力、活动家 Saro-Wiwa 被捕受审）——壳牌说“政治是政府的事”，后来加强社区发展，但当地问题仍在：**治理差的国家里，企业美德作用有限**。② 一系列**自愿**规范：安全与人权自愿原则（2000）、采矿业可持续发展原则、“公布你所支付的”（PWYP）和采掘业透明度倡议（EITI）、银行的赤道原则（2003）——共同问题是标准模糊、**缺少监督和执行**。③ 撤资压力（南非、缅甸）：一些公司撤了，但别国公司接手；美国公司在南非撤资后很难夺回市场，“企业美德不一定有回报”。④ **联合国全球契约**（Global Compact，1999 年安南提出，2001 年正式启动）：1,366 家企业参加，但没有认证标准；批评者说是“蓝筹最低限度”，企业借此**逃避更严格的监管**。⑤ 人权的商业理由不强：成本是短期的，收益是长期的、难衡量。→ 正好支持本周课件的观点：**光靠企业自我监管不够** |
 
 ## 可以在课上说的英文
-- "Sen says democracy is a universal value not because everyone agrees, but because people anywhere may have reason to value it."
-- "The majority is not always right. Democracy also needs protection of rights and free discussion, not just majority rule."
-- "The constructive value of democracy is that public debate helps society understand its own needs."
-- "Businesses cannot regulate themselves effectively because they lack democratic legitimacy and enforcement power."
-- "Our group chose [company]. It focuses on SDG [number], and its actions include …"
+- "Sen says democracy is a universal value not because everyone agrees, but because people anywhere may have reason to value it." —— Sen 说民主是一种普世价值，不是因为每个人都认同它，而是因为任何地方的人都可能有理由珍视它。
+- "The majority is not always right. Democracy also needs protection of rights and free discussion, not just majority rule." —— 多数人并不总是对的。民主还需要保护权利和自由讨论，而不只是少数服从多数。
+- "The constructive value of democracy is that public debate helps society understand its own needs." —— 民主的建设性价值在于：公共讨论能帮助社会了解自己的需要。
+- "Businesses cannot regulate themselves effectively because they lack democratic legitimacy and enforcement power." —— 企业无法有效地自我监管，因为它们缺乏民主正当性和执行力。
+- "Our group chose [company]. It focuses on SDG [number], and its actions include …" —— 我们小组选的是 [公司名]。它关注的是可持续发展目标（SDG）第 [编号] 条，它采取的行动包括……
 
 ## 想问老师的问题
-- "Week 6 is not one of the essay topics. Can we use Vogel (2005) chapter 6 in essay topic 2, or only chapters 1 and 2?"
-- "The lecture cites Ferretti (2022). Is that the same reading as week 12?"
-- "Sen (1999) says there is no clear relation between democracy and growth, but the slide says faster growth is easier in democracies. Which view should we use in the quiz?"
+- "Week 6 is not one of the essay topics. Can we use Vogel (2005) chapter 6 in essay topic 2, or only chapters 1 and 2?" —— 第 6 周不在论文题目里。论文第 2 题可以用 Vogel (2005) 第 6 章吗，还是只能用第 1、2 章？
+- "The lecture cites Ferretti (2022). Is that the same reading as week 12?" —— 课件引用了 Ferretti (2022)。这和第 12 周的阅读材料是同一篇吗？
+- "Sen (1999) says there is no clear relation between democracy and growth, but the slide says faster growth is easier in democracies. Which view should we use in the quiz?" —— Sen (1999) 说民主和经济增长之间没有明确关系，但课件说民主国家更容易实现较快增长。小测里应该用哪个观点？

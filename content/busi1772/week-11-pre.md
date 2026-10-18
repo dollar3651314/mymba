@@ -117,16 +117,16 @@
 | Ferretti (2024) *Value Alignment Without Institutional Change Cannot Prevent the Societal Risks of AI*（推荐，**和第 9 周必读是同一个文件**） | 第 11 周相关的是 2.5 节：亚马逊案说明两种偏差，**抽样偏差**（训练数据不具代表性）和**代理偏差**（删掉性别后，系统仍偏好男性常用的词，如 “executed”“captured”）；更深一层是**结构性不公**：社会缺少公平的育儿假和托育，算法“正确”地预测女性前景更差，会造成两种不公（把人当成所属群体的统计数字；女性只因社会不公才前景更差）。结论：**光调算法不够，要改背景制度**，例如育儿假和托育政策也是解决算法偏见的一部分 |
 
 ## 可以在课上说的英文
-- "Algorithms do not have mental states, but they can still discriminate if the training data is biased."
-- "Removing gender from the data does not solve the problem, because the algorithm can find proxies, like sports or the words people use."
-- "PARiS did not use disability directly, but sports history worked as a proxy. I think this is indirect discrimination."
-- "Even an accurate algorithm can reproduce structural injustice, because it learns from an unfair society."
-- "I think a human should always check the decision, and candidates should be able to ask for an explanation."
+- "Algorithms do not have mental states, but they can still discriminate if the training data is biased." —— 算法没有心理状态，但如果训练数据有偏见，它仍然可能造成歧视。
+- "Removing gender from the data does not solve the problem, because the algorithm can find proxies, like sports or the words people use." —— 把性别从数据里删掉并不能解决问题，因为算法可以找到替代指标，比如运动项目或人们用的词。
+- "PARiS did not use disability directly, but sports history worked as a proxy. I think this is indirect discrimination." —— PARiS 没有直接使用残障信息，但运动经历起到了替代指标的作用。我认为这是间接歧视。
+- "Even an accurate algorithm can reproduce structural injustice, because it learns from an unfair society." —— 即使是一个准确的算法，也可能重现结构性不公，因为它是从一个不公平的社会中学习的。
+- "I think a human should always check the decision, and candidates should be able to ask for an explanation." —— 我认为应该始终由人来检查决定，而且候选人应该有权要求解释。
 
 ## 想问老师的问题
-- "Moodle lists Dwork (2018) as required reading, but the handbook lists it as suggested. Which readings are required for Week 11?"
-- "For essay topic 5, can we use the Amazon hiring algorithm as an example, even though the theory comes only from the Week 5 readings?"
-- （如果之前没问清楚）"Is the quiz on Saturday 28 November at 12:00, our tutorial time? Should we come to room 23-3, or take it remotely? Can we use our notes during the quiz?"
+- "Moodle lists Dwork (2018) as required reading, but the handbook lists it as suggested. Which readings are required for Week 11?" —— Moodle 把 Dwork (2018) 列为必读，但手册把它列为推荐阅读。第 11 周哪些阅读是必读的？
+- "For essay topic 5, can we use the Amazon hiring algorithm as an example, even though the theory comes only from the Week 5 readings?" —— 论文第 5 题，即使理论只来自第 5 周的阅读材料，我们也可以用亚马逊招聘算法作为例子吗？
+- （如果之前没问清楚）"Is the quiz on Saturday 28 November at 12:00, our tutorial time? Should we come to room 23-3, or take it remotely? Can we use our notes during the quiz?" —— 小测是在 11 月 28 日星期六 12:00、我们的辅导课时间吗？我们应该到 23-3 教室，还是可以远程参加？小测时可以看笔记吗？
 
 ## Quiz 复习要点（第 11 周，考前用）
 > 下面每条都对应课件原文，复习时遮住右边说一遍。具体题目我们还没见过（每周自测还没截图给 Claude），这是根据课件整理的线索。

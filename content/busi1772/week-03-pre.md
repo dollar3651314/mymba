@@ -123,13 +123,13 @@
 | Rachels & Rachels (2012) 功利主义 | 功利主义的入门讲解 |
 
 ## 可以在课上说的英文
-- "From a consequentialist view, Volkswagen was wrong because it exploited information asymmetry and created negative externalities."
-- "Perfectly competitive markets are not the same as unregulated markets."
-- "Heath argues that managers must maximise profits, but only without exploiting market failures."
-- "Advertising can be zero-sum, but it also gives consumers useful information."
-- "Unlike Friedman, Heath says profit maximisation is an obligation even if shareholders don't want it."
+- "From a consequentialist view, Volkswagen was wrong because it exploited information asymmetry and created negative externalities." —— 从后果主义的角度看，大众汽车做错了，因为它利用了信息不对称，并造成了负外部性。
+- "Perfectly competitive markets are not the same as unregulated markets." —— 完全竞争市场不等于不受监管的市场。
+- "Heath argues that managers must maximise profits, but only without exploiting market failures." —— Heath 认为管理者必须追求利润最大化，但前提是不能利用市场失灵。
+- "Advertising can be zero-sum, but it also gives consumers useful information." —— 广告可能是零和的，但它也给消费者提供了有用的信息。
+- "Unlike Friedman, Heath says profit maximisation is an obligation even if shareholders don't want it." —— 和 Friedman 不同，Heath 说利润最大化是一种义务，即使股东并不想要。
 
 ## 想问老师的问题
-- "For essay topic 3, can we use Singer (2018) as the main objection to Heath?"
-- "Is the market failures approach consequentialist or deontological? Should we call it rule consequentialism?"
-- （如果 10/3 还没问清）"Is the essay due on 17 November?"
+- "For essay topic 3, can we use Singer (2018) as the main objection to Heath?" —— 论文第 3 题，我们可以用 Singer (2018) 作为反驳 Heath 的主要观点吗？
+- "Is the market failures approach consequentialist or deontological? Should we call it rule consequentialism?" —— 市场失灵方法属于后果主义还是义务论？应该叫它“规则后果主义”吗？
+- （如果 10/3 还没问清）"Is the essay due on 17 November?" —— 论文是 11 月 17 日交吗？

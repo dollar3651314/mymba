@@ -94,16 +94,16 @@
 4. American Egg 这样的蛋品企业，可以用 AI 数据分析做什么？（预测蛋价、禽流感风险、需求）
 
 ## 可以在课上说的英文
-- "I used Copilot to find the article, but I checked the original source to make sure it is real."
-- "This company uses AI to detect fraud in real time when customers make payments."
-- "Hyper-automation means combining AI with other automation tools to automate a whole business process."
-- "One ethical concern is bias: if the training data is biased, the results will also be biased."
-- "AI can support our analysis, but we still need to think critically about the results."
-- "Let's create a section for each goal in our OneNote, so everyone can add their part for the American Egg presentation."
+- "I used Copilot to find the article, but I checked the original source to make sure it is real." —— 我用 Copilot 找到了这篇文章，但我核对了原始来源，确认它是真实的。
+- "This company uses AI to detect fraud in real time when customers make payments." —— 这家公司在客户付款时用 AI 实时识别欺诈。
+- "Hyper-automation means combining AI with other automation tools to automate a whole business process." —— 超自动化是指把 AI 和其他自动化工具结合起来，把整个业务流程自动化。
+- "One ethical concern is bias: if the training data is biased, the results will also be biased." —— 一个伦理问题是偏见：如果训练数据有偏见，结果也会有偏见。
+- "AI can support our analysis, but we still need to think critically about the results." —— AI 可以辅助我们的分析，但我们仍然需要批判性地思考结果。
+- "Let's create a section for each goal in our OneNote, so everyone can add their part for the American Egg presentation." —— 我们在 OneNote 里给每个目标建一个分区吧，这样每个人都可以把自己负责的 American Egg 展示部分加进去。
 
 ## 想问老师的问题
-- "The Assessments Overview slide shows deadlines in June and July 2026. Can you confirm our deadlines are 27 November for the presentation slides and 4 December for the report?"
-- "The slide says 10–15 slides for the group presentation, but the brief says 15–20 slides. Which one should we follow?"
-- "Which day is our group presenting — 24 November or 28 November?"
-- "If we use Copilot or other AI tools for the assessments, how should we report it? Is there an AI use template?"
-- "Can we cite sources we find today in our presentation or report, if they are reputable?"
+- "The Assessments Overview slide shows deadlines in June and July 2026. Can you confirm our deadlines are 27 November for the presentation slides and 4 December for the report?" —— “作业总览”那页课件显示的截止日期是 2026 年 6 月和 7 月。您能确认我们的截止日期是：展示课件 11 月 27 日、报告 12 月 4 日吗？
+- "The slide says 10–15 slides for the group presentation, but the brief says 15–20 slides. Which one should we follow?" —— 课件说小组展示 10–15 页，但作业说明说 15–20 页。我们应该按哪个来？
+- "Which day is our group presenting — 24 November or 28 November?" —— 我们小组哪天展示——11 月 24 日还是 11 月 28 日？
+- "If we use Copilot or other AI tools for the assessments, how should we report it? Is there an AI use template?" —— 如果我们在作业里用了 Copilot 或其他 AI 工具，应该怎么说明？有 AI 使用模板吗？
+- "Can we cite sources we find today in our presentation or report, if they are reputable?" —— 如果是权威可靠的来源，我们今天找到的资料可以在展示或报告里引用吗？

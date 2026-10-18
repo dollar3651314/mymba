@@ -179,17 +179,17 @@
 6. 新加坡的商业文化更接近西方还是亚洲？（可以结合你自己在新加坡的观察）
 
 ## 可以在课上说的英文
-- "Sandel argues that we have moved from a market economy to a market society."
-- "An ethical dilemma is a situation where none of the options is fully ethical."
-- "Banning child labour alone does not solve the problem; the root cause is poverty."
-- "Our company follows the Anglo-American approach to CSR, which focuses on shareholder value."
-- "CSR should be part of the core business, not just philanthropy."
-- "Sen warns us not to make sweeping generalisations about 'Asian values'."
-- "In Singapore, I think business culture is a mix of Western rules and Asian relationships."
+- "Sandel argues that we have moved from a market economy to a market society." —— Sandel 认为，我们已经从市场经济变成了市场社会。
+- "An ethical dilemma is a situation where none of the options is fully ethical." —— 道德困境是指没有哪个选项是完全符合道德的情况。
+- "Banning child labour alone does not solve the problem; the root cause is poverty." —— 仅仅禁止童工并不能解决问题；根本原因是贫困。
+- "Our company follows the Anglo-American approach to CSR, which focuses on shareholder value." —— 我们的公司采用英美式的企业社会责任（CSR）方式，重点是股东价值。
+- "CSR should be part of the core business, not just philanthropy." —— 企业社会责任应该成为核心业务的一部分，而不只是慈善捐赠。
+- "Sen warns us not to make sweeping generalisations about 'Asian values'." —— Sen 提醒我们，不要对"亚洲价值观"做笼统的概括。
+- "In Singapore, I think business culture is a mix of Western rules and Asian relationships." —— 我认为在新加坡，商业文化是西方规则和亚洲人际关系的结合。
 
 ## 想问老师的问题
-- "Moodle Lecture 5 is 'Western Money, Asian Value', but the old handbook says week 5 is Global Value Chains. Which topic are we covering this week?"（这个最好 10/17 就问）
-- "Are Global Value Chains and Global Production Networks still optional theories for the Mind Map, or only the eight theories from weeks 1 to 4?"
-- "Can we include CSR and ethics in the Mind Map as part of our own theory, for example as drawbacks or risks?"
-- "What exactly is the recovery session on 14 November? Can a group that does not do well on 31 October present again to improve the mark?"
-- "The gender pay gap figures in the lecture script — which country are they from?"（如果你想在作业里引用这组数据）
+- "Moodle Lecture 5 is 'Western Money, Asian Value', but the old handbook says week 5 is Global Value Chains. Which topic are we covering this week?" —— Moodle 上第 5 讲是"Western Money, Asian Value"，但旧手册说第 5 周是全球价值链。我们这周讲哪个主题？（这个最好 10/17 就问）
+- "Are Global Value Chains and Global Production Networks still optional theories for the Mind Map, or only the eight theories from weeks 1 to 4?" —— 全球价值链和全球生产网络仍然是思维导图的可选理论吗？还是只能用第 1 到 4 周的八个理论？
+- "Can we include CSR and ethics in the Mind Map as part of our own theory, for example as drawbacks or risks?" —— 我们可以把企业社会责任和伦理作为我们自己理论的一部分放进思维导图吗？比如作为缺点或风险。
+- "What exactly is the recovery session on 14 November? Can a group that does not do well on 31 October present again to improve the mark?" —— 11 月 14 日的补救课具体是什么？10 月 31 日表现不好的小组可以再展示一次来提高分数吗？
+- "The gender pay gap figures in the lecture script — which country are they from?" —— 讲稿里的性别薪酬差距数据——是哪个国家的？（如果你想在作业里引用这组数据）

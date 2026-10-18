@@ -140,18 +140,18 @@ AI 会让市场更好吗？**会，但有代价**。AI 和以前所有技术一�
 | Moradi & Levy *The Future of Work in the Age of AI: Displacement or Risk-Shifting?*（《牛津 AI 伦理手册》一章；文件名写 2018，书 2020 年出版） | ① 从 IBM Watson 赢《危险边缘》讲起：机器和人各有长短。② “**机器人会抢走我们的工作**”的预测用处有限，因为只看技术上能不能完成任务，忽略了工作的社会成分、组织结构和跨行业影响。③ 更值得担心的是**风险转嫁**：企业用 AI 把风险从自己转给工人的**四种机制**——**算法排班**、**任务重新定义**、**损失和欺诈预测**、**生产率激励和评估**。④ 政策：教育和再培训、加强失业保险、（有争议的）**全民基本收入**；还要保护**留在岗位上**的工人：**公平排班法**（提前公布排班、取消随叫随到班、最短班次）、结束强制仲裁、改革把平台工人归为独立承包人的分类。⑤ AI 带来的问题大多不是全新的，而是工业化以来劳工问题的延续。（lecture 里“风险转嫁”这一条就来自这一类文献） |
 
 ## 可以在课上说的英文
-- "Automation is not new. Falling prices in one sector create demand in other sectors, so we are not heading to a jobless society."
-- "In the long run everyone may benefit, but in the short run there are winners and losers."
-- "I think workers replaced by AI should be compensated, because the transition costs are real and unfairly concentrated."
-- "Unemployment insurance means we face the risk of automation together."
-- "Amazon benefits from network effects and the data snowball effect, which makes it hard for small sellers to compete."
-- "In my job, AI could augment tasks like … rather than replace me."
+- "Automation is not new. Falling prices in one sector create demand in other sectors, so we are not heading to a jobless society." —— 自动化并不新鲜。一个行业价格下降，会在其他行业创造需求，所以我们并不会走向一个没有工作的社会。
+- "In the long run everyone may benefit, but in the short run there are winners and losers." —— 从长期看，大家可能都会受益，但短期内会有赢家和输家。
+- "I think workers replaced by AI should be compensated, because the transition costs are real and unfairly concentrated." —— 我认为被 AI 取代的员工应该得到补偿，因为转型成本是真实存在的，而且不公平地集中在一部分人身上。
+- "Unemployment insurance means we face the risk of automation together." —— 失业保险意味着我们共同承担自动化带来的风险。
+- "Amazon benefits from network effects and the data snowball effect, which makes it hard for small sellers to compete." —— 亚马逊受益于网络效应和“数据滚雪球效应”，这让小卖家很难和它竞争。
+- "In my job, AI could augment tasks like … rather than replace me." —— 在我的工作里，AI 可以增强……这样的任务，而不是取代我。
 
 ## 想问老师的问题
-- "Risk-shifting is in the lecture but not in the tutorial slides. Will it be in the quiz?"
-- "Is the required video 'How will new technology affect the future of work?' (LSE Festival 2021) the same as 'Manning (2021)' in the module handbook?"
-- "The Ferretti (2024) reading is also required in week 11. Should we focus on a different section for each week?"
-- "On the equality–efficiency figure, how should we read the four areas (equality gain, efficiency gain, etc.)?"
+- "Risk-shifting is in the lecture but not in the tutorial slides. Will it be in the quiz?" —— “风险转移”在讲座里讲了，但辅导课课件里没有。小测会考吗？
+- "Is the required video 'How will new technology affect the future of work?' (LSE Festival 2021) the same as 'Manning (2021)' in the module handbook?" —— 必看视频“新技术将如何影响未来的工作？”（LSE Festival 2021）和课程手册里的“Manning (2021)”是同一个吗？
+- "The Ferretti (2024) reading is also required in week 11. Should we focus on a different section for each week?" —— Ferretti (2024) 这篇在第 11 周也是必读。我们每周应该重点看不同的章节吗？
+- "On the equality–efficiency figure, how should we read the four areas (equality gain, efficiency gain, etc.)?" —— 在“平等—效率”那张图上，四个区域（平等收益、效率收益等）应该怎么看？
 
 ## Quiz 复习要点（第 9 周）
 1. 本周问题：AI 会改善市场吗？两类创新：**替代劳动** vs. **增强劳动**。

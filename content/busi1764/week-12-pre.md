@@ -128,18 +128,18 @@
 5. 众筹对你的 A2 企业合适吗？回报型和股权型怎么选？
 
 ## 可以在课上说的英文
-- "Digital entrepreneurship means creating new ventures by using digital technologies in new ways."
-- "My business uses a subscription model, so the revenue is more predictable."
-- "A digital business can reach the global market at a lower cost, but competition is also higher."
-- "I plan to enter the foreign market through a website first, instead of opening a physical store."
-- "The Polish amber sellers used WeChat to learn about Chinese customers, which reduced the liability of foreignness."
-- "Before launching, I would test the idea with a minimum viable product."
-- "I am thinking about reward-based crowdfunding, because it also tests whether customers want the product."
+- "Digital entrepreneurship means creating new ventures by using digital technologies in new ways." —— 数字创业是指以新的方式利用数字技术来创办新企业。
+- "My business uses a subscription model, so the revenue is more predictable." —— 我的企业采用订阅模式，所以收入更可预测。
+- "A digital business can reach the global market at a lower cost, but competition is also higher." —— 数字企业可以用更低的成本进入全球市场，但竞争也更激烈。
+- "I plan to enter the foreign market through a website first, instead of opening a physical store." —— 我计划先通过网站进入国外市场，而不是开实体店。
+- "The Polish amber sellers used WeChat to learn about Chinese customers, which reduced the liability of foreignness." —— 波兰的琥珀卖家用微信了解中国顾客，这降低了外来者劣势。
+- "Before launching, I would test the idea with a minimum viable product." —— 在正式推出之前，我会先用最小可行产品（MVP）来测试这个创意。
+- "I am thinking about reward-based crowdfunding, because it also tests whether customers want the product." —— 我在考虑回报型众筹，因为它也能测试顾客是否想要这个产品。
 
 ## 想问老师的问题
-- "There are no tutorial slides for Week 12 on Moodle. Which chapter of the Digital Entrepreneurship book should we read?"
-- "Is today's session the one-to-one consultation for Assignment 2? If not, when and how can we book it?"
-- "Could you look at my business idea and tell me which section of my report is the weakest?"
-- "For the internationalisation section, is a digital entry mode through a website enough, or should I also discuss a physical entry mode?"
-- "Slide 9 says enhanced security is a benefit, but slide 10 says cybersecurity risk is a downside. How should we understand this?"
-- "Is it acceptable to cite chapters from the Digital Entrepreneurship book (Soltanifar et al., 2021) in our report?"
+- "There are no tutorial slides for Week 12 on Moodle. Which chapter of the Digital Entrepreneurship book should we read?" —— Moodle 上没有第 12 周的辅导课课件。我们应该读《Digital Entrepreneurship》这本书的哪一章？
+- "Is today's session the one-to-one consultation for Assignment 2? If not, when and how can we book it?" —— 今天这节课就是作业 2 的一对一辅导吗？如果不是，什么时候、怎么预约？
+- "Could you look at my business idea and tell me which section of my report is the weakest?" —— 您能看一下我的商业创意，告诉我报告中哪一部分最薄弱吗？
+- "For the internationalisation section, is a digital entry mode through a website enough, or should I also discuss a physical entry mode?" —— 在国际化部分，只写通过网站的数字化进入方式就够了吗？还是也要讨论实体进入方式？
+- "Slide 9 says enhanced security is a benefit, but slide 10 says cybersecurity risk is a downside. How should we understand this?" —— 第 9 页课件说增强安全性是一个好处，但第 10 页又说网络安全风险是一个缺点。我们应该怎么理解？
+- "Is it acceptable to cite chapters from the Digital Entrepreneurship book (Soltanifar et al., 2021) in our report?" —— 报告里可以引用《Digital Entrepreneurship》这本书（Soltanifar et al., 2021）的章节吗？

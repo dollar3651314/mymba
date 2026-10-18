@@ -174,19 +174,19 @@ Tutorial 课件先把 6.1、6.2 复习一遍，补充了两点：
 5. 没有国际经验的创始团队，能不能做成国际企业？（Airbnb 是反例，CBS 论文认为投资人补上了这块。）
 
 ## 可以在课上说的英文
-- "Both entrepreneurs used non-traditional finance. Fin Gourmet used revenue-based financing because banks thought it was too risky and venture capitalists thought it was not growing fast enough."
-- "One disadvantage was that the first repayment came too early. It takes time for new money to create revenue."
-- "Emily Reinhardt's microloan helped her hire her first employee, and her revenue doubled in one year."
-- "Airbnb's competitive edge came from its platform model. It doesn't own any rooms, so it can scale very quickly."
-- "The founding team was complementary: two designers and one engineer. They were proactive and willing to take risks."
-- "I think Uber is a business model innovation, not a product innovation, because the ride itself is not new. What is new is how value is created and captured."
-- "Funding allowed Uber to subsidise drivers and riders and compete with Didi and Lyft."
-- "INVs face a triple liability: newness, smallness and foreignness. Networks based on trust can help them access resources."
+- "Both entrepreneurs used non-traditional finance. Fin Gourmet used revenue-based financing because banks thought it was too risky and venture capitalists thought it was not growing fast enough." —— 两位创业者都用了非传统融资。Fin Gourmet 用的是基于收入的融资，因为银行觉得它风险太高，而风险投资家觉得它增长不够快。
+- "One disadvantage was that the first repayment came too early. It takes time for new money to create revenue." —— 一个缺点是第一次还款来得太早。新资金需要时间才能带来收入。
+- "Emily Reinhardt's microloan helped her hire her first employee, and her revenue doubled in one year." —— Emily Reinhardt 的小额贷款帮她雇到了第一位员工，她的收入在一年内翻了一番。
+- "Airbnb's competitive edge came from its platform model. It doesn't own any rooms, so it can scale very quickly." —— Airbnb 的竞争优势来自它的平台模式。它自己不拥有任何房间，所以能非常快地扩大规模。
+- "The founding team was complementary: two designers and one engineer. They were proactive and willing to take risks." —— 创始团队是互补的：两名设计师和一名工程师。他们积极主动，也愿意承担风险。
+- "I think Uber is a business model innovation, not a product innovation, because the ride itself is not new. What is new is how value is created and captured." —— 我认为 Uber 是商业模式创新，而不是产品创新，因为乘车本身并不新。新的是价值如何被创造和获取。
+- "Funding allowed Uber to subsidise drivers and riders and compete with Didi and Lyft." —— 融资让 Uber 能够补贴司机和乘客，与滴滴和 Lyft 竞争。
+- "INVs face a triple liability: newness, smallness and foreignness. Networks based on trust can help them access resources." —— 国际新创企业（INV）面临三重劣势：新、小、外来。基于信任的人脉网络可以帮助它们获取资源。
 
 ## 想问老师的问题
-- "The tutorial slide says we will discuss entrepreneurial financing in Week 8, but our schedule shows networks in Week 8 and financing in Week 9. Which week is correct?"
-- "Should we read the whole Copenhagen Business School thesis, or only the Airbnb and Uber chapters?"
-- "For the Uber question about types of innovation, which framework from the first tutorial should we use: product, process, service and business model innovation?"
-- "Do we need to submit our answers for this week's case studies to the Canvas link? Is there a deadline?"
-- "For Assignment 2, should we describe our founding team, even if it is a one-person start-up?"
-- "Can we use US data, such as the Kauffman report, to support the financing section if our business is in Singapore?"
+- "The tutorial slide says we will discuss entrepreneurial financing in Week 8, but our schedule shows networks in Week 8 and financing in Week 9. Which week is correct?" —— 辅导课课件说我们第 8 周讨论创业融资，但我们的课表显示第 8 周是人脉网络、第 9 周才是融资。哪个是对的？
+- "Should we read the whole Copenhagen Business School thesis, or only the Airbnb and Uber chapters?" —— 哥本哈根商学院那篇论文我们要全部读完，还是只读 Airbnb 和 Uber 的章节？
+- "For the Uber question about types of innovation, which framework from the first tutorial should we use: product, process, service and business model innovation?" —— 关于 Uber 属于哪种创新的问题，我们应该用第一次辅导课的哪个框架：产品、流程、服务和商业模式创新吗？
+- "Do we need to submit our answers for this week's case studies to the Canvas link? Is there a deadline?" —— 这周案例分析的答案需要提交到 Canvas 链接吗？有截止时间吗？
+- "For Assignment 2, should we describe our founding team, even if it is a one-person start-up?" —— 作业 2 里需要介绍我们的创始团队吗？即使是一个人的初创企业也要写吗？
+- "Can we use US data, such as the Kauffman report, to support the financing section if our business is in Singapore?" —— 如果我们的企业在新加坡，可以用美国的数据（比如 Kauffman 报告）来支持融资部分吗？

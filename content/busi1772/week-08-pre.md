@@ -157,18 +157,18 @@
 | The Economist (2018) *There will be little privacy in the workplace of the future* | ① 走进 **Humanyze** 在帕洛阿尔托的办公室：员工胸牌有麦克风、蓝牙、红外、加速度计；胸牌数据和邮件、日历合在一起；**客户只看团队层面的统计**，员工能看自己的数据（如和同性别的人相处的时间、说话和倾听的比例）。老板 Ben Waber：“企业的每个方面都在数据化，人的方面没理由例外。”② 类似产品：日立的“**幸福计**”（日本有“过劳死”karoshi 一词）；Workday 预测谁会离职；**亚马逊获得监控仓库工人手部动作的腕带专利**；京东追踪团队效率。③ 好处：用计算机视觉检查高危岗位是否戴护目镜和手套；微软 MyAnalytics 让员工看自己的时间分配。④ 风险：Veriato 记录员工电脑上的一切；中国的“社会信用”计划。⑤ 美国多数劳动合同给雇主**全面的监控权**，但很少有工人知道；Waber 本人也认为这些数据应有更好的法律保护（欧洲隐私法更强）。 |
 
 ## 可以在课上说的英文
-- "Consent is not enough if workers cannot say no without losing their job. They need a cost-free opt-out."
-- "When I agree to wear the badge, I may also reveal information about my colleagues. That is a negative externality."
-- "Privacy is like a public good: everyone benefits, but each person has an incentive to be careless with their data."
-- "As union representatives, we accept the badges only if all employees decide together how the data is used."
-- "As managers, we think workers freely chose this job, so taking away the option would violate their autonomy."
-- "In my job, AI could probably replace tasks like …, but not tasks like …"
+- "Consent is not enough if workers cannot say no without losing their job. They need a cost-free opt-out." —— 如果员工说“不”就会丢掉工作，那么“同意”是不够的。他们需要一个没有代价的退出选项。
+- "When I agree to wear the badge, I may also reveal information about my colleagues. That is a negative externality." —— 当我同意戴工牌时，我也可能泄露同事的信息。这是一种负外部性。
+- "Privacy is like a public good: everyone benefits, but each person has an incentive to be careless with their data." —— 隐私就像一种公共物品：大家都受益，但每个人都有动机不好好保护自己的数据。
+- "As union representatives, we accept the badges only if all employees decide together how the data is used." —— 作为工会代表，我们只有在全体员工共同决定数据如何使用的前提下，才接受这些工牌。
+- "As managers, we think workers freely chose this job, so taking away the option would violate their autonomy." —— 作为管理者，我们认为员工是自由选择了这份工作，所以拿走这个选项反而侵犯了他们的自主权。
+- "In my job, AI could probably replace tasks like …, but not tasks like …" —— 在我的工作里，AI 大概可以取代……这样的任务，但取代不了……这样的任务。
 
 ## 想问老师的问题
-- "The Individual Choice argument is adapted from Zwolinski. If I write essay topic 1, can I use the same method of attacking each premise?"
-- "Is the secret meeting map an example of negative externalities, of coordination failure, or both?"
-- "Do we need to remember the six lawful bases of GDPR for the quiz, or only the idea of contextual integrity?"
-- "Can I use Palm's (2009) 'sour grapes' argument in essay topic 1, or only the week 1 readings?"
+- "The Individual Choice argument is adapted from Zwolinski. If I write essay topic 1, can I use the same method of attacking each premise?" —— “个人选择”论证是改编自 Zwolinski 的。如果我写论文第 1 题，可以用同样的方法逐个反驳每个前提吗？
+- "Is the secret meeting map an example of negative externalities, of coordination failure, or both?" —— 那张“秘密会议地图”是负外部性的例子，还是协调失灵的例子，还是两者都是？
+- "Do we need to remember the six lawful bases of GDPR for the quiz, or only the idea of contextual integrity?" —— 小测需要记住 GDPR 的六种合法依据吗，还是只需要理解“情境完整性”这个概念？
+- "Can I use Palm's (2009) 'sour grapes' argument in essay topic 1, or only the week 1 readings?" —— 论文第 1 题可以用 Palm (2009) 的“酸葡萄”论证吗，还是只能用第 1 周的阅读材料？
 
 ## Quiz 复习要点（第 8 周）
 1. 本周问题：企业该不该收集员工个人数据来优化管理？案例 **Humanyze**；胸牌 4 种传感器：麦克风、加速度计、红外、蓝牙；**PwC 2015：56%** 英国员工愿意戴。

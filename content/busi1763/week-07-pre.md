@@ -144,16 +144,16 @@
 5. **新加坡**在中美之间应该怎样选择？（可以结合你自己在新加坡的观察，例如你用的支付方式、手机网络）
 
 ## 可以在课上说的英文
-- "China's three-phase IT strategy runs from 2020 to 2050."
-- "The US relies on two pillars: the global financial system and ICT."
-- "China's model is 'installation first, finance later', which creates long-term dependence."
-- "It is easy to get in, but hard to get out."
-- "The real competition is not about who builds the networks, but who sets the rules."
-- "The splinternet means the global internet may split into different systems."
-- "For ASEAN countries, infrastructure and development seem more important than security concerns."
+- "China's three-phase IT strategy runs from 2020 to 2050." —— 中国的三阶段信息技术战略从 2020 年持续到 2050 年。
+- "The US relies on two pillars: the global financial system and ICT." —— 美国依靠两大支柱：全球金融体系和信息通信技术（ICT）。
+- "China's model is 'installation first, finance later', which creates long-term dependence." —— 中国的模式是"先建设、后融资"，这会造成长期依赖。
+- "It is easy to get in, but hard to get out." —— 进去容易，出来难。
+- "The real competition is not about who builds the networks, but who sets the rules." —— 真正的竞争不在于谁来建网络，而在于谁来制定规则。
+- "The splinternet means the global internet may split into different systems." —— "分裂网"（splinternet）是指全球互联网可能分裂成不同的体系。
+- "For ASEAN countries, infrastructure and development seem more important than security concerns." —— 对东盟国家来说，基础设施和发展似乎比安全顾虑更重要。
 
 ## 想问老师的问题
-- "Will today's lecture be delivered after the presentations, or should we watch the recording on Moodle?"（如果第 6 讲时还没问到）
-- "The script says 2025 is 'this year'. Is there any update on China's 2025 targets?"
-- "Can a UK company's experience with Huawei 5G be used as an example of de-globalisation in our Mind Map?"
-- "Nocetti (2024) is a think-tank report, not a journal article. Can we cite it in the individual report?"
+- "Will today's lecture be delivered after the presentations, or should we watch the recording on Moodle?" —— 今天的讲座会在展示结束后讲吗？还是我们应该在 Moodle 上看录像？（如果第 6 讲时还没问到）
+- "The script says 2025 is 'this year'. Is there any update on China's 2025 targets?" —— 讲稿里说 2025 年是"今年"。中国 2025 年的目标有什么最新进展吗？
+- "Can a UK company's experience with Huawei 5G be used as an example of de-globalisation in our Mind Map?" —— 一家英国公司在华为 5G 上的经历，可以作为去全球化的例子放进我们的思维导图吗？
+- "Nocetti (2024) is a think-tank report, not a journal article. Can we cite it in the individual report?" —— Nocetti (2024) 是智库报告，不是期刊论文。我们可以在个人报告里引用它吗？

@@ -181,9 +181,9 @@ Moodle 上还有 4 个网页 / 视频（这次只有标题，没有内容）：B
 
 ## 想问老师的问题
 （第 12 次课就是考试，**这些都要在 11/23 第 11 次课或更早问清楚**）
-- **地点**："Should we take the quiz in room 23-3, or can we take it remotely? Moodle says 'mandatory attendance', but the guideline says any location with a computer and stable internet."
-- **开始时间**："Our tutorial is 12:00–15:00 on Saturday 28 November. Does the quiz start at 12:00?"
-- **开卷 / 闭卷**："Can we use our notes or the slides during the quiz?"
-- **第 12 周内容**："Will the Week 12 lecture be included in the quiz, or only Weeks 1–11?"
-- **断网**："What should we do if the internet disconnects during the quiz?"
-- **入口**："Which quiz should I open in the Coursework Submission section — is it the one with my tutor's name?"
+- **地点**："Should we take the quiz in room 23-3, or can we take it remotely? Moodle says 'mandatory attendance', but the guideline says any location with a computer and stable internet." —— 我们应该在 23-3 教室参加小测，还是可以远程参加？Moodle 上写“必须出勤”，但指南里说任何有电脑和稳定网络的地方都可以。
+- **开始时间**："Our tutorial is 12:00–15:00 on Saturday 28 November. Does the quiz start at 12:00?" —— 我们的辅导课是 11 月 28 日星期六 12:00–15:00。小测是 12:00 开始吗？
+- **开卷 / 闭卷**："Can we use our notes or the slides during the quiz?" —— 小测时可以看笔记或课件吗？
+- **第 12 周内容**："Will the Week 12 lecture be included in the quiz, or only Weeks 1–11?" —— 第 12 周的讲座内容会考吗，还是只考第 1–11 周？
+- **断网**："What should we do if the internet disconnects during the quiz?" —— 如果小测期间断网了，我们该怎么办？
+- **入口**："Which quiz should I open in the Coursework Submission section — is it the one with my tutor's name?" —— 在“作业提交”（Coursework Submission）栏目里我应该打开哪个小测——是带我老师名字的那个吗？

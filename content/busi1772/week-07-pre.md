@@ -123,18 +123,18 @@
 3. 你的 5–8 篇参考文献里，哪几篇是必读、哪几篇是推荐？
 
 ## 可以在课上说的英文
-- "I have chosen topic 2. My thesis is that the oil company should follow Freeman's stakeholder theory."
-- "I plan to discuss one external objection from a consequentialist perspective. Is that enough?"
-- "Can I use a company example from a news source, if the theory comes only from the module readings?"
-- "Could you check whether my outline follows the structure in the handbook?"
+- "I have chosen topic 2. My thesis is that the oil company should follow Freeman's stakeholder theory." —— 我选了第 2 题。我的论点是：这家石油公司应该遵循 Freeman 的利益相关者理论。
+- "I plan to discuss one external objection from a consequentialist perspective. Is that enough?" —— 我打算从后果主义的角度讨论一个外部反驳。这样够吗？
+- "Can I use a company example from a news source, if the theory comes only from the module readings?" —— 如果理论只来自课程阅读材料，我可以用新闻里的公司例子吗？
+- "Could you check whether my outline follows the structure in the handbook?" —— 您能帮我看看我的大纲是否符合手册里的结构吗？
 
 ## 想问老师的问题
-- **Quiz 日期**："Is the Individual Quiz on Saturday 28 November, during our Week 12 tutorial? The handbook says 1 December (TBC)."
-- **详细 rubric**："Where can we see the detailed marking rubric for the essay? Is it on the Turnitin submission page?"
-- **AI 扣分档**："You said AI content above 20% loses marks, and above 60% fails. How many marks are deducted between 20% and 60%? Where is the AI declaration form?"
-- **第 5 题的必读**（如果选第 5 题）："For topic 5, Moodle also marks the RBG video and the Lou Adler chart as mandatory. Do we need to cite them, or only Wenar (2021) and McKinsey (2018)?"
-- **直接引用**："The handbook says we should use direct quotations from suggested readings, and the slides say we 'can' provide 2–3 direct quotes. Are direct quotes required?"
-- **原创性**："The slides list Originality as a criterion, but the handbook marking table does not. Is it part of Soundness?"
-- **引言长度**："The slides say 'You can have a slightly longer introduction in your case.' Can the introduction be longer than 300 words?"
-- **其他周的内容**（手册写只能用所选那一周的阅读，"Week 1 only (not other weeks)"；但课件要求第 1、2 题都写“义务论”）："The handbook says we can only use readings from the chosen week. For topic 2, can we still explain deontology using the Week 1 lecture?"
-- **提交链接**："Which submission link should I use — is it under my own tutor's name?"（顺便确认你的老师是哪一位）
+- **Quiz 日期**："Is the Individual Quiz on Saturday 28 November, during our Week 12 tutorial? The handbook says 1 December (TBC)." —— 个人小测是在 11 月 28 日星期六、我们第 12 周的辅导课上进行吗？手册上写的是 12 月 1 日（待定）。
+- **详细 rubric**："Where can we see the detailed marking rubric for the essay? Is it on the Turnitin submission page?" —— 论文的详细评分标准在哪里能看到？是在 Turnitin 提交页面上吗？
+- **AI 扣分档**："You said AI content above 20% loses marks, and above 60% fails. How many marks are deducted between 20% and 60%? Where is the AI declaration form?" —— 您说 AI 内容超过 20% 会扣分，超过 60% 就不及格。在 20% 到 60% 之间扣多少分？AI 使用声明表在哪里？
+- **第 5 题的必读**（如果选第 5 题）："For topic 5, Moodle also marks the RBG video and the Lou Adler chart as mandatory. Do we need to cite them, or only Wenar (2021) and McKinsey (2018)?" —— 第 5 题，Moodle 还把 RBG 视频和 Lou Adler 图表标成了必读。我们需要引用它们吗，还是只引用 Wenar (2021) 和 McKinsey (2018)？
+- **直接引用**："The handbook says we should use direct quotations from suggested readings, and the slides say we 'can' provide 2–3 direct quotes. Are direct quotes required?" —— 手册说我们应该直接引用推荐阅读里的原话，而课件说我们“可以”提供 2–3 处直接引用。直接引用是必须的吗？
+- **原创性**："The slides list Originality as a criterion, but the handbook marking table does not. Is it part of Soundness?" —— 课件把“原创性”列为评分标准之一，但手册的评分表里没有。它属于“论证严谨性（Soundness）”的一部分吗？
+- **引言长度**："The slides say 'You can have a slightly longer introduction in your case.' Can the introduction be longer than 300 words?" —— 课件说“你的情况可以写稍长一点的引言”。引言可以超过 300 词吗？
+- **其他周的内容**（手册写只能用所选那一周的阅读，"Week 1 only (not other weeks)"；但课件要求第 1、2 题都写“义务论”）："The handbook says we can only use readings from the chosen week. For topic 2, can we still explain deontology using the Week 1 lecture?" —— 手册说我们只能用所选那一周的阅读材料。第 2 题我们还能用第 1 周的课件来解释义务论吗？
+- **提交链接**："Which submission link should I use — is it under my own tutor's name?" —— 我应该用哪个提交链接——是我自己老师名字下面的那个吗？（顺便确认你的老师是哪一位）

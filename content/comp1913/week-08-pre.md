@@ -187,17 +187,17 @@
 5. 为什么用 6 小时预测 75 分还算合理，用 20 小时预测 145 分就不合理？（外推；分数有上限。）
 
 ## 可以在课上说的英文
-- "The dependent variable is test score, and the independent variable is hours studied."
-- "The slope is 5, so each extra hour of study is associated with 5 more points."
-- "The R-squared is 1 in the Excel output, not 0.98."
-- "For the GPA data, R-squared is about 0.58, so IQ explains about 58 percent of the variation in GPA."
-- "Regression shows association, not causation. There may be confounding variables."
-- "The sample is very small, so we should be careful with the conclusion."
+- "The dependent variable is test score, and the independent variable is hours studied." —— 因变量是考试分数，自变量是学习时长。
+- "The slope is 5, so each extra hour of study is associated with 5 more points." —— 斜率是 5，所以每多学习一小时，分数平均多 5 分。
+- "The R-squared is 1 in the Excel output, not 0.98." —— 在 Excel 输出里，R 平方是 1，不是 0.98。
+- "For the GPA data, R-squared is about 0.58, so IQ explains about 58 percent of the variation in GPA." —— 对于 GPA 数据，R 平方约为 0.58，所以 IQ 能解释 GPA 变化的大约 58%。
+- "Regression shows association, not causation. There may be confounding variables." —— 回归分析显示的是相关关系，不是因果关系。可能存在混杂变量。
+- "The sample is very small, so we should be careful with the conclusion." —— 样本非常小，所以下结论时要谨慎。
 
 ## 想问老师的问题
-- "The final interpretation slide says R-squared is 0.98, but the Excel output shows 1. Which one is correct?"
-- "In the GPA and IQ data, which variable should be Y? And why are the IQ values only between 21 and 30?"
-- "On lecture slide 16, the line '225 divided by 5 equals 45' is labelled beta-one. Should it be beta-zero?"
-- "Can we use regression in the American Egg presentation, for example acquisition price against EBITA, even with only 20 companies?"
-- "The Baltagi reading link goes to an external website. Is it available in the university library?"
-- "Can we cite the references on the last lecture slide, or should we find our own sources?"
+- "The final interpretation slide says R-squared is 0.98, but the Excel output shows 1. Which one is correct?" —— 最后一页解读课件说 R 平方是 0.98，但 Excel 输出显示是 1。哪个是对的？
+- "In the GPA and IQ data, which variable should be Y? And why are the IQ values only between 21 and 30?" —— 在 GPA 和 IQ 的数据里，哪个变量应该作为 Y？另外，为什么 IQ 的数值只在 21 到 30 之间？
+- "On lecture slide 16, the line '225 divided by 5 equals 45' is labelled beta-one. Should it be beta-zero?" —— 在讲座课件第 16 页，“225 除以 5 等于 45” 这一行被标成了 β1（beta-one）。应该是 β0（beta-zero）吗？
+- "Can we use regression in the American Egg presentation, for example acquisition price against EBITA, even with only 20 companies?" —— 在 American Egg 的展示里，我们可以用回归分析吗？比如收购价格对 EBITA 做回归，即使只有 20 家公司？
+- "The Baltagi reading link goes to an external website. Is it available in the university library?" —— Baltagi 那篇阅读的链接指向一个外部网站。学校图书馆里能找到吗？
+- "Can we cite the references on the last lecture slide, or should we find our own sources?" —— 我们可以引用讲座最后一页课件上的参考文献吗，还是应该自己找资料来源？

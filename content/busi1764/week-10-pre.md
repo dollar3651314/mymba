@@ -176,19 +176,19 @@ Graham Gibbs **1988 年**提出，用来从经历中学习；因为是循环，�
 5. 你打算用 Gibbs 循环写哪一段真实经历？
 
 ## 可以在课上说的英文
-- "Organic growth gives the founder full control and lower risk, but it is slower."
-- "Venture capital can speed up expansion, but the founder has to give up some ownership, and investors expect a high return and an exit."
-- "JD uses competitive pricing because customers can easily compare the prices of Nike and adidas products."
-- "Bulk buying lowers JD's unit costs, so it can stay price competitive."
-- "JD positions itself as the place to find exclusive and stylish sports fashion, especially for young people."
-- "Because brands prefer to release new products to JD, its exclusive position becomes even stronger."
-- "Small firms have limited capital, so they rely more on word of mouth and informal networks than on large advertising campaigns."
-- "My positioning statement is: for ___ who ___, our product is ___ because ___."
+- "Organic growth gives the founder full control and lower risk, but it is slower." —— 内生增长让创始人拥有完全控制权、风险更低，但速度更慢。
+- "Venture capital can speed up expansion, but the founder has to give up some ownership, and investors expect a high return and an exit." —— 风险投资可以加快扩张，但创始人必须让出一部分所有权，而且投资者期望高回报和退出。
+- "JD uses competitive pricing because customers can easily compare the prices of Nike and adidas products." —— JD 采用竞争性定价，因为顾客可以很容易地比较 Nike 和 adidas 产品的价格。
+- "Bulk buying lowers JD's unit costs, so it can stay price competitive." —— 大批量采购降低了 JD 的单位成本，所以它能保持价格竞争力。
+- "JD positions itself as the place to find exclusive and stylish sports fashion, especially for young people." —— JD 把自己定位为能找到独家、时尚运动服饰的地方，尤其面向年轻人。
+- "Because brands prefer to release new products to JD, its exclusive position becomes even stronger." —— 因为品牌更愿意把新产品先给 JD 发售，它的独家地位变得更强了。
+- "Small firms have limited capital, so they rely more on word of mouth and informal networks than on large advertising campaigns." —— 小企业资金有限，所以它们更依靠口碑和非正式的人脉网络，而不是大型广告活动。
+- "My positioning statement is: for ___ who ___, our product is ___ because ___." —— 我的定位陈述是：对于___、他们___的人，我们的产品是___，因为___。
 
 ## 想问老师的问题
-- "The tutorial slides include the Assignment 2 briefing, but they only cover Gibbs' Reflective Cycle. Are there any other requirements for Assignment 2 that we should know?"
-- "Should we use Gibbs' Reflective Cycle as the structure for the reflection section? Do we need to show all six stages?"
-- "Can the reflection be about our experience of writing this report and the tutorial discussions, or should it be about other experiences as well?"
-- "Case Study question 1 asks about venture capital, but the JD case does not mention venture capital. Should we answer it using the Week 9 materials?"
-- "The tutorial slide says competitive pricing is also known as strategic pricing, but the JD case uses strategic pricing differently. Which definition should we follow?"
-- "Do we need to submit the case study answers this week? Is there a deadline?"
+- "The tutorial slides include the Assignment 2 briefing, but they only cover Gibbs' Reflective Cycle. Are there any other requirements for Assignment 2 that we should know?" —— 辅导课课件里有作业 2 的说明，但只讲了 Gibbs 反思循环。作业 2 还有其他我们应该知道的要求吗？
+- "Should we use Gibbs' Reflective Cycle as the structure for the reflection section? Do we need to show all six stages?" —— 反思部分应该用 Gibbs 反思循环作为结构吗？六个阶段都需要体现吗？
+- "Can the reflection be about our experience of writing this report and the tutorial discussions, or should it be about other experiences as well?" —— 反思可以写我们写这份报告和参加辅导课讨论的经历吗？还是也要写其他经历？
+- "Case Study question 1 asks about venture capital, but the JD case does not mention venture capital. Should we answer it using the Week 9 materials?" —— 案例分析第 1 题问的是风险投资，但 JD 案例没有提到风险投资。我们应该用第 9 周的材料来回答吗？
+- "The tutorial slide says competitive pricing is also known as strategic pricing, but the JD case uses strategic pricing differently. Which definition should we follow?" —— 辅导课课件说竞争性定价也叫战略定价，但 JD 案例里"战略定价"的用法不一样。我们应该按哪个定义？
+- "Do we need to submit the case study answers this week? Is there a deadline?" —— 这周需要提交案例分析答案吗？有截止时间吗？

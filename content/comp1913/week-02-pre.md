@@ -109,14 +109,14 @@
 | **Lovallo, Koller, Uhlaner & Kahneman (2020)** *Your Company Is Too Risk-Averse*（HBR） | 大公司经理因为损失厌恶，常常否决有风险的好项目，只做“安全”的小改进 | 讲损失厌恶的商业例子 |
 
 ## 可以在课上说的英文
-- "Indoor leaves about £180 more cash, even though the festival has higher revenue."
-- "Revenue alone doesn't tell us which option is better. We need to look at net cash."
-- "Our pitch used the bandwagon effect: we said everyone goes to the festival."
-- "This is correlation, not causation. It could be reverse causation."
-- "To avoid confirmation bias, we should actively look for evidence against our recommendation."
+- "Indoor leaves about £180 more cash, even though the festival has higher revenue." —— 室内方案多剩下大约 180 英镑现金，尽管节庆活动的收入更高。
+- "Revenue alone doesn't tell us which option is better. We need to look at net cash." —— 只看收入不能告诉我们哪个方案更好。我们需要看净现金。
+- "Our pitch used the bandwagon effect: we said everyone goes to the festival." —— 我们的推介用了从众效应：我们说大家都去参加节庆活动。
+- "This is correlation, not causation. It could be reverse causation." —— 这是相关性，不是因果关系。也可能是反向因果。
+- "To avoid confirmation bias, we should actively look for evidence against our recommendation." —— 为了避免确认偏误，我们应该主动去找反对我们建议的证据。
 
 ## 想问老师的问题
-- "Is there a template or requirement for the AI usage report?"
-- "Can we confirm the group size — four or five members?"
-- "Which day will our group present, 24 or 28 November?"
-- "For the report, should we only use biases covered in the lectures, or can we use others like survivorship bias?"
+- "Is there a template or requirement for the AI usage report?" —— AI 使用报告有模板或具体要求吗？
+- "Can we confirm the group size — four or five members?" —— 能确认一下小组人数吗——四人还是五人？
+- "Which day will our group present, 24 or 28 November?" —— 我们小组哪天展示，11 月 24 日还是 28 日？
+- "For the report, should we only use biases covered in the lectures, or can we use others like survivorship bias?" —— 报告里只能用课上讲过的偏误吗，还是也可以用其他的，比如幸存者偏差？

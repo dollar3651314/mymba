@@ -192,16 +192,16 @@
 > 链接页里还有几篇推荐阅读（Northwest Education 2024 描述统计、Andy Kirk 2023 可视化手册、Newburger & Elmqvist 2023、Tableau Public 入门、MIT Sloan 2023），没有下载全文，先不用看。
 
 ## 可以在课上说的英文
-- "The median is better here because there is an outlier."
-- "I used AVERAGE, MEDIAN and MODE.SNGL in Excel."
-- "The North region sells the most units, but the East region has the highest revenue."
-- "The correlation between sales and revenue is very weak, because the prices are very different."
-- "This pie chart has too many slices. A bar chart would be clearer."
-- "I think the line chart is not suitable here, because countries are categories, not time."
+- "The median is better here because there is an outlier." —— 这里用中位数更好，因为有一个异常值。
+- "I used AVERAGE, MEDIAN and MODE.SNGL in Excel." —— 我在 Excel 里用了 AVERAGE、MEDIAN 和 MODE.SNGL 函数。
+- "The North region sells the most units, but the East region has the highest revenue." —— 北区卖出的数量最多，但东区的收入最高。
+- "The correlation between sales and revenue is very weak, because the prices are very different." —— 销量和收入之间的相关性非常弱，因为各产品价格差别很大。
+- "This pie chart has too many slices. A bar chart would be clearer." —— 这张饼图的扇区太多了。用柱状图会更清楚。
+- "I think the line chart is not suitable here, because countries are categories, not time." —— 我认为这里不适合用折线图，因为国家是类别，不是时间。
 
 ## 想问老师的问题
-- "The Tutorial 5 Slides link on Moodle opens the Happiness Index guide. Could you upload the real tutorial slides?"
-- "On slide 14, I got a variance of 13,760,000, not 13,360,000. Could you check it?"
-- "In the Happiness file, the Mode row seems to show the minimum values. Is that intended?"
-- "Should we use STDEV.P or STDEV.S in our assignments?"
-- "For the Bain report, can we cite this IEEE good-practice guide when we critique the charts?"
+- "The Tutorial 5 Slides link on Moodle opens the Happiness Index guide. Could you upload the real tutorial slides?" —— Moodle 上 “Tutorial 5 Slides” 的链接打开的是幸福指数的指南。您能上传真正的辅导课课件吗？
+- "On slide 14, I got a variance of 13,760,000, not 13,360,000. Could you check it?" —— 在第 14 页，我算出的方差是 13,760,000，不是 13,360,000。您能核对一下吗？
+- "In the Happiness file, the Mode row seems to show the minimum values. Is that intended?" —— 在幸福指数文件里，“众数”那一行显示的好像是最小值。这是故意的吗？
+- "Should we use STDEV.P or STDEV.S in our assignments?" —— 我们的作业里应该用 STDEV.P 还是 STDEV.S？
+- "For the Bain report, can we cite this IEEE good-practice guide when we critique the charts?" —— 对于 Bain 的报告，我们评价图表时可以引用这份 IEEE 的良好实践指南吗？

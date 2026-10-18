@@ -156,15 +156,15 @@
 | **Young (2006)** *Taking the Basic Structure Seriously* | ① 同意罗尔斯说“正义的主题是社会基本结构”，但认为他太关注**分配**（权利、职位、收入怎么分），忽略了**产生分配的过程**。② 提出三个非分配问题：**分工**（不只是谁做哪份工作，还有工作本身怎样定义——照顾家庭的无偿工作被当作“私事”，是很多性别不公的根源）；**决策权**（企业等非政府机构的决策也应有民主的推定）；**正常化**（把多数人的身体和生活方式当“标准”：职场默认员工不需要照顾家人，不考虑怀孕、哺乳；残疾在很大程度上是楼梯、窄门这类环境造成的）。③ 这些不公不来自个人的明确偏见或明文排斥，而来自制度规则和日常习惯里**没人注意的假设**。④ 结论：不是抛弃罗尔斯，而是**深化**他的理论 |
 
 ## 可以在课上说的英文
-- "Behind the veil of ignorance, nobody would accept that job opportunities depend on gender or race."
-- "This is structural discrimination: the parental leave policy is neutral on paper, but in practice women take most of the leave."
-- "I think the student survey case shows implicit bias, but two instructors is a very small sample."
-- "Control-based interventions like anonymous CVs are easier to implement, but they cannot fix affinity bias."
-- "Change-based interventions may be too intrusive, because managers decide what attitudes employees should have."
-- "McKinsey only shows a correlation; it could be reverse causation."
+- "Behind the veil of ignorance, nobody would accept that job opportunities depend on gender or race." —— 在无知之幕后面，没有人会接受工作机会取决于性别或种族。
+- "This is structural discrimination: the parental leave policy is neutral on paper, but in practice women take most of the leave." —— 这是结构性歧视：育儿假政策在纸面上是中立的，但实际上大部分假都是女性在休。
+- "I think the student survey case shows implicit bias, but two instructors is a very small sample." —— 我认为学生评教那个案例说明了隐性偏见，但两位讲师的样本太小了。
+- "Control-based interventions like anonymous CVs are easier to implement, but they cannot fix affinity bias." —— 基于控制的干预措施（比如匿名简历）更容易实施，但解决不了亲和偏见。
+- "Change-based interventions may be too intrusive, because managers decide what attitudes employees should have." —— 基于改变的干预措施可能太过干涉，因为是由管理者来决定员工应该有什么样的态度。
+- "McKinsey only shows a correlation; it could be reverse causation." —— 麦肯锡的研究只说明了相关性，也可能是反向因果。
 
 ## 想问老师的问题
-- "For essay topic 5, the handbook lists Wenar (2021) and McKinsey (2018) as required readings. Moodle also marks the RBG video and the Lou Adler chart as required. Do we need to cite those too?"
-- "Can the three kinds of discrimination in topic 5 be explicit, implicit and structural, as in the lecture?"
-- "The question is about Amazon. Can we use UK law (the Equality Act 2010), or should we refer to the country where the Amazon employees work?"
-- "The lecture quotes Young (2008), but the suggested reading on Moodle is Young (2006). Which one should we cite?"
+- "For essay topic 5, the handbook lists Wenar (2021) and McKinsey (2018) as required readings. Moodle also marks the RBG video and the Lou Adler chart as required. Do we need to cite those too?" —— 论文第 5 题，手册列出的必读是 Wenar (2021) 和 McKinsey (2018)。Moodle 上还把 RBG 视频和 Lou Adler 图表标成了必读。这些也需要引用吗？
+- "Can the three kinds of discrimination in topic 5 be explicit, implicit and structural, as in the lecture?" —— 第 5 题里的三种歧视，可以按课上讲的写成显性、隐性和结构性歧视吗？
+- "The question is about Amazon. Can we use UK law (the Equality Act 2010), or should we refer to the country where the Amazon employees work?" —— 题目讲的是亚马逊。我们可以用英国法律（《2010 年平等法》），还是应该参考亚马逊员工所在国家的法律？
+- "The lecture quotes Young (2008), but the suggested reading on Moodle is Young (2006). Which one should we cite?" —— 课件引用的是 Young (2008)，但 Moodle 上的推荐阅读是 Young (2006)。我们应该引用哪一个？

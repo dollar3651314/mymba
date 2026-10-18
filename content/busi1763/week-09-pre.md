@@ -141,15 +141,15 @@
 5. 投资“罪恶股票”是不道德的吗？
 
 ## 可以在课上说的英文
-- "The purpose of finance is to channel savings into productive investments and manage risk."
-- "According to Heath, profit-seeking is justified only if companies do not exploit market failures."
-- "Selling CDOs without telling clients the real risk is an example of information asymmetry and deception."
-- "Moral hazard means people take more risk when someone else will pay for the losses."
-- "Regulation can fail, so companies also have ethical obligations."
-- "I think the 2008 crisis was both a market failure and a regulatory failure."
+- "The purpose of finance is to channel savings into productive investments and manage risk." —— 金融的目的是把储蓄引导到生产性投资中，并管理风险。
+- "According to Heath, profit-seeking is justified only if companies do not exploit market failures." —— 根据 Heath 的观点，只有在企业不利用市场失灵的情况下，追求利润才是正当的。
+- "Selling CDOs without telling clients the real risk is an example of information asymmetry and deception." —— 在不告诉客户真实风险的情况下出售 CDO（债务抵押债券），是信息不对称和欺骗的一个例子。
+- "Moral hazard means people take more risk when someone else will pay for the losses." —— 道德风险是指当别人会为损失买单时，人们会承担更多风险。
+- "Regulation can fail, so companies also have ethical obligations." —— 监管也会失灵，所以企业也负有道德义务。
+- "I think the 2008 crisis was both a market failure and a regulatory failure." —— 我认为 2008 年金融危机既是市场失灵，也是监管失灵。
 
 ## 想问老师的问题
-- "Who is the guest speaker for this lecture?"（课件没写）
-- "Can we use the market failures approach to evaluate our company's CSR in the reflective report?"
-- "Is Heath's market failures approach the same as shareholder theory, or different?"
-- "The readings are from 2010–2013. Can we cite them, or should we only use articles from 2020–2022?"
+- "Who is the guest speaker for this lecture?" —— 这一讲的客座讲者是谁？（课件没写）
+- "Can we use the market failures approach to evaluate our company's CSR in the reflective report?" —— 我们可以在反思报告里用市场失灵方法来评价我们公司的企业社会责任吗？
+- "Is Heath's market failures approach the same as shareholder theory, or different?" —— Heath 的市场失灵方法和股东理论是一回事，还是不同？
+- "The readings are from 2010–2013. Can we cite them, or should we only use articles from 2020–2022?" —— 这些阅读材料是 2010–2013 年的。我们可以引用吗？还是只能用 2020–2022 年的文章？

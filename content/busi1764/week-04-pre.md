@@ -92,14 +92,14 @@
 - 说明时可以用：这是哪种社会问题 → 你的方案属于七种创新方式里的哪一种 → 收入从哪里来 → 去哪个国家复制、找什么伙伴（ISE 四要点）。
 
 ## 可以在课上说的英文
-- "A social problem in my hometown is…, and neither the market nor the government has solved it."
-- "Our idea is a social business: it covers its costs, but profits are reinvested rather than paid as dividends."
-- "To replicate it internationally, we would need mission-aligned local partners and a strong network."
-- "According to Dees (1998), social improvement comes before profit in social entrepreneurship."
+- "A social problem in my hometown is…, and neither the market nor the government has solved it." —— 我家乡的一个社会问题是……，市场和政府都没有解决它。
+- "Our idea is a social business: it covers its costs, but profits are reinvested rather than paid as dividends." —— 我们的创意是一家社会企业：它能覆盖自身成本，但利润用于再投资，而不是作为股息分红。
+- "To replicate it internationally, we would need mission-aligned local partners and a strong network." —— 要在国际上复制这个模式，我们需要与使命一致的本地合作伙伴和强大的人脉网络。
+- "According to Dees (1998), social improvement comes before profit in social entrepreneurship." —— 根据 Dees (1998)，在社会创业中，改善社会排在利润之前。
 
 ## 想问老师的问题（tutorial 第二部分：作业 1 辅导）
-- "My Ashoka Fellow works in… Is it acceptable for the learning diary?"
-- "Can we cite the mini-lecture slides as references, like 'Costales (2024) Mini-Lecture 4.1'?"
-- "How should we describe our tutorial experience — one section, or within each part?"
-- "Is the word count around 1,000 words, and are references excluded?"
-- "Where can we find Costales and Zeyen (2023)?"
+- "My Ashoka Fellow works in… Is it acceptable for the learning diary?" —— 我选的 Ashoka Fellow 从事……领域的工作。用在学习日志里可以吗？
+- "Can we cite the mini-lecture slides as references, like 'Costales (2024) Mini-Lecture 4.1'?" —— 我们可以把小讲座课件当作参考文献引用吗？比如"Costales (2024) Mini-Lecture 4.1"。
+- "How should we describe our tutorial experience — one section, or within each part?" —— 辅导课的经历应该怎么写——单独写一节，还是写进每一部分里？
+- "Is the word count around 1,000 words, and are references excluded?" —— 字数大约是 1,000 字吗？参考文献不计入字数吗？
+- "Where can we find Costales and Zeyen (2023)?" —— 在哪里可以找到 Costales and Zeyen (2023)？

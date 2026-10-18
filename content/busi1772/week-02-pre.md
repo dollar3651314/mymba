@@ -98,16 +98,16 @@ BP 漏油事件里，经理们只盯利润对不对？**Friedman** 说经理的�
 4. Fink 的信里哪些地方像 Friedman，哪些像 Freeman？BlackRock 给它投资的公司 CEO 写这封信，有什么问题？
 
 ## 可以在课上说的英文
-- "I side with Freeman, because BP's cost-cutting decisions violated the rights of workers and local communities."
-- "Friedman would reply that balancing rights is the job of regulators, not managers."
-- "Managers lack democratic legitimacy, competence and incentives — that is Friedman's objection to premise four."
-- "Heath argues that multi-fiduciary obligations allow managers to exploit ambiguity."
-- "Fink's letter sounds like the strategic version of stakeholder theory: purpose is good for long-term profit."
-- "There is no rigorous evidence that ethics always pays. It could be reverse causation."
+- "I side with Freeman, because BP's cost-cutting decisions violated the rights of workers and local communities." —— 我站在 Freeman 一边，因为 BP 削减成本的决定侵犯了工人和当地社区的权利。
+- "Friedman would reply that balancing rights is the job of regulators, not managers." —— Friedman 会回应说，平衡各方权利是监管者的工作，不是管理者的工作。
+- "Managers lack democratic legitimacy, competence and incentives — that is Friedman's objection to premise four." —— 管理者缺乏民主正当性、能力和激励——这就是 Friedman 对第四个前提的反驳。
+- "Heath argues that multi-fiduciary obligations allow managers to exploit ambiguity." —— Heath 认为，多重受托义务会让管理者钻模糊空间的空子。
+- "Fink's letter sounds like the strategic version of stakeholder theory: purpose is good for long-term profit." —— Fink 的信听起来像是利益相关者理论的“策略版”：企业使命有利于长期利润。
+- "There is no rigorous evidence that ethics always pays. It could be reverse causation." —— 没有严谨的证据证明讲道德总是有回报。这也可能是反向因果。
 
 ## 想问老师的问题（今天一定要问）
-- "Is the essay due in Week 9, on 17 November, or on 26 November?"
-- "Is the final quiz on 28 November during our Week 12 tutorial?"
-- "What format should we use to declare AI tools in the essay?"
-- "Where can we see the detailed marking rubric for the essay?"
-- "Is there a self-assessment form we need to complete before submission?"
+- "Is the essay due in Week 9, on 17 November, or on 26 November?" —— 论文是第 9 周的 11 月 17 日交，还是 11 月 26 日交？
+- "Is the final quiz on 28 November during our Week 12 tutorial?" —— 期末小测是在 11 月 28 日我们第 12 周的辅导课上进行吗？
+- "What format should we use to declare AI tools in the essay?" —— 论文里声明使用了 AI 工具，应该用什么格式？
+- "Where can we see the detailed marking rubric for the essay?" —— 论文的详细评分标准（rubric）在哪里能看到？
+- "Is there a self-assessment form we need to complete before submission?" —— 提交之前需要填一份自我评估表吗？

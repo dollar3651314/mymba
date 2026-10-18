@@ -102,16 +102,16 @@
 5. 新加坡同时在 CPTPP 和 RCEP 里，对在新加坡的企业意味着什么？（你在新加坡，这题可以说自己的观察）
 
 ## 可以在课上说的英文
-- "Singapore is a member of both RCEP and the CPTPP, so companies based here can benefit from both trade blocs."
-- "I think regional integration brings trade creation, but trade diversion can reduce the net gain."
-- "From Porter's perspective, national competitive advantage is created, not inherited."
-- "Our group is considering a UK company. Brexit could be a good case to apply regional integration theory."
-- "Jetschke and Murray argue that ASEAN copied EU institutions selectively, because member states still care about sovereignty."
+- "Singapore is a member of both RCEP and the CPTPP, so companies based here can benefit from both trade blocs." —— 新加坡同时是 RCEP 和 CPTPP 的成员，所以设在这里的公司可以同时从这两个贸易集团中受益。
+- "I think regional integration brings trade creation, but trade diversion can reduce the net gain." —— 我认为区域一体化会带来贸易创造，但贸易转移可能会减少净收益。
+- "From Porter's perspective, national competitive advantage is created, not inherited." —— 从波特的观点看，国家竞争优势是创造出来的，而不是继承来的。
+- "Our group is considering a UK company. Brexit could be a good case to apply regional integration theory." —— 我们小组正在考虑一家英国公司。脱欧可以作为运用区域一体化理论的好案例。
+- "Jetschke and Murray argue that ASEAN copied EU institutions selectively, because member states still care about sovereignty." —— Jetschke 和 Murray 认为，东盟是有选择地照搬欧盟的制度，因为成员国仍然在意主权。
 
 ## 想问老师的问题（今天一定要问）
-- "Is the presentation on 31 October the formative practice or the final assessed presentation?"
-- "Do we need to submit the Mind Map photo and slides on Turnitin? When is the deadline?"
-- "Is the individual report due on 2 December or 11 December?"
-- "Are Global Value Chains and Global Production Networks also on the theory list?"
-- "Which referencing style should we use — Harvard or APA?"
-- "Here is our group list and our company. Can you confirm no other group has chosen it?"
+- "Is the presentation on 31 October the formative practice or the final assessed presentation?" —— 10 月 31 日的展示是形成性的练习，还是最终计分的展示？
+- "Do we need to submit the Mind Map photo and slides on Turnitin? When is the deadline?" —— 思维导图的照片和幻灯片需要提交到 Turnitin 吗？截止时间是什么时候？
+- "Is the individual report due on 2 December or 11 December?" —— 个人报告的截止日期是 12 月 2 日还是 12 月 11 日？
+- "Are Global Value Chains and Global Production Networks also on the theory list?" —— 全球价值链和全球生产网络也在理论清单里吗？
+- "Which referencing style should we use — Harvard or APA?" —— 我们应该用哪种引用格式——Harvard 还是 APA？
+- "Here is our group list and our company. Can you confirm no other group has chosen it?" —— 这是我们的小组名单和我们选的公司。您能确认没有其他小组选了这家公司吗？

@@ -361,7 +361,7 @@
         const r = await fetch(path, { cache: 'no-cache' });
         if (!r.ok) throw new Error(r.status);
         const md = await r.text();
-        h += `<h2>📘 课前预习</h2><div class="card md">${mdHtml(md)}</div>`;
+        h += `<h2>📘 课前预习</h2><a class="btn ghost" href="#/practice/${id}/${n}" style="margin-bottom:10px">🎧 跟读本周的句子和术语</a><div class="card md">${mdHtml(md)}</div>`;
       } catch { h += `<div class="card muted">预习包加载失败，请检查网络后刷新。</div>`; }
     } else if (!(sessOf(m, n) && held(sessOf(m, n)))) {
       h += `<h2>📘 课前预习</h2><div class="card empty">还没有预习包。<br>请到 Canvas / Moodle 下载这一周的课件（tutorial slides、mini-lecture），发给 Claude。</div>`;
@@ -495,8 +495,93 @@
     const q = (document.getElementById('g-q')?.value || '').trim().toLowerCase();
     const cat = document.querySelector('#g-cats .chip.on')?.dataset.cat || '';
     const list = M.glossary.filter(g => (!cat || g.c === cat) && (!q || (g.en + g.zh + g.x).toLowerCase().includes(q)));
-    document.getElementById('g-list').innerHTML = list.length ? list.map(g => `<div class="term"><div class="head"><b>${esc(g.en)}</b><span>${esc(g.zh)}</span><span class="pill">${esc(g.c)}</span></div>
+    document.getElementById('g-list').innerHTML = list.length ? list.map(g => `<div class="term"><div class="head"><button class="pr-say sm" data-say="${esc(g.en)}" aria-label="朗读">🔊</button><b>${esc(g.en)}</b><span>${esc(g.zh)}</span><span class="pill">${esc(g.c)}</span></div>
       <div>${esc(g.x)}</div>${g.e ? `<div class="ex">${esc(g.e)}</div>` : ''}</div>`).join('') : '<div class="empty">没有找到</div>';
+  }
+
+  // ---------- 跟读练习 ----------
+  const PK = { say: '课上说', ask: '问老师', term: '术语', gloss: '词汇表', phrase: '写作句型' };
+  const tts = window.speechSynthesis;
+  let pr = { m: '', k: '', w: 'near', hideDone: false }, prPlay = null;
+  function practiceItems() {
+    const all = (M.practice || []).map(x => ({ ...x }));
+    (M.glossary || []).forEach(g => all.push({ m: (g.m || [])[0] || '', w: 0, k: 'gloss', en: g.en, zh: g.zh, x: g.x }));
+    (M.phrases || []).forEach(g => g.items.forEach(p => all.push({ m: '', w: 0, k: 'phrase', en: p.en, zh: p.zh, x: g.g })));
+    const ko = { say: 0, ask: 1, term: 2, gloss: 3, phrase: 4 };
+    return all.map((x, i) => ({ ...x, i, id: x.k + ':' + x.en.slice(0, 80) })).sort((a, b) => (a.m || 'z').localeCompare(b.m || 'z') || a.w - b.w || ko[a.k] - ko[b.k] || a.i - b.i);
+  }
+  function nearWeeks() {
+    const t = today(), lim = new Date(t); lim.setDate(lim.getDate() + 7);
+    const set = new Set();
+    M.modules.forEach(m => (m.sessions || []).forEach(s => { const d = parseDate(s.d); if (d >= t && d <= lim) set.add(m.id + ':' + s.n); }));
+    return set;
+  }
+  function pickVoice() {
+    const vs = tts ? tts.getVoices().filter(v => /^en[-_]/i.test(v.lang)) : [];
+    const want = store.get('pr:accent', 'GB');
+    const pool = vs.filter(v => v.lang.toUpperCase().includes(want)).concat(vs);
+    return pool.find(v => /google|natural|enhanced|premium|daniel|serena|kate|samantha/i.test(v.name)) || pool[0] || null;
+  }
+  function speak(text, onend, rate) {
+    if (!tts) { toast('这个浏览器不支持朗读，请用 Safari 或 Chrome'); return; }
+    tts.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    const v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-GB';
+    u.rate = rate || Number(store.get('pr:rate', 0.85));
+    if (onend) u.onend = onend;
+    tts.speak(u);
+  }
+  function stopPlay() { prPlay = null; tts && tts.cancel(); document.querySelectorAll('.pr-item.playing').forEach(e => e.classList.remove('playing')); const b = document.getElementById('pr-all'); if (b) b.textContent = '▶ 连续播放（每句后停顿跟读）'; }
+  function playFrom(i) {
+    const els = [...document.querySelectorAll('#pr-list .pr-item')];
+    if (!prPlay || i >= els.length) { stopPlay(); return; }
+    els.forEach(e => e.classList.remove('playing'));
+    const el = els[i]; el.classList.add('playing'); el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const text = el.dataset.say, token = prPlay;
+    speak(text, () => {
+      if (prPlay !== token) return;
+      const gap = 1200 + text.split(/\s+/).length * 420 / Number(store.get('pr:rate', 0.85));
+      setTimeout(() => { if (prPlay === token) playFrom(i + 1); }, gap);
+    });
+  }
+  views.practice = (mid, wn) => {
+    if (mid !== undefined) pr = { ...pr, m: mid || '', w: wn ? String(wn) : '', k: '' };
+    const mods = M.modules.map(m => `<button class="chip ${pr.m === m.id ? 'on' : ''}" data-pr-m="${m.id}">${esc(m.code)}</button>`).join('');
+    const kinds = Object.entries(PK).map(([k, l]) => `<button class="chip ${pr.k === k ? 'on' : ''}" data-pr-k="${k}">${l}</button>`).join('');
+    const weeks = pr.m ? (mod(pr.m)?.weeks || []).map(w => `<option value="${w.n}" ${pr.w === String(w.n) ? 'selected' : ''}>第 ${w.n} 周 · ${esc(w.zh)}</option>`).join('') : '';
+    const rate = Number(store.get('pr:rate', 0.85)), acc = store.get('pr:accent', 'GB'), zh = store.get('pr:zh', true);
+    return `<a class="back" href="#/tools">‹ 工具</a><h1>跟读练习</h1>
+      <p class="small muted">点 🔊 听标准读音，跟着大声读。句子来自各课预习包（课上说的英文、想问老师的问题、必会术语）、词汇表和写作句型。</p>
+      ${tts ? '' : '<div class="callout">这个浏览器不支持朗读。iPhone 请用 Safari，安卓请用 Chrome。</div>'}
+      <div class="card">
+        <div class="chips"><button class="chip ${!pr.m ? 'on' : ''}" data-pr-m="">全部课程</button>${mods}</div>
+        <div class="chips"><button class="chip ${!pr.k ? 'on' : ''}" data-pr-k="">全部类型</button>${kinds}</div>
+        <select id="pr-w"><option value="near" ${pr.w === 'near' ? 'selected' : ''}>未来 7 天要上的课</option><option value="" ${pr.w === '' ? 'selected' : ''}>所有周</option>${weeks}</select>
+        <div class="pr-ctl">
+          <label>语速 <select id="pr-rate">${[[0.6, '很慢'], [0.75, '慢'], [0.85, '稍慢'], [1, '正常']].map(([v, l]) => `<option value="${v}" ${rate === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+          <label>口音 <select id="pr-acc"><option value="GB" ${acc === 'GB' ? 'selected' : ''}>英音</option><option value="US" ${acc === 'US' ? 'selected' : ''}>美音</option></select></label>
+          <label><input type="checkbox" id="pr-zh" ${zh ? 'checked' : ''}> 显示中文</label>
+          <label><input type="checkbox" id="pr-hide" ${pr.hideDone ? 'checked' : ''}> 隐藏已会的</label>
+        </div>
+        <button class="btn" id="pr-all">▶ 连续播放（每句后停顿跟读）</button>
+      </div>
+      <div id="pr-list"></div>`;
+  };
+  function renderPractice() {
+    const box = document.getElementById('pr-list'); if (!box) return;
+    const near = pr.w === 'near' ? nearWeeks() : null;
+    const done = new Set(store.get('pr:done', []));
+    const showZh = store.get('pr:zh', true);
+    const list = practiceItems().filter(x => (!pr.m || x.m === pr.m) && (!pr.k || x.k === pr.k)
+      && (near ? (x.w && near.has(x.m + ':' + x.w)) : (!pr.w || String(x.w) === pr.w)) && !(pr.hideDone && done.has(x.id)));
+    const label = x => [x.m ? mod(x.m)?.code : '', x.w ? `第 ${x.w} 周` : '', PK[x.k]].filter(Boolean).join(' · ');
+    box.innerHTML = `<p class="small muted">共 ${list.length} 条${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
+        <div class="pr-row"><button class="pr-say" aria-label="朗读">🔊</button>
+        <div class="grow"><div class="pr-en">${esc(x.en)}</div>
+        <div class="pr-zh ${showZh ? '' : 'hid'}">${x.zh ? esc(x.zh) : '<span class="muted">（中文待补）</span>'}${x.x && x.k !== 'phrase' ? `<div class="small muted">${esc(x.x)}</div>` : ''}</div>
+        <div class="small muted pr-meta">${esc(label(x))}</div></div></div>
+        <div class="btn-row"><button class="chip" data-pr-slow>🐢 慢读</button><button class="chip ${done.has(x.id) ? 'on' : ''}" data-pr-done="${esc(x.id)}">${done.has(x.id) ? '✓ 已会' : '标记已会'}</button></div></div>`).join('')
+      + (list.length > 300 ? '<p class="small muted">只显示前 300 条，请先选课程或类型。</p>' : '');
   }
 
   // ---------- 工具 ----------
@@ -513,6 +598,7 @@
 
   views.tools = () => `<h1>工具</h1>
     <a class="card" href="#/log"><h3>学习进度记录</h3><p class="small muted">和 Claude 沟通的记录：下一步、待确认问题、已做决定、收到的材料</p></a>
+    <a class="card" href="#/practice"><h3>🎧 跟读练习</h3><p class="small muted">课上说的英文、想问老师的问题、术语和写作句型：点一下听标准读音，带中文对照</p></a>
     <a class="card" href="#/writing"><h3>写作助手</h3><p class="small muted">提交前检查清单、Harvard 引用格式、tutorial 发言和学术写作句型</p></a>
     <a class="card" href="#/grades"><h3>成绩计算</h3><p class="small muted">录入分数，算出及格还需要多少分、目前的学位等级</p></a>
     <a class="card" href="#/rules"><h3>学校规则</h3><p class="small muted">及格线、补考、宽限期、延期、查重、AI 使用</p></a>
@@ -628,6 +714,7 @@
     [/^\/notes\/edit\/([\w-]+)$/, (id) => views.noteForm('edit', id), 'notes'],
     [/^\/glossary$/, () => views.glossary(), 'glossary'],
     [/^\/tools$/, () => views.tools(), 'tools'],
+    [/^\/practice(?:\/(\w+)(?:\/(\d+))?)?$/, (m, w) => views.practice(m, w), 'tools'],
     [/^\/log$/, () => views.log(), 'tools'],
     [/^\/rules$/, () => views.rules(), 'tools'],
     [/^\/writing$/, () => views.writing(), 'tools'],
@@ -651,6 +738,7 @@
     document.querySelectorAll('.tabbar a').forEach(a => a.classList.toggle('on', a.dataset.tab === tab));
     lastRoute = raw;
     window.scrollTo(0, 0);
+    if (raw.startsWith('/practice')) renderPractice(); else stopPlay();
     if (document.getElementById('g-list')) renderGlossary();
     if (document.getElementById('overall')) renderGrades();
   }
@@ -668,6 +756,11 @@
   // ---------- 事件 ----------
   document.addEventListener('change', e => {
     const t = e.target;
+    if (t.id === 'pr-w') { pr.w = t.value; stopPlay(); renderPractice(); }
+    if (t.id === 'pr-rate') store.set('pr:rate', Number(t.value));
+    if (t.id === 'pr-acc') store.set('pr:accent', t.value);
+    if (t.id === 'pr-zh') { store.set('pr:zh', t.checked); renderPractice(); }
+    if (t.id === 'pr-hide') { pr.hideDone = t.checked; renderPractice(); }
     if (t.dataset.check) {
       store.set('chk:' + t.dataset.check, t.checked);
       if (t.closest('.list') && lastRoute === '/') setTimeout(render, 300);
@@ -695,8 +788,23 @@
     }
   });
   document.addEventListener('click', e => {
+    const z = e.target.closest('.pr-zh.hid'); if (z) { z.classList.remove('hid'); return; }
+  });
+  document.addEventListener('click', e => {
     const t = e.target.closest('button, [data-cat]');
     if (!t) return;
+    if (t.dataset.prM !== undefined) { pr.m = t.dataset.prM; pr.w = pr.m ? '' : 'near'; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
+    if (t.dataset.prK !== undefined) { pr.k = t.dataset.prK; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
+    if (t.classList.contains('pr-say') || t.dataset.prSlow !== undefined) {
+      const say = t.dataset.say || t.closest('.pr-item')?.dataset.say; if (!say) return; prPlay = null;
+      speak(say, null, t.dataset.prSlow !== undefined ? 0.6 : 0);
+      return;
+    }
+    if (t.dataset.prDone) {
+      const d = new Set(store.get('pr:done', [])); d.has(t.dataset.prDone) ? d.delete(t.dataset.prDone) : d.add(t.dataset.prDone);
+      store.set('pr:done', [...d]); renderPractice(); return;
+    }
+    if (t.id === 'pr-all') { if (prPlay) stopPlay(); else { prPlay = {}; t.textContent = '■ 停止'; playFrom(0); } return; }
     if (t.dataset.cat !== undefined && t.closest('#g-cats')) {
       t.parentElement.querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === t)); renderGlossary();
     }

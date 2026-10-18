@@ -152,17 +152,17 @@ Uber、Airbnb、TaskRabbit 这些平台真的改善了市场吗？用**组织理
 | Mishel (2018) *Uber and the Labor Market*（美国经济政策研究所 EPI 报告） | ① 乘客付的钱约**三分之一**作为佣金和预订费归 Uber。② 扣除佣金和车辆开支后，司机报酬平均 **$11.77/小时**；再扣掉雇员本应有的福利和税费差异，“**相当于工资**”只有 **$9.21/小时**，低于很多州和城市的最低工资（课件的 Uber 工资图）。③ Uber 和整个零工经济占美国总就业、总报酬的比例很小（Uber 司机折合全职只占全国就业约 0.07%）；多数司机是**兼职**、赚补贴收入。④ 结论：零工经济被过度炒作，在“工作的未来”会议上“最多值一个分会场，不值一个大会报告”。 |
 
 ## 可以在课上说的英文
-- "Platforms reduce transaction costs, so firms can hire contractors on the market instead of keeping employees on the payroll."
-- "Ratings solve the problem of uncertainty: they allow us to trust strangers."
-- "Uber makes the market more efficient, but it shifts the risk of having no clients onto drivers."
-- "The mitigating strategy keeps the platform but redistributes income; the organisational strategy changes who owns the platform."
-- "Our platform offers on-demand tutoring. Our gig workers are university students, and the tutors own part of the platform as a cooperative."
+- "Platforms reduce transaction costs, so firms can hire contractors on the market instead of keeping employees on the payroll." —— 平台降低了交易成本，所以企业可以在市场上雇用合同工，而不用把员工留在工资单上。
+- "Ratings solve the problem of uncertainty: they allow us to trust strangers." —— 评分解决了不确定性的问题：它让我们能够信任陌生人。
+- "Uber makes the market more efficient, but it shifts the risk of having no clients onto drivers." —— Uber 让市场更有效率，但它把“没有客户”的风险转嫁给了司机。
+- "The mitigating strategy keeps the platform but redistributes income; the organisational strategy changes who owns the platform." —— 缓解策略保留平台但重新分配收入；组织策略则改变平台归谁所有。
+- "Our platform offers on-demand tutoring. Our gig workers are university students, and the tutors own part of the platform as a cooperative." —— 我们的平台提供按需辅导。我们的零工是大学生，辅导老师以合作社的形式拥有平台的一部分。
 
 ## 想问老师的问题
-- "The quiz must start at our regular tutorial time. Our Week 12 session is Saturday 28 November, 12:00 to 15:00. Does the quiz start at 12:00?"
-- "The tutorial outline mentions 'Simulation Game – Round 5'. Is that the FT Uber Game, or a different game? What were rounds 1 to 4?"
-- "The slides say the mitigating strategy is from Coyle (2017) and the organisational strategy from Schor (2014), but Ferretti (2020) also names both strategies. Which author should we give in the quiz?"
-- "Club goods are only in the lecture, not in the tutorial. Will they be in the quiz?"
+- "The quiz must start at our regular tutorial time. Our Week 12 session is Saturday 28 November, 12:00 to 15:00. Does the quiz start at 12:00?" —— 小测必须在我们平时的辅导课时间开始。我们第 12 周的课是 11 月 28 日星期六 12:00 到 15:00。小测是 12:00 开始吗？
+- "The tutorial outline mentions 'Simulation Game – Round 5'. Is that the FT Uber Game, or a different game? What were rounds 1 to 4?" —— 辅导课大纲里提到“模拟游戏——第 5 轮”。那是 FT 的 Uber 游戏，还是别的游戏？第 1 到 4 轮是什么？
+- "The slides say the mitigating strategy is from Coyle (2017) and the organisational strategy from Schor (2014), but Ferretti (2020) also names both strategies. Which author should we give in the quiz?" —— 课件说缓解策略出自 Coyle (2017)，组织策略出自 Schor (2014)，但 Ferretti (2020) 也提到了这两种策略。小测里应该写哪位作者？
+- "Club goods are only in the lecture, not in the tutorial. Will they be in the quiz?" —— 俱乐部物品只在讲座里讲了，辅导课里没有。小测会考吗？
 
 ## Quiz 复习要点（第 10 周）
 1. 本周问题：平台（Uber、Airbnb、TaskRabbit）真的改善市场吗？更**有效率**？更**不公平**？

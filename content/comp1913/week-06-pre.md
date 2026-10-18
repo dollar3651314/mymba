@@ -75,12 +75,12 @@ Tutorial 4 的三个环节——**审视报告、批判性评估图表、写评�
 - **小组展示**：Excel 描述统计、散点图、相关系数也能用在 American Egg 的 20 家公司数据上。
 
 ## 可以在课上说的英文
-- "The intended audience seems to be investors and policymakers, because the report ends with funding recommendations."
-- "The source note says 2023/2025, but the title says 2022–2025, so the time frame is unclear."
-- "The chart doesn't show the sample size, so we can't judge how reliable it is."
-- "In our data, the correlation between diversity and profit margin is close to zero."
-- "A clustered bar chart would make the comparison across countries clearer."
+- "The intended audience seems to be investors and policymakers, because the report ends with funding recommendations." —— 目标读者似乎是投资者和政策制定者，因为报告最后给出了融资建议。
+- "The source note says 2023/2025, but the title says 2022–2025, so the time frame is unclear." —— 来源注释写的是 2023/2025，但标题写的是 2022–2025，所以时间范围不清楚。
+- "The chart doesn't show the sample size, so we can't judge how reliable it is." —— 图表没有显示样本量，所以我们无法判断它有多可靠。
+- "In our data, the correlation between diversity and profit margin is close to zero." —— 在我们的数据里，多样性和利润率之间的相关性接近于零。
+- "A clustered bar chart would make the comparison across countries clearer." —— 用簇状柱形图会让各国之间的比较更清楚。
 
 ## 想问老师的问题
-- "For the Bain report, how many exhibits should we evaluate in detail?"
-- "Should we suggest which tools (like Power BI or Tableau) Bain may have used, as in the brief?"
+- "For the Bain report, how many exhibits should we evaluate in detail?" —— 对于 Bain 的报告，我们应该详细评价多少张图表？
+- "Should we suggest which tools (like Power BI or Tableau) Bain may have used, as in the brief?" —— 我们应该像作业说明（brief）里那样，推测 Bain 可能用了哪些工具（比如 Power BI 或 Tableau）吗？

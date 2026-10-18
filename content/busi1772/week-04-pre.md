@@ -101,12 +101,12 @@ CEO 拿普通员工 300 倍的工资公平吗？**罗尔斯**说：站在“无�
 | Murphy & Christensen (2012) *Tax Us If You Can* | 避税天堂和税收正义 |
 
 ## 可以在课上说的英文
-- "Behind the veil of ignorance, I would not accept a 300-to-1 pay ratio unless it benefited the worst-off."
-- "Talent is morally arbitrary, so it cannot justify such large inequalities."
-- "Boatright argues that high pay is an incentive, not a reward for merit."
-- "In the HR case, I'd pay the engineer more because of supply and demand, not because they deserve more."
-- "Performance-based pay cannot distinguish talent from luck."
+- "Behind the veil of ignorance, I would not accept a 300-to-1 pay ratio unless it benefited the worst-off." —— 在无知之幕后面，我不会接受 300 比 1 的薪酬差距，除非它能让处境最差的人受益。
+- "Talent is morally arbitrary, so it cannot justify such large inequalities." —— 天赋在道德上是偶然的（不是自己挣来的），所以它不能为这么大的不平等辩护。
+- "Boatright argues that high pay is an incentive, not a reward for merit." —— Boatright 认为高薪是一种激励，而不是对才能的奖赏。
+- "In the HR case, I'd pay the engineer more because of supply and demand, not because they deserve more." —— 在那个人力资源案例里，我会给工程师更高的薪水，是因为供求关系，而不是因为他们更应得。
+- "Performance-based pay cannot distinguish talent from luck." —— 按绩效付薪无法区分是天赋还是运气。
 
 ## 想问老师的问题
-- "For essay topic 4, is Wenar (2021) the only mandatory reading?"
-- "Can we use Rosenfeld (2021) and the EPI data as examples?"
+- "For essay topic 4, is Wenar (2021) the only mandatory reading?" —— 论文第 4 题，Wenar (2021) 是唯一的必读文献吗？
+- "Can we use Rosenfeld (2021) and the EPI data as examples?" —— 我们可以用 Rosenfeld (2021) 和 EPI 的数据作为例子吗？

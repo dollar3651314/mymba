@@ -134,15 +134,15 @@
 5. 新加坡的垃圾是怎么处理的？（新加坡土地很少，你可以结合自己的观察说一说；具体数据自己查）
 
 ## 可以在课上说的英文
-- "Only about nine percent of plastic waste is recycled globally."
-- "Waste colonialism means rich countries send their waste to poorer countries."
-- "Waste is also a social justice issue, because poor communities often live near landfills and incinerators."
-- "The circular economy tries to turn waste into a resource."
-- "Plastic quality goes down each time it is recycled, so we need to reduce plastic production first."
-- "Our company uses a lot of plastic packaging, so this topic is relevant to our case."
+- "Only about nine percent of plastic waste is recycled globally." —— 全球只有大约百分之九的塑料垃圾被回收利用。
+- "Waste colonialism means rich countries send their waste to poorer countries." —— "垃圾殖民主义"是指富裕国家把垃圾运往较贫穷的国家。
+- "Waste is also a social justice issue, because poor communities often live near landfills and incinerators." —— 垃圾也是一个社会公正问题，因为贫困社区往往住在垃圾填埋场和焚烧厂附近。
+- "The circular economy tries to turn waste into a resource." —— 循环经济试图把废弃物变成资源。
+- "Plastic quality goes down each time it is recycled, so we need to reduce plastic production first." —— 塑料每回收一次质量就下降一次，所以我们首先需要减少塑料的生产。
+- "Our company uses a lot of plastic packaging, so this topic is relevant to our case." —— 我们的公司使用大量塑料包装，所以这个主题和我们的案例有关。
 
 ## 想问老师的问题
-- "Could you explain the business cases on slide 18 — which ones are the best examples of the circular economy?"
-- "What does the '× 6' on slide 16 refer to?"
-- "Is the Greenpeace report from 2021 or 2022? Which year should we use when we cite it?"
-- "Since the report is due on 2 December, can we still include ideas from this lecture?"
+- "Could you explain the business cases on slide 18 — which ones are the best examples of the circular economy?" —— 您能解释一下第 18 页课件上的商业案例吗——哪些是循环经济最好的例子？
+- "What does the '× 6' on slide 16 refer to?" —— 第 16 页课件上的"× 6"指的是什么？
+- "Is the Greenpeace report from 2021 or 2022? Which year should we use when we cite it?" —— 绿色和平的那份报告是 2021 年还是 2022 年的？引用时应该写哪一年？
+- "Since the report is due on 2 December, can we still include ideas from this lecture?" —— 既然报告 12 月 2 日才截止，我们还能把这一讲的观点写进去吗？

@@ -199,20 +199,20 @@ Tutorial 先复习 7.1 的 PESTEL 和 7.2 的进入模式总览（第 3–13 张
 5. 你的 Ashoka Fellow（或 A2 想法）最适合哪种进入模式？为什么不是另外几种？
 
 ## 可以在课上说的英文
-- "Before entering a market, a firm should examine the external environment using PESTEL."
-- "I think Walmart got the social factors wrong. German customers did not like being greeted by strangers, and they preferred fresh meat from the butcher."
-- "Walmart entered Germany through direct acquisition, but the stores it bought were in poor locations."
-- "If I were Walmart, I would consider a joint venture with a German retailer to gain local knowledge."
-- "TNA moved from exporting to a greenfield investment because online sales in Indonesia kept growing."
-- "The psychic distance between Malaysia and Indonesia is small, because both countries share the Muslim and Malay culture."
-- "Licensing is low-risk, but the licensor may lose control over quality, and the partner may become a competitor."
-- "A wholly-owned subsidiary gives full control and protects intellectual property, but the initial investment is high."
-- "For a social enterprise with limited resources, a partnership with a local organisation may be more suitable than a subsidiary."
+- "Before entering a market, a firm should examine the external environment using PESTEL." —— 进入一个市场之前，企业应该用 PESTEL 分析外部环境。
+- "I think Walmart got the social factors wrong. German customers did not like being greeted by strangers, and they preferred fresh meat from the butcher." —— 我认为沃尔玛对社会因素判断错了。德国顾客不喜欢被陌生人打招呼，而且他们更喜欢从肉铺买新鲜的肉。
+- "Walmart entered Germany through direct acquisition, but the stores it bought were in poor locations." —— 沃尔玛通过直接收购进入德国，但它买下的门店位置都不好。
+- "If I were Walmart, I would consider a joint venture with a German retailer to gain local knowledge." —— 如果我是沃尔玛，我会考虑和一家德国零售商成立合资企业，以获得本地知识。
+- "TNA moved from exporting to a greenfield investment because online sales in Indonesia kept growing." —— TNA 从出口转为绿地投资，因为它在印度尼西亚的网上销售一直在增长。
+- "The psychic distance between Malaysia and Indonesia is small, because both countries share the Muslim and Malay culture." —— 马来西亚和印度尼西亚之间的心理距离很小，因为两国都有穆斯林和马来文化。
+- "Licensing is low-risk, but the licensor may lose control over quality, and the partner may become a competitor." —— 许可经营的风险低，但许可方可能失去对质量的控制，而且合作方可能变成竞争对手。
+- "A wholly-owned subsidiary gives full control and protects intellectual property, but the initial investment is high." —— 全资子公司能带来完全的控制权并保护知识产权，但初始投资很高。
+- "For a social enterprise with limited resources, a partnership with a local organisation may be more suitable than a subsidiary." —— 对于资源有限的社会企业，和本地组织合作可能比设立子公司更合适。
 
 ## 想问老师的问题
-- "The slides list digital market entry modes, but there is no slide explaining them. Could you explain what counts as a digital entry mode?"
-- "For the Learning Diary, can we recommend a strategic alliance or partnership with a local NGO as the entry mode, even though it is not on the list?"
-- "Is it enough to discuss two or three key PESTEL factors in the diary, or do we need all six?"
-- "Can we cite the mini-lecture slides in our references? What year and author should we use?"
-- "For case study 3, which questions should we focus on in the class discussion?"
-- "Do we need to submit our answers for this week's case studies to the Canvas link? Is there a deadline?"
+- "The slides list digital market entry modes, but there is no slide explaining them. Could you explain what counts as a digital entry mode?" —— 课件列出了数字化市场进入方式，但没有一页解释它们。您能解释一下什么算数字化进入方式吗？
+- "For the Learning Diary, can we recommend a strategic alliance or partnership with a local NGO as the entry mode, even though it is not on the list?" —— 在学习日志里，我们可以推荐与本地 NGO 结成战略联盟或合作作为进入方式吗？虽然它不在列表里。
+- "Is it enough to discuss two or three key PESTEL factors in the diary, or do we need all six?" —— 学习日志里讨论两三个关键的 PESTEL 因素就够了吗？还是六个都要写？
+- "Can we cite the mini-lecture slides in our references? What year and author should we use?" —— 我们可以在参考文献里引用小讲座课件吗？作者和年份应该写什么？
+- "For case study 3, which questions should we focus on in the class discussion?" —— 案例分析 3 在课堂讨论时应该重点关注哪些问题？
+- "Do we need to submit our answers for this week's case studies to the Canvas link? Is there a deadline?" —— 这周案例分析的答案需要提交到 Canvas 链接吗？有截止时间吗？

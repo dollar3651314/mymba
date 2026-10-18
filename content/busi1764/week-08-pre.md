@@ -174,18 +174,18 @@
 5. 在新加坡读 MBA 的同学，算强关系还是弱关系？怎样把这些关系用在你的 A2 想法上？
 
 ## 可以在课上说的英文
-- "Networks gave Bill Gates access to an opportunity that was not available outside the network."
-- "Mary Gates acted as a broker between Microsoft and IBM. For Bill Gates, John Akers was a weak tie — a friend of a friend."
-- "I think this is an example of the serendipity role of social capital, because the opportunity came through a third party."
-- "Their trust was built through a shared activity: they both sat on the board of United Way."
-- "In my network map, I introduced myself to most of my key contacts, so my network may be too similar to me."
-- "One challenge for me is that most of my contacts work in the same industry. I want to join activities outside my usual circle."
-- "Strong ties give trust, but weak ties bring new information and new ideas."
-- "Social capital can also become a liability if a firm depends too much on one key partner."
+- "Networks gave Bill Gates access to an opportunity that was not available outside the network." —— 人脉网络让比尔·盖茨获得了一个网络之外的人得不到的机会。
+- "Mary Gates acted as a broker between Microsoft and IBM. For Bill Gates, John Akers was a weak tie — a friend of a friend." —— Mary Gates 充当了微软和 IBM 之间的中间人。对比尔·盖茨来说，John Akers 是一个弱关系——朋友的朋友。
+- "I think this is an example of the serendipity role of social capital, because the opportunity came through a third party." —— 我认为这是社会资本"机缘作用"的一个例子，因为机会是通过第三方来的。
+- "Their trust was built through a shared activity: they both sat on the board of United Way." —— 他们的信任是通过共同的活动建立的：两人都是 United Way 的董事会成员。
+- "In my network map, I introduced myself to most of my key contacts, so my network may be too similar to me." —— 在我的人脉图里，大部分关键联系人都是我自己去认识的，所以我的人脉网络可能和我自己太相似了。
+- "One challenge for me is that most of my contacts work in the same industry. I want to join activities outside my usual circle." —— 我面临的一个挑战是，大多数联系人都在同一个行业工作。我想参加一些我平常圈子以外的活动。
+- "Strong ties give trust, but weak ties bring new information and new ideas." —— 强关系带来信任，而弱关系带来新信息和新想法。
+- "Social capital can also become a liability if a firm depends too much on one key partner." —— 如果一家公司过于依赖一个关键合作伙伴，社会资本也可能变成负担。
 
 ## 想问老师的问题
-- "This is our last class before the Learning Diary deadline. Could I ask a quick question about my diary after the class?"
-- "In the Learning Diary, can we use network theory and social capital in the cross-border transfer section?"
-- "For Assignment 2, can we include our own network map, with roles instead of real names, as a figure in the report?"
-- "The definitions of network ties are in the lecture slides but not in the tutorial slides. Should we cite the original authors, such as Granovetter (1973), or Zucchella, Hagen and Serapio (2018)?"
-- "Do we need to submit our network map or the case study answers this week? Is there a deadline?"
+- "This is our last class before the Learning Diary deadline. Could I ask a quick question about my diary after the class?" —— 这是学习日志截止前的最后一节课。下课后我可以就我的日志问一个简短的问题吗？
+- "In the Learning Diary, can we use network theory and social capital in the cross-border transfer section?" —— 在学习日志里，跨境转移那一部分可以用网络理论和社会资本吗？
+- "For Assignment 2, can we include our own network map, with roles instead of real names, as a figure in the report?" —— 作业 2 里，我们可以把自己的人脉图（用角色代替真实姓名）作为一张图放进报告吗？
+- "The definitions of network ties are in the lecture slides but not in the tutorial slides. Should we cite the original authors, such as Granovetter (1973), or Zucchella, Hagen and Serapio (2018)?" —— 网络关系的定义在讲座课件里，但不在辅导课课件里。我们应该引用原作者吗？比如 Granovetter (1973)，或 Zucchella, Hagen and Serapio (2018)。
+- "Do we need to submit our network map or the case study answers this week? Is there a deadline?" —— 这周需要提交人脉图或案例分析答案吗？有截止时间吗？

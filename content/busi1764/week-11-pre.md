@@ -190,18 +190,18 @@ Tutorial 后半节是 **“Part 3：Assignment 2 Briefing”**，介绍 **Gibbs�
 5. 你的 A2 企业最需要保护的是哪一样东西？在海外最大的风险是什么？
 
 ## 可以在课上说的英文
-- "Intellectual property rights are territorial, so a trade mark registered in one country is not automatically protected in another."
-- "The name HOTTA should be protected as a trade mark, not by copyright, because short names and titles are not protected by copyright."
-- "The unusual shape of the kettle can be protected as a registered design."
-- "The double-wall mechanism is about how the kettle works, so a patent is the right protection."
-- "The list of specialist suppliers should be kept as a trade secret, like the Coca-Cola formula."
-- "For my business idea, the most important asset to protect is the brand name, so I would register the trade mark first."
-- "Copyright protection is automatic, but it is still useful to assert it, for example with the © symbol."
+- "Intellectual property rights are territorial, so a trade mark registered in one country is not automatically protected in another." —— 知识产权具有地域性，所以在一个国家注册的商标在另一个国家不会自动受到保护。
+- "The name HOTTA should be protected as a trade mark, not by copyright, because short names and titles are not protected by copyright." —— HOTTA 这个名字应该作为商标来保护，而不是靠版权，因为简短的名称和标题不受版权保护。
+- "The unusual shape of the kettle can be protected as a registered design." —— 水壶的独特外形可以作为注册外观设计来保护。
+- "The double-wall mechanism is about how the kettle works, so a patent is the right protection." —— 双层壁结构关系到水壶怎么工作，所以申请专利才是对的保护方式。
+- "The list of specialist suppliers should be kept as a trade secret, like the Coca-Cola formula." —— 专业供应商名单应该作为商业秘密保管，就像可口可乐的配方一样。
+- "For my business idea, the most important asset to protect is the brand name, so I would register the trade mark first." —— 对我的商业创意来说，最需要保护的资产是品牌名称，所以我会先注册商标。
+- "Copyright protection is automatic, but it is still useful to assert it, for example with the © symbol." —— 版权保护是自动产生的，但声明版权仍然有用，比如加上 © 符号。
 
 ## 想问老师的问题
-- "Should we use Gibbs' Reflective Cycle to structure the reflection section of Assignment 2? Is it required or only recommended?"
-- "My business is based in Singapore. In the intellectual property section, should I discuss UK law from the slides, or the law of the country where my business operates?"
-- "How long should the intellectual property section be? Is it enough to discuss the two or three types of IPR that are most relevant to my business?"
-- "When is the one-to-one consultation for Assignment 2? Should we bring a full draft?"
-- "Slide 19 says the duration of a trade mark is indefinite. Does it mean it can be renewed every ten years?"
-- "Can we cite the lecture slides in the report? What author and year should we use?"
+- "Should we use Gibbs' Reflective Cycle to structure the reflection section of Assignment 2? Is it required or only recommended?" —— 我们应该用 Gibbs 反思循环来组织作业 2 的反思部分吗？这是必须的，还是只是建议？
+- "My business is based in Singapore. In the intellectual property section, should I discuss UK law from the slides, or the law of the country where my business operates?" —— 我的企业在新加坡。在知识产权部分，我应该讨论课件里的英国法律，还是企业所在国家的法律？
+- "How long should the intellectual property section be? Is it enough to discuss the two or three types of IPR that are most relevant to my business?" —— 知识产权部分应该写多长？讨论和我的企业最相关的两三种知识产权就够了吗？
+- "When is the one-to-one consultation for Assignment 2? Should we bring a full draft?" —— 作业 2 的一对一辅导是什么时候？我们需要带完整的草稿吗？
+- "Slide 19 says the duration of a trade mark is indefinite. Does it mean it can be renewed every ten years?" —— 第 19 页课件说商标的有效期是无限期的。意思是每十年可以续展一次吗？
+- "Can we cite the lecture slides in the report? What author and year should we use?" —— 报告里可以引用讲座课件吗？作者和年份应该写什么？
