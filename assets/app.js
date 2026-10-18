@@ -522,16 +522,48 @@
     const pool = vs.filter(v => v.lang.toUpperCase().includes(want)).concat(vs);
     return pool.find(v => /google|natural|enhanced|premium|daniel|serena|kate|samantha/i.test(v.name)) || pool[0] || null;
   }
-  function speak(text, onend, rate) {
+  // 优先播放预先生成的真人风格录音（audio/<sha1 前 12 位>.mp3，scripts/build-audio.py），没有才用手机自带朗读
+  const prAudio = new Audio(); let prSpeakId = 0;
+  // 同步计算 SHA-1（iPhone 要求在点击的同一步里开始播放，不能等异步的 crypto.subtle）
+  function sha1(str) {
+    const b = new TextEncoder().encode(str), l = b.length, n = ((l + 8 >> 6) + 1) * 16, w = new Array(n).fill(0);
+    for (let i = 0; i < l; i++) w[i >> 2] |= b[i] << (24 - (i % 4) * 8);
+    w[l >> 2] |= 0x80 << (24 - (l % 4) * 8); w[n - 1] = l * 8;
+    let h0 = 0x67452301, h1 = 0xEFCDAB89, h2 = 0x98BADCFE, h3 = 0x10325476, h4 = 0xC3D2E1F0;
+    const rol = (x, c) => (x << c) | (x >>> (32 - c)), W = new Array(80);
+    for (let i = 0; i < n; i += 16) {
+      let a = h0, bb = h1, c = h2, d = h3, e = h4;
+      for (let t = 0; t < 80; t++) {
+        W[t] = t < 16 ? w[i + t] | 0 : rol(W[t - 3] ^ W[t - 8] ^ W[t - 14] ^ W[t - 16], 1);
+        const f = t < 20 ? (bb & c) | (~bb & d) : t < 40 ? bb ^ c ^ d : t < 60 ? (bb & c) | (bb & d) | (c & d) : bb ^ c ^ d;
+        const k = t < 20 ? 0x5A827999 : t < 40 ? 0x6ED9EBA1 : t < 60 ? 0x8F1BBCDC : 0xCA62C1D6;
+        const tmp = (rol(a, 5) + f + e + k + W[t]) | 0; e = d; d = c; c = rol(bb, 30); bb = a; a = tmp;
+      }
+      h0 = (h0 + a) | 0; h1 = (h1 + bb) | 0; h2 = (h2 + c) | 0; h3 = (h3 + d) | 0; h4 = (h4 + e) | 0;
+    }
+    return [h0, h1, h2, h3, h4].map(x => (x >>> 0).toString(16).padStart(8, '0')).join('');
+  }
+  const audioUrl = text => 'audio/' + sha1(text).slice(0, 12) + '.mp3';
+  const AR = { 0.6: 0.7, 0.75: 0.8, 0.85: 0.9, 1: 1 };
+  function speakTts(text, onend, rate) {
     if (!tts) { toast('这个浏览器不支持朗读，请用 Safari 或 Chrome'); return; }
-    tts.cancel();
     const u = new SpeechSynthesisUtterance(text);
     const v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-GB';
     u.rate = rate || Number(store.get('pr:rate', 0.85));
     if (onend) u.onend = onend;
     tts.speak(u);
   }
-  function stopPlay() { prPlay = null; tts && tts.cancel(); document.querySelectorAll('.pr-item.playing').forEach(e => e.classList.remove('playing')); const b = document.getElementById('pr-all'); if (b) b.textContent = '▶ 连续播放（每句后停顿跟读）'; }
+  function speak(text, onend, rate) {
+    const id = ++prSpeakId;
+    prAudio.pause(); tts && tts.cancel();
+    const url = audioUrl(text);
+    prAudio.onended = () => { if (id === prSpeakId && onend) onend(); };
+    prAudio.onerror = () => { if (id === prSpeakId) speakTts(text, onend, rate); };
+    prAudio.src = url;
+    prAudio.playbackRate = AR[rate || Number(store.get('pr:rate', 0.85))] || 0.9;
+    prAudio.play().catch(() => { if (id === prSpeakId) speakTts(text, onend, rate); });
+  }
+  function stopPlay() { prPlay = null; prSpeakId++; prAudio.pause(); tts && tts.cancel(); document.querySelectorAll('.pr-item.playing').forEach(e => e.classList.remove('playing')); const b = document.getElementById('pr-all'); if (b) b.textContent = '▶ 连续播放（每句后停顿跟读）'; }
   function playFrom(i) {
     const els = [...document.querySelectorAll('#pr-list .pr-item')];
     if (!prPlay || i >= els.length) { stopPlay(); return; }
@@ -551,7 +583,7 @@
     const weeks = pr.m ? (mod(pr.m)?.weeks || []).map(w => `<option value="${w.n}" ${pr.w === String(w.n) ? 'selected' : ''}>第 ${w.n} 周 · ${esc(w.zh)}</option>`).join('') : '';
     const rate = Number(store.get('pr:rate', 0.85)), acc = store.get('pr:accent', 'GB'), zh = store.get('pr:zh', true);
     return `<a class="back" href="#/tools">‹ 工具</a><h1>跟读练习</h1>
-      <p class="small muted">点 🔊 听标准读音，跟着大声读。句子来自各课预习包（课上说的英文、想问老师的问题、必会术语）、词汇表和写作句型。</p>
+      <p class="small muted">点 🔊 听标准英音（真人风格录音），跟着大声读。句子来自各课预习包（课上说的英文、想问老师的问题、必会术语）、词汇表和写作句型。</p>
       ${tts ? '' : '<div class="callout">这个浏览器不支持朗读。iPhone 请用 Safari，安卓请用 Chrome。</div>'}
       <div class="card">
         <div class="chips"><button class="chip ${!pr.m ? 'on' : ''}" data-pr-m="">全部课程</button>${mods}</div>
@@ -559,7 +591,6 @@
         <select id="pr-w"><option value="near" ${pr.w === 'near' ? 'selected' : ''}>未来 7 天要上的课</option><option value="" ${pr.w === '' ? 'selected' : ''}>所有周</option>${weeks}</select>
         <div class="pr-ctl">
           <label>语速 <select id="pr-rate">${[[0.6, '很慢'], [0.75, '慢'], [0.85, '稍慢'], [1, '正常']].map(([v, l]) => `<option value="${v}" ${rate === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
-          <label>口音 <select id="pr-acc"><option value="GB" ${acc === 'GB' ? 'selected' : ''}>英音</option><option value="US" ${acc === 'US' ? 'selected' : ''}>美音</option></select></label>
           <label><input type="checkbox" id="pr-zh" ${zh ? 'checked' : ''}> 显示中文</label>
           <label><input type="checkbox" id="pr-hide" ${pr.hideDone ? 'checked' : ''}> 隐藏已会的</label>
         </div>
