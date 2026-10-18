@@ -606,7 +606,7 @@
     const list = practiceItems().filter(x => (!pr.m || x.m === pr.m) && (!pr.k || x.k === pr.k)
       && (near ? (x.w && near.has(x.m + ':' + x.w)) : (!pr.w || String(x.w) === pr.w)) && !(pr.hideDone && done.has(x.id)));
     const label = x => [x.m ? mod(x.m)?.code : '', x.w ? `第 ${x.w} 周` : '', PK[x.k]].filter(Boolean).join(' · ');
-    box.innerHTML = `<p class="small muted">共 ${list.length} 条${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
+    box.innerHTML = `<p class="small muted">共 ${list.length} 条（${pr.w === 'near' ? '只算未来 7 天要上的课' : pr.w ? `第 ${pr.w} 周` : '所有周'}）${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
         <div class="pr-row"><button class="pr-say" aria-label="朗读">🔊</button>
         <div class="grow"><div class="pr-en">${esc(x.en)}</div>
         <div class="pr-zh ${showZh ? '' : 'hid'}">${x.zh ? esc(x.zh) : '<span class="muted">（中文待补）</span>'}${x.x && x.k !== 'phrase' ? `<div class="small muted">${esc(x.x)}</div>` : ''}</div>
@@ -824,7 +824,7 @@
   document.addEventListener('click', e => {
     const t = e.target.closest('button, [data-cat]');
     if (!t) return;
-    if (t.dataset.prM !== undefined) { pr.m = t.dataset.prM; pr.w = pr.m ? '' : 'near'; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
+    if (t.dataset.prM !== undefined) { pr.m = t.dataset.prM; if (pr.w !== 'near') pr.w = ''; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
     if (t.dataset.prK !== undefined) { pr.k = t.dataset.prK; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
     if (t.classList.contains('pr-say') || t.dataset.prSlow !== undefined) {
       const say = t.dataset.say || t.closest('.pr-item')?.dataset.say; if (!say) return; prPlay = null;
