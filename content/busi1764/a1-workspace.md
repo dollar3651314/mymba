@@ -3,11 +3,43 @@
 > Claude 和你一起整理的所有 A1 内容都在这里，按“现在要用的”排在最前面。
 > **这些是帮你写作的线索和参考，不能直接翻译提交**；正文要用你自己的理解和英文写，tutorial 经历必须是你的真实经历。
 
-**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ▶️ **第 ② 部分（创业类型）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
+**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ▶️ **第 ③ 部分（创新分析）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
 
-**现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ② 部分（创业类型）的中文要点。
+**现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ③ 部分（创新分析：上门融资）的中文要点。
 
 ---
+
+## ✅ 第 ② 部分：你的初稿 v1（10/19）+ 英文修改版
+> 你 10/19 写的中英文初稿（约 255 词）→ Claude 改英文、改准引用、删掉没有出处的话（约 230 词，其中 tutorial 经历约 60 词）。**判断、证据和 tutorial 经历都是你的。**
+
+**修改版**
+
+SELCO is best classified as social entrepreneurship, because its primary goal is to improve the quality of life of poor households. In social entrepreneurship, social improvement takes priority over profit (Dees, 1998). SELCO treats the rural poor "as customers rather than treating them as beneficiaries" and limits itself to single-digit profit margins (Goyal, Sergi and Kapoor, 2017, p. 101). It does not depend on donations, because customers pay for its products and services.
+
+It is not ecopreneurship. Although solar energy is environmentally friendly, SELCO's mission is "enhancing the quality of life for underserved households through sustainable energy solutions and services" (Goyal, Sergi and Kapoor, 2017, p. 100): quality of life is the goal and solar energy is the means.
+
+It is not intrapreneurship, which takes place within an existing organisation (Antoncic and Hisrich, 2003), because Hande founded SELCO as a new, independent company in 1995.
+
+It is not international entrepreneurship, which involves discovering and exploiting opportunities across national borders (Oviatt and McDougall, 2005). SELCO India operates mainly in India; its model has been replicated in Africa and Southeast Asia by a separate non-profit, SELCO Foundation, through knowledge sharing and local partners (Skoll Foundation, n.d.).
+
+In the 15 October tutorial on Singapore's ageing population, my group defined our users as people over 70 who live without family and feel lonely, and we quickly proposed a "visiting team" as the solution. Looking back, we should have done field research before choosing a solution, which is what Hande did when he visited villages before founding SELCO.
+
+
+**改了什么、为什么**
+| 你的原文 | 改成 | 原因 |
+|---|---|---|
+| "customers rather than beneficiaries" | "as customers rather than treating them as beneficiaries" + (Goyal, Sergi and Kapoor, 2017, p. 101) | ⚠️ **引号里必须是原文一字不差**，原文是这一串；直接引用要带页码 |
+| "improve the quality of life of vulnerable families with sustainable energy" | 原文 "enhancing the quality of life for underserved households through sustainable energy solutions and services" (p. 100) | 同上：你写的是中文再翻回去的，不是原文 |
+| "the discovery and exploitation of opportunities across national borders" | 改成不加引号的转述 | 也不是原文原话；转述就不用引号 |
+| Profits are mainly used to serve this mission instead of being distributed to shareholders | 删掉 | 这是老师讲的社会企业的一般定义，**没有资料说 SELCO 是这样做的**，不能写成事实 |
+| Its only business is the SELCO project | 删掉 | 和判断无关 |
+| eco-enterprise | ecopreneurship | 用课件的术语 |
+| (Skoll) / Antoncic & Hisrich | (Skoll Foundation, n.d.) / Antoncic and Hisrich | Harvard 格式：机构写全名，没有日期写 n.d.；文内用 and |
+| organization / visitation team | organisation / visiting team | 英式拼写；更自然 |
+| 每种“不是”先给结论、最后才给定义 | 结论 + 定义 + SELCO 的事实，放在同一句里 | 更紧凑，评分看得清“为什么不是” |
+| tutorial 经历最后没有连回 SELCO | 加半句：这正是 Hande 创办前走访村庄的做法 | 日志要把 tutorial 经历和所选企业连起来（这是你 10/16 自己提的联系） |
+
+**字数**：① 160 + ② 230 = 390；整篇 1000 词，后面 ③ ④ 各约 275、⑤ 约 100（tutorial 经历已分散写在各部分）。最后统稿时再一起压。
 
 ## ✏️ 第 ② 部分：你的判断（10/19）+ Claude 意见
 | 你的判断（中文） | 意见 | 加上这个证据 |
