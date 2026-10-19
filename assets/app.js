@@ -212,7 +212,7 @@
       rd.sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
       h += `<h2>作业进度</h2><div class="card"><p class="small muted">左边是<b>我的目标日</b>，右边是离目标日还有几天；官方截止日写在作业名下面。已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。</p><ul class="list">${rd.map(({ m, a }) => { const g = goal(m, a); return `<li><div class="date-badge"><b>${parseDate(g).getDate()}</b>${parseDate(g).getMonth() + 1}月</div><div class="grow"><a href="#/a/${m.id}/${a.id}"><b>${esc(m.code)} ${esc(a.zh)}</b> <span class="en">${esc(a.en)}</span></a>
         <div class="small muted">${esc(m.zh)} · ${esc(m.name)}</div>
-        <div class="small muted">${g < a.due ? `我的目标 ${fmt(g)}（${wk(g)}）· ` : ''}官方截止 ${fmt(a.due)}（${wk(a.due)}）${a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div>
+        <div class="small muted">${g < a.due ? `我的目标 ${fmt(g)}（${wk(g)}）· ` : ''}官方截止 ${fmt(a.due)}（${wk(a.due)}）· ${esc(lenLabel(a))} · 占 ${a.weight}%${a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div>
         <div style="margin:4px 0">${readyCard(m.id, a.id)}</div>
         <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
     }
@@ -289,13 +289,6 @@
 
   views.modules = () => {
     let h = `<h1>课程</h1>`;
-    const ct = currentTerm();
-    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
-    if (termAs.length) {
-      const fb = finishBy(ct);
-      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3><p class="small muted">左边是我的目标日，右边是离目标日还有几天（和首页“作业进度”一致）。${fb ? `我的目标：所有作业 ${fmt(fb)} 前完成（<a href="#/settings">修改</a>）` : ''}</p><ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(goal(x.m, x.a)).getDate()}</b>${parseDate(goal(x.m, x.a)).getMonth() + 1}月</div>
-        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}${goal(x.m, x.a) < x.a.due ? ` · 官方截止 ${fmt(x.a.due)}` : ''}</div></div>${duePill(daysUntil(goal(x.m, x.a)))}</li>`).join('')}</ul></div>`;
-    }
     for (const t of M.terms) {
       const ms = M.modules.filter(m => m.term === t.id);
       h += `<h2>${esc(t.name)} <span class="muted small">${esc(t.period)}</span></h2>`;
