@@ -3,11 +3,29 @@
 > Claude 和你一起整理的所有 A1 内容都在这里，按“现在要用的”排在最前面。
 > **这些是帮你写作的线索和参考，不能直接翻译提交**；正文要用你自己的理解和英文写，tutorial 经历必须是你的真实经历。
 
-**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ✅ 第 ③ 部分第 2 稿（10/19）→ ▶️ **第 ④ 部分（跨境转移，11/5 进入模式课后定稿）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
+**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ✅ 第 ③ 部分第 2 稿（10/19）→ ✅ 第 ④ 部分初稿（10/19，11/5 课后补 tutorial）→ ▶️ **第 ⑤ 部分（总结反思）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
 
 **现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ③ 部分（创新分析：上门融资）的中文要点。
 
 ---
+
+## ✅ 第 ④ 部分：你的中文初稿（10/19）→ 英文修改版
+> 内容、判断（印尼东部、合资、Uppsala、先试点）都是你的；Claude 翻成英文、补引用。约 235 词（目标 275，还留了 tutorial 经历的位置）。
+
+Transferring SELCO's model to Indonesia would require careful targeting. Although Indonesia's national electrification rate reached 99.83% in the first half of 2025, about 658,000 households still have no electricity and 1.17 million rely on non-PLN sources, often diesel generators (MADANI Berkelanjutan, [year], citing CELIOS). The gap is concentrated in the remote eastern islands, such as West Papua (89.80%) and East Nusa Tenggara (89.22%), where diesel is expensive. However, this market is smaller than India's and spread across many islands, which raises logistics costs.
+
+SELCO's own experience shows that rural banking infrastructure is "an integral part to the success of our business model" (Goyal, Sergi and Kapoor, 2017, p. 102). The first step would therefore be to find local banks or microfinance institutions willing to lend to rural households. SELCO should also expand slowly and make sure that its partners share its mission.
+
+I would enter through a joint venture with a local partner. A wholly owned subsidiary requires heavy investment, which a social enterprise cannot easily afford. [可选：特许经营为什么不选——SELCO 早年的加盟经销商网络差点让公司倒闭] The local partner would help to train local people as technicians and micro-entrepreneurs, work with local logistics firms and suppliers, and promote the products in the local language.
+
+Following the Uppsala model, which suggests that firms increase their commitment step by step as they learn about a new market (Vahlne and Johanson, 2017), SELCO should start with a pilot in a few locations before expanding. SELCO Foundation's projects in the Philippines, another archipelago, suggest that the model can work in island countries (Skoll Foundation, n.d.).
+
+
+**还要你补 / 决定的**
+1. **MADANI 文章和 ESDM 的网址和年份**——参考文献要用（我这里没有存链接）。
+2. 方括号：要不要加“为什么不选特许经营”（SELCO 自己的加盟网络差点倒闭，Magsaysay）——用 SELCO 自己的教训，说服力很强。
+3. **合资 vs. 一般合作**：课件里的合资是**和伙伴成立一家新公司**；你写的是合资，确认这个意思。看完 Mini Lecture 7.2 录播课或 11/5 课后再定也可以。
+4. **11/5 tutorial 经历**（沃尔玛进入德国 / TNA 进入印尼的讨论）课后加 1–2 句。
 
 ## 📖 写第 ④ 部分前的背景回顾（10/19）
 > 这是帮你看懂的线索，判断和分析要用你自己的语言写。
