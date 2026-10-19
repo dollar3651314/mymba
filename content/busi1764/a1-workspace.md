@@ -3,11 +3,30 @@
 > Claude 和你一起整理的所有 A1 内容都在这里，按“现在要用的”排在最前面。
 > **这些是帮你写作的线索和参考，不能直接翻译提交**；正文要用你自己的理解和英文写，tutorial 经历必须是你的真实经历。
 
-**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ▶️ **第 ③ 部分（创新分析）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
+**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ✅ 第 ③ 部分第 2 稿（10/19）→ ▶️ **第 ④ 部分（跨境转移，11/5 进入模式课后定稿）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
 
 **现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ③ 部分（创新分析：上门融资）的中文要点。
 
 ---
+
+## ✅ 第 ③ 部分：你的第 2 稿（10/19）+ 英文修改版
+> 你按意见改了中文（问题、关键伙伴、为什么不是服务创新、地区首创、非消费者）→ Claude 改英文、补引用。约 330 词（其中 tutorial 约 85 词）。
+
+Before SELCO, poor rural households could not pay for a solar system in one go, and banks were unwilling to lend to them. SELCO's answer was doorstep financing. Staff visit each household to assess its needs, cash flow and ability to pay, and then combine the equipment with a loan from a regional rural bank and after-sales support, which addresses accessibility and affordability (Goyal, Sergi and Kapoor, 2017, p. 104). Customers repay daily, monthly or quarterly, in line with their income cycle, at minimal interest rates (Goyal, Sergi and Kapoor, 2017, p. 105).
+
+I classify this as business model innovation, because it changes how value is delivered and captured. SELCO's management explains that its "business model involves providing energy solutions by integrating technology support and financing with product offerings" (Goyal, Sergi and Kapoor, 2017, p. 105). On the business model canvas, it changed three blocks: revenue streams, customer relationships and key partners. It is not product innovation, because solar lights already existed and innovation is not the same as invention (Schumpeter, 1947). It is not process innovation, because it did not improve internal production. SELCO describes its innovation as covering "products, financing and services" (Goyal, Sergi and Kapoor, 2017, p. 102); installation and repair are services, but doorstep financing changes who pays and how, so it is mainly business model innovation.
+
+Instalment payments and microcredit already existed, so the idea is not new to the world, but it was new to the region: it was the first time solar energy was sold in this way in rural India. [Incremental or radical: your judgement in one sentence.] Because it serves non-consumers, people who previously could not buy at all, it shows features of disruptive innovation (Christensen, Raynor and McDonald, 2015), and the same model could later spread to other customer groups.
+
+In the 1 October tutorial, my group used the business model canvas to analyse Pure Gym. We concluded that its innovation lay in customer segments and cost structure: it divided customers by usage (peak, off-peak, all-day and any-gym access) and offered different membership plans based on their willingness to pay. Applying the same tool to SELCO showed me that its innovation lies in different blocks: revenue streams, customer relationships and key partners.
+
+
+**还要你决定 / 确认的 3 处**
+1. 方括号那句：**渐进式还是突破式**（第一条轴）你还没判断——写一句你的结论和理由。
+2. 最后一句“用同样的工具看 SELCO，创新在不同的格子”是 Claude 按你 10/16 的说法加的连接句，你同意就保留。
+3. “对市场的影响是颠覆式的”改成了“**具有**颠覆式创新的特征”——没有证据说它已经取代了别的模式。
+
+**字数预警**：① 160 + ② 230 + ③ 330 = 720，④ 还要约 275，⑤ 约 100 → 合计约 1100。最后统稿时要一起压到要求范围内（先在 Moodle 看清 1000 词允许上下浮动多少）。
 
 ## ✏️ 第 ③ 部分：你的初稿 v1（10/19）+ Claude 意见（先改内容，再改英文）
 约 315 词（目标 275，含 tutorial 经历）。**Pure Gym 的 tutorial 经历写得好，是真实的小组讨论。** 有 4 处内容要先改：
