@@ -93,6 +93,7 @@ MBA.addModule({
         '<b>不要用营销词</b>：championing、inspire、lead、celebrate 这类词老师会扣分。写清企业有什么伦理和法律义务，再写具体怎么落实。',
       ],
       materials: 'content/busi1772/a-materials.md',
+      workspace: 'content/busi1772/a-workspace.md',
       brief: [
         '从下面 <b>5 个题目（第 1–5 周）中选 1 个</b>，写一篇个人论文。',
         '必须用该周<b>全部必读文献 + 至少 1 篇推荐文献</b>，而且只能用<b>那一周</b>的，不能用其他周的。',
