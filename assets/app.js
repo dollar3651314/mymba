@@ -147,14 +147,18 @@
   const progressOf = keys => { const done = keys.filter(k => store.get('chk:' + k, false)).length; return { done, total: keys.length, pct: keys.length ? Math.round(done / keys.length * 100) : 0 }; };
 
   // ---------- 汇总数据 ----------
-  const READY = { go: ['可以开始', 'ok'], partial: ['可以先做一部分', 'accent'], wait: ['还不能开始', 'warn'] };
+  const READY = { done: ['已提交', 'ok'], doing: ['写作中', 'ok'], go: ['可以开始', 'ok'], partial: ['可以先做一部分', 'accent'], wait: ['还不能开始', 'warn'] };
+  // 已经开始写的作业（有 done 字段）显示“完成度”；还没开始的显示“资料准备度”
   function readyCard(mid, aid, full) {
     const r = (M.readiness || {})[`${mid}/${aid}`]; if (!r) return '';
-    const [label, cls] = READY[r.status] || READY.wait;
-    if (!full) return `<span class="pill ${cls}">${label} · ${r.pct}%</span>`;
-    return `<div class="card ready"><div class="card-title"><h3>能开始写了吗？</h3><span class="pill ${cls}">${label}</span></div>
-      <div class="progress"><i style="width:${r.pct}%"></i></div><p class="small muted">资料和条件约齐了 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估，每收到一节课的录音都会更新）</p>
-      <h4>已经有了</h4><ul>${r.have.map(x => `<li>${x}</li>`).join('')}</ul>
+    const started = typeof r.done === 'number';
+    const [label, cls] = READY[started ? (r.done >= 100 ? 'done' : 'doing') : r.status] || READY.wait;
+    if (!full) return `<span class="pill ${cls}">${started ? `${label} · 完成 ${r.done}%` : `${label} · 资料 ${r.pct}%`}</span>`;
+    return `<div class="card ready"><div class="card-title"><h3>${started ? '写到哪了？' : '能开始写了吗？'}</h3><span class="pill ${cls}">${label}</span></div>
+      ${started ? `<div class="progress"><i style="width:${r.done}%"></i></div><p class="small muted"><b>作业完成度 ${r.done}%</b>${r.steps ? '：' + r.steps : ''}</p>
+      <p class="small muted">资料准备度 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估）</p>`
+      : `<div class="progress"><i style="width:${r.pct}%"></i></div><p class="small muted">资料和条件约齐了 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估，每收到一节课的录音都会更新）</p>`}
+      <h4>${started ? '已经完成' : '已经有了'}</h4><ul>${r.have.map(x => `<li>${x}</li>`).join('')}</ul>
       <h4>还差</h4><ul>${r.missing.map(x => `<li>${x}</li>`).join('')}</ul>
       <div class="callout info"><b>下一步：</b>${r.next}</div></div>`;
   }
@@ -205,7 +209,7 @@
 
     const rd = allAssessments().filter(({ m }) => termMods.includes(m)).filter(({ m, a }) => (M.readiness || {})[`${m.id}/${a.id}`]);
     if (rd.length) {
-      h += `<h2>作业准备度</h2><div class="card"><p class="small muted">资料够不够开始写？点进去看还差什么。</p><ul class="list">${rd.map(({ m, a }) => `<li><div class="grow"><a href="#/a/${m.id}/${a.id}">${esc(m.code)} ${esc(a.zh)}</a><div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${readyCard(m.id, a.id)}</li>`).join('')}</ul></div>`;
+      h += `<h2>作业进度</h2><div class="card"><p class="small muted">已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。点进去看还差什么。</p><ul class="list">${rd.map(({ m, a }) => `<li><div class="grow"><a href="#/a/${m.id}/${a.id}">${esc(m.code)} ${esc(a.zh)}</a><div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${readyCard(m.id, a.id)}</li>`).join('')}</ul></div>`;
     }
     const prev = pendingPreviews();
     if (prev.length) {
