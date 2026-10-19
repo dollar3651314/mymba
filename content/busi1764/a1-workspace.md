@@ -9,23 +9,19 @@
 
 ---
 
-## ✅ 第 ④ 部分：你的中文初稿（10/19）→ 英文修改版
-> 内容、判断（印尼东部、合资、Uppsala、先试点）都是你的；Claude 翻成英文、补引用。约 235 词（目标 275，还留了 tutorial 经历的位置）。
+## ✅ 第 ④ 部分：第 2 稿（10/19）
+> 你确认：加“为什么不选特许经营”；合资 = 和当地伙伴**成立一家新公司**；补了 Madani 文章网址（Claude 已打开核对数字和说法）。11/5 tutorial 经历之后补。
 
-Transferring SELCO's model to Indonesia would require careful targeting. Although Indonesia's national electrification rate reached 99.83% in the first half of 2025, about 658,000 households still have no electricity and 1.17 million rely on non-PLN sources, often diesel generators (MADANI Berkelanjutan, [year], citing CELIOS). The gap is concentrated in the remote eastern islands, such as West Papua (89.80%) and East Nusa Tenggara (89.22%), where diesel is expensive. However, this market is smaller than India's and spread across many islands, which raises logistics costs.
+Transferring SELCO's model to Indonesia would require careful targeting. Although Indonesia's national electrification ratio is 99.83% according to the Ministry of Energy and Mineral Resources, about 658,000 families still have no electricity and another 1.17 million households rely on diesel generators (Madani Berkelanjutan, 2026). The gap is concentrated in the remote eastern islands, such as West Papua (89.80%) and East Nusa Tenggara (89.22%) (Madani Berkelanjutan, 2026). However, this market is smaller than India's and spread across many islands, which raises logistics costs.
 
 SELCO's own experience shows that rural banking infrastructure is "an integral part to the success of our business model" (Goyal, Sergi and Kapoor, 2017, p. 102). The first step would therefore be to find local banks or microfinance institutions willing to lend to rural households. SELCO should also expand slowly and make sure that its partners share its mission.
 
-I would enter through a joint venture with a local partner. A wholly owned subsidiary requires heavy investment, which a social enterprise cannot easily afford. [可选：特许经营为什么不选——SELCO 早年的加盟经销商网络差点让公司倒闭] The local partner would help to train local people as technicians and micro-entrepreneurs, work with local logistics firms and suppliers, and promote the products in the local language.
+I would enter through a joint venture, setting up a new company with a local partner. A wholly owned subsidiary requires heavy investment, which a social enterprise cannot easily afford. Franchising is also unsuitable, because SELCO's early dealer network almost caused the company to fail and pulled it away from its mission (Ramon Magsaysay Award Foundation, 2011). The local partner would help to train local people as technicians and micro-entrepreneurs, work with local logistics firms and suppliers, and promote the products in the local language.
 
 Following the Uppsala model, which suggests that firms increase their commitment step by step as they learn about a new market (Vahlne and Johanson, 2017), SELCO should start with a pilot in a few locations before expanding. SELCO Foundation's projects in the Philippines, another archipelago, suggest that the model can work in island countries (Skoll Foundation, n.d.).
 
 
-**还要你补 / 决定的**
-1. **MADANI 文章和 ESDM 的网址和年份**——参考文献要用（我这里没有存链接）。
-2. 方括号：要不要加“为什么不选特许经营”（SELCO 自己的加盟网络差点倒闭，Magsaysay）——用 SELCO 自己的教训，说服力很强。
-3. **合资 vs. 一般合作**：课件里的合资是**和伙伴成立一家新公司**；你写的是合资，确认这个意思。看完 Mini Lecture 7.2 录播课或 11/5 课后再定也可以。
-4. **11/5 tutorial 经历**（沃尔玛进入德国 / TNA 进入印尼的讨论）课后加 1–2 句。
+**核对 Madani 原文后改的地方**：117 万户原文是 “relying on diesel generators”（直接说靠柴油发电机）；99.83% 原文写明出自印尼能源部（ESDM）；两个省的数字出自文章里的表格（ESDM 和 Antara News, 2025 年 10 月）——都通过 Madani 文章引用。文章没写作者；页面上的日期有 2026 年 7 月 1 日和 10 月 6 日两个，参考文献写 2026。
 
 ## 📖 写第 ④ 部分前的背景回顾（10/19）
 > 这是帮你看懂的线索，判断和分析要用你自己的语言写。
@@ -221,7 +217,9 @@ SELCO India is a for-profit social enterprise founded by Harish Hande in Bangalo
 ### 📚 参考文献列表（Harvard，10/16 整理；交稿前再核对访问日期）
 - Ashoka (n.d.) *Harish Hande*. Available at: https://www.ashoka.org/en-sg/fellow/harish-hande (Accessed: 16 October 2026).
 - Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
+- Madani Berkelanjutan (2026) *658,000 Families Without Electricity: Why Community-Based Energy Transition is Indonesia's Answer*. Available at: https://madaniberkelanjutan.id/news-event/658-000-families-without-electricity-why-community-based-energy-transition-is-indonesia-s-answer (Accessed: 19 October 2026).
 - Ramon Magsaysay Award Foundation (2011) *Hande, Harish*. Available at: https://rmaward.asia/rmawardees/hande-harish/ (Accessed: 16 October 2026).
+- Vahlne, J.-E. and Johanson, J. (2017) 'From internationalization to evolution: the Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102.（⚠️ 课件引用的这篇，交稿前在图书馆核对）
 - Skoll Foundation (n.d.) *SELCO Foundation*. Available at: https://skoll.org/organization/selco-foundation/ (Accessed: 16 October 2026).
 - 文内引用：(Ashoka, n.d.)、(Ramon Magsaysay Award Foundation, 2011)、(Goyal, Sergi and Kapoor, 2017, p. 101)、(Skoll Foundation, n.d.)。
 - Magsaysay 页面要点 Citation / Response 标签才能看到内容；Citation 开头：“In India, where nearly half of all households do[not have] electricity…”——这是 2011 年的说法，用时写清年份。
