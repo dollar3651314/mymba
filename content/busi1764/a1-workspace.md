@@ -12,10 +12,10 @@
 ## ✅ 第 ⑤ 部分：你的反思（10/19）→ 英文初稿
 > 你的三点：① 以前把社会创业的重点放在“创业”，“社会”只是面向的对象；以前以为创新必须创造出别人没有的新东西，而不只是改进 ② 颠覆式创新不完全适用——SELCO 不可能“取代原来的竞争者” ③ 老龄化练习影响最大：明白了实际调研的重要性。Claude 只翻译、按“以前 → 现在”整理，约 140 词。
 
-This analysis changed my understanding of two key concepts. Before, I saw social entrepreneurship mainly as entrepreneurship, with "social" only describing the target customers. SELCO showed me that the social mission comes first and the business model is the tool to achieve it. I also used to think that innovation meant creating something completely new. SELCO did not invent a new technology; its main innovation was changing who pays and how, which illustrates that innovation is not the same as invention (Schumpeter, 1947). At the same time, I found that disruptive innovation theory does not fully fit SELCO: it explains well why SELCO serves non-consumers, but I do not think SELCO could replace existing competitors, because [你的理由]. The tutorial that influenced me most was the ageing exercise, which showed me the importance of real field research before designing a solution.
+This analysis changed my understanding of two key concepts. Before, I saw social entrepreneurship mainly as entrepreneurship, with "social" only describing the target customers. SELCO showed me that the social mission comes first and the business model is the tool to achieve it. I also used to think that innovation meant creating something completely new. SELCO did not invent a new technology; its main innovation was changing who pays and how, which illustrates that innovation is not the same as invention (Schumpeter, 1947). At the same time, I found that disruptive innovation theory does not fully fit SELCO: it explains well why SELCO serves non-consumers, but I do not think SELCO could replace existing competitors, because it only serves people who cannot afford mainstream products. The tutorial that influenced me most was the ageing exercise, which showed me the importance of real field research before designing a solution.
 
 
-**待你补**：方括号里“为什么 SELCO 不可能取代原来的竞争者”——一句话理由。注意和第 ③ 部分一致：那里写了“同样的模式可以扩展到其他客户群”——**扩展到新客户 ≠ 取代竞争者**，两句不矛盾，但理由要说清楚。
+✅ 10/19 用户补充理由：它只服务买不起的人。⚠️ 统稿时注意和第 ③ 部分最后半句（“the same model could later spread to other customer groups”）一致——建议删掉第 ③ 部分那半句，或改成“to other underserved groups”。
 
 ## 📖 写第 ⑤ 部分前的背景回顾（10/19）
 > 这是帮你看懂的线索，反思必须是你自己的真实想法和经历。
