@@ -185,6 +185,7 @@ MBA.addModule({
       zh: '个人测验',
       due: '2026-11-28',
       tbc: true,
+      workspace: 'content/busi1772/b-workspace.md',
       notes: ['手册写 Quiz 在 <b>12 月 1 日</b>，但也写在“第 12 周 tutorial 时间”进行；按课表，第 12 次课是 <b>11 月 28 日（周六）12:00–15:00</b>。网站先按更早的 11 月 28 日准备，<b>请向 Dr Roy Yap 确认</b>。Moodle 的 Quiz 指导和 FAQ 都写“第 12 周 tutorial 当天”，支持 11/28。'],
       weight: 40,
       length: '线上 1.5 小时 · 15 道选择题',

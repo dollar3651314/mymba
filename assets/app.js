@@ -299,13 +299,16 @@
       const ms = M.modules.filter(m => m.term === t.id);
       h += `<h2>${esc(t.name)} <span class="muted small">${esc(t.period)}</span></h2>`;
       for (const m of ms) {
-        const keys = m.assessments.flatMap(a => a.checklist.map((_, i) => `cl:${m.id}:${a.id}:${i}`));
-        const p = progressOf(keys);
+        // 作业完成度：已开始的作业用 readiness.done，按作业权重加权；课程进度：已上的课 / 12
+        const aw = m.assessments.reduce((t, a) => t + a.weight, 0) || 1;
+        const doneP = Math.round(m.assessments.reduce((t, a) => t + ((M.readiness || {})[`${m.id}/${a.id}`]?.done || 0) * a.weight, 0) / aw);
+        const ss = m.sessions || [], heldN = ss.filter(held).length, recN = m.weeks.filter(w => w.rec).length;
         h += `<a class="card" href="#/m/${m.id}">
           <div class="card-title"><h3>${esc(m.code)} ${esc(m.zh)}</h3><span class="pill">${m.credits} 学分</span></div>
           <div class="en">${esc(m.name)}</div>
           <div class="small" style="margin-top:6px">${m.assessments.map(a => `${esc(a.zh)} ${a.weight}% · ${fmt(goal(m, a))}`).join('　')}</div>
-          <div class="progress"><i style="width:${p.pct}%"></i></div><div class="small muted">作业清单完成 ${p.pct}%</div>
+          ${ss.length ? `<div class="small muted" style="margin-top:8px">上课进度：已上 ${heldN} / ${ss.length} 次 · 录音已整理 ${recN} 次</div><div class="progress"><i style="width:${Math.round(heldN / ss.length * 100)}%"></i></div>` : ''}
+          <div class="small muted" style="margin-top:6px">作业完成度（按权重）：<b>${doneP}%</b>${m.assessments.map(a => { const d = (M.readiness || {})[`${m.id}/${a.id}`]?.done; return ` · ${esc(a.zh)} ${typeof d === 'number' ? d + '%' : '未开始'}`; }).join('')}</div><div class="progress"><i style="width:${doneP}%"></i></div>
         </a>`;
       }
       for (let i = ms.length; i < M.program.perTerm; i++) {
@@ -332,7 +335,7 @@
       h += `<a class="card" href="#/a/${m.id}/${a.id}">
         <div class="card-title"><h3>${esc(a.zh)} <span class="en">${esc(a.en)}</span></h3>${duePill(n)}</div>
         <div class="small">${goalNote(m, a) ? esc(goalNote(m, a)) : `${fmt(a.due)} 截止`} · ${esc(lenLabel(a))} · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
-        <div class="progress"><i style="width:${p.pct}%"></i></div><div class="small muted">清单 ${p.done}/${p.total}</div></a>`;
+        ${(() => { const r = (M.readiness || {})[`${m.id}/${a.id}`]; const d = r && typeof r.done === 'number' ? r.done : null; return `<div class="progress"><i style="width:${d ?? 0}%"></i></div><div class="small muted">${d !== null ? `作业完成度 <b>${d}%</b>` : '还没开始写'}${r ? ` · ${readyCard(m.id, a.id)}` : ''} · 提交清单 ${p.done}/${p.total}</div>`; })()}</a>`;
     }
     h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
     for (const w of m.weeks) {
