@@ -209,7 +209,10 @@
 
     const rd = allAssessments().filter(({ m }) => termMods.includes(m)).filter(({ m, a }) => (M.readiness || {})[`${m.id}/${a.id}`]);
     if (rd.length) {
-      h += `<h2>作业进度</h2><div class="card"><p class="small muted">已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。点进去看还差什么。</p><ul class="list">${rd.map(({ m, a }) => `<li><div class="grow"><a href="#/a/${m.id}/${a.id}">${esc(m.code)} ${esc(a.zh)}</a><div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${readyCard(m.id, a.id)}</li>`).join('')}</ul></div>`;
+      rd.sort((x, y) => x.a.due.localeCompare(y.a.due));
+      h += `<h2>作业进度</h2><div class="card"><p class="small muted">按截止日期排序。已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。点进去看还差什么。</p><ul class="list">${rd.map(({ m, a }) => { const g = goal(m, a); return `<li><div class="grow"><a href="#/a/${m.id}/${a.id}">${esc(m.code)} ${esc(a.zh)}</a>
+        <div class="small" style="display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;margin:4px 0"><b>截止 ${fmt(a.due)}（${wk(a.due)}）</b>${duePill(daysUntil(a.due))}${readyCard(m.id, a.id)}${g < a.due ? `<span class="muted">我的目标 ${fmt(g)}</span>` : ''}</div>
+        <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div></li>`; }).join('')}</ul></div>`;
     }
     const prev = pendingPreviews();
     if (prev.length) {
