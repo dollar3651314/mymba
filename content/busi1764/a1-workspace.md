@@ -1,13 +1,133 @@
 # ✍️ 我的写作区：学习日志 A1（SELCO India）
 
-> Claude 和你一起整理的所有 A1 内容都在这里，按“现在要用的”排在最前面。
-> **这些是帮你写作的线索和参考，不能直接翻译提交**；正文要用你自己的理解和英文写，tutorial 经历必须是你的真实经历。
+## 📌 A1 待办（按日期）
+| 截止 | 要做的事 | 状态 |
+|---|---|---|
+| 10/22 前 | 在 Moodle 的 A1 说明里查：**1000 词允许多出多少**？要不要 **AI 使用声明**？告诉 Claude | ⬜ |
+| 10/31 前 | 在学校图书馆找到下面参考文献里标 ⚠️ 的 6 篇原文，核对信息（找不到的告诉 Claude，换掉或删掉） | ⬜ |
+| 11/5 课后 | 第 7 次课 tutorial（沃尔玛进德国 / TNA 进印尼）你们组讨论了什么 → 发 Claude，补进第 ④ 部分 | ⬜ |
+| 11/7 | 读一遍全文，把不像你会说的词换掉；和 Claude 一起统稿、压字数 → **定稿** | ⬜ |
+| 11/13 | Studiosity 检查 + Turnitin 预提交，看相似度报告 | ⬜ |
+| 11/16 | 转 PDF（**只写学号，不写名字**）→ 正式提交（官方截止 11/17） | ⬜ |
+| 一直 | 保留你的中文初稿和每一版（证明是你自己写的过程） | ✅ 网站已存 |
 
-**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ✅ 第 ② 部分初稿（10/19）→ ✅ 第 ③ 部分第 2 稿（10/19）→ ✅ 第 ④ 部分初稿（10/19，11/5 课后补 tutorial）→ ✅ 第 ⑤ 部分初稿（10/19）→ ▶️ **统稿压字数 + 补 11/5 tutorial** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
+## 📄 A1 全文（当前版本 · 2026-10-19 · 共约 1127 词）
+> 英文是要交的版本；“中文对照”是按英文翻译的，方便你看懂和检查，**不要交中文**。判断、经历和反思都是你的，Claude 只改了英文表达、补了引用。字数不含括号里的引用。
 
-**现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ③ 部分（创新分析：上门融资）的中文要点。
+### ① 企业概况（160 词 / 建议 150）
+**1. Venture Overview**
+
+SELCO India is a for-profit social enterprise founded by Harish Hande in Bangalore in 1995 (Ramon Magsaysay Award Foundation, 2011), and Hande is an Ashoka Fellow (Ashoka, n.d.). In 2011, nearly half of Indian households had no electricity, and many poor rural families relied on kerosene lamps and candles. It was widely believed that the poor could neither afford nor maintain modern technology (Ramon Magsaysay Award Foundation, 2011). In 1994, before founding SELCO, Hande visited villages without electricity to understand what people really needed (Goyal, Sergi and Kapoor, 2017, p. 100). SELCO provides small, decentralised solar systems, such as lights, water heaters and equipment that supports livelihoods. Each system is tailored to the household, and SELCO installs and repairs it (Ramon Magsaysay Award Foundation, 2011). To make the systems affordable, SELCO persuaded rural banks to offer small loans with instalments matched to customers' income and cash flow (Goyal, Sergi and Kapoor, 2017, p. 105). Its main partners are rural banks, microfinance institutions, self-help groups and NGOs (Ramon Magsaysay Award Foundation, 2011). By 2015, SELCO had installed more than 200,000 home solar lighting systems, reaching over one million people (Goyal, Sergi and Kapoor, 2017, p. 101).
+
+<details><summary>中文对照（点开看）</summary>
+
+> SELCO India 是 Harish Hande 1995 年在班加罗尔创立的营利性社会企业（Ramon Magsaysay Award Foundation, 2011），Hande 是 Ashoka Fellow（Ashoka, n.d.）。2011 年，印度将近一半的家庭没有电，很多农村贫困家庭靠煤油灯和蜡烛照明。人们普遍认为穷人既买不起、也维护不了现代技术（Ramon Magsaysay Award Foundation, 2011）。1994 年，在创立 SELCO 之前，Hande 走访了没有电的村庄，去了解人们真正需要什么（Goyal, Sergi and Kapoor, 2017, p. 100）。SELCO 提供小型、分散的太阳能系统，例如照明灯、热水器和帮助谋生的设备。每套系统都按这户人家的需要定制，由 SELCO 负责安装和维修（Ramon Magsaysay Award Foundation, 2011）。为了让人们买得起，SELCO 说服农村银行提供小额贷款，分期还款的安排和客户的收入、现金流相匹配（Goyal, Sergi and Kapoor, 2017, p. 105）。它的主要合作伙伴是农村银行、小额信贷机构、自助小组和 NGO（Ramon Magsaysay Award Foundation, 2011）。到 2015 年，SELCO 已安装了 20 多万套家用太阳能照明系统，惠及 100 多万人（Goyal, Sergi and Kapoor, 2017, p. 101）。
+
+</details>
+
+### ② 创业类型判断（232 词 / 建议 150）
+**2. Entrepreneurial Classification**
+
+SELCO is best classified as social entrepreneurship, because its primary goal is to improve the quality of life of poor households. In social entrepreneurship, social improvement takes priority over profit (Dees, 1998). SELCO treats the rural poor "as customers rather than treating them as beneficiaries" and limits itself to single-digit profit margins (Goyal, Sergi and Kapoor, 2017, p. 101). It does not depend on donations, because customers pay for its products and services.
+
+It is not ecopreneurship. Although solar energy is environmentally friendly, SELCO's mission is "enhancing the quality of life for underserved households through sustainable energy solutions and services" (Goyal, Sergi and Kapoor, 2017, p. 100): quality of life is the goal and solar energy is the means.
+
+It is not intrapreneurship, which takes place within an existing organisation (Antoncic and Hisrich, 2003), because Hande founded SELCO as a new, independent company in 1995.
+
+It is not international entrepreneurship, which involves discovering and exploiting opportunities across national borders (Oviatt and McDougall, 2005). SELCO India operates mainly in India; its model has been replicated in Africa and Southeast Asia by a separate non-profit, SELCO Foundation, through knowledge sharing and local partners (Skoll Foundation, n.d.).
+
+In the 15 October tutorial on Singapore's ageing population, my group defined our users as people over 70 who live without family and feel lonely, and we quickly proposed a "visiting team" as the solution. Looking back, we should have done field research before choosing a solution, which is what Hande did when he visited villages before founding SELCO.
+
+<details><summary>中文对照（点开看）</summary>
+
+> SELCO 最适合归类为社会创业，因为它的首要目标是改善贫困家庭的生活质量。在社会创业中，社会改善优先于利润（Dees, 1998）。SELCO 把农村穷人“当作顾客，而不是当作受救济者”，并把利润率控制在个位数（Goyal, Sergi and Kapoor, 2017, p. 101）。它不依赖捐款，因为客户会为产品和服务付钱。
+>
+> 它不是生态创业。虽然太阳能是环保的，但 SELCO 的使命是“通过可持续的能源方案和服务，提高弱势家庭的生活质量”（Goyal, Sergi and Kapoor, 2017, p. 100）：生活质量是目标，太阳能是手段。
+>
+> 它不是内部创业。内部创业发生在已有的组织内部（Antoncic and Hisrich, 2003），而 SELCO 是 Hande 在 1995 年创立的一家新的独立公司。
+>
+> 它也不是国际创业。国际创业是指跨越国界去发现和利用机会（Oviatt and McDougall, 2005）。SELCO India 主要在印度经营；它的模式是由另一家独立的非营利机构 SELCO Foundation，通过分享经验和当地伙伴，复制到非洲和东南亚的（Skoll Foundation, n.d.）。
+>
+> 在 10 月 15 日关于新加坡人口老龄化的 tutorial 上，我们组把用户定义为 70 岁以上、没有家人陪伴、感到孤独的老人，并很快提出了成立“探访小组”的方案。回头看，我们应该先做实地调研，再选择方案——这正是 Hande 在创立 SELCO 之前走访村庄时做的事。
+
+</details>
+
+### ③ 创新分析（326 词 / 建议 275）
+**3. Innovation Analysis**
+
+Before SELCO, poor rural households could not pay for a solar system in one go, and banks were unwilling to lend to them. SELCO's answer was doorstep financing. Staff visit each household to assess its needs, cash flow and ability to pay, and then combine the equipment with a loan from a regional rural bank and after-sales support, which addresses accessibility and affordability (Goyal, Sergi and Kapoor, 2017, p. 104). Customers repay daily, monthly or quarterly, in line with their income cycle, at minimal interest rates (Goyal, Sergi and Kapoor, 2017, p. 105).
+
+I classify this as business model innovation, because it changes how value is delivered and captured. SELCO's management explains that its "business model involves providing energy solutions by integrating technology support and financing with product offerings" (Goyal, Sergi and Kapoor, 2017, p. 105). On the business model canvas, it changed three blocks: revenue streams, customer relationships and key partners. It is not product innovation, because solar lights already existed and innovation is not the same as invention (Schumpeter, 1947). It is not process innovation, because it did not improve internal production. SELCO describes its innovation as covering "products, financing and services" (Goyal, Sergi and Kapoor, 2017, p. 102); installation and repair are services, but doorstep financing changes who pays and how, so it is mainly business model innovation.
+
+Instalment payments and microcredit already existed, so the idea is not new to the world, but it was new to the region: it was the first time solar energy was sold in this way in rural India. It was a radical rather than incremental change, because it was an entirely new way of selling solar energy in rural India, not a small improvement to existing sales methods. Because it serves non-consumers, people who previously could not buy at all, it shows features of disruptive innovation (Christensen, Raynor and McDonald, 2015).
+
+In the 1 October tutorial, my group used the business model canvas to analyse Pure Gym. We concluded that its innovation lay in customer segments and cost structure: it divided customers by usage (peak, off-peak, all-day and any-gym access) and offered different membership plans based on their willingness to pay.
+
+<details><summary>中文对照（点开看）</summary>
+
+> 在 SELCO 出现之前，农村贫困家庭无法一次付清太阳能系统的钱，银行也不愿意贷款给他们。SELCO 的解决办法是上门融资。员工上门评估每户的需要、现金流和支付能力，再把设备、地区农村银行的贷款和售后服务组合在一起，解决了“能不能获得”和“买不买得起”的问题（Goyal, Sergi and Kapoor, 2017, p. 104）。客户按自己的收入周期，每天、每月或每季度还款，利息很低（Goyal, Sergi and Kapoor, 2017, p. 105）。
+>
+> 我把它归为商业模式创新，因为它改变了价值传递和获取的方式。SELCO 的管理层解释说，它的“商业模式是把技术支持和融资与产品结合起来，提供能源解决方案”（Goyal, Sergi and Kapoor, 2017, p. 105）。在商业模式画布上，它改变了三格：收入来源、客户关系和关键伙伴。它不是产品创新，因为太阳能灯早就有了，而且创新不等于发明（Schumpeter, 1947）。它也不是流程创新，因为它没有改进内部生产。SELCO 自己说它的创新涵盖“产品、融资和服务”（Goyal, Sergi and Kapoor, 2017, p. 102）；安装和维修确实是服务，但上门融资改变的是谁付钱、怎么付，所以它主要是商业模式创新。
+>
+> 分期付款和小额贷款早就存在，所以这个想法不是世界首创，而是地区首创：在印度农村用这种方式卖太阳能是第一次。它是突破式而不是渐进式的改变，因为这是在印度农村卖太阳能的一种全新方式，而不是对原有卖法的小改进。因为它服务的是“非消费者”——以前根本买不起的人，所以它具有颠覆式创新的特征（Christensen, Raynor and McDonald, 2015）。
+>
+> 在 10 月 1 日的 tutorial 上，我们组用商业模式画布分析了 Pure Gym。我们的结论是：它的创新在客户细分和成本结构两格——它按使用方式把客户分成高峰、非高峰、全天和任意场馆几类，再根据他们的付费意愿提供不同的会员方案。
+
+</details>
+
+### ④ 跨境转移反思（262 词 / 建议 275）
+**4. Cross-Border Transfer Reflection**
+
+Transferring SELCO's model to Indonesia would require careful targeting. Although Indonesia's national electrification ratio is 99.83% according to the Ministry of Energy and Mineral Resources, about 658,000 families still have no electricity and another 1.17 million households rely on diesel generators (Madani Berkelanjutan, 2026). The gap is concentrated in the remote eastern islands, such as West Papua (89.80%) and East Nusa Tenggara (89.22%) (Madani Berkelanjutan, 2026). However, this market is smaller than India's and spread across many islands, which raises logistics costs.
+
+SELCO's own experience shows that rural banking infrastructure is "an integral part to the success of our business model" (Goyal, Sergi and Kapoor, 2017, p. 102). The first step would therefore be to find local banks or microfinance institutions willing to lend to rural households. SELCO should also expand slowly and make sure that its partners share its mission.
+
+I would enter through a joint venture, setting up a new company with a local partner. A wholly owned subsidiary requires heavy investment, which a social enterprise cannot easily afford. Franchising is also unsuitable, because SELCO's early dealer network almost caused the company to fail and pulled it away from its mission (Ramon Magsaysay Award Foundation, 2011). The local partner would help to train local people as technicians and micro-entrepreneurs, work with local logistics firms and suppliers, and promote the products in the local language.
+
+Following the Uppsala model, which suggests that firms increase their commitment step by step as they learn about a new market (Vahlne and Johanson, 2017), SELCO should start with a pilot in a few locations before expanding. SELCO Foundation's projects in the Philippines, another archipelago, suggest that the model can work in island countries (Skoll Foundation, n.d.).
+
+<details><summary>中文对照（点开看）</summary>
+
+> 把 SELCO 的模式搬到印尼，需要精准地选择目标市场。虽然根据印尼能源与矿产资源部的数据，全国通电率是 99.83%，但仍有约 65.8 万个家庭完全没有电，另有 117 万户依靠柴油发电机（Madani Berkelanjutan, 2026）。缺口集中在东部偏远岛屿，例如西巴布亚（89.80%）和东努沙登加拉（89.22%）（Madani Berkelanjutan, 2026）。不过，这个市场比印度小，又分散在很多岛上，物流成本高。
+>
+> SELCO 自己的经验表明，农村银行体系是“我们商业模式成功不可缺少的一部分”（Goyal, Sergi and Kapoor, 2017, p. 102）。所以第一步是找到愿意贷款给农村家庭的当地银行或小额信贷机构。SELCO 还应该慢慢扩张，确保合作伙伴认同它的使命。
+>
+> 我会选择合资的方式进入，也就是和当地伙伴一起成立一家新公司。全资子公司需要大量投资，社会企业很难负担。特许经营也不合适，因为 SELCO 早年的经销商网络差点让公司倒闭，还让它偏离了使命（Ramon Magsaysay Award Foundation, 2011）。当地伙伴可以帮助培训当地人成为技术员和微型创业者，和当地的物流公司、供应商合作，并用当地语言推广产品。
+>
+> Uppsala 模型认为，企业在了解新市场的过程中一步一步加大投入（Vahlne and Johanson, 2017）。按照这个模型，SELCO 应该先在少数地方试点，再逐步扩张。SELCO Foundation 在同样是群岛国家的菲律宾有项目，说明这个模式在岛屿国家也能行得通（Skoll Foundation, n.d.）。
+
+</details>
+
+### ⑤ 总结与学习反思（147 词 / 建议 150）
+**5. Learning Reflection**
+
+This analysis changed my understanding of two key concepts. Before, I saw social entrepreneurship mainly as entrepreneurship, with "social" only describing the target customers. SELCO showed me that the social mission comes first and the business model is the tool to achieve it. I also used to think that innovation meant creating something completely new. SELCO did not invent a new technology; its main innovation was changing who pays and how, which illustrates that innovation is not the same as invention (Schumpeter, 1947). At the same time, I found that disruptive innovation theory does not fully fit SELCO: it explains well why SELCO serves non-consumers, but I do not think SELCO could replace existing competitors, because it only serves people who cannot afford mainstream products. The tutorial that influenced me most was the ageing exercise, which showed me the importance of real field research before designing a solution.
+
+<details><summary>中文对照（点开看）</summary>
+
+> 这次分析改变了我对两个关键概念的理解。以前，我把社会创业主要看作“创业”，“社会”只是描述它面向的客户。SELCO 让我明白，社会使命放在第一位，商业模式是实现使命的工具。我以前也以为创新就是要创造出全新的东西。SELCO 没有发明新技术，它最主要的创新是改变了谁付钱、怎么付，这说明创新不等于发明（Schumpeter, 1947）。同时，我发现颠覆式创新理论并不完全适用于 SELCO：它能很好地解释 SELCO 为什么服务“非消费者”，但我不认为 SELCO 能取代原有的竞争者，因为它只服务买不起主流产品的人。对我影响最大的 tutorial 是老龄化练习，它让我明白了在设计方案之前做实地调研的重要性。
+
+</details>
+
+### References（参考文献，Harvard，按字母排序）
+- Antoncic, B. and Hisrich, R.D. (2003) 'Clarifying the intrapreneurship concept', *Journal of Small Business and Enterprise Development*, 10(1), pp. 7–24. ⚠️
+- Ashoka (n.d.) *Harish Hande*. Available at: https://www.ashoka.org/en-sg/fellow/harish-hande (Accessed: 16 October 2026).
+- Christensen, C.M., Raynor, M.E. and McDonald, R. (2015) 'What is disruptive innovation?', *Harvard Business Review*, 93(12), pp. 44–53. ⚠️
+- Dees, J.G. (1998) *The meaning of social entrepreneurship*. Durham, NC: Duke University, Fuqua School of Business. ⚠️
+- Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
+- Madani Berkelanjutan (2026) *658,000 Families Without Electricity: Why Community-Based Energy Transition is Indonesia's Answer*. Available at: https://madaniberkelanjutan.id/news-event/658-000-families-without-electricity-why-community-based-energy-transition-is-indonesia-s-answer (Accessed: 19 October 2026).
+- Oviatt, B.M. and McDougall, P.P. (2005) 'Defining international entrepreneurship and modeling the speed of internationalization', *Entrepreneurship Theory and Practice*, 29(5), pp. 537–553. ⚠️
+- Ramon Magsaysay Award Foundation (2011) *Hande, Harish*. Available at: https://rmaward.asia/rmawardees/hande-harish/ (Accessed: 16 October 2026).
+- Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159. ⚠️
+- Skoll Foundation (n.d.) *SELCO Foundation*. Available at: https://skoll.org/organization/selco-foundation/ (Accessed: 16 October 2026).
+- Vahlne, J.-E. and Johanson, J. (2017) 'From internationalization to evolution: the Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102. ⚠️
+
+⚠️ = 课件 / 往届范例里的文献，**交稿前在学校图书馆找到原文，核对作者、年份、卷期页码**（引用了却没读过有风险）。
 
 ---
+
+# 📂 写作过程记录（历次草稿、修改说明、背景回顾、资料卡）
+> 下面是写作过程中的记录，按时间倒序。要看定稿看上面的“全文”。
 
 ## ✅ 第 ⑤ 部分：你的反思（10/19）→ 英文初稿
 > 你的三点：① 以前把社会创业的重点放在“创业”，“社会”只是面向的对象；以前以为创新必须创造出别人没有的新东西，而不只是改进 ② 颠覆式创新不完全适用——SELCO 不可能“取代原来的竞争者” ③ 老龄化练习影响最大：明白了实际调研的重要性。Claude 只翻译、按“以前 → 现在”整理，约 140 词。

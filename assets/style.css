@@ -193,3 +193,6 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 .pr-zh.hid { filter: blur(5px); cursor: pointer; user-select: none; }
 .pr-meta { margin-top: 4px; }
 .pr-item .btn-row { margin-top: 8px; }
+.md details { margin: 6px 0 14px; border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; background: var(--surface-2); }
+.md details summary { cursor: pointer; color: var(--accent); font-size: .9rem; }
+.md details[open] summary { margin-bottom: 6px; }
