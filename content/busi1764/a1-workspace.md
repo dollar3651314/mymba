@@ -3,11 +3,36 @@
 > Claude 和你一起整理的所有 A1 内容都在这里，按“现在要用的”排在最前面。
 > **这些是帮你写作的线索和参考，不能直接翻译提交**；正文要用你自己的理解和英文写，tutorial 经历必须是你的真实经历。
 
-**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ▶️ **正在写第 ① 部分** → ② → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
+**进度**：✅ 选企业（10/16）→ ✅ 资料卡（10/16）→ ✅ 大纲 v1（10/16）→ ✅ 第 ① 部分初稿（10/19）→ ▶️ **第 ② 部分（创业类型）** → → ③ → ④ → ⑤ → 初稿（11/7）→ Turnitin（11/13）→ 提交（11/16）
 
-**现在要做**：把下面“第 ① 部分中文参考稿”改成你自己的理解 → 自己翻成英文 → 中英文一起发给 Claude 改。
+**现在要做**：读一遍第 ① 部分修改版，换掉你不会这样说的词；然后写第 ② 部分（创业类型）的中文要点。
 
 ---
+
+## ✅ 第 ① 部分：你的初稿 v1（10/19）+ 英文修改版
+> 你 10/19 写的中英文初稿（6 句，约 200 词）→ Claude 只改英文表达、压缩到约 160 词，**内容和顺序都是你的**。读一遍，把你自己不会这样说的词换成你的说法。
+
+**修改版（约 160 词，不含括号里的引用）**
+
+SELCO India is a for-profit social enterprise founded by Harish Hande in Bangalore in 1995 (Ramon Magsaysay Award Foundation, 2011), and Hande is an Ashoka Fellow (Ashoka, n.d.). In 2011, nearly half of Indian households had no electricity, and many poor rural families relied on kerosene lamps and candles. It was widely believed that the poor could neither afford nor maintain modern technology (Ramon Magsaysay Award Foundation, 2011). In 1994, before founding SELCO, Hande visited villages without electricity to understand what people really needed (Goyal, Sergi and Kapoor, 2017, p. 100). SELCO provides small, decentralised solar systems, such as lights, water heaters and equipment that supports livelihoods. Each system is tailored to the household, and SELCO installs and repairs it (Ramon Magsaysay Award Foundation, 2011). To make the systems affordable, SELCO persuaded rural banks to offer small loans with instalments matched to customers' income and cash flow (Goyal, Sergi and Kapoor, 2017, p. 105). Its main partners are rural banks, microfinance institutions, self-help groups and NGOs (Ramon Magsaysay Award Foundation, 2011). By 2015, SELCO had installed more than 200,000 home solar lighting systems, reaching over one million people (Goyal, Sergi and Kapoor, 2017, p. 101).
+
+**改了什么、为什么**
+| 你的原文 | 改成 | 原因 |
+|---|---|---|
+| 1. 2. 3. 编号分句 | 连成一段 | 日志正文是段落，不用编号 |
+| Goyal, Sergi, and Kapoor | Goyal, Sergi and Kapoor | Harvard 格式最后两个作者之间不加逗号 |
+| （…）。全角括号和句号 | (...). | 英文里只用半角标点 |
+| so before founding SELCO India, Hande visited… | In 1994, before founding SELCO, Hande visited… | “因为大家认为穷人用不起，所以他去走访”逻辑不通；改成独立一句，并加上原文的年份 1994（Goyal p. 100） |
+| SELCO can provide | SELCO provides | 描述事实用一般现在时 |
+| decentralized / centers | decentralised / centres | 英国学校，用英式拼写 |
+| electrical equipment used for livelihood | equipment that supports livelihoods | 更自然 |
+| each household can customize according to their needs | Each system is tailored to the household | 原句主语不对（是系统被定制，不是家庭在定制） |
+| installment payments for small loans | small loans with instalments | 原句意思变成“为贷款提供分期付款”；英式拼写 instalment |
+| self-help organizations, and NGO | self-help groups and NGOs | 固定说法；NGO 要复数 |
+| As of 2015, SELCO has… 200000 sets of… affecting | By 2015, SELCO had… 200,000… reaching | 过去的时间点用过去完成时；数字加千位逗号；“sets of” 多余；affect 有负面意思 |
+| …and has established over 45 energy service centers… | 删掉 | 为了压到约 150 词；第 ④ 部分讲“服务网络”时可以再用 |
+
+**核对过的出处**：1994 年走访村庄、1995 年创立（Goyal, Sergi and Kapoor, 2017, p. 100）；20 万套、100 万人、45 个以上服务中心（同上, p. 101）；上门融资（同上, p. 105）。
 
 ### 🀄 第 ① 部分中文参考稿（10/16，按你的资料卡整理的事实，**不能直接翻译提交**：先用自己的理解改写，再自己译成英文）
 1. SELCO India 是 Harish Hande 于 1995 年在班加罗尔创立的营利性社会企业（Ramon Magsaysay Award Foundation, 2011）；Hande 是 Ashoka Fellow（Ashoka, n.d.）。
