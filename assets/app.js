@@ -289,11 +289,11 @@
   views.modules = () => {
     let h = `<h1>课程</h1><div class="chips"><a class="chip" href="#/schedule">完整课表</a></div>`;
     const ct = currentTerm();
-    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
+    const termAs = allAssessments().filter(x => x.m.term === ct.id).sort((x, y) => x.a.due.localeCompare(y.a.due));
     if (termAs.length) {
       const fb = finishBy(ct);
-      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3>${fb ? `<p class="small muted">我的目标：所有作业 ${fmt(fb)} 前完成（<a href="#/settings">修改</a>）</p>` : ''}<ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(goal(x.m, x.a)).getDate()}</b>${parseDate(goal(x.m, x.a)).getMonth() + 1}月</div>
-        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}${goal(x.m, x.a) < x.a.due ? ` · 官方截止 ${fmt(x.a.due)}` : ''}</div></div>${duePill(daysUntil(goal(x.m, x.a)))}</li>`).join('')}</ul></div>`;
+      h += `<div class="card"><h3>${esc(ct.name)}截止日期总览</h3><p class="small muted">按官方截止日期排序，和首页“作业进度”一致。${fb ? `我的目标：所有作业 ${fmt(fb)} 前完成（<a href="#/settings">修改</a>）` : ''}</p><ul class="list">${termAs.map(x => `<li><div class="date-badge"><b>${parseDate(x.a.due).getDate()}</b>${parseDate(x.a.due).getMonth() + 1}月</div>
+        <div class="grow"><a href="#/a/${x.m.id}/${x.a.id}">${esc(x.m.code)} ${esc(x.a.zh)}</a><div class="small muted">${esc(lenLabel(x.a))} · 占 ${x.a.weight}%${x.a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}${goal(x.m, x.a) < x.a.due ? ` · 我的目标 ${fmt(goal(x.m, x.a))}` : ''}</div></div>${duePill(daysUntil(x.a.due))}</li>`).join('')}</ul></div>`;
     }
     for (const t of M.terms) {
       const ms = M.modules.filter(m => m.term === t.id);
@@ -303,13 +303,14 @@
         const aw = m.assessments.reduce((t, a) => t + a.weight, 0) || 1;
         const doneP = Math.round(m.assessments.reduce((t, a) => t + ((M.readiness || {})[`${m.id}/${a.id}`]?.done || 0) * a.weight, 0) / aw);
         const ss = m.sessions || [], heldN = ss.filter(held).length, recN = m.weeks.filter(w => w.rec).length;
-        h += `<a class="card" href="#/m/${m.id}">
-          <div class="card-title"><h3>${esc(m.code)} ${esc(m.zh)}</h3><span class="pill">${m.credits} 学分</span></div>
+        h += `<div class="card">
+          <div class="card-title"><h3><a href="#/m/${m.id}">${esc(m.code)} ${esc(m.zh)} ›</a></h3><span class="pill">${m.credits} 学分</span></div>
           <div class="en">${esc(m.name)}</div>
-          <div class="small" style="margin-top:6px">${m.assessments.map(a => `${esc(a.zh)} ${a.weight}% · ${fmt(goal(m, a))}`).join('　')}</div>
+          <div class="small" style="margin-top:6px">${m.assessments.map(a => `${esc(a.zh)} ${a.weight}% · 截止 ${fmt(a.due)}${goal(m, a) < a.due ? `（目标 ${fmt(goal(m, a))}）` : ''}`).join('　')}</div>
           ${ss.length ? `<div class="small muted" style="margin-top:8px">上课进度：已上 ${heldN} / ${ss.length} 次 · 录音已整理 ${recN} 次</div><div class="progress"><i style="width:${Math.round(heldN / ss.length * 100)}%"></i></div>` : ''}
           <div class="small muted" style="margin-top:6px">作业完成度（按权重）：<b>${doneP}%</b>${m.assessments.map(a => { const d = (M.readiness || {})[`${m.id}/${a.id}`]?.done; return ` · ${esc(a.zh)} ${typeof d === 'number' ? d + '%' : '未开始'}`; }).join('')}</div><div class="progress"><i style="width:${doneP}%"></i></div>
-        </a>`;
+          <div class="chips" style="margin:10px 0 0;flex-wrap:wrap">${m.assessments.map(a => `<a class="chip" href="#/a/${m.id}/${a.id}">📝 ${esc(a.zh)}</a>`).join('')}${MOD_SECS.filter(([k]) => k !== 'asm').map(([k, l]) => `<a class="chip" href="#/m/${m.id}/${k}">${l}</a>`).join('')}</div>
+        </div>`;
       }
       for (let i = ms.length; i < M.program.perTerm; i++) {
         h += `<div class="card muted small">第 ${i + 1} 门课：待添加。把课程手册（Module Handbook）发给 Claude，就会出现在这里。</div>`;
@@ -318,16 +319,17 @@
     return h;
   };
 
+  const MOD_SECS = [['alert', '⚠️ 提醒'], ['todo', '✅ 待办'], ['asm', '作业'], ['weeks', '📅 12 周课程'], ['lo', '学习目标'], ['read', '📚 阅读'], ['people', '👤 联系人']];
   views.module = id => {
     const m = mod(id); if (!m) return notFound();
     const t = termOf(m.term); const cw = moduleWeek(m);
     let h = `<a class="back" href="#/modules">‹ 全部课程</a>
       <h1>${esc(m.code)} ${esc(m.zh)}</h1><p class="en">${esc(m.name)}</p>
-      <div class="chips"><a class="chip" href="#sec-asm">作业</a><a class="chip" href="#sec-weeks">12 周</a><a class="chip" href="#sec-lo">学习目标</a><a class="chip" href="#sec-read">阅读</a><a class="chip" href="#sec-people">联系人</a></div>
+      <div class="chips">${MOD_SECS.map(([k, l]) => `<a class="chip" href="#sec-${k}">${l}</a>`).join('')}</div>
       <div class="card"><dl class="kv"><dt>学期</dt><dd>${esc(t.name)}（${esc(t.period)}）</dd><dt>学分</dt><dd>${m.credits}</dd><dt>形式</dt><dd>${esc(m.format)}</dd><dt>及格</dt><dd>总分 ≥ 50</dd></dl></div>
-      ${m.warning ? `<div class="callout">${esc(m.warning)}</div>` : ''}
+      <div id="sec-alert"></div>${m.warning ? `<div class="callout">${esc(m.warning)}</div>` : ''}
       ${(m.alerts || []).map(x => `<div class="callout">${x}</div>`).join('')}
-      ${(m.todos || []).length ? `<div class="card"><h3>老师交代的事 / 要找的资料</h3>${m.todos.map((x, i) => checkbox(`todo:${m.id}:${i}`, `<b>${fmt(x.d)}</b> ${esc(x.t)}`)).join('')}</div>` : ''}
+      ${(m.todos || []).length ? `<div class="card" id="sec-todo"><h3>老师交代的事 / 要找的资料</h3>${m.todos.map((x, i) => checkbox(`todo:${m.id}:${i}`, `<b>${fmt(x.d)}</b> ${esc(x.t)}`)).join('')}</div>` : ''}
       <h2 id="sec-asm">作业</h2>`;
     for (const a of m.assessments) {
       const n = daysUntil(goal(m, a));
@@ -748,7 +750,7 @@
     [/^\/?$/, () => views.home(), 'home'],
     [/^\/modules$/, () => views.modules(), 'modules'],
     [/^\/schedule$/, () => views.schedule(), 'modules'],
-    [/^\/m\/(\w+)$/, (id) => views.module(id), 'modules'],
+    [/^\/m\/(\w+)(?:\/(\w+))?$/, (id, sec) => views.module(id), 'modules'],
     [/^\/w\/(\w+)\/(\d+)$/, (id, n) => views.week(id, n), 'modules'],
     [/^\/a\/(\w+)\/(\w+)$/, (m, a) => views.assessment(m, a), 'modules'],
     [/^\/notes$/, () => views.notes(), 'notes'],
@@ -780,6 +782,8 @@
     document.querySelectorAll('.tabbar a').forEach(a => a.classList.toggle('on', a.dataset.tab === tab));
     lastRoute = raw;
     window.scrollTo(0, 0);
+    const secM = raw.match(/^\/m\/\w+\/(\w+)$/);
+    if (secM) document.getElementById('sec-' + secM[1])?.scrollIntoView({ block: 'start' });
     if (raw.startsWith('/practice')) renderPractice(); else stopPlay();
     if (document.getElementById('g-list')) renderGlossary();
     if (document.getElementById('overall')) renderGrades();
