@@ -31,11 +31,11 @@ MBA.readiness = {
     next: '每周做完自测 quiz 就截图发给 Claude，攒错题本；11 月中开始集中复习。',
   },
   'busi1763/a': {
-    status: 'go', pct: 75, done: 20,
-    steps: '定公司 ✅ → <b>按 10/20 邮件重新分工 ⬜</b> → 你的理论用到 Unilever ⬜ → 2 个问答问题 ⬜ → PPT ⬜ → 讲稿要点 ⬜ → 海报 ⬜ → 排练 ⬜ → 10/31 展示 ⬜',
-    have: ['公司 Unilever（10/17）', '<b>10/20 老师邮件澄清规则</b>：每人从 4 对理论中各选 1 个，内容连贯，每人准备 2 个问答问题', '五个推动力资料 + 核对（适合做 Globalisation 这一条）'],
-    missing: ['<b>组内重新分工</b>：4 人各认领第 1–4 周中的一个理论（建议你认领 Globalisation）', '你那条理论的完整要点 + 2 个问答问题', '“2 个问题”是准备回答还是向听众提问（10/24 问老师）'],
-    next: '马上在组里按邮件重新分工；告诉 Claude 你认领哪个理论 → Claude 给这个理论的回顾和 Unilever 线索。',
+    status: 'go', pct: 75, done: 25,
+    steps: '定公司 ✅ → 重新分工 ✅（你负责第 4 周）→ FDI / M&A 选一个 ⬜ → 理论用到 Unilever ⬜ → 2 个问答问题 ⬜ → PPT ⬜ → 讲稿要点 ⬜ → 海报 ⬜ → 排练 ⬜ → 10/31 展示 ⬜',
+    have: ['公司 Unilever；<b>你负责第 4 周 FDI / M&A</b>（10/20）', 'M&A 和 FDI 的课件回顾 + Unilever 线索（写作区）', '10/20 老师邮件规则'],
+    missing: ['<b>在 FDI 和 M&A 里定一个</b>（建议 M&A）', '核对 Unilever 并购的金额和年份', '2 个问答问题（10/24 问清是哪种）'],
+    next: '今天定 FDI 还是 M&A，告诉 Claude → 10/23 前核对事例、做你那部分 PPT。',
   },
   'busi1763/b': {
     status: 'wait', pct: 20,
