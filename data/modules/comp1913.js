@@ -80,6 +80,7 @@ MBA.addModule({
       due: '2026-11-27',
       weight: 50,
       length: '15–20 页幻灯片 · 15–20 分钟 · 个人答问',
+      workspace: 'content/comp1913/b-workspace.md',
       lo: [1, 2],
       notes: [
         '<b>小组人数有冲突</b>：assessment brief 写每组 <b>5 人</b>，老师第 1 次课说 <b>4 人</b>，Sage 案例写 3–4 人。<b>以老师最终说的为准</b>。',
