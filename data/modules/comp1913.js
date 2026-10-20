@@ -20,7 +20,7 @@ MBA.addModule({
   todos: [
     { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
     { d: '2026-10-18', t: '<b>Canvas 讨论区</b>：做 10/17 的假设练习（写 2–4 个假设，先发帖才能看别人的），再看老师贴的参考答案。不计分但两份作业都用得上' },
-    { d: '2026-10-20', t: '课上问清（10/17 又没讲）：小组展示是 11/24 还是 11/28？幻灯片 10–15 页（第 9 周课件）还是 15–20 页（brief）？' },
+    { d: '2026-10-24', t: '10/20 老师说<b>小组展示幻灯片 11/27 前提交</b>、个人报告“12 月”截止。课上再问清：<b>展示当天是哪天</b>？个人报告具体哪天？幻灯片多少页？小组几个人？AI 使用报告怎么写？' },
     { d: '2026-10-14', t: '第 2、3 次课都没讲小组人数、展示日期、AI 使用报告：<b>发邮件问老师</b>（老师 10/10 说有问题可以发邮件），或问组长；你在哪个组、几个人，告诉 Claude' },
     { d: '2026-10-16', t: '10/17 下次课（周六 15:30）老师说“更技术性”，<b>课前读第 4 周课件</b>；老师说下节课讲“假设（hypothesis）”，课件编号 Lecture 4 也是假设检验——<b>10/17 前看第 4 周预习包（网站已按老师的讲次调整）</b>' },
   ],
@@ -63,7 +63,7 @@ MBA.addModule({
     { n: 2, en: 'Data-driven decisions and cognitive biases (Guest Lecture)', zh: '数据驱动决策与认知偏差（客座讲座）', use: ['a'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：认知偏差如何影响决策。练习：Maya 咖啡车 Excel 建模 + “偏差大战”说服游戏 + 200–250 词小报告。</p><p>阅读：Hammond et al. (1998) 决策中的隐藏陷阱；Soll et al. (2015) 战胜自己的偏差；Soll et al. (2013) 去偏差指南；Lovallo, Kahneman et al. (2020) 你的公司太规避风险。</p>' },
     { n: 3, en: 'Critical Thinking and Why Numbers Can Lie (Guest Lecture)', zh: '批判性思维：数字为什么会说谎（客座讲座）', use: ['a'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：提升批判性思维。<b>和报告直接相关</b>：如何识别有误导性的数据和图表。</p><p><b>Moodle 本周放了往届个人报告样例（评估 McKinsey 报告，72 分）和老师反馈</b>，拆解见个人报告素材库。必读：De Veaux & Hand (2005) How to Lie with Bad Data。</p>' },
     { n: 4, en: 'Analysing Survey results to test hypotheses', zh: '分析调查结果以检验假设', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>📌 <b>按老师的讲次排</b>：Moodle 把课件放错了周次，但课件封面的编号是 Lecture 1–8，本地老师按这个编号上课（10/10 老师说下节课讲假设，正好是 Lecture 4）。所以网站把第 4↔6、7↔8 周对调了。</p><p>Tutorial：用 Teknico 案例写假设，判断变量类型，选卡方还是相关；按“描述 → 分析 → 评价”写报告段落。Moodle 第 4 周文件夹里的 Diversity 数据练习（CORREL、CHISQ.TEST）可能也在这节课做。</p><p>推荐阅读：Greenland et al. (2016) p 值的常见误解；Kim et al. (2024) 怎样选统计方法。</p>' },
-    { n: 5, en: 'Visualizing Data: Simple descriptive statistics', zh: '数据可视化：简单描述统计', use: ['a', 'b'], pre: true, detail: '<p>Tutorial：用 Excel 算平均数、中位数、众数、标准差，并画柱状图、散点图、饼图、组合图（幸福指数、销售两份数据）。Moodle 上找不到真正的 Tutorial 5 课件。</p><p>必读：Barrios Becerra et al. (2021) 可视化 22 条好做法，是评 Bain 图表的检查表。</p>' },
+    { n: 5, en: 'Visualizing Data: Simple descriptive statistics', zh: '数据可视化：简单描述统计', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：用 Excel 算平均数、中位数、众数、标准差，并画柱状图、散点图、饼图、组合图（幸福指数、销售两份数据）。Moodle 上找不到真正的 Tutorial 5 课件。</p><p>必读：Barrios Becerra et al. (2021) 可视化 22 条好做法，是评 Bain 图表的检查表。</p>' },
     { n: 6, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], pre: true, detail: '<p>📌 <b>按老师的讲次排</b>：Moodle 把课件放错了周次，但课件封面的编号是 Lecture 1–8，本地老师按这个编号上课（10/10 老师说下节课讲假设，正好是 Lecture 4）。所以网站把第 4↔6、7↔8 周对调了。</p><p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课</b>（课件每部分都标着 Important for Assessment 1），练习评估 BCG 报告的图表。</p><p>讲座：McKinsey (2018) 多元化与财务表现（课件封面写 Lecture 6，Moodle 放在第 4 周）。必读：教材第 7 章 Visualising Data Effectively。</p>' },
     { n: 7, en: 'Time series Analysis', zh: '时间序列分析', use: ['a', 'b'], pre: true, detail: '<p>课件封面写 Lecture 7（Moodle 放在第 8 周）。讲时间序列的趋势、季节性、移动平均，以及 Excel 预测工作表；<b>Tutorial 8 用 Stata 做</b>，要问老师能不能用 Excel；课末会答疑作业。</p>' },
     { n: 8, en: 'Simple regression modelling', zh: '简单回归模型', use: ['a', 'b'], pre: true, detail: '<p>课件封面写 Lecture 8（Moodle 放在第 7 周）。讲简单回归 Y=β₀+β₁X，用 SLOPE / INTERCEPT / RSQ 和分析工具库（Analysis ToolPak）做回归，再看 R²；另有 GPA–IQ 选做练习。回归不能证明因果，可以用来评 Bain。</p>' },
