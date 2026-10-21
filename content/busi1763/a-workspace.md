@@ -1,14 +1,16 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · 10/31）
 
-## 📎 你的 M&A 两页 PPT（10/21，点击下载）
+## 📎 你的 M&A 部分：PPT 4 页 + 演讲稿（10/21，点击下载）
 <p>
-<a class="btn" href="/content/busi1763/files/Unilever_MA_EN.pptx" download>⬇️ 英文版（展示用）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_MA_CN.pptx" download>⬇️ 中文版（对照）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_MA_EN.pptx" download>⬇️ 英文 PPT（展示用）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MA_CN.pptx" download>⬇️ 中文 PPT（对照）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MA_Script.docx" download>⬇️ 中英对照演讲稿（Word）</a>
 </p>
 
-- 第 1 页：时间线（1929 合并 → 买 → 转折 → 卖）；第 2 页：用理论看 McCormick 交易（为什么卖 / 类型 / 协同 / 风险 + 你的结论）。备注栏有讲解要点。
-- 配色是 Unilever 蓝，字体 Calibri（中文版微软雅黑）。**合进组长的总 PPT 时，按全组的模板改颜色和字体**。
-- 内容按你的 5 个判断和结论做的；PPT 前要把来源整理进全组的参考文献页（链接在“带读 · 第 2 步”）。
+- **PPT 4 页**：① 什么是 M&A（引言：定义、六种类型、四种整合方式、协同、70–90% 失败、和 FDI 的关系）② 时间线（买 → 转折 → 卖）③ 用理论看 McCormick 交易 + 你的结论 ④ 参考文献（Harvard，13 条，访问日期 21 October 2026）。每页底部有 Harvard 文内引用，备注栏有讲解要点。
+- **演讲稿**：照 COMP 1913 演讲稿的格式，每页“简单英文 + 中文”，约 500 词（约 4 分钟）+ 6 道答问。
+- 合进组长的总 PPT 时：颜色和字体按全组模板改；**第 4 页参考文献合并到全组的参考文献页**（按字母排序）。
+- 参考文献里 Christensen et al. (2011) 的页码 pp. 48–57 和第 3 讲课件的标题，Claude 没能打开原文核对；如果老师 / 组长对格式有要求，以他们的为准。
 
 ## 🧭 带读 · 第 4 步（10/21）：英文讲稿要点 + 海报 / PPT 内容
 > 你的结论（10/21）：**总体成功——靠并购把企业做大；但部分收购失败。**
