@@ -21,11 +21,13 @@
 ### 第三版检查（2026-10-22）
 ✅ 已改好：泰国改成 “depends heavily on exports”；4 条参考文献的访问日期都改成 22 October 2026；演讲稿 “four students”、“coefficient of variation”、“exchange rates”、“local currency”。
 
-还剩 4 处：
+还剩 2 处：
 1. **演讲稿第 18 页有个错字**：“Risks**、**politics and exchange rates…” 中间是中文顿号，改成英文冒号 “Risks**:** politics…”。
-2. **演讲稿第 10 页**还是 “Green bars are **chances**” → 改成 **opportunities**。
-3. **4 个人，但分工还是按 5 个人**：PPT 备注里还有 PRESENTER 5，演讲稿写“演讲人 5：第 17–21 页”、“每人讲 4 页（演讲人 5 讲 5 页）”。4 人要重新分，例如：① 1–5 页 ② 6–10 页 ③ 11–15 页 ④ 16–21 页（每人约 5 分钟）。PPT 备注和演讲稿里的 PRESENTER 编号、“I now hand over…” 的位置一起改。
-4. **Capital FM 的 18.8M / 43M**：请确认你打开原文找到了这两个数；找不到就换来源（见第二轮第 2 条）。
+2. **4 个人，但分工还是按 5 个人**（PPT 备注还有 PRESENTER 5，演讲稿“演讲人 5：第 17–21 页”）→ **用户和小组商量后再改**。参考分法：① 1–5 页 ② 6–10 页 ③ 11–15 页 ④ 16–21 页。
+
+已确认 / 不改：
+- ✅ Capital FM（2025）里的 18.8M、43M：用户 10/22 核对过原文，出处写法正确。
+- 第 10 页 “Green bars are chances”：用户决定保留（不算错；只是幻灯片上写的是 “Opportunity themes”，讲的时候说 opportunities 能和幻灯片对上。可选）。
 
 ## 🔍 第二轮审阅（2026-10-21）：6 项都改好了，还剩 4 处小改
 

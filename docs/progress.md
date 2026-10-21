@@ -3,7 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-10-21
-- COMP 1913 AmEgg 第三版：访问日期改 22 October 2026、泰国去掉数字、演讲稿用词改好、改成 4 人小组。三个文件存到网站（写作区顶部下载按钮，`content/comp1913/files/`）。还剩：演讲稿“Risks、”错字、第 10 页 chances、按 4 人重新分页（备注和讲稿仍是 5 个 PRESENTER）、Capital FM 数字确认。
+- COMP 1913 AmEgg 第三版：访问日期改 22 October 2026、泰国去掉数字、演讲稿用词改好、改成 4 人小组。三个文件存到网站（写作区顶部下载按钮，`content/comp1913/files/`）。还剩：演讲稿“Risks、”错字；按 4 人重新分页（用户先和小组商量）。用户确认 Capital FM 原文里有 18.8M / 43M；chances 用户决定保留。
 - BUSI 1763：用户选 **M&A**。写作区改为 M&A：待办、已核对事例（DSC 2016 收购 / 2023-10 出售多数股权；Magnum 冰淇淋 2025-12-06 分拆、12-08 上市）、4 分钟结构、2 个问题。下一步：10/23 前用户写中文要点。
 - COMP 1913 小组展示第二版（21 页 + 演讲稿）：第一轮 6 项都改好了。剩 4 处小改：第 18 页泰国出口占 GDP 60% 没出处；Capital FM 文章里没查到 18.8M / 43M，要用户打开原文核对；Sage 案例访问日期写成 2026-04-14；21 页是否超页数（10/24 问）。演讲稿还有 chances / money value / local money 没改。准备度 comp1913/b 完成 80%。
 - A1 文献核对报告已收到（linshi `mba-materials/busi1764/a1-sources/核对报告.md` + Antoncic、Christensen、Dees 三篇 PDF）。7 篇出版信息全对；Antoncic、Christensen、Dees 读到原文；Oviatt、Schumpeter、Vahlne 学校无全文，但 A1 里都是转述、无直接引语，可保留。已改全文：(Dees, 1998) → (Dees, 2001) + 2001 修订版网址；Christensen 改成“新市场颠覆”+ p. 47；补 3 个 DOI。A1 完成度 85%。
