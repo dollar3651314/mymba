@@ -1,5 +1,56 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · 10/31）
 
+## 🧭 带读 · 第 2 步（10/21）：每次大事件的背景和 Unilever 的目的
+> 来源都是新闻报道（链接在每段后）；用到 PPT 前打开原文再看一眼。⚠️ = 我还没找到原文。
+
+**① 1929 · Lever Brothers + Margarine Unie 合并成立 Unilever** ⚠️
+- 背景：英国 Lever Brothers 做肥皂，荷兰 Margarine Unie 做人造黄油，两边都大量用动植物油脂（棕榈油等）做原料，在原料市场上互相竞争。
+- 目的：合起来一起采购原料、减少竞争，形成规模——Unilever 一出生就是一次“合并”。（自己在 Unilever 官网 history 核对）
+
+**② 2000 · 买 Bestfoods（约 243 亿美元，含债务；每股 73 美元）**
+- 背景：90 年代末超市连锁在快速合并、变得越来越强势，压低供应商价格。Bestfoods 有 Knorr（汤料）、Hellmann's（蛋黄酱）、Skippy（花生酱）等知名品牌；对方先拒绝了较低的报价，Unilever 加价才谈成。
+- 目的：用更多大品牌**重新拿回和超市谈判的筹码**；买完后 Unilever 成为仅次于雀巢的全球第二大食品公司（规模经济）。
+- 来源：[CNN 2000](https://money.cnn.com/2000/06/06/deals/bestfoods/)
+
+**③ 2000 · 买 Ben & Jerry's（3.26 亿美元，每股 43.60 美元）**
+- 背景：Ben & Jerry's 是美国有名的“有社会使命”的冰淇淋品牌。
+- 目的：进入高端冰淇淋。为了让创始人和股东同意，合同很特别：**保留独立董事会**，负责“社会使命和品牌完整性”。
+- 后来：2022 年起独立董事会多次起诉 Unilever（以色列、加沙等社会议题上的冲突）；现在随冰淇淋业务归 Magnum，2026 年 Magnum 换掉了大部分独立董事，联合创始人想把公司买回来独立。
+- 来源：[UPI 2000](https://www.upi.com/Archives/2000/04/12/Unilever-buys-Ben-Jerrys/2054955512000/)、[Yahoo Finance 2026](https://finance.yahoo.com/markets/stocks/articles/ben-jerrys-sold-326-million-143500881.html)
+
+**④ 2016 · 买 Dollar Shave Club（约 10 亿美元现金）**
+- 背景：DSC 是网上订阅、每月寄剃须刀的初创公司，2015 年收入 1.52 亿美元，320 万会员。Unilever 以前没有剃须刀业务，而且主要靠超市卖货。
+- 目的：① 进入剃须刀市场；② 学会**直接卖给消费者**（DTC）的网上模式；③ 拿到男性消费者的购买数据。买后让 DSC 独立运营，原 CEO 继续管。
+- 来源：[Fortune 2016](https://fortune.com/2016/07/19/unilever-buys-dollar-shave-club-for-1-billion)、[CNN 2016](https://money.cnn.com/2016/07/19/news/companies/unilever-dollar-shave-club/)
+
+**⑤ 2017 · Kraft Heinz 想收购 Unilever（约 1,430 亿美元）**
+- 背景：Kraft Heinz 背后是 3G Capital 和巴菲特，以大幅砍成本出名。
+- 结果：Unilever 认为**出价太低**、立刻拒绝；两天后（2017-02-19）Kraft Heinz 撤回。英国政府也关注这笔交易是否影响英国利益；双方文化和经营方式差别大。
+- 对 Unilever 的意义：差点被别人并购 → 被逼着证明自己能给股东更多回报（之后开始卖掉部分业务、提高利润）。
+- 来源：[NBC News 2017](https://www.nbcnews.com/news/us-news/kraft-heinz-withdraws-143-billion-bid-buy-unilever-n723041)
+
+**⑥ 2022 · 想买 GSK 消费者健康业务（第三次出价约 500 亿英镑）**
+- 背景：Unilever 想从利润低的食品往健康、美容、卫生转型。
+- 结果：GSK 认为三次出价都“严重低估”而拒绝；**Unilever 自己的股东也反对**（担心买贵、利润率不好），股价一周跌约 10%，几天后放弃。随后激进投资人 Nelson Peltz 买入 Unilever 股票、进入董事会，推动改革（包括卖掉食品业务）。
+- 来源：[CHEManager 2022](https://www.chemanager-online.com/en/news/unilever-under-pressure-after-gsk-consumer-bid-flop)、[Benzinga 2022](https://www.benzinga.com/news/22/01/25176643/activist-investor-nelson-peltzs-fund-buys-stake-in-unilever-ft)
+
+**⑦ 2023 · 卖掉 Dollar Shave Club 多数股权（给 Nexus Capital，自留 35%）**
+- 背景：DSC 增长停滞、面对竞争；新 CEO 承认部分收购（包括 DSC）不成功。
+- 目的：止损，把精力放回核心品牌。
+- 来源：[Retail Dive 2023](https://www.retaildive.com/news/unilever-sells-razor-subscription-brand-dollar-shave-club/697913)
+
+**⑧ 2024 宣布 → 2025-12 完成 · 冰淇淋业务分拆成 Magnum**
+- 背景：2023 年冰淇淋增长只有 2.3%（涨价 8.8%、销量反而降 6%），是拖后腿的业务；新 CEO Hein Schumacher 2023 年 10 月提出 **Growth Action Plan：少做几件事、做得更好**；同时节省约 8 亿欧元、裁约 7,500 个办公室岗位。
+- 目的：冰淇淋独立后自己更灵活；Unilever 变得**更简单、更专注**。
+- 来源：[FoodNavigator-Asia 2024](https://www.foodnavigator-asia.com/Article/2024/03/19/unilever-to-get-out-of-ice-cream-immediately/)、[MarketScreener 2025](https://www.marketscreener.com/news/unilever-completes-ice-cream-demerger-with-magnum-set-to-list-ce7d51dddc8df620)
+
+**⑨ 2026-03-31 宣布 · 食品业务并入 McCormick（约 448 亿美元）**
+- 背景：2025 年美妆健康增长 4.3%、个人护理 4.7%，食品只有 2.5%；CEO Fernando Fernandez（2025 年接任）定下重点：**美妆健康、个人护理，重点投资美国和印度**；Peltz 一直推动卖掉食品。
+- 目的：① 集中做增长快的美妆个护；② 拿到 157 亿美元现金，可以去买美妆个护公司（他每年拨约 15 亿欧元做并购）；③ 用 Reverse Morris Trust 结构对 Unilever 免税；④ 保留印度食品业务（印度是重点市场）。
+- 来源：[Advisor Perspectives 2026](https://www.advisorperspectives.com/articles/2026/04/02/unilevers-45-billion-food-sale-beautiful-future)、[NJBIZ 2026](https://njbiz.com/mccormick-unilever-food-business-44-8b-deal/)
+
+**把 9 件事串起来**：② ③ ④ 是“买”（做大、进新市场、学新模式）→ ⑤ ⑥ 是转折（差点被收购、想买被股东否决，压力变大）→ ⑦ ⑧ ⑨ 是“卖”（止损、分拆、集中核心）。
+
 ## 🧭 带读 · 第 1 步（10/21）：先把“货”装进脑子
 > 流程和 A1 一样：Claude 先讲课上理论和案例 → 你用**中文**回答几个判断题（你的看法）→ 你写中文要点 → Claude 帮你改英文 → 做 PPT / 海报 → 练答问。
 
