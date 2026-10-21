@@ -9,6 +9,24 @@
 | 展示前一周 | 按演讲稿计时排练（每人约 4 分钟），练答问 |
 | **11/27 前** | 每个组员各自在 Moodle 上传**同一份**英文 PPT |
 
+## 📎 最新版文件（2026-10-22 版，点击下载）
+<p>
+<a class="btn" href="/content/comp1913/files/AmEgg_Group_Presentation_EN.pptx" download>⬇️ 英文 PPT（上交用）</a>
+<a class="btn ghost" href="/content/comp1913/files/AmEgg_Group_Presentation_CN.pptx" download>⬇️ 中文 PPT（演讲参照）</a>
+<a class="btn ghost" href="/content/comp1913/files/AmEgg_Speech_Script.docx" download>⬇️ 演讲稿（Word）</a>
+</p>
+
+> 手机上点了会下载，用 PowerPoint / Word / WPS 打开。以后改了新版本发给 Claude，会替换这里的文件。
+
+### 第三版检查（2026-10-22）
+✅ 已改好：泰国改成 “depends heavily on exports”；4 条参考文献的访问日期都改成 22 October 2026；演讲稿 “four students”、“coefficient of variation”、“exchange rates”、“local currency”。
+
+还剩 4 处：
+1. **演讲稿第 18 页有个错字**：“Risks**、**politics and exchange rates…” 中间是中文顿号，改成英文冒号 “Risks**:** politics…”。
+2. **演讲稿第 10 页**还是 “Green bars are **chances**” → 改成 **opportunities**。
+3. **4 个人，但分工还是按 5 个人**：PPT 备注里还有 PRESENTER 5，演讲稿写“演讲人 5：第 17–21 页”、“每人讲 4 页（演讲人 5 讲 5 页）”。4 人要重新分，例如：① 1–5 页 ② 6–10 页 ③ 11–15 页 ④ 16–21 页（每人约 5 分钟）。PPT 备注和演讲稿里的 PRESENTER 编号、“I now hand over…” 的位置一起改。
+4. **Capital FM 的 18.8M / 43M**：请确认你打开原文找到了这两个数；找不到就换来源（见第二轮第 2 条）。
+
 ## 🔍 第二轮审阅（2026-10-21）：6 项都改好了，还剩 4 处小改
 
 **结论：基本可以交了。** 参考文献页、占位符、BLS 改法、假设标注、r = −0.76 的局限、38.8% 写明年份——都改对了，数字也没有被改错。
@@ -66,5 +84,6 @@
 服务器上打不开 PPT 的版式（只能读文字），请你在 PowerPoint 里逐页看：文字有没有溢出文本框、图表标签是否重叠、字号是否 ≥ 18（第 5 次课：每张图一个结论、坐标轴和单位要标清楚、颜色不要太多）。
 
 ## 📂 记录
+- 2026-10-22：第三版（访问日期、泰国、演讲稿用词、4 人），文件存进网站 `content/comp1913/files/`。
 - 2026-10-21：用户按 6 项改完，发来第二版 PPT（21 页，加了参考文献页）和演讲稿。
 - 2026-10-20：用户发来英文版 PPT（上交用）、中文版 PPT（演讲参照）和演讲稿（每页简单英文 + 中文，8 个答问准备）。原文件不入库。
