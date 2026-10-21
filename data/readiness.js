@@ -5,8 +5,8 @@
 MBA.readinessUpdated = '2026-10-21';
 MBA.readiness = {
   'busi1764/a1': {
-    status: 'go', pct: 95, done: 80,
-    steps: '选企业 ✅ → 资料卡 ✅ → 大纲 ✅ → 五个部分初稿 ✅ → 补 11/5 tutorial ⬜ → 核对文献 ⬜ → 统稿压字数 ⬜ → Turnitin ⬜ → 提交 ⬜',
+    status: 'go', pct: 95, done: 85,
+    steps: '选企业 ✅ → 资料卡 ✅ → 大纲 ✅ → 五个部分初稿 ✅ → 补 11/5 tutorial ⬜ → 核对文献 ✅ → 统稿压字数 ⬜ → Turnitin ⬜ → 提交 ⬜',
     have: ['<b>五个部分英文初稿全部完成（10/19，约 1130 词）</b>，含中文对照和 11 条参考文献——见作业页最上面的写作区“全文”', 'tutorial 经历：10/1 Pure Gym 画布、10/15 老龄化练习（真实经历）', '企业 SELCO India；创新 = 上门融资（商业模式创新）；目标国 = 印尼东部，合资进入，Uppsala'],
     missing: ['10/22 前：在 Moodle 查字数允许范围、是否要 AI 使用声明', '10/31 前：图书馆核对 6 篇标 ⚠️ 的文献', '11/5 课后：补第 ④ 部分的 tutorial 经历', '11/7 统稿压字数 → 11/13 Turnitin → 11/16 提交'],
     next: '先查 Moodle 字数规定；11/5 课后补 tutorial 经历，11/7 定稿。',

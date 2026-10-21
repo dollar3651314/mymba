@@ -5,7 +5,7 @@
 ## 2026-10-21
 - BUSI 1763：用户选 **M&A**。写作区改为 M&A：待办、已核对事例（DSC 2016 收购 / 2023-10 出售多数股权；Magnum 冰淇淋 2025-12-06 分拆、12-08 上市）、4 分钟结构、2 个问题。下一步：10/23 前用户写中文要点。
 - COMP 1913 小组展示第二版（21 页 + 演讲稿）：第一轮 6 项都改好了。剩 4 处小改：第 18 页泰国出口占 GDP 60% 没出处；Capital FM 文章里没查到 18.8M / 43M，要用户打开原文核对；Sage 案例访问日期写成 2026-04-14；21 页是否超页数（10/24 问）。演讲稿还有 chances / money value / local money 没改。准备度 comp1913/b 完成 80%。
-- A1 文献核对报告：用户说已提交到 GitHub，但 linshi（最后推送 10/16）和 mymba 都没有 → 请用户让本地 Claude Code 确认推送到 linshi 的 `mba-materials/busi1764/a1-sources/核对报告.md`。
+- A1 文献核对报告已收到（linshi `mba-materials/busi1764/a1-sources/核对报告.md` + Antoncic、Christensen、Dees 三篇 PDF）。7 篇出版信息全对；Antoncic、Christensen、Dees 读到原文；Oviatt、Schumpeter、Vahlne 学校无全文，但 A1 里都是转述、无直接引语，可保留。已改全文：(Dees, 1998) → (Dees, 2001) + 2001 修订版网址；Christensen 改成“新市场颠覆”+ p. 47；补 3 个 DOI。A1 完成度 85%。
 
 ## 2026-10-20
 - 审阅 COMP 1913 小组展示（AmEgg）英文 / 中文 PPT 和演讲稿 → 新建写作区 `content/comp1913/b-workspace.md`。数字全部核对无误；必须改 6 项：加 Harvard 参考文献页、删占位符、外部数据改成原始出处（$4.95 是 BLS 不是 USDA；“50.7M”“每年 11%”查不到出处；39% 是 2023 年数据）、假设写明、r = −0.76 写明小样本和自评分局限、AI 使用申报并让组员改成自己的。准备度 comp1913/b 改为写作中 60%。

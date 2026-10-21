@@ -4,7 +4,7 @@
 | 截止 | 要做的事 | 状态 |
 |---|---|---|
 | 10/22 前 | 在 Moodle 的 A1 说明里查：**1000 词允许多出多少**？要不要 **AI 使用声明**？告诉 Claude | ⬜ |
-| 10/31 前 | 在学校图书馆找到下面参考文献里标 ⚠️ 的 6 篇原文，核对信息（找不到的告诉 Claude，换掉或删掉） | ⬜ |
+| ~~10/31 前~~ ✅ 10/21 | 图书馆核对参考文献（本地 Claude Code 完成）：出版信息全部正确；Dees 改成 2001 修订版、补 DOI、Christensen 补页码，已改进全文 | ✅ |
 | 11/5 课后 | 第 7 次课 tutorial（沃尔玛进德国 / TNA 进印尼）你们组讨论了什么 → 发 Claude，补进第 ④ 部分 | ⬜ |
 | 11/7 | 读一遍全文，把不像你会说的词换掉；和 Claude 一起统稿、压字数 → **定稿** | ⬜ |
 | 11/13 | Studiosity 检查 + Turnitin 预提交，看相似度报告 | ⬜ |
@@ -28,7 +28,7 @@ SELCO India is a for-profit social enterprise founded by Harish Hande in Bangalo
 ### ② 创业类型判断（232 词 / 建议 150）
 **2. Entrepreneurial Classification**
 
-SELCO is best classified as social entrepreneurship, because its primary goal is to improve the quality of life of poor households. In social entrepreneurship, social improvement takes priority over profit (Dees, 1998). SELCO treats the rural poor "as customers rather than treating them as beneficiaries" and limits itself to single-digit profit margins (Goyal, Sergi and Kapoor, 2017, p. 101). It does not depend on donations, because customers pay for its products and services.
+SELCO is best classified as social entrepreneurship, because its primary goal is to improve the quality of life of poor households. In social entrepreneurship, social improvement takes priority over profit (Dees, 2001). SELCO treats the rural poor "as customers rather than treating them as beneficiaries" and limits itself to single-digit profit margins (Goyal, Sergi and Kapoor, 2017, p. 101). It does not depend on donations, because customers pay for its products and services.
 
 It is not ecopreneurship. Although solar energy is environmentally friendly, SELCO's mission is "enhancing the quality of life for underserved households through sustainable energy solutions and services" (Goyal, Sergi and Kapoor, 2017, p. 100): quality of life is the goal and solar energy is the means.
 
@@ -40,7 +40,7 @@ In the 15 October tutorial on Singapore's ageing population, my group defined ou
 
 <details><summary>中文对照（点开看）</summary>
 
-> SELCO 最适合归类为社会创业，因为它的首要目标是改善贫困家庭的生活质量。在社会创业中，社会改善优先于利润（Dees, 1998）。SELCO 把农村穷人“当作顾客，而不是当作受救济者”，并把利润率控制在个位数（Goyal, Sergi and Kapoor, 2017, p. 101）。它不依赖捐款，因为客户会为产品和服务付钱。
+> SELCO 最适合归类为社会创业，因为它的首要目标是改善贫困家庭的生活质量。在社会创业中，社会改善优先于利润（Dees, 2001）。SELCO 把农村穷人“当作顾客，而不是当作受救济者”，并把利润率控制在个位数（Goyal, Sergi and Kapoor, 2017, p. 101）。它不依赖捐款，因为客户会为产品和服务付钱。
 >
 > 它不是生态创业。虽然太阳能是环保的，但 SELCO 的使命是“通过可持续的能源方案和服务，提高弱势家庭的生活质量”（Goyal, Sergi and Kapoor, 2017, p. 100）：生活质量是目标，太阳能是手段。
 >
@@ -59,7 +59,7 @@ Before SELCO, poor rural households could not pay for a solar system in one go, 
 
 I classify this as business model innovation, because it changes how value is delivered and captured. SELCO's management explains that its "business model involves providing energy solutions by integrating technology support and financing with product offerings" (Goyal, Sergi and Kapoor, 2017, p. 105). On the business model canvas, it changed three blocks: revenue streams, customer relationships and key partners. It is not product innovation, because solar lights already existed and innovation is not the same as invention (Schumpeter, 1947). It is not process innovation, because it did not improve internal production. SELCO describes its innovation as covering "products, financing and services" (Goyal, Sergi and Kapoor, 2017, p. 102); installation and repair are services, but doorstep financing changes who pays and how, so it is mainly business model innovation.
 
-Instalment payments and microcredit already existed, so the idea is not new to the world, but it was new to the region: it was the first time solar energy was sold in this way in rural India. It was a radical rather than incremental change, because it was an entirely new way of selling solar energy in rural India, not a small improvement to existing sales methods. Because it serves non-consumers, people who previously could not buy at all, it shows features of disruptive innovation (Christensen, Raynor and McDonald, 2015).
+Instalment payments and microcredit already existed, so the idea is not new to the world, but it was new to the region: it was the first time solar energy was sold in this way in rural India. It was a radical rather than incremental change, because it was an entirely new way of selling solar energy in rural India, not a small improvement to existing sales methods. Because it turns non-consumers, people who previously could not buy at all, into customers, it shows features of new-market disruption (Christensen, Raynor and McDonald, 2015, p. 47).
 
 In the 1 October tutorial, my group used the business model canvas to analyse Pure Gym. We concluded that its innovation lay in customer segments and cost structure: it divided customers by usage (peak, off-peak, all-day and any-gym access) and offered different membership plans based on their willingness to pay.
 
@@ -69,7 +69,7 @@ In the 1 October tutorial, my group used the business model canvas to analyse Pu
 >
 > 我把它归为商业模式创新，因为它改变了价值传递和获取的方式。SELCO 的管理层解释说，它的“商业模式是把技术支持和融资与产品结合起来，提供能源解决方案”（Goyal, Sergi and Kapoor, 2017, p. 105）。在商业模式画布上，它改变了三格：收入来源、客户关系和关键伙伴。它不是产品创新，因为太阳能灯早就有了，而且创新不等于发明（Schumpeter, 1947）。它也不是流程创新，因为它没有改进内部生产。SELCO 自己说它的创新涵盖“产品、融资和服务”（Goyal, Sergi and Kapoor, 2017, p. 102）；安装和维修确实是服务，但上门融资改变的是谁付钱、怎么付，所以它主要是商业模式创新。
 >
-> 分期付款和小额贷款早就存在，所以这个想法不是世界首创，而是地区首创：在印度农村用这种方式卖太阳能是第一次。它是突破式而不是渐进式的改变，因为这是在印度农村卖太阳能的一种全新方式，而不是对原有卖法的小改进。因为它服务的是“非消费者”——以前根本买不起的人，所以它具有颠覆式创新的特征（Christensen, Raynor and McDonald, 2015）。
+> 分期付款和小额贷款早就存在，所以这个想法不是世界首创，而是地区首创：在印度农村用这种方式卖太阳能是第一次。它是突破式而不是渐进式的改变，因为这是在印度农村卖太阳能的一种全新方式，而不是对原有卖法的小改进。因为它把“非消费者”——以前根本买不起的人——变成了顾客，所以它具有“新市场颠覆”的特征（Christensen, Raynor and McDonald, 2015, p. 47）。
 >
 > 在 10 月 1 日的 tutorial 上，我们组用商业模式画布分析了 Pure Gym。我们的结论是：它的创新在客户细分和成本结构两格——它按使用方式把客户分成高峰、非高峰、全天和任意场馆几类，再根据他们的付费意愿提供不同的会员方案。
 
@@ -110,20 +110,25 @@ This analysis changed my understanding of two key concepts. Before, I saw social
 </details>
 
 ### References（参考文献，Harvard，按字母排序）
-- Antoncic, B. and Hisrich, R.D. (2003) 'Clarifying the intrapreneurship concept', *Journal of Small Business and Enterprise Development*, 10(1), pp. 7–24. ⚠️
+- Antoncic, B. and Hisrich, R.D. (2003) 'Clarifying the intrapreneurship concept', *Journal of Small Business and Enterprise Development*, 10(1), pp. 7–24. doi:10.1108/14626000310461187.
 - Ashoka (n.d.) *Harish Hande*. Available at: https://www.ashoka.org/en-sg/fellow/harish-hande (Accessed: 16 October 2026).
-- Christensen, C.M., Raynor, M.E. and McDonald, R. (2015) 'What is disruptive innovation?', *Harvard Business Review*, 93(12), pp. 44–53. ⚠️
-- Dees, J.G. (1998) *The meaning of social entrepreneurship*. Durham, NC: Duke University, Fuqua School of Business. ⚠️
+- Christensen, C.M., Raynor, M.E. and McDonald, R. (2015) 'What is disruptive innovation?', *Harvard Business Review*, 93(12), pp. 44–53.
+- Dees, J.G. (2001) *The meaning of social entrepreneurship*. Original draft 1998, revised May 2001. Available at: https://case.fuqua.duke.edu/wp-content/uploads/2025/03/Article_Dees_MeaningofSocialEntrepreneurship_2001.pdf (Accessed: 21 October 2026).
 - Goyal, S., Sergi, B.S. and Kapoor, A. (2017) 'Emerging role of for-profit social enterprises at the base of the pyramid: the case of Selco', *Journal of Management Development*, 36(1), pp. 97–108. doi:10.1108/JMD-05-2015-0070.
 - Madani Berkelanjutan (2026) *658,000 Families Without Electricity: Why Community-Based Energy Transition is Indonesia's Answer*. Available at: https://madaniberkelanjutan.id/news-event/658-000-families-without-electricity-why-community-based-energy-transition-is-indonesia-s-answer (Accessed: 19 October 2026).
-- Oviatt, B.M. and McDougall, P.P. (2005) 'Defining international entrepreneurship and modeling the speed of internationalization', *Entrepreneurship Theory and Practice*, 29(5), pp. 537–553. ⚠️
+- Oviatt, B.M. and McDougall, P.P. (2005) 'Defining international entrepreneurship and modeling the speed of internationalization', *Entrepreneurship Theory and Practice*, 29(5), pp. 537–553. doi:10.1111/j.1540-6520.2005.00097.x.
 - Ramon Magsaysay Award Foundation (2011) *Hande, Harish*. Available at: https://rmaward.asia/rmawardees/hande-harish/ (Accessed: 16 October 2026).
-- Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159. ⚠️
+- Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159. doi:10.1017/S0022050700054279.
 - Skoll Foundation (n.d.) *SELCO Foundation*. Available at: https://skoll.org/organization/selco-foundation/ (Accessed: 16 October 2026).
-- Vahlne, J.-E. and Johanson, J. (2017) 'From internationalization to evolution: the Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102. ⚠️
+- Vahlne, J.-E. and Johanson, J. (2017) 'From internationalization to evolution: the Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102. doi:10.1057/s41267-017-0107-7.
 
-⚠️ = 课件 / 往届范例里的文献，**交稿前在学校图书馆找到原文，核对作者、年份、卷期页码**（引用了却没读过有风险）。
-
+**10/21 图书馆核对结果**（本地 Claude Code 在 Greenwich LibrarySearch + Crossref 核对，报告在私有仓库 linshi）：
+| 文献 | 结果 | 你文中怎么用 |
+|---|---|---|
+| Antoncic & Hisrich 2003 | ✅ 读到原文；p. 9 定义 “entrepreneurship within an existing organization” 和你的写法一致 | 转述，OK |
+| Christensen et al. 2015 | ✅ 读到原文；p. 47 “turn nonconsumers into consumers” 属于 **new-market foothold** | 已改成“新市场颠覆”并加 p. 47 |
+| Dees | ✅ 读到原文，但能找到的是 **2001 修订版**，“1998 + Duke Fuqua” 不准确 | 已改成 (Dees, 2001)；pp. 2–3 “Mission-related impact becomes the central criterion, not wealth creation” 支持你的说法 |
+| Oviatt & McDougall 2005 / Schumpeter 1947 / Vahlne & Johanson 2017 | 出版信息 ✅；学校**没有全文权限**，原句未核对 | 你文中都是**转述、没有直接引号**，Harvard 转述不要求页码，可以保留。答辩被问到时能说出大意即可 |
 ---
 
 # 📂 写作过程记录（历次草稿、修改说明、背景回顾、资料卡）
