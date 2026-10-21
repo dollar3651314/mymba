@@ -81,8 +81,8 @@
   const lenLabel = a => a.length || `${a.words} 词`;
   // 我的完成目标：取官方截止日和本学期“最晚完成日期”中较早的一个
   const finishBy = t => store.get('finishBy:' + t.id, t.finishBy || '');
-  const goal = (m, a) => { const f = finishBy(termOf(m.term)); return f && f < a.due ? f : a.due; };
-  const goalNote = (m, a) => goal(m, a) < a.due ? `官方截止 ${fmt(a.due)}，我的目标 ${fmt(goal(m, a))}` : '';
+  const goal = (m, a) => { if (a.goal) return a.goal; const f = finishBy(termOf(m.term)); return f && f < a.due ? f : a.due; };
+  const goalNote = (m, a) => goal(m, a) < a.due ? `官方截止 ${fmt(a.due)}，${a.goalLabel || '我的目标'} ${fmt(goal(m, a))}` : '';
   const asmt = (m, id) => m.assessments.find(a => a.id === id);
   const termOf = id => M.terms.find(t => t.id === id);
   const termStart = t => store.get('termStart:' + t.id, t.start);
