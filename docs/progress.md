@@ -3,6 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-10-21
+- BUSI 1763 带读第 3 步：用户回答 5 个判断题（Bestfoods 产品扩展；B&J 独立运营；DSC 渠道不同无协同；卖食品 = 分拆释放价值；McCormick 横向、风险是内部政治）。Claude 反馈并按用户判断搭了 4 分钟大纲；等用户写结论 + 2 个问答问题。完成度 40%。
 - BUSI 1763 带读第 2 步：9 次大事件（1929 合并、Bestfoods、Ben & Jerry's、DSC 买入、Kraft Heinz 2017、GSK 2022、DSC 卖出、冰淇淋分拆、McCormick）的背景和目的，带新闻来源，写进写作区。
 - BUSI 1763：用户说“脑子里没货”，请 Claude 带着做（按 A1 的方式）。写作区加“带读 · 第 1 步”：课上 M&A 理论 8 点、Unilever 并购时间线（加法 → 减法 → McCormick）、5 个判断题。等用户用中文回答。
 - BUSI 1763：组长发来 Mind Map 草图（中心 Usage FDI；分支 FDI Unilever / M&A（McCormick）/ Strategic advantage / FDI milestones 越南、巴基斯坦、印度）。组长把 FDI 和 M&A 都放进来，和邮件不一致 → 10/24 问老师；用户先做 M&A 支。已核对 McCormick 交易（2026-03-31 宣布，约 448 亿美元，预计 2027 年中完成），写作区加分支对应理论表和 M&A 要点结构。
