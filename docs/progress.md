@@ -3,6 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-10-21
+- BUSI 1763：用户问“两个方向都要讲吗”（同学说要）。依据 10/20 Vincent 邮件 “each of you will need to pick 1 out of the 2 listed topics” + 手册 “each student choose ONE” → 每人只讲 1 个；但每个理论要讲利弊两面。10/24 课上问老师确认；保险做法是讲 M&A 时一句话带出 FDI。
 - A1 Word 文档第三版：两条参考文献空格已加，网站文件已替换。现在只剩字数（等 Moodle 规定）和 11/5 tutorial 补充。
 - 收到 A1 学习日志 Word 文档第二版（字体改 Arial 12；两条参考文献网址后仍缺空格），替换网站文件。用户提醒今天是 10/21：之前回复和网站里误写成 10/22 的标签已改回 10/21；AmEgg 参考文献的访问日期用户写了 22 October 2026（明天），建议改成 21 October 2026。
 - 收到 A1 学习日志 Word 文档：存到网站 `content/busi1764/files/A1_Learning_Diary_SELCO.docx`（标题里的学号换成 [student ID]、清掉作者信息），写作区顶部加下载按钮。检查：正文与网站全文一致；约 1,150 词（不含引用）；Ashoka、Dees 两条网址后缺空格；字体是 Hiragino Sans GB，建议改 Arial / Calibri。
