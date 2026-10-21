@@ -27,5 +27,16 @@ for (const mod of readdirSync('content').filter(d => !d.startsWith('_') && !d.in
     }
   }
 }
+// 演讲稿：content/<课程>/speech-<作业>.md，“## 第 N 页 · 标题”下每句写成 - "English" —— 中文
+for (const mod of readdirSync('content').filter(d => !d.startsWith('_') && !d.includes('.')).sort()) {
+  for (const f of readdirSync(`content/${mod}`).filter(f => /^speech-\w+\.md$/.test(f)).sort()) {
+    const asm = f.match(/^speech-(\w+)\.md$/)[1]; let page = '';
+    for (const line of readFileSync(`content/${mod}/${f}`, 'utf8').split('\n')) {
+      if (line.startsWith('## ')) { page = line.slice(3).trim(); continue; }
+      const mt = line.match(/^- "(.+)"\s*——\s*(.*)$/);
+      if (mt && page) items.push({ m: mod, w: 0, k: 'speech', a: asm, en: mt[1].trim(), zh: mt[2].trim(), x: page });
+    }
+  }
+}
 writeFileSync('data/practice.js', `// 自动生成（scripts/build-practice.mjs），不要手改\nMBA.practice = ${JSON.stringify(items)};\n`);
-console.log('practice items', items.length, Object.fromEntries(['say', 'ask', 'term'].map(k => [k, items.filter(i => i.k === k).length])), 'missing zh', items.filter(i => !i.zh).length);
+console.log('practice items', items.length, Object.fromEntries(['say', 'ask', 'term', 'speech'].map(k => [k, items.filter(i => i.k === k).length])), 'missing zh', items.filter(i => !i.zh).length);

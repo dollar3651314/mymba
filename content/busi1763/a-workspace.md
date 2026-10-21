@@ -5,6 +5,7 @@
 <a class="btn" href="/content/busi1763/files/Unilever_MA_EN.pptx" download>⬇️ 英文 PPT（展示用）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_CN.pptx" download>⬇️ 中文 PPT（对照）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_Script.docx" download>⬇️ 中英对照演讲稿（Word）</a>
+<a class="btn ghost" href="#/practice/busi1763/speech">🎧 逐句跟读演讲稿</a>
 </p>
 
 - **PPT 4 页**：① 什么是 M&A（引言：定义、六种类型、四种整合方式、协同、70–90% 失败、和 FDI 的关系）② 时间线（买 → 转折 → 卖）③ 用理论看 McCormick 交易 + 你的结论 ④ 参考文献（Harvard，13 条，访问日期 21 October 2026）。每页底部有 Harvard 文内引用，备注栏有讲解要点。

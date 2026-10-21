@@ -507,14 +507,14 @@
   }
 
   // ---------- 跟读练习 ----------
-  const PK = { say: '课上说', ask: '问老师', term: '术语', gloss: '词汇表', phrase: '写作句型' };
+  const PK = { speech: '演讲稿', say: '课上说', ask: '问老师', term: '术语', gloss: '词汇表', phrase: '写作句型' };
   const tts = window.speechSynthesis;
   let pr = { m: '', k: '', w: 'near', hideDone: false }, prPlay = null;
   function practiceItems() {
     const all = (M.practice || []).map(x => ({ ...x }));
     (M.glossary || []).forEach(g => all.push({ m: (g.m || [])[0] || '', w: 0, k: 'gloss', en: g.en, zh: g.zh, x: g.x }));
     (M.phrases || []).forEach(g => g.items.forEach(p => all.push({ m: '', w: 0, k: 'phrase', en: p.en, zh: p.zh, x: g.g })));
-    const ko = { say: 0, ask: 1, term: 2, gloss: 3, phrase: 4 };
+    const ko = { speech: -1, say: 0, ask: 1, term: 2, gloss: 3, phrase: 4 };
     return all.map((x, i) => ({ ...x, i, id: x.k + ':' + x.en.slice(0, 80) })).sort((a, b) => (a.m || 'z').localeCompare(b.m || 'z') || a.w - b.w || ko[a.k] - ko[b.k] || a.i - b.i);
   }
   function nearWeeks() {
@@ -584,13 +584,13 @@
     });
   }
   views.practice = (mid, wn) => {
-    if (mid !== undefined) pr = { ...pr, m: mid || '', w: wn ? String(wn) : '', k: '' };
+    if (mid !== undefined) pr = wn === 'speech' ? { ...pr, m: mid || '', w: '', k: 'speech' } : { ...pr, m: mid || '', w: wn ? String(wn) : '', k: '' };
     const mods = M.modules.map(m => `<button class="chip ${pr.m === m.id ? 'on' : ''}" data-pr-m="${m.id}">${esc(m.code)}</button>`).join('');
     const kinds = Object.entries(PK).map(([k, l]) => `<button class="chip ${pr.k === k ? 'on' : ''}" data-pr-k="${k}">${l}</button>`).join('');
     const weeks = pr.m ? (mod(pr.m)?.weeks || []).map(w => `<option value="${w.n}" ${pr.w === String(w.n) ? 'selected' : ''}>第 ${w.n} 周 · ${esc(w.zh)}</option>`).join('') : '';
     const rate = Number(store.get('pr:rate', 0.85)), acc = store.get('pr:accent', 'GB'), zh = store.get('pr:zh', true);
     return `<a class="back" href="#/tools">‹ 工具</a><h1>跟读练习</h1>
-      <p class="small muted">点 🔊 听标准英音（真人风格录音），跟着大声读。句子来自各课预习包（课上说的英文、想问老师的问题、必会术语）、词汇表和写作句型。</p>
+      <p class="small muted">点 🔊 听标准英音（真人风格录音），跟着大声读。句子来自你的演讲稿、各课预习包（课上说的英文、想问老师的问题、必会术语）、词汇表和写作句型。</p>
       ${tts ? '' : '<div class="callout">这个浏览器不支持朗读。iPhone 请用 Safari，安卓请用 Chrome。</div>'}
       <div class="card">
         <div class="chips"><button class="chip ${!pr.m ? 'on' : ''}" data-pr-m="">全部课程</button>${mods}</div>
@@ -612,7 +612,7 @@
     const showZh = store.get('pr:zh', true);
     const list = practiceItems().filter(x => (!pr.m || x.m === pr.m) && (!pr.k || x.k === pr.k)
       && (near ? (x.w && near.has(x.m + ':' + x.w)) : (!pr.w || String(x.w) === pr.w)) && !(pr.hideDone && done.has(x.id)));
-    const label = x => [x.m ? mod(x.m)?.code : '', x.w ? `第 ${x.w} 周` : '', PK[x.k]].filter(Boolean).join(' · ');
+    const label = x => [x.m ? mod(x.m)?.code : '', x.w ? `第 ${x.w} 周` : '', x.k === 'speech' ? (mod(x.m)?.assessments || []).find(a => a.id === x.a)?.zh + '演讲稿' : PK[x.k]].filter(Boolean).join(' · ');
     box.innerHTML = `<p class="small muted">共 ${list.length} 条（${pr.w === 'near' ? '只算未来 7 天要上的课' : pr.w ? `第 ${pr.w} 周` : '所有周'}）${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
         <div class="pr-row"><button class="pr-say" aria-label="朗读">🔊</button>
         <div class="grow"><div class="pr-en">${esc(x.en)}</div>
@@ -752,7 +752,7 @@
     [/^\/notes\/edit\/([\w-]+)$/, (id) => views.noteForm('edit', id), 'notes'],
     [/^\/glossary$/, () => views.glossary(), 'glossary'],
     [/^\/tools$/, () => views.tools(), 'tools'],
-    [/^\/practice(?:\/(\w+)(?:\/(\d+))?)?$/, (m, w) => views.practice(m, w), 'tools'],
+    [/^\/practice(?:\/(\w+)(?:\/(\d+|speech))?)?$/, (m, w) => views.practice(m, w), 'tools'],
     [/^\/log$/, () => views.log(), 'tools'],
     [/^\/rules$/, () => views.rules(), 'tools'],
     [/^\/writing$/, () => views.writing(), 'tools'],
@@ -840,7 +840,7 @@
     const t = e.target.closest('button, [data-cat]');
     if (!t) return;
     if (t.dataset.prM !== undefined) { pr.m = t.dataset.prM; if (pr.w !== 'near') pr.w = ''; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
-    if (t.dataset.prK !== undefined) { pr.k = t.dataset.prK; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
+    if (t.dataset.prK !== undefined) { pr.k = t.dataset.prK; if (pr.k === 'speech' && pr.w === 'near') pr.w = ''; stopPlay(); $app.innerHTML = views.practice(); renderPractice(); return; }
     if (t.classList.contains('pr-say') || t.dataset.prSlow !== undefined) {
       const say = t.dataset.say || t.closest('.pr-item')?.dataset.say; if (!say) return; prPlay = null;
       const it = t.closest('.pr-item'); if (it) { document.querySelectorAll('.pr-item.sel').forEach(x => x.classList.remove('sel')); it.classList.add('sel'); }
