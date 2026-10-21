@@ -3,6 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-10-21
+- BUSI 1763：组长发来 Mind Map 草图（中心 Usage FDI；分支 FDI Unilever / M&A（McCormick）/ Strategic advantage / FDI milestones 越南、巴基斯坦、印度）。组长把 FDI 和 M&A 都放进来，和邮件不一致 → 10/24 问老师；用户先做 M&A 支。已核对 McCormick 交易（2026-03-31 宣布，约 448 亿美元，预计 2027 年中完成），写作区加分支对应理论表和 M&A 要点结构。
 - BUSI 1763：用户问“两个方向都要讲吗”（同学说要）。依据 10/20 Vincent 邮件 “each of you will need to pick 1 out of the 2 listed topics” + 手册 “each student choose ONE” → 每人只讲 1 个；但每个理论要讲利弊两面。10/24 课上问老师确认；保险做法是讲 M&A 时一句话带出 FDI。
 - A1 Word 文档第三版：两条参考文献空格已加，网站文件已替换。现在只剩字数（等 Moodle 规定）和 11/5 tutorial 补充。
 - 收到 A1 学习日志 Word 文档第二版（字体改 Arial 12；两条参考文献网址后仍缺空格），替换网站文件。用户提醒今天是 10/21：之前回复和网站里误写成 10/22 的标签已改回 10/21；AmEgg 参考文献的访问日期用户写了 22 October 2026（明天），建议改成 21 October 2026。

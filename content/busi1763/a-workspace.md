@@ -11,10 +11,37 @@
 | 10/24 课上 | 问老师 “2 questions” 是你提问听众，还是准备回答别人的问题 |
 | 10/24 | 小组第一次计时排练 |
 
+### 🗺 组长的 Mind Map 草图（10/21）和你的准备
+组长的图：中心 **Usage FDI** → ① FDI Unilever（Market access、Bypass trade barriers）② **M&A**（Global food business → McCormick & Company → Success & challenges；Strategic decisions → Sustainability focus、Operational efficiency；Conclusion）③ Strategic advantage（Quality control + IP、Cost + supply optimisation）④ FDI milestones（Vietnam、Pakistan、India）。
+
+**看法**
+- 组长是把第 4 周 **FDI 和 M&A 两个都放进来**（FDI 做总框架，M&A 是其中一支）——和邮件“pick 1 out of the 2”不一致，**10/24 问 Vincent**。你先把 **M&A 这一支**做扎实，FDI 的三支按老师答复再定（可能交给别人或删减）。
+- **McCormick 是很好的选择**：最新、金额大、正好是“卖掉食品业务、集中美妆个护”。2026-03-31 宣布，约 **448 亿美元**，McCormick 付现金 157 亿 + 股票；用 Reverse Morris Trust（为了对 Unilever 免税）；**不包括印度**等部分地区；预计每年节省约 3 亿美元成本；**预计 2027 年中完成，还要等监管批准**（[CNN/KVIA](https://kvia.com/news/business-technology/cnn-business-consumer/2026/03/31/mccormick-is-merging-with-unilevers-food-business/)、[NJBIZ](https://njbiz.com/mccormick-unilever-food-business-44-8b-deal/)）。⚠️ 持股比例各家报道说法不一，用之前自己打开原文核对，讲的时候说“announced / expected”，不要说“已经完成”。
+- **小问题**：“Conclusion” 被挂在 Operational efficiency 下面，应该单独一支；“Pakistan → India” 是上下级，应该并列。
+
+**把组长的分支对到课上的理论**（让内容有理论依据）
+| 组长的分支 | 对应理论 |
+|---|---|
+| Market access | FDI 动机：市场寻求（market-seeking） |
+| Bypass trade barriers | 关税跳跃（tariff-jumping）；Dunning OLI 的 L（区位优势） |
+| Quality control + IP | OLI 的 I（内部化）：自己控制，不授权给别人 |
+| Cost + supply optimisation | FDI 动机：效率寻求（efficiency-seeking） |
+| McCormick 交易 | 并购类型（食品业务和调味品 → 横向 / 产品扩展）、协同效应（3 亿美元成本节省）、**剥离 / 拆分**（Unilever 是卖方） |
+| Success & challenges | 70–90% 失败、整合难；DSC 买了又卖、冰淇淋拆分作为 Unilever 自己的例子 |
+
+**你 M&A 这一支建议的内容（中文要点 10/23 前发 Claude）**
+1. Unilever 用并购**做加法**的历史：Bestfoods、Ben & Jerry's、Dollar Shave Club（一两句）。
+2. 现在**做减法**：冰淇淋拆分（2025-12）→ 食品业务并入 McCormick（2026-03 宣布）→ 集中美妆个护。
+3. 用理论看 McCormick 交易：类型、协同效应、为什么用这种结构、对两家的好处。
+4. **挑战 / 弊端**：监管审批、整合、员工和品牌、交易还没完成的风险；DSC 的教训。
+5. 一句话结论 + 带出 FDI（并购是 FDI 的一种方式，对比新建投资）。
+> 这是帮你看懂的线索，要用你自己的分析和语言写。
+
 ### 已核对的 Unilever 并购事例（可以选 2–3 个用）
 | 事例 | 已核对的事实 | 对应的理论 |
 |---|---|---|
 | **Dollar Shave Club** | 2016 年约 10 亿美元收购；**2023 年 10 月把多数股权卖给 Nexus Capital，保留 35%**；Unilever CEO 承认部分收购（包括 DSC）不成功（[Retail Dive](https://www.retaildive.com/news/unilever-sells-razor-subscription-brand-dollar-shave-club/697913)） | 产品扩展 + 新渠道（线上订阅）；70–90% 失败的例子 |
+| **⭐ 食品业务并入 McCormick** | 2026-03-31 宣布，约 448 亿美元（现金 157 亿 + 股票），Reverse Morris Trust，不含印度，预计 2027 年中完成（[NJBIZ](https://njbiz.com/mccormick-unilever-food-business-44-8b-deal/)） | 剥离 + 协同效应；组长指定的重点 |
 | **冰淇淋业务拆分** | The Magnum Ice Cream Company **2025-12-06 完成分拆，12-08 在阿姆斯特丹、伦敦、纽约上市**，Unilever 保留不到 20%（[MarketScreener](https://www.marketscreener.com/news/unilever-completes-ice-cream-demerger-with-magnum-set-to-list-ce7d51dddc8df620)） | 并购的反面：拆分（demerger），集中核心业务 |
 | **Ben & Jerry's** | 2000 年收购（约 3.26 亿美元，⚠️ 自己用 2000 年新闻核对），保留独立董事会和社会使命；之后多次和母公司公开冲突；现在随冰淇淋业务归 Magnum | 独立运营（standalone）整合方式：保住品牌 vs. 控制难 |
 | Bestfoods | 2000 年收购（约 243 亿美元，⚠️ 自己核对），带来 Knorr、Hellmann's | 横向 + 市场扩展；协同效应 |
