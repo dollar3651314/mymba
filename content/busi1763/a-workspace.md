@@ -1,5 +1,61 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · 10/31）
 
+## 🧭 带读 · 第 4 步（10/21）：英文讲稿要点 + 海报 / PPT 内容
+> 你的结论（10/21）：**总体成功——靠并购把企业做大；但部分收购失败。**
+> 下面的英文是**要点和关键句**，按你的 5 个判断和结论整理，不是逐字稿。练的时候看着要点用自己的话讲，老师说过“no scripts”。
+
+### 英文讲稿要点（约 4 分钟）
+**1. Opening (20 s)**
+- M&A = acquisition (one company buys another) or merger (two similar companies join).
+- Unilever itself was born from a merger in 1929 (Lever Brothers + Margarine Unie).
+
+**2. Growing by buying (60 s)**
+- 2000, Bestfoods (Knorr, Hellmann's), about $24bn → *product-extension*, partly horizontal; aim: more power when negotiating with supermarkets.
+- 2000, Ben & Jerry's → *standalone integration*: own board, own social mission. Benefit: kept the brand. Problem: Unilever could not control it → lawsuits from 2022.
+- 2016, Dollar Shave Club, about $1bn → online, direct to consumers; very different from Unilever's supermarket channel → **no real synergy**.
+
+**3. Turning point (30 s)**
+- 2017: Kraft Heinz tried to buy Unilever; rejected.
+- 2022: Unilever's bid for GSK Consumer Healthcare failed; its own shareholders opposed it → pressure to change.
+
+**4. Growing by selling (60 s)**
+- 2023: sold most of Dollar Shave Club.
+- 2025: ice cream spun off as The Magnum Ice Cream Company.
+- 2026: food business to be combined with McCormick (about $44.8bn, announced March 2026).
+- Theory: spin-off to **release value**; a simpler company avoids the **conglomerate discount**; focus on beauty and personal care.
+
+**5. McCormick deal through M&A theory (40 s)**
+- Type: *horizontal* — both sell seasonings and sauces.
+- Synergy: about $300m cost savings a year expected.
+- Risks: integrating people is the hardest part; regulators must approve; not expected to close until mid-2027.
+
+**6. Conclusion (30 s)**
+- Overall, M&A was a success for Unilever: it used acquisitions to grow into a global giant.
+- But some deals failed, like Dollar Shave Club, because there was no synergy.
+- Link to FDI: cross-border M&A is one way of doing FDI (the other is greenfield).
+
+**常用说法**：“This is an example of…” / “In the language of M&A theory, this is…” / “The lesson here is…” / “Now I hand over to…”
+
+### 海报上你这一支（每个点只写几个词）
+**M&A**
+- Born from a merger (1929)
+- Buy: Bestfoods · Ben & Jerry's · Dollar Shave Club
+- Sell: DSC (2023) · Ice cream → Magnum (2025) · Food → McCormick (2026)
+- Theory: types · synergy · integration · spin-off
+- Lesson: big & related deals worked; no synergy = failure（⚠️ 这句是 Claude 的概括，你同意再用）
+
+### PPT（你这部分建议 2 页）
+- 第 1 页：一条时间线（买 → 转折 → 卖），每个事件一个图标 + 年份 + 金额。
+- 第 2 页：McCormick 交易用理论看（类型 / 协同 / 风险 3 格）+ 结论一句。
+- 参考文献：用到的新闻链接都在“带读 · 第 2 步”里，最后一起整理成 Harvard。
+
+### 答问准备（老师会问你，先准备 4 题；10/28 和 Claude 用英文练）
+1. Why do companies keep doing M&A if 70–90% fail?
+2. Was Dollar Shave Club a failure? Why?
+3. Is selling the food business good for Unilever? Any risks?
+4. What is the difference between M&A and greenfield FDI?
+> 先用中文想答案，练的时候再说英文。
+
 ## 🧭 带读 · 第 3 步（10/21）：你的判断 + Claude 反馈 → 4 分钟大纲
 ### 你的回答（10/21，原话）和反馈
 | 题 | 你的判断 | 反馈 |
