@@ -31,11 +31,11 @@ MBA.readiness = {
     next: '每周做完自测 quiz 就截图发给 Claude，攒错题本；11 月中开始集中复习。',
   },
   'busi1763/a': {
-    status: 'go', pct: 75, done: 25,
-    steps: '定公司 ✅ → 重新分工 ✅（你负责第 4 周）→ FDI / M&A 选一个 ⬜ → 理论用到 Unilever ⬜ → 2 个问答问题 ⬜ → PPT ⬜ → 讲稿要点 ⬜ → 海报 ⬜ → 排练 ⬜ → 10/31 展示 ⬜',
-    have: ['公司 Unilever；<b>你负责第 4 周 FDI / M&A</b>（10/20）', 'M&A 和 FDI 的课件回顾 + Unilever 线索（写作区）', '10/20 老师邮件规则'],
-    missing: ['<b>在 FDI 和 M&A 里定一个</b>（建议 M&A）', '核对 Unilever 并购的金额和年份', '2 个问答问题（10/24 问清是哪种）'],
-    next: '今天定 FDI 还是 M&A，告诉 Claude → 10/23 前核对事例、做你那部分 PPT。',
+    status: 'go', pct: 80, done: 30,
+    steps: '定公司 ✅ → 重新分工 ✅（你负责第 4 周）→ 选定 M&A ✅ → 理论用到 Unilever ⬜ → 2 个问答问题 ⬜ → PPT ⬜ → 讲稿要点 ⬜ → 海报 ⬜ → 排练 ⬜ → 10/31 展示 ⬜',
+    have: ['公司 Unilever；<b>你负责 M&A</b>（10/21 确定）', 'M&A 课件回顾、4 分钟结构、已核对的 Unilever 事例（DSC 出售、冰淇淋拆分）', '10/20 老师邮件规则'],
+    missing: ['你的中文要点（10/23 前）', '核对 Ben & Jerry\'s、Bestfoods、Kraft Heinz 的金额和年份', '2 个问答问题（10/24 问清是哪种）'],
+    next: '10/23 前按写作区的 4 分钟结构，用中文写出要点和 2 个问题发给 Claude。',
   },
   'busi1763/b': {
     status: 'wait', pct: 20,

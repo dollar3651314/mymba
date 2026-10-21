@@ -1,17 +1,47 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · 10/31）
 
-## ✅ 10/20 新分工：你负责第 4 周 FDI / M&A（二选一）
-> 老师邮件：每人从**一对**理论里选 **1 个**（pick 1 out of the 2）。所以你要在 **FDI** 和 **M&A** 里定一个，不是两个都讲。
-> 之前整理的“全球化五个推动力”资料（在下面）可以**交给做第 1 周 Globalisation 的组员**。
+## ✅ 你的部分：M&A 并购（10/21 确定）
+> 第 4 周那一对你选了 **M&A**。FDI 不用讲。告诉组长，并确认没有别人也选 M&A。
 
-### 建议选 M&A（并购）
+### 📌 待办
+| 什么时候 | 做什么 |
+|---|---|
+| 今天 10/21 | 在小组群里说 “I'll take M&A”；问清 4 个人的讲话顺序（你大概是最后一位，接在 MNE 那位后面） |
+| **10/23 前** | 按下面的 4 分钟结构，用**中文**写出你要讲的要点和 2 个问题，发给 Claude 看（我帮你改英文） |
+| 10/24 课上 | 问老师 “2 questions” 是你提问听众，还是准备回答别人的问题 |
+| 10/24 | 小组第一次计时排练 |
+
+### 已核对的 Unilever 并购事例（可以选 2–3 个用）
+| 事例 | 已核对的事实 | 对应的理论 |
+|---|---|---|
+| **Dollar Shave Club** | 2016 年约 10 亿美元收购；**2023 年 10 月把多数股权卖给 Nexus Capital，保留 35%**；Unilever CEO 承认部分收购（包括 DSC）不成功（[Retail Dive](https://www.retaildive.com/news/unilever-sells-razor-subscription-brand-dollar-shave-club/697913)） | 产品扩展 + 新渠道（线上订阅）；70–90% 失败的例子 |
+| **冰淇淋业务拆分** | The Magnum Ice Cream Company **2025-12-06 完成分拆，12-08 在阿姆斯特丹、伦敦、纽约上市**，Unilever 保留不到 20%（[MarketScreener](https://www.marketscreener.com/news/unilever-completes-ice-cream-demerger-with-magnum-set-to-list-ce7d51dddc8df620)） | 并购的反面：拆分（demerger），集中核心业务 |
+| **Ben & Jerry's** | 2000 年收购（约 3.26 亿美元，⚠️ 自己用 2000 年新闻核对），保留独立董事会和社会使命；之后多次和母公司公开冲突；现在随冰淇淋业务归 Magnum | 独立运营（standalone）整合方式：保住品牌 vs. 控制难 |
+| Bestfoods | 2000 年收购（约 243 亿美元，⚠️ 自己核对），带来 Knorr、Hellmann's | 横向 + 市场扩展；协同效应 |
+| Kraft Heinz 2017 | Kraft Heinz 提出收购 Unilever 被拒、**是 Kraft Heinz 撤回**（⚠️ 自己核对金额） | Unilever 作为被收购目标 |
+⚠️ Moodle 往届样例 1 就是 “Unilever M&A”（个人报告）。可以顺着它的来源找资料，**但你的角度要不同**：样例讲“买了什么”，你可以讲 **“买了又卖 → 并购为什么常常失败”**，并和组员的内容连起来。
+
+### 4 分钟结构（建议）
+1. **接上一位（15 秒）**：上一位讲跨国企业怎么成长 → “One fast way for an MNE to grow is M&A.”
+2. **理论（45 秒）**：定义（收购 vs. 合并）；六种类型挑 2 种讲；四种整合方式；“70–90% 失败”。
+3. **Unilever 用理论来看（2 分钟）**：选 2 个事例，每个说清楚：哪种类型 → 哪种整合方式 → 结果（成功还是失败、为什么）。推荐 **Ben & Jerry's（独立运营）+ Dollar Shave Club（买了又卖）**，最后用冰淇淋拆分说明 Unilever 现在在“做减法”。
+4. **好处和弊端（45 秒）**：老师要求讲。好处：快速得到品牌、市场和技术；弊端：溢价高、整合难、文化冲突。
+5. **结论（15 秒）**：一句话总结 M&A 对 Unilever 的意义，交给下一位或结束。
+
+### 2 个问题（先想你自己的答案）
+- 问听众的：①“Unilever bought Dollar Shave Club and then sold it. Was the deal a failure, or a lesson?” ②“If you were Unilever's CEO, would you grow by buying companies or by building your own brands? Why?”
+- 别人可能问你的：“If 70–90% of M&A fails, why does Unilever keep doing it?”——用课件里的理由（速度、现金流、管理层想做大）+ 你自己的看法回答。
+
+> 这是帮你看懂的线索，要用你自己的分析和语言写。
+
+<details><summary>之前的 FDI / M&A 对比（已选定 M&A，留作参考）</summary>
+
 | | M&A 并购 | FDI 对外直接投资 |
 |---|---|---|
-| Unilever 的例子 | **非常多、有数字**：1929 年英荷合并成立；2000 年收购 Bestfoods（约 243 亿美元）、Ben & Jerry's（约 3.26 亿美元）；2016 年 Dollar Shave Club（约 10 亿美元）；2017 年拒绝 Kraft Heinz 收购；2022 年收购 GSK 消费者健康业务被拒；2025 年拆分冰淇淋业务 | 印度子公司 HUL、印尼子公司、在 190 个国家建厂设点 |
-| 课上的理论 | 六种并购类型、四种整合方式、协同效应、70–90% 失败、为什么还要做 | Dunning OLI、四种动机、新建投资 vs. 并购、疫情后区域化 |
-| 好处和弊端（老师要求讲） | 很好讲：快速获得品牌 vs. 溢价高、整合难、文化冲突（Ben & Jerry's） | 好处：贴近市场；弊端：政治、汇率风险 |
-| 注意 | Moodle 往届样例 1 也是 Unilever 并购（个人报告），**可以参考来源，不能照搬** | 和第 1 周全球化（推动力）有重叠，要和组员分清 |
-⚠️ 上表的金额和年份都是线索，**做 PPT 前自己用新闻或年报核对**。
+| Unilever 的例子 | 很多、有数字 | 印度 HUL、印尼子公司 |
+| 课上的理论 | 六种类型、四种整合方式、协同效应、70–90% 失败 | Dunning OLI、四种动机、新建投资 vs. 并购 |
+
+</details>
 
 ### M&A 理论回顾（第 3 讲课件，Moodle 顺序）
 - **定义**：收购（一家买下另一家）vs. 合并（规模相近的两家合成新公司）。
