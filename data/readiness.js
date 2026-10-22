@@ -2,14 +2,14 @@
 // status: go = 条件已够，可以开始做；partial = 可以先做一部分；wait = 还不能开始
 // pct: 资料和条件的完成度（粗略估计）；have: 已经具备的；missing: 还差的（写清楚等谁、哪天）；next: 下一步
 // done: 已经开始写的作业的完成度（%，用户 2026-10-19 要求：开始了就显示完成度）；steps: 完成度的一句话说明。有 done 时首页和作业页显示“写作中 · 完成 X%”
-MBA.readinessUpdated = '2026-10-21';
+MBA.readinessUpdated = '2026-10-22';
 MBA.readiness = {
   'busi1764/a1': {
-    status: 'go', pct: 95, done: 85,
-    steps: '选企业 ✅ → 资料卡 ✅ → 大纲 ✅ → 五个部分初稿 ✅ → 补 11/5 tutorial ⬜ → 核对文献 ✅ → 统稿压字数 ⬜ → Turnitin ⬜ → 提交 ⬜',
-    have: ['<b>五个部分英文初稿全部完成，<b>Word 文档已整理（10/21，Arial，约 1,150 词）</b>，参考文献已经图书馆核对——写作区最上面可以下载', 'tutorial 经历：10/1 Pure Gym 画布、10/15 老龄化练习（真实经历）', '企业 SELCO India；创新 = 上门融资（商业模式创新）；目标国 = 印尼东部，合资进入，Uppsala'],
-    missing: ['10/22 前：在 Moodle 查字数允许范围、是否要 AI 使用声明', '11/5 课后：补第 ④ 部分的 tutorial 经历', '11/7 统稿压字数 → 11/13 Turnitin → 11/16 提交'],
-    next: '先查 Moodle 字数规定；11/5 课后补 tutorial 经历，11/7 定稿。',
+    status: 'go', pct: 95, done: 88,
+    steps: '选企业 ✅ → 资料卡 ✅ → 大纲 ✅ → 五个部分初稿 ✅ → 补 11/5 tutorial ⬜ → 核对文献 ✅ → 压字数（1,084 / 1,100）✅ 待确认 → Turnitin ⬜ → 提交 ⬜',
+    have: ['<b>五个部分英文全文完成</b>，Word 文档已整理，参考文献已经图书馆核对；<b>压缩版 1,084 词（上限 1,100）</b>——写作区最上面可以下载', 'tutorial 经历：10/1 Pure Gym 画布、10/15 老龄化练习（真实经历）', '企业 SELCO India；创新 = 上门融资（商业模式创新）；目标国 = 印尼东部，合资进入，Uppsala'],
+    missing: ['确认压缩版（1,084 词）', '查 Moodle：要不要 AI 使用声明', '11/5 课后：补第 ④ 部分的 tutorial 经历', '11/7 定稿 → 11/13 Turnitin → 11/16 提交（官方 11/17 23:30）'],
+    next: '先看压缩版、告诉 Claude 同不同意；11/5 补 tutorial 经历时只剩约 16 词空间，要同时再删一些。',
   },
   'busi1764/a2': {
     status: 'wait', pct: 35,
