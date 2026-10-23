@@ -162,3 +162,55 @@
 - "We used the Sage case, and three outside sources for egg prices, bird flu and cage-free hens." —— 我们用了 Sage 案例，以及关于蛋价、禽流感和散养母鸡的三个外部来源。
 - "All other numbers are our own calculations from the case." —— 其他数字都是我们根据案例自己算的。
 - "Thank you for listening. We are happy to answer your questions." —— 谢谢大家，欢迎提问。
+
+## 答问 1 · 为什么不买 Canyon Crossing
+- "Why not buy Canyon Crossing?" —— 问：为什么不收购 Canyon Crossing？
+- "It costs more than one billion dollars. That is over our budget." —— 答：它要 10 亿多美元，超出了我们的预算。
+- "It is also our biggest competitor, so there is antitrust risk." —— 它也是我们最大的竞争对手，所以有反垄断风险。
+
+## 答问 2 · 风险分怎么打的
+- "How did you give the risk scores?" —— 问：风险分是怎么打的？
+- "We read the risk and economy columns in the case." —— 答：我们看了案例里的风险和经济两列。
+- "War or civil war got 5. Stable rich countries got 1 or 2." —— 有战争或内战的打 5 分，稳定的富裕国家打 1 或 2 分。
+
+## 答问 3 · r = −0.76 是什么意思
+- "What does r = −0.76 mean?" —— 问：相关系数负 0.76 是什么意思？
+- "It is a strong negative link. When country risk goes up, the price goes down." —— 答：这是很强的负相关。国家风险越高，价格越低。
+
+## 答问 4 · 为什么这样定权重
+- "Why these weights?" —— 问：为什么这样定权重？
+- "Country risk is the biggest danger for a family company going abroad, so it has 25 percent." —— 答：对一家第一次出海的家族企业，国家风险最危险，所以它占 25%。
+
+## 答问 5 · 海外公司算不算进 30%
+- "Do foreign companies count in the 30 percent?" —— 问：海外公司算进 30% 的特色占比吗？
+- "No. Goal two is about the US business only." —— 答：不算。目标二只看美国业务。
+- "So we use factories and cage-free at home." —— 所以我们靠国内的工厂和散养改造。
+
+## 答问 6 · 蛋价暴跌怎么办
+- "What if prices crash?" —— 问：如果蛋价暴跌怎么办？
+- "We still pass 3.5 billion if prices fall up to 38 percent." —— 答：价格跌幅在 38% 以内，我们仍然超过 35 亿。
+- "If they fall more, we buy the Mexican company early." —— 跌得更多的话，我们就提前收购墨西哥公司。
+
+## 答问 7 · 价格数字从哪来
+- "Where do the price numbers come from?" —— 问：价格数字是从哪里来的？
+- "We read them from Figure 1 in the case, so they are close, not exact." —— 答：我们从案例的图 1 上读出来的，所以是近似值，不是精确值。
+
+## 答问 8 · 为什么一年只做一笔交易
+- "Why one deal a year?" —— 问：为什么一年只做一笔收购？
+- "Each deal needs time to join our company." —— 答：每笔收购都需要时间整合进公司。
+- "One a year keeps managers focused and lowers risk." —— 一年一笔能让管理层专注，也降低风险。
+
+## 答问 9 · 营销为什么是 +6%
+- "Why +6% from marketing?" —— 问：营销为什么带来 6% 的增长？
+- "The case says marketing gives a 6 percent upside. It is not clear." —— 答：案例说营销有 6% 的增长空间，但意思不清楚。
+- "So we chose to read it as 6 percent more special egg sales. This is our assumption." —— 所以我们把它理解为特色鸡蛋销售多 6%。这是我们的假设。
+
+## 答问 10 · global 是什么意思
+- "What does global mean in your plan?" —— 问：你们方案里的“全球化”是什么意思？
+- "The case does not say." —— 答：案例没有说。
+- "We defined it as four or more continents and about half of revenue from new markets." —— 我们把它定义为覆盖四个以上大洲，约一半收入来自新市场。
+
+## 答问 11 · r = −0.76 能证明因果吗
+- "Does r = −0.76 prove that risk makes companies cheap?" —— 问：负 0.76 能证明风险导致公司便宜吗？
+- "No. It is only 19 points, we gave the risk scores ourselves, and correlation is not cause." —— 答：不能。只有 19 个数据点，风险分是我们自己打的，而且相关不等于因果。
+- "It is a pattern that helps us ask the right questions." —— 它只是一个规律，帮助我们提出对的问题。
