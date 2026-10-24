@@ -35,28 +35,12 @@
 - "It is fast. A company can get new brands, new customers and new markets quickly." —— 答：速度快，能很快得到新品牌、新客户和新市场。
 - "Some managers also want to make the company bigger." —— 也有一些经理想把公司做大。
 
-## 答问 2 · Dollar Shave Club 失败了吗
-- "Was Dollar Shave Club a failure? Why?" —— 问：Dollar Shave Club 算失败吗？为什么？
-- "Yes, mostly. Unilever bought it in 2016 because it wanted to learn online selling, but it was very different from its supermarket business." —— 答：基本算。Unilever 2016 年买它是想学网上直销，但这和它的超市生意差别很大。
-- "There was little synergy, so it sold most of it after seven years." —— 协同很少，所以七年后卖掉了大部分。
-
-## 答问 3 · 为什么买 Paula's Choice 和 Dr. Squatch
+## 答问 2 · 为什么买 Paula's Choice 和 Dr. Squatch
 - "Why does Unilever buy brands like Paula's Choice and Dr. Squatch?" —— 问：Unilever 为什么买 Paula's Choice 和 Dr. Squatch 这样的品牌？
 - "They are premium brands that grow fast. Paula's Choice is strong online." —— 答：它们是增长快的高端品牌，Paula's Choice 在网上很强。
 - "This fits Unilever's plan to focus on beauty and personal care." —— 这符合 Unilever 聚焦美妆和个护的计划。
 
-## 答问 4 · 卖掉食品业务是好事吗
+## 答问 3 · 卖掉食品业务是好事吗
 - "Is selling the food business good for Unilever?" —— 问：卖掉食品业务对 Unilever 是好事吗？
 - "I think yes. Food grows slowly, and the cash can buy faster-growing beauty brands." —— 答：我认为是。食品增长慢，现金可以去买增长更快的美妆品牌。
 - "The risk is that the deal is not finished until 2027, and regulators must agree." —— 风险是交易 2027 年才完成，而且要监管机构批准。
-
-## 答问 5 · McCormick 交易是哪种类型
-- "What type of deal is McCormick and Unilever Foods?" —— 问：McCormick 和 Unilever 食品业务的交易属于哪种类型？
-- "Horizontal, because both sell seasonings and sauces." —— 答：横向并购，因为两家都卖调味品和酱料。
-- "The synergy is about 300 million dollars of cost savings a year." —— 协同效应是每年节省约 3 亿美元成本。
-
-## 答问 6 · 并购和新建投资的区别
-- "What is the difference between M&A and greenfield FDI?" —— 问：并购和新建投资（greenfield FDI）有什么区别？
-- "In M&A, you buy a company that already exists." —— 答：并购是买一家已经存在的公司。
-- "In greenfield FDI, you build your own new factory or office in another country." —— 新建投资是在另一个国家自己建新工厂或办公室。
-- "M&A is faster, greenfield gives more control." —— 并购更快，新建投资控制力更强。
