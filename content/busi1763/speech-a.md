@@ -1,4 +1,4 @@
-# Unilever M&A · 演讲稿跟读（2026-10-21）
+# Unilever M&A · 演讲稿跟读（第二版 2026-10-24，时间范围 2020–2026；你是第 4 位讲）
 > 来自 `files/Unilever_MA_Script.docx`。按页、按句拆开，在“跟读练习”里练。演讲稿改了要同步改这里，然后运行 `node scripts/build-practice.mjs` 和 `build-audio.py`。
 
 ## 第 1 页 · 什么是 M&A
@@ -13,21 +13,17 @@
 - "But research says 70 to 90 percent of deals fail, mostly because joining two companies is hard." —— 但研究说 70% 到 90% 的并购会失败，主要因为两家公司很难整合。
 - "One more point: when a company buys a firm in another country, this is also a kind of FDI." —— 还有一点：公司在另一个国家收购企业，这也是一种 FDI。
 
-## 第 2 页 · 从“买”到“卖”
-- "Unilever is a good example. It was born from a merger in 1929." —— Unilever 是个好例子。它本身就是 1929 年一次合并的产物。
-- "The merger was between a British soap company and a Dutch margarine company." —— 合并的是一家英国肥皂公司和一家荷兰人造黄油公司。
-- "First, Unilever grew by buying." —— 首先，Unilever 靠收购变大。
-- "In 2000, it bought Bestfoods, with brands like Knorr and Hellmann's, for 24.3 billion dollars." —— 2000 年，它花 243 亿美元买下 Bestfoods，旗下有 Knorr 和 Hellmann's 等品牌。
-- "We see this as product-extension: related products, sold to the same supermarkets." —— 我们认为这是产品扩展型：相关的产品，卖给同一批超市。
-- "It gave Unilever more power with supermarkets." —— 这让 Unilever 和超市谈判时更有筹码。
-- "In the same year, it bought Ben & Jerry's. Ben & Jerry's kept its own board, so it was standalone." —— 同一年，它买下 Ben & Jerry's。Ben & Jerry's 保留了自己的董事会，所以是独立运营。
-- "This kept the brand strong, but Unilever could not control it, and later they went to court." —— 这保住了品牌，但 Unilever 控制不了它，后来双方打了官司。
-- "In 2016, it bought Dollar Shave Club for about one billion dollars, to learn how to sell online." —— 2016 年，它花约 10 亿美元买下 Dollar Shave Club，想学会在网上卖东西。
-- "But selling online is very different from selling in supermarkets, so there was no real synergy." —— 但网上卖和在超市卖差别很大，所以没有产生真正的协同效应。
-- "Then came a turning point. In 2017, Kraft Heinz tried to buy Unilever." —— 然后出现了转折。2017 年，Kraft Heinz 想收购 Unilever。
-- "In 2022, Unilever tried to buy GSK's consumer health business, but the offer failed and its own shareholders did not like the plan." —— 2022 年，Unilever 想买 GSK 的消费者健康业务，但没有成功，它自己的股东也不喜欢这个计划。
-- "So Unilever started to sell. It sold most of Dollar Shave Club in 2023." —— 于是 Unilever 开始卖。2023 年卖掉了 Dollar Shave Club 的大部分股权。
-- "It spun off its ice cream business as Magnum in 2025." —— 2025 年把冰淇淋业务分拆成了 Magnum。
+## 第 2 页 · 2020–2026：买美妆、卖食品
+- "Our group looks at 2020 to 2026." —— 我们组分析的是 2020 到 2026 年。
+- "Before 2020, Unilever grew by buying many companies, such as Bestfoods, Ben & Jerry's and Dollar Shave Club." —— 2020 年以前，Unilever 靠收购很多公司做大，比如 Bestfoods、Ben & Jerry's 和 Dollar Shave Club。
+- "Since 2020, Unilever has been changing its shape: it buys beauty and personal care brands, and it sells food." —— 2020 年以来，Unilever 在改变自己的样子：买美妆和个护品牌，卖食品。
+- "In 2021, it bought Paula's Choice, a skincare brand that grew online, for about 1.8 billion euros." —— 2021 年，它花约 18 亿欧元买下网上起家的护肤品牌 Paula's Choice。
+- "In 2025, it bought Dr. Squatch, a men's grooming brand, for about 1.5 billion dollars, as reported in the news." —— 2025 年，它买下男士个护品牌 Dr. Squatch，据媒体报道约 15 亿美元。
+- "In 2022, it tried to buy GSK's consumer health business for 50 billion pounds." —— 2022 年，它想花 500 亿英镑买 GSK 的消费者健康业务。
+- "GSK said no, and Unilever's own shareholders did not like the plan, so Unilever stopped." —— GSK 拒绝了，Unilever 自己的股东也不喜欢这个计划，于是 Unilever 放弃了。
+- "At the same time, Unilever started to sell. In 2023, it sold most of Dollar Shave Club." —— 同时，Unilever 开始卖。2023 年，它卖掉了 Dollar Shave Club 的大部分股权。
+- "Selling online was very different from selling in supermarkets, so there was no real synergy." —— 网上卖和在超市卖差别很大，所以没有真正的协同效应。
+- "In 2025, it spun off its ice cream business as Magnum." —— 2025 年，它把冰淇淋业务分拆成了 Magnum。
 - "And in 2026, it agreed to combine its food business with McCormick." —— 2026 年，它同意把食品业务和 McCormick 合并。
 
 ## 第 3 页 · 用并购理论看 McCormick 交易
@@ -40,12 +36,13 @@
 - "The synergy is about 300 million dollars of cost savings a year." —— 协同效应是每年节省约 3 亿美元成本。
 - "But there are risks. Joining the people is the hardest part." —— 但也有风险。人员整合是最难的部分。
 - "Regulators must agree. And the deal is not expected to close until mid-2027." —— 要得到监管机构批准，而且交易预计 2027 年年中才能完成。
-- "My conclusion: overall, M&A was a success for Unilever. It helped Unilever grow into a global giant." —— 我的结论：总体来说，并购对 Unilever 是成功的，它帮助 Unilever 成为全球巨头。
+- "My conclusion: overall, M&A is a success for Unilever." —— 我的结论：总体来说，并购对 Unilever 是成功的。
+- "It helped Unilever grow, and now it helps Unilever focus on beauty and personal care." —— 它帮 Unilever 做大，现在又帮它聚焦美妆和个护。
 - "But deals with no synergy, like Dollar Shave Club, failed." —— 但没有协同效应的收购，比如 Dollar Shave Club，失败了。
 
 ## 第 4 页 · 参考文献
 - "My sources are on this slide, in Harvard style." —— 我的资料来源都在这页，用的是 Harvard 格式。
-- "Thank you. Now I hand over to the next speaker." —— 谢谢，下面交给下一位同学。
+- "That is the end of our presentation. Thank you. We are happy to answer your questions." —— 我们的展示到此结束。谢谢大家，欢迎提问。
 
 ## 答问 1 · 为什么失败率高还要做并购
 - "Why do companies still do M&A if 70 to 90 percent fail?" —— 问：既然 70% 到 90% 的并购会失败，公司为什么还要做？
@@ -54,13 +51,13 @@
 
 ## 答问 2 · Dollar Shave Club 失败了吗
 - "Was Dollar Shave Club a failure? Why?" —— 问：Dollar Shave Club 算失败吗？为什么？
-- "Yes, mostly. Unilever wanted to learn online selling, but it was very different from its supermarket business." —— 答：基本算。Unilever 想学网上直销，但这和它的超市生意差别很大。
+- "Yes, mostly. Unilever bought it in 2016 because it wanted to learn online selling, but it was very different from its supermarket business." —— 答：基本算。Unilever 2016 年买它是想学网上直销，但这和它的超市生意差别很大。
 - "There was little synergy, so it sold most of it after seven years." —— 协同很少，所以七年后卖掉了大部分。
 
-## 答问 3 · Ben & Jerry's 为什么独立运营
-- "Why was Ben & Jerry's standalone?" —— 问：Ben & Jerry's 为什么是独立运营？
-- "The deal said Ben & Jerry's keeps its own board and social mission." —— 答：收购合同规定 Ben & Jerry's 保留自己的董事会和社会使命。
-- "Good: the brand stayed strong. Bad: Unilever could not control it, and they went to court." —— 好处是品牌保住了；坏处是 Unilever 控制不了它，双方还打了官司。
+## 答问 3 · 为什么买 Paula's Choice 和 Dr. Squatch
+- "Why does Unilever buy brands like Paula's Choice and Dr. Squatch?" —— 问：Unilever 为什么买 Paula's Choice 和 Dr. Squatch 这样的品牌？
+- "They are premium brands that grow fast. Paula's Choice is strong online." —— 答：它们是增长快的高端品牌，Paula's Choice 在网上很强。
+- "This fits Unilever's plan to focus on beauty and personal care." —— 这符合 Unilever 聚焦美妆和个护的计划。
 
 ## 答问 4 · 卖掉食品业务是好事吗
 - "Is selling the food business good for Unilever?" —— 问：卖掉食品业务对 Unilever 是好事吗？
