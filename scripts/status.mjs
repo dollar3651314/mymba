@@ -36,11 +36,11 @@ const notes = held.filter(o => o.w.rec && !existsSync(`${root}content/${o.m.id}/
 console.log(`\n② 收到录音但还没写笔记（${notes.length}）`); notes.forEach(o => console.log(line(o)));
 
 const soon = all.filter(o => endOf(o.x) > now && o.x.d <= addDays(today, 7));
-const noPre = soon.filter(o => !o.w.pre);
+const noPre = soon.filter(o => !o.w.pre && !o.w.noPre);
 console.log(`\n③ 7 天内要上、还没有预习包（${noPre.length}）——提醒用户下载课件`); noPre.forEach(o => console.log(line(o)));
-console.log(`\n   7 天内全部课程（${soon.length}）`); soon.forEach(o => console.log(line(o) + (o.w.pre ? '  ✓预习包' : '')));
+console.log(`\n   7 天内全部课程（${soon.length}）`); soon.forEach(o => console.log(line(o) + (o.w.pre ? '  ✓预习包' : o.w.noPre ? '  （不用预习）' : '')));
 
-const nextWeek = all.filter(o => o.x.d > addDays(today, 7) && o.x.d <= addDays(today, 14) && !o.w.pre);
+const nextWeek = all.filter(o => o.x.d > addDays(today, 7) && o.x.d <= addDays(today, 14) && !o.w.pre && !o.w.noPre);
 console.log(`\n④ 8–14 天后的课（可以提前让用户下载）（${nextWeek.length}）`); nextWeek.forEach(o => console.log(line(o)));
 
 const items = M.modules.flatMap(m => [

@@ -109,7 +109,7 @@
   function pendingPreviews(days = 7) {
     const limit = new Date(today().getTime() + days * DAY);
     return M.modules.flatMap(m => (m.sessions || []).filter(x => !held(x) && parseDate(x.d) <= limit).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
-      .filter(o => !o.w?.pre).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+      .filter(o => !o.w?.pre && !o.w?.noPre).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
   }
   function pendingRecordings() {
     return M.modules.flatMap(m => (m.sessions || []).filter(x => held(x) && !m.weeks.find(w => w.n === x.n)?.rec).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
@@ -238,7 +238,7 @@
           <div class="card-title"><h3><a href="#/w/${m.id}/${x.n}">${esc(m.code)} · 第 ${x.n} 次课</a></h3>${isToday ? '<span class="pill danger">今天</span>' : `<span class="pill">${p.done}/${p.total}</span>`}</div>
           <p class="small" style="margin-bottom:4px">${esc(sessLabel(x))} · 教室 ${esc(x.room)}（或 Zoom）</p>
           <p>${esc(wkData?.zh || '')}<br><span class="en">${esc(wkData?.en || '')}</span></p>
-          <p class="small">${wkData?.pre ? `<a href="#/w/${m.id}/${x.n}">📘 预习包已准备好，点这里预习 ›</a>` : '<span style="color:var(--warn)">还没有预习包：请下载这周课件发给 Claude</span>'}</p>
+          <p class="small">${wkData?.pre ? `<a href="#/w/${m.id}/${x.n}">📘 预习包已准备好，点这里预习 ›</a>` : wkData?.noPre ? '<span class="muted">这次课不用预习（' + esc(wkData.noPre) + '）</span>' : '<span style="color:var(--warn)">还没有预习包：请下载这周课件发给 Claude</span>'}</p>
           ${tasks.map(k => checkbox(k.k, k.t)).join('')}
         </div>`;
       }
