@@ -78,6 +78,17 @@
 - Greenland, S. et al. (2016) 'Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations', *European Journal of Epidemiology*, 31, pp. 337–350.
 - Kim, J., Kim, D.H. and Kwak, S.G. (2024) 'Comprehensive guidelines for appropriate statistical analysis methods in research', *Korean Journal of Anesthesiology*, 77(5), pp. 503–517.
 
+### 第 6 次课录音补充（10/24）：怎么评估一份报告（McKinsey 2018 多元化报告）
+> 出自第 6 次课笔记。这是评估 Bain 报告最直接能套用的方法——**是你分析的框架，内容要自己写**。
+| 评估角度 | 老师怎么评 McKinsey 报告 | 拿来问 Bain 报告 |
+|---|---|---|
+| 研究设计 | 1,000 多家公司、12 国、2015 年起收集 → 样本大、更有代表性 | Bain 的样本有多大？哪些国家、行业？怎么选的？ |
+| 相关 vs. 因果 | 只证明“相关”；可能反向因果（赚钱的公司才做多元化）、跨国公司本身更多元也更赚钱 | Bain 的结论是“相关”还是说成了“因果”？有没有其他解释？ |
+| 控制其他因素 | 没控制市场、战略、经济周期；应该用回归 + 控制变量、自然实验、对照组（苹果比苹果） | Bain 比较的公司可比吗？有没有控制规模、行业？ |
+| 数据来源和偏差 | 多元化数据是**自我报告**，各行业差别大 | Bain 的调查数据是谁填的？可能有什么偏差？ |
+| 只看总体数字的陷阱 | 女性比例上升，但集中在支持性岗位，不在通往高层的一线岗位 | Bain 的平均数 / 总体比例会不会掩盖细分差异？ |
+| 结论措辞 | 只能说“强相关”，不能说“证明了” | Bain 的标题是不是说得太满？ |
+
 ### 第 7、8 讲课件补充（10/13 收到）
 > 这是帮你看懂的线索，要用你自己的分析和语言写。详细内容见第 7 次课（时间序列）、第 8 次课（简单回归）预习包。Moodle 把这两讲的周次放反了，网站按课件封面的讲次排。
 
