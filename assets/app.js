@@ -227,7 +227,13 @@
         <div class="grow"><a href="#/w/${m.id}/${x.n}">${esc(m.code)} 第 ${x.n} 次课</a><div class="small muted">${esc(w?.zh || '')} · ${esc(x.t)}</div></div></li>`).join('')}</ul></div>`;
     }
     h += `<h2>接下来的课 <span class="pill accent">${esc(t.name)}</span></h2>`;
-    const upcomingSess = termMods.map(m => ({ m, x: nextSession(m) })).filter(o => o.x).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
+    // 每门课列出未来 7 天内的所有课（一周两次课的都显示）；7 天内没课的，显示下一次课
+    const weekLimit = new Date(today().getTime() + 7 * DAY);
+    const upcomingSess = termMods.flatMap(m => {
+      const soon = (m.sessions || []).filter(x => !held(x) && parseDate(x.d) <= weekLimit);
+      const nx = nextSession(m);
+      return (soon.length ? soon : nx ? [nx] : []).map(x => ({ m, x }));
+    }).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
     if (upcomingSess.length) {
       for (const { m, x } of upcomingSess) {
         const wkData = m.weeks.find(w => w.n === x.n);
