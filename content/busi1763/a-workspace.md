@@ -18,7 +18,7 @@
 <a class="btn" href="/content/busi1763/files/Unilever_MA_EN.pptx" download>⬇️ 英文 PPT（展示用）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_CN.pptx" download>⬇️ 中文 PPT（对照）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_Script.docx" download>⬇️ 中英对照演讲稿（Word）</a>
-<a class="btn ghost" href="#/practice/busi1763/speech">🎧 逐句跟读演讲稿</a>
+<a class="btn ghost" href="#/practice/busi1763/speech">🎧 逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
 
 - **答问精简（10/24）**：6 道删掉最难的 3 道（Dollar Shave Club 为什么失败、McCormick 交易是哪种类型、并购和新建投资的区别），保留 3 道：① 失败率高为什么还做并购 ② 为什么买 Paula's Choice 和 Dr. Squatch ③ 卖掉食品业务是好事吗。前两道当“你的 2 个问题”，第 3 道备用。

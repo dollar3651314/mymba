@@ -17,7 +17,7 @@
 <a class="btn" href="/content/comp1913/files/AmEgg_Group_Presentation_EN.pptx" download>⬇️ 英文 PPT（上交用）</a>
 <a class="btn ghost" href="/content/comp1913/files/AmEgg_Group_Presentation_CN.pptx" download>⬇️ 中文 PPT（演讲参照）</a>
 <a class="btn ghost" href="/content/comp1913/files/AmEgg_Speech_Script.docx" download>⬇️ 演讲稿（Word）</a>
-<a class="btn ghost" href="#/practice/comp1913/speech">🎧 逐句跟读演讲稿</a>
+<a class="btn ghost" href="#/practice/comp1913/speech">🎧 逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
 
 > 手机上点了会下载，用 PowerPoint / Word / WPS 打开。以后改了新版本发给 Claude，会替换这里的文件。

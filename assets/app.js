@@ -561,6 +561,7 @@
     tts.speak(u);
   }
   function speak(text, onend, rate) {
+    document.querySelectorAll('audio.pr-long').forEach(x => x.pause());
     const id = ++prSpeakId;
     prAudio.pause(); tts && tts.cancel();
     const url = audioUrl(text);
@@ -583,6 +584,13 @@
       setTimeout(() => { if (prPlay === token) playFrom(i + 1); }, gap);
     });
   }
+  document.addEventListener('play', e => {
+    const el = e.target;
+    if (!el.classList || !el.classList.contains('pr-long')) return;
+    stopPlay();
+    el.playbackRate = AR[Number(store.get('pr:rate', 0.85))] || 0.9;
+    if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title: el.dataset.title || '演讲稿跟读', artist: 'MBA 学习助手' });
+  }, true);
   views.practice = (mid, wn) => {
     if (mid !== undefined) pr = wn === 'speech' ? { ...pr, m: mid || '', w: '', k: 'speech' } : { ...pr, m: mid || '', w: wn ? String(wn) : '', k: '' };
     const mods = M.modules.map(m => `<button class="chip ${pr.m === m.id ? 'on' : ''}" data-pr-m="${m.id}">${esc(m.code)}</button>`).join('');
@@ -613,7 +621,11 @@
     const list = practiceItems().filter(x => (!pr.m || x.m === pr.m) && (!pr.k || x.k === pr.k)
       && (near ? (x.w && near.has(x.m + ':' + x.w)) : (!pr.w || String(x.w) === pr.w)) && !(pr.hideDone && done.has(x.id)));
     const label = x => [x.m ? mod(x.m)?.code : '', x.w ? `第 ${x.w} 周` : '', x.k === 'speech' ? (mod(x.m)?.assessments || []).find(a => a.id === x.a)?.zh + '演讲稿' : PK[x.k]].filter(Boolean).join(' · ');
-    box.innerHTML = `<p class="small muted">共 ${list.length} 条（${pr.w === 'near' ? '只算未来 7 天要上的课' : pr.w ? `第 ${pr.w} 周` : '所有周'}）${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
+    const sa = pr.k === 'speech' && pr.m ? Object.entries(M.speechAudio || {}).filter(([k]) => k.startsWith(pr.m + '/')) : [];
+    const saHtml = sa.map(([k, v]) => { const a = asmt(mod(pr.m), k.split('/')[1]); return `<div class="card"><h3>🎧 整段连续跟读（手机锁屏也能播）</h3>
+        <p class="small muted">${esc(a ? a.zh : '')}演讲稿 ${v.n} 句，约 ${Math.round(v.sec / 60)} 分钟：每句读完会停一会儿，留时间给你跟着说一遍。锁屏后会继续播放，可以在锁屏界面暂停。</p>
+        <audio class="pr-long" controls preload="none" src="${esc(v.src)}" data-title="${esc((a ? a.zh : '') + '演讲稿 · 连续跟读')}" style="width:100%"></audio></div>`; }).join('');
+    box.innerHTML = saHtml + `<p class="small muted">共 ${list.length} 条（${pr.w === 'near' ? '只算未来 7 天要上的课' : pr.w ? `第 ${pr.w} 周` : '所有周'}）${near && !list.length ? '。未来 7 天的课没有可练的句子，换成“所有周”看看' : ''}</p>` + list.slice(0, 300).map(x => `<div class="card pr-item ${done.has(x.id) ? 'done' : ''}" data-say="${esc(x.en)}">
         <div class="pr-row"><button class="pr-say" aria-label="朗读">🔊</button>
         <div class="grow"><div class="pr-en">${esc(x.en)}</div>
         <div class="pr-zh ${showZh ? '' : 'hid'}">${x.zh ? esc(x.zh) : '<span class="muted">（中文待补）</span>'}${x.x && x.k !== 'phrase' ? `<div class="small muted">${esc(x.x)}</div>` : ''}</div>
@@ -797,7 +809,7 @@
   document.addEventListener('change', e => {
     const t = e.target;
     if (t.id === 'pr-w') { pr.w = t.value; stopPlay(); renderPractice(); }
-    if (t.id === 'pr-rate') store.set('pr:rate', Number(t.value));
+    if (t.id === 'pr-rate') { store.set('pr:rate', Number(t.value)); document.querySelectorAll('audio.pr-long').forEach(x => { x.playbackRate = AR[Number(t.value)] || 0.9; }); }
     if (t.id === 'pr-acc') store.set('pr:accent', t.value);
     if (t.id === 'pr-zh') { store.set('pr:zh', t.checked); renderPractice(); }
     if (t.id === 'pr-hide') { pr.hideDone = t.checked; renderPractice(); }
