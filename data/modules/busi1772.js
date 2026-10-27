@@ -23,7 +23,7 @@ MBA.addModule({
     { d: '2026-10-05', t: '做完第 1、2 周自测 quiz（还没做的话），截图题目和答案发给 Claude' },
     { d: '2026-10-06', t: '去 Canvas 公告下载老师上传的封面页（cover sheet）、AI 声明表（AI declaration）模板和引用指南，发给 Claude' },
     { d: '2026-11-03', t: '（10/26、10/27 都没问到）问老师，或<b>直接发邮件给 Dr Roy</b>：<b>Quiz 哪天做、限时多久</b>（10/26 老师说链接已建好、开卷、正在试）？论文详细 rubric 在哪里看？AI 内容超过 20% 具体怎么扣分？' },
-    { d: '2026-10-31', t: '去 Moodle 第 2 周把<b>录播讲座、课件、必读、推荐阅读和支持文件</b>都下载下来（10/27 老师说论文要主要基于 Moodle 材料），发给 Claude' },
+    { d: '2026-10-31', t: '（可选）看一眼 Moodle 第 2 周有没有 <b>10/2 之后新加的文件</b>：Claude 已有第 2 周讲座课件、tutorial 课件、Friedman 1970、Vogel 2005 第 1/2/7 章（10/2 收到）；有新文件再发' },
   ],
   people: [
     { role: '讲师', name: 'Dr Roy Yap', email: 'ryap@lsbf.edu.sg' },
