@@ -2,6 +2,9 @@
 
 > 每次和 Claude 对话后更新。最新的在最上面。
 
+## 2026-10-30
+- 收到 BUSI 1764 A1 老师模板（Assignment 1 Learning Diary Template）。按模板排好：封面 → AI 声明 → 学号 + 目录（Word 域，打开后更新）→ 正文 5 部分（第 1、5 部分标题改成 Introduction and Venture Overview / Conclusion and Learning Reflection）→ 参考文献 11 条 → 附录 A 商业模式画布（空表）。正文与定稿一致，1,094 词。存到 `content/busi1764/files/A1_Learning_Diary_SELCO_Template.docx`。用户要自己填：学号 / Banner ID（两处）、AI 声明 YES/NO、更新目录、附录画布、确认讲师名（模板写 Dr. Albert Ng）。
+
 ## 2026-10-29
 - 收到 BUSI 1764 第 6 次课（10/29）录音文字稿（中等）→ `transcripts/busi1764-week-06.md`、`content/busi1764/week-06.md`；第 6 周 rec / notes = true。内容：VRIO、先行者优势、Porter 一般竞争战略、规模经济、进入方式（合资 49/51）、INV 团队和文化、新 / 小 / 外来者劣势、融资（内部、外部、bootstrapping、众筹、按收入分成）。⭐ 老师：**A1 日志写到第 6 次课为止**（11/5 内容不用补）；建议“每周理论 + 用到企业上”先列表；Moodle 有日志样例；会上传封面页 + AI 声明模板，加目录；**Turnitin 多次提交，新加坡时间 11:00–13:00 交最快**；A2 12/8，下周讲要求。作业：Discussion 6.1 融资案例 + Airbnb / Uber 二选一。A1 现在用到第 1、2、4 周，没用到第 3、5、6 周 → 11/13 看样例后再决定（字数只剩约 10 词）。
 

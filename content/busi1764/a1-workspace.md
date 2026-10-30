@@ -17,6 +17,19 @@
 3. 看是哪些句子重合，不只看百分比：参考文献、加引号标出处的引文、常见短语不用管；**自己写的连续两句以上和网上原文几乎一样**的才要改写。
 4. 不要用网上免费查重网站（可能存你的文章，反而在 Turnitin 里撞上）。Turnitin 也会检测 AI 写作 → AI 使用声明如实填写。
 
+## 📎 按老师模板排好的版本（10/30，点击下载）
+<p><a class="btn" href="/content/busi1764/files/A1_Learning_Diary_SELCO_Template.docx" download>⬇️ A1 学习日志（老师模板版 Word）</a></p>
+
+按 10/30 收到的 *Assignment 1 Learning Diary Template* 排版：封面 → AI 使用声明 → 学号信息 + 目录 → 正文 5 部分（标题改成“1. Introduction and Venture Overview”“5. Conclusion and Learning Reflection”，对应模板的 Introduction / Conclusion；其他 3 个标题不变）→ 参考文献（11 条）→ 附录 A 商业模式画布（空表）。正文和定稿一字不差，**共 1,094 词**（含小标题和括号引用，上限 1,100）。
+
+**要你自己填的（文件里留空）**：
+1. 封面：**LSBF Student ID**、**UOG Banner ID**
+2. AI 使用声明：每一行选 **YES 或 NO**（如实填写）；红字的三条说明不适用的删掉；“summarise the following articles”选 YES 的话写上文章名
+3. 目录页上面：**Student ID Number**、**UOG Banner ID Number**（红字占位）
+4. 目录：在 Word 里点目录 → 右键 **更新域（Update Field）** → 自动出页码
+5. **附录 A 商业模式画布**：空表，9 格自己填（正文写了“改变了收入来源、客户关系、关键伙伴三格”，画布要和它一致）；不想要附录就整页删掉，目录也更新一下
+6. 封面讲师名字模板写的是 **Dr. Albert Ng**——确认是不是你的老师
+
 ## ✂️ 压缩字数（10/22 第二版，✅ 用户已确认）：1,260 → 1,090 词
 > 字数上限 **1,100**（1,000 + 10%，用户 10/22 确认）。按“正文 + 小标题 + 括号引用”算 **1,090 词**；不算括号引用约 997 词。
 > 用户要求：**第 ① 企业概况和第 ⑤ 反思一个字不动**，只压第 ②③④ 部分。只删重复和次要的话，没有加新内容。
