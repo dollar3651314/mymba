@@ -20,7 +20,7 @@
 ## 📎 按老师模板排好的版本（10/30 重排版，点击下载）
 <p><a class="btn" href="/content/busi1764/files/A1_Learning_Diary_SELCO_Template.docx" download>⬇️ A1 学习日志（老师模板版 Word）</a></p>
 
-按 10/30 收到的 *Assignment 1 Learning Diary Template* 排版：封面 → AI 使用声明 → 学号信息 + 目录 → 正文 5 部分（标题改成“1. Introduction and Venture Overview”“5. Conclusion and Learning Reflection”，对应模板的 Introduction / Conclusion；其他 3 个标题不变）→ 参考文献（11 条）→ 附录 A 商业模式画布（空表）。**10/30 重排**：目录每条一行、点线连到页码（不再有 ↓ 换行符）；目录后面直接接正文，不留半页空白；正文 Arial 11、1.5 倍行距、段后 6 磅，标题深蓝加粗（和模板“Table of Contents”同色）；参考文献、附录各自另起一页。正文和定稿一字不差，**共 1,094 词**（含小标题和括号引用，上限 1,100）。
+按 10/30 收到的 *Assignment 1 Learning Diary Template* 排版：封面 → AI 使用声明 → 学号信息 + 目录 → 正文 5 部分（标题改成“1. Introduction and Venture Overview”“5. Conclusion and Learning Reflection”，对应模板的 Introduction / Conclusion；其他 3 个标题不变）→ 参考文献（11 条）→ 附录 A 商业模式画布（空表）。**10/30 重排**：目录每条一行、点线连到页码（不再有 ↓ 换行符）；目录后面直接接正文，不留半页空白；正文 Arial 11、1.5 倍行距、段后 6 磅，标题深蓝加粗（和模板“Table of Contents”同色）；参考文献、附录各自另起一页；所有页统一成 A4（模板原来第 1 页是 Letter 尺寸，Word 里两页之间像台阶）。正文和定稿一字不差，**共 1,094 词**（含小标题和括号引用，上限 1,100）。
 
 **要你自己填的（文件里留空）**：
 1. 封面：**LSBF Student ID**、**UOG Banner ID**
