@@ -3,6 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-10-30
+- A1 模板版 Word 用户嫌难看 → 重排：目录改成一条一行 + 点线 + 页码（去掉 ↓ 换行符），目录后直接接正文（不再单独一页空着），正文 Arial 11 / 1.5 倍行距 / 段后 6 磅，标题 Arial 12 深蓝加粗，参考文献 1.15 倍行距悬挂缩进。仍是 1,094 词、学号已遮盖。网站下载按钮同一文件名，已覆盖。
 - 收到 BUSI 1764 A1 老师模板（Assignment 1 Learning Diary Template）。按模板排好：封面 → AI 声明 → 学号 + 目录（Word 域，打开后更新）→ 正文 5 部分（第 1、5 部分标题改成 Introduction and Venture Overview / Conclusion and Learning Reflection）→ 参考文献 11 条 → 附录 A 商业模式画布（空表）。正文与定稿一致，1,094 词。存到 `content/busi1764/files/A1_Learning_Diary_SELCO_Template.docx`。用户要自己填：学号 / Banner ID（两处）、AI 声明 YES/NO、更新目录、附录画布、确认讲师名（模板写 Dr. Albert Ng）。
 
 ## 2026-10-29
