@@ -1,6 +1,59 @@
-# ✍️ 我的写作区：Mind Map 小组展示（Unilever · 10/31）
+# ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## ⭐ 10/24 老师交代（第 5 次课录音）→ 你要改的地方
+## ⭐ 新版（10/31）：四人完整 PPT + Mind Map + 演讲稿 + 问答 —— 现在就练
+<p>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>⬇️ 全组 PPT（15 页，英文）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>⬇️ PPT 的 PDF（手机看）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ 四人演讲稿 + 8 个问答（中英对照 Word）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ Mind Map（A1 打印版 PDF）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pptx" download>⬇️ Mind Map（可编辑 PPT）</a>
+<a class="btn" href="#/practice/busi1763/speech">🎧 你的 FDI 部分：逐句跟读 / 整段连续跟读（锁屏可播）</a>
+</p>
+
+<img src="/content/busi1763/files/Unilever_MindMap.jpg" alt="Unilever Mind Map" style="width:100%;border-radius:8px">
+
+**10/31 老师不同意原来的演讲稿**，要求（用户 10/31 说）：公司还是 Unilever；4 个主题；**数据年份 2020–2025**；一张 Mind Map；**每人 ≤ 4 分钟**；**每个主题 2 个问答**。老师对你原来第 4 部分的两条意见，新版**全组都照做**：
+1. **只说年份、没有月份 → 不准确**：每件事都写成“月 + 年”（如 Aug 2021、Dec 2025）。
+2. **没说每次并购对企业的影响** → 每件事旁边一栏“Impact on Unilever”（营业额、利润、增长、岗位等，都来自 Unilever 年报 / 业绩公告）。
+
+| 顺序 | 主题 | PPT 页 | 演讲稿 | 用的课程理论 |
+|---|---|---|---|---|
+| 1 | Globalisation 全球化（含开场） | 1 封面、2 Mind Map、3 公司概况、4 理论、5 Unilever | 300 词 ≈ 2.5 分钟 | Levitt、五种推动力、市场 / 生产全球化（第 1 讲） |
+| 2 | Regional Integration 区域一体化 | 6 理论、7 Unilever | 342 词 ≈ 2.8 分钟 | 五个层次、贸易创造 / 转移（第 2 讲） |
+| 3 | MNEs from Advanced Economies | 8 理论、9 Unilever | 296 词 ≈ 2.5 分钟 | 跨国企业 7 个目标 vs. 东道国 7 个目标、渐进式征收（第 4 讲） |
+| **4（你）** | **FDI 外国直接投资（含全组结论）** | 10 理论、11 建和买、12 卖、13 结论、14 谢谢、15 参考文献 | **396 词 ≈ 3–3.6 分钟（按你的语速）** | OLI、四种动机、绿地 vs. 并购（第 3 讲） |
+
+**你的 FDI 部分讲什么**（每件事 = 月份 + 影响）：
+- 建：**2020 年 6 月**太仓冰淇淋工厂 1 亿欧元（2022 年 4 月启用，寻求市场）；**2023 年 2 月**宣布墨西哥新厂、**2025 年 4 月**投资翻倍到 8 亿美元（850 个岗位，出口美加，寻求市场 + 效率）。
+- 买：**2021 年 8 月** Paula's Choice 18 亿欧元（2022 年高端美妆两位数增长；2024 年美国高端美妆放缓时它也放缓）；**2025 年 9 月** Dr. Squatch 12 亿欧元（进入高端男士个护）→ 寻求战略资产。PPT 上还有 Nutrafol（2022 年 7 月）、K18（2024 年 2 月），不用讲。
+- 卖：**2022 年 7 月**卖茶叶业务 46 亿欧元（赚 23 亿，但 2023 年营业额少 1.7%）；**2024 年 10 月**卖俄罗斯业务（当年四笔出售合计净亏 4.06 亿欧元）；**2025 年 12 月**分拆 Magnum 冰淇淋（2024 年营业额按新口径从 608 亿变 525 亿欧元，但分拆收益 34 亿，还留 19.85%）。
+- 结论：符合 OLI，所有权优势是品牌；变小了但更聚焦。最后一句全组结论 + “欢迎提问”。
+
+**和原来 M&A 稿比，数据改正了**：Dr. Squatch 用年报核实的 **€1.24bn**（原来是媒体报道的约 $1.5bn）；K18 是 **2024 年**买的；俄罗斯业务是 **2024 年 10 月**卖完的（不是 2023 年），价格没有公开，不要说金额。
+
+### 8 个问答（每个主题 2 个，每题约 1 分钟；你负责第 4 组）
+| 主题 | 问题 | 回答要点（中文；英文见 Word / 你的跟读） |
+|---|---|---|
+| 1 全球化 | Q1. Is Unilever a global company or a local company?<br>Unilever 是全球化公司还是本地化公司？ | 两者都是。说它全球化，是因为 30 个核心品牌占营业额的 78%，而且在大约 190 个国家销售。但它也很本地化，因为 59% 的营业额来自新兴市场，它会按各个市场调整产品和价格。所以 Levitt 的说法对 Unilever 只对了一半：品牌一样，产品和价格是本地化的。 |
+| 1 全球化 | Q2. Is deglobalisation a threat to Unilever?<br>逆全球化对 Unilever 是威胁吗？ | 部分是。Unilever 退出了俄罗斯，2025 年它也说关税和保护主义是风险。但它的大部分产品是在销售地所在的地区生产的，所以关税对它的伤害比出口多的公司小。而且它在大约 190 个国家销售，一个市场出问题，别的市场可以弥补。 |
+| 2 区域一体化 | Q1. What is the difference between trade creation and trade diversion? Can you give an example?<br>贸易创造和贸易转移有什么区别？能举个例子吗？ | 贸易创造是指成员之间因为关税降低而产生的新贸易。比如，Unilever 墨西哥新工厂会在美墨加协定下出口到美国和加拿大。贸易转移是指只因为关税才从成员国买，即使外面的国家更便宜。比如美国可能从墨西哥买，而不是从更便宜的亚洲工厂买，这样成本可能会更高。 |
+| 2 区域一体化 | Q2. Did Brexit hurt Unilever?<br>脱欧伤害了 Unilever 吗？ | 我们没有找到 Unilever 公布的脱欧成本数据，所以没法衡量。欧盟和英国的贸易协定对大多数商品是零关税，但边境手续多了。而且欧洲只占 Unilever 营业额的 19%，它的增长大多来自新兴市场。所以我们认为影响有限。 |
+| 3 发达经济体的跨国企业 | Q1. Why is Unilever an MNE from an advanced economy, and why does that matter?<br>为什么说 Unilever 是发达经济体的跨国企业？这有什么意义？ | 因为它的母公司在英国，英国是发达经济体。意义在于它的优势来自本国：强大的品牌、研发资金和融资渠道。新兴经济体的跨国企业常常是为了买自己没有的品牌和技术才走出去。Unilever 走出去是为了利用它已经有的优势。 |
+| 3 发达经济体的跨国企业 | Q2. How can a host government reduce Unilever's power, and what can Unilever do?<br>东道国政府怎样削弱 Unilever 的力量？Unilever 能怎么应对？ | 政府可以加税、改规则或者要求本地持股，这就是渐进式征收。Unilever 降低这种风险的办法是和当地投资者分享股权。比如它在印度、印尼和尼日利亚的公司都在当地上市，当地人持有一部分股份。这让 Unilever 看起来像一家本地公司，政府就不太会针对它。 |
+| 4 外国直接投资 | Q1. Why does Unilever buy companies instead of building new brands?<br>为什么 Unilever 买公司，而不是自己做新品牌？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户，也有网上销售的能力，这就是寻求战略资产。自己做一个新品牌要很多年，还可能失败。但买也有风险：比如 2024 年美国高端美妆市场放缓，Paula's Choice 也跟着放缓了。 |
+| 4 外国直接投资 | Q2. What are the risks of FDI, for Unilever and for the host country?<br>FDI 对 Unilever 和东道国各有什么风险？ | 对 Unilever 来说，有政治风险。比如它在俄罗斯一直待到 2024 年 10 月，当年的出售带来了净亏损。还有汇率风险，因为它用很多种货币赚钱。对东道国来说，FDI 带来就业：墨西哥工厂预计创造 850 个直接就业岗位。但利润可能流出这个国家，当地企业也可能很难竞争。 |
+
+### 发给组员时说明
+- 每人看自己的 2 页 PPT 和演讲稿；可以用自己的话改句子，**数据和月份别改**（都核对过年报，来源在 PPT 每页底部和最后一页）。
+- 第 1 位开场要介绍 Mind Map 和时间段 2020–2025（老师 10/24 要求）；你最后一位，讲完 FDI 说全组结论。
+- Mind Map 的 A1 PDF 可以直接拿去打印店打印（841 × 594 mm）；要改字用可编辑 PPT 版。
+- **还要问老师**：11/14 重做的分数怎么算；引用 Harvard 还是 APA（我们用的 Harvard）。
+
+---
+
+## 🗂 旧版（10/24 的 M&A 稿，⚠️ 10/31 老师不同意，已被上面的新版取代，留作对照）
+
+### ⭐ 10/24 老师交代（第 5 次课录音）→ 你要改的地方
 | 老师说的 | 对你的影响 |
 |---|---|
 | 每人一对理论里选 1 个 | ✅ 你只讲 **M&A**，不用讲 FDI |
@@ -13,14 +66,14 @@
 
 **✅ 10/24 用户和组里定了**：时间范围 **2020–2026**；你是**第 4 位（最后一位）**讲；每人带手机录像；正常穿着。PPT 第 2 页、演讲稿、跟读练习都已按 2020–2026 改好（见下面第二版）。
 
-## 📎 你的 M&A 部分：PPT 4 页 + 演讲稿（第三版 10/24 · 2020–2026 · 演讲稿缩短到约 280 词，点击下载）
+### 📎 旧版：你的 M&A 部分 PPT 4 页 + 演讲稿（第三版 10/24 · 2020–2026 · 演讲稿缩短到约 280 词，点击下载）
 <p>
 <a class="btn" href="/content/busi1763/files/Unilever_MA_EN.pptx" download>⬇️ 英文 PPT（展示用）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_CN.pptx" download>⬇️ 中文 PPT（对照）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MA_Script.docx" download>⬇️ 中英对照演讲稿（Word）</a>
-<a class="btn ghost" href="#/practice/busi1763/speech">🎧 逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
 
+- 旧版跟读已换成新版 FDI 稿。
 - **答问精简（10/24）**：6 道删掉最难的 3 道（Dollar Shave Club 为什么失败、McCormick 交易是哪种类型、并购和新建投资的区别），保留 3 道：① 失败率高为什么还做并购 ② 为什么买 Paula's Choice 和 Dr. Squatch ③ 卖掉食品业务是好事吗。前两道当“你的 2 个问题”，第 3 道备用。
 - **第三版（10/24）**：用户讲话慢，演讲稿从约 470 词缩短到 **约 280 词**（正常语速 2–3 分钟，用户讲约 4 分钟）；删掉六种类型 / 整合方式的口头举例、2020 年前收购的口头介绍和产品说明，PPT 上的内容不变；PPT 备注栏也换成缩短版。
 - **第二版改了什么（10/24）**：按老师“时间范围 5–7 年”的要求，第 2 页改成 **2020–2026：买美妆、卖食品**——买 Paula's Choice（2021，€1.8bn）、Dr. Squatch（2025，约 $1.5bn，媒体报道）；收购 GSK 失败（2022）；卖 DSC（2023）、冰淇淋分拆（2025）、食品并入 McCormick（2026）。2020 年前的收购只在顶部一行带过；删掉 1929 和 Kraft Heinz（2017）。结论改成“帮 Unilever 做大，现在又帮它聚焦美妆和个护”；最后一页你是最后一位，结束语改成“欢迎提问”；答问第 3 题换成“为什么买 Paula's Choice 和 Dr. Squatch”。
