@@ -1,73 +1,42 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## ⭐ 新版（10/31）：四人完整 PPT + Mind Map + 演讲稿 + 问答 —— 现在就练
+## ⭐ 定稿（10/31）：Mind Map + 演讲稿 + PPT —— 11/14 展示用这一版
 <p>
-<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>⬇️ 全组 PPT（15 页，英文 · 还是第二版，等你看完 Mind Map 和演讲稿再同步）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>⬇️ PPT 的 PDF（手机看）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ 四人演讲稿 + 8 个问答（第三版 · 中英对照 Word）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ Mind Map（第三版 · A1 打印版 PDF）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1_CN.pdf" download>⬇️ Mind Map 中文对照版 PDF（只供理解）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pptx" download>⬇️ Mind Map（可编辑 PPT）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ ① Mind Map（A1 打印版 PDF）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ ② 四人演讲稿 + 8 个问答（中英对照 Word）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>⬇️ ③ 全组 PPT（16 页）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT 的 PDF（手机看）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1_CN.pdf" download>Mind Map 中文对照版（只供理解）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pptx" download>Mind Map 可编辑 PPT</a>
+<a class="btn ghost" href="/content/busi1763/files/BUSI1763_Check_Evidence.html" target="_blank">🔎 按手册核对（附证据）</a>
 <a class="btn" href="#/practice/busi1763/speech">🎧 你的 FDI 部分：逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
 
-**第三版（10/31 用户要求）**：
-1. **时间**：只放 **2026 年之前已经发生、能确认的事**，每件都精确到**月份**；整年的数据写成“2024 年 1–12 月 / 截至 2024 年 12 月”。删掉了还没发生的计划（墨西哥 300 亿比索 2025–2028 计划、“将创造 850 个岗位”）、2026 年才发布的年报说法（“2025 年报说关税是风险”→ 改成 2025 年 3 月美国加征关税这件已发生的事）、没有月份的事（Nutrafol 2023 年进入加拿大）。
-2. **Mind Map 以理论为主**：每个框先写**理论名称**（加粗），下面一行写怎样用到 Unilever，只留少量月份和关键数字。
-3. **问答**：全组共 **8 个，每人只准备自己主题的 2 个**（Word 里每人那部分都标清楚了）。
-4. 字数：① 323 ② 401 ③ 298 ④ **403（你，慢速约 3.7 分钟）**。你的稿子去掉了 Nutrafol 那句（PPT 上还有），结论缩短。
-5. **PPT 还没改**——你看完 Mind Map 和演讲稿没问题，再同步 PPT。
-
+**定稿说明（10/31）**：
+- Mind Map **只有 4 个部分**；可持续发展与 CSR 放在第 3 位分支（“发达经济体的跨国企业 + CSR”）。以理论为主，每个框：理论名称 + 怎样用到 Unilever。
+- 只用 **2026 年前已完成、能确认的事**，都有月份；整年数据写 “Jan–Dec”。“未来”只在 CSR 里用公司自己定的目标，并说明“是目标不是结果”。
+- 第 4 部分（你）用**简单英语**，424 词，按你的语速约 3.9 分钟；你的 2 个问答各约 100 词（约 1 分钟）。其他 3 位的问答按你的决定不改。
+- PPT 16 页：封面 → Mind Map → 公司概况 → 第 1 位 2 页 → 第 2 位 2 页 → 第 3 位 3 页（含 CSR）→ 第 4 位 3 页 → 结论 → 谢谢 → 参考文献（Harvard，21 条）。每位的讲稿在 PPT 备注栏。
 
 <img src="/content/busi1763/files/Unilever_MindMap.jpg" alt="Unilever Mind Map" style="width:100%;border-radius:8px">
 
 
-## 🌱 中文草稿（10/31，待你确认）：加入“可持续发展与 CSR”
-<p><a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1_CN_CSR.pdf" download>⬇️ Mind Map 中文草稿（CSR 放进第 3 位分支）</a>
-<a class="btn" href="/content/busi1763/files/Unilever_Group_Script_draft_v4.docx" download>⬇️ 演讲稿草稿第四版（中英对照，第 3 位加了 CSR）</a></p>
-
-**为什么加**：手册学习目标第 4、5 条要求“对公司的可持续经营做批判性概述（A1 海报）”“结合 CSR 管理框架分析过去和未来表现”，我们原来完全没有（见上面核对证据第 10、11 条）。
-**谁讲**：第 3 位（发达经济体跨国企业）——他现在约 2.7 分钟，有空间；这个理论本来就讲“东道国目标：保护环境”。加完约 3.4 分钟（正常语速）。
-**Mind Map**：**只能有 4 个部分**（用户 10/31 说）→ 不加第 5 块，把 CSR 放进第 3 位的分支，改名“发达经济体的跨国企业 + CSR”，6 个框：目标 vs. 东道国目标（加“保护环境”）→ 所有权优势 vs. 东道国好处 → 目标冲突 → CSR = 经营许可（Unilever Compass）→ CSR 做到 vs. 退步 → 未来（公司目标）。其他 3 个分支不变。
-**PPT**：第 3 位多 1 页“Sustainability & CSR”（左：做到了 / 退步了，右：批评 + 未来目标，底部 So what）。
-
-### 第 3 位新增的讲稿（中文草稿，确认后再写英文）
-1. 最后讲 CSR，也就是企业社会责任。按照我们的理论，东道国希望跨国企业保护环境、公平对待工人，所以 CSR 是跨国企业在东道国的“经营许可”。
-2. Unilever 的 CSR 框架叫 **Unilever Compass**，2021 年 3 月在年报里提出，取代了 2020 年 12 月结束的“可持续生活计划”。
-3. **做到的**：2020 年 6 月，它承诺 2039 年整个价值链净零排放，并设立 10 亿欧元的气候与自然基金；2021 年 5 月，99.59% 的股东投票支持它的气候转型计划；到 2025 年 12 月，它自己工厂和办公室的排放比 2015 年减少了 77%；供应商里占采购额 43% 的已经签了“生活工资承诺”。
-4. **批判地看**：2022 年 1 月，基金经理 Terry Smith 批评它“连 Hellmann's 蛋黄酱都要定义使命，已经迷失方向”；2024 年 4 月，它把“原生塑料减半”的目标降为 2026 年减 30%、2028 年减 40%，到 2025 年 12 月只减了 29%；英国竞争和市场管理局 2023 年 12 月调查它的环保宣传，2024 年 11 月结案，没有认定违法。
-5. **对 Unilever 的好处和代价**：CSR 帮它在东道国保住经营许可，也赢得股东支持；但目标定得太高又做不到，就会被批评“漂绿”，伤害品牌。
-6. **未来（公司自己定的目标，还没发生）**：2028 年原生塑料减少 40%，2030 年自身运营零排放、所有直接供应商的员工拿到生活工资，2039 年整个价值链净零排放。
-7. **我的结论（改）**：Unilever 的优势来自发达经济体，它也和印度这样的东道国分享利益；在 CSR 上，它气候做得好，塑料退步了。它必须在利润、就业、政治和可持续之间取得平衡。
-
-> 这是帮你看懂的线索，要用你自己的分析和语言写。数据出处：Unilever 2020、2021、2024、2025 年报（Form 20-F）和 2021 年 5 月股东大会结果（SEC 6-K）——都核对过原文；Terry Smith 原话出自 FoodNavigator 2022-01-12；英国 CMA 调查的起止日期来自新闻报道（Grocery Gazette 2024-11-07），政府原始页面没打开，**PPT 上会标注出处**。
-> 没放进来的：Ben & Jerry's 和 Unilever 的争执（2021–2025）只有新闻来源，可以留着当答问的备用例子；“有使命的品牌增长快 69%”是 2018 年数据，超出时间范围，不用。
-
-**10/31 老师不同意原来的演讲稿**，要求（用户 10/31 说）：公司还是 Unilever；4 个主题；**数据年份 2020–2025**；一张 Mind Map；**每人 ≤ 4 分钟**；**每个主题 2 个问答**。老师对你原来第 4 部分的两条意见，新版**全组都照做**：
-1. **只说年份、没有月份 → 不准确**：每件事都写成“月 + 年”（如 Aug 2021、Apr 2025）。
-2. **没说每次并购对企业的影响** → 每件事旁边一栏“对 Unilever 的影响 / 好处”（营业额、增长、岗位等，都来自 Unilever 年报 / 业绩公告）。
-
-**第二版（10/31 用户要求）：Regional Integration 和 FDI 各聚焦一个国家，内容紧扣理论，讲清楚对 Unilever 的好处**——Regional Integration = **墨西哥 + 美墨加协定（USMCA）**，FDI = **美国**（用户 10/31 确认）。
+**来龙去脉**：10/31 老师不同意原稿（意见：只说年份没有月份；没说每次并购对企业的影响）→ 新要求：Unilever、4 个主题、2020–2025、一张 Mind Map、每人 ≤ 4 分钟、每人 2 个问答 → 用户先后要求：区域一体化聚焦墨西哥、FDI 聚焦美国；只放 2026 年前已完成的事并精确到月份；Mind Map 以理论为主、只能 4 个部分；按手册核对后补上可持续发展 / CSR；第 4 部分改成简单英语。
 
 | 顺序 | 主题 | PPT 页 | 演讲稿 | 用的课程理论 |
 |---|---|---|---|---|
-| 1 | Globalisation 全球化（含开场） | 1 封面、2 Mind Map、3 公司概况、4 理论、5 Unilever | 300 词 ≈ 2.5 分钟 | Levitt、五种推动力（第 1 讲） |
-| 2 | Regional Integration · **墨西哥** | 6 理论 + USMCA、7 墨西哥：进入北美的大门 | 392 词 ≈ 3–3.5 分钟 | 五个层次、贸易创造 / 转移（第 2 讲） |
-| 3 | MNEs from Advanced Economies | 8 理论、9 Unilever | 296 词 ≈ 2.5 分钟 | 7 个目标 vs. 7 个目标、渐进式征收（第 4 讲） |
-| **4（你）** | **FDI · 美国（含全组结论）** | 10 理论、11 为什么是美国（OLI + 美国营业额图）、12 每笔收购带来什么、13 结论、14 谢谢、15 参考文献 | **408 词 ≈ 3.7 分钟（按你的语速）** | OLI、四种动机、绿地 vs. 并购（第 3 讲） |
+| 1 | Globalisation 全球化（含开场） | 1 封面、2 Mind Map、3 公司概况、4 理论、5 Unilever | 323 词 ≈ 2.5 分钟 | Levitt、五种推动力（第 1 讲） |
+| 2 | Regional Integration · 墨西哥 | 6 理论 + USMCA、7 墨西哥 | 401 词 ≈ 3.1 分钟 | 五个层次、贸易创造 / 转移（第 2 讲） |
+| 3 | MNEs from Advanced Economies + **CSR** | 8 理论、9 Unilever、**10 可持续与 CSR** | 424 词 ≈ 3.3 分钟 | 7 个目标 vs. 7 个目标、渐进式征收（第 4 讲）+ CSR |
+| **4（你）** | **FDI · 美国（含全组结论）** | 11 理论、12 为什么是美国、13 每笔收购带来什么、14 结论、15 谢谢、16 参考文献 | **424 词 ≈ 3.9 分钟（按你的语速）** | OLI、四种动机、绿地 vs. 并购（第 3 讲） |
 
-**第 2 位 墨西哥讲什么**：USMCA 是自由贸易区（第一层），2020 年 7 月取代 NAFTA，符合原产地规则零关税；墨西哥是美国第一大贸易伙伴（2023）。Unilever：墨西哥是全球十大市场之一、7,000 多员工；**2023 年 2 月**新莱昂州美妆个护新厂 4 亿美元 → **2025 年 4 月**翻倍到 8 亿美元（主要出口美加、850 个岗位）→ **2025 年 5 月** 300 亿比索（约 15 亿美元）2025–2028 计划。**好处**：① 零关税进入美国（Unilever 最大市场，2025 年 105 亿欧元）② **2025 年 3 月**美国对墨西哥加征 25% 关税，但符合 USMCA 的商品豁免 ③ 靠近美国、成本低、速度快 = 区域内贸易创造。**局限**：只有约一半美国从墨西哥的进口符合 USMCA；美国政策多变；Unilever 没公开说是因为 USMCA（是我们的分析）。
+**每人讲什么（要点）**
+- **第 1 位**：Levitt、五种推动力；约 190 个国家、59% 来自新兴市场（2025 年 1–12 月）、280 多家工厂；风险：疫情（2020 年 3 月）、涨价 11.3%（2022 年 1–12 月）、停止和俄罗斯往来（2022 年 3 月）/ 卖掉（2024 年 10 月）、美国加关税（2025 年 3 月）。
+- **第 2 位（墨西哥）**：USMCA = 自由贸易区（2020 年 7 月）；墨西哥是美国第一大贸易伙伴（2023 年 1–12 月）；新厂 4 亿美元（2023 年 2 月）→ 8 亿美元（2025 年 4 月，主要出口美加，还在建）；好处：零关税进入最大市场美国、2025 年 3 月加关税时 USMCA 商品豁免、成本低；局限：只有约一半进口符合规则。
+- **第 3 位（+ CSR）**：目标冲突、所有权优势、印度上市子公司；裁员（2024 年 3 月）、俄罗斯（2022 年 3 月–2024 年 10 月）；**CSR**：Unilever Compass（2021 年 3 月）、2039 净零承诺（2020 年 6 月）、99.6% 股东支持（2021 年 5 月）、自身排放 −77%（截至 2025 年 12 月）；批评：Terry Smith（2022 年 1 月）、塑料目标下调（2024 年 4 月）只减 29%；未来 = 公司目标（2030 自身零排放、2039 净零）。
+- **第 4 位（你，美国）**：FDI、绿地 vs. 并购、OLI、四个原因；美国吸收 FDI 最多（2024 年全年 2,790 亿美元）、Unilever 美国销售 94 亿 → 125 亿欧元（2020 → 2024）；Paula's Choice（2021 年 8 月）、K18（2024 年 2 月）、Dr. Squatch（2025 年 9 月）；好处：70% 来自高端品牌（2024 年 12 月）、北美 +5.3%（2025 年全年）；风险：2024 年高端美妆放缓。
 
-**你（第 4 位 美国）讲什么**（每件事 = 月份 + 好处）：
-- 为什么是美国：全球最大 FDI 接收国（2024 年 2,790 亿美元）；Unilever 最大市场，美国营业额 **94 亿欧元（2020）→ 125 亿（2024）**，约占五分之一。OLI：O 品牌、资金、销售网络；L 最大市场、高端和网购消费者多；I 自己拥有品牌才能控制并带到别国（Nutrafol 2023 年进入加拿大）。
-- 每笔收购：**2021 年 8 月** Paula's Choice 18 亿欧元（网上直销能力；2022 年高端美妆两位数增长）；**2022 年 7 月** Nutrafol 增持到 80%（2025 年带动健康业务两位数增长）；**2024 年 2 月** K18（当年两位数增长）；**2025 年 9 月** Dr. Squatch 12 亿欧元（进入高端、高增长）。
-- 好处：① 2024 年美国美妆健康业务 **70%** 来自这些高端品牌 ② 美国长期资产 **129 亿欧元（2020）→ 197 亿（2024）** ③ 2025 年北美增长 **5.3%**，夺回大部分市场份额。风险：2024 年美国高端美妆放缓。
-- 结论：符合 OLI；买美国高端品牌 → 增长、网上能力、在最大市场更稳。最后一句全组结论 + “欢迎提问”。
-
-**和第一版比**：FDI 不再讲中国工厂、卖茶叶、俄罗斯、Magnum（不在美国）；这些在第 1 位全球化里还有。数据改正：Dr. Squatch 按年报 **€1.24bn**；K18 是 **2024 年 2 月**；美国在 2020–2025 年没有查到新建工厂，所以说“主要是并购”。
-
-
-### 🔍 10/31 按手册逐条核对（第三版演讲稿 + Mind Map；PPT 还是第二版）
+### 🔍 10/31 按手册逐条核对（第一次核对时的结果；之后已补上 CSR、同步 PPT——最新结果看上面“按手册核对（附证据）”按钮）
 <p><a class="btn" href="/content/busi1763/files/BUSI1763_Check_Evidence.html" target="_blank">🔎 打开核对证据（每条：要求原文 vs. 我们材料原文）</a></p>
 > 依据：网站上从 2025-26 手册、Tip、Induction PPS、3 份样例、老师课上和 10/20 邮件整理的要求（手册原件不在仓库里；要逐字核对请重新发手册）。
 
@@ -91,17 +60,17 @@
 | 16 | 展示后交 Mind Map 照片 / PDF + 小组 PPT + 录像链接（Tip、10/24） | Mind Map PDF 好了；**PPT 还是第二版**（有些地方只有年份） | ⚠️ 等你确认后同步 |
 | 17 | 引用格式 | 用 Harvard | ⚠️ 还没问老师 Harvard 还是 APA |
 
-### 8 个问答（全组共 8 个：每人只准备自己主题的 2 个，每题约 1 分钟；你负责第 4 位的 2 个）
+### 8 个问答（全组共 8 个：每人只准备自己主题的 2 个；你负责第 4 位的 2 个，已加长到约 1 分钟；其他 3 位按你的决定不改）
 | 主题 | 问题 | 回答要点（中文；英文见 Word / 你的跟读） |
 |---|---|---|
 | 1 全球化 | Q1. Is Unilever a global company or a local company?<br>Unilever 是全球化公司还是本地化公司？ | 两者都是。说它全球化，是因为 2025 年 1–12 月 30 个核心品牌占营业额的 78%，而且它在大约 190 个国家销售。但它也很本地化：同一年 59% 的营业额来自新兴市场，它会按各个市场调整产品和价格。所以 Levitt 的说法对 Unilever 只对了一半：品牌一样，产品和价格是本地化的。 |
 | 1 全球化 | Q2. Is deglobalisation a threat to Unilever?<br>逆全球化对 Unilever 是威胁吗？ | 部分是。Unilever 2022 年 3 月停止和俄罗斯的贸易，2024 年 10 月卖掉业务；2025 年 3 月美国又对邻国加征关税。但它的大部分产品是在销售地所在的地区生产的，所以关税对它的伤害比出口多的公司小。而且它在大约 190 个国家销售，一个市场出问题，别的市场可以弥补。 |
 | 2 区域一体化 | Q1. What is the difference between trade creation and trade diversion? Use Mexico as an example.<br>贸易创造和贸易转移有什么区别？用墨西哥举例。 | 贸易创造是指成员之间因为关税降低而产生的新贸易。比如，Unilever 在墨西哥的新工厂会在美墨加协定下零关税出口到美国和加拿大。贸易转移是指只因为关税才从成员国买，即使外面的国家更便宜。比如美国买家可能从更便宜的亚洲工厂转向墨西哥。这对 Unilever 的墨西哥工厂是好事，但可能让美国消费者多花钱。 |
 | 2 区域一体化 | Q2. Why did Unilever build the factory in Mexico, and not in the US?<br>为什么 Unilever 把工厂建在墨西哥，而不是美国？ | 有三个原因。第一，墨西哥的成本更低。第二，在美墨加协定下，符合原产地规则的产品仍然可以零关税进入美国。第三，2025 年 5 月 Unilever 说墨西哥本身就是它十大市场之一，所以工厂也能供应墨西哥。风险是美国政治：如果美国改规则，这个好处可能会变小。 |
-| 3 发达经济体的跨国企业 | Q1. Why is Unilever an MNE from an advanced economy, and why does that matter?<br>为什么说 Unilever 是发达经济体的跨国企业？这有什么意义？ | 因为它的母公司在英国，英国是发达经济体。意义在于它的优势来自本国：强大的品牌、研发资金和融资渠道。新兴经济体的跨国企业常常是为了买自己没有的品牌和技术才走出去。Unilever 走出去是为了利用它已经有的优势。 |
-| 3 发达经济体的跨国企业 | Q2. How can a host government reduce Unilever's power, and what can Unilever do?<br>东道国政府怎样削弱 Unilever 的力量？Unilever 能怎么应对？ | 政府可以加税、改规则或者要求本地持股，这就是渐进式征收。Unilever 降低这种风险的办法是和当地投资者分享股权。比如它在印度、印尼和尼日利亚的公司都在当地上市，当地人持有一部分股份。这让 Unilever 看起来像一家本地公司，政府就不太会针对它。 |
-| 4 外国直接投资 | Q1. Why does Unilever buy American companies instead of building new brands or factories in the US?<br>为什么 Unilever 买美国公司，而不是在美国自己做新品牌或建新工厂？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户，也有网上销售的能力，这就是寻求战略资产。美国市场竞争很激烈，自己做一个新品牌要很多年，还可能失败。但买也有风险：很贵，而且 2024 年 1–12 月美国高端美妆市场放缓时，Paula's Choice 也跟着放缓了。 |
-| 4 外国直接投资 | Q2. What does the United States gain from Unilever's FDI, and what are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 又有什么风险？ | 美国得到投资和就业，这些品牌也能借助 Unilever 的资金和全球网络发展得更快。比如 2022 年 7 月以后，Nutrafol 在 Unilever 的支持下发展很快，2025 年 1–12 月带动健康业务实现两位数增长。对 Unilever 来说，风险是出价太高、美国市场放缓，还有美国的贸易政策，比如新关税。 |
+| 3 发达经济体的跨国企业 + CSR | Q1. Why is Unilever an MNE from an advanced economy, and why does that matter?<br>为什么说 Unilever 是发达经济体的跨国企业？这有什么意义？ | 因为它的母公司在英国，英国是发达经济体。意义在于它的优势来自本国：强大的品牌、研发资金和融资渠道。新兴经济体的跨国企业常常是为了买自己没有的品牌和技术才走出去。Unilever 走出去是为了利用它已经有的优势。 |
+| 3 发达经济体的跨国企业 + CSR | Q2. How can a host government reduce Unilever's power, and what can Unilever do?<br>东道国政府怎样削弱 Unilever 的力量？Unilever 能怎么应对？ | 政府可以加税、改规则或者要求本地持股，这就是渐进式征收。Unilever 降低这种风险的办法是和当地投资者分享股权。比如它在印度、印尼和尼日利亚的公司都在当地上市，当地人持有一部分股份。这让 Unilever 看起来像一家本地公司，政府就不太会针对它。 |
+| 4 外国直接投资 | Q1. Why does Unilever buy American companies, and not build new brands?<br>为什么 Unilever 买美国公司，而不是自己做新品牌？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户。它还有网上销售的能力，这些就是战略资产。美国市场有很多强大的竞争对手。所以自己做一个新品牌要很多年，还可能失败。而且 Unilever 可以用自己的钱帮这个品牌更快发展。但买也有风险：很贵。比如 2021 年 8 月，Unilever 为 Paula's Choice 付了 18 亿欧元。而且 2024 年美国高端美妆市场放缓，Paula's Choice 也跟着放缓。所以买更快，但不一定安全。 |
+| 4 外国直接投资 | Q2. What does the US get from Unilever's FDI? What are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 有什么风险？ | 美国得到投资和就业。这些品牌也得到 Unilever 的资金和全球销售网络，所以能发展得更快。比如 2022 年 7 月，Unilever 增持了 Nutrafol。2025 年，Nutrafol 帮助 Unilever 的健康业务销售增长超过 10%。对 Unilever 来说，有三个风险。第一，可能出价太高。第二，美国市场可能放缓，比如 2024 年的高端美妆。第三，美国的贸易规则可能变，比如加新关税。所以 Unilever 必须小心选择品牌。所以 FDI 可以对双方都有好处，但不是没有风险。 |
 
 ### 发给组员时说明
 - 每人看自己的 2 页 PPT 和演讲稿；可以用自己的话改句子，**数据和月份别改**（都核对过年报，来源在 PPT 每页底部和最后一页）。
