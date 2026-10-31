@@ -2,13 +2,21 @@
 
 ## ⭐ 新版（10/31）：四人完整 PPT + Mind Map + 演讲稿 + 问答 —— 现在就练
 <p>
-<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>⬇️ 全组 PPT（15 页，英文）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>⬇️ 全组 PPT（15 页，英文 · 还是第二版，等你看完 Mind Map 和演讲稿再同步）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>⬇️ PPT 的 PDF（手机看）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ 四人演讲稿 + 8 个问答（中英对照 Word）</a>
-<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ Mind Map（A1 打印版 PDF）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ 四人演讲稿 + 8 个问答（第三版 · 中英对照 Word）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ Mind Map（第三版 · A1 打印版 PDF）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pptx" download>⬇️ Mind Map（可编辑 PPT）</a>
 <a class="btn" href="#/practice/busi1763/speech">🎧 你的 FDI 部分：逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
+
+**第三版（10/31 用户要求）**：
+1. **时间**：只放 **2026 年之前已经发生、能确认的事**，每件都精确到**月份**；整年的数据写成“2024 年 1–12 月 / 截至 2024 年 12 月”。删掉了还没发生的计划（墨西哥 300 亿比索 2025–2028 计划、“将创造 850 个岗位”）、2026 年才发布的年报说法（“2025 年报说关税是风险”→ 改成 2025 年 3 月美国加征关税这件已发生的事）、没有月份的事（Nutrafol 2023 年进入加拿大）。
+2. **Mind Map 以理论为主**：每个框先写**理论名称**（加粗），下面一行写怎样用到 Unilever，只留少量月份和关键数字。
+3. **问答**：全组共 **8 个，每人只准备自己主题的 2 个**（Word 里每人那部分都标清楚了）。
+4. 字数：① 323 ② 401 ③ 298 ④ **403（你，慢速约 3.7 分钟）**。你的稿子去掉了 Nutrafol 那句（PPT 上还有），结论缩短。
+5. **PPT 还没改**——你看完 Mind Map 和演讲稿没问题，再同步 PPT。
+
 
 <img src="/content/busi1763/files/Unilever_MindMap.jpg" alt="Unilever Mind Map" style="width:100%;border-radius:8px">
 
@@ -35,17 +43,17 @@
 
 **和第一版比**：FDI 不再讲中国工厂、卖茶叶、俄罗斯、Magnum（不在美国）；这些在第 1 位全球化里还有。数据改正：Dr. Squatch 按年报 **€1.24bn**；K18 是 **2024 年 2 月**；美国在 2020–2025 年没有查到新建工厂，所以说“主要是并购”。
 
-### 8 个问答（每个主题 2 个，每题约 1 分钟；你负责第 4 组）
+### 8 个问答（全组共 8 个：每人只准备自己主题的 2 个，每题约 1 分钟；你负责第 4 位的 2 个）
 | 主题 | 问题 | 回答要点（中文；英文见 Word / 你的跟读） |
 |---|---|---|
-| 1 全球化 | Q1. Is Unilever a global company or a local company?<br>Unilever 是全球化公司还是本地化公司？ | 两者都是。说它全球化，是因为 30 个核心品牌占营业额的 78%，而且在大约 190 个国家销售。但它也很本地化，因为 59% 的营业额来自新兴市场，它会按各个市场调整产品和价格。所以 Levitt 的说法对 Unilever 只对了一半：品牌一样，产品和价格是本地化的。 |
-| 1 全球化 | Q2. Is deglobalisation a threat to Unilever?<br>逆全球化对 Unilever 是威胁吗？ | 部分是。Unilever 退出了俄罗斯，2025 年它也说关税和保护主义是风险。但它的大部分产品是在销售地所在的地区生产的，所以关税对它的伤害比出口多的公司小。而且它在大约 190 个国家销售，一个市场出问题，别的市场可以弥补。 |
+| 1 全球化 | Q1. Is Unilever a global company or a local company?<br>Unilever 是全球化公司还是本地化公司？ | 两者都是。说它全球化，是因为 2025 年 1–12 月 30 个核心品牌占营业额的 78%，而且它在大约 190 个国家销售。但它也很本地化：同一年 59% 的营业额来自新兴市场，它会按各个市场调整产品和价格。所以 Levitt 的说法对 Unilever 只对了一半：品牌一样，产品和价格是本地化的。 |
+| 1 全球化 | Q2. Is deglobalisation a threat to Unilever?<br>逆全球化对 Unilever 是威胁吗？ | 部分是。Unilever 2022 年 3 月停止和俄罗斯的贸易，2024 年 10 月卖掉业务；2025 年 3 月美国又对邻国加征关税。但它的大部分产品是在销售地所在的地区生产的，所以关税对它的伤害比出口多的公司小。而且它在大约 190 个国家销售，一个市场出问题，别的市场可以弥补。 |
 | 2 区域一体化 | Q1. What is the difference between trade creation and trade diversion? Use Mexico as an example.<br>贸易创造和贸易转移有什么区别？用墨西哥举例。 | 贸易创造是指成员之间因为关税降低而产生的新贸易。比如，Unilever 在墨西哥的新工厂会在美墨加协定下零关税出口到美国和加拿大。贸易转移是指只因为关税才从成员国买，即使外面的国家更便宜。比如美国买家可能从更便宜的亚洲工厂转向墨西哥。这对 Unilever 的墨西哥工厂是好事，但可能让美国消费者多花钱。 |
-| 2 区域一体化 | Q2. Why did Unilever build the factory in Mexico, and not in the US?<br>为什么 Unilever 把工厂建在墨西哥，而不是美国？ | 有三个原因。第一，墨西哥的成本更低。第二，在美墨加协定下，符合原产地规则的产品仍然可以零关税进入美国。第三，墨西哥本身就是 Unilever 十大市场之一，所以这家工厂也供应墨西哥。风险是美国政治：如果美国改规则，这个好处可能会变小。 |
+| 2 区域一体化 | Q2. Why did Unilever build the factory in Mexico, and not in the US?<br>为什么 Unilever 把工厂建在墨西哥，而不是美国？ | 有三个原因。第一，墨西哥的成本更低。第二，在美墨加协定下，符合原产地规则的产品仍然可以零关税进入美国。第三，2025 年 5 月 Unilever 说墨西哥本身就是它十大市场之一，所以工厂也能供应墨西哥。风险是美国政治：如果美国改规则，这个好处可能会变小。 |
 | 3 发达经济体的跨国企业 | Q1. Why is Unilever an MNE from an advanced economy, and why does that matter?<br>为什么说 Unilever 是发达经济体的跨国企业？这有什么意义？ | 因为它的母公司在英国，英国是发达经济体。意义在于它的优势来自本国：强大的品牌、研发资金和融资渠道。新兴经济体的跨国企业常常是为了买自己没有的品牌和技术才走出去。Unilever 走出去是为了利用它已经有的优势。 |
 | 3 发达经济体的跨国企业 | Q2. How can a host government reduce Unilever's power, and what can Unilever do?<br>东道国政府怎样削弱 Unilever 的力量？Unilever 能怎么应对？ | 政府可以加税、改规则或者要求本地持股，这就是渐进式征收。Unilever 降低这种风险的办法是和当地投资者分享股权。比如它在印度、印尼和尼日利亚的公司都在当地上市，当地人持有一部分股份。这让 Unilever 看起来像一家本地公司，政府就不太会针对它。 |
-| 4 外国直接投资 | Q1. Why does Unilever buy American companies instead of building new brands or factories in the US?<br>为什么 Unilever 买美国公司，而不是在美国自己做新品牌或建新工厂？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户，也有网上销售的能力，这就是寻求战略资产。美国市场竞争很激烈，自己做一个新品牌要很多年，还可能失败。但买也有风险：很贵，而且 2024 年美国高端美妆市场放缓时，Paula's Choice 也跟着放缓了。 |
-| 4 外国直接投资 | Q2. What does the United States gain from Unilever's FDI, and what are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 又有什么风险？ | 美国得到投资和就业，这些品牌也能借助 Unilever 的资金和全球网络发展得更快。比如 2023 年 Nutrafol 进入加拿大，这是它在美国以外的第一个市场。对 Unilever 来说，风险是出价太高、美国市场放缓，还有美国的贸易政策，比如新关税。 |
+| 4 外国直接投资 | Q1. Why does Unilever buy American companies instead of building new brands or factories in the US?<br>为什么 Unilever 买美国公司，而不是在美国自己做新品牌或建新工厂？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户，也有网上销售的能力，这就是寻求战略资产。美国市场竞争很激烈，自己做一个新品牌要很多年，还可能失败。但买也有风险：很贵，而且 2024 年 1–12 月美国高端美妆市场放缓时，Paula's Choice 也跟着放缓了。 |
+| 4 外国直接投资 | Q2. What does the United States gain from Unilever's FDI, and what are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 又有什么风险？ | 美国得到投资和就业，这些品牌也能借助 Unilever 的资金和全球网络发展得更快。比如 2022 年 7 月以后，Nutrafol 在 Unilever 的支持下发展很快，2025 年 1–12 月带动健康业务实现两位数增长。对 Unilever 来说，风险是出价太高、美国市场放缓，还有美国的贸易政策，比如新关税。 |
 
 ### 发给组员时说明
 - 每人看自己的 2 页 PPT 和演讲稿；可以用自己的话改句子，**数据和月份别改**（都核对过年报，来源在 PPT 每页底部和最后一页）。
