@@ -15,7 +15,7 @@
 **定稿说明（10/31）**：
 - Mind Map **只有 4 个部分**；可持续发展与 CSR 放在第 3 位分支（“发达经济体的跨国企业 + CSR”）。以理论为主，每个框：理论名称 + 怎样用到 Unilever。
 - 只用 **2026 年前已完成、能确认的事**，都有月份；整年数据写 “Jan–Dec”。“未来”只在 CSR 里用公司自己定的目标，并说明“是目标不是结果”。
-- 第 4 部分（你）用**简单英语**，424 词，按你的语速约 3.9 分钟；你的 2 个问答各约 100 词（约 1 分钟）。其他 3 位的问答按你的决定不改。
+- 第 4 部分（你）用**简单英语**，424 词，按你的语速约 3.9 分钟；你的 2 个问答按你的要求缩短到和其他人一样（约 60 词）。
 - PPT 16 页：封面 → Mind Map → 公司概况 → 第 1 位 2 页 → 第 2 位 2 页 → 第 3 位 3 页（含 CSR）→ 第 4 位 3 页 → 结论 → 谢谢 → 参考文献（Harvard，21 条）。每位的讲稿在 PPT 备注栏。
 
 <img src="/content/busi1763/files/Unilever_MindMap.jpg" alt="Unilever Mind Map" style="width:100%;border-radius:8px">
@@ -60,7 +60,7 @@
 | 16 | 展示后交 Mind Map 照片 / PDF + 小组 PPT + 录像链接（Tip、10/24） | Mind Map PDF 好了；**PPT 还是第二版**（有些地方只有年份） | ⚠️ 等你确认后同步 |
 | 17 | 引用格式 | 用 Harvard | ⚠️ 还没问老师 Harvard 还是 APA |
 
-### 8 个问答（全组共 8 个：每人只准备自己主题的 2 个；你负责第 4 位的 2 个，已加长到约 1 分钟；其他 3 位按你的决定不改）
+### 8 个问答（全组共 8 个：每人只准备自己主题的 2 个；每个回答约 50–75 词，四人长度相近）
 | 主题 | 问题 | 回答要点（中文；英文见 Word / 你的跟读） |
 |---|---|---|
 | 1 全球化 | Q1. Is Unilever a global company or a local company?<br>Unilever 是全球化公司还是本地化公司？ | 两者都是。说它全球化，是因为 2025 年 1–12 月 30 个核心品牌占营业额的 78%，而且它在大约 190 个国家销售。但它也很本地化：同一年 59% 的营业额来自新兴市场，它会按各个市场调整产品和价格。所以 Levitt 的说法对 Unilever 只对了一半：品牌一样，产品和价格是本地化的。 |
@@ -69,8 +69,8 @@
 | 2 区域一体化 | Q2. Why did Unilever build the factory in Mexico, and not in the US?<br>为什么 Unilever 把工厂建在墨西哥，而不是美国？ | 有三个原因。第一，墨西哥的成本更低。第二，在美墨加协定下，符合原产地规则的产品仍然可以零关税进入美国。第三，2025 年 5 月 Unilever 说墨西哥本身就是它十大市场之一，所以工厂也能供应墨西哥。风险是美国政治：如果美国改规则，这个好处可能会变小。 |
 | 3 发达经济体的跨国企业 + CSR | Q1. Why is Unilever an MNE from an advanced economy, and why does that matter?<br>为什么说 Unilever 是发达经济体的跨国企业？这有什么意义？ | 因为它的母公司在英国，英国是发达经济体。意义在于它的优势来自本国：强大的品牌、研发资金和融资渠道。新兴经济体的跨国企业常常是为了买自己没有的品牌和技术才走出去。Unilever 走出去是为了利用它已经有的优势。 |
 | 3 发达经济体的跨国企业 + CSR | Q2. How can a host government reduce Unilever's power, and what can Unilever do?<br>东道国政府怎样削弱 Unilever 的力量？Unilever 能怎么应对？ | 政府可以加税、改规则或者要求本地持股，这就是渐进式征收。Unilever 降低这种风险的办法是和当地投资者分享股权。比如它在印度、印尼和尼日利亚的公司都在当地上市，当地人持有一部分股份。这让 Unilever 看起来像一家本地公司，政府就不太会针对它。 |
-| 4 外国直接投资 | Q1. Why does Unilever buy American companies, and not build new brands?<br>为什么 Unilever 买美国公司，而不是自己做新品牌？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户。它还有网上销售的能力，这些就是战略资产。美国市场有很多强大的竞争对手。所以自己做一个新品牌要很多年，还可能失败。而且 Unilever 可以用自己的钱帮这个品牌更快发展。但买也有风险：很贵。比如 2021 年 8 月，Unilever 为 Paula's Choice 付了 18 亿欧元。而且 2024 年美国高端美妆市场放缓，Paula's Choice 也跟着放缓。所以买更快，但不一定安全。 |
-| 4 外国直接投资 | Q2. What does the US get from Unilever's FDI? What are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 有什么风险？ | 美国得到投资和就业。这些品牌也得到 Unilever 的资金和全球销售网络，所以能发展得更快。比如 2022 年 7 月，Unilever 增持了 Nutrafol。2025 年，Nutrafol 帮助 Unilever 的健康业务销售增长超过 10%。对 Unilever 来说，有三个风险。第一，可能出价太高。第二，美国市场可能放缓，比如 2024 年的高端美妆。第三，美国的贸易规则可能变，比如加新关税。所以 Unilever 必须小心选择品牌。所以 FDI 可以对双方都有好处，但不是没有风险。 |
+| 4 外国直接投资 | Q1. Why does Unilever buy American companies, and not build new brands?<br>为什么 Unilever 买美国公司，而不是自己做新品牌？ | 因为买更快。像 Paula's Choice 这样的品牌已经有客户和网上销售的能力，这些就是战略资产。美国市场有很多强大的竞争对手，所以做一个新品牌要很多年，还可能失败。但买也有风险：很贵，而且 2024 年 Paula's Choice 放缓了。所以买更快，但不一定安全。 |
+| 4 外国直接投资 | Q2. What does the US get from Unilever's FDI? What are the risks for Unilever?<br>美国从 Unilever 的 FDI 中得到什么？Unilever 有什么风险？ | 美国得到投资和就业。这些品牌得到 Unilever 的资金和全球销售网络，所以能发展得更快。比如 2022 年 7 月，Unilever 增持了 Nutrafol。对 Unilever 来说，有三个风险。可能出价太高，美国市场可能放缓，美国的贸易规则也可能变，比如加新关税。 |
 
 ### 发给组员时说明
 - 每人看自己的 2 页 PPT 和演讲稿；可以用自己的话改句子，**数据和月份别改**（都核对过年报，来源在 PPT 每页底部和最后一页）。

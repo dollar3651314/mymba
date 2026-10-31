@@ -1,4 +1,4 @@
-# Unilever 小组展示 · 第 4 位 FDI（美国）演讲稿跟读（定稿 10/31 · 简单英语 · 约 424 词，慢速约 3.9 分钟；2 个问答各约 1 分钟）
+# Unilever 小组展示 · 第 4 位 FDI（美国）演讲稿跟读（定稿 10/31 · 简单英语 · 约 424 词，慢速约 3.9 分钟；2 个问答和其他人一样长）
 > 来自 `files/Unilever_Group_Script.docx` 的第 4 部分。按页、按句拆开，在“跟读练习”里练。演讲稿改了要同步改这里，然后运行 `node scripts/build-practice.mjs`、`build-audio.py`、`build-speech-audio.py`。
 
 ## 第 1 页 · FDI 理论
@@ -43,25 +43,15 @@
 ## 答问 1 · 为什么 Unilever 买美国公司，而不是自己做新品牌？
 - "Why does Unilever buy American companies, and not build new brands?" —— 问：为什么 Unilever 买美国公司，而不是自己做新品牌？
 - "Because buying is faster." —— 答：因为买更快。
-- "A brand like Paula's Choice already has customers." —— 像 Paula's Choice 这样的品牌已经有客户。
-- "It also has online sales skills. These are strategic assets." —— 它还有网上销售的能力，这些就是战略资产。
-- "The US market has many strong competitors." —— 美国市场有很多强大的竞争对手。
-- "So building a new brand takes many years, and it may fail." —— 所以自己做一个新品牌要很多年，还可能失败。
-- "Also, Unilever can use its money to help the brand grow faster." —— 而且 Unilever 可以用自己的钱帮这个品牌更快发展。
-- "But buying also has risks. It is very expensive." —— 但买也有风险：很贵。
-- "For example, Unilever paid 1.8 billion euros for Paula's Choice in August 2021." —— 比如 2021 年 8 月，Unilever 为 Paula's Choice 付了 18 亿欧元。
-- "And in 2024, the US premium beauty market slowed down. Then Paula's Choice slowed down too." —— 而且 2024 年美国高端美妆市场放缓，Paula's Choice 也跟着放缓。
+- "A brand like Paula's Choice already has customers and online sales skills. These are strategic assets." —— 像 Paula's Choice 这样的品牌已经有客户和网上销售的能力，这些就是战略资产。
+- "The US market has many strong competitors, so a new brand takes many years, and it may fail." —— 美国市场有很多强大的竞争对手，所以做一个新品牌要很多年，还可能失败。
+- "But buying also has risks. It is expensive, and in 2024 Paula's Choice slowed down." —— 但买也有风险：很贵，而且 2024 年 Paula's Choice 放缓了。
 - "So buying is faster, but it is not always safe." —— 所以买更快，但不一定安全。
 
 ## 答问 2 · 美国从 Unilever 的 FDI 中得到什么？Unilever 有什么风险？
 - "What does the US get from Unilever's FDI? What are the risks for Unilever?" —— 问：美国从 Unilever 的 FDI 中得到什么？Unilever 有什么风险？
 - "The US gets investment and jobs." —— 答：美国得到投资和就业。
-- "The brands also get Unilever's money and its global sales network, so they can grow faster." —— 这些品牌也得到 Unilever 的资金和全球销售网络，所以能发展得更快。
-- "For example, in July 2022, Unilever bought more of Nutrafol." —— 比如 2022 年 7 月，Unilever 增持了 Nutrafol。
-- "In 2025, Nutrafol helped Unilever's wellbeing sales grow by more than 10 percent." —— 2025 年，Nutrafol 帮助 Unilever 的健康业务销售增长超过 10%。
+- "The brands get Unilever's money and its global sales network, so they can grow faster." —— 这些品牌得到 Unilever 的资金和全球销售网络，所以能发展得更快。
+- "For example, Unilever bought more of Nutrafol in July 2022." —— 比如 2022 年 7 月，Unilever 增持了 Nutrafol。
 - "For Unilever, there are three risks." —— 对 Unilever 来说，有三个风险。
-- "First, it may pay too much." —— 第一，可能出价太高。
-- "Second, the US market may slow down, like premium beauty in 2024." —— 第二，美国市场可能放缓，比如 2024 年的高端美妆。
-- "Third, US trade rules can change, for example with new tariffs." —— 第三，美国的贸易规则可能变，比如加新关税。
-- "So Unilever must choose its brands carefully." —— 所以 Unilever 必须小心选择品牌。
-- "So FDI can help both sides, but it is not without risk." —— 所以 FDI 可以对双方都有好处，但不是没有风险。
+- "It may pay too much, the US market may slow down, and US trade rules can change, for example with new tariffs." —— 可能出价太高，美国市场可能放缓，美国的贸易规则也可能变，比如加新关税。
