@@ -29,7 +29,7 @@ const line = ({ m, x, w }) => `  ${x.d}(${wk(x.d)}) ${x.t}  ${m.code} 第${x.n}�
 console.log(`今天 ${today}（周${wk(today)}）\n`);
 
 const held = all.filter(o => endOf(o.x) <= now);
-const rec = held.filter(o => !o.w.rec);
+const rec = held.filter(o => !o.w.rec && !o.w.noRec);  // noRec: 这节课没有录音（如全天展示）
 console.log(`① 已上完、还没收到录音（${rec.length}）`); rec.forEach(o => console.log(line(o)));
 
 const notes = held.filter(o => o.w.rec && !existsSync(`${root}content/${o.m.id}/week-${pad(o.x.n)}.md`));

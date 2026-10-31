@@ -112,7 +112,7 @@
       .filter(o => !o.w?.pre && !o.w?.noPre).sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
   }
   function pendingRecordings() {
-    return M.modules.flatMap(m => (m.sessions || []).filter(x => held(x) && !m.weeks.find(w => w.n === x.n)?.rec).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
+    return M.modules.flatMap(m => (m.sessions || []).filter(x => held(x) && !m.weeks.find(w => w.n === x.n)?.rec && !m.weeks.find(w => w.n === x.n)?.noRec).map(x => ({ m, x, w: m.weeks.find(w => w.n === x.n) })))
       .sort((a, b) => (a.x.d + a.x.t).localeCompare(b.x.d + b.x.t));
   }
   function currentTerm() {
@@ -287,7 +287,7 @@
     for (const { m, x, w } of all) {
       const mo = parseDate(x.d).getMonth() + 1;
       if (mo + '' !== month) { if (month) h += '</ul></div>'; month = mo + ''; h += `<h2>${mo} 月</h2><div class="card"><ul class="list">`; }
-      const st = held(x) ? (w?.rec ? '<span class="pill ok">录音已收到</span>' : '<span class="pill warn">待发录音</span>') : x.d === iso(today()) ? '<span class="pill danger">今天</span>' : '';
+      const st = held(x) ? (w?.noRec ? '<span class="pill">无录音</span>' : w?.rec ? '<span class="pill ok">录音已收到</span>' : '<span class="pill warn">待发录音</span>') : x.d === iso(today()) ? '<span class="pill danger">今天</span>' : '';
       h += `<li><div class="date-badge"><b>${parseDate(x.d).getDate()}</b>${wk(x.d)}</div><div class="grow"><a href="#/w/${m.id}/${x.n}">${esc(m.code)} 第 ${x.n} 次课</a> ${st}<div class="small muted">${esc(x.t)} · ${esc(w?.zh || '')}</div></div></li>`;
     }
     return h + '</ul></div>';
@@ -342,7 +342,7 @@
     h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
     for (const w of m.weeks) {
       const p = progressOf(weekTasks(m, w.n).map(x => x.k));
-      h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>${sessOf(m, w.n) ? `<div class="small muted">${esc(sessLabel(sessOf(m, w.n)))}${held(sessOf(m, w.n)) ? (w.rec ? ' · 录音已收到' : ' · <span style="color:var(--warn)">待发录音</span>') : ''}</div>` : ''}
+      h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>${sessOf(m, w.n) ? `<div class="small muted">${esc(sessLabel(sessOf(m, w.n)))}${held(sessOf(m, w.n)) ? (w.noRec ? ' · 无录音（' + esc(w.noRec) + '）' : w.rec ? ' · 录音已收到' : ' · <span style="color:var(--warn)">待发录音</span>') : ''}</div>` : ''}
         <div class="small">${w.notes ? '<span class="pill ok">有课堂笔记</span> ' : ''}${w.n === cw ? '<span class="pill accent">本周</span> ' : ''}${(w.use || []).map(u => `<span class="pill">${esc(asmt(m, u)?.zh || u)}</span>`).join(' ')}</div></div>
         <span class="small muted">${p.done}/${p.total}</span></li>`;
     }
@@ -389,7 +389,7 @@
         h += `<div class="card md">${mdHtml(md)}</div>`;
       } catch { h += `<div class="card muted">笔记加载失败（${esc(path)}），请检查网络后刷新。</div>`; }
     } else {
-      h += `<div class="card empty">这一周还没有整理好的笔记。<br>${sessOf(m, n) && held(sessOf(m, n)) && !w.rec ? '<b>这节课已经上完，</b>' : ''}把这节课的<b>录音文字稿</b>发给 Claude，整理后会出现在这里：中文总结、重点概念、老师强调的内容、和作业的关系、可以在 tutorial 上用的英文句子。</div>`;
+      h += `<div class="card empty">这一周还没有整理好的笔记。<br>${sessOf(m, n) && held(sessOf(m, n)) && !w.rec && !w.noRec ? '<b>这节课已经上完，</b>' : ''}把这节课的<b>录音文字稿</b>发给 Claude，整理后会出现在这里：中文总结、重点概念、老师强调的内容、和作业的关系、可以在 tutorial 上用的英文句子。</div>`;
     }
     h += `<h2>我的 tutorial 笔记</h2>`;
     h += myNotes.length ? myNotes.map(noteCard).join('') : `<div class="card empty">还没有记录。</div>`;
