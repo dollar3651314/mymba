@@ -46,6 +46,7 @@
 
 
 ### 🔍 10/31 按手册逐条核对（第三版演讲稿 + Mind Map；PPT 还是第二版）
+<p><a class="btn" href="/content/busi1763/files/BUSI1763_Check_Evidence.html" target="_blank">🔎 打开核对证据（每条：要求原文 vs. 我们材料原文）</a></p>
 > 依据：网站上从 2025-26 手册、Tip、Induction PPS、3 份样例、老师课上和 10/20 邮件整理的要求（手册原件不在仓库里；要逐字核对请重新发手册）。
 
 | # | 要求（出处） | 现在 | 结论 |
