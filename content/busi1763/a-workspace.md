@@ -6,6 +6,7 @@
 <a class="btn ghost" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>⬇️ PPT 的 PDF（手机看）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_Group_Script.docx" download>⬇️ 四人演讲稿 + 8 个问答（第三版 · 中英对照 Word）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>⬇️ Mind Map（第三版 · A1 打印版 PDF）</a>
+<a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1_CN.pdf" download>⬇️ Mind Map 中文对照版 PDF（只供理解）</a>
 <a class="btn ghost" href="/content/busi1763/files/Unilever_MindMap_A1.pptx" download>⬇️ Mind Map（可编辑 PPT）</a>
 <a class="btn" href="#/practice/busi1763/speech">🎧 你的 FDI 部分：逐句跟读 / 整段连续跟读（锁屏可播）</a>
 </p>
