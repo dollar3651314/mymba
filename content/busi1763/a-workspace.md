@@ -23,7 +23,8 @@
 
 
 ## 🌱 中文草稿（10/31，待你确认）：加入“可持续发展与 CSR”
-<p><a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1_CN_CSR.pdf" download>⬇️ Mind Map 中文草稿（CSR 放进第 3 位分支）</a></p>
+<p><a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1_CN_CSR.pdf" download>⬇️ Mind Map 中文草稿（CSR 放进第 3 位分支）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_Script_draft_v4.docx" download>⬇️ 演讲稿草稿第四版（中英对照，第 3 位加了 CSR）</a></p>
 
 **为什么加**：手册学习目标第 4、5 条要求“对公司的可持续经营做批判性概述（A1 海报）”“结合 CSR 管理框架分析过去和未来表现”，我们原来完全没有（见上面核对证据第 10、11 条）。
 **谁讲**：第 3 位（发达经济体跨国企业）——他现在约 2.7 分钟，有空间；这个理论本来就讲“东道国目标：保护环境”。加完约 3.4 分钟（正常语速）。
