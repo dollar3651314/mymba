@@ -1,135 +1,135 @@
-# Session 7 · Simple Linear Regression (Simple regression modelling)
+# 第 7 次课 · 简单线性回归（Simple regression modelling）
 
-> **One-line summary:** Simple regression uses a straight line, **Y = intercept + slope × X**, to describe "when one factor X changes, how the outcome Y changes on average". It can be used for prediction and scenario analysis, but it only **supports judgement**: it is **not a crystal ball** and **does not prove causation**.
-> 10/31 (Sat) 15:30, about 1 hr 38 min. The lecture took about 1 hour (00:03–59:43), then a break, then individual Excel exercises in class. The recording transcription is poor, so these notes only cover what is clear, with recording times noted.
-> ⚠️ The teacher covered **Lecture 8 (regression)** today, not time series, so the site has swapped weeks 7 and 8. Time series will most likely be on **11/10**.
+> **一句话总结**：简单回归用一条直线 **Y = 截距 + 斜率 × X**，说明“一个因素 X 变化时，结果 Y 平均怎么变”。它可以用来预测、做情景分析，但只是**辅助判断**：**不是水晶球**，**也不能证明因果**。
+> 10/31（周六）15:30，约 1 小时 38 分钟：前 1 小时讲课（00:03–59:43），休息后课上做个人 Excel 练习。录音转写质量一般，下面只写听清楚的内容，并注明录音时间。
+> ⚠️ 老师今天讲的是 **Lecture 8（回归）**，不是时间序列，网站已把第 7、8 周对调。时间序列很可能 **11/10** 讲。
 
-## Key points of this session
+## 本节重点
 
-**1. What regression is for (02:47–10:12)**
-- It is the most basic analysis for **forecasting**: it examines whether **one factor affects another**.
-  - Example: if marketing spend goes up, do sales go up?
-  - You can first state this as a **hypothesis**, then test it with regression.
-- With the relationship known, you can **predict from known inputs**.
-  - Example: estimate next year's revenue from the advertising budget.
-  - Example: run "what if" **scenario analysis**, such as "what if I increase the marketing budget?"
-- The teacher stressed repeatedly: **regression is decision support, not absolute truth.**
-  - "We're not god … we can only forecast … to a certain confidence level."
-  - It does not replace judgement; you still have to interpret it alongside the business context.
+**1. 回归是干什么的（02:47–10:12）**
+- 回归是做**预测**最基础的分析，看**一个因素会不会影响另一个**。
+  - 例子：市场投入增加，销售会不会增加？
+  - 可以先写成**假设**，再用回归检验。
+- 知道了关系，就能**用已知的数据预测结果**。
+  - 例子：用广告预算估计明年收入。
+  - 例子：做“如果……会怎样”的**情景分析**，比如“如果我加大市场预算会怎样”。
+- 老师反复强调：**回归是决策支持，不是绝对真理。**
+  - 原话：“我们不是神……只能在一定把握程度上预测。”
+  - 它不能代替判断，还要结合商业背景来解读。
 
-**2. The equation (11:13–14:52): Y = intercept + slope × X + error**
-- **Y (outcome / dependent variable):** what you want to predict, such as sales or customer satisfaction.
-- **X (driver / independent variable):** data you already have, such as price, marketing budget or service capacity.
-- **Intercept:** the baseline, i.e. the value of Y when X = 0. It isn't always realistic in practice, but it "anchors" the line.
-- **Slope:** **the most important part for decision-making.** It is how much Y changes when X increases by 1.
-  - A larger slope means a steeper line, so a stronger effect.
-  - Positive means the two move in the same direction; negative means they move in opposite directions.
-- **Error:** real-world data can never be predicted exactly, and other factors outside the model always have an influence.
+**2. 回归方程（11:13–14:52）：Y = 截距 + 斜率 × X + 误差**
+- **Y（结果 / 因变量）**：你想预测的东西，比如销售额、客户满意度。
+- **X（驱动因素 / 自变量）**：你手上已有的数据，比如价格、市场预算、服务能力。
+- **截距**：基准线，也就是 X = 0 时 Y 的值。现实中不一定合理，但它把这条线“固定”住。
+- **斜率**：**对做决策最重要**，表示 X 每增加 1，Y 变化多少。
+  - 斜率越大，线越陡，影响越大。
+  - 正数表示两者同方向变化，负数表示反方向变化。
+- **误差**：现实数据永远不可能完全预测准确，总有模型以外的因素在起作用。
 
-**3. Four assumptions (14:52–18:41; "you don't need to memorise them, just know they exist")**
-1. The relationship is roughly a **straight line**, not a curve or a random scatter. If not, the model will still produce numbers, but they will be misleading.
-2. The **errors are evenly spread** across the range of X; they don't get bigger as X gets bigger.
-3. **Each observation is independent**; one data point doesn't affect another.
-4. The **errors are roughly normally distributed**: most points sit near the line, with only a few far from it.
+**3. 四个假设（14:52–18:41，老师说“不用背，知道有这回事就行”）**
+1. 两者的关系大致是**一条直线**，不是曲线，也不是乱的。否则模型照样算出数字，但会误导人。
+2. **误差分布均匀**：不会随着 X 变大而变得越来越大。
+3. **每个数据点相互独立**：一个点不会影响另一个点。
+4. **误差大致呈正态分布**：大多数点靠近这条线，只有少数离得远。
 
-**4. Steps to build a model (18:41–26:54)**
-1. **Identify the variables first.** Be clear what the outcome is and which factor you believe affects it.
-   - "A well-chosen question often matters more than the sophistication of the analysis."
-   - In practice, test with one variable first, then add more. With several variables it becomes **multiple (multivariate) regression**, and the slope can change.
-2. **Draw a scatter plot first** to check whether the pattern looks like a straight line and whether there are **outliers**.
-   - If the scatter is a mess with no pattern, there is no point carrying on, and calculating would waste time.
-3. Calculate the regression line (in Excel).
-4. **Evaluate the model.** "All models have to be evaluated, not fire and forget."
-5. If the model is useful enough, use it for prediction.
+**4. 建模的步骤（18:41–26:54）**
+1. **先确定变量**：结果是什么、你认为哪个因素会影响它。
+   - 老师原话：“问题选得好，往往比分析方法有多高级更重要。”
+   - 实际做法：先用一个变量试，再慢慢加。加了多个变量就是**多元回归**，斜率可能会变。
+2. **先画散点图**，看是不是像一条直线、有没有**离群值**。
+   - 如果点乱成一团、看不出规律，就没必要往下算了，算了也是浪费时间。
+3. 用 Excel 算出回归线。
+4. **评估模型**。老师原话：“所有模型都要评估，不能做完就不管。”
+5. 模型够用了，再拿来预测。
 
-**5. Evaluating the model (29:02–31:30)**
-- **R²:** how much of the variation in Y the line explains. Higher means a stronger relationship.
-  - But a high R² **does not mean the model is good, or that the story is complete.**
-- **Residuals:** how far each prediction is from the actual value, i.e. where the model overestimates or underestimates.
-- **Standard error:** typical prediction accuracy. **The smaller it is, the more accurate the predictions.**
+**5. 怎样评估模型（29:02–31:30）**
+- **R²**：这条线能解释 Y 的变化的百分之多少。越高，关系越强。
+  - 但 R² 高**不代表模型好，也不代表“故事”完整**。
+- **残差**：每个预测值和实际值差多少，能看出模型在哪里估高了、哪里估低了。
+- **标准误**：一般的预测误差有多大。**越小，预测越准。**
 
-**6. Worked example: study hours → test score (31:30–47:24)**
-- 1 hour → 50 marks, 2 hours → 55 marks, and so on. Hypothesis: more study time gives higher marks.
-- Calculation steps:
-  1. Add up each column: Σx, Σy, Σxy, Σx².
-  2. Put these into the formulas to get the slope.
-  3. Then get the intercept.
-- Result: **slope = 5** (each extra hour of study adds an average of 5 marks); **intercept = 45**. The equation is **y = 45 + 5x**.
-- Prediction: 6 hours of study → **75 marks**.
-- The teacher also said this is not realistic: studying more doesn't guarantee higher marks, because distraction, ability and other factors also matter.
-- A classmate spotted an error on one formula slide: Σx² was confused with (Σx)². The teacher accepted it, so **take care with these two when you check against the slides.**
-- You **don't need to memorise or calculate the formulas by hand**; Excel does it. But know there is a transparent calculation behind it, so you understand what Excel is doing.
-- The more data you have, the more accurate the line. Machine learning works on the same principle.
+**6. 课上的例子：学习时间 → 考试分数（31:30–47:24）**
+- 学 1 小时得 50 分，学 2 小时得 55 分，依此类推。假设：学得越久，分数越高。
+- 计算步骤：
+  1. 先把每一列加总：Σx、Σy、Σxy、Σx²。
+  2. 代入公式算出斜率。
+  3. 再算出截距。
+- 结果：**斜率 = 5**（每多学 1 小时，平均多 5 分）；**截距 = 45**；方程是 **y = 45 + 5x**。
+- 预测：学 6 小时 → **75 分**。
+- 老师也说这个例子不现实：学得多不一定分数高，还受分心程度、能力等因素影响。
+- 有同学指出某一页公式把 Σx² 和 (Σx)² 弄混了，老师认可了。**对照课件时注意这两个不一样。**
+- 公式**不用背，也不用手算**，Excel 会算。但要知道背后有一套清楚的计算过程，才明白 Excel 在做什么。
+- 数据越多，这条线越准。机器学习也是同样的道理。
 
-**7. Where it is used (48:02–51:25)**
-- **Business:** using advertising and price to estimate sales and demand, so decisions move "from gut feel to evidence".
-- **Healthcare:** for example, recommended weight/BMI ranges by age and height.
-- **Education:** study time and performance.
-- **Environmental science:** temperature changes over time.
+**7. 用在哪里（48:02–51:25）**
+- **商业**：用广告、价格估计销量和需求，让决策“从凭感觉变成看证据”。
+- **医疗**：比如按年龄、身高推荐的体重 / BMI 范围。
+- **教育**：学习时间和成绩。
+- **环境科学**：气温随时间的变化。
 
-**8. Limitations (51:25–56:00; useful for critique in the assignments)**
-1. **It only captures straight-line relationships.** Many real-world phenomena are more complex, so it can oversimplify.
-2. **It is sensitive to outliers.** For example, in 1, 2, 3, 4, 5, if the last value becomes 100, the whole line changes completely.
-3. **It only looks at one factor** and ignores the others, which can lead to incomplete or wrong interpretations.
-4. **It cannot prove causation.** It only shows that two variables move together, i.e. correlation. Acting on correlation alone can lead to poor decisions.
+**8. 局限（51:25–56:00，作业里批判性评价可以用）**
+1. **只能抓住直线关系**：现实中很多现象更复杂，硬用直线会过度简化。
+2. **容易被离群值带偏**：比如 1、2、3、4、5 里最后一个变成 100，整条线就完全不一样了。
+3. **只看一个因素**：忽略了其他因素，可能得出不完整或错误的结论。
+4. **不能证明因果**：只能说明两者“一起变”，也就是相关。只凭相关就做决定，可能做出错误选择。
 
-## Key concepts and terms
+## 关键概念与术语
 
-| English | Chinese | One-line explanation |
+| 英文 | 中文 | 一句话解释 |
 |---|---|---|
-| Simple linear regression | 简单线性回归 | Describes the relationship between one X and Y with a straight line |
-| Dependent variable / outcome (Y) | 因变量 / 结果 | What you want to explain or predict |
-| Independent variable / driver (X) | 自变量 / 驱动因素 | The factor used for the explanation |
-| Intercept | 截距 | The baseline value of Y when X = 0 |
-| Slope | 斜率 | How much Y changes when X increases by 1 |
-| Error term / residual | 误差项 / 残差 | The gap between the predicted and actual values |
-| Scatter plot | 散点图 | Check whether it looks like a straight line, and look for outliers, before calculating |
-| Outlier | 离群值 | A point far from the overall pattern; it can distort the line |
-| R-squared (R²) | 判定系数 | The share of Y's variation that the line explains |
-| Standard error | 标准误 | Typical prediction error; the smaller, the more accurate |
-| p-value | p 值 | Shown in the Excel output table; whether the relationship is significant (see the Session 4 hypothesis-testing notes) |
-| Multiple regression | 多元回归 | Several X variables used together to explain Y |
-| Correlation ≠ causation | 相关不等于因果 | Moving together doesn't mean one causes the other |
+| Simple linear regression | 简单线性回归 | 用一条直线描述一个 X 和 Y 的关系 |
+| Dependent variable / outcome (Y) | 因变量 / 结果 | 想解释或预测的东西 |
+| Independent variable / driver (X) | 自变量 / 驱动因素 | 用来解释的因素 |
+| Intercept | 截距 | X = 0 时 Y 的基准值 |
+| Slope | 斜率 | X 每增加 1，Y 变多少 |
+| Error term / residual | 误差项 / 残差 | 预测值和实际值之间的差距 |
+| Scatter plot | 散点图 | 计算前先看像不像直线、有没有离群值 |
+| Outlier | 离群值 | 远离整体规律的点，会把线拉偏 |
+| R-squared (R²) | 判定系数 | 这条线能解释的 Y 变化的比例 |
+| Standard error | 标准误 | 一般的预测误差，越小越准 |
+| p-value | p 值 | Excel 输出表里有，看关系是否显著（见第 4 次课假设检验笔记） |
+| Multiple regression | 多元回归 | 用多个 X 一起解释 Y |
+| Correlation ≠ causation | 相关不等于因果 | 一起变动，不代表一个导致另一个 |
 
-## What the teacher stressed (things you might skip — they matter)
-- **⭐ Assignment feedback (00:44–02:47):**
-  - Some classmates have already **sent their assignment to the teacher, and he has given feedback.**
-  - He only gives a **"general direction"**: whether you are heading the right way and roughly what is missing. He doesn't go into detail, because that would "defeat the purpose of the assignment".
-  - Once you are confident, you can submit.
-  - → **Once your draft is written, you can send it to the teacher for a direction check too** (the site has a to-do for this).
-- **⭐ Similarity below 20%:**
-  - Moodle runs your submission through Turnitin automatically, so **keep it under 20%.**
-  - The teacher said matches on the **template and references are fine**, as long as the content itself isn't over 20%.
-- **No class next week; the next class is 11/10** (Tue, 19:00).
-- **Midpoint feedback:** today is Session 7, the midpoint of the module. The teacher asked whether students understand, feel lost, or find it too technical, so he can adjust the remaining sessions.
-- In-class exercise (01:17–01:37):
-  - Download the **instructions document and Excel data** from the Session 7 folder on Canvas.
-  - Task 1: create a folder.
-  - Task 2: run the regression with Excel's Data Analysis tool. The output table includes the coefficients, standard error, R² and p-value.
-  - Make a chart, then interpret the results.
-  - **Post screenshots of the table and chart to the discussion forum.** Once you've posted, you can see and download your classmates' work.
-  - Finish by 17:30.
+## 老师特别强调的（你可能会忽略，但很重要）
+- **⭐ 作业可以先给老师看方向（00:44–02:47）**
+  - 有同学已经**把作业发给老师，老师给了反馈**。
+  - 老师只给**“总体方向”**：方向对不对、大概缺什么。他不改细节，因为那样就“失去了作业的意义”。
+  - 有把握了就可以提交。
+  - → **你写好草稿后，也可以发给老师看方向**（网站已加待办）。
+- **⭐ 相似度要低于 20%**
+  - 交到 Moodle 后系统会自动用 Turnitin 查重，**要控制在 20% 以下**。
+  - 老师说**模板和参考文献的重复没关系**，只要正文内容不超过 20% 就行。
+- **下周没课，下次课是 11/10**（周二 19:00）。
+- **中期反馈**：今天是第 7 次课，课程过半。老师问大家听不听得懂、有没有跟不上、是不是太技术，好调整后面的课。
+- **课上练习（01:17–01:37）**：
+  - 在 Canvas 第 7 周文件夹下载**说明文档和 Excel 数据**。
+  - 任务 1：建一个文件夹。
+  - 任务 2：用 Excel 的“数据分析”工具做回归。输出表里有系数、标准误、R²、p 值。
+  - 画图，再解读结果。
+  - **把结果表和图截图发到讨论区**。发了以后能看到并下载同学的作业。
+  - 17:30 前做完。
 
-## How this links to the assignments
-- **Individual report (A, 12/4):**
-  - When evaluating the Bain report: if it says "A is associated with / affects B", ask whether it is just correlation or regression, which cannot prove causation.
-  - Is there only one factor? Could outliers be distorting it? Does it report R² and the sample size?
-  - These limitations can go straight into your "critical evaluation" paragraph.
-  - Also, **you can send your draft to the teacher for direction feedback**, and keep similarity under 20%.
-- **Group presentation (B, AmEgg, 11/24):**
-  - If you make predictions (e.g. price vs sales, costs vs output), you can use simple regression.
-  - In the presentation, say that "the regression only supports judgement and cannot prove causation". Following the teacher's line will earn marks.
-- These are clues to help you understand; write it in your own analysis and your own words.
+## 和作业的关系
+- **个人报告（A，12/4）**：
+  - 评 Bain 报告时，如果报告说“A 和 B 有关 / A 影响了 B”，就要问：是不是只是相关？回归不能证明因果。
+  - 再问：是不是只看了一个因素？有没有离群值把结论拉偏？有没有给出 R² 和样本量？
+  - 这些局限可以直接写进“批判性评价”段落。
+  - 另外，**草稿可以发给老师看方向**；正文相似度要低于 20%。
+- **小组展示（B，AmEgg，11/24）**：
+  - 如果要做预测（比如价格和销量、成本和产量），可以用简单回归。
+  - 展示时说明“回归只辅助判断，不能证明因果”。这正是老师的立场，能加分。
+- 这是帮你看懂的线索，要用你自己的分析和语言写。
 
-## English you can use in the tutorial
+## Tutorial 上可以说的英文
 - "The slope is 5, so each extra hour of study is linked to about 5 more marks." —— 斜率是 5，所以每多学习一小时，分数平均多约 5 分。
 - "The R-squared is high, but that does not prove that X causes Y." —— R² 很高，但这不能证明 X 导致 Y。
 - "I checked the scatter plot first to see if a straight line makes sense." —— 我先看了散点图，判断用直线合不合理。
 - "There is one outlier, so the regression line may be misleading." —— 有一个离群值，所以回归线可能有误导。
 - "Could I send you my draft for some general feedback on the direction?" —— 我可以把草稿发给您，请您给一点方向上的意见吗？
 
-## Not understood / to confirm
-- **Did you finish the in-class exercise and post the screenshots to the discussion forum?** If not, do it before 11/10 (it isn't graded, but it's good practice and both assignments use it).
-- **Which assignment were classmates sending to the teacher for feedback?** The recording doesn't say whether it's the individual report or the presentation; ask on 11/10.
-- The Stata question for the time series tutorial on 11/10 is still open (see the Session 8 preview).
-- The rest of the recording (the break and the exercise time) is mostly classmates talking quietly and isn't clear enough to transcribe.
+## 没听懂 / 待确认
+- **课上的回归练习做完了吗？截图发到讨论区了吗？** 没做完的话 11/10 前补上（不算分，但是好练习，两份作业都用得上）。
+- **同学发给老师看方向的是哪份作业？** 录音没说清是个人报告还是小组展示，11/10 问。
+- 11/10 时间序列的 Tutorial 用 Stata 的问题还没解决（见第 8 周预习包）。
+- 录音后半段（休息和练习时间）大多是同学小声说话，听不清，没有整理。
