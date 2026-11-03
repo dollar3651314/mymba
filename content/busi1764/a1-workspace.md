@@ -6,10 +6,10 @@
 | # | 要做的事 | 什么时候 | 谁 |
 |---|---|---|---|
 | 1 | ✅ 附录 A 商业模式画布 | 11/3 | Claude ✅（你看一眼，有不同意的格子告诉 Claude） |
-| 2 | 封面填 **LSBF Student ID**、**UOG Banner ID**；目录页上面同样两处 | 现在就能做 | 你 |
+| 2 | ✅ 两处学号已填（11/3，Claude 直接发给你的“Final”版 Word；为保护隐私，网站上的文件不含学号） | 11/3 | ✅ |
 | 3 | ✅ 封面讲师名 **Dr. Albert Ng** 是你的老师（11/3 确认） | — | ✅ |
-| 4 | **AI 使用声明**逐行选 YES / NO（如实）。按我们的写作过程，参考：搭大纲 YES、解释概念 YES、改语言 YES、帮写研究问题 NO；“In other ways” YES，保留三条说明里的 “check academic English and grammar” 和 “final text and references were reviewed”；第一条 “drafting and revising” 也如实保留（Claude 帮你压缩和改写过英文）；不用的 YES/NO 删掉一个 | 现在就能做 | 你 |
-| 5 | Word 里目录右键 → **更新域** → 只更新页码 | 填完 2–4 以后 | 你 |
+| 4 | ✅ AI 使用声明已填（11/3）：研究问题 NO；大纲、解释概念、改语言 YES；总结资料 YES（注明：核对文中来源的事实和引文）；其他方式 YES，三条说明都保留（改成黑字、删掉 “delete if irrelevant”） | 11/3 | ✅ |
+| 5 | ✅ 目录页码已核对：每个标题的实际页码和目录一致（4–9 页）。在你电脑的 Word 里如果显示不同，右键目录 → 更新域 → 只更新页码 | 11/3 | ✅ |
 | 6 | ✅ 4.3 加入第 6 次课“外来者劣势”：“The partner would reduce SELCO's liability of foreignness (Zaheer, 1995) by training technicians, working with suppliers and promoting products locally.” 引用 Zaheer (1995)（这个概念的经典出处，不用等课件作者），参考文献加 1 条 → 1,048 词 | 11/3 | Claude ✅ |
 | 7 | **11/13 入口开放**：看格式要求 → 转 PDF（文件里只有学号）→ Turnitin（新加坡时间 11:00–13:00 交最快），报告截图发 Claude | 11/13 | 你 |
 | 8 | 正式提交 | 11/16（截止 11/17 23:30） | 你 |
