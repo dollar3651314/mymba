@@ -84,7 +84,7 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 **引用（11/3 加上）**：
 - 11 人死亡 → 报告前言 p. vi 原文：“Eleven crew members died, and others were seriously injured”。
 - 省钱 + 监管失灵 → p. vii：BP、Halliburton、Transocean 一连串错误，显示 “systematic failures in risk management”；p. ix：“the weaknesses and the inadequacies of federal regulation and oversight”。
-- 650 亿美元 → 路透社 2018 年 1 月 16 日报道（BP 宣布再计提 17 亿美元，总成本约 650 亿美元）。**⬜ 请你找到原文链接**（见下面“要你去找”）。
+- 650 亿美元 → ✅ 路透社 2018 年 1 月 16 日（Ron Bousso），用户本地 Claude Code 11/3 找到原文（Wayback 存档：https://web.archive.org/web/20181116065254/https://www.reuters.com/article/us-bp-deepwaterhorizon/bp-deepwater-horizon-costs-balloon-to-65-billion-idUSKBN1F50NL ）。导语原话：“BP said on Tuesday it would take a new charge over the 2010 Deepwater Horizon spill after again raising estimates for outstanding claims, lifting total costs to around $65 billion.”
 - ⚠️ 外部来源**只当例子**，理论分析不用它们（论文规则）。
 - 文内引用把机构名缩短成 “National Commission”——**今晚可以顺便问老师**这样行不行（全称很长，会占字数）。
 
@@ -94,13 +94,8 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 
 **参考文献（Harvard，加进最后的列表）**
 - National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling (2011) *Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling. Report to the President*. Washington, DC: US Government Printing Office. Available at: https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION-1.pdf (Accessed: 3 November 2026).
-- Bousso, R. (2018) 'BP's Deepwater Horizon bill tops $65 billion', *Reuters*, 16 January. Available at: [⬜ 你找到的链接] (Accessed: [⬜ 你打开的日期]).
+- Bousso, R. (2018) 'BP Deepwater Horizon costs balloon to $65 billion', *Reuters*, 16 January. Available at: https://www.reuters.com/article/business/environment/bp-deepwater-horizon-costs-balloon-to-65-billion-idUSKBN1F50NK/ (Accessed: 3 November 2026).
 
-**🔎 要你去找（5 分钟）**
-1. Google 搜：`BP's Deepwater Horizon bill tops $65 billion Reuters`
-2. 点 **reuters.com** 的那条（不要点转载网站）。
-3. 发给 Claude：① 网址 ② 文章标题 ③ 作者名（标题下面，应该是 Ron Bousso）④ 日期。
-4. 如果 Reuters 要登录 / 付费打不开：只截一张标题 + 作者 + 日期的图发过来也行。
 
 
 ## 🧾 引言写作过程（11/3）
