@@ -45,6 +45,26 @@
 4. **你的论点**：你建议哪个理论？用一句话说主要理由。
 5. 第 1、2 节各做什么？（各一句）
 
+### ✅ 你的引言中文要点（11/3）+ Claude 意见
+| # | 你的要点 | Claude 意见 |
+|---|---|---|
+| 1 | 我是顾问，要帮公司避免再发生类似问题；问题是钻井安全只踩着法律底线，还是应该做得更好 | ✅ 清楚。注意：你服务的是“一家大型石油公司”（题目没说是 BP），BP 只是**例子** |
+| 2 | 只靠死板地套用法律无法保护工人；经理为省钱做决定、监管失灵、加上利润压力，出问题就成了“必然” | ✅ 很好，这就是你论点的根据。⚠️ “必然”太绝对（第 1 周自测的“绝对词陷阱”），英文用 “much more likely”（可能性大得多）；“死板地套用法律”英文说成“只做到法律最低要求”更准 |
+| 3 | 工人生命无法挽回；社区渔业、旅游、环境无法复原；公司 650 亿美元损失真实发生，声誉和股价受损 | ✅ 三个层面都有。⚠️ 环境“无法复原”也太绝对 → “长期、难以恢复”；650 亿是 BP 的数字，写时说明是 BP |
+| 4 | 生命安全是工人的权利，所以建议采用 Freeman 伦理版 | ✅ 论点明确。可以再加半句对比：Friedman 把安全交给法律，而法律会失灵 |
+| 5 | （忘了） | 第 1 节：义务论 → Friedman 的论证和三条回应 → Freeman 的论证 → 两者在钻井安全上的区别。第 2 节：你的论证 → Friedman 三条反对 + Heath → 你的三条回应（能力、合法性、模糊性）→ “安全不一定赚钱”的经验反对和回应。然后结论给建议 |
+
+### ✏️ 下一步：你自己写英文引言（每个要点 1–2 句，共约 280 词）
+> 英文不用写得漂亮，Claude 只帮你改语法和表达，**内容和句子要是你自己的**。下面是可以用的词，不是句子。
+
+| 要点 | 可以用的词 |
+|---|---|
+| 1 | strategy consultant 战略顾问 · oil rig 钻井平台 · safety standards 安全标准 · the legal minimum 法律最低要求 · go beyond the law 超出法律要求 |
+| 2 | the Deepwater Horizon disaster (2010) · explosion 爆炸 · eleven workers died · cost-cutting decisions 省钱的决定 · weak regulation 监管薄弱 · profit pressure 利润压力 · much more likely 可能性大得多 |
+| 3 | irreversible 不可逆的 · local communities 当地社区 · fishing and tourism 渔业和旅游 · long-term damage 长期损害 · about $65 billion · reputation 声誉 · share price 股价 |
+| 4 | This essay argues that… · a right, not just a cost 是权利，不只是成本 · Freeman's stakeholder theory · the ethical (normative) version 伦理版 |
+| 5 | Section 1 explains… · Section 2 discusses objections and responses… · The conclusion gives recommendations… |
+
 ### ✏️ 第 1 节 · 伦理理论（约 850 词）——回答 6 个问题
 1. 义务论是什么？用你自己的话说“不能把人仅仅当作手段”是什么意思。
 2. Friedman 认为经理是谁的人？他的责任是什么？有什么限制？（提示：导读 p. 211、引用 1）
