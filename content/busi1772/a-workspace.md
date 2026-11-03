@@ -72,6 +72,20 @@
 2. ③ 要不要加一句“为什么这对公司也重要”（例如顾问的角度：公司不想成为下一个 BP）？
 3. ④ 第二句（Friedman 把安全交给法律）你同意吗？这句是 Claude 建议加的，不同意就删。
 
+### ✅ 引言英文（11/3，用户翻译 → Claude 改语法，约 275 词）
+① As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
+
+② The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers. When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely. Simply following the law is therefore not enough to protect workers.
+
+③ This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion, and its reputation and share price were also damaged. No oil company wants to be the next BP.
+
+④ This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
+
+⑤ To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to Friedman's strongest objections to stakeholder theory and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
+
+**改了什么（主要的）**：strategic → strategy consultant；avoid … from happening → prevent … from happening；drilling platforms → oil rigs（和题目一致）；incident → disaster（死了 11 人）；supervision（主管监督）→ regulation（政府监管）；分号后 For 改小写；第二个 irreparable → hard to repair（避免绝对词）；article → essay；obligatory basis → **deontological basis**（义务论，最重要）；⑤ 的“分歧”句意思译反了，已改；security（安保）→ safety（安全）。
+**⚠️ 还要加引用**（交稿前）：② 11 人死亡 → (National Commission, 2011)；③ 约 650 亿美元 → 找一个可靠来源（例如路透社 2018 年报道），Claude 之后帮你核对。
+
 ### ✏️ 下一步：你自己写英文引言（每个要点 1–2 句，共约 280 词）
 > 英文不用写得漂亮，Claude 只帮你改语法和表达，**内容和句子要是你自己的**。下面是可以用的词，不是句子。
 
