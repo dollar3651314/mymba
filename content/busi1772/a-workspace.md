@@ -1,6 +1,78 @@
 # ✍️ 我的写作区：BUSI 1772 个人论文（2000 词 · 11/26 截止 · 占 60%）
 
-## 🧭 带读 · 第 3 步（11/3）：你写中文要点（先写引言 + 第 1 节）
+## 📌 现在要做：第 1 节 · 伦理理论（约 850 词）—— 6 个问题
+> 用中文回答，每题 1–3 句，**用你自己的话**。每题下面有“背景提示”帮你回忆（来自导读和课件），看完提示再写你的理解。写完发给 Claude，Claude 帮你检查、配引用，再串成中文稿。
+
+**1. 义务论是什么？“不能把人仅仅当作手段”是什么意思？**
+> 背景提示：义务论（deontology）看的是**权利和义务**，不是结果。有些事不管结果多好都不能做——比如利用别人、伤害别人的权利。“仅仅当作手段”= 只把人当成达到目的的工具（比如为了省钱让工人冒生命危险），不尊重他也是一个有权利的人。课件说：Friedman 和 Freeman **都是义务论**，只是认为“谁的权利最重要”不同。
+
+**2. Friedman 认为经理是谁的人？他的责任是什么？有什么限制？**
+> 背景提示：Friedman 说经理是**股东（企业所有者）的雇员 / 代理人**，责任是按股东的意愿经营，通常就是“尽可能多赚钱”；限制是要**遵守法律和道德习俗**（p. 211，导读引用 1）。所以 Friedman 不是说“可以不顾安全”，而是“守法之内尽量赚钱”。
+
+**3. Friedman 的推理一步一步是怎样的？（P1–P4）**
+> 背景提示（课件）：P1 侵犯别人的财产权是不允许的 → P2 股东拥有公司，有权决定公司的目的 → P3 股东的目的通常是利润 → P4 经理签了合同代表股东 → 结论：经理有义务让利润最大化。用你自己的话把这四步串起来就行。
+
+**4. Friedman 为什么认为社会问题应该交给政府？三条理由各一句。**
+> 背景提示：① **合法性**：经理拿股东的钱做公益，等于没经过选举就“征税”和花税款（p. 212，引用 3）；② **能力**：经理是经营专家，不是解决社会问题的专家——“他怎么知道该怎么花？”（p. 212）；③ **动力**：这样做股东会炒掉他（p. 213）。
+
+**5. Freeman 认为经理要对谁负责？为什么？什么时候经理要出来“平衡”？**
+> 背景提示（课件）：经理要对**所有利益相关者**负责——员工、顾客、供应商、社区、股东，因为**每个人都有权利**，谁都不能只被当作手段。各方权利冲突、而**政府又没管好**时，经理要像所罗门王一样来平衡。
+
+**6. 两个理论在“钻井安全做到什么程度”上有什么不同？**（第 1 节最重要的一段）
+> 背景提示：两个理论都要求守法，**真正的区别**是：Friedman——做到法律要求就够，超出法律的安全开支只有在对公司长期有利时才做（p. 212 污染的例子）；Freeman——工人的生命安全是权利，**即使不赚钱也要保护**。还可以想：Vogel 说很多 CSR 支持者其实接受了 Friedman 的前提（p. 26）——“讲安全因为能赚钱”的战略版和 Friedman 差不多，所以你要用的是**伦理版**。
+
+### 写英文时可以用的句型（通用学术句型，不是内容）
+- "This essay argues that…" —— 本文认为……
+- "This matters because…" —— 这很重要，因为……
+- "Section 1 explains… Section 2 discusses…" —— 第 1 节解释……第 2 节讨论……
+- "According to Friedman (1970, p. 211), …" —— 根据 Friedman……
+- "The key difference between the two theories is…" —— 两个理论的关键区别是……
+- "From a deontological perspective, …" —— 从义务论的角度……
+
+### 之后（第 2 节 + 结论，11/9 前）
+- 2a：为什么生命权比利润重要？为什么“守法就够”在钻井安全上不够？
+- 2b–2c：Friedman 三条反对 + Heath 模糊性 → 你的三条回应（能力 / 合法性 / 模糊性）各 2–3 句
+- 2d：“安全一定赚钱”没有证据（Vogel）——这对你的论点是坏事还是好事？为什么？
+- 结论：你会给石油公司哪 2–3 条具体建议？
+
+
+## ✅ 已完成：引言英文定稿（11/3，用户翻译 → Claude 改语法 + 加引用，约 285 词）
+① As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
+
+② The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers (National Commission, 2011, p. vi). When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely (National Commission, 2011, pp. vii, ix). Simply following the law is therefore not enough to protect workers.
+
+③ This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion (Bousso, 2018), and its reputation and share price were also damaged. No oil company wants to be the next BP.
+
+④ This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
+
+⑤ To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to Friedman's strongest objections to stakeholder theory and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
+
+**改了什么（主要的）**：strategic → strategy consultant；avoid … from happening → prevent … from happening；drilling platforms → oil rigs（和题目一致）；incident → disaster（死了 11 人）；supervision（主管监督）→ regulation（政府监管）；分号后 For 改小写；第二个 irreparable → hard to repair（避免绝对词）；article → essay；obligatory basis → **deontological basis**（义务论，最重要）；⑤ 的“分歧”句意思译反了，已改；security（安保）→ safety（安全）。
+**引用（11/3 加上）**：
+- 11 人死亡 → 报告前言 p. vi 原文：“Eleven crew members died, and others were seriously injured”。
+- 省钱 + 监管失灵 → p. vii：BP、Halliburton、Transocean 一连串错误，显示 “systematic failures in risk management”；p. ix：“the weaknesses and the inadequacies of federal regulation and oversight”。
+- 650 亿美元 → 路透社 2018 年 1 月 16 日报道（BP 宣布再计提 17 亿美元，总成本约 650 亿美元）。**⬜ 请你找到原文链接**（见下面“要你去找”）。
+- ⚠️ 外部来源**只当例子**，理论分析不用它们（论文规则）。
+- 文内引用把机构名缩短成 “National Commission”——**今晚可以顺便问老师**这样行不行（全称很长，会占字数）。
+
+**⭐ 留给第 2 节 2a 用的一句原话**（报告 p. vii，正好支持“只守法不够”）：
+> "Because regulatory oversight alone will not be sufficient to ensure adequate safety, the oil and gas industry will need to take its own, unilateral steps to increase dramatically safety throughout the industry" (National Commission, 2011, p. vii)
+> （因为光靠监管不足以保证足够的安全，石油天然气行业需要自己主动采取措施，大幅提高整个行业的安全。）
+
+**参考文献（Harvard，加进最后的列表）**
+- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling (2011) *Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling. Report to the President*. Washington, DC: US Government Printing Office. Available at: https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION-1.pdf (Accessed: 3 November 2026).
+- Bousso, R. (2018) 'BP's Deepwater Horizon bill tops $65 billion', *Reuters*, 16 January. Available at: [⬜ 你找到的链接] (Accessed: [⬜ 你打开的日期]).
+
+**🔎 要你去找（5 分钟）**
+1. Google 搜：`BP's Deepwater Horizon bill tops $65 billion Reuters`
+2. 点 **reuters.com** 的那条（不要点转载网站）。
+3. 发给 Claude：① 网址 ② 文章标题 ③ 作者名（标题下面，应该是 Ron Bousso）④ 日期。
+4. 如果 Reuters 要登录 / 付费打不开：只截一张标题 + 作者 + 日期的图发过来也行。
+
+
+## 🧾 引言写作过程（11/3）
+
+
 **你的选择（11/3）**：① 建议 **Freeman（伦理版）** ② 不赚钱的安全措施也**该做**——工人生命是权利 ③ 回应 Friedman **三条都用**：能力、合法性、模糊性 ④ BP 事故**都有责任**（经理、政府监管、股东压力）。
 → 大纲不用改。④ 正好可以用在引言和 2a：Friedman 的分工是“政府定规则、经理赚钱”，BP 说明**规则这一环会失灵**，所以安全不能只靠“守法就够”。
 
@@ -71,53 +143,6 @@
 1. 有没有哪句不是你的意思？直接改中文。
 2. ③ 要不要加一句“为什么这对公司也重要”（例如顾问的角度：公司不想成为下一个 BP）？
 3. ④ 第二句（Friedman 把安全交给法律）你同意吗？这句是 Claude 建议加的，不同意就删。
-
-### ✅ 引言英文（11/3，用户翻译 → Claude 改语法，约 275 词）
-① As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
-
-② The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers. When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely. Simply following the law is therefore not enough to protect workers.
-
-③ This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion, and its reputation and share price were also damaged. No oil company wants to be the next BP.
-
-④ This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
-
-⑤ To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to Friedman's strongest objections to stakeholder theory and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
-
-**改了什么（主要的）**：strategic → strategy consultant；avoid … from happening → prevent … from happening；drilling platforms → oil rigs（和题目一致）；incident → disaster（死了 11 人）；supervision（主管监督）→ regulation（政府监管）；分号后 For 改小写；第二个 irreparable → hard to repair（避免绝对词）；article → essay；obligatory basis → **deontological basis**（义务论，最重要）；⑤ 的“分歧”句意思译反了，已改；security（安保）→ safety（安全）。
-**⚠️ 还要加引用**（交稿前）：② 11 人死亡 → (National Commission, 2011)；③ 约 650 亿美元 → 找一个可靠来源（例如路透社 2018 年报道），Claude 之后帮你核对。
-
-### ✏️ 下一步：你自己写英文引言（每个要点 1–2 句，共约 280 词）
-> 英文不用写得漂亮，Claude 只帮你改语法和表达，**内容和句子要是你自己的**。下面是可以用的词，不是句子。
-
-| 要点 | 可以用的词 |
-|---|---|
-| 1 | strategy consultant 战略顾问 · oil rig 钻井平台 · safety standards 安全标准 · the legal minimum 法律最低要求 · go beyond the law 超出法律要求 |
-| 2 | the Deepwater Horizon disaster (2010) · explosion 爆炸 · eleven workers died · cost-cutting decisions 省钱的决定 · weak regulation 监管薄弱 · profit pressure 利润压力 · much more likely 可能性大得多 |
-| 3 | irreversible 不可逆的 · local communities 当地社区 · fishing and tourism 渔业和旅游 · long-term damage 长期损害 · about $65 billion · reputation 声誉 · share price 股价 |
-| 4 | This essay argues that… · a right, not just a cost 是权利，不只是成本 · Freeman's stakeholder theory · the ethical (normative) version 伦理版 |
-| 5 | Section 1 explains… · Section 2 discusses objections and responses… · The conclusion gives recommendations… |
-
-### ✏️ 第 1 节 · 伦理理论（约 850 词）——回答 6 个问题
-1. 义务论是什么？用你自己的话说“不能把人仅仅当作手段”是什么意思。
-2. Friedman 认为经理是谁的人？他的责任是什么？有什么限制？（提示：导读 p. 211、引用 1）
-3. Friedman 的 P1–P4 推理：一步一步写出来（可以照课件顺序，用你自己的话）。
-4. Friedman 为什么认为社会问题应该交给政府？三条理由各一句。（提示：p. 212–213、引用 3）
-5. Freeman 认为经理要对谁负责？为什么？什么时候经理要出来“平衡”？
-6. 两个理论在“钻井安全做到什么程度”上有什么不同？（这是第 1 节最重要的一段）
-
-### 写英文时可以用的句型（通用学术句型，不是内容）
-- "This essay argues that…" —— 本文认为……
-- "This matters because…" —— 这很重要，因为……
-- "Section 1 explains… Section 2 discusses…" —— 第 1 节解释……第 2 节讨论……
-- "According to Friedman (1970, p. 211), …" —— 根据 Friedman……
-- "The key difference between the two theories is…" —— 两个理论的关键区别是……
-- "From a deontological perspective, …" —— 从义务论的角度……
-
-### 之后（第 2 节 + 结论，11/9 前）
-- 2a：为什么生命权比利润重要？为什么“守法就够”在钻井安全上不够？
-- 2b–2c：Friedman 三条反对 + Heath 模糊性 → 你的三条回应（能力 / 合法性 / 模糊性）各 2–3 句
-- 2d：“安全一定赚钱”没有证据（Vogel）——这对你的论点是坏事还是好事？为什么？
-- 结论：你会给石油公司哪 2–3 条具体建议？
 
 ## 🧭 带读 · 第 2 步（11/3）：一页大纲（今晚带去课上）
 > 🔶 **这是帮你看懂的骨架和线索，不是论文段落。** 立场先按“建议采用 Freeman（伦理版）”搭——这是范例的方向、论证最顺、也最好回答“安全措施不赚钱怎么办”。**你不同意就告诉 Claude，换成 Friedman 版本。** 每一节的内容要用你自己的分析和语言写。
