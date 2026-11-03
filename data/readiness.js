@@ -2,7 +2,7 @@
 // status: go = 条件已够，可以开始做；partial = 可以先做一部分；wait = 还不能开始
 // pct: 资料和条件的完成度（粗略估计）；have: 已经具备的；missing: 还差的（写清楚等谁、哪天）；next: 下一步
 // done: 已经开始写的作业的完成度（%，用户 2026-10-19 要求：开始了就显示完成度）；steps: 完成度的一句话说明。有 done 时首页和作业页显示“写作中 · 完成 X%”
-MBA.readinessUpdated = '2026-10-31';
+MBA.readinessUpdated = '2026-11-03';
 MBA.readiness = {
   'busi1764/a1': {
     status: 'go', pct: 95, done: 90,
@@ -18,11 +18,11 @@ MBA.readiness = {
     next: '10/23 前想 2–3 个商业想法发给 Claude；10/22 第 5 次课之后开始写大纲。',
   },
   'busi1772/a': {
-    status: 'go', pct: 85, done: 15,
-    steps: '选题 ✅（第 2 题）→ 读 Friedman + Vogel ⬜ → 中文立场和反对意见 ⬜ → 结构 ⬜ → 英文初稿 ⬜ → Turnitin ⬜ → 提交 ⬜',
+    status: 'go', pct: 85, done: 20,
+    steps: '选题 ✅（第 2 题）→ 阅读导读 ✅ → 一页大纲 ✅（11/3）→ 3 个选择题 ⬜ → 每节中文要点 ⬜（11/9）→ 英文初稿 ⬜（11/12）→ Turnitin ⬜（11/20）→ 提交 ⬜（11/25）',
     have: ['<b>选定第 2 题：股东 vs. 利益相关者（石油公司钻井安全顾问）</b>（10/19）', '<b>第 2 周阅读导读</b>：Friedman 逐页、Vogel 第 1、2、7 章（Claude OCR 扫描件）、15 条核对过的原话和页码（写作区）', '课件 P1–P4、Friedman 三条回应、Heath 反对、BP 漏油案例、优秀范例'],
-    missing: ['10/26 前：读 Friedman 全文 + Vogel 重点页，用中文写立场、理由、最强反对和回应', '问老师：Friedman 用重印版页码 211–214 还是不写页码；课件（Freeman、Heath）怎么引用', '封面页、AI 声明模板（Canvas 公告）'],
-    next: '10/23 开始带读：先回答写作区“带读 · 第 1 步”的 5 个判断题（中文），Claude 据此搭大纲。',
+    missing: ['你的立场（大纲下 3 个选择题）和每节中文要点', '问老师：Friedman 用重印版页码 211–214 还是不写页码；课件（Freeman、Heath）怎么引用', '封面页、AI 声明模板（Canvas 公告）'],
+    next: '11/3 今晚带写作区的“一页大纲”去课上，问 4 个问题；11/6 前回答大纲下面的 3 个选择题、读 Friedman 全文；11/9 前每节中文要点；11/19 英文初稿。',
   },
   'busi1772/b': {
     status: 'wait', pct: 15,
