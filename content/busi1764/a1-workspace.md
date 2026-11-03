@@ -1,16 +1,16 @@
 # ✍️ 我的写作区：学习日志 A1（SELCO India）
 
 ## ✅ A1 还差什么（11/3 盘点）
-> 正文、参考文献、排版都已定稿（1,044 词）。**11/3 Claude 把附录 A 商业模式画布填好了**（9 格，★ 标出正文 3.2 说的三格：关键伙伴、客户关系、收入来源；内容全部来自正文已引用的两份资料），Word 已替换，重新下载即可。剩下的只有你能做的事：
+> 正文、参考文献、排版都已定稿（11/3 改后 1,048 词）。**11/3 Claude 把附录 A 商业模式画布填好了**（9 格，★ 标出正文 3.2 说的三格：关键伙伴、客户关系、收入来源；内容全部来自正文已引用的两份资料），Word 已替换，重新下载即可。剩下的只有你能做的事：
 
 | # | 要做的事 | 什么时候 | 谁 |
 |---|---|---|---|
 | 1 | ✅ 附录 A 商业模式画布 | 11/3 | Claude ✅（你看一眼，有不同意的格子告诉 Claude） |
 | 2 | 封面填 **LSBF Student ID**、**UOG Banner ID**；目录页上面同样两处 | 现在就能做 | 你 |
-| 3 | 确认封面讲师名 **Dr. Albert Ng** 是不是你的老师（11/5 上课看一眼） | 11/5 | 你 |
+| 3 | ✅ 封面讲师名 **Dr. Albert Ng** 是你的老师（11/3 确认） | — | ✅ |
 | 4 | **AI 使用声明**逐行选 YES / NO（如实）。按我们的写作过程，参考：搭大纲 YES、解释概念 YES、改语言 YES、帮写研究问题 NO；“In other ways” YES，保留三条说明里的 “check academic English and grammar” 和 “final text and references were reviewed”；第一条 “drafting and revising” 也如实保留（Claude 帮你压缩和改写过英文）；不用的 YES/NO 删掉一个 | 现在就能做 | 你 |
 | 5 | Word 里目录右键 → **更新域** → 只更新页码 | 填完 2–4 以后 | 你 |
-| 6 | （可选，11/5 决定）老师建议“每周理论都用上”：4.3 可以把最后一句换成 “The partner would reduce SELCO's liability of foreignness by training technicians, working with suppliers and promoting products locally.”（第 6 次课的“外来者劣势”，+2 词 → 1,046）。要引用第 6 周课件，**11/5 课上看课件作者是谁**再加参考文献 | 11/5 | 你决定 |
+| 6 | ✅ 4.3 加入第 6 次课“外来者劣势”：“The partner would reduce SELCO's liability of foreignness (Zaheer, 1995) by training technicians, working with suppliers and promoting products locally.” 引用 Zaheer (1995)（这个概念的经典出处，不用等课件作者），参考文献加 1 条 → 1,048 词 | 11/3 | Claude ✅ |
 | 7 | **11/13 入口开放**：看格式要求 → 转 PDF（文件里只有学号）→ Turnitin（新加坡时间 11:00–13:00 交最快），报告截图发 Claude | 11/13 | 你 |
 | 8 | 正式提交 | 11/16（截止 11/17 23:30） | 你 |
 
@@ -100,7 +100,8 @@
 3. **行距是单倍**：如果 Moodle 有格式要求（常见 1.5 倍）就按要求改；没写就不用管。
 4. 提交时转 PDF，**只写学号不写名字**（你的标题已经是这样）。
 
-## 📄 A1 全文（当前版本 · 2026-10-30 第三版 · 共 1,044 词，含大小标题和括号引用；用户定的上限 1,050）
+## 📄 A1 全文（当前版本 · 2026-11-03 · 共 1,048 词，含大小标题和括号引用；用户定的上限 1,050）
+> 11/3 改动：4.3 最后一句加入第 6 次课的“外来者劣势”（liability of foreignness），引用 Zaheer (1995)，参考文献变成 12 条；+4 词。
 > 英文是要交的版本，和“老师模板版 Word”一致；“中文对照”是按英文翻译的，方便你看懂和检查，**不要交中文**。判断、经历和反思都是你的，Claude 只改了英文表达、补了引用、压缩了字数。10/30 第三版：加了二级小标题，第 ①②③④ 部分再删约 90 词（改了哪些见上面“10/30 第三次压缩”），第 ⑤ 部分只加小标题、正文没动。
 
 ### ① 引言 · 企业概况（175 词）
@@ -204,7 +205,7 @@ In the 1 October tutorial, my group used the business model canvas to analyse Pu
 
 </details>
 
-### ④ 跨境转移反思（221 词）
+### ④ 跨境转移反思（225 词）
 **4. Cross-Border Transfer Reflection**
 
 **4.1 Market Opportunity**
@@ -217,7 +218,7 @@ SELCO's own experience shows that rural banking infrastructure is "an integral p
 
 **4.3 Entry Mode**
 
-I would enter through a joint venture with a local partner. A wholly owned subsidiary needs heavy investment that a social enterprise cannot easily afford. Franchising is also unsuitable: SELCO's early dealer network almost made the company fail and pulled it away from its mission (Ramon Magsaysay Award Foundation, 2011). The partner would train technicians, work with suppliers and promote the products in the local language.
+I would enter through a joint venture with a local partner. A wholly owned subsidiary needs heavy investment that a social enterprise cannot easily afford. Franchising is also unsuitable: SELCO's early dealer network almost made the company fail and pulled it away from its mission (Ramon Magsaysay Award Foundation, 2011). The partner would reduce SELCO's liability of foreignness (Zaheer, 1995) by training technicians, working with suppliers and promoting products locally.
 
 **4.4 Expansion Path**
 
@@ -235,7 +236,7 @@ Following the Uppsala model, in which firms increase commitment gradually as the
 
 **4.3 进入方式**
 
-> 我会和当地伙伴合资进入。全资子公司需要大量投资，社会企业很难负担。特许经营也不合适：SELCO 早期的经销商网络差点让公司失败，还让它偏离了使命（Ramon Magsaysay Award Foundation, 2011）。合作伙伴会培训技术员、和供应商合作，并用当地语言推广产品。
+> 我会和当地伙伴合资进入。全资子公司需要大量投资，社会企业很难负担。特许经营也不合适：SELCO 早期的经销商网络差点让公司失败，还让它偏离了使命（Ramon Magsaysay Award Foundation, 2011）。合作伙伴会通过培训技术员、和供应商合作、在当地推广产品，减少 SELCO 作为外来企业的劣势（Zaheer, 1995）。
 
 **4.4 扩张路径**
 
@@ -278,6 +279,7 @@ At the same time, I found that disruptive innovation theory does not fully fit S
 - Schumpeter, J.A. (1947) 'The creative response in economic history', *The Journal of Economic History*, 7(2), pp. 149–159. doi:10.1017/S0022050700054279.
 - Skoll Foundation (n.d.) *SELCO Foundation*. Available at: https://skoll.org/organization/selco-foundation/ (Accessed: 16 October 2026).
 - Vahlne, J.-E. and Johanson, J. (2017) 'From internationalization to evolution: the Uppsala model at 40 years', *Journal of International Business Studies*, 48(9), pp. 1087–1102. doi:10.1057/s41267-017-0107-7.
+- Zaheer, S. (1995) 'Overcoming the liability of foreignness', *Academy of Management Journal*, 38(2), pp. 341–363. doi:10.5465/256683.
 
 **10/21 图书馆核对结果**（本地 Claude Code 在 Greenwich LibrarySearch + Crossref 核对，报告在私有仓库 linshi）：
 | 文献 | 结果 | 你文中怎么用 |
