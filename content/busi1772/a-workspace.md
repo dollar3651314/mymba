@@ -157,6 +157,68 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 
 
 
+## ✅ 已完成：第 1 节英文定稿（11/4，用户翻译 → Claude 改语法，约 745 词，不含表格）
+
+**1. Ethical Theory**
+
+**1.1 Deontology**
+
+Deontology is an ethical theory that focuses on rights and duties, rather than outcomes. Some actions cannot be done, no matter how good the outcome is, such as taking advantage of others or violating their rights. Treating people merely as a means means using them only as tools to achieve a goal (for example, putting workers' lives at risk to save money), without respecting them as people with rights (BUSI 1772 Week 2 lecture slides). Friedman and Freeman both make deontological arguments, but they differ on whose rights matter most.
+
+**1.2 Friedman's Shareholder Theory**
+
+Friedman argues that managers are employees, or agents, of the shareholders (the owners of the business). Their responsibility is to run the business according to the shareholders' wishes, which usually means to "make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom" (Friedman, 1970, p. 211). Therefore, Friedman is not saying that companies can ignore safety; he is saying that they should make as much money as possible within the law.
+
+His reasoning has five steps (BUSI 1772 Week 2 lecture slides):
+
+1. Basic principle: violating other people's property rights is not allowed.
+2. The rights of the key decision-makers: shareholders own the company and have the right to decide its purpose.
+3. The goal of the key decision-makers: the shareholders' goal is usually profit.
+4. The manager's role: managers have signed a contract to act on behalf of the shareholders.
+5. Conclusion: managers have a duty to maximise profits.
+
+Friedman gives an example: if a manager spends money to reduce pollution beyond what the law requires, he is spending the shareholders' money (Friedman, 1970, p. 212). Such spending is only justified when it serves the company's long-term interest (Friedman, 1970, p. 213). Safety measures on oil rigs that go beyond legal requirements are exactly this kind of spending.
+
+**1.3 Friedman's Three Reasons**
+
+Friedman argues that social problems should be left to the government, for three reasons:
+
+- First, legitimacy: when a manager uses shareholders' money for social causes, it is like imposing taxes and deciding how to spend them without being elected (Friedman, 1970, p. 212).
+- Second, competence: managers are experts in running a business, not in solving social problems: "How is he to know how to spend it?" (Friedman, 1970, p. 212).
+- Third, motivation: managers who do this will be fired by the shareholders (Friedman, 1970, p. 213).
+
+Therefore, according to Friedman's logic, safety standards on oil rigs should be set by the government through law, and companies only need to comply with them.
+
+**1.4 Freeman's Stakeholder Theory**
+
+Freeman argues that managers are responsible to all stakeholders, including employees, customers, suppliers, communities and shareholders, because everyone has rights and no one should be treated merely as a means (Freeman, 1984, cited in BUSI 1772 Week 2 lecture slides). His reasoning can also be divided into steps:
+
+1. Violating anyone's rights is not allowed.
+2. Shareholders have property rights, but other stakeholders also have rights.
+3. When these rights conflict, someone needs to balance them.
+4. When the government fails to do so, managers should balance them.
+
+Therefore, managers should make fair judgements between all parties, like King Solomon. On oil rigs, both workers and coastal communities are stakeholders, and they have a right to life and health, which cannot be traded for cost savings.
+
+**1.5 The Key Difference**
+
+Both theories require companies to comply with the law, so the real difference is not whether companies should be safe, but how far safety should go and why. Friedman believes that meeting legal requirements is enough, and that safety spending beyond the law is only justified when it brings profit. The ethical version of Freeman's theory holds that workers' safety is a right that must be protected even when it is not profitable. Table 1 summarises the main differences between the two theories.
+
+Vogel points out that "many contemporary advocates of CSR have implicitly accepted Friedman's position that the primary responsibility of companies is to create wealth for their shareholders" (Vogel, 2005, p. 26). In other words, the strategic version of stakeholder theory, which cares about stakeholders because this makes money, is not very different from Friedman's view. Therefore, this essay adopts the ethical version of stakeholder theory. Whether the reason is "profit" or "rights" decides whether a company will continue a safety measure when it is "not cost-effective".
+
+**Table 1: Friedman and Freeman on oil rig safety**
+
+| | Friedman | Freeman (ethical version) |
+|---|---|---|
+| Managers are responsible to | Shareholders | All stakeholders |
+| Source of the duty | Shareholders' property rights and the contract | Every person's rights |
+| Who balances conflicting rights | Government | Managers, when government fails |
+| How far safety should go | The legal minimum; more only if it brings profit | Protect workers' right to life, even if it is not profitable |
+
+*Source: created by the author, based on Friedman (1970) and BUSI 1772 Week 2 lecture slides.*
+
+**改了什么（主要的）**：小标题单独一行，不用破折号；believed → argues（写学者的观点用现在时）；deontologists → make deontological arguments；**两处原文引用改回一字不差**（"both those embodied in law and those embodied in ethical custom"、"How is he to know how to spend it?"——直接引用改了字就是引用错误）；legality → **legitimacy**、ability → **competence**；“经理签了合同代表股东”原译 signed the contract on behalf of 意思变了 → have signed a contract to act on behalf of；drilling platform → oil rigs（全文统一）；1.5 最后一句引号乱了、security → safety、全角句号“。”删掉；this article → this essay；* 改成正规的编号 / 项目符号。
+
 ## 🧾 引言写作过程（11/3）
 
 
@@ -250,14 +312,14 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 
 **0. 题目英文原文**（抄在最上面，不计字数）
 
-**1. Introduction 引言（约 280 词）** —— 4 件事
+**1. Introduction 引言（约 280 词，实际 285 ✅）** —— 4 件事
 - ① 你的角色和问题：石油公司请你当顾问，钻井平台安全标准该“只做到法律最低”还是“更高”。
 - ② 为什么重要：一句话举 BP 深水地平线（2010，11 人死亡）——说明安全失败伤害的是工人生命，不只是公司钱。
 - ③ **论点（一句话，最重要）**：建议公司采用利益相关者理论（伦理版），因为工人和社区的生命安全是权利，不能只当成成本。
 - ④ 路线图：In section 1… In section 2… In section 3…（每节一句）。
 - ⚠️ 不要用空泛大句开头（如 “Business ethics is very important today”）。
 
-**2. Section 1 · Ethical theory 伦理理论（约 850 词）**
+**2. Section 1 · Ethical theory 伦理理论（实际约 745 词 ✅）**
 | 小段 | 写什么 | 用哪条原话 / 材料 | 约字数 |
 |---|---|---|---|
 | 1a 义务论 | 点名理论：两个理论都是义务论——讲权利和义务，人不能被“仅仅当作手段” | 第 2 周课件 | 120 |
@@ -266,7 +328,7 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 | 1d Freeman | 所有利益相关者都有权利；P1–P4；政府没做到时经理来平衡（所罗门王） | 课件（Freeman, 1984, cited in 课件） | 180 |
 | 1e 区别（可放一张小表，表格不计字数） | 对谁负责 / 义务来源 / 谁来平衡 / **安全做到哪** | 导读第 6 部分的比较表；Vogel p. 26（引用 12）：战略版≈Friedman，真区别在伦理版 | 150 |
 
-**3. Section 2 · Discussion 讨论（约 850 词）** —— 选边站 + 反对意见 + 回应
+**3. Section 2 · Discussion 讨论（约 750 词——11/4 调整：原计划各部分相加 2,230 超过 2,000）** —— 选边站 + 反对意见 + 回应
 | 小段 | 写什么 | 用哪条原话 / 材料 | 约字数 |
 |---|---|---|---|
 | 2a 你的论证 | 钻井风险是**公司自己的业务**造成的，直接威胁工人生命；按义务论，生命权不能因为“不赚钱”就让步 → Friedman 的“守法就够”不够：BP 案显示法规会弱、执法会缺（老师：“有法规是一回事，执法是另一回事”） | 课件 BP 案；Vogel p. 4（引用 10：监管能强迫、自愿不能） | 250 |
@@ -274,7 +336,7 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 | 2c 你的回应 | 能力：Friedman 的例子是通胀，而安全工程正是石油公司的专业；合法性：按国际标准、让工人参与；模糊性：把安全写成清楚可审计的规则（谁有权叫停作业） | 导读第 6 部分“立场 A 回应线索”；Vogel pp. 166–167 | 250 |
 | 2d 反对意见②（经验） + 回应 | “安全投资一定赚钱”没有证据 → 这恰恰说明不能靠利润理由（Friedman 的长期自利）保证安全，要靠权利理由 | 引用 11（p. 17）或 14（p. 165） | 150 |
 
-**4. Conclusion 结论 + 建议（约 250 词）**
+**4. Conclusion 结论 + 建议（约 200 词）**
 - 重申论点（换说法，不要照抄引言）。
 - 2–3 条具体建议（例子，用你自己的想法）：例如 安全标准高于法律最低要求；任何工人都有权叫停作业；公司公开支持更严格的行业 / 法定标准（Vogel p. 171，引用 15）。
 - 一句承认局限：成本高、单独行动难坚持（Vogel p. 163“次优也好过没有”，引用 13）。
