@@ -21,7 +21,40 @@
 **6. 两个理论在“钻井安全做到什么程度”上有什么不同？**（第 1 节最重要的一段）
 > 背景提示：两个理论都要求守法，**真正的区别**是：Friedman——做到法律要求就够，超出法律的安全开支只有在对公司长期有利时才做（p. 212 污染的例子）；Freeman——工人的生命安全是权利，**即使不赚钱也要保护**。还可以想：Vogel 说很多 CSR 支持者其实接受了 Friedman 的前提（p. 26）——“讲安全因为能赚钱”的战略版和 Friedman 差不多，所以你要用的是**伦理版**。
 
-### ✅ 第 1 节：你的中文版（11/4）+ Claude 意见 → 确认后翻译
+### ✅ 第 1 节中文定稿（11/4，用户确认，拿去翻译）
+> 你的 6 题答案 + 你同意补的内容 + 引用。英文引号里是原文，照抄不翻。翻译后约 850 词。
+
+**1. Ethical Theory**
+
+**1.1 Deontology（义务论）**
+义务论是看权利和义务的一种论证，而不是看结果。有些事不管结果多好都不能做——比如利用别人、伤害别人的权利。“仅仅当作手段”就是只把人当成达到目的的工具（比如为了省钱让工人冒生命危险），不尊重他也是一个有权利的人（BUSI 1772 Week 2 lecture slides）。Friedman 和 Freeman 都是义务论，只是对“谁的权利最重要”的看法不同。
+
+**1.2 Friedman's Shareholder Theory（Friedman 的股东理论）**
+Friedman 认为经理是股东（企业所有者）的雇员 / 代理人，责任是按股东的意愿经营企业，通常就是 "make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom" (Friedman, 1970, p. 211)。所以 Friedman 不是说“可以不顾安全”，而是“守法之内尽量赚钱”。
+他的推理分五步（BUSI 1772 Week 2 lecture slides）：底层基础——侵犯别人的财产权是不允许的；关键决策人的权利——股东拥有公司，有权决定公司的目的；关键决策人的目标——股东的目的通常是利润；执行者——经理签了合同，代表股东；结论——经理有义务让利润最大化。
+Friedman 举了一个例子：如果经理花钱减少污染，超过了法律的要求，他就是在花股东的钱 (Friedman, 1970, p. 212)。这样的开支只有在对公司长期有利时才是合理的 (Friedman, 1970, p. 213)。钻井平台上超出法律要求的安全措施，正是这种情况。
+
+**1.3 Friedman's Three Reasons（Friedman 的三条理由）**
+Friedman 认为社会问题应该交给政府，理由有三条。第一，合法性：经理拿股东的钱做公益，等于没经过选举就“征税”和花税款 (Friedman, 1970, p. 212)。第二，能力：经理是经营专家，不是解决社会问题的专家——“他怎么知道该怎么花？” (Friedman, 1970, p. 212)。第三，动力：这样做的经理会被股东炒掉 (Friedman, 1970, p. 213)。所以按 Friedman 的逻辑，钻井安全标准应该由政府通过法律来定，公司遵守就够了。
+
+**1.4 Freeman's Stakeholder Theory（Freeman 的利益相关者理论）**
+Freeman 认为，经理要对所有利益相关者负责，包括员工、顾客、供应商、社区和股东，因为每个人都有各自的权利，谁都不能只被当作手段 (Freeman, 1984, cited in BUSI 1772 Week 2 lecture slides)。他的推理也可以分几步：侵犯任何人的权利都是不允许的；股东有财产权，但其他利益相关者也有权利；各方权利冲突时，需要有人来平衡；政府没有做到时，经理应该来平衡。所以经理要像所罗门王一样，在各方之间作出公正的判断。在钻井平台上，工人和沿海社区都是利益相关者，他们的生命和健康是权利，不能被当作省钱的手段。
+
+**1.5 The Key Difference（两个理论的关键区别）**
+两个理论都要求公司遵守法律，所以真正的区别不是“要不要安全”，而是安全要做到什么程度、理由是什么。Friedman 认为做到法律要求就够了，超出法律的安全开支只有在能带来利润时才合理；Freeman 的伦理版认为，工人的安全是权利，即使不赚钱也要保护。Table 1 总结了两者的主要区别。
+Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Friedman's position that the primary responsibility of companies is to create wealth for their shareholders" (Vogel, 2005, p. 26)。也就是说，“因为能赚钱才讲利益相关者”的战略版，其实和 Friedman 差别不大。所以本文采用的是利益相关者理论的伦理版。“利润”还是“权利”，决定了公司在某项安全措施“不划算”时还会不会继续做。
+
+**Table 1: Friedman and Freeman on oil rig safety**（表格下面写：Source: created by the author, based on Friedman (1970) and BUSI 1772 Week 2 lecture slides.）
+| | Friedman | Freeman（ethical version） |
+|---|---|---|
+| Managers are responsible to | Shareholders | All stakeholders |
+| Source of the duty | Shareholders' property rights and the contract | Every person's rights |
+| Who balances conflicting rights | Government | Managers, when government fails |
+| How far safety should go | The legal minimum; more only if it brings profit | Protect workers' right to life, even if it is not profitable |
+
+> 表格已经是英文（简单，可以直接用）。
+
+### 📝 第 1 节：你的中文版（11/4）+ Claude 意见（过程记录）
 > 6 题都答对了，逻辑清楚。第 3 题你给每一步起的名字（底层基础 → 决策人的权利 → 目标 → 执行者 → 结论）是**你自己的组织方式**，很好，翻译时保留。
 > 问题是**字数不够**：照现在翻大约 550–650 词，第 1 节目标约 850 词（老师 11/3：要用够字数）。下面【补】的地方是要加的，括号里是理由。
 
