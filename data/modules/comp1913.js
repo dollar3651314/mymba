@@ -203,6 +203,7 @@ MBA.addModule({
       workspace: 'content/comp1913/a-workspace.md',
       notes: [
         '<b>Moodle 第 3 周有一份往届个人报告样例</b>（评估 McKinsey《Women in the Workplace 2024》，总分 72，Evaluation / Clarity / Presentation / Focus 各 79）和老师反馈。结构：执行摘要 → 背景 → 评估（4 个主题）→ 建议 → 参考文献。<b>拆解和老师的改进意见见素材库</b>。',
+        '⭐ 11/5 本地 Claude Code 从 Canvas / Moodle 找到：<b>Assessment Brief（Report）</b>、<b>课程手册</b>、UOG 学生考务须知、封面页和 AI 声明模板（和 BUSI 1772 <b>同一份</b>）。手册确认 <b>个人报告 12/4 截止、小组展示 11/27</b>；2,000 词<b>不含参考文献</b>；brief 要求参考文献包括 <b>学术和业界来源</b>。老师：Mr. Zhou Zhihao；Module Code COMP-1913-M04-2026-27。注意：brief 抬头写 “Assessment 2 – Individual Report”，手册写 “Assessment 1: Report”，编号不一致，不影响内容。',
         '老师反馈的三条改进：执行摘要要精炼；<b>用统计数字</b>（例如说明每个主题有几张图）；建议要写给<b>“原本只会依赖这份报告的咨询服务买家”</b>。',
       ],
       brief: [

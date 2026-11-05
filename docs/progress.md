@@ -20,6 +20,7 @@
 - 用户发来第 5 节英文 → Claude 改语法（约 224 词）。第 1–5 节共 1,872 词。主动写了执行摘要中文样板（只总结前 5 节，不加新判断），约 120 词。
 - 用户发来执行摘要英文 → Claude 改语法。**COMP 1913 个人报告完整初稿完成（11/5）**：正文约 1,980 词；Word `content/comp1913/files/COMP1913_Report_Draft.docx`（10 页：标题页占位、目录、正文、Figure 1–3、参考文献 3 篇：Bain 2025、Barrios Becerra et al. 2021、Hammond et al. 1998）。还缺：封面模板 / 模块代码 / 老师 / 截止日（11/10 问）、AI 声明、可能再加 1–2 篇参考文献。
 - 用户确认 COMP 1913：老师 **Mr. Zhou Zhihao**；Module Code **COMP-1913-M04-2026-27 International Data Analytics**。给本地 Claude Code 写了找封面模板的提示词（先 Canvas 后 Moodle，用户负责登录）。
+- 本地 Claude Code 找到 COMP 1913 资料（存 `content/comp1913/files/docs/`）：Assessment Brief（Report）、课程手册、UOG 学生考务须知；封面和 AI 声明模板与 BUSI 1772 **完全相同**。手册确认个人报告 **12/4**、小组展示 11/27；2,000 词不含参考文献；brief 要“学术和业界来源”。→ **完整版 Word**：封面（International Data Analytics、COMP-1913-M04-2026-27、Individual Report、4 December 2026、1,980 words、Mr. Zhou Zhihao）、目录、正文、Figure 1–3、参考文献、AI 声明（最后；如实写 AI 帮写中文样板、作图、改语法、核对计算）。带学号 Final 只发用户。考务须知要点：成绩 4–6 周出；挂科别自己重交，等 results letter；补考 SGD 163.50。
 - 用户发来第 2 节英文 → Claude 改语法（约 805 词）存写作区。主要错：Vogel 原话 virtue 写成 virtues、rights 译成 power、“无法挽回”译成 cannot be saved、security→safety。前三部分共 1,836 词 → **结论最多约 160 词**。下一步：结论。
 - 结论：先给 3 个问题，用户要样板 → 写“结论中文样板”（重申论点 / 三条建议 / 局限），留 1 个 ⬜（为什么仍然值得）给用户。
 - 用户补最后一句：“和生命相比，和 BP 约 650 亿美元的损失相比，这些成本都是值得的” → 结论中文定稿，用户去翻译。
