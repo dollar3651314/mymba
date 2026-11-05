@@ -4,7 +4,8 @@
 <p><a class="btn" href="/content/comp1913/files/COMP1913_Report_Draft.docx" download>⬇️ 报告初稿 Word（11/5：目录 + 正文 + 3 张改进图 + 参考文献；还没有封面页和 AI 声明）</a></p>
 
 > 结构：Executive Summary → 1 Background → 2 Evaluation of Visualisations（含 Figure 1–3）→ 3 Analytical Tools → 4 Data Integrity and Cognitive Bias → 5 Recommendations → List of References（3 篇）。
-> ⬜ 还差：COMP 1913 的封面页模板、模块代码、老师名字和准确截止日（11/10 课上问）；AI 声明（如实写：Claude 帮写中文样板、作图、改语法、核对数据）；参考文献只有 3 篇，可以考虑再加 1–2 篇（例如课程讲义）。
+> ✅ 11/5 用户确认：老师 **Mr. Zhou Zhihao**；Module Code **COMP-1913-M04-2026-27 International Data Analytics**。
+> ⬜ 还差：COMP 1913 的封面页模板（本地 Claude Code 去 Canvas / Moodle 找）、准确截止日（11/10 课上问）；AI 声明（如实写：Claude 帮写中文样板、作图、改语法、核对数据）；参考文献只有 3 篇，可以考虑再加 1–2 篇（例如课程讲义）。
 
 ## ✅ 已完成：执行摘要英文（11/5，用户翻译 → Claude 改语法，约 125 词）
 
