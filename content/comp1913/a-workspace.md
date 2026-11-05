@@ -1,5 +1,20 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## ✅ 已完成：第 1 节英文定稿（11/5，用户翻译 → Claude 改语法，约 276 词）
+
+**1. Background**
+
+Bain & Company is one of the world's leading management consulting firms. Its *Innovation Report 2025*, subtitled "How top companies scale bold ideas", is signed by Marissa Dent, Global Leader of Bain Innovation and Business Building (Bain & Company, 2025). It is based on a survey and interviews with 20 of Fast Company's 50 Most Innovative Companies in 2025, and contains four articles on innovation strategy, AI and innovation, customer insights, and running two innovation systems.
+
+The business question the report aims to answer is: how do the most innovative companies invest, organise and use AI for innovation, and what can other companies learn from them? Its target audience is corporate executives, especially decision-makers who are considering investing more in innovation and AI. However, the report begins with a letter addressed "Dear colleague" and ends by promoting Bain's own "Engine 2" framework, which makes it marketing material for Bain's consulting services.
+
+Bain's report can directly influence management decisions on R&D budgets, AI investment and how to organise innovation teams. If the evidence is weak, executives may spend money in the wrong places and make the wrong decisions: ignoring their own company's situation, following the trend in AI investment, and missing what they really should do.
+
+This report argues that Bain's report raises valuable questions and ideas, but its evidence is weak: the sample is small and its size is not disclosed, and some charts may mislead readers. Therefore, executives should not use it directly as a basis for decisions. Sections 2 to 4 evaluate Bain's visualisations, the analytical tools it may have used, and its data integrity and cognitive biases; Section 5 provides recommendations.
+
+**改了什么（主要的）**：⭐ “Dear League” → **“Dear colleague”**（翻译软件把“同事”译错了）；⭐ 副标题和作者头衔改回报告**原文**（“How top companies scale bold ideas”、“Global Leader of Bain Innovation and Business Building”）——引用原文不能用自己翻回去的英文；Bain&Company → Bain & Company（要空格）；“数据来自……包括四篇文章”主语不对，拆成两句；“This report has a direct impact” 会被读成你自己的报告 → **Bain's report**；“跟风”漏译了 → following the trend in AI investment；最后一句 “Next, evaluate…” 没有主语 → Sections 2 to 4 evaluate…；organize / visualization → organise / visualisations（英式拼写，和学校一致）。为了字数也删了几个重复的词（原来约 306 词）。
+
+
 ## 📝 大纲（11/5，按你的选择搭的；总 2,000 词，不含图表标题、图注和参考文献）
 > 🔶 这是骨架和线索，每节内容要用你自己的分析和语言写。
 
