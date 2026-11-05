@@ -193,8 +193,6 @@
     const grades = store.get('grades', {});
 
     let h = '';
-    const ws = M.modules.flatMap(m => (m.assessments || []).filter(a => a.workspace).map(a => ({ m, a })));
-    if (ws.length) h += `<h2>正在写的作业</h2>${ws.map(({ m, a }) => `<a class="card" style="display:block" href="#/a/${m.id}/${a.id}"><b>✍️ ${esc(m.code)} ${esc(a.zh)}</b><div class="small muted">资料卡、大纲、参考稿、参考文献都在这里 ›</div></a>`).join('')}`;
     if (next) {
       const nd = goal(next.m, next.a); const n = daysUntil(nd);
       h += `<a class="card hero" href="#/a/${next.m.id}/${next.a.id}">

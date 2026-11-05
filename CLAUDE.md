@@ -37,7 +37,7 @@
 | 录音文字稿 | 原文存 `transcripts/<课程id>-week-XX.md`（不发布到网站）；整理成 `content/<课程id>/week-XX.md`（模板 `content/_template.md`），把该周 `rec` 和 `notes` 改为 `true` |
 | **下一节课的课件（预习）** | 写**预习包** `content/<课程id>/week-XX-pre.md`（模板 `content/_preview_template.md`），把该周 `pre` 设为 `true`；“可以在课上说的英文”“想问老师的问题”每条写成 `- "English" —— 中文`，“必会术语”用表格（英文 | 中文 | 一句话），改完运行 `node scripts/build-practice.mjs` 更新跟读练习数据，再运行 `TTS_CA=/root/.ccr/ca-bundle.crt python3 scripts/build-audio.py` 生成新句子的真人风格录音（`audio/`，微软 Edge 神经网络语音 en-GB-SoniaNeural，已有的跳过；用户嫌手机自带朗读太机械）；课件内容同时整理进 `week-XX.md` 的“课件补充”和作业素材库 |
 | 录音 / 课件里对作业有用的内容 | 追加到该作业的**素材库** `content/<课程id>/<作业id>-materials.md`（按评分标准分区，注明出自第几次课；作业数据里用 `materials` 字段引用）。目前有 BUSI 1764 的 A1、A2；其他作业有了足够素材后新建 |
-| 正在写的作业（资料卡、大纲、参考稿、参考文献、用户的草稿） | 放进该作业的**写作区** `content/<课程id>/<作业id>-workspace.md`（作业数据 `workspace` 字段），显示在作业页最上面、首页“正在写的作业”；按“现在要用的”排在前面 |
+| 正在写的作业（资料卡、大纲、参考稿、参考文献、用户的草稿） | 放进该作业的**写作区** `content/<课程id>/<作业id>-workspace.md`（作业数据 `workspace` 字段），显示在作业页最上面（首页的“正在写的作业”入口 11/5 应用户要求删掉了，和“作业进度”重复）；按“现在要用的”排在前面 |
 | 用户自己做的文件（PPT、Word 演讲稿等），要在网站上查看 / 下载 | 存到 `content/<课程id>/files/`（英文文件名），在写作区顶部用 `<a class="btn" href="/content/..." download>` 放下载按钮；新版本覆盖旧文件 |
 | 演讲稿（要跟读练习的） | 按页、按句写成 `content/<课程id>/speech-<作业id>.md`（`## 第 N 页 · 标题` 下每句 `- "English" —— 中文`），运行 `node scripts/build-practice.mjs`、`build-audio.py`，再运行 `python3 scripts/build-speech-audio.py` 生成**整段连续跟读 mp3**（每句后停顿，手机锁屏能播；文件名带内容哈希，演讲稿改了会自动换新文件）；跟读页“演讲稿”类型显示，直达链接 `#/practice/<课程id>/speech`。演讲稿改了要同步改这个文件；**答问部分每题写成 `## 答问 N · 标题`，问题和回答都要做成跟读句**（中文写“问：…”“答：…”） |
 | 有版权的原文（报告、Sage 案例等） | **不放进仓库**，只写中文解读和数据要点 |
