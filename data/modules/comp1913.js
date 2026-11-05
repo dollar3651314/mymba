@@ -196,7 +196,7 @@ MBA.addModule({
       en: 'Individual Report',
       zh: '个人报告',
       due: '2026-12-04',
-      opensNote: '邮件已问老师 Turnitin 能不能多次提交（11/5）',
+      opens: '2026-09-22', opensNote: 'Mr. Zhou 名下的提交页已开放，截止 12/4 23:59；第一次要先接受 Turnitin 协议；能不能多次提交已发邮件问老师',
       weight: 50,
       words: 2000,
       length: '2000 词（不含参考文献）',
