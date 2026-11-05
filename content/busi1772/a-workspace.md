@@ -223,6 +223,46 @@ Vogel 指出，"many contemporary advocates of CSR have implicitly accepted Frie
 
 
 
+## ✅ 已完成：第 2 节英文定稿（11/5，用户翻译 → Claude 改语法，约 805 词）
+
+**2. Discussion**
+
+**2.1 Why the Legal Minimum Is Not Enough**
+
+Friedman argues that social problems such as inflation and poverty should be left to the government (Friedman, 1970, p. 212). However, the risks on oil rigs are different: they come from the company's own business, and the first people to be harmed are the company's own workers. Therefore, workers' safety is not a "social problem" that can be passed on to the government, but the company's own responsibility.
+
+Moreover, laws do not always protect workers. In the BP case, the regulator lacked staff and expertise, and many safety decisions were in fact made by the companies themselves. The US National Commission also concluded that regulation alone is not enough to ensure adequate safety, and that the industry must take its own steps to improve safety dramatically (National Commission, 2011, p. vii). If even the government's own investigation finds that the law is not enough, "following the law is enough" cannot be the safety standard for oil companies.
+
+From a deontological perspective, making workers bear avoidable risks to their lives in order to save money is treating them merely as a means. A life cannot be brought back; money can be earned again, and no amount of money can buy a life.
+
+**2.2 Objections from Friedman and Heath**
+
+Friedman would argue that safety spending beyond legal requirements uses the shareholders' money, which the manager has no authority to spend; that managers cannot know how much safety is "enough"; and that when profits fall, the shareholders will replace the manager (Friedman, 1970, pp. 212–213).
+
+Heath raises another problem: when managers are responsible to many stakeholders at the same time, their responsibility becomes unclear. Managers can use the excuse of acting "for employees" or "for shareholders" to do things that benefit themselves, and it is difficult to hold them accountable (Heath, 2014, cited in BUSI 1772 Week 2 lecture slides). On an oil rig, a manager could use "safety" to justify any spending, or use "shareholder interests" to cut safety spending. This is the strongest objection to stakeholder theory.
+
+**2.3 Responses**
+
+However, these objections do not hold for oil rig safety.
+
+- First, competence. Friedman's example is inflation, a macroeconomic problem in which managers are not experts (Friedman, 1970, pp. 212–213). Oil rig safety, by contrast, is an engineering and operational issue, which is exactly what oil companies specialise in; companies understand the risks on their own rigs better than governments do.
+- Second, legitimacy. If the company sets its safety rules according to international and industry standards, and lets workers and communities take part in decisions, safety standards are no longer decided by the manager alone. Vogel points out that many voluntary codes were themselves developed with governments and international organisations such as the ILO, the OECD and the United Nations (Vogel, 2005, pp. 166–167).
+- Third, ambiguity. The company can write safety rules that are clear and can be checked: any worker who sees danger has the right to stop work; important safety decisions must be confirmed by two people (the "four-eyes principle"); and who has the authority to make decisions is decided in advance. The clearer the rules, the harder it is for managers to exploit loopholes, and the easier it is to hold them accountable.
+
+Of the three responses, competence is the most persuasive. Expert work should be left to experts: the manager is appointed to run the drilling business, and safety is part of that business; the company has engineers and safety experts who understand the risks on its rigs better than the government does.
+
+**2.4 Does Safety Always Pay?**
+
+Some may argue that high safety standards always pay in the long run, so under Friedman's theory companies would also take safety seriously. However, Vogel finds no evidence that companies which behave more virtuously are more profitable (Vogel, 2005, p. 17), because not enough consumers and investors are willing to pay for virtue: "The market for virtue does not clear" (Vogel, 2005, p. 165). In other words, some safety measures do not make money.
+
+Although safety measures do not always make money, companies pay huge costs when accidents happen, such as BP's losses of about $65 billion (Bousso, 2018) and the damage to its share price and reputation. From this perspective, safety can also be seen as a way of "making money". However, this is only an additional reason: when companies calculate costs and benefits before an accident, saving money often seems more cost-effective, as it did at BP. Therefore, safety must ultimately rest on rights, not on calculation.
+
+In addition, Vogel suggests that companies should support raising legal standards (Vogel, 2005, p. 171). If the whole industry must follow the same safety standards, no company will be at a disadvantage because it takes safety seriously, and Friedman's motivation problem also becomes smaller.
+
+**改了什么（主要的）**：⭐ **Vogel 原话改回 "The market for virtue does not clear"**（你写成了 virtues，直接引用不能改字）；⭐ 2.4 最后一句 power → **rights**（“权利”不是“权力”，意思完全不同）；⭐ “生命无法挽回”译成 Life cannot be saved（= 生命不能被拯救）→ **A life cannot be brought back**；security → **safety**（4 处）；duty theory → **deontological**；ability / legality / fuzziness → **competence / legitimacy / ambiguity**（和第 1 节统一）；“安全标准就不是经理一个人说了算”原译成“不是经理一个人的责任”，意思变了，已改；US investigative committee → US National Commission；drilling platform → oil rigs；believed / pointed out → argues / points out（现在时）；分号后面的大写改小写；开头多出来的引号删掉。
+
+**📏 字数**：引言 285 + 第 1 节 746 + 第 2 节 805 = **1,836**（含文内引用）。**结论最多约 160 词**，全文才不超过 2,000。
+
 ## ✅ 已完成：第 1 节英文定稿（11/4，用户翻译 → Claude 改语法，约 745 词，不含表格）
 
 **1. Ethical Theory**
@@ -402,7 +442,7 @@ Vogel points out that "many contemporary advocates of CSR have implicitly accept
 | 2c 你的回应 | 能力：Friedman 的例子是通胀，而安全工程正是石油公司的专业；合法性：按国际标准、让工人参与；模糊性：把安全写成清楚可审计的规则（谁有权叫停作业） | 导读第 6 部分“立场 A 回应线索”；Vogel pp. 166–167 | 220 |
 | 2d 反对意见②（经验） + 回应 | “安全投资一定赚钱”没有证据 → 这恰恰说明不能靠利润理由（Friedman 的长期自利）保证安全，要靠权利理由 | 引用 11（p. 17）或 14（p. 165） | 130 |
 
-**4. Conclusion 结论 + 建议（约 200 词）**
+**4. Conclusion 结论 + 建议（约 160 词——11/5：前三部分已 1,836 词）**
 - 重申论点（换说法，不要照抄引言）。
 - 2–3 条具体建议（例子，用你自己的想法）：例如 安全标准高于法律最低要求；任何工人都有权叫停作业；公司公开支持更严格的行业 / 法定标准（Vogel p. 171，引用 15）。
 - 一句承认局限：成本高、单独行动难坚持（Vogel p. 163“次优也好过没有”，引用 13）。
