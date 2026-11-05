@@ -1,5 +1,33 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## ✉️ 给 Mr. Zhou Zhihao 的邮件（11/5 起草，你自己发；附上报告 Word）
+**收件人**：zzhihao@lsbf.edu.sg
+**主题**：COMP 1913 Individual Report – Draft for general direction
+
+```
+Dear Mr. Zhou,
+
+I hope you are well. I am a student in your COMP 1913 International Data Analytics class.
+
+As you mentioned in class on 31 October, I am sending you my draft of the Individual Report (Bain & Company's Innovation Report 2025) for some general direction. I would be grateful if you could let me know whether I am on the right track.
+
+The report has five sections: Background, Evaluation of Visualisations, Analytical Tools, Data Integrity and Cognitive Bias, and Recommendations. I also redrew three of Bain's charts using the data in the report (Figures 1–3).
+
+I also have a few short questions:
+1. Is the "Declaration of AI Use" page at the end of the report enough, or do I need to submit a separate AI usage report?
+2. Do figure captions and the table of contents count towards the 2,000-word limit?
+3. Can I submit to Turnitin more than once before the deadline (4 December)?
+4. For the group presentation, the handbook says 15–20 slides. Our slides have 21 pages including the reference page. Is this acceptable?
+
+Thank you very much for your time.
+
+Kind regards,
+[Your name]
+[Student ID]
+```
+
+> 发之前：① 换上你的名字和学号 ② 附上 Claude 发给你的 Final 版 Word ③ 老师回复后把回复发给 Claude。
+
 ## 📄 完整初稿（11/5 · 正文约 1,980 词，不含小标题、图注和参考文献）
 <p><a class="btn" href="/content/comp1913/files/COMP1913_Report_Draft.docx" download>⬇️ 报告完整版 Word（11/5：UOG x LSBF 封面 + 目录 + 正文 + Figure 1–3 + 参考文献 + AI 声明；网站版不含学号，带学号的 Final 版 Claude 直接发给你）</a></p>
 
