@@ -21,7 +21,6 @@ MBA.addModule({
   ],
   todos: [
     { d: '2026-11-08', t: '从 <b>Canvas</b> 下载 11/3 课上的<b>模拟 Quiz</b>（15 题 + 答案），遮住答案自己再做一遍，把你的答案（如 “1C 2A…”）发给 Claude。讲解已在 Quiz 准备区' },
-    { d: '2026-11-06', t: '发论文初稿给 Dr Roy 要方向时一起问：<b>Quiz 哪天几点</b>（11/3 课上没说）？表格算不算字数？文内引用能不能把机构名缩写成 “National Commission”？' },
     { d: '2026-10-05', t: '做完第 1、2 周自测 quiz（还没做的话），截图题目和答案发给 Claude' },
     { d: '2026-10-06', t: '去 Canvas 公告下载老师上传的封面页（cover sheet）、AI 声明表（AI declaration）模板和引用指南，发给 Claude' },
     { d: '2026-10-31', t: '（可选）看一眼 Moodle 第 2 周有没有 <b>10/2 之后新加的文件</b>：Claude 已有第 2 周讲座课件、tutorial 课件、Friedman 1970、Vogel 2005 第 1/2/7 章（10/2 收到）；有新文件再发' },
