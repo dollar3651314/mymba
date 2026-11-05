@@ -1,5 +1,30 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## ✅ 已完成：第 4 节英文定稿（11/5，用户翻译 → Claude 改语法，约 345 词）
+
+**4. Data Integrity and Cognitive Bias**
+
+**4.1 Data Integrity**
+
+Bain states that the report is based on a survey and interviews with 20 companies (Bain & Company, 2025, p. 4), but it does not say how many companies answered each question, what the original question wording was, or who the respondents were. Section 2 showed that only about 16 companies answered the questions on page 9. With such a small sample, the margin of error is large: when 16 companies answer, a result of about 50% has a 95% confidence interval of approximately plus or minus 22 percentage points. Seemingly precise figures such as "94%" and "88%" may therefore reflect a difference of only one or two companies.
+
+**4.2 Survivorship Bias**
+
+The companies surveyed are all successful firms. Companies that invested just as boldly in innovation and AI but failed are not in the sample, so these practices may appear to lead to success only because the failures are not seen.
+
+**4.3 Confirmation Bias and Conflict of Interest**
+
+Bain itself sells innovation consulting, and the report says that what it heard was "consistent with Bain & Company research", while promoting Bain's "Engine 2" framework (Bain & Company, 2025, p. 4). This suggests confirmation bias: highlighting only the evidence that supports one's own view (Hammond, Keeney and Raiffa, 1998). It reduces the credibility of the whole report and may make readers question whether its main purpose is to sell.
+
+**4.4 Self-Reporting and Correlation**
+
+The claim that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11) is self-reported, with no definition of "success rate" and no control group. Similarly, eight of the ten public companies on the list had higher three-year total shareholder returns than their sectors (Bain & Company, 2025, p. 4), but ten companies can only show a correlation: firms that were already profitable may simply have been able to afford bold innovation. If executives mistake correlation for causation, they may assume that investing more in innovation will raise shareholder returns, and make unrealistic investment decisions.
+
+**改了什么（主要的）**：⭐ 引用的原文要一字不差：“consistent with Bain's research” → **"consistent with Bain & Company research"**；第 4 页的数据原文是“高于**所在行业**”（than their sectors），不是“高于行业平均”；88% 那句引号乱了，按第 2 节的写法重排；⭐ 4.2 最后一句原译意思变了（变成“报告认为……因为我们只看到成功公司”），已改成“这些做法看起来带来成功，可能只是因为看不到失败的公司”；innovative consulting（有创意的咨询）→ **innovation consulting**（创新咨询）；“on its own” 删掉（意思是“独自”）；“The sample size is so small, and the error is large” → With such a small sample, the margin of error is large；“this is only 10 and only a correlation does not prove” 语法不通，已改；Hammond 引用里 Keeney 后面不加逗号（Harvard 格式）；Bain&Company 加空格。
+
+**📏 字数**：原译约 403 词，压到 345（计划 310）——删了和第 2 节重复的内容。已写 276 + 825 + 202 + 345 = **1,648 词**，剩约 350：**第 5 节约 230、摘要约 120**。
+
+
 ## 🀄 第 4 节中文定稿（11/5，两处判断是用户自己的，拿去翻译）
 > ⚠️ 样板，先改成你自己的说法再翻译；**两个 ⬜ 必须你自己写**。翻译后约 310 词。引用里的 Hammond, Keeney and Raiffa (1998) 是课程提供的文献（《哈佛商业评论》“决策中的隐藏陷阱”，讲了“确认证据陷阱”），交稿前核对。
 
