@@ -1,33 +1,62 @@
 # ✍️ 我的写作区：BUSI 1772 个人论文（2000 词 · 11/26 截止 · 占 60%）
 
-## 📄 全文初稿（11/5 拼好 · 正文约 2,000 词，含小标题和文内引用；不含题目、表格、参考文献）
-> 这是现在要交的版本的底稿。**下一步统稿**：通读、统一用词、检查引用格式，然后做成 Word（封面页 + AI 声明 + 目录）。⬜ 待老师确认：课件的文内引用写法、“National Commission” 缩写、表格算不算字数——11/12 发邮件一起问。
+## ✉️ 给 Dr Roy 的邮件（11/5 起草，你自己发；附上论文 Word）
+**收件人**：ryap@lsbf.edu.sg
+**主题**：BUSI 1772 Individual Essay – Draft for general feedback (Question 2)
+
+```
+Dear Dr Roy,
+
+I hope you are well. I am a student in your Tuesday BUSI 1772 class.
+
+As you mentioned in class on 3 November, I am sending you my essay draft for some general pointers. I chose Question 2 (shareholder vs. stakeholder theory, oil rig safety). I understand that you cannot mark it before the deadline, but I would be grateful for any general comments on whether I am on the right track.
+
+I also have four short questions:
+1. In-text citation of lecture slides: I wrote "(BUSI 1772, 2026)" for the Week 2 slides, and "(Freeman, 1984, cited in BUSI 1772, 2026)" for theories that I only found in the slides. Is this acceptable?
+2. For the US government report on the Deepwater Horizon disaster, can I shorten the author name in the text to "National Commission, 2011"? The full name is very long.
+3. Does a table (with a short source line) count towards the 2,000-word limit?
+4. Could you please confirm the date and time of the individual quiz? Is it on 28 November?
+
+Thank you very much for your time.
+
+Kind regards,
+[Your name]
+[Student ID]
+```
+
+> 发之前：① 把 [Your name]、[Student ID] 换成你的名字和学号 ② 附上网站上的论文 Word ③ 如果你不是周二班，改掉 “Tuesday” 那半句。
+
+## 📄 全文（11/5 统稿 · 正文 1,988 词，含小标题和文内引用；不含题目、表格、参考文献）
+<p><a class="btn" href="/content/busi1772/files/BUSI1772_Essay_Draft.docx" download>⬇️ 论文初稿 Word（11/5，还没加封面页 / AI 声明 / 目录）</a></p>
+
+> **11/5 统稿改了什么**：① 课件的文内引用统一成 **(BUSI 1772, 2026)**，和参考文献列表对应（Harvard 要求文内和列表一致）；② 2.1 “inflation and **poverty**” → “inflation and **unemployment**”——Friedman p. 212 举的例子是通胀、污染、雇长期失业者，**没有贫困**，原来写错了；③ 1.1 “Treating people merely as a means means…” 两个 means 连在一起 → “To treat people merely as a means is to use them…”；④ 引言第 ⑤ 段 “Friedman's strongest objections” → “the strongest objections from Friedman and Heath”（第 2 节两个人的反对都有）。
+> ⬜ 待老师确认：课件引用写法、“National Commission” 缩写、表格算不算字数（邮件里问）。⬜ Ghillyer 教材版次 / 年份交稿前核对。
 
 *Imagine that you are a strategy consultant hired by a large oil company to guide safety standards on oil rigs. Analyse in detail Milton Friedman's Shareholder theory and explain relevant differences with Edward Freeman's stakeholder theory. Then, explain which theory you would advise the oil company to follow, and why?*
 
 **Introduction**
 
-① As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
+As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
 
-② The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers (National Commission, 2011, p. vi). When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely (National Commission, 2011, pp. vii, ix). Simply following the law is therefore not enough to protect workers.
+The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers (National Commission, 2011, p. vi). When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely (National Commission, 2011, pp. vii, ix). Simply following the law is therefore not enough to protect workers.
 
-③ This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion (Bousso, 2018), and its reputation and share price were also damaged. No oil company wants to be the next BP.
+This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion (Bousso, 2018), and its reputation and share price were also damaged. No oil company wants to be the next BP.
 
-④ This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
+This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
 
-⑤ To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to Friedman's strongest objections to stakeholder theory and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
+To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to the strongest objections from Friedman and Heath and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
 
 **1. Ethical Theory**
 
 **1.1 Deontology**
 
-Deontology is an ethical theory that focuses on rights and duties, rather than outcomes. Some actions cannot be done, no matter how good the outcome is, such as taking advantage of others or violating their rights. Treating people merely as a means means using them only as tools to achieve a goal (for example, putting workers' lives at risk to save money), without respecting them as people with rights (BUSI 1772 Week 2 lecture slides). Friedman and Freeman both make deontological arguments, but they differ on whose rights matter most.
+Deontology is an ethical theory that focuses on rights and duties, rather than outcomes. Some actions cannot be done, no matter how good the outcome is, such as taking advantage of others or violating their rights. To treat people merely as a means is to use them only as tools to achieve a goal (for example, putting workers' lives at risk to save money), without respecting them as people with rights (BUSI 1772, 2026). Friedman and Freeman both make deontological arguments, but they differ on whose rights matter most.
 
 **1.2 Friedman's Shareholder Theory**
 
 Friedman argues that managers are employees, or agents, of the shareholders (the owners of the business). Their responsibility is to run the business according to the shareholders' wishes, which usually means to "make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom" (Friedman, 1970, p. 211). Therefore, Friedman is not saying that companies can ignore safety; he is saying that they should make as much money as possible within the law.
 
-His reasoning has five steps (BUSI 1772 Week 2 lecture slides):
+His reasoning has five steps (BUSI 1772, 2026):
 
 1. Basic principle: violating other people's property rights is not allowed.
 2. The rights of the key decision-makers: shareholders own the company and have the right to decide its purpose.
@@ -49,7 +78,7 @@ Therefore, according to Friedman's logic, safety standards on oil rigs should be
 
 **1.4 Freeman's Stakeholder Theory**
 
-Freeman argues that managers are responsible to all stakeholders, including employees, customers, suppliers, communities and shareholders, because everyone has rights and no one should be treated merely as a means (Freeman, 1984, cited in BUSI 1772 Week 2 lecture slides). His reasoning can also be divided into steps:
+Freeman argues that managers are responsible to all stakeholders, including employees, customers, suppliers, communities and shareholders, because everyone has rights and no one should be treated merely as a means (Freeman, 1984, cited in BUSI 1772, 2026). His reasoning can also be divided into steps:
 
 1. Violating anyone's rights is not allowed.
 2. Shareholders have property rights, but other stakeholders also have rights.
@@ -73,13 +102,13 @@ Vogel points out that "many contemporary advocates of CSR have implicitly accept
 | Who balances conflicting rights | Government | Managers, when government fails |
 | How far safety should go | The legal minimum; more only if it brings profit | Protect workers' right to life, even if it is not profitable |
 
-*Source: created by the author, based on Friedman (1970) and BUSI 1772 Week 2 lecture slides.*
+*Source: created by the author, based on Friedman (1970) and BUSI 1772 (2026).*
 
 **2. Discussion**
 
 **2.1 Why the Legal Minimum Is Not Enough**
 
-Friedman argues that social problems such as inflation and poverty should be left to the government (Friedman, 1970, p. 212). However, the risks on oil rigs are different: they come from the company's own business, and the first people to be harmed are the company's own workers. Therefore, workers' safety is not a "social problem" that can be passed on to the government, but the company's own responsibility.
+Friedman argues that social problems such as inflation and unemployment should be left to the government (Friedman, 1970, p. 212). However, the risks on oil rigs are different: they come from the company's own business, and the first people to be harmed are the company's own workers. Therefore, workers' safety is not a "social problem" that can be passed on to the government, but the company's own responsibility.
 
 Moreover, laws do not always protect workers. In the BP case, the regulator lacked staff and expertise, and many safety decisions were in fact made by the companies themselves. The US National Commission also concluded that regulation alone is not enough to ensure adequate safety, and that the industry must take its own steps to improve safety dramatically (National Commission, 2011, p. vii). If even the government's own investigation finds that the law is not enough, "following the law is enough" cannot be the safety standard for oil companies.
 
@@ -89,7 +118,7 @@ From a deontological perspective, making workers bear avoidable risks to their l
 
 Friedman would argue that safety spending beyond legal requirements uses the shareholders' money, which the manager has no authority to spend; that managers cannot know how much safety is "enough"; and that when profits fall, the shareholders will replace the manager (Friedman, 1970, pp. 212–213).
 
-Heath raises another problem: when managers are responsible to many stakeholders at the same time, their responsibility becomes unclear. Managers can use the excuse of acting "for employees" or "for shareholders" to do things that benefit themselves, and it is difficult to hold them accountable (Heath, 2014, cited in BUSI 1772 Week 2 lecture slides). On an oil rig, a manager could use "safety" to justify any spending, or use "shareholder interests" to cut safety spending. This is the strongest objection to stakeholder theory.
+Heath raises another problem: when managers are responsible to many stakeholders at the same time, their responsibility becomes unclear. Managers can use the excuse of acting "for employees" or "for shareholders" to do things that benefit themselves, and it is difficult to hold them accountable (Heath, 2014, cited in BUSI 1772, 2026). On an oil rig, a manager could use "safety" to justify any spending, or use "shareholder interests" to cut safety spending. This is the strongest objection to stakeholder theory.
 
 **2.3 Responses**
 
@@ -125,8 +154,7 @@ These recommendations will increase costs, may reduce short-term profits and are
 - National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling (2011) *Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling. Report to the President*. Washington, DC: US Government Printing Office. Available at: https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION-1.pdf (Accessed: 3 November 2026).
 - Vogel, D. (2005) *The Market for Virtue: The Potential and Limits of Corporate Social Responsibility*. Washington, DC: Brookings Institution Press.
 
-> 参考文献 5 篇（要求 5–8 ✅）。Freeman (1984) 和 Heath (2014) 是从课件里二手引用的，所以参考文献只列课件。⚠️ Ghillyer 教材的版次 / 年份（第 3 版 2012）是推测的，交稿前看 Moodle 文件说明核对。
-
+> 参考文献 5 篇（要求 5–8 ✅）。Freeman (1984) 和 Heath (2014) 是从课件里二手引用的，所以参考文献只列课件。
 
 ## 🀄 结论中文定稿（11/5，最后一句是用户自己的，拿去翻译）
 > ⚠️ 和前面一样：先改成你自己的说法再翻译；**⬜ 那半句必须你自己写**。翻译后约 150–160 词。
