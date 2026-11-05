@@ -71,6 +71,46 @@ Bain 的报告共有 24 张图，全部是环形图，其中 21 张只显示一�
 **11. 第 11 页（88% 说 AI 提高了创新成功率）有什么问题？**
 > 提示：这是受访者**自己说的**（自我报告），“成功率”没有定义，也没有对照组；一个大数字放在圆环里显得很有说服力。改进：写出问题原文和样本量，或者换成真正测量的数据（第 4 节会再讲自我报告偏差，这里一句话带过）。
 
+## ✅ 已完成：第 2 节英文定稿（11/5，用户翻译 → Claude 改语法，约 825 词，不含图注）
+
+**2. Evaluation of Visualisations**
+
+**2.1 Overview**
+
+Bain's report contains 24 charts, all of which are donut charts, and 21 of them show only a single percentage (Bain & Company, 2025). The advantage of this design is that it is eye-catching and consistent in style, so executives can see the key numbers quickly. However, when one number is drawn as a ring, there is no comparison and no distribution, so the chart gives very little information. Course literature suggests that bar charts are clearer than pie charts for comparing categories, and that several pie charts should not be compared side by side (Barrios Becerra et al., 2021). More importantly, none of the 24 charts shows the sample size or the original question wording.
+
+**2.2 R&D Spending (page 5)**
+
+The title of this chart is "Innovators don't outspend; they out-allocate", and the text says that about half of the companies spend the same as or less than their peers (Bain & Company, 2025, p. 5). However, the largest segment of the chart shows that 54% of the companies spend more on R&D than their peers, so the title does not match the data. The use of colour makes this worse: the minority groups, "lower" and "about the same", are shown in striking red, while the majority group, "higher", is shown in a light colour, so readers notice the minority first. This is an example of the framing effect: when the same data is emphasised in a different way, readers reach a different conclusion. The strength of this chart is that it has a legend and percentage labels. Figure 2 redraws it as a horizontal bar chart sorted by size, with the largest group in the darkest colour and a title that states what the data shows.
+
+<p><img src="/content/comp1913/files/charts/fig2_rd_spending_bar.png" alt="Figure 2" style="max-width:100%"></p>
+
+*Figure 2: R&D spending compared with peers. Source: created by the author using data from Bain & Company (2025, p. 5).*
+
+**2.3 AI Use by Innovation Stage (page 9)**
+
+Page 9 uses 12 small donut charts to show AI use in six innovation stages: the top group shows "today" and the bottom group shows "in 5 years" (Bain & Company, 2025, p. 9). The stage names and numbers are clear, but readers have to look up and down to see the changes, which is exactly what course literature advises against (Barrios Becerra et al., 2021). A bigger problem is that "today" is the situation reported by respondents, while "in 5 years" is only an expectation, yet both are drawn in exactly the same style, so readers may mistake expectations for facts. Figure 1 combines the 12 donut charts into one dumbbell chart: each row is a stage, filled dots show today and hollow dots show the expectation. The grey bars show 95% confidence intervals based on about 16 responses; for example, the true value of "63%" could be anywhere between about 39% and 82%. Therefore, "100% in five years" is only the expectation of about 16 companies, not a fact that will certainly happen: even the proportion itself has a 95% confidence interval of about 81% to 100%, and the expectation may not come true. Executives should not take it as a signal that they must follow the trend and invest in AI.
+
+<p><img src="/content/comp1913/files/charts/fig1_ai_use_dumbbell.png" alt="Figure 1" style="max-width:100%"></p>
+
+*Figure 1: AI use today vs. expected in five years. Source: created by the author using data from Bain & Company (2025, p. 9).*
+
+**2.4 Actual vs. Expected Results (page 10)**
+
+Page 10 places two donut charts side by side: 31% of the companies have cut their design-to-launch time by more than 20% in the past three years, and 82% expect to do so in the next five years (Bain & Company, 2025, p. 10). The two numbers look directly comparable, but one is a fact that has already happened and the other is only an expectation, and the time periods are different (three years and five years). In addition, 31% is approximately 5/16, while 82% is not a multiple of 1/16, which suggests that the two questions had different numbers of respondents, but the report does not say so. Figure 3 uses a solid bar for the actual result and a hatched bar for the expectation, and notes the different time periods.
+
+<p><img src="/content/comp1913/files/charts/fig3_actual_vs_expected.png" alt="Figure 3" style="max-width:100%"></p>
+
+*Figure 3: Actual vs. expected reduction in design-to-launch time. Source: created by the author using data from Bain & Company (2025, p. 10).*
+
+**2.5 Other Charts (pages 6 and 11)**
+
+Page 6 shows the average resource allocation by type of innovation (39%, 37% and 24%), while the text claims that "the vast majority" of leading innovators devote more than 60% of their R&D to transformative or disruptive innovation (Bain & Company, 2025, p. 6). An average does not show the situation of each company, so it cannot support the claim about "the vast majority"; a dot plot showing each company's share would be more convincing. On page 11, a large number states that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11), but this is self-reported, and "success rate" is not defined (see Section 4). Of these five charts, the one on page 9 is the most likely to mislead executives: it suggests that following the trend and investing in AI is the right choice and will bring growth, but it only shows how many companies use AI, not whether AI has brought growth.
+
+**改了什么（主要的）**：⭐ “out locate” → **“out-allocate”**（原文标题要一字不差）；⭐ “the original text of the problem” → **the original question wording**（“问题”在这里是 question，不是 problem）；circular graphs / images → **donut charts**（全文统一）；“a score of 5/16”“not a score of 16” → approximately 5/16、**not a multiple of 1/16**；diagonal bars → **hatched bars**；“Change Figure 2 to…”是命令句 → Figure 2 redraws it as…；第 11 页的 88% 改成报告原文引用；“is the easiest to mislead” → is the most likely to mislead；“does not necessarily indicate” → not whether（你的意思是“不能说明”，不是“不一定说明”）；Bain&Company 加空格；color → colour（英式）；删掉重复的小标题 “(AI Usage, page 9)”。
+
+**📏 字数调整**：第 2 节 825 词（计划 750），因为可视化占 40% 分数，**不压这一节**，后面几节相应缩短：摘要 140、工具 170、数据完整性与偏差 320、建议 270。目前已写 276 + 825 = 1,101 词，剩 900 词。
+
 ## ✅ 已完成：第 1 节英文定稿（11/5，用户翻译 → Claude 改语法，约 276 词）
 
 **1. Background**
