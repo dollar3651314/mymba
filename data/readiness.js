@@ -19,10 +19,10 @@ MBA.readiness = {
   },
   'busi1772/a': {
     status: 'go', pct: 100, done: 92,
-    steps: '选题 ✅ → 大纲 + 立场 ✅ → 引言、第 1 节、第 2 节、结论 ✅ → 统稿 ✅ → 完整版 Word（封面 + 目录 + AI 声明）✅（11/5）→ 发邮件给 Dr Roy ⬜（11/6）→ Turnitin 第一次 ⬜（11/8）→ 按意见改 ⬜ → 提交 ⬜（11/18）',
+    steps: '选题 ✅ → 大纲 + 立场 ✅ → 引言、第 1 节、第 2 节、结论 ✅ → 统稿 ✅ → 完整版 Word（封面 + 目录 + AI 声明）✅（11/5）→ 发邮件给 Dr Roy ✅（11/5，等回复）→ Turnitin 第一次 ⬜（11/8）→ 按意见改 ⬜ → 提交 ⬜（11/18）',
     have: ['<b>完整版 Word（11/5）</b>：UOG x LSBF 封面、目录、正文 1,988 词、Table 1、List of References 5 篇、AI 声明（放最后）', '学校模板和 Harvard 引用指南都已核对', '所有引用已核对原文和页码'],
     missing: ['Dr Roy 的意见（11/6 发邮件）', 'Turnitin 报告（相似度 ≤ 20%）'],
-    next: '11/6 发邮件给 Dr Roy（附 Word）；11/8 Turnitin 第一次提交，报告截图发 Claude；11/18 正式提交（比截止早 8 天）。',
+    next: '邮件已发（11/5），等 Dr Roy 回复后修改；11/8 Turnitin 第一次提交，报告截图发 Claude；11/18 正式提交（比截止早 8 天）。',
   },
   'busi1772/b': {
     status: 'wait', pct: 35,

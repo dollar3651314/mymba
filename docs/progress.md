@@ -14,6 +14,7 @@
 - **论文进度更新**：全文初稿 11/5 完成，比原计划（11/19）提前两周；用户去发邮件问老师。写作区待办、课程里程碑、准备度（完成 85%）都已改。**下一步**：11/6 发邮件 → 11/7 找封面页 / AI 声明模板 → 老师回复后修改 → 11/10 面谈准备（自己读全文、读 Friedman 原文）→ 11/20 Turnitin → 11/25 提交。
 - 用户本地 Claude Code 找到 3 份资料（存 `content/busi1772/files/templates/`）：① UOG x LSBF 封面页（Letter 纸，字段：Collaborative University / Course Title / Module Name / Module Code / Assignment Title / Submission Due Date / Word Count / Student / LSBF Student ID / UOG Banner ID / Name of Lecturer）② AI 声明（**要放在作业最后**，和 BUSI 1764 不同；每行 YES/NO，总结的资料列 1–6 条）③ Harvard 引用指南（34 页）。对论文的影响：超过 2 行的直接引用要**单独缩进成段、不加引号**（Friedman p. 211、Vogel p. 26 两处要改）；文献列表标题用 “List of References”；格式和我们现在的一致。还缺：完整 Module Code（如 BUSI-1772-M0?-2026-27）、提交页面信息（截止时间、Turnitin、老师链接）、确认老师是 Dr Roy Yap。
 - 用户提供：老师 Dr Roy Yap；Module Code **BUSI-1772-M04-2026-27**；截止 11/26，要早交、先查重。→ **完整版 Word**：UOG x LSBF 封面（A4，字段填好）、目录（页码核对）、题目、正文（两处长引用改成缩进块引用）、List of References、AI 声明放最后（研究问题 NO，其余 YES；如实写 Claude 帮写中文样板、用户自己翻译、Claude 改语法和核对引用）。带学号 Final 版只发用户；网站版学号留空。计划：11/6 邮件 → **11/8 Turnitin 第一次** → 改 → **11/18 正式提交**。
+- 用户已把邮件发给 Dr Roy，等回复再改。用户问还有哪份可以开始 → 盘点：**COMP 1913 个人报告**（50%，12/4，2,000 词，资料 80% 齐、还没开始）最值得马上开始；BUSI 1764 A2 要等今晚 11/5 课讲要求 + 用户的商业想法；BUSI 1763 反思报告要等 11/14 展示后；BUSI 1772 Quiz 先做模拟题。等用户确认后开 COMP 1913 写作区。
 
 ## 2026-11-04
 - 用户发来第 1 节 6 题中文版 → 内容都对；第 3 题自己给 P1–P4 每步起名，保留。字数不够（约 550–650 → 目标 850）：建议补 Friedman 污染例子 (p. 212–213)、三条理由连回“安全由政府定”、Freeman 推理几步 + 连钻井、1e 结论句（采用伦理版）+ Table 1 引导句 + 用户自己一句判断。写作区“第 1 节：你的中文版 + Claude 意见”。等用户补完确认再翻译。
