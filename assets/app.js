@@ -82,6 +82,16 @@
   // 我的完成目标：取官方截止日和本学期“最晚完成日期”中较早的一个
   const finishBy = t => store.get('finishBy:' + t.id, t.finishBy || '');
   const goal = (m, a) => { if (a.goal) return a.goal; const f = finishBy(termOf(m.term)); return f && f < a.due ? f : a.due; };
+  // 最早可提交时间（作业数据 opens / opensNote，用户 11/5 要求：和截止日对比，知道什么时候可以先试交）
+  const opensLine = a => {
+    if (!a.opens && !a.opensNote) return '';
+    const note = a.opensNote ? `<span class="muted">（${esc(a.opensNote)}）</span>` : '';
+    if (!a.opens) return `<div class="small">📤 最早可提交：<span style="color:var(--warn)">待确认</span>${note}</div>`;
+    const d = daysUntil(a.opens), gap = Math.round((parseDate(a.due) - parseDate(a.opens)) / 864e5);
+    const head = d > 0 ? `📤 最早可提交 <b>${fmt(a.opens)}</b>（${wk(a.opens)}）· 还有 ${d} 天开放`
+      : `📤 <b style="color:var(--ok, #2e7d32)">提交入口已开放</b>（${fmt(a.opens)} 起）`;
+    return `<div class="small">${head} · ${gap > 0 ? `离截止 ${gap} 天` : '当天就是截止日'}${note}</div>`;
+  };
   const goalNote = (m, a) => goal(m, a) < a.due ? `官方截止 ${fmt(a.due)}，${a.goalLabel || '我的目标'} ${fmt(goal(m, a))}` : '';
   const asmt = (m, id) => m.assessments.find(a => a.id === id);
   const termOf = id => M.terms.find(t => t.id === id);
@@ -208,9 +218,10 @@
     const rd = allAssessments().filter(({ m }) => termMods.includes(m)).filter(({ m, a }) => (M.readiness || {})[`${m.id}/${a.id}`]);
     if (rd.length) {
       rd.sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
-      h += `<h2>作业进度</h2><div class="card"><p class="small muted">左边是<b>我的目标日</b>，右边是离目标日还有几天；官方截止日写在作业名下面。已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。</p><ul class="list">${rd.map(({ m, a }) => { const g = goal(m, a); return `<li><div class="date-badge"><b>${parseDate(g).getDate()}</b>${parseDate(g).getMonth() + 1}月</div><div class="grow"><a href="#/a/${m.id}/${a.id}"><b>${esc(m.code)} ${esc(a.zh)}</b> <span class="en">${esc(a.en)}</span></a>
+      h += `<h2>作业进度</h2><div class="card"><p class="small muted">左边是<b>我的目标日</b>，右边是离目标日还有几天；官方截止日写在作业名下面。已经开始写的显示<b>完成度</b>，还没开始的显示<b>资料准备度</b>。📤 是<b>最早可以提交的日期</b>，开放后就可以先交一次看查重。</p><ul class="list">${rd.map(({ m, a }) => { const g = goal(m, a); return `<li><div class="date-badge"><b>${parseDate(g).getDate()}</b>${parseDate(g).getMonth() + 1}月</div><div class="grow"><a href="#/a/${m.id}/${a.id}"><b>${esc(m.code)} ${esc(a.zh)}</b> <span class="en">${esc(a.en)}</span></a>
         <div class="small muted">${esc(m.zh)} · ${esc(m.name)}</div>
         <div class="small muted">${g < a.due ? `我的目标 ${fmt(g)}（${wk(g)}）· ` : ''}官方截止 ${fmt(a.due)}（${wk(a.due)}）· ${esc(lenLabel(a))} · 占 ${a.weight}%${a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div>
+        ${opensLine(a)}
         <div style="margin:4px 0">${readyCard(m.id, a.id)}</div>
         <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
     }
