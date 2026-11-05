@@ -27,7 +27,9 @@ Kind regards,
 > 发之前：① 把 [Your name]、[Student ID] 换成你的名字和学号 ② 附上网站上的论文 Word ③ 如果你不是周二班，改掉 “Tuesday” 那半句。
 
 ## 📄 全文（11/5 统稿 · 正文 1,988 词，含小标题和文内引用；不含题目、表格、参考文献）
-<p><a class="btn" href="/content/busi1772/files/BUSI1772_Essay_Draft.docx" download>⬇️ 论文初稿 Word（11/5，还没加封面页 / AI 声明 / 目录）</a></p>
+<p><a class="btn" href="/content/busi1772/files/BUSI1772_Essay_Draft.docx" download>⬇️ 论文完整版 Word（11/5：封面 + 目录 + 正文 + List of References + AI 声明；网站版不含学号，带学号的 Final 版 Claude 直接发给你）</a></p>
+
+> **11/5 第二次更新（按学校模板和引用指南）**：封面用 UOG x LSBF 模板（A4）；加目录；两处超过 2 行的直接引用（Friedman p. 211、Vogel p. 26）按引用指南改成**单独缩进、不加引号**；标题 “References” → “List of References”；AI 声明按模板要求**放在最后**，按实际情况填好（研究问题 NO，其余 YES；“其他方式”如实写了 Claude 帮写中文样板、你自己翻译、Claude 改语法和核对引用）。
 
 > **11/5 统稿改了什么**：① 课件的文内引用统一成 **(BUSI 1772, 2026)**，和参考文献列表对应（Harvard 要求文内和列表一致）；② 2.1 “inflation and **poverty**” → “inflation and **unemployment**”——Friedman p. 212 举的例子是通胀、污染、雇长期失业者，**没有贫困**，原来写错了；③ 1.1 “Treating people merely as a means means…” 两个 means 连在一起 → “To treat people merely as a means is to use them…”；④ 引言第 ⑤ 段 “Friedman's strongest objections” → “the strongest objections from Friedman and Heath”（第 2 节两个人的反对都有）。
 > ⬜ 待老师确认：课件引用写法、“National Commission” 缩写、表格算不算字数（邮件里问）。⬜ Ghillyer 教材版次 / 年份交稿前核对。
@@ -54,7 +56,11 @@ Deontology is an ethical theory that focuses on rights and duties, rather than o
 
 **1.2 Friedman's Shareholder Theory**
 
-Friedman argues that managers are employees, or agents, of the shareholders (the owners of the business). Their responsibility is to run the business according to the shareholders' wishes, which usually means to "make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom" (Friedman, 1970, p. 211). Therefore, Friedman is not saying that companies can ignore safety; he is saying that they should make as much money as possible within the law.
+Friedman argues that managers are employees, or agents, of the shareholders (the owners of the business). Their responsibility is to run the business according to the shareholders' wishes, which usually means to:
+
+> make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom (Friedman, 1970, p. 211).
+
+Therefore, Friedman is not saying that companies can ignore safety; he is saying that they should make as much money as possible within the law.
 
 His reasoning has five steps (BUSI 1772, 2026):
 
@@ -91,7 +97,11 @@ Therefore, managers should make fair judgements between all parties, like King S
 
 Both theories require companies to comply with the law, so the real difference is not whether companies should be safe, but how far safety should go and why. Friedman believes that meeting legal requirements is enough, and that safety spending beyond the law is only justified when it brings profit. The ethical version of Freeman's theory holds that workers' safety is a right that must be protected even when it is not profitable. Table 1 summarises the main differences between the two theories.
 
-Vogel points out that "many contemporary advocates of CSR have implicitly accepted Friedman's position that the primary responsibility of companies is to create wealth for their shareholders" (Vogel, 2005, p. 26). In other words, the strategic version of stakeholder theory, which cares about stakeholders because this makes money, is not very different from Friedman's view. Therefore, this essay adopts the ethical version of stakeholder theory. Whether the reason is "profit" or "rights" decides whether a company will continue a safety measure when it is "not cost-effective".
+Vogel points out that:
+
+> many contemporary advocates of CSR have implicitly accepted Friedman's position that the primary responsibility of companies is to create wealth for their shareholders (Vogel, 2005, p. 26).
+
+In other words, the strategic version of stakeholder theory, which cares about stakeholders because this makes money, is not very different from Friedman's view. Therefore, this essay adopts the ethical version of stakeholder theory. Whether the reason is "profit" or "rights" decides whether a company will continue a safety measure when it is "not cost-effective".
 
 **Table 1: Friedman and Freeman on oil rig safety**
 
@@ -146,7 +156,7 @@ This essay therefore makes three recommendations. First, safety standards should
 
 These recommendations will increase costs, may reduce short-term profits and are hard for one company to sustain alone. However, compared with the loss of human lives and BP's losses of about $65 billion, these costs are worth paying.
 
-**References**
+**List of References**
 
 - Bousso, R. (2018) 'BP Deepwater Horizon costs balloon to $65 billion', *Reuters*, 16 January. Available at: https://www.reuters.com/article/business/environment/bp-deepwater-horizon-costs-balloon-to-65-billion-idUSKBN1F50NK/ (Accessed: 3 November 2026).
 - BUSI 1772 (2026) *Week 2: Basic rights and strategic management* [Lecture slides]. University of Greenwich / LSBF Singapore. Unpublished. Available at: Moodle (Accessed: 4 November 2026).
@@ -678,12 +688,13 @@ Vogel points out that "many contemporary advocates of CSR have implicitly accept
 | ✅ 11/3–11/5 | 引言（298）→ 第 1 节（746）→ 第 2 节（805）→ 结论（152）：你写中文要点 / 判断 → 你翻译 → Claude 改语法 | ✅ |
 | ✅ 11/5 | 统稿 + Word 初稿（1,988 词，写作区顶部下载） | ✅ |
 | **11/6** | ✉️ **发邮件给 Dr Roy**（草稿在上面）：附初稿 Word，问课件引用、“National Commission” 缩写、表格算不算字数、Quiz 日期 | ⬜ |
-| **11/7** | 去 Canvas 公告 / Moodle 找 **BUSI 1772 封面页（cover sheet）和 AI 声明模板**，发给 Claude → 加封面、AI 声明、目录 | ⬜ |
+| ✅ 11/5 | 找到封面页、AI 声明模板和 Harvard 引用指南 → 完整版 Word（封面、目录、正文、List of References、AI 声明） | ✅ |
+| **11/7–11/8** | ⭐ **Turnitin 第一次提交**（先确认提交页可以重复提交）：看相似度（≤ 20%）和 AI 分数，报告截图发 Claude | ⬜ |
 | 老师回复后 | 把回复发给 Claude，按意见修改 | ⬜ |
 | 11/10 前 | **面谈准备**：自己读一遍全文，每一节能用中文说出“这节讲什么、为什么”；读一遍 Friedman 原文 4 页（老师可能随机面谈） | ⬜ |
 | 交之前 | 自己找到**自己老师名下**的提交链接；核对 Ghillyer 教材版次 / 年份（Moodle 文件说明） | ⬜ |
-| 11/20 | Turnitin 第一次提交看相似度（≤ 20%，可交 3 次），报告截图发 Claude | ⬜ |
-| 11/25 | 正式提交到自己老师名下的链接（官方截止 11/26） | ⬜ |
+| 11/12 前后 | 老师回复后按意见改；如果 Turnitin 报告有问题一起改 | ⬜ |
+| **11/18** | **正式提交**最终版（官方截止 11/26，提前 8 天；11/13–11/16 先忙 BUSI 1764 A1 和 BUSI 1763 展示） | ⬜ |
 
 ## 🔑 硬规则（违反会扣分甚至不及格）
 - ⭐ **11/3 老师补充**：论文约 **80% 基于课程阅读**；**课件可以引用**（注明出处）；老师**喜欢比较表格**（要在正文里解释）；用够字数；文内引用不要每句都引；参考文献 5–8 篇，尽量近 10 年（经典除外）；可以把初稿发给老师要方向。
