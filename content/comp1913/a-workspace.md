@@ -1,5 +1,20 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## 📄 完整初稿（11/5 · 正文约 1,980 词，不含小标题、图注和参考文献）
+<p><a class="btn" href="/content/comp1913/files/COMP1913_Report_Draft.docx" download>⬇️ 报告初稿 Word（11/5：目录 + 正文 + 3 张改进图 + 参考文献；还没有封面页和 AI 声明）</a></p>
+
+> 结构：Executive Summary → 1 Background → 2 Evaluation of Visualisations（含 Figure 1–3）→ 3 Analytical Tools → 4 Data Integrity and Cognitive Bias → 5 Recommendations → List of References（3 篇）。
+> ⬜ 还差：COMP 1913 的封面页模板、模块代码、老师名字和准确截止日（11/10 课上问）；AI 声明（如实写：Claude 帮写中文样板、作图、改语法、核对数据）；参考文献只有 3 篇，可以考虑再加 1–2 篇（例如课程讲义）。
+
+## ✅ 已完成：执行摘要英文（11/5，用户翻译 → Claude 改语法，约 125 词）
+
+**Executive Summary**
+
+This report evaluates Bain & Company's *Innovation Report 2025*. Based on a survey of 20 of the "most innovative companies", Bain's report offers valuable ideas on innovation and AI investment, but its evidence is weak. All 24 charts are donut charts, and none shows the sample size; some chart titles do not match the data, and expectations are mixed with actual results. Some questions were answered by only about 16 companies, so the margin of error is large. Bain's report may also reflect survivorship bias, confirmation bias and self-reporting, and it treats correlation as causation. This report recommends that executives use Bain's report as a starting point for discussion and test its claims with their own data first, and that Bain disclose its methods and improve its charts.
+
+**改了什么**：Bain&Company 加空格；“figures”（插图）→ **charts**、circular graphs → **donut charts**（全文统一）；分号后的 Some、It 改小写；“and consider correlations as causality” 主语不清 → **it treats correlation as causation**；“It is also recommended that…” 被动句 → 合并成一句：recommends that executives… and that Bain…；validate it → **test its claims**；按字数删了几个词。
+
+
 ## 🀄 执行摘要中文样板（11/5，Claude 按你写好的 5 节整理；只总结、不加新内容）
 > 先改成你自己的说法再翻译；翻译后约 120 词。放在报告最前面（第 1 节之前）。
 
