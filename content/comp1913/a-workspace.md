@@ -6,7 +6,13 @@
 > 结构：Executive Summary → 1 Background → 2 Evaluation of Visualisations（含 Figure 1–3）→ 3 Analytical Tools → 4 Data Integrity and Cognitive Bias → 5 Recommendations → List of References（3 篇）。
 > ✅ 11/5 用户确认：老师 **Mr. Zhou Zhihao**；Module Code **COMP-1913-M04-2026-27 International Data Analytics**。
 > ✅ 11/5：找到 brief、手册和模板（封面、AI 声明和 BUSI 1772 同一份）→ 加了封面（Module Code、老师、12/4 截止）和 AI 声明（放最后，如实写 AI 帮写中文样板、作图、改语法、核对数据）。手册确认 **12/4 截止**、2,000 词不含参考文献。
-> ⬜ 可选改进：brief 要求“学术和业界来源”，现在 3 篇（1 业界 + 2 学术），可以再加 1–2 篇；brief 的结构把“认知偏差”放在“图表”前面，我们按 brief 的 5 个要求顺序写，也可以。
+> ✅ 11/5 加了 4 篇学术文献（参考文献共 7 篇，正文约 1,970 词）：
+> - **Tufte (2001)**《定量信息的视觉呈现》——可视化经典，“用最少的墨水表达最多的数据”→ 2.1：一个数字画一个圆环，占地方多、信息少
+> - **Tversky and Kahneman (1981)** 发表在 *Science*，**框架效应**的原始研究（Bain 报告第 17 页自己也引用了他们的实验）→ 2.2
+> - **Brown et al. (1992)**，**幸存者偏差**的经典论文（研究基金业绩：只看还活着的基金，业绩被高估）→ 4.2
+> - **Podsakoff et al. (2003)**，讲**自我报告数据的偏差**的经典综述 → 4.4
+> 这几篇你不用全文读，但要能用一句话说出每篇讲什么（上面就是）。
+> ⬜ 可选：brief 的结构把“认知偏差”放在“图表”前面，我们按 brief 的 5 个要求顺序写，也可以。
 
 ## ✅ 已完成：执行摘要英文（11/5，用户翻译 → Claude 改语法，约 125 词）
 
@@ -78,7 +84,7 @@ Bain states that the report is based on a survey and interviews with 20 companie
 
 **4.2 Survivorship Bias**
 
-The companies surveyed are all successful firms. Companies that invested just as boldly in innovation and AI but failed are not in the sample, so these practices may appear to lead to success only because the failures are not seen.
+The companies surveyed are all successful firms. Companies that invested just as boldly in innovation and AI but failed are not in the sample, so these practices may appear to lead to success only because the failures are not seen (Brown et al., 1992).
 
 **4.3 Confirmation Bias and Conflict of Interest**
 
@@ -86,7 +92,7 @@ Bain itself sells innovation consulting, and the report says that what it heard 
 
 **4.4 Self-Reporting and Correlation**
 
-The claim that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11) is self-reported, with no definition of "success rate" and no control group. Similarly, eight of the ten public companies on the list had higher three-year total shareholder returns than their sectors (Bain & Company, 2025, p. 4), but ten companies can only show a correlation: firms that were already profitable may simply have been able to afford bold innovation. If executives mistake correlation for causation, they may assume that investing more in innovation will raise shareholder returns, and make unrealistic investment decisions.
+The claim that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11) is self-reported, which is prone to bias (Podsakoff et al., 2003), and there is no definition of "success rate" and no control group. Similarly, eight of the ten public companies on the list had higher three-year total shareholder returns than their sectors (Bain & Company, 2025, p. 4), but ten companies can only show a correlation: firms that were already profitable may simply have been able to afford bold innovation. If executives mistake correlation for causation, they may assume that investing more in innovation will raise shareholder returns, and make unrealistic investment decisions.
 
 **改了什么（主要的）**：⭐ 引用的原文要一字不差：“consistent with Bain's research” → **"consistent with Bain & Company research"**；第 4 页的数据原文是“高于**所在行业**”（than their sectors），不是“高于行业平均”；88% 那句引号乱了，按第 2 节的写法重排；⭐ 4.2 最后一句原译意思变了（变成“报告认为……因为我们只看到成功公司”），已改成“这些做法看起来带来成功，可能只是因为看不到失败的公司”；innovative consulting（有创意的咨询）→ **innovation consulting**（创新咨询）；“on its own” 删掉（意思是“独自”）；“The sample size is so small, and the error is large” → With such a small sample, the margin of error is large；“this is only 10 and only a correlation does not prove” 语法不通，已改；Hammond 引用里 Keeney 后面不加逗号（Harvard 格式）；Bain&Company 加空格。
 
@@ -252,11 +258,11 @@ Bain 的报告共有 24 张图，全部是环形图，其中 21 张只显示一�
 
 **2.1 Overview**
 
-Bain's report contains 24 charts, all of which are donut charts, and 21 of them show only a single percentage (Bain & Company, 2025). The advantage of this design is that it is eye-catching and consistent in style, so executives can see the key numbers quickly. However, when one number is drawn as a ring, there is no comparison and no distribution, so the chart gives very little information. Course literature suggests that bar charts are clearer than pie charts for comparing categories, and that several pie charts should not be compared side by side (Barrios Becerra et al., 2021). More importantly, none of the 24 charts shows the sample size or the original question wording.
+Bain's report contains 24 charts, all of which are donut charts, and 21 of them show only a single percentage (Bain & Company, 2025). The advantage of this design is that it is eye-catching and consistent in style, so executives can see the key numbers quickly. However, when one number is drawn as a ring, there is no comparison and no distribution, so the chart uses a lot of space to show very little data (Tufte, 2001). Course literature suggests that bar charts are clearer than pie charts for comparing categories, and that several pie charts should not be compared side by side (Barrios Becerra et al., 2021). More importantly, none of the 24 charts shows the sample size or the original question wording.
 
 **2.2 R&D Spending (page 5)**
 
-The title of this chart is "Innovators don't outspend; they out-allocate", and the text says that about half of the companies spend the same as or less than their peers (Bain & Company, 2025, p. 5). However, the largest segment of the chart shows that 54% of the companies spend more on R&D than their peers, so the title does not match the data. The use of colour makes this worse: the minority groups, "lower" and "about the same", are shown in striking red, while the majority group, "higher", is shown in a light colour, so readers notice the minority first. This is an example of the framing effect: when the same data is emphasised in a different way, readers reach a different conclusion. The strength of this chart is that it has a legend and percentage labels. Figure 2 redraws it as a horizontal bar chart sorted by size, with the largest group in the darkest colour and a title that states what the data shows.
+The title of this chart is "Innovators don't outspend; they out-allocate", and the text says that about half of the companies spend the same as or less than their peers (Bain & Company, 2025, p. 5). However, the largest segment of the chart shows that 54% of the companies spend more on R&D than their peers, so the title does not match the data. The use of colour makes this worse: the minority groups, "lower" and "about the same", are shown in striking red, while the majority group, "higher", is shown in a light colour, so readers notice the minority first. This is an example of the framing effect (Tversky and Kahneman, 1981): when the same data is emphasised in a different way, readers reach a different conclusion. The strength of this chart is that it has a legend and percentage labels. Figure 2 redraws it as a horizontal bar chart sorted by size, with the largest group in the darkest colour and a title that states what the data shows.
 
 <p><img src="/content/comp1913/files/charts/fig2_rd_spending_bar.png" alt="Figure 2" style="max-width:100%"></p>
 
