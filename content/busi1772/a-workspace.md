@@ -1,5 +1,133 @@
 # ✍️ 我的写作区：BUSI 1772 个人论文（2000 词 · 11/26 截止 · 占 60%）
 
+## 📄 全文初稿（11/5 拼好 · 正文约 2,000 词，含小标题和文内引用；不含题目、表格、参考文献）
+> 这是现在要交的版本的底稿。**下一步统稿**：通读、统一用词、检查引用格式，然后做成 Word（封面页 + AI 声明 + 目录）。⬜ 待老师确认：课件的文内引用写法、“National Commission” 缩写、表格算不算字数——11/12 发邮件一起问。
+
+*Imagine that you are a strategy consultant hired by a large oil company to guide safety standards on oil rigs. Analyse in detail Milton Friedman's Shareholder theory and explain relevant differences with Edward Freeman's stakeholder theory. Then, explain which theory you would advise the oil company to follow, and why?*
+
+**Introduction**
+
+① As a strategy consultant hired by a large oil company, my task is to help the company prevent serious drilling accidents from happening again. The core question is whether safety standards on oil rigs should only meet the legal minimum, or go beyond it.
+
+② The 2010 BP Deepwater Horizon disaster showed the dangers of meeting only the legal minimum. The explosion on the rig killed 11 workers (National Commission, 2011, p. vi). When managers make decisions to save money, regulation fails and there is strong pressure for profit, accidents become much more likely (National Commission, 2011, pp. vii, ix). Simply following the law is therefore not enough to protect workers.
+
+③ This issue is important because the consequences affect many groups. For workers, lost lives cannot be brought back; for local communities, fishing, tourism and the environment suffer long-term damage that is hard to repair; for the company, BP's losses were about $65 billion (Bousso, 2018), and its reputation and share price were also damaged. No oil company wants to be the next BP.
+
+④ This essay argues that the company should adopt Freeman's stakeholder theory, in its ethical version, because workers have a right to safety, and their safety is not just a cost. Friedman's shareholder theory places safety in the hands of the law, but laws and regulators can fail.
+
+⑤ To support this argument, this essay has three parts. First, Section 1 explains the deontological basis of the two theories and shows their real difference: whether safety only needs to meet the law, or must protect workers' rights. Next, Section 2 responds to Friedman's strongest objections to stakeholder theory and shows that they do not hold for oil rig safety. Finally, based on this analysis, the conclusion gives the company specific safety recommendations.
+
+**1. Ethical Theory**
+
+**1.1 Deontology**
+
+Deontology is an ethical theory that focuses on rights and duties, rather than outcomes. Some actions cannot be done, no matter how good the outcome is, such as taking advantage of others or violating their rights. Treating people merely as a means means using them only as tools to achieve a goal (for example, putting workers' lives at risk to save money), without respecting them as people with rights (BUSI 1772 Week 2 lecture slides). Friedman and Freeman both make deontological arguments, but they differ on whose rights matter most.
+
+**1.2 Friedman's Shareholder Theory**
+
+Friedman argues that managers are employees, or agents, of the shareholders (the owners of the business). Their responsibility is to run the business according to the shareholders' wishes, which usually means to "make as much money as possible while conforming to their basic rules of the society, both those embodied in law and those embodied in ethical custom" (Friedman, 1970, p. 211). Therefore, Friedman is not saying that companies can ignore safety; he is saying that they should make as much money as possible within the law.
+
+His reasoning has five steps (BUSI 1772 Week 2 lecture slides):
+
+1. Basic principle: violating other people's property rights is not allowed.
+2. The rights of the key decision-makers: shareholders own the company and have the right to decide its purpose.
+3. The goal of the key decision-makers: the shareholders' goal is usually profit.
+4. The manager's role: managers have signed a contract to act on behalf of the shareholders.
+5. Conclusion: managers have a duty to maximise profits.
+
+Friedman gives an example: if a manager spends money to reduce pollution beyond what the law requires, he is spending the shareholders' money (Friedman, 1970, p. 212). Such spending is only justified when it serves the company's long-term interest (Friedman, 1970, p. 213). Safety measures on oil rigs that go beyond legal requirements are exactly this kind of spending.
+
+**1.3 Friedman's Three Reasons**
+
+Friedman argues that social problems should be left to the government, for three reasons:
+
+- First, legitimacy: when a manager uses shareholders' money for social causes, it is like imposing taxes and deciding how to spend them without being elected (Friedman, 1970, p. 212).
+- Second, competence: managers are experts in running a business, not in solving social problems: "How is he to know how to spend it?" (Friedman, 1970, p. 212).
+- Third, motivation: managers who do this will be fired by the shareholders (Friedman, 1970, p. 213).
+
+Therefore, according to Friedman's logic, safety standards on oil rigs should be set by the government through law, and companies only need to comply with them.
+
+**1.4 Freeman's Stakeholder Theory**
+
+Freeman argues that managers are responsible to all stakeholders, including employees, customers, suppliers, communities and shareholders, because everyone has rights and no one should be treated merely as a means (Freeman, 1984, cited in BUSI 1772 Week 2 lecture slides). His reasoning can also be divided into steps:
+
+1. Violating anyone's rights is not allowed.
+2. Shareholders have property rights, but other stakeholders also have rights.
+3. When these rights conflict, someone needs to balance them.
+4. When the government fails to do so, managers should balance them.
+
+Therefore, managers should make fair judgements between all parties, like King Solomon. On oil rigs, both workers and coastal communities are stakeholders, and they have a right to life and health, which cannot be traded for cost savings.
+
+**1.5 The Key Difference**
+
+Both theories require companies to comply with the law, so the real difference is not whether companies should be safe, but how far safety should go and why. Friedman believes that meeting legal requirements is enough, and that safety spending beyond the law is only justified when it brings profit. The ethical version of Freeman's theory holds that workers' safety is a right that must be protected even when it is not profitable. Table 1 summarises the main differences between the two theories.
+
+Vogel points out that "many contemporary advocates of CSR have implicitly accepted Friedman's position that the primary responsibility of companies is to create wealth for their shareholders" (Vogel, 2005, p. 26). In other words, the strategic version of stakeholder theory, which cares about stakeholders because this makes money, is not very different from Friedman's view. Therefore, this essay adopts the ethical version of stakeholder theory. Whether the reason is "profit" or "rights" decides whether a company will continue a safety measure when it is "not cost-effective".
+
+**Table 1: Friedman and Freeman on oil rig safety**
+
+| | Friedman | Freeman (ethical version) |
+|---|---|---|
+| Managers are responsible to | Shareholders | All stakeholders |
+| Source of the duty | Shareholders' property rights and the contract | Every person's rights |
+| Who balances conflicting rights | Government | Managers, when government fails |
+| How far safety should go | The legal minimum; more only if it brings profit | Protect workers' right to life, even if it is not profitable |
+
+*Source: created by the author, based on Friedman (1970) and BUSI 1772 Week 2 lecture slides.*
+
+**2. Discussion**
+
+**2.1 Why the Legal Minimum Is Not Enough**
+
+Friedman argues that social problems such as inflation and poverty should be left to the government (Friedman, 1970, p. 212). However, the risks on oil rigs are different: they come from the company's own business, and the first people to be harmed are the company's own workers. Therefore, workers' safety is not a "social problem" that can be passed on to the government, but the company's own responsibility.
+
+Moreover, laws do not always protect workers. In the BP case, the regulator lacked staff and expertise, and many safety decisions were in fact made by the companies themselves. The US National Commission also concluded that regulation alone is not enough to ensure adequate safety, and that the industry must take its own steps to improve safety dramatically (National Commission, 2011, p. vii). If even the government's own investigation finds that the law is not enough, "following the law is enough" cannot be the safety standard for oil companies.
+
+From a deontological perspective, making workers bear avoidable risks to their lives in order to save money is treating them merely as a means. A life cannot be brought back; money can be earned again, and no amount of money can buy a life.
+
+**2.2 Objections from Friedman and Heath**
+
+Friedman would argue that safety spending beyond legal requirements uses the shareholders' money, which the manager has no authority to spend; that managers cannot know how much safety is "enough"; and that when profits fall, the shareholders will replace the manager (Friedman, 1970, pp. 212–213).
+
+Heath raises another problem: when managers are responsible to many stakeholders at the same time, their responsibility becomes unclear. Managers can use the excuse of acting "for employees" or "for shareholders" to do things that benefit themselves, and it is difficult to hold them accountable (Heath, 2014, cited in BUSI 1772 Week 2 lecture slides). On an oil rig, a manager could use "safety" to justify any spending, or use "shareholder interests" to cut safety spending. This is the strongest objection to stakeholder theory.
+
+**2.3 Responses**
+
+However, these objections do not hold for oil rig safety.
+
+- First, competence. Friedman's example is inflation, a macroeconomic problem in which managers are not experts (Friedman, 1970, pp. 212–213). Oil rig safety, by contrast, is an engineering and operational issue, which is exactly what oil companies specialise in; companies understand the risks on their own rigs better than governments do.
+- Second, legitimacy. If the company sets its safety rules according to international and industry standards, and lets workers and communities take part in decisions, safety standards are no longer decided by the manager alone. Vogel points out that many voluntary codes were themselves developed with governments and international organisations such as the ILO, the OECD and the United Nations (Vogel, 2005, pp. 166–167).
+- Third, ambiguity. The company can write safety rules that are clear and can be checked: any worker who sees danger has the right to stop work; important safety decisions must be confirmed by two people (the "four-eyes principle"); and who has the authority to make decisions is decided in advance. The clearer the rules, the harder it is for managers to exploit loopholes, and the easier it is to hold them accountable.
+
+Of the three responses, competence is the most persuasive. Expert work should be left to experts: the manager is appointed to run the drilling business, and safety is part of that business; the company has engineers and safety experts who understand the risks on its rigs better than the government does.
+
+**2.4 Does Safety Always Pay?**
+
+Some may argue that high safety standards always pay in the long run, so under Friedman's theory companies would also take safety seriously. However, Vogel finds no evidence that companies which behave more virtuously are more profitable (Vogel, 2005, p. 17), because not enough consumers and investors are willing to pay for virtue: "The market for virtue does not clear" (Vogel, 2005, p. 165). In other words, some safety measures do not make money.
+
+Although safety measures do not always make money, companies pay huge costs when accidents happen, such as BP's losses of about $65 billion (Bousso, 2018) and the damage to its share price and reputation. From this perspective, safety can also be seen as a way of "making money". However, this is only an additional reason: when companies calculate costs and benefits before an accident, saving money often seems more cost-effective, as it did at BP. Therefore, safety must ultimately rest on rights, not on calculation.
+
+In addition, Vogel suggests that companies should support raising legal standards (Vogel, 2005, p. 171). If the whole industry must follow the same safety standards, no company will be at a disadvantage because it takes safety seriously, and Friedman's motivation problem also becomes smaller.
+
+**3. Conclusion and Recommendations**
+
+This essay has argued that the oil company should adopt the ethical version of stakeholder theory for oil rig safety. Laws and regulators can fail, and high safety standards do not always bring profit; only when safety is treated as workers' right will the company continue safety measures that are not cost-effective.
+
+This essay therefore makes three recommendations. First, safety standards should go beyond the legal minimum and follow international and industry standards. Second, any worker who sees danger should have the right to stop work, and important safety decisions should be confirmed by two people. Third, the company should publicly support stricter legal safety standards for the whole industry.
+
+These recommendations will increase costs, may reduce short-term profits and are hard for one company to sustain alone. However, compared with the loss of human lives and BP's losses of about $65 billion, these costs are worth paying.
+
+**References**
+
+- Bousso, R. (2018) 'BP Deepwater Horizon costs balloon to $65 billion', *Reuters*, 16 January. Available at: https://www.reuters.com/article/business/environment/bp-deepwater-horizon-costs-balloon-to-65-billion-idUSKBN1F50NK/ (Accessed: 3 November 2026).
+- BUSI 1772 (2026) *Week 2: Basic rights and strategic management* [Lecture slides]. University of Greenwich / LSBF Singapore. Unpublished. Available at: Moodle (Accessed: 4 November 2026).
+- Friedman, M. (1970) 'The social responsibility of business is to increase its profits', *The New York Times Magazine*, 13 September. Reprinted in Ghillyer, A. (2012) *Business Ethics Now*. 3rd edn. New York: McGraw-Hill/Irwin, pp. 211–214.
+- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling (2011) *Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling. Report to the President*. Washington, DC: US Government Printing Office. Available at: https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION-1.pdf (Accessed: 3 November 2026).
+- Vogel, D. (2005) *The Market for Virtue: The Potential and Limits of Corporate Social Responsibility*. Washington, DC: Brookings Institution Press.
+
+> 参考文献 5 篇（要求 5–8 ✅）。Freeman (1984) 和 Heath (2014) 是从课件里二手引用的，所以参考文献只列课件。⚠️ Ghillyer 教材的版次 / 年份（第 3 版 2012）是推测的，交稿前看 Moodle 文件说明核对。
+
+
 ## 🀄 结论中文定稿（11/5，最后一句是用户自己的，拿去翻译）
 > ⚠️ 和前面一样：先改成你自己的说法再翻译；**⬜ 那半句必须你自己写**。翻译后约 150–160 词。
 
@@ -9,7 +137,7 @@
 因此，本文向公司提出三条建议。第一，安全标准要高于法律的最低要求，并按照国际和行业标准制定。第二，任何工人发现危险都有权叫停作业，重要的安全决定必须由两个人确认。第三，公司应公开支持全行业更严格的法定安全标准。
 这些建议会增加成本，短期利润可能下降，一家公司单独行动也很难长期坚持。但是，和生命相比，和 BP 约 650 亿美元的损失相比，这些成本都是值得的。
 
-## 📌 现在要做：结论（约 160 词）—— 3 个问题
+## 📝 结论的问题（✅ 已完成，11/5）
 > 用中文回答，每题 1–2 句，**你自己的话**。结论**不加新理论、不加新引用**（Vogel 可以转述一次），只总结和给建议。字数很紧：前三部分已 1,836 词。
 
 **1. 换一种说法重申你的论点：你建议石油公司用哪个理论？最主要的理由是什么？**
