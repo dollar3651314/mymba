@@ -1,5 +1,20 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## ✅ 已完成：第 3 节英文定稿（11/5，用户翻译 → Claude 改语法，约 202 词）
+
+**3. Analytical Tools**
+
+Bain's report does not say which tools were used to create the charts. However, the file properties of the PDF show that it was produced with Adobe InDesign, a desktop publishing program, and the 12 donut charts on page 9 are embedded as a single image rather than as data-linked charts. The charts were therefore probably made in Excel or design software and placed in the layout as static images, rather than built as interactive charts in analytical tools such as Tableau or Power BI.
+
+This makes the report consistent in style and easy to read, which suits marketing, but it is less suitable for supporting decisions: readers cannot see the raw data, the sample size or the original question wording, cannot filter the results by industry or company size, and cannot verify the issues identified in Section 2. Executives can only follow Bain's claims rather than judge them against their own industry and company size, which makes investment decisions risky.
+
+To improve this, Bain could attach data tables and a methodology note, and provide an interactive Tableau or Power BI version that lets readers filter the results by industry and see the number of respondents to each question.
+
+**改了什么（主要的）**：did not specify → **does not say**（说报告内容用现在时）；typesetting design software → **a desktop publishing program**；circular figures → **donut charts**（全文统一）；“a chart with data” → **data-linked charts**；⭐ “problem text” → **the original question wording**（和第 2 节同样的错：问卷题目是 question）；⭐ “follow Bain's **advice**” → **Bain's claims**（advice 是“建议”，你的意思是“说法”）；method instructions → **a methodology note**；最后一句“按行业筛选、查看回答人数”原译把“按行业”放到了回答人数后面，意思变了，已改；删掉“using more suitable chart types…”（第 2 节已经讲过，省字数）。
+
+**📏 字数**：原译约 226 词，压到 202（计划 170）。已写 276 + 825 + 202 = **1,303 词**，剩约 700：第 4 节约 310、第 5 节约 260、摘要约 130。
+
+
 ## 🀄 第 3 节中文定稿（11/5，⬜ 那句是用户自己的，拿去翻译）
 > ⚠️ 样板，先改成你自己的说法再翻译；**⬜ 那一句必须你自己写**。翻译后约 170 词。
 
