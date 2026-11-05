@@ -1,5 +1,27 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## 🀄 执行摘要中文样板（11/5，Claude 按你写好的 5 节整理；只总结、不加新内容）
+> 先改成你自己的说法再翻译；翻译后约 120 词。放在报告最前面（第 1 节之前）。
+
+**Executive Summary**
+
+本报告评估贝恩咨询的《Innovation Report 2025》。该报告基于对 20 家“最具创新力公司”的调查，提出了关于创新和 AI 投入的有价值观点，但证据较弱。报告的 24 张图全部是环形图，没有一张写明样本量；部分图表标题和数据不一致，还把预期和实际结果混在一起。从数字推算，有些问题只有约 16 家公司回答，误差很大。报告还可能受到幸存者偏差、确认偏误和自我报告的影响，并把相关性当作因果。本报告建议高管把它当作讨论的起点，先用自己的数据验证；也建议 Bain 公布方法并改进图表。
+
+## ✅ 已完成：第 5 节英文定稿（11/5，用户翻译 → Claude 改语法，约 224 词）
+
+**5. Recommendations**
+
+For executives considering investing more in innovation and AI, this report makes three recommendations. First, they should treat the conclusions of Bain's report as a starting point for discussion rather than as evidence for decisions, because the sample is small and includes only successful companies. Second, before using any figure, they should find out how many companies answered, what the original question wording was and who the respondents were. Third, they should distinguish between actual results and expectations: "100% use of AI in five years" is only the expectation of a small number of companies, not a signal that they must follow the trend. Executives should first run small pilots using their own company and industry data, and invest at scale only after the results have been proven.
+
+For Bain, this report suggests two improvements. First, it should publish a methodology note, including the sample size, the number of respondents to each question, the original question wording and the respondents' job roles. Second, it should choose more suitable charts: replacing single-number donut charts with bar charts and dumbbell charts, separating actual data from expectations, showing confidence intervals, and providing interactive data that can be filtered by industry.
+
+Overall, this report concludes that Bain's report is useful for starting a discussion, but should not be used directly as a basis for investment decisions.
+
+**改了什么（主要的）**：⭐ “not a signal that **must follow the trend**” → not a signal that **they must follow** the trend（原句变成“信号必须跟风”）；“thought-provoking clues” → **a starting point for discussion**；“the original **text** of the question”（第三次了）→ **the original question wording**；the answerer → **the respondents**；method statement → **a methodology note**；**single digit** circular charts（= 个位数的圆形图）→ **single-number donut charts**；security 之类的词这次没有，很好；“this report **believes**”（报告不会“相信”）→ **this report concludes**；“not directly used as” 缺动词 → **should not be used directly as**；Firstly / Secondly → First / Second（全文统一）；每条建议加了主语 they / it，读起来更像建议。
+
+**📏 字数**：第 1–5 节合计 276 + 825 + 202 + 345 + 224 = **1,872 词**，执行摘要约 120 词 → 全文约 1,990 词。
+
+
 ## 🀄 第 5 节中文定稿（11/5，收尾句是用户的，拿去翻译）
 > ⚠️ 样板，先改成你自己的说法再翻译；**⬜ 那一句必须你自己写**。翻译后约 230 词。
 
