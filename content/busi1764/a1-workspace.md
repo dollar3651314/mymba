@@ -1,5 +1,33 @@
 # ✍️ 我的写作区：学习日志 A1（SELCO India）
 
+## ✉️ 给 Dr. Albert Ng 的邮件（11/6 起草，你自己发）
+**收件人**：ang@lsbf.edu.sg
+**主题**：BUSI 1764 – Questions about A1 similarity and A2
+
+```
+Dear Dr. Ng,
+
+I hope you are well. I am a student in your Thursday BUSI 1764 class.
+
+I submitted my Assignment 1 (Learning Diary) on Moodle on 6 November, as you advised in class. I have a few short questions:
+
+1. My Turnitin similarity is 32%. Most of the matches are the cover page, the table of contents headings from the template, the reference list, the AI declaration page and direct quotations with page numbers. My own analysis and reflections do not match other sources. Is this acceptable, or should I revise and resubmit before 17 November?
+
+2. For Assignment 2, the brief says the business idea must not be the same as the group presentation idea. As there is no group presentation this year, can I develop an idea that we discussed in the tutorials (for example, the social innovation project from Session 4)?
+
+3. When will the one-to-one consultation for Assignment 2 take place?
+
+4. In an earlier class, you mentioned submitting work "before 5 pm on Friday". Does this refer to the weekly tutorial tasks on Canvas?
+
+Thank you very much for your time.
+
+Kind regards,
+[Your name]
+[Student ID]
+```
+
+> 发之前：换上名字和学号；如果你不是周四班，删掉 “Thursday”。老师回复后发给 Claude。
+
 ## ✅ A1 还差什么（11/3 盘点）
 > 正文、参考文献、排版都已定稿（11/3 改后 1,048 词）。**11/3 Claude 把附录 A 商业模式画布填好了**（9 格，★ 标出正文 3.2 说的三格：关键伙伴、客户关系、收入来源；内容全部来自正文已引用的两份资料），Word 已替换，重新下载即可。剩下的只有你能做的事：
 

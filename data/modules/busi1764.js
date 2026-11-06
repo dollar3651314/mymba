@@ -20,7 +20,7 @@ MBA.addModule({
   todos: [
     { d: '2026-11-07', t: '✅ A1 已提交（11/6）；⬜ 看 Turnitin 相似度，截图发给 Claude。原待办：<b>A1 尽快在 Moodle 提交</b>（老师 11/5：入口一开就交，别拖到最后三天；Turnitin 第 1 次约 10 分钟出结果、第 2 次约 20 分钟、第 3 次可能 24 小时）。交完把相似度截图发给 Claude' },
     { d: '2026-11-11', t: '第 7 周 Canvas 作业：<b>7.1</b> 看“沃尔玛进入德国”视频（约 8 分钟）回答问题；<b>7.2</b> 读讨论区案例回答问题；案例 3 只需读。做完发给 Claude（A2 反思要用）' },
-    { d: '2026-11-12', t: '问 Albert 老师：A1 相似度 32%，大部分是封面、模板、参考文献和引用，可以吗？（"My similarity is 32%, but most matches are the cover, template, references and quotations. Is that OK?"）另外（10/22、10/29、11/5 都没问到）课上问清：A2 能不能用 tutorial 讨论过的想法？最后一周一对一咨询是哪天？“周五 5 点前提交”是不是指每周 tutorial 任务？' },
+    { d: '2026-11-12', t: '（11/6 已起草邮件，在 A1 写作区，发出后等回复；没回复就课上问）问 Albert 老师：A1 相似度 32%，大部分是封面、模板、参考文献和引用，可以吗？（"My similarity is 32%, but most matches are the cover, template, references and quotations. Is that OK?"）另外（10/22、10/29、11/5 都没问到）课上问清：A2 能不能用 tutorial 讨论过的想法？最后一周一对一咨询是哪天？“周五 5 点前提交”是不是指每周 tutorial 任务？' },
     { d: '2026-10-16', t: '把 10/15 老龄化分组练习写进 tutorial 笔记（你们组定义的问题、提出的方案、老师的点评“太快跳到解决方案”、你学到什么）——A1 日志要用；告诉 Claude 3.3 西武集团交了没有' },
     { d: '2026-10-03', t: '趁还记得，把第 1、2 次课案例练习（披萨炉、日程工具、健身房 / Airbnb 商业模式画布）的小组讨论写进 tutorial 笔记' },
     { d: '2026-10-09', t: '还没交的话，把 tutorial 3.1（IMD 三个家族企业）、3.2（拒绝投资人）的答案交到 Canvas 链接（Word 或 PPT）；把你们交的内容也发给 Claude——反思部分要用' },
