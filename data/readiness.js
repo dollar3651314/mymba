@@ -2,14 +2,14 @@
 // status: go = 条件已够，可以开始做；partial = 可以先做一部分；wait = 还不能开始
 // pct: 资料和条件的完成度（粗略估计）；have: 已经具备的；missing: 还差的（写清楚等谁、哪天）；next: 下一步
 // done: 已经开始写的作业的完成度（%，用户 2026-10-19 要求：开始了就显示完成度）；steps: 完成度的一句话说明。有 done 时首页和作业页显示“写作中 · 完成 X%”
-MBA.readinessUpdated = '2026-11-05';
+MBA.readinessUpdated = '2026-11-06';
 MBA.readiness = {
   'busi1764/a1': {
-    status: 'go', pct: 95, done: 96,
+    status: 'go', pct: 95, done: 98,
     steps: '选企业 ✅ → 资料卡 ✅ → 大纲 ✅ → 全文 ✅ → 核对文献 ✅ → 压字数（1,090 / 1,100）✅ → 套老师模板 + 小标题 + 再压到 1,044（10/30）✅ → 附录画布 + 4.3 外来者劣势 ✅（11/3，1,048 词）→ 学号 + AI 声明 + 目录页码 ✅（11/3）→ 提交页 11/1 已开放（11/5 才发现）→ 核对格式要求 + AI 声明 + PDF + Turnitin ⬜ → 11/16 提交 ⬜',
     have: ['<b>老师模板版 Word（10/30 第四版）1,044 词</b>（含大小标题，用户定的上限 1,050），参考文献已经图书馆核对', 'tutorial 经历：10/1 Pure Gym 画布、10/15 老龄化练习'],
-    missing: ['看提交页格式要求、转 PDF、Turnitin 查重——<b>现在就能做</b>（提交页 11/1 已开放，截止 11/17 23:59）'],
-    next: '⭐ 老师 11/5：入口一开就交、别拖到最后三天。现在就交：Final 版 Word（或转 PDF）交到 Moodle，Turnitin 第 1 次约 10 分钟出结果，截图发 Claude。',
+    missing: ['Turnitin 相似度报告（用户 11/6 说交了但看不到）'],
+    next: '✅ 11/6 已在 Moodle 提交。等 Turnitin 相似度（第 1 次约 10 分钟）；看不到就截“Submission status”那一块发给 Claude。',
   },
   'busi1764/a2': {
     status: 'wait', pct: 35,
