@@ -28,7 +28,7 @@ Kind regards,
 
 > 发之前：① 换上你的名字和学号 ② 附上 Claude 发给你的 Final 版 Word ③ 老师回复后把回复发给 Claude。
 
-## 📄 完整初稿（11/5 · 正文约 1,980 词，不含小标题、图注和参考文献）
+## 📄 完整初稿（11/6 统一样式：正文 1,994 词（含小标题和文内引用），AI 声明按 BUSI 1764 样式放最后一页；原 11/5 约 1,980 词，不含小标题、图注和参考文献）
 <p><a class="btn" href="/content/comp1913/files/COMP1913_Report_Draft.docx" download>⬇️ 报告完整版 Word（11/5：UOG x LSBF 封面 + 目录 + 正文 + Figure 1–3 + 参考文献 + AI 声明；网站版不含学号，带学号的 Final 版 Claude 直接发给你）</a></p>
 
 > 结构：Executive Summary → 1 Background → 2 Evaluation of Visualisations（含 Figure 1–3）→ 3 Analytical Tools → 4 Data Integrity and Cognitive Bias → 5 Recommendations → List of References（3 篇）。
@@ -179,7 +179,7 @@ Bain's report does not say which tools were used to create the charts. However, 
 
 This makes the report consistent in style and easy to read, which suits marketing, but it is less suitable for supporting decisions: readers cannot see the raw data, the sample size or the original question wording, cannot filter the results by industry or company size, and cannot verify the issues identified in Section 2. Executives can only follow Bain's claims rather than judge them against their own industry and company size, which makes investment decisions risky.
 
-To improve this, Bain could attach data tables and a methodology note, and provide an interactive Tableau or Power BI version that lets readers filter the results by industry and see the number of respondents to each question.
+Bain could attach data tables and a methodology note, and provide an interactive Tableau or Power BI version that lets readers filter the results by industry and see the number of respondents to each question.
 
 **改了什么（主要的）**：did not specify → **does not say**（说报告内容用现在时）；typesetting design software → **a desktop publishing program**；circular figures → **donut charts**（全文统一）；“a chart with data” → **data-linked charts**；⭐ “problem text” → **the original question wording**（和第 2 节同样的错：问卷题目是 question）；⭐ “follow Bain's **advice**” → **Bain's claims**（advice 是“建议”，你的意思是“说法”）；method instructions → **a methodology note**；最后一句“按行业筛选、查看回答人数”原译把“按行业”放到了回答人数后面，意思变了，已改；删掉“using more suitable chart types…”（第 2 节已经讲过，省字数）。
 
@@ -286,7 +286,7 @@ Bain 的报告共有 24 张图，全部是环形图，其中 21 张只显示一�
 
 **2.1 Overview**
 
-Bain's report contains 24 charts, all of which are donut charts, and 21 of them show only a single percentage (Bain & Company, 2025). The advantage of this design is that it is eye-catching and consistent in style, so executives can see the key numbers quickly. However, when one number is drawn as a ring, there is no comparison and no distribution, so the chart uses a lot of space to show very little data (Tufte, 2001). Course literature suggests that bar charts are clearer than pie charts for comparing categories, and that several pie charts should not be compared side by side (Barrios Becerra et al., 2021). More importantly, none of the 24 charts shows the sample size or the original question wording.
+Bain's report contains 24 charts, all of which are donut charts, and 21 of them show only a single percentage (Bain & Company, 2025). This design is eye-catching and consistent, so executives see the key numbers quickly. However, when one number is drawn as a ring, there is no comparison and no distribution, so the chart uses a lot of space to show very little data (Tufte, 2001). Course literature suggests that bar charts are clearer than pie charts for comparing categories, and that several pie charts should not be compared side by side (Barrios Becerra et al., 2021). More importantly, none of the 24 charts shows the sample size or the original question wording.
 
 **2.2 R&D Spending (page 5)**
 
@@ -306,7 +306,7 @@ Page 9 uses 12 small donut charts to show AI use in six innovation stages: the t
 
 **2.4 Actual vs. Expected Results (page 10)**
 
-Page 10 places two donut charts side by side: 31% of the companies have cut their design-to-launch time by more than 20% in the past three years, and 82% expect to do so in the next five years (Bain & Company, 2025, p. 10). The two numbers look directly comparable, but one is a fact that has already happened and the other is only an expectation, and the time periods are different (three years and five years). In addition, 31% is approximately 5/16, while 82% is not a multiple of 1/16, which suggests that the two questions had different numbers of respondents, but the report does not say so. Figure 3 uses a solid bar for the actual result and a hatched bar for the expectation, and notes the different time periods.
+Page 10 places two donut charts side by side: 31% of the companies have cut their design-to-launch time by more than 20% in the past three years, and 82% expect to do so in the next five years (Bain & Company, 2025, p. 10). The two numbers look comparable, but one is a fact and the other only an expectation, over different periods (three and five years). In addition, 31% is approximately 5/16, while 82% is not a multiple of 1/16, which suggests that the two questions had different numbers of respondents, but the report does not say so. Figure 3 uses a solid bar for the actual result and a hatched bar for the expectation, and notes the different time periods.
 
 <p><img src="/content/comp1913/files/charts/fig3_actual_vs_expected.png" alt="Figure 3" style="max-width:100%"></p>
 
@@ -324,7 +324,7 @@ Page 6 shows the average resource allocation by type of innovation (39%, 37% and
 
 **1. Background**
 
-Bain & Company is one of the world's leading management consulting firms. Its *Innovation Report 2025*, subtitled "How top companies scale bold ideas", is signed by Marissa Dent, Global Leader of Bain Innovation and Business Building (Bain & Company, 2025). It is based on a survey and interviews with 20 of Fast Company's 50 Most Innovative Companies in 2025, and contains four articles on innovation strategy, AI and innovation, customer insights, and running two innovation systems.
+Bain & Company is one of the world's leading management consulting firms. Its *Innovation Report 2025*, subtitled "How top companies scale bold ideas", is signed by Marissa Dent, Global Leader of Bain Innovation and Business Building (Bain & Company, 2025). It is based on a survey and interviews with 20 of Fast Company's 50 Most Innovative Companies in 2025, and contains four articles.
 
 The business question the report aims to answer is: how do the most innovative companies invest, organise and use AI for innovation, and what can other companies learn from them? Its target audience is corporate executives, especially decision-makers who are considering investing more in innovation and AI. However, the report begins with a letter addressed "Dear colleague" and ends by promoting Bain's own "Engine 2" framework, which makes it marketing material for Bain's consulting services.
 
