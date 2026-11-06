@@ -163,8 +163,9 @@
     const r = (M.readiness || {})[`${mid}/${aid}`]; if (!r) return '';
     const started = typeof r.done === 'number';
     const [label, cls] = READY[started ? (r.done >= 100 ? 'done' : 'doing') : r.status] || READY.wait;
+    if (r.submitted && !full) return `<span class="pill ok">✅ 已提交 · ${esc(r.submitted)}</span>`;
     if (!full) return `<span class="pill ${cls}">${started ? `${label} · 完成 ${r.done}%` : `${label} · 资料 ${r.pct}%`}</span>`;
-    return `<div class="card ready"><div class="card-title"><h3>${started ? '写到哪了？' : '能开始写了吗？'}</h3><span class="pill ${cls}">${label}</span></div>
+    return `<div class="card ready"><div class="card-title"><h3>${r.submitted ? '提交情况' : started ? '写到哪了？' : '能开始写了吗？'}</h3><span class="pill ${cls}">${r.submitted ? '✅ 已提交 · ' + esc(r.submitted) : label}</span></div>
       ${started ? `<div class="progress"><i style="width:${r.done}%"></i></div><p class="small muted"><b>作业完成度 ${r.done}%</b>${r.steps ? '：' + r.steps : ''}</p>
       <p class="small muted">资料准备度 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估）</p>`
       : `<div class="progress"><i style="width:${r.pct}%"></i></div><p class="small muted">资料和条件约齐了 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估，每收到一节课的录音都会更新）</p>`}
@@ -196,7 +197,8 @@
   views.home = () => {
     const t = currentTerm();
     const w = currentWeek(t);
-    const upcoming = allAssessments().filter(x => daysUntil(goal(x.m, x.a)) >= -2).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
+    const isSub = (m, a) => !!((M.readiness || {})[`${m.id}/${a.id}`] || {}).submitted;
+    const upcoming = allAssessments().filter(x => !isSub(x.m, x.a) && daysUntil(goal(x.m, x.a)) >= -2).sort((x, y) => goal(x.m, x.a).localeCompare(goal(y.m, y.a)));
     const next = upcoming[0];
     const ms = allMilestones().filter(x => daysUntil(x.d) >= -7 && !store.get('chk:' + x.key, false)).slice(0, 6);
     const termMods = M.modules.filter(m => m.term === t.id);
@@ -223,7 +225,7 @@
         <div class="small muted">${g < a.due ? `我的目标 ${fmt(g)}（${wk(g)}）· ` : ''}官方截止 ${fmt(a.due)}（${wk(a.due)}）· ${esc(lenLabel(a))} · 占 ${a.weight}%${a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div>
         ${opensLine(a)}
         <div style="margin:4px 0">${readyCard(m.id, a.id)}</div>
-        <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
+        <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${isSub(m, a) ? '<span class="pill ok">已交</span>' : duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
     }
     const prev = pendingPreviews();
     if (prev.length) {
