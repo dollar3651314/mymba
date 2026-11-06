@@ -10,6 +10,7 @@
 - ⚠️ 用户截图里 A1 的 “To create an outline of the topic” 是 NO；但 A1 的大纲 10/16 是 Claude 按评分标准搭的，Claude 的版本保持 YES，已提醒用户如实填写。
 - 带学号的 Final 三份只发用户；网站版学号留空。
 - 用户要求封面按 UOG x LSBF 模板格式、以后所有作业一样 → A1 封面换成该模板格式（原 1764 封面标签不加粗、缺 Student 行、字数红色），三份填写内容统一 Calibri 12 常规、对齐；“Dr. Roy Yap” 统一写法。规则写进 CLAUDE.md，脚本存 `scripts/docs/`（cover_replace.py、decl_page.py）。
+- 用户发现 AI 声明页 A1（1764 原模板页）和生成的 BUSI 1772 页样式差很多（生成的太挤），还缺学校校徽 → decl_page.py 按 1764 模板参数重写：右上 Greenwich 校徽（scripts/docs/uog_logo.png）、标题 Cambria 蓝色不加粗、说明 Calibri 斜体、YES/NO 对齐 9.1 cm、列表行距约 24 磅、组间空行、底部学号块行距 23 磅。COMP 1913 的 AI 说明压短一点（意思不变）以免溢出到第 12 页。A1 原页去掉两处硬右缩进（“following ways:” 被折行）。三份 Final 和网站版重做，目录页码核对，python-docx 都能打开。
 
 ## 2026-11-05
 - 用户要第 2 节样板 → 写“第 2 节中文样板”（2.1 只守法不够 / 2.2 Friedman + Heath 反对 / 2.3 能力、合法性、模糊性回应 / 2.4 安全一定赚钱吗 + Vogel p. 171 全行业标准），放写作区最上面；**留 3 个 ⬜ 必须用户自己写**（生命和金钱的不同、哪条回应最有说服力、“安全不一定赚钱”对论点是好是坏），并标明要改成自己的说法再翻译。直接引用全文共 5 处。
