@@ -1,5 +1,19 @@
 # ✍️ 我的写作区：学习日志 A1（SELCO India）
 
+## 🗄 备用第 2 版（11/6，只有 Albert 老师要求降低相似度时才交）
+<p><a class="btn ghost" href="/content/busi1764/files/A1_Learning_Diary_SELCO_v2_backup.docx" download>⬇️ A1 备用第 2 版（网站版不含学号；带学号的版本 Claude 已直接发给你）</a></p>
+
+> 第 1 次 Turnitin 32%，绝大部分来自封面、目录标题、参考文献、AI 声明模板和带引号的原文——这些**改不了也不用改**。备用版只改正文里被标出来、可以换说法的 6 处（两个定义句、两处转述、印尼数据句、进入方式句），意思和你的判断都不变；带引号的原话、参考文献、tutorial 经历和反思都没动。正文 **1,049 词**，页数和目录页码不变。**预计只能降 2–4 个百分点**（因为大头是参考文献和模板）。
+
+| # | 原来 | 备用第 2 版 |
+|---|---|---|
+| 1 | (Dees, 2001): its primary goal is to improve poor households' quality of life. | (Dees, 2001): above all, it aims to make life better for poor households. |
+| 2 | and limits itself to single-digit profit margins | and keeps its profit margins below 10% |
+| 3 | It is not international entrepreneurship, which involves discovering and exploiting opportunities across national borders | It is not international entrepreneurship, where ventures look for and use business opportunities in other countries |
+| 4 | about 658,000 families still have no electricity and another 1.17 million households rely on diesel generators, mainly in remote eastern islands | about 658,000 families still live without power, while 1.17 million more households depend on diesel generators, mostly on remote eastern islands |
+| 5 | I would enter through a joint venture with a local partner. | I would choose a joint venture with an Indonesian partner. |
+| 6 | Following the Uppsala model, in which firms increase commitment gradually as they learn about a market | Following the Uppsala model, where a firm commits more resources step by step as its market knowledge grows |
+
 ## ✉️ 给 Dr. Albert Ng 的邮件（11/6 起草，你自己发）
 **收件人**：ang@lsbf.edu.sg
 **主题**：BUSI 1764 – Questions about A1 similarity and A2
