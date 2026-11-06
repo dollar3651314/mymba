@@ -51,6 +51,7 @@
 - 首页会列出“已上完但还没发录音”的课，这就是对用户的提醒；每次对话也要主动提醒还欠哪些录音。
 - **不需要预习的课**（例如全天展示）：在该周数据加 `noPre: '原因'`，首页和 status.mjs 就不会再提醒缺预习包。
 - **最早可提交日期（用户 11/5 要求）**：作业数据加 `opens: 'YYYY-MM-DD'`（提交入口开放日）和 `opensNote`（说明，例如在哪交、能交几次）；不知道日期时只写 `opensNote`，首页“作业进度”显示“📤 最早可提交：待确认”。知道开放日后及时补上。
+- **作业 Word 统一格式（用户 11/6 要求，以后所有作业都一样）**：① 第 1 页用 **UOG x LSBF 封面**（模板 `content/busi1772/files/templates/UOG_x_LSBF_Cover.docx`，A4）：标签加粗、填的内容 **Calibri 12 号常规**、对齐在同一列，字段：Collaborative University / Course Title / Module Name / Module Code / Assignment Title / Submission Due Date / Word Count / Student / LSBF Student ID / UOG Banner ID / Name of Lecturer；老师模板封面不一样的，用 `scripts/docs/cover_replace.py` 换成这个格式 ② 封面 **Word Count 写真实字数**（正文 + 小标题 + 文内引用；不算封面、目录、题目、表格、图注、参考文献、附录、AI 声明）③ **AI 声明按 BUSI 1764 模板样式放在最后一页**（`scripts/docs/decl_page.py`：Instructions to students、斜体说明、YES/NO 对齐、项目符号、底部学号 / Banner ID / 模块代码和名称 / 作业题目），如实填写 ④ 带学号的 Final 版只发给用户，网站版学号留空 ⑤ 改完用 python-docx 打开检查一次（防止坏引用）。
 - **没有录音的课**（例如全天展示，用户说没录）：在该周数据加 `noRec: '原因'`，首页和 status.mjs 就不会再提醒发录音。
 - **课前预习也是固定流程**：首页“要预习的课”列出 7 天内要上、但还没有预习包的课。每次对话都要主动提醒用户下载哪几节课的课件（Canvas / Moodle 上的 tutorial slides 和 mini-lecture），收到后做预习包。
 - 停本地测试服务器用 `pkill -f "scripts/dev/[d]evserver"`（带方括号），而且**要单独一条命令执行**，不要和启动服务器的命令放在同一个 shell 里（否则会匹配到自己把 shell 杀掉）。
