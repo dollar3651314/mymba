@@ -1,5 +1,17 @@
 # ✍️ 我的写作区：COMP 1913 个人报告（2,000 词 · 12/4 截止 · 占 50%）
 
+## 🔁 第 2 版（11/6，为降低 Turnitin 相似度改 6 处，意思不变）
+> 第 1 次 Turnitin：**20%**（18% 来自其他格林威治学生；封面、目录、AI 声明、参考文献、Bain 原文引用都属正常）。第 2 版只改介绍报告事实、和同学写法容易撞的句子；引号里的 Bain 原话不动。正文 **1,986 词**。**等 Mr. Zhou 回复能否重交后再交。**
+
+| # | 原来 | 第 2 版 |
+|---|---|---|
+| 1 | This report evaluates Bain & Company's *Innovation Report 2025*. Based on a survey of 20 of the "most innovative companies", Bain's report offers valuable ideas on innovation and AI investment, but its evidence is weak. | Here, I critically assess the *Innovation Report 2025* published by Bain & Company. Drawing on just 20 firms from a "most innovative" list, it raises useful ideas about innovation and AI spending, yet the evidence behind them is thin. |
+| 2 | Bain & Company is one of the world's leading management consulting firms. Its *Innovation Report 2025*, subtitled "How top companies scale bold ideas", is signed by Marissa Dent, Global Leader of Bain Innovation and Business Building (Bain & Company, 2025). It is based on a survey and interviews with 20 of Fast Company's 50 Most Innovative Companies in 2025, and contains four articles. | Bain & Company, a major global consultancy, published the *Innovation Report 2025* under the subtitle "How top companies scale bold ideas"; its opening letter comes from Marissa Dent, who leads Bain's innovation practice (Bain & Company, 2025). The four articles draw on surveys and interviews with 20 firms taken from Fast Company's 2025 list of the most innovative companies. |
+| 3 | Page 10 places two donut charts side by side: 31% of the companies have cut their design-to-launch time by more than 20% in the past three years, and 82% expect to do so in the next five years (Bain & Company, 2025, p. 10). | On page 10, two donut charts sit next to each other: one says 31% of firms already shortened the time from design to launch by over a fifth during the last three years, the other says 82% believe they will manage this within five years (Bain & Company, 2025, p. 10). |
+| 4 | while the text claims that "the vast majority" of leading innovators devote more than 60% of their R&D to transformative or disruptive innovation (Bain & Company, 2025, p. 6). | while the text says "the vast majority" of these firms put over 60% of their R&D into transformative or disruptive projects (Bain & Company, 2025, p. 6). |
+| 5 | Bain states that the report is based on a survey and interviews with 20 companies (Bain & Company, 2025, p. 4), but it does not say how many companies answered each question, | Although Bain names 20 participating companies (Bain & Company, 2025, p. 4), it never reports how many of them answered each question, |
+| 6 | Similarly, eight of the ten public companies on the list had higher three-year total shareholder returns than their sectors (Bain & Company, 2025, p. 4), | Bain also notes that, of ten listed firms, eight beat their sector on three-year shareholder returns (Bain & Company, 2025, p. 4), |
+
 ## ✉️ 给 Mr. Zhou Zhihao 的邮件（11/5 起草，你自己发；附上报告 Word）
 **收件人**：zzhihao@lsbf.edu.sg
 **主题**：COMP 1913 Individual Report – Draft for general direction
@@ -46,7 +58,7 @@ Kind regards,
 
 **Executive Summary**
 
-This report evaluates Bain & Company's *Innovation Report 2025*. Based on a survey of 20 of the "most innovative companies", Bain's report offers valuable ideas on innovation and AI investment, but its evidence is weak. All 24 charts are donut charts, and none shows the sample size; some chart titles do not match the data, and expectations are mixed with actual results. Some questions were answered by only about 16 companies, so the margin of error is large. Bain's report may also reflect survivorship bias, confirmation bias and self-reporting, and it treats correlation as causation. This report recommends that executives use Bain's report as a starting point for discussion and test its claims with their own data first, and that Bain disclose its methods and improve its charts.
+Here, I critically assess the *Innovation Report 2025* published by Bain & Company. Drawing on just 20 firms from a "most innovative" list, it raises useful ideas about innovation and AI spending, yet the evidence behind them is thin. All 24 charts are donut charts, and none shows the sample size; some chart titles do not match the data, and expectations are mixed with actual results. Some questions were answered by only about 16 companies, so the margin of error is large. Bain's report may also reflect survivorship bias, confirmation bias and self-reporting, and it treats correlation as causation. This report recommends that executives use Bain's report as a starting point for discussion and test its claims with their own data first, and that Bain disclose its methods and improve its charts.
 
 **改了什么**：Bain&Company 加空格；“figures”（插图）→ **charts**、circular graphs → **donut charts**（全文统一）；分号后的 Some、It 改小写；“and consider correlations as causality” 主语不清 → **it treats correlation as causation**；“It is also recommended that…” 被动句 → 合并成一句：recommends that executives… and that Bain…；validate it → **test its claims**；按字数删了几个词。
 
@@ -108,7 +120,7 @@ Overall, this report concludes that Bain's report is useful for starting a discu
 
 **4.1 Data Integrity**
 
-Bain states that the report is based on a survey and interviews with 20 companies (Bain & Company, 2025, p. 4), but it does not say how many companies answered each question, what the original question wording was, or who the respondents were. Section 2 showed that only about 16 companies answered the questions on page 9. With such a small sample, the margin of error is large: when 16 companies answer, a result of about 50% has a 95% confidence interval of approximately plus or minus 22 percentage points. Seemingly precise figures such as "94%" and "88%" may therefore reflect a difference of only one or two companies.
+Although Bain names 20 participating companies (Bain & Company, 2025, p. 4), it never reports how many of them answered each question, what the original question wording was, or who the respondents were. Section 2 showed that only about 16 companies answered the questions on page 9. With such a small sample, the margin of error is large: when 16 companies answer, a result of about 50% has a 95% confidence interval of approximately plus or minus 22 percentage points. Seemingly precise figures such as "94%" and "88%" may therefore reflect a difference of only one or two companies.
 
 **4.2 Survivorship Bias**
 
@@ -120,7 +132,7 @@ Bain itself sells innovation consulting, and the report says that what it heard 
 
 **4.4 Self-Reporting and Correlation**
 
-The claim that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11) is self-reported, which is prone to bias (Podsakoff et al., 2003), and there is no definition of "success rate" and no control group. Similarly, eight of the ten public companies on the list had higher three-year total shareholder returns than their sectors (Bain & Company, 2025, p. 4), but ten companies can only show a correlation: firms that were already profitable may simply have been able to afford bold innovation. If executives mistake correlation for causation, they may assume that investing more in innovation will raise shareholder returns, and make unrealistic investment decisions.
+The claim that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11) is self-reported, which is prone to bias (Podsakoff et al., 2003), and there is no definition of "success rate" and no control group. Bain also notes that, of ten listed firms, eight beat their sector on three-year shareholder returns (Bain & Company, 2025, p. 4), but ten companies can only show a correlation: firms that were already profitable may simply have been able to afford bold innovation. If executives mistake correlation for causation, they may assume that investing more in innovation will raise shareholder returns, and make unrealistic investment decisions.
 
 **改了什么（主要的）**：⭐ 引用的原文要一字不差：“consistent with Bain's research” → **"consistent with Bain & Company research"**；第 4 页的数据原文是“高于**所在行业**”（than their sectors），不是“高于行业平均”；88% 那句引号乱了，按第 2 节的写法重排；⭐ 4.2 最后一句原译意思变了（变成“报告认为……因为我们只看到成功公司”），已改成“这些做法看起来带来成功，可能只是因为看不到失败的公司”；innovative consulting（有创意的咨询）→ **innovation consulting**（创新咨询）；“on its own” 删掉（意思是“独自”）；“The sample size is so small, and the error is large” → With such a small sample, the margin of error is large；“this is only 10 and only a correlation does not prove” 语法不通，已改；Hammond 引用里 Keeney 后面不加逗号（Harvard 格式）；Bain&Company 加空格。
 
@@ -306,7 +318,7 @@ Page 9 uses 12 small donut charts to show AI use in six innovation stages: the t
 
 **2.4 Actual vs. Expected Results (page 10)**
 
-Page 10 places two donut charts side by side: 31% of the companies have cut their design-to-launch time by more than 20% in the past three years, and 82% expect to do so in the next five years (Bain & Company, 2025, p. 10). The two numbers look comparable, but one is a fact and the other only an expectation, over different periods (three and five years). In addition, 31% is approximately 5/16, while 82% is not a multiple of 1/16, which suggests that the two questions had different numbers of respondents, but the report does not say so. Figure 3 uses a solid bar for the actual result and a hatched bar for the expectation, and notes the different time periods.
+On page 10, two donut charts sit next to each other: one says 31% of firms already shortened the time from design to launch by over a fifth during the last three years, the other says 82% believe they will manage this within five years (Bain & Company, 2025, p. 10). The two numbers look comparable, but one is a fact and the other only an expectation, over different periods (three and five years). In addition, 31% is approximately 5/16, while 82% is not a multiple of 1/16, which suggests that the two questions had different numbers of respondents, but the report does not say so. Figure 3 uses a solid bar for the actual result and a hatched bar for the expectation, and notes the different time periods.
 
 <p><img src="/content/comp1913/files/charts/fig3_actual_vs_expected.png" alt="Figure 3" style="max-width:100%"></p>
 
@@ -314,7 +326,7 @@ Page 10 places two donut charts side by side: 31% of the companies have cut thei
 
 **2.5 Other Charts (pages 6 and 11)**
 
-Page 6 shows the average resource allocation by type of innovation (39%, 37% and 24%), while the text claims that "the vast majority" of leading innovators devote more than 60% of their R&D to transformative or disruptive innovation (Bain & Company, 2025, p. 6). An average does not show the situation of each company, so it cannot support the claim about "the vast majority"; a dot plot showing each company's share would be more convincing. On page 11, a large number states that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11), but this is self-reported, and "success rate" is not defined (see Section 4). Of these five charts, the one on page 9 is the most likely to mislead executives: it suggests that following the trend and investing in AI is the right choice and will bring growth, but it only shows how many companies use AI, not whether AI has brought growth.
+Page 6 shows the average resource allocation by type of innovation (39%, 37% and 24%), while the text says "the vast majority" of these firms put over 60% of their R&D into transformative or disruptive projects (Bain & Company, 2025, p. 6). An average does not show the situation of each company, so it cannot support the claim about "the vast majority"; a dot plot showing each company's share would be more convincing. On page 11, a large number states that 88% "of leading innovators say AI has improved their innovation success rate" (Bain & Company, 2025, p. 11), but this is self-reported, and "success rate" is not defined (see Section 4). Of these five charts, the one on page 9 is the most likely to mislead executives: it suggests that following the trend and investing in AI is the right choice and will bring growth, but it only shows how many companies use AI, not whether AI has brought growth.
 
 **改了什么（主要的）**：⭐ “out locate” → **“out-allocate”**（原文标题要一字不差）；⭐ “the original text of the problem” → **the original question wording**（“问题”在这里是 question，不是 problem）；circular graphs / images → **donut charts**（全文统一）；“a score of 5/16”“not a score of 16” → approximately 5/16、**not a multiple of 1/16**；diagonal bars → **hatched bars**；“Change Figure 2 to…”是命令句 → Figure 2 redraws it as…；第 11 页的 88% 改成报告原文引用；“is the easiest to mislead” → is the most likely to mislead；“does not necessarily indicate” → not whether（你的意思是“不能说明”，不是“不一定说明”）；Bain&Company 加空格；color → colour（英式）；删掉重复的小标题 “(AI Usage, page 9)”。
 
@@ -324,7 +336,7 @@ Page 6 shows the average resource allocation by type of innovation (39%, 37% and
 
 **1. Background**
 
-Bain & Company is one of the world's leading management consulting firms. Its *Innovation Report 2025*, subtitled "How top companies scale bold ideas", is signed by Marissa Dent, Global Leader of Bain Innovation and Business Building (Bain & Company, 2025). It is based on a survey and interviews with 20 of Fast Company's 50 Most Innovative Companies in 2025, and contains four articles.
+Bain & Company, a major global consultancy, published the *Innovation Report 2025* under the subtitle "How top companies scale bold ideas"; its opening letter comes from Marissa Dent, who leads Bain's innovation practice (Bain & Company, 2025). The four articles draw on surveys and interviews with 20 firms taken from Fast Company's 2025 list of the most innovative companies.
 
 The business question the report aims to answer is: how do the most innovative companies invest, organise and use AI for innovation, and what can other companies learn from them? Its target audience is corporate executives, especially decision-makers who are considering investing more in innovation and AI. However, the report begins with a letter addressed "Dear colleague" and ends by promoting Bain's own "Engine 2" framework, which makes it marketing material for Bain's consulting services.
 
