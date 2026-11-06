@@ -80,7 +80,7 @@ MBA.addModule({
       en: 'Individual Essay',
       zh: '个人论文',
       due: '2026-11-26',
-      opens: '2026-11-01', opensNote: 'Dr Roy Yap 名下的提交页 11/1 已开放，截止 11/26 23:59；第一次要先接受 Turnitin 协议；老师 10/3 说可交 3 次',
+      opens: '2026-11-01', opensNote: 'Dr Roy Yap 名下的提交页 11/1 已开放，截止 11/26 23:59；可交 3 次，11/6 已交 2 次（第 2 版覆盖第 1 版），剩 1 次',
       weight: 60,
       words: 2000,
       length: '2000 词（不含参考文献）',
