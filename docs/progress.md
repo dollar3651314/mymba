@@ -8,7 +8,7 @@
 - Mind Map：第 1 位那一支 4 个框改成新稿内容；用户要求把四位组员名字放进 Mind Map → 带名字版只发给用户，网站版不放名字。
 - 四人合并演讲稿 Word 第 3 版（`files/Unilever_Group_Script.docx`，每人一页起）：第 1 位按上面小改（528 词，约 3.5–4.1 分钟，偏长）+ 答问用 10/31 版；第 2、3 位原文；**只有第 4 位（用户）中英双语**（388 词）。
 - 用户要求按人拆成 4 份 Word 发给组员（各含自己的 2 个答问；第 4 位中英双语），已发给用户。
-- 组员提出改 PPT：第 5、7、10 页结论框换成他们写的句子，第 6 页贸易转移定义改成 “buying from a member country instead of a cheaper non-member country”，所有结论框去掉 “So what?” 标签（第 9、13 页句子不变）→ PPT 第 4 版。Claude 评价：基本合理；第 5 页 “large-scale local operations” 建议改成 “global scale”（和标题、规模经济对得上），等组员决定。
+- 组员提出改 PPT：第 5、7、10 页结论框换成他们写的句子，第 6 页贸易转移定义改成 “buying from a member country instead of a cheaper non-member country”，所有结论框去掉 “So what?” 标签（第 9、13 页句子不变）→ PPT 第 4 版。Claude 评价：基本合理；第 5 页 “large-scale local operations” 建议改成 “global scale”（和标题、规模经济对得上），用户 11/7 确认“没问题”，**第 4 版即定稿**，网站状态改为定稿（准备度 100%、写作中 92%），里程碑加 11/7 定稿。
 - 跟读页第 4 位换成新稿（43 句，含 2 个答问），生成新句子录音和整段连续跟读 mp3。
 - 待确认：第 3 位第 10 页 CMA 那一行讲不讲；第 1 位稿子偏长，建议他计时，超 4 分钟就删“Globalization can expand markets…”那句或“Together, these drivers…”那句。
 
