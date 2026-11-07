@@ -2,7 +2,7 @@
 
 ## ✅ 11/7 全组定稿（11/14 展示用这一版）
 <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 4 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿 Word（第 3 版，第 4 位中英双语）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的新稿</a>
-> 第 4 版：第 5、7、10 页结论句用组员写的，第 6 页贸易转移定义改为 “buying from a member country instead of a cheaper non-member country”，所有结论框去掉 “So what?”。还没定：第 10 页 CMA 那一行讲不讲（第 3 位决定）。
+> 第 4 版：第 5、7、10 页结论句用组员写的，第 6 页贸易转移定义改为 “buying from a member country instead of a cheaper non-member country”，所有结论框去掉 “So what?”。用户 11/7 确认：**就用这一版，不再改**（第 10 页 CMA 那一行保留，第 5 页 “large-scale local operations” 保留）。
 > 网站版不含学号和组员名字；带学号的 PPT、带名字的 Mind Map 在对话里发给你了。第 1 位：2026 年数据换成 2025 全年，加一句“课件五个推动力，重点讲三个”。
 
 ## 11/5 新版演讲稿（组员修改后）
