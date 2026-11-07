@@ -1,6 +1,10 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## 🆕 11/5 新版演讲稿（组员修改后）——等确认后再改 PPT 和 Mind Map
+## 🆕 11/7 PPT 第 3 版 + Mind Map 已按四份新稿更新
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 3 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a>
+> 网站版不含学号和组员名字；带学号的 PPT、带名字的 Mind Map 在对话里发给你了。第 1 位：2026 年数据换成 2025 全年，加一句“课件五个推动力，重点讲三个”。
+
+## 11/5 新版演讲稿（组员修改后）
 > 第 1 位（全球化）组员重写了，约 969 词、写到 2026 年、多处数据无出处 → **用户说先放着**。第 2、3 位**原文不改**（用户 11/5 要求）。第 4 位（用户）改成简单短句，句式向第 2、3 位看齐；美国营业额加了“2025 年冰淇淋分拆后 105 亿欧元”一句，和第 2 位对上。
 
 ### 第 2、3 位用到的事实 → PPT 出处（改 PPT 时用）
