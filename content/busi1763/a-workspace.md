@@ -1,7 +1,7 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
 ## 🆕 11/7 PPT 第 3 版 + Mind Map 已按四份新稿更新
-<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 3 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 3 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿 Word（第 3 版，第 4 位中英双语）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的新稿</a>
 > 网站版不含学号和组员名字；带学号的 PPT、带名字的 Mind Map 在对话里发给你了。第 1 位：2026 年数据换成 2025 全年，加一句“课件五个推动力，重点讲三个”。
 
 ## 11/5 新版演讲稿（组员修改后）
