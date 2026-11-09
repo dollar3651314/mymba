@@ -2,7 +2,7 @@
 // status: go = 条件已够，可以开始做；partial = 可以先做一部分；wait = 还不能开始
 // pct: 资料和条件的完成度（粗略估计）；have: 已经具备的；missing: 还差的（写清楚等谁、哪天）；next: 下一步
 // done: 已经开始写的作业的完成度（%，用户 2026-10-19 要求：开始了就显示完成度）；steps: 完成度的一句话说明。有 done 时首页和作业页显示“写作中 · 完成 X%”
-MBA.readinessUpdated = '2026-11-07';
+MBA.readinessUpdated = '2026-11-09';
 MBA.readiness = {
   'busi1764/a1': {
     status: 'go', pct: 95, done: 100, submitted: '11/6 · 查重 32%',
@@ -21,8 +21,8 @@ MBA.readiness = {
     status: 'go', pct: 100, done: 100, submitted: '11/6 · 第 2 版 · 查重 17%',
     steps: '选题 ✅ → 大纲 + 立场 ✅ → 引言、第 1 节、第 2 节、结论 ✅ → 统稿 ✅ → 完整版 Word（封面 + 目录 + AI 声明）✅（11/5）→ 发邮件给 Dr Roy ✅（11/5，等回复）→ Turnitin 第 1 次 ✅（21%）→ 第 2 版重交 ✅（17%）→ 按意见改 ⬜ → 提交 ⬜（11/18）',
     have: ['<b>完整版 Word（11/5）</b>：UOG x LSBF 封面、目录、正文 1,988 词、Table 1、List of References 5 篇、AI 声明（放最后）', '学校模板和 Harvard 引用指南都已核对', '所有引用已核对原文和页码'],
-    missing: ['Dr Roy 的回复（邮件 11/5 已发）'],
-    next: '已提交（第 2 版覆盖第 1 版）。剩 1 次提交机会，只在 Dr Roy 回复要求修改时才用，最晚 11/24 前。',
+    missing: ['⚠️ 核对提交链接：你的老师是 Keith Soh，11/6 交在 Roy Yap 名下的页面', '11/5 邮件发给了 Dr Roy → 改发给 Keith Soh 并等回复'],
+    next: '已提交（第 2 版覆盖第 1 版）。先核对是不是交到了 Keith Soh 班的链接；剩 1 次提交机会，只在老师要求修改时才用，最晚 11/24 前。',
   },
   'busi1772/b': {
     status: 'wait', pct: 35,

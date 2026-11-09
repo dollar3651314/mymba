@@ -28,7 +28,7 @@
 | 7 | Vogel points out that many voluntary codes were themselves developed with governments and international organisations such as the ILO, the OECD and the United Nations (Vogel, 2005, pp. 166–167). | According to Vogel (2005, pp. 166–167), governments and bodies like the ILO, the OECD and the United Nations helped to write many of these voluntary codes. |
 | 8 | This essay has argued that the oil company should adopt the ethical version of stakeholder theory for oil rig safety. | Overall, the ethical version of stakeholder theory is the better guide for this company's rig safety. |
 
-## ✉️ 给 Dr Roy 的邮件（11/5 起草，你自己发；附上论文 Word）
+## ✉️ 给老师的邮件（11/5 起草时写的是 Dr Roy；⚠️ 11/9 用户确认你的老师是 **Keith Soh**，称呼改成 “Dear Mr Soh,” 再发给他）
 **收件人**：ryap@lsbf.edu.sg
 **主题**：BUSI 1772 Individual Essay – Draft for general feedback (Question 2)
 
