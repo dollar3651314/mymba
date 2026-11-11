@@ -19,7 +19,7 @@ MBA.readiness = {
     next: '11/11 开始：先回答写作区第 1 步的 5 个问题（你的行业、生活里的痛点、身边的家族企业、老龄化项目、起步和扩张的国家），Claude 帮你定想法。',
   },
   'busi1772/a': {
-    status: 'go', pct: 100, done: 100, submitted: '11/11 · 交到 Keith Soh 名下 · 查重 17%',
+    status: 'go', pct: 100, done: 100, submitted: '11/11 · 查重 17%',
     steps: '选题 ✅ → 大纲 + 立场 ✅ → 引言、第 1 节、第 2 节、结论 ✅ → 统稿 ✅ → 完整版 Word（封面 + 目录 + AI 声明）✅（11/5）→ 发邮件给 Dr Roy ✅（11/5，等回复）→ Turnitin 第 1 次 ✅（21%）→ 第 2 版重交 ✅（17%）→ 按意见改 ⬜ → 提交 ⬜（11/18）',
     have: ['<b>完整版 Word（11/5）</b>：UOG x LSBF 封面、目录、正文 1,988 词、Table 1、List of References 5 篇、AI 声明（放最后）', '学校模板和 Harvard 引用指南都已核对', '所有引用已核对原文和页码'],
     missing: [],

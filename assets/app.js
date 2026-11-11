@@ -170,7 +170,7 @@
       <p class="small muted">资料准备度 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估）</p>`
       : `<div class="progress"><i style="width:${r.pct}%"></i></div><p class="small muted">资料和条件约齐了 ${r.pct}%（Claude ${esc(M.readinessUpdated || '')} 评估，每收到一节课的录音都会更新）</p>`}
       <h4>${started ? '已经完成' : '已经有了'}</h4><ul>${r.have.map(x => `<li>${x}</li>`).join('')}</ul>
-      <h4>还差</h4><ul>${r.missing.map(x => `<li>${x}</li>`).join('')}</ul>
+      ${(r.missing || []).length ? `<h4>还差</h4><ul>${r.missing.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
       <div class="callout info"><b>下一步：</b>${r.next}</div></div>`;
   }
   function allAssessments() {
@@ -225,7 +225,7 @@
         <div class="small muted">${g < a.due ? `我的目标 ${fmt(g)}（${wk(g)}）· ` : ''}官方截止 ${fmt(a.due)}（${wk(a.due)}）· ${esc(lenLabel(a))} · 占 ${a.weight}%${a.tbc ? ' · <span style="color:var(--warn)">日期待确认</span>' : ''}</div>
         ${opensLine(a)}
         <div style="margin:4px 0">${readyCard(m.id, a.id)}</div>
-        <div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div></div>${isSub(m, a) ? '<span class="pill ok">已交</span>' : duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
+        ${((M.readiness[`${m.id}/${a.id}`].missing || [])[0] || '') ? `<div class="small muted">${M.readiness[`${m.id}/${a.id}`].missing[0].replace(/<[^>]+>/g, '')}</div>` : ''}</div>${isSub(m, a) ? '<span class="pill ok">已交</span>' : duePill(daysUntil(g))}</li>`; }).join('')}</ul></div>`;
     }
     const prev = pendingPreviews();
     if (prev.length) {
