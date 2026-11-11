@@ -26,9 +26,8 @@ MBA.addModule({
     { d: '2026-10-31', t: '（可选）看一眼 Moodle 第 2 周有没有 <b>10/2 之后新加的文件</b>：Claude 已有第 2 周讲座课件、tutorial 课件、Friedman 1970、Vogel 2005 第 1/2/7 章（10/2 收到）；有新文件再发' },
   ],
   people: [
-    { role: '讲师（你的老师，11/9 确认）', name: 'Keith Soh', email: '待补' },
     { role: '另一个班的讲师', name: 'Dr Roy Yap', email: 'ryap@lsbf.edu.sg' },
-    { role: '讲师 / 学术经理', name: 'Mr Keith Soh', email: 'ksoh@lsbf.edu.sg' },
+    { role: '你的讲师 / 学术经理（11/9 确认）', name: 'Mr Keith Soh', email: 'ksoh@lsbf.edu.sg' },
   ],
   weekTasks: [
     { id: 'lec', t: '看录播课（Part 1 和 Part 2）' },
@@ -81,7 +80,7 @@ MBA.addModule({
       en: 'Individual Essay',
       zh: '个人论文',
       due: '2026-11-26',
-      opens: '2026-11-01', opensNote: '⚠️ 11/6 交在标着 Dr Roy Yap 的提交页（你的老师是 Keith Soh，要核对链接对不对）；该页 11/1 已开放，截止 11/26 23:59；可交 3 次，11/6 已交 2 次（第 2 版覆盖第 1 版），剩 1 次',
+      opens: '2026-11-01', opensNote: '✅ 11/11 已交到 Keith Soh 名下的提交页（相似度 17%，和第 2 版一样）；截止 11/26 23:59',
       weight: 60,
       words: 2000,
       length: '2000 词（不含参考文献）',
@@ -152,8 +151,8 @@ MBA.addModule({
         { d: '2026-11-05', t: '✅ 完整版 Word：UOG x LSBF 封面、目录、正文、List of References、AI 声明（放最后）' },
         { d: '2026-11-06', t: '✅ <b>论文已提交</b>：第 1 版 Turnitin 21% → 改 8 句的第 2 版 17%（覆盖第 1 版）；可交 3 次，剩 1 次' },
         { d: '2026-11-10', t: '面谈准备：自己读一遍全文，每节能用中文说出讲什么、为什么；读 Friedman 原文 4 页' },
-        { d: '2026-11-10', t: '⚠️ 核对提交链接：你的老师是 <b>Keith Soh</b>，11/6 交在 Roy Yap 名下的页面。去 Moodle 看 Course Submission 下有没有 Keith Soh 班的单独链接；有的话把第 2 版交到那里，并发邮件告诉 Keith Soh' },
-        { d: '2026-11-12', t: '11/5 的邮件发给了 Dr Roy（不是你的老师）→ 改发给 Keith Soh（同样附论文、问同样的问题）；要求修改才用最后 1 次提交' },
+        { d: '2026-11-11', t: '✅ 论文重新交到 <b>Keith Soh</b> 名下的提交页，相似度不变（17%）' },
+        { d: '2026-11-12', t: '（可选）想听老师意见就把 11/5 那封邮件改称呼发给 Keith Soh（ksoh@lsbf.edu.sg）；没要求修改就不用再交' },
         { d: '2026-11-24', t: '如需第 3 次提交，最晚这天交（官方截止 11/26 23:59）' },
       ],
       checklist: [
