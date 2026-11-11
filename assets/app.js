@@ -601,6 +601,28 @@
       setTimeout(() => { if (prPlay === token) playFrom(i + 1); }, gap);
     });
   }
+  // 键盘控制跟读（用户 11/11 要求）：↓ 下一句、↑ 上一句（都会朗读），空格 / 回车 重读当前句，S 慢读，Esc 停止
+  document.addEventListener('keydown', e => {
+    const box = document.getElementById('pr-list'); if (!box) return;
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (['input', 'select', 'textarea', 'audio'].includes(tag) || e.target.isContentEditable) return;
+    const els = [...box.querySelectorAll('.pr-item')]; if (!els.length) return;
+    let i = els.findIndex(x => x.classList.contains('sel'));
+    const go = j => {
+      j = Math.max(0, Math.min(els.length - 1, j));
+      if (prPlay) { playFrom(j); return; }
+      els.forEach(x => x.classList.remove('sel', 'playing'));
+      els[j].classList.add('sel'); els[j].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      speak(els[j].dataset.say);
+    };
+    const k = e.key;
+    if (k === 'ArrowDown') { e.preventDefault(); go(i < 0 ? 0 : i + 1); }
+    else if (k === 'ArrowUp') { e.preventDefault(); go(i < 0 ? 0 : i - 1); }
+    else if (k === ' ' || k === 'Enter') { if (tag === 'button' && k === 'Enter') return; e.preventDefault(); prPlay = null; go(i < 0 ? 0 : i); }
+    else if (k === 's' || k === 'S') { if (i < 0) return; e.preventDefault(); prPlay = null; speak(els[i].dataset.say, null, 0.6); }
+    else if (k === 'Escape') { stopPlay(); }
+  });
   document.addEventListener('play', e => {
     const el = e.target;
     if (!el.classList || !el.classList.contains('pr-long')) return;
@@ -627,6 +649,7 @@
           <label><input type="checkbox" id="pr-hide" ${pr.hideDone ? 'checked' : ''}> 隐藏已会的</label>
         </div>
         <button class="btn" id="pr-all">▶ 连续播放（每句后停顿跟读）</button>
+        <p class="small muted pr-keys">⌨️ 电脑键盘：<b>↓</b> 下一句、<b>↑</b> 上一句（自动朗读），<b>空格</b> 重读，<b>S</b> 慢读，<b>Esc</b> 停止。</p>
       </div>
       <div id="pr-list"></div>`;
   };

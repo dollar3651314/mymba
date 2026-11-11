@@ -196,3 +196,6 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 .md details { margin: 6px 0 14px; border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; background: var(--surface-2); }
 .md details summary { cursor: pointer; color: var(--accent); font-size: .9rem; }
 .md details[open] summary { margin-bottom: 6px; }
+
+/* 键盘提示只在有键盘的设备显示 */
+@media (hover: none) { .pr-keys { display: none; } }
