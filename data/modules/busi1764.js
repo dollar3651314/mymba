@@ -18,6 +18,8 @@ MBA.addModule({
     '<b>课上的案例练习就是学习日志（A1）要写的“tutorial 经历”</b>：每次课后马上在网站 tutorial 笔记里记下你们组讨论了什么、你说了什么、怎么判断的。',
   ],
   todos: [
+    { d: '2026-11-19', t: '11/19 问老师：最后几次课的安排（一对一咨询哪天、线上还是线下）；A2 里用表格怎么算字数' },
+    { d: '2026-11-16', t: '（A2 反思素材）按 11/12 课上的 Excel 画自己的网络图：至少 10 个联系人、谁介绍的、你介绍给谁；算一下 “me” 占几成，记下扩展网络的困难——A2 反思要用，必须是你自己的真实情况' },
     { d: '2026-11-11', t: '第 7 周 Canvas 作业：<b>7.1</b> 看“沃尔玛进入德国”视频（约 8 分钟）回答问题；<b>7.2</b> 读讨论区案例回答问题；案例 3 只需读。做完发给 Claude（A2 反思要用）' },
     { d: '2026-10-16', t: '把 10/15 老龄化分组练习写进 tutorial 笔记（你们组定义的问题、提出的方案、老师的点评“太快跳到解决方案”、你学到什么）——A1 日志要用；告诉 Claude 3.3 西武集团交了没有' },
     { d: '2026-10-03', t: '趁还记得，把第 1、2 次课案例练习（披萨炉、日程工具、健身房 / Airbnb 商业模式画布）的小组讨论写进 tutorial 笔记' },
@@ -71,7 +73,7 @@ MBA.addModule({
     { n: 5, en: 'Feasibility analysis and writing a business plan', zh: '可行性分析与撰写商业计划书', use: ['a2'], rec: true, notes: true, pre: true, detail: '<p>Mini-Lecture 5.1：可行性分析四个方面（产品 / 服务、行业 / 目标市场、组织、财务）；5.2：商业计划书 11 个部分、三种类型、投资人展示 12 张幻灯片。</p><p>Tutorial：Keurig Kold 苏打水机失败案例；4 个商业计划书情景；Be the VC（给 Beyond Meat、Go-Jek 打分）；小组任务 Rent the Runway 或 Embrace 二选一。<b>A2 最关键的一课。</b></p>' },
     { n: 6, en: 'Building and managing the international entrepreneurial firm', zh: '建立和管理国际创业企业', use: ['a1', 'a2'], rec: true, notes: true, pre: true, detail: '<p>Mini-Lecture 6.1：国际新创企业怎样建立和保持竞争优势、创始人和创业团队；6.2：替代性治理结构（应对“新、小、外来”三重劣势）、国际创业融资。</p><p>Tutorial：融资来源（Kauffman 报告里 Fin Gourmet、Emily Reinhardt 两个故事）；Airbnb（竞争优势、投资人看团队）；Uber（创新类型、融资的作用、创始人经验）。</p>' },
     { n: 7, en: 'International market entry strategies', zh: '国际市场进入策略', use: ['a1', 'a2'], rec: true, notes: true, pre: true, detail: '<p>Mini Lecture 7.1：用 PESTEL 选择海外市场；7.2：进入模式（出口、许可、特许经营、合资、全资子公司、数字化进入）及优缺点。</p><p>Tutorial：沃尔玛在德国失败（视频）；马来西亚 TNA 进入印尼（虚构案例）；8 家零售企业国际扩张成败。<b>A1“跨境转移反思”最关键的一课。</b></p>' },
-    { n: 8, en: 'Building and managing networks', zh: '建立和管理网络关系', use: ['a2'], notes: false, pre: true, detail: '<p>Lecture：网络与国际化网络理论、社会资本三种作用（主动利用 / 意外机缘 / 负担）、强关系与弱关系、6 种关系定义表。</p><p>Tutorial：比尔·盖茨的网络（HBR 文章）；画自己的网络图（Network Mapping 练习表）。<b>A1 截止（11/17）前最后一课；A2 第 4 节“资源与网络”的核心素材。</b></p>' },
+    { n: 8, en: 'Building and managing networks', zh: '建立和管理网络关系', use: ['a2'], rec: true, notes: true, pre: true, detail: '<p>Lecture：网络与国际化网络理论、社会资本三种作用（主动利用 / 意外机缘 / 负担）、强关系与弱关系、6 种关系定义表。</p><p>Tutorial：比尔·盖茨的网络（HBR 文章）；画自己的网络图（Network Mapping 练习表）。<b>A1 截止（11/17）前最后一课；A2 第 4 节“资源与网络”的核心素材。</b></p>' },
     { n: 9, en: 'Entrepreneurial financing', zh: '创业融资', use: ['a2'], notes: false, pre: true, detail: '<p>Mini Lecture 9.1：短期 / 长期融资、自力更生、债务、天使、风投、IPO、战略伙伴；9.2：众筹四种类型和平台。</p><p>Tutorial：制造业初创企业营运资金情景（4 问）；Ryla 风投案例。<b>A2 第 5 节“融资”的核心一课。</b></p>' },
     { n: 10, en: 'Entrepreneurial marketing', zh: '创业营销', use: ['a2'], notes: false, pre: true, detail: '<p>Lecture 10：创业营销 vs. 传统营销、市场调研、STP、品牌、4P 与七种定价策略。</p><p>Tutorial：JD 营销组合案例；<b>Part 3 作业 2 讲解：Gibbs 反思循环（A2 反思 30% 的框架）</b>——这节课一定录音。课太晚，11/20 前先自学。</p>' },
     { n: 11, en: 'Intellectual property rights', zh: '知识产权', use: ['a2'], notes: false, pre: true, detail: '<p>讲座：知识产权 6 种类型、英国 4 部法律、IPEC、版权 / 商标 / 专利 / 外观设计 / 地理标志。Tutorial：HOTTA 电水壶案例（课件附答案）；<b>后半节是 A2 作业说明（Gibbs 反思循环，反思占 30%）——11/25 前先自学</b>。</p>' },
