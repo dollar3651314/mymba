@@ -1,6 +1,15 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## ✅ 11/14 第 6 版（按老师点评全部改完）：演讲稿 + PPT + Mind Map
+## 🆕 11/15 第 7 版：你和第 2 位换顺序（内容不换）
+**新顺序**：第 1 位 全球化（WHY the US）→ **第 2 位 你：FDI**（HOW it grows：在美国主要靠并购）→ 第 3 位 跨国企业 + ESG（WHAT it brings；冲突：2025 年 3 月美国 25% 关税）→ **第 4 位 Maria：区域一体化**（HOW it supplies the US：墨西哥工厂 + USMCA，关税被豁免）+ **全组总结**（从你的稿子移到她的稿子）。
+- 衔接句全部按新顺序重写；第 3 位结尾改成“东道国改规则时 Unilever 怎么保护自己？”引出 USMCA。
+- 第 4 位稿子删了几处重复的话，从 524 词减到 486 词（约 3.2–3.7 分钟）。你的 FDI 436 词。
+- PPT：幻灯片顺序改成 1–5 全球化 → 6–8 FDI → 9–11 跨国企业 + ESG → 12–13 区域一体化 → 14 结论；封面、结论页、AI 声明（你的学号移到 Speaker 2 一行）都跟着改；Mind Map 分支标签改成 Speaker 2 = FDI、Speaker 4 = 区域一体化。
+- ⏳ 你的稿子**暂时只有英文**；你和组员确认后，再出中英文版和跟读录音（跟读页现在还是第 6 版的旧稿）。
+
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 7 版</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map 第 7 版</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 7 版（英文）</a>
+
+## 11/14 第 6 版（按老师点评全部改完）：演讲稿 + PPT + Mind Map
 <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 6 版（17 页，含 5 张新图表）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map 第 6 版（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 6 版</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的第 6 版</a>
 
 在第 5 版（美国一条主线、统一欧元、百分比）基础上又改了：
