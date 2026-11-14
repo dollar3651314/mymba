@@ -1,6 +1,6 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## 🆕 11/14 老师意见 → 第 5 版演讲稿（等组员确认后再改 PPT 和 Mind Map）
+## 🆕 11/14 老师意见 → 第 5 版演讲稿 + Mind Map（PPT 等组员确认后再改）
 **老师的意见（11/14）**：① 四个人各讲一个国家，内容分散，没有连贯性、没有衔接 ② 数字多用**百分比**，让听众能比较 ③ 金额**只用一种货币**，不要一会儿欧元一会儿美元。还有一次正式展示（日期待确认）。
 
 **改法（用户 11/14 决定）**：
@@ -10,7 +10,7 @@
 - 删掉别的国家的例子：第 1 位答问的俄罗斯 → 美国关税；第 3 位的印度上市、俄罗斯 → 美国关税；答问 2 改成墨西哥工厂 + 拥有美国品牌。
 - ⚠️ 要组员核对的数字：2020 年全公司营业额 507 亿欧元、2024 年 608 亿欧元（Unilever 年报）；裁员“约 6%”按 2024 年约 12.8 万员工算。
 
-<a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 5 版（Word）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的第 5 版</a>
+<a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 5 版（Word）</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map 第 5 版（A1）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的第 5 版</a>
 
 ## 11/7 全组定稿（11/14 展示用的那一版）
 <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 4 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿 Word（第 3 版，第 4 位中英双语）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的新稿</a>
