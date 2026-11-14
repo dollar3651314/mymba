@@ -18,7 +18,7 @@ MBA.addModule({
     '<b>tutorial 要用 Excel 做表和图</b>（必须用公式，不能手填总数）。上课带装了 Excel 的个人电脑。',
   ],
   todos: [
-    { d: '2026-11-14', t: '核对 11/10 老师投屏的展示名单：你们组 4 人、11/24 20:00 对不对；“25 分钟 + 5 分钟”是不是新的时长（手册 15–20 分钟）——有错马上告诉老师' },
+    { d: '2026-11-21', t: '小组 PPT 第 1 页加上四个组员的<b>名字和学号</b>（老师 11/14：展示不用封面模板，但第一页要写名字和学号）——提醒组长；展示时长（25+5 分钟？）还没确认，问组长' },
     { d: '2026-11-09', t: '10/31 课上回归练习（Canvas 第 7 周说明 + Excel 数据，用数据分析工具库）：<b>还没做完就做完，把结果表和图截图发到讨论区</b>；之后能看到同学的作业' },
     { d: '2026-11-14', t: '（11/10 录音里没听到答案）11/14 问老师：10/31 说有同学把作业发给他看方向——<b>是哪份作业（个人报告还是小组展示）？截止前多久发？</b>；时间序列的 tutorial 能不能用 Excel 代替 Stata' },
     { d: '2026-10-03', t: '订阅 Canvas 通知；确认能下载课件' },
@@ -70,7 +70,7 @@ MBA.addModule({
     { n: 6, en: 'Evaluating Reports', zh: '评估报告', use: ['a'], pre: true, rec: true, notes: true, detail: '<p>📌 <b>按老师的讲次排</b>：Moodle 把课件放错了周次，但课件封面的编号是 Lecture 1–8，本地老师按这个编号上课（10/10 老师说下节课讲假设，正好是 Lecture 4）。所以网站把第 4↔6、7↔8 周对调了。</p><p>Tutorial：解读报告以支持决策；报告写作辅导。<b>这一周就是报告作业的方法课</b>（课件每部分都标着 Important for Assessment 1），练习评估 BCG 报告的图表。</p><p>讲座：McKinsey (2018) 多元化与财务表现（课件封面写 Lecture 6，Moodle 放在第 4 周）。必读：教材第 7 章 Visualising Data Effectively。</p>' },
     { n: 7, en: 'Simple regression modelling', zh: '简单回归模型', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>✅ <b>10/31 实际讲的是回归</b>（课件封面 Lecture 8，Moodle 放在第 7 周），网站已把第 7、8 周对调。讲简单回归 Y=β₀+β₁X：截距、斜率、误差、四个假设、散点图检查、R²、残差和标准误、局限（只看直线、怕离群值、只有一个因素、不能证明因果）。</p><p>Tutorial：按 Canvas 第 7 周的说明和 Excel 数据，用<b>数据分析工具库</b>做回归、画图、解读 R² 和 p 值，<b>截图发到讨论区</b>。</p>' },
     { n: 8, en: 'Time series Analysis', zh: '时间序列分析', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>✅ 11/10 讲了时间序列：四个成分、ARIMA / SARIMA / 指数平滑等模型、平稳性、MAE / RMSE / MAPE；课上用 <b>Excel</b> 做练习（不用 Stata），老师演示了 Python SARIMA（脚本会放 Tutorial 8 文件夹）。</p>' },
-    { n: 9, en: 'Emerging Trends in International Data Analytics', zh: '国际数据分析的新趋势', use: ['b'], pre: true, detail: '<p>Tutorial：按展示小组用 Copilot 做 AI 趋势“寻宝”，结果存共享 OneNote，做 5 分钟小展示。<b>课件里 6/24、7/15 的截止日期是上一期的，不适用</b>；课件写展示 10–15 页，brief 写 15–20 页，要问老师。</p>' },
+    { n: 9, en: 'Emerging Trends in International Data Analytics', zh: '国际数据分析的新趋势', use: ['b'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：按展示小组用 Copilot 做 AI 趋势“寻宝”，结果存共享 OneNote，做 5 分钟小展示。<b>课件里 6/24、7/15 的截止日期是上一期的，不适用</b>；课件写展示 10–15 页，brief 写 15–20 页，要问老师。</p>' },
     { n: 10, en: 'Simple Mathematical Calculations', zh: '简单数学计算', use: ['b'], pre: true, detail: '<p>Tutorial：Masala Brews 第四季度每日数据缺失，要提出假设并估算；Cloudy Drizzle 自建还是收购（PMT、FV、机会成本、风险打分），<b>和 American Egg 的借款、收购问题几乎一样</b>。</p>' },
     { n: 11, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'] },
     { n: 12, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'], pre: true, detail: '<p>没有课件和录像：复习 + Power BI 实操（十大咨询公司样例数据）。<b>11/28 在展示 PPT 截止（11/27）之后</b>，主要对个人报告“分析工具”部分有用。</p>' },
@@ -94,6 +94,7 @@ MBA.addModule({
         '<b>没有小组分</b>：每个人单独评分，按分工和个人表现给分，现场会单独提问。',
         '展示是必须参加的：不参加可能 0 分；无正当理由、未提前通知缺席扣 10%。展示后（或截止日前）在 Moodle 提交 PPT。',
         '<b>⭐ 11/10 老师交代</b>：① 投屏了各组名单和展示时间，<b>有错马上告诉老师</b> ② 展示分两天，<b>第一天展示的组第二天也要来扫码签到</b> ③ 有同学提到“25 分钟 + 5 分钟”，没听清是不是新的时长 → 问组长 / 老师。',
+        '<b>⭐ 11/14 老师</b>：三个组都在 <b>11/24（周二）</b>展示；之后周六的课也要来签到；PPT 不用封面模板，<b>第一页写组员名字和学号</b>；谁讲哪部分看 Zoom 录像；<b>不要照稿念</b>，否则答问答不上。',
         '<b>⭐ 你们组：11 月 24 日（周二）晚上 8 点展示</b>（第 11 次课，19:00–22:00，18-3 教室；用户 10/21 确认）。幻灯片 11/27 前每人各自上传 Moodle——建议展示当晚或第二天就传。',
       ],
       brief: [
