@@ -1,6 +1,18 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
-## ✅ 11/7 全组定稿（11/14 展示用这一版）
+## 🆕 11/14 老师意见 → 第 5 版演讲稿（等组员确认后再改 PPT 和 Mind Map）
+**老师的意见（11/14）**：① 四个人各讲一个国家，内容分散，没有连贯性、没有衔接 ② 数字多用**百分比**，让听众能比较 ③ 金额**只用一种货币**，不要一会儿欧元一会儿美元。还有一次正式展示（日期待确认）。
+
+**改法（用户 11/14 决定）**：
+- **一条主线：美国——Unilever 最大的市场。** 全组回答同一个问题：“How does Unilever grow in the United States, its biggest market?” 第 1 位讲**为什么是美国**（约占营业额 21%）→ 第 2 位讲**怎样进入美国**（墨西哥工厂 + USMCA 零关税）→ 第 3 位讲**带给美国什么、和东道国哪里有冲突**（英国母公司的优势；裁员、美国关税；CSR）→ 第 4 位讲**怎样变成增长**（在美国主要靠并购）+ **全组总结**。每人开头接上一位、结尾引出下一位。
+- **金额统一欧元**：Unilever 年报本来就用欧元；美元数字按欧洲央行年均汇率换算（2023 年 1.0813、2025 年约 1.13 美元 = 1 欧元）：墨西哥工厂 4 亿美元 ≈ 3.7 亿欧元，8 亿美元 ≈ 7.1 亿欧元；美国吸引的 FDI 和墨西哥贸易额改用百分比。
+- **新加的百分比**：美国约占营业额 21%（2025：105 / 505）；2020→2024 美国销售 +33%（94 → 125 亿欧元），全公司 +20%（507 → 608 亿欧元）；墨西哥约占美国货物贸易 16%（2023）；墨西哥工厂投资 +100%；美国吸引全球近五分之一 FDI（2024：2,790 / 约 15,000 亿美元）；研发约占营业额 1.6%；裁员约占员工 6%；塑料目标 −50% 只做到 −29%；2025 北美增长 5.3%，全公司 3.5%。
+- 删掉别的国家的例子：第 1 位答问的俄罗斯 → 美国关税；第 3 位的印度上市、俄罗斯 → 美国关税；答问 2 改成墨西哥工厂 + 拥有美国品牌。
+- ⚠️ 要组员核对的数字：2020 年全公司营业额 507 亿欧元、2024 年 608 亿欧元（Unilever 年报）；裁员“约 6%”按 2024 年约 12.8 万员工算。
+
+<a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 5 版（Word）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的第 5 版</a>
+
+## 11/7 全组定稿（11/14 展示用的那一版）
 <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 4 版（17 页，含 AI 声明）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿 Word（第 3 版，第 4 位中英双语）</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的新稿</a>
 > 第 4 版：第 5、7、10 页结论句用组员写的，第 6 页贸易转移定义改为 “buying from a member country instead of a cheaper non-member country”，所有结论框去掉 “So what?”。用户 11/7 确认：**就用这一版，不再改**（第 10 页 CMA 那一行保留，第 5 页 “large-scale local operations” 保留）。
 > 网站版不含学号和组员名字；带学号的 PPT、带名字的 Mind Map 在对话里发给你了。第 1 位：2026 年数据换成 2025 全年，加一句“课件五个推动力，重点讲三个”。
