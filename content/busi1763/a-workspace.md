@@ -1,5 +1,14 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
+## ✅ 11/14 第 6 版（按老师点评全部改完）：演讲稿 + PPT + Mind Map
+<a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 6 版（17 页，含 5 张新图表）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pdf" download>PPT PDF</a> <a class="btn" href="/content/busi1763/files/Unilever_MindMap_A1.pdf" download>Mind Map 第 6 版（A1）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 6 版</a> <a class="btn" href="#/practice/busi1763/speech">跟读你的第 6 版</a>
+
+在第 5 版（美国一条主线、统一欧元、百分比）基础上又改了：
+- **第 3 位 CSR → ESG**：一页按 E / S / G 讲（E 排放 −77%、塑料 −29% vs 目标 −50%；S 裁员约 6%；G 99.6% 股东投票、一家母公司）；开头说明“CSR 是公司自己的计划，ESG 是可以比较的框架，跨国企业去海外要证明 ESG”；**答问 2 改成有证据的回答**（墨西哥工厂符合 USMCA，2025 年 3 月 25% 关税被豁免）；加了**备用答问 3：CSR 和 ESG 的区别**。
+- **第 4 位**：money → financial resources；L 加 “high purchasing power”；K18 写 “price not disclosed”。
+- **PPT**：封面和第 2 页写明共同问题；第 3 页加“美国占营业额 21%”；第 5、7、9、10、13 页各加一张图表（营业额构成、墨西哥工厂投资、Unilever 百分比、E 的进展、三笔收购价格）；第 9 页删俄罗斯、印度，换成美国关税；第 10 页整页改 ESG；第 12 页副标题改成“全球近五分之一 FDI · 美国 +33% vs 全公司 +20%”；第 14 页结论改成 WHY / HOW / WHAT / HOW；参考文献加 ECB 汇率。
+- **Mind Map**：第 3 位分支改成 ESG。
+
 ## 📝 11/14 上午展示后老师的点评（录音整理，转写质量差，只写听清的）
 | # | 老师说的问题 | 第 5 版有没有解决 |
 |---|---|---|
