@@ -1,5 +1,8 @@
 # ✍️ 我的写作区：Mind Map 小组展示（Unilever · ⭐ 11/14 重新展示）
 
+## 🎧 11/17 你的第 2 位 FDI（第 8.1 版）已做成中英文 + 跟读录音
+<a class="btn" href="#/practice/busi1763/speech">跟读你的 FDI 部分（41 句，逐句 + 整段连续）</a>
+
 ## 🆕 11/17 第 8 版：全组同意方案 A（用组员的海报，全部换成美元）
 <a class="btn" href="/content/busi1763/files/Unilever_Group_EN.pptx" download>PPT 第 8 版（美元）</a> <a class="btn" href="/content/busi1763/files/Unilever_Group_Script.docx" download>四人演讲稿第 8 版（美元，英文）</a>
 - **货币**：全部用美元。Unilever 年报的欧元数字按欧洲央行年均汇率换算（2020 1.1422、2021 1.1827、2022 1.0530、2023 1.0813、2024 1.0824、2025 约 1.13），和组员海报的数字一致：美国销售 2020 $10.7bn → 2024 $13.6bn（+27%，全公司 +14%）；2025 美国 $11.9bn = 营业额 $57.1bn 的 21%；Paula's Choice ≈ $2.17bn；Nutrafol **再买 67%（≈ $0.85bn）后持股 80%**（年报 2022 Note 21 核对过，两种说法都对）；Dr. Squatch ≈ $1.40bn；研发 ≈ $1.07bn；墨西哥工厂 $400m → 约 $800m（+100%，公告金额本来就是美元）。
