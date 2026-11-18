@@ -45,6 +45,40 @@
 
 > 回答后 Claude 帮你串成中文样板，或者你也可以说“出样板吧”。第 2 节可以放**表 1 市场数据**（不算字数）。
 
+### ✅ 第 2 节 · 英文（11/18 用户翻译，Claude 改语法、压缩到约 255 词）
+**2. Opportunity Recognition**
+
+The opportunity came from the founder's own experience. His dog is 12 years old, has moderate separation anxiety and a history of pancreatitis, gastritis and gallbladder problems. Yet he often travels for work, and no one can reliably look after it while he is away (founder interview, 2026). He realised that ordinary dog-walking and boarding services do not suit senior dogs that need stable companionship and special diets.
+
+Following Zucchella, Hagen and Serapio (2018), this is a discovered opportunity: the demand already existed, and the founder simply noticed it earlier because of his own situation. Its risk can therefore be assessed through market research and customer feedback rather than being completely uncertain.
+
+In 2024, China's urban dog and cat market reached about 300.2 billion yuan, up 7.5% on the previous year, yet services accounted for only 6.8% of spending (Table 1). Meanwhile, China had about 30 million dogs and cats aged seven or older in 2025. Senior pets are increasing, but care services remain small and underserved.
+
+It also meets the three conditions of a viable opportunity:
+- demand: young dog owners who live alone and travel often;
+- feasibility: the company already has a home-visit team and partners with veterinary clinics and a fresh-food supplier;
+- profitability: subscriptions bring stable monthly income and support sales of fresh food and related products.
+
+Using Teece's (2007) framework of sensing, seizing and transforming, the company first tested demand through one-off home visits and built about 20 regular customers. The next step is to turn these services into a subscription plan.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| no one can reliably take care of **him** | look after **it** | 前面说的是狗，him 会被理解成创始人 |
+| poor gallbladder | gallbladder problems | 病的说法 |
+| In 2024 … **is expected to reach** … services **will** only account | **reached** … **accounted** | 2024 年已经过去，用过去时 |
+| by 2025, there **will be** | China **had** about … in 2025 | 同上 |
+| elderly dogs | senior dogs | 和第 1 节统一 |
+| discovery opportunity / Discovery oriented | a **discovered** opportunity | 课件用 discovered vs created |
+| investigation | market research | 商业里“调查”的说法 |
+| underutilized | underserved | underutilised 是“没被充分利用”；“没被满足”是 underserved |
+| feasible opportunity / Needs / Can be achieved / Can make money | **viable** opportunity: demand / feasibility / profitability | 课件术语；列表用名词 |
+| travel **or** live alone | live alone **and** travel often | 目标客户是两者都有 |
+| perception capture conversion | **sensing, seizing and transforming** | Teece 原文术语 |
+| verified its needs through a single on-site service | tested demand through one-off home visits | “its needs”变成公司自己的需要了 |
+| fixed customers; The next step | regular customers. The next step | 分号后不能大写 |
+
+> ⚠️ 字数：第 1 节约 240 + 第 2 节约 255 = 约 495，比计划多约 95 词。后面第 3–6 节要写紧一点，**反思（500 词）不能压**。
+
 ### 第 2 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，Claude 再改）
 > 新细节（用户 11/18 补充）：创始人的狗 **12 岁**，有**中度分离焦虑**，得过**胰腺炎和胃炎**，胆也不好；创始人经常出差，期间没人照顾。
 
