@@ -148,6 +148,17 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。
 
+### 第 6 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 150 词）
+> 用户 11/18：最怕被抄的是**鲜食配方、照护流程、客户名单**。
+
+目前 Baby Pet Paradise 还没有任何知识产权保护（访谈，2026）。对一家服务型初创企业来说，最有价值、也最容易被抄的是**老年犬鲜食配方、照护流程和客户名单**。这些不适合申请专利，因为专利要求公开发明内容，而且服务流程很难获得专利；更合适的是作为**商业秘密**保护：和员工、鲜食工厂签订保密协议，并在劳动合同中加入竞业限制，防止照护员离职时带走客户。
+
+同时，公司应该在中国国家知识产权局注册“Baby Pet Paradise / 宠宝乐园”**商标**，保护品牌和口碑；照护手册、预约小程序和宣传内容则自动受**版权**保护。
+
+由于知识产权有地域性，在中国注册的商标在新加坡不受保护。进入新加坡前，公司可以通过**马德里体系**把商标保护延伸到新加坡。
+
+> 翻译提示：知识产权 = intellectual property (IP)；商业秘密 = trade secret；保密协议 = non-disclosure agreement (NDA)；竞业限制 = non-compete clause；国家知识产权局 = China National Intellectual Property Administration (CNIPA)；商标 = trademark；版权 = copyright；地域性 = territorial；马德里体系 = the Madrid System；新加坡知识产权局 = Intellectual Property Office of Singapore (IPOS)。
+
 ### ✅ 第 5 节 · 英文（11/18 用户翻译，Claude 改语法，约 250 词）
 **5. Financing**
 
