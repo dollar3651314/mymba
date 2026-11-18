@@ -17,6 +17,36 @@
 > 回答后 Claude 帮你串成中文样板 → 你确认 → 你翻译成英文 → Claude 改语法。
 > 理论线索（这是帮你看懂的线索，要用你自己的分析和语言写）：价值主张（value proposition）、订阅收入模式（subscription）、差异化（differentiation），以及商业模式画布 9 个模块——第 1 节末尾放 **图 1 商业模式画布**。
 
+### ✅ 第 1 节 · 英文（11/18 用户翻译，Claude 改语法、压缩到约 240 词）
+**1. Business Idea**
+
+Baby Pet Paradise is a home pet-care start-up founded in Shenzhen in 2025, with five employees. It is not a family business but a new venture that grew out of the founder's own experience. It currently offers home-visit dog walking, temporary feeding and pet boarding at 100 yuan per visit, and has about 20 regular customers (founder interview, 2026).
+
+This report designs a new service for the company: the Baby Pet Home Care Plan, a monthly subscription for senior dogs. Subscribers receive:
+
+- two to three visits a week from the same carer for companionship and walks;
+- fresh food for senior dogs from a partner supplier;
+- a health record (weight, diet and activity) after each visit, with alerts to the owner and bookings at a partner veterinary clinic when needed.
+
+The target customers are young dog owners who live alone and travel often. As the founder explained, "time is their biggest cost, and they are willing to pay to save it". The value proposition is peace of mind: the dog is cared for by someone it knows while the owner is away.
+
+Unlike existing one-off bookings, the plan offers a regular carer who knows each dog's habits and health. For the company, subscriptions also bring more stable revenue (see Section 4). As more young people live alone and their dogs grow older, the service meets a real and growing need (see Section 2). Figure 1 summarises the idea in a Business Model Canvas.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| we mainly provide | It currently offers | 报告用第三人称写公司，不用 we |
+| founded by the founder based on their own experiences | grew out of the founder's own experience | “founder 创办的……founder”重复 |
+| on-site dog walking … foster care | home-visit dog walking … pet boarding | foster care 一般指领养前的寄养；宠物寄养用 pet boarding |
+| fixed customers | regular customers | 固定客户的习惯说法 |
+| elderly dogs | senior dogs | 宠物行业说老年犬用 senior |
+| fixed caregivers come to accompany… | visits a week from the same carer | 原句缺主语，列表要用名词短语 |
+| cooperative fresh food factories / cooperative pet hospital | partner supplier / partner veterinary clinic | cooperative 是“合作社”；合作伙伴用 partner |
+| Record your weight… | a health record (weight, diet and activity) | “your weight” 变成记录客户自己的体重了 |
+| by familiar people | by someone it knows | 更自然 |
+| For companies | For the company | 指这一家公司 |
+| aging together; In China… | （删去第二半句） | 分号后不能大写；数据留到第 2 节 |
+| （原文约 360 词） | 约 240 词 | 第 1 节只分配 200 词，删了重复和“会在第 X 节说明”的话 |
+
 ### 第 1 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译成英文，Claude 再改语法）
 > 【】里的是 Claude 按访谈设想的细节，**请你和朋友核对**，不对就改。
 
