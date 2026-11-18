@@ -67,6 +67,22 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。
 
+### ✅ 第 3 节 · 英文（11/18 用户翻译，Claude 改语法，约 115 词）
+**3. Community Impact**
+
+Baby Pet Paradise is not a social enterprise, as its main goal is profit, but the subscription plan can create social value for the Shenzhen community. First, it reduces the pressure on young people who live alone and travel often to care for their senior dogs. Second, it improves animal welfare: senior dogs with separation anxiety or chronic illness receive stable companionship, a suitable diet and timely veterinary care. Third, it offers flexible part-time work to local people and supports local veterinary clinics and food suppliers. In social innovation terms, it brings an existing service to an underserved group. However, the company must protect carers' pay and safety, and build customer trust through training and transparent visit records.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| profitability; But subscription plans | profit, but the subscription plan | 分号后不能大写 But；只有一个订阅计划 |
+| helps young people … alleviate the pressure of | reduces the pressure on young people … to care for | 原句太长、动词堆在一起 |
+| elderly dogs / chronic diseases | senior dogs / chronic illness | 和前文统一；慢性病的常用说法 |
+| appropriate diet, and timely medical attention | a suitable diet and timely veterinary care | 给狗看病用 veterinary care |
+| drives the business of local pet hospitals and fresh food factories | supports local veterinary clinics and food suppliers | drive the business of 不地道；pet hospital → veterinary clinic |
+| In terms of social innovation in the curriculum | In social innovation terms | 正文里不写 “in the curriculum” |
+| the underserved population | an underserved group | population 太大 |
+| caregivers / on-site records | carers / visit records | 和第 1 节统一 |
+
 ### 第 3 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 100 词）
 Baby Pet Paradise 不是社会企业，因为它的主要目标是盈利；但订阅计划能为深圳社区带来**社会价值**。第一，它帮助经常出差、独自生活的年轻人减轻照顾老年犬的压力。第二，它改善了**动物福利**：有分离焦虑或慢性病的老年犬能得到稳定的陪伴、合适的饮食和及时的就医。第三，它为本地人提供灵活的兼职工作，并带动本地宠物医院和鲜食工厂的生意。按照课程中社会创新的说法，它把已有的服务带给了**没有被充分服务的人群**。不过，公司也需要保障照护员的收入和安全，并通过培训和透明的上门记录建立客户信任。
 
