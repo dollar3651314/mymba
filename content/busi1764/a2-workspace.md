@@ -96,6 +96,35 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。
 
+### ✅ 第 4 节 · 英文（11/18 用户翻译，Claude 改语法，约 250 词）
+**4. Resources and Networks**
+
+With five employees and only one year of operation, Baby Pet Paradise faces the liability of newness and smallness (Oviatt and McDougall, 1994). Staffing, customer acquisition and funding are locked together: with few customers the company makes little profit, with more customers it lacks staff, and low earnings leave little money for promotion (founder interview, 2026).
+
+Following effectuation logic (Sarasvathy, 2001), the company does not need to raise a large sum first. Instead, it starts from the resources it already has: about 20 regular customers, home-visit experience and existing partners. By investing only what it can afford to lose, it can first offer the subscription plan to existing customers. Subscriptions bring predictable monthly income, so the company can plan rotas in advance and add carers gradually, breaking the cycle.
+
+Networks are a key source of social capital for new ventures. The veterinary clinic and the fresh-food supplier are strong ties: the clinic gives professional advice and refers customers, the supplier provides food for senior dogs, and the company brings both of them steady business. New customers mainly come through weak ties (Granovetter, 1973), such as friends referred by existing customers, residents' groups and pet communities, which bring new information and customers at low cost. For staffing, the company can hire local part-time carers and work with veterinary students.
+
+However, relying too heavily on a few partners could turn social capital into a liability, so the company should gradually add more clinics and suppliers.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| a typical disadvantage of being a "new business, small business" | the **liability of newness and smallness** | 课件里的固定术语 |
+| all stuck together | locked together | 更地道 |
+| …manpower; Earning less and having no money | …lacks staff, and low earnings leave little money for promotion | 分号后不能大写；后半句缺主语 |
+| effect reasoning | **effectuation** | 术语（Sarasvathy） |
+| the amount it can afford | what it can **afford to lose** | 效果推理的 affordable loss 原则 |
+| old customers | regular / existing customers | old customers 像“老年客户” |
+| allowing **companies** to schedule | the company can plan rotas | 指这一家公司；排班 = rota |
+| **The internet** is an important social capital | **Networks** are a key source of social capital | internet 是“互联网”，这里说的是人际网络 |
+| Pet hospitals and fresh food factories **have** a strong relationship | The clinic and the supplier **are strong ties** | 原句变成“医院和工厂之间关系好” |
+| weak relationships / community owners | weak ties / residents' groups | 术语；业主群 |
+| **we** can hire | **the company** can hire | 第三人称 |
+| caregivers | carers | 和前文统一 |
+| a burden | a liability | 第 8 次课：social capital as liability |
+
+> 字数累计：第 1–4 节约 860 词（计划 700）。第 5–7 节要尽量写紧（计划 800），反思 500 不压。
+
 ### 第 4 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 200 词）
 **① 资源问题**
 作为一家只有 5 个人、成立刚一年的公司，Baby Pet Paradise 面临典型的“新”和“小”的劣势（Oviatt and McDougall, 1994）：人手、获客和资金互相卡住——客户少就不赚钱，客户多了人手又不够；赚得少就没钱宣传（访谈，2026）。
