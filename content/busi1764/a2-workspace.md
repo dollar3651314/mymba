@@ -185,6 +185,48 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。
 
+### ✅ 第 7 节 · 英文（11/18 用户翻译，Claude 改语法，约 440 词）
+**7. Internationalisation**
+
+Once the subscription plan is established in Shenzhen, Baby Pet Paradise plans to take it to Singapore. Compared with Hong Kong (Table 3), Singapore has higher incomes and faster growth in dog ownership. Its large ethnic Chinese population and shared languages also mean a smaller psychic distance, and the Uppsala model suggests that firms usually enter psychically close markets first (Johanson and Vahlne, 2009). In addition, the author studies in Singapore, so MBA classmates and local friends can act as a bridge to partners and customers.
+
+A PESTEL analysis highlights four factors:
+- economic: GDP per capita is about US$90,000, so consumers can afford pet services;
+- social: licensed dogs have increased by about 30% since 2019, and there are many busy single professionals and expatriates;
+- legal: about 80% of households live in HDB flats, which allow only one dog of an approved small breed, and pet services must follow the rules of the Animal and Veterinary Service (AVS);
+- technological: e-payment and mobile booking are widely used.
+
+These factors show clear demand, but the service must focus on small dogs and comply with local rules.
+
+Singapore already has pet-service platforms such as Pawshake and freelancers on Carousell, who charge about SGD 12–25 for a 30-minute walk. However, most are individuals offering one-off visits, and few specialise in senior dogs. Baby Pet Paradise differs by combining a regular carer, senior-dog fresh food and health records in one subscription. The service must be localised: offered in English and Chinese, using locally sourced or produced food, priced in Singapore dollars and adapted to small dogs living in HDB flats.
+
+Exporting does not suit a home-visit service. Franchising is low-cost, but it makes service quality and care procedures hard to control, even though care quality is the core of the brand. A wholly owned subsidiary offers the most control, but the investment and risk are too high for a five-person firm. A joint venture with a local veterinary clinic or pet shop is therefore the most suitable mode. Baby Pet Paradise would hold 51% and contribute its brand, care procedures and food recipes, while the local partner would provide customers, premises and regulatory knowledge. Both sides should agree decision rights and exit arrangements in advance to reduce conflict.
+
+The target customers are busy single professionals and expatriates who live in HDB flats or condominiums and own senior small dogs. Promotion will rely on pet communities on Instagram and Facebook, referrals from the partner clinic, pet exhibitions and word of mouth from existing customers. A discounted first month will lower the barrier to trying the service.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| subscription package / caregivers / elderly dogs / pet hospitals / formulas | subscription plan / carer / senior dogs / veterinary clinic / recipes | 和前几节统一 |
+| …ownership**; Moreover, there are many Chinese people** with similar languages | Its large **ethnic Chinese population** and shared languages… | 分号后不能大写；“Chinese people”在新加坡容易被读成“中国人”，用 ethnic Chinese |
+| psychological distance / psychological proximity | **psychic distance** / psychically close | Uppsala 模型的术语 |
+| 90000 US dollars | US$90,000 | 千位加逗号 |
+| …since 2019**; There are** | …since 2019, **and there are** | 同上，分号问题 |
+| foreign professionals | expatriates | 习惯说法 |
+| AVS (Animal and Veterinary Services **Bureau**) | Animal and Veterinary **Service** (AVS) | 机构正式名称 |
+| Electronic payments … very popular | e-payment … widely used | 更地道 |
+| freelancers on Carousell **who walk their dogs** | who charge about SGD 12–25 for a 30-minute walk | 原句像是“自由职业者遛**他们自己的**狗” |
+| SGD 12-25 every 30 minutes | SGD 12–25 for a 30-minute walk | 按次收费的说法 |
+| The difference of Baby Pet Paradise is that | Baby Pet Paradise differs by | 更简洁 |
+| Entry method | （删去小标题，正文写 mode） | 术语是 entry mode |
+| Export: Not suitable … (列表) | 写成完整句子 | 进入方式的比较是“推理”，写成段落更好 |
+| the company is more suitable for establishing joint ventures | A joint venture … is therefore the most suitable mode | 原句主语错（公司“适合”） |
+| …fresh food formulas; Local partners | …recipes, while the local partner would | 分号问题 |
+| reduce differences | reduce conflict | differences 是“差异”，这里指“分歧 / 冲突” |
+| apartments | condominiums | 新加坡私宅的说法 |
+| **We** can offer a trial price… | A discounted first month will lower the barrier… | 第三人称；更简洁 |
+
+> 字数累计：第 1–7 节约 1,715 词。加反思 500 → 约 2,215 词，统稿时删到约 2,100（老师：字数只算正文，表格 / 图不算）。
+
 ### 第 7 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 450 词）
 > 进入方式样板先按**合资**写（Claude 推荐）；你想改成特许经营就告诉 Claude。【】里是需要你核对或补充的地方。
 
