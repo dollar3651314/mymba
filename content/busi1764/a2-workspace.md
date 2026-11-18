@@ -148,6 +148,34 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。
 
+### ✅ 第 6 节 · 英文（11/18 用户翻译，Claude 改语法，约 165 词）
+**6. Intellectual Property**
+
+Baby Pet Paradise currently has no intellectual property (IP) protection (founder interview, 2026). For a service start-up, its most valuable and most easily copied assets are its senior-dog fresh-food recipes, care procedures and customer list.
+
+These are not suitable for patents: a patent requires the invention to be disclosed, and service procedures are difficult to patent. They are better protected as trade secrets. The company should sign non-disclosure agreements with staff and its food supplier, and add non-compete clauses to employment contracts so that carers cannot take customers with them when they leave.
+
+The company should also register "Baby Pet Paradise / 宠宝乐园" as a trademark with the China National Intellectual Property Administration (CNIPA) to protect its brand and reputation, while its care manual, booking mini-program and promotional content are automatically protected by copyright.
+
+IP rights are territorial, so a trademark registered in China is not protected in Singapore. Before entering Singapore, the company can extend its trademark protection there through the Madrid System.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| the most valuable and easily copied **are** the fresh food formula… for elderly dogs | its most valuable and most easily copied **assets are** its senior-dog fresh-food **recipes**… | 原句缺名词；“for elderly dogs”位置让人误会成“老年犬的客户名单”；食物配方用 recipe（formula 多指婴儿奶粉或化学配方） |
+| These things are not suitable for patent application / difficult to obtain a patent | not suitable for patents / difficult to patent | 更简洁；原句主语“the service process … to obtain” 不通 |
+| confidentiality agreements | non-disclosure agreements | 通用术语 NDA |
+| non compete restrictions in labor contracts | non-compete clauses in employment contracts | 术语 |
+| caregivers / fresh food factories | carers / its food supplier | 和前文统一 |
+| "Baby Pet Paradise/Pet Paradise" | "Baby Pet Paradise / 宠宝乐园" | 原文把中文名也译成英文了；商标要写原名 |
+| …Administration **of China** | （删去） | 名称里已经有 China |
+| reputation**; The** care manual | reputation, **while** its care manual | 分号后不能大写 |
+| appointment mini program | booking mini-program | 统一 |
+| only valid in the country of registration | **territorial** | 课件术语 |
+| companies can extend | the company can extend | 指这一家公司 |
+| Madrid system | Madrid **S**ystem | 专有名词大写 |
+
+> 字数累计：第 1–6 节约 1,275 词。还剩第 7 节国际化（约 450）、第 8 节反思（500）。
+
 ### 第 6 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 150 词）
 > 用户 11/18：最怕被抄的是**鲜食配方、照护流程、客户名单**。
 
