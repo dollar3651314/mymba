@@ -121,6 +121,39 @@
 
 > 回答后 Claude 出样板，或者直接说“出样板吧”。订阅包价格你还没给，样板里会先写“按 X 元 / 月估算”。
 
+### ✅ 第 5 节 · 英文（11/18 用户翻译，Claude 改语法，约 250 词）
+**5. Financing**
+
+The company currently relies on the founder's own money, loans from family and friends, and a small bank loan (founder interview, 2026). This is typical of start-ups: in the United States, about 64.4% of start-up funding comes from personal and family savings, while venture capital provides only 0.5% (Hwang, Desai and Baird, 2019).
+
+Launching the subscription plan is estimated to require about 60,000 yuan (Table 2), mainly for carer training, transport, the first batch of fresh food, a booking mini-program, insurance, promotion and the first three months of staff costs.
+
+In the first phase, the company should rely on bootstrapping. Monthly subscription fees are paid in advance, so customers effectively finance part of the launch, and sharing promotion channels with the partner clinic and supplier keeps costs down. Any shortfall can be covered by family loans and a small bank loan, allowing the founder to keep full ownership.
+
+Once the plan has proved viable, the company could run a reward-based crowdfunding campaign on a platform such as Modian, where supporters pre-order a discounted "first-month subscription and senior-dog food pack". This would raise money and test demand at the same time. Later, it could give a small equity stake to an angel investor who knows the pet industry, in exchange for funding and contacts.
+
+Venture capital is not suitable at this stage. Venture capitalists rarely invest in such small, early-stage firms, and they expect high returns and board seats, which would weaken the founder's control.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| small loans | a small bank loan | 和表 2 一致 |
+| similar to most startups | typical of start-ups | 更地道 |
+| household savings | family savings | 引用原文用 personal and family savings |
+| subscription package / caregivers / appointment mini programs / labor | subscription plan / carers / a booking mini-program / staff costs | 和前文统一；预约 = booking |
+| 60000 yuan | 60,000 yuan | 千位加逗号 |
+| Self reliance / be self reliant | **bootstrapping** | 课件术语 |
+| …in advance; Simultaneously sharing… | 拆成完整句子 | 分号后不能大写，后半句缺主语 |
+| pet hospitals and fresh food factories | the partner clinic and supplier | 统一 |
+| maintain ownership | keep full ownership | 更自然 |
+| proves feasible | has proved viable | 和第 2 节 viable 统一 |
+| **return based** crowdfunding | **reward-based** crowdfunding | 术语 |
+| test requirements | test demand | requirements 是“要求”，这里是“需求” |
+| a small amount of shares can be sold | give a small equity stake | 术语；改主动句 |
+| **Currently not suitable for seeking venture capital.** | Venture capital is not suitable at this stage. | 原句没有主语 |
+
+> 字数累计：第 1–5 节约 1,110 词（计划 900）。第 6 节知识产权（计划 150）、第 7 节国际化（计划 450）要写紧；反思 500 不压。统稿时再整体删到约 2,100。
+> ⚠️ 表 2 的金额还要请朋友给实际数字，订阅价格待补。
+
 ### 第 5 节 · 中文样板（Claude 11/18 起草，**参考用**：你确认 / 修改后自己翻译，约 200 词）
 > ⚠️ 表 2 的金额是 Claude **按深圳常识估的**，只为说明结构。**一定要请朋友给实际数字**，报告里写成 “estimated”。订阅价格待你提供（先写 X 元 / 月）。
 
