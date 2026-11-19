@@ -205,6 +205,43 @@
 > 回答完把中文发给 Claude。Claude 会**用你的原意**整理成 Gibbs 结构的中文稿（不加你没说过的经历），你确认后再翻译。
 > 可以引用的文献（Analysis 那一段用）：Gibbs (1988)；Sarasvathy (2001) 效果推理；Granovetter (1973) 弱关系；Barringer & Ireland 可行性分析。
 
+### ✅ 第 8 节 · 英文（11/19 用户翻译，Claude 改语法，约 470 词）
+**8. Reflection**
+
+This reflection follows Gibbs' (1988) reflective cycle.
+
+**Description.** The idea for this report came from my own life. I have a ten-year-old pet at home with some age-related illnesses, so I know how difficult it is to care for an older pet when the owner is away. By coincidence, my friend had founded Baby Pet Paradise. I used the company's service and was satisfied with it, so I discussed with my friend how the existing business could grow, and I collected information about the company through interviews.
+
+**Feelings.** When I started this report, I felt lost. I had no clear ideas, I worried that my English would not be accurate, and reliable data was hard to find. As the interviews went deeper, I found a direction and began to organise my thoughts. This journey from confusion to clarity was very valuable to me.
+
+**Evaluation.** The part I did best was imagining how the project could develop, which gave me a strong sense of achievement. The hardest part, and the weakest, was deciding how to find customers, how to promote the service and how to set the price. The subscription price still needs to be confirmed with my friend, and the costs in Section 5 are only estimates.
+
+**Analysis.** Three parts of the module really helped me. First, the feasibility analysis in Week 5 meant that in Section 2 I did not simply feel that the idea was good; I checked demand, feasibility and profitability one by one (Barringer and Ireland, 2019). Second, the session on entry modes in Week 7 led me to compare franchising, joint ventures and wholly owned subsidiaries in Section 7, and to choose a joint venture as better suited to a small firm, instead of following my first instinct. Third, the session on financing in Week 9 showed me that start-ups usually rely on their own money, family and friends, and bootstrapping, and that venture capital does not suit such an early-stage company. This changed my earlier belief that starting a business means finding investors.
+
+**Conclusion.** My main lesson is that spotting an opportunity is difficult, but putting it into practice is even harder. Problems with staffing, customer acquisition and pricing keep appearing, and they can only be solved by continually adjusting the project. This matches effectuation logic: starting from the resources at hand and adapting along the way (Sarasvathy, 2001).
+
+**Action plan.** In future, I will look more actively for business opportunities in my work and daily life. Before making a decision, I will interview real users and run small tests of my ideas. For example, I would first ask a few existing customers to try the subscription plan and test the price, and then adjust it based on their feedback. I will also keep building my MBA network in Singapore to prepare for possible future collaboration.
+
+| 原来 | 改成 | 为什么 |
+|---|---|---|
+| ①②③ 编号 + “Feel it” | 每段开头用 Gibbs 的阶段名（Description / Feelings / Evaluation / Analysis / Conclusion / Action plan），第一句点明用 Gibbs (1988) | 让阅卷人一眼看到你用了反思模型 |
+| [which is 10 years old…] / 🟡 | 去掉方括号和标记，写进句子 | 草稿标记不能留在正文 |
+| elderly pet | an older pet | 对宠物更自然（老年犬仍用 senior） |
+| I was very blind | I felt lost | blind 是“瞎的”，“迷茫”用 lost |
+| As the interview deepened | As the interviews went deeper | 更自然 |
+| the best part I did / not well done part | The part I did best / the weakest | 语序 |
+| confirmed with friends | confirmed with my friend | 只有一位朋友 |
+| Feasibility analysis for week 5: … let me not just… | the feasibility analysis in Week 5 meant that … I did not simply… | “let me” 是祈使句（“让我来…”），这里要说“使我…” |
+| examine the requirements | checked demand | requirements 是“要求”，课件术语是 demand |
+| How to enter the 7th lesson | the session on entry modes in Week 7 | 原句意思变成“怎样进入第 7 课” |
+| self-reliance | bootstrapping | 和第 5 节统一 |
+| My biggest experience | My main lesson | experience 是“经历”，这里是“体会 / 教训” |
+| effect reasoning | effectuation logic | 术语 |
+| old customers | existing customers | 统一 |
+| manage my MBA network | keep building my MBA network | manage 不自然 |
+
+> ✅ **全部 8 节已完成**：约 2,190 词（第 1 节 240、第 2 节 255、第 3 节 118、第 4 节 243、第 5 节 244、第 6 节 164、第 7 节 429、第 8 节 472；只算正文，表格和图不算）。下一步：统稿（删到约 2,100 词以内，先问老师字数上限）、引言要不要写、参考文献、Word 排版（UOG x LSBF 封面、目录、AI 声明），以及还缺的**订阅价格**和**真实启动成本**。
+
 ### 第 8 节 · 中文整理稿（11/19：**按用户 6 条回答的原意**整理成 Gibbs 结构；Claude 只补了“课程内容 ↔ 报告哪一节”的连接和文献，没有加新的经历）
 > 🟡 标出的是 Claude 补充的连接，请你确认“是不是这样”；不对就改。【】是建议你补一句的真实细节。
 
