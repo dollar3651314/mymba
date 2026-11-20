@@ -3,7 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-11-20
-- 用户加了 YouTube 链接（同一个视频）→ 封面模板第 2 页和 PPT 第 9.3 版封面都放两个链接：Link 1 YouTube、Link 2 OneDrive，标注“同一个视频”。
+- 用户加了 YouTube 链接（同一个视频）→ 封面模板第 2 页和 PPT 封面都放两个链接：Link 1 YouTube、Link 2 OneDrive，标注“同一个视频”。之后用户换了 YouTube 链接 → PPT 第 9.4 版 + 模板已更新（旧链接已全部替换）。
 - BUSI 1763 小组作业提交材料定稿：用户给了录像链接（学校 OneDrive / SharePoint）→ 填进封面模板第 2 页（可点击）；PPT 第 9.2 版封面底部加 “Presentation recording” 链接；用户定“以模板为准”→ PPT 第 1、18 页模块名统一成模板写法 “Dynamic Global Business and Practices”。提醒：学校 SharePoint 链接默认可能只限校内账号，要用无痕窗口测试，LSBF 老师未必有 UOG 账号。提交：两份都另存为 PDF，谁交问组长；截止今天 11/20。
 
 ## 2026-11-19
