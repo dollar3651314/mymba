@@ -2,6 +2,9 @@
 
 > 每次和 Claude 对话后更新。最新的在最上面。
 
+## 2026-11-20
+- BUSI 1763 小组作业提交材料定稿：用户给了录像链接（学校 OneDrive / SharePoint）→ 填进封面模板第 2 页（可点击）；PPT 第 9.2 版封面底部加 “Presentation recording” 链接；用户定“以模板为准”→ PPT 第 1、18 页模块名统一成模板写法 “Dynamic Global Business and Practices”。提醒：学校 SharePoint 链接默认可能只限校内账号，要用无痕窗口测试，LSBF 老师未必有 UOG 账号。提交：两份都另存为 PDF，谁交问组长；截止今天 11/20。
+
 ## 2026-11-19
 - 用户发来小组封面模板 Word 原版 → 第 2 页海报换成修正版（Dunning's、Mannan），“Mindmap picture：”的全角冒号改成英文冒号；其他保持老师原样（模块名写 “Dynamic Global Business and Practices”，手册封面是 “Dynamics of …”，没改）。录像链接待用户发来后填（脚本 scratchpad/tpl/fill.py，链接作参数）。文件有组员姓名学号，不进仓库。
 - 用户重发 BUSI 1763 2025-26 手册（14 页）→ 查提交要求：手册**没有写 Moodle 怎么交、交几个文件、封面模板或录像链接**；只写海报“A1 size Hard Copy”（纸质 A1）、展示 20 分钟每人至少 5 分钟、评分 内容 40% / 海报 25% / 表达 25% / 答问 10%；个人报告要“在文末附上展示幻灯片”。结论：用户发来的小组封面模板（封面 + 海报 + 录像链接）是手册之外后来给的，按模板交；谁交、是否连 PPT 一起交，问组长或老师。
