@@ -66,11 +66,11 @@ MBA.addModule({
     { n: 5, en: 'Corporate Diplomacy under patriotic national regionalism', zh: '企业外交：民族主义和区域化下的企业外交官', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>⭐ <b>10/24 第 5 次课实际讲的是 Moodle 第 6 讲“企业外交”，最后 40 分钟还讲了第 7 讲“中国在东盟的移动 IT 战略”</b>（用户 10/24 确认 + 录音）——本地老师比 Moodle 讲次快一讲（第 5 讲大部分已在 10/17 第 4 次课后半节讲过），所以网站把第 6 讲的预习包移到了这一周。</p><p>不是新的可选理论，可以给答问补例子：MNE 和政府的关系、经营许可、传统外交 vs. 企业外交、脱欧银行 / 道达尔和伊朗制裁。</p><p>Seminar 阅读：Asquer (2012) 什么是企业外交；Bolewski (2018) 企业外交作为全球管理；Henisz (2016) 企业外交的动态能力。</p>' },
     { n: 6, en: 'Mind-Map group presentations (morning) + Lecture 5 review', zh: '小组 Mind Map 展示（上午）· 可选复习：西方资本 vs. 亚洲价值观', use: ['a', 'b'], pre: true, noRec: '10/31 全天各组展示，没录音', detail: '<p>⭐ <b>10/31 上午、下午共 6 小时全部用来小组展示</b>（10/24 老师说），不讲新课。展示要求见第 5 次课笔记和作业页。</p><p>这一周的“预习包”是 Moodle 第 5 讲 <b>西方资本 vs. 亚洲价值观</b>——10/17 第 4 次课后半节已经讲了大部分，<b>不用预习，可以当复习</b>（答问时可能用上 CSR、道德两难的例子）。</p><p>Seminar 阅读：Ardichvili et al. (2010) 13 国道德商业文化；Koehn (2013) 东西方美德伦理；Sen (1997) 商业原则与道德情操。</p>' },
     { n: 7, en: 'Mind-Map group presentations (afternoon)', zh: '小组 Mind Map 展示（下午）', use: ['a'], noPre: '全天小组展示', noRec: '10/31 全天各组展示，没录音', detail: '<p>⭐ 10/31 下午继续小组展示（全天 6 小时）。原来排在这里的 Moodle 第 7 讲“中国在东盟的移动 IT 战略”<b>10/24 已经讲了</b>，预习包已合并到第 5 周。</p>' },
-    { n: 8, en: 'Sustainability in the Global Business Context', zh: '全球商业环境中的可持续发展', use: ['b'], pre: true, detail: '<p>⚠️ <b>老师进度比 Moodle 快</b>：10/17 一节课讲了第 4 讲 + 第 5 讲大部分，10/24 一节课讲了第 6、7 两讲。11/14 起很可能也是一节课讲两讲，所以<b>每次课前把这一讲和下一讲的预习包都看一遍</b>。</p><p>⭐ <b>11/14 课前请同时看第 8、9 周两个预习包</b>（可能一节课讲第 8、9 两讲）；这天也是 Mind Map 重做场。</p><p>Moodle 第 8 讲，Dr Yuliya Darmenova。11/14，同一天有补充展示 / recovery session。可持续定义、三重底线、SDGs、新自由主义、公地悲剧（Hardin 1968）。</p><p>推荐阅读：HBS (2020) 三重底线；HBR (2023) 首席可持续官的 8 项职责；Oxfam (2023) Survival of the Richest。</p>' },
-    { n: 9, en: 'Guest Lecture 1: Efficient Markets and Financial Market Failures', zh: '嘉宾讲座 1：有效市场与金融市场失灵', use: ['b'], pre: true, detail: '<p>可能 11/14 就讲了（和第 8 讲一起）。11/21 上午课前也看第 10 周预习包。</p><p>Moodle 第 9 讲，嘉宾讲座 1（课件没写主讲人）。2008 金融危机、CDO/CDS（Inside Job 图解）、Heath 市场失灵方法。</p><p>推荐阅读：Acharya (2013)；Acharya et al. (2011)；Tarr (2010)。</p>' },
-    { n: 10, en: 'Guest Lecture 2: Sustainable Finance', zh: '嘉宾讲座 2：可持续金融', use: ['b'], pre: true, detail: '<p>11/21 下午。如果 11/14 已经讲到第 9 讲，11/21 可能讲第 10、11 讲——<b>11/21 课前把第 10、11 周预习包都看一遍</b>。</p><p>Moodle 第 10 讲，嘉宾讲座 2（课件没写主讲人）。ESG 四种策略、漂绿（DWS 案例）、小额信贷（尤努斯）。</p><p>推荐阅读：Boatright (2010) 编《金融伦理》第 21 章负责任投资、第 22 章小额信贷。</p>' },
-    { n: 11, en: 'Waste Management and Environmental Crisis', zh: '废物管理与环境危机', use: ['b'], pre: true, detail: '<p>可能 11/21 就讲了；11/28 课前再看一遍，并留意第 12 讲（嘉宾演讲）安排。</p><p>Moodle 第 11 讲，Dr Yuliya Darmenova。11/28，比反思报告截止早 4 天。垃圾殖民主义、垃圾是社会公正问题、循环经济的企业案例。</p><p>推荐阅读：Greenpeace UK《Trashed》；Low & Yeats (1992) 污染工业会迁移吗。</p>' },
-    { n: 12, en: 'Guest Speaker (not yet published)', zh: '嘉宾演讲（Moodle 上还没发布）', use: ['b'], detail: '<p>Moodle 第 12 讲 “Guest Speaker”，10/13 检查时还是空的。注意：个人反思报告 12/2 截止，这节课在截止之后。</p>' },
+    { n: 8, en: 'Sustainability in the Global Business Context', zh: '全球商业环境中的可持续发展', use: ['b'], noRec: '11/14 是展示课，录音已收（老师点评整理在 Mind Map 写作区）', pre: true, detail: '<p>⚠️ <b>老师进度比 Moodle 快</b>：10/17 一节课讲了第 4 讲 + 第 5 讲大部分，10/24 一节课讲了第 6、7 两讲。11/14 起很可能也是一节课讲两讲，所以<b>每次课前把这一讲和下一讲的预习包都看一遍</b>。</p><p>⭐ <b>11/14 课前请同时看第 8、9 周两个预习包</b>（可能一节课讲第 8、9 两讲）；这天也是 Mind Map 重做场。</p><p>Moodle 第 8 讲，Dr Yuliya Darmenova。11/14，同一天有补充展示 / recovery session。可持续定义、三重底线、SDGs、新自由主义、公地悲剧（Hardin 1968）。</p><p>推荐阅读：HBS (2020) 三重底线；HBR (2023) 首席可持续官的 8 项职责；Oxfam (2023) Survival of the Richest。</p>' },
+    { n: 9, en: 'Guest Lecture 1: Efficient Markets and Financial Market Failures', zh: '嘉宾讲座 1：有效市场与金融市场失灵', use: ['b'], rec: true, notes: true, pre: true, detail: '<p>可能 11/14 就讲了（和第 8 讲一起）。11/21 上午课前也看第 10 周预习包。</p><p>Moodle 第 9 讲，嘉宾讲座 1（课件没写主讲人）。2008 金融危机、CDO/CDS（Inside Job 图解）、Heath 市场失灵方法。</p><p>推荐阅读：Acharya (2013)；Acharya et al. (2011)；Tarr (2010)。</p>' },
+    { n: 10, en: 'Guest Lecture 2: Sustainable Finance', zh: '嘉宾讲座 2：可持续金融', use: ['b'], rec: true, notes: true, pre: true, detail: '<p>11/21 下午。如果 11/14 已经讲到第 9 讲，11/21 可能讲第 10、11 讲——<b>11/21 课前把第 10、11 周预习包都看一遍</b>。</p><p>Moodle 第 10 讲，嘉宾讲座 2（课件没写主讲人）。ESG 四种策略、漂绿（DWS 案例）、小额信贷（尤努斯）。</p><p>推荐阅读：Boatright (2010) 编《金融伦理》第 21 章负责任投资、第 22 章小额信贷。</p>' },
+    { n: 11, en: 'Waste Management and Environmental Crisis', zh: '废物管理与环境危机', use: ['b'], noPre: '11/21 老师已在第 10 次课讲完第 11 讲；11/28 不讲课，自己写反思报告', noRec: '11/28 不讲课（老师 11/21 说）', pre: true, detail: '<p>可能 11/21 就讲了；11/28 课前再看一遍，并留意第 12 讲（嘉宾演讲）安排。</p><p>Moodle 第 11 讲，Dr Yuliya Darmenova。11/28，比反思报告截止早 4 天。垃圾殖民主义、垃圾是社会公正问题、循环经济的企业案例。</p><p>推荐阅读：Greenpeace UK《Trashed》；Low & Yeats (1992) 污染工业会迁移吗。</p>' },
+    { n: 12, en: 'Guest Speaker (not yet published)', zh: '嘉宾演讲（Moodle 上还没发布）', use: ['b'], noPre: '12/5 不讲课，自己写反思报告（老师 11/21 说）', noRec: '12/5 不讲课（老师 11/21 说）', detail: '<p>Moodle 第 12 讲 “Guest Speaker”，10/13 检查时还是空的。注意：个人反思报告 12/2 截止，这节课在截止之后。</p>' },
   ],
   assessments: [
     {
@@ -152,6 +152,7 @@ MBA.addModule({
         { d: '2026-11-18', t: '全组计时排练（每人 ≤ 4 分钟，不看稿）；打印 A1 海报；第 17 页 AI 声明填齐四人学号；3 部手机录像分工' },
         { d: '2026-11-19', t: '<b>正式展示（晚上）</b>；⚠️ 同一时间有 BUSI 1764 第 9 次课（19:00 融资）——先问清展示几点、BUSI 1764 怎么请假 / 补签到' },
         { d: '2026-11-19', t: '✅ 11/19 晚上正式展示' },
+        { d: '2026-11-21', t: '去 Moodle 把小组作业的<b>提交回执截图保存</b>，拿到最终成绩前不要删（老师 11/21 要求）' },
         { d: '2026-11-20', t: '✅ 已提交：小组封面模板（海报 + YouTube / OneDrive 两个录像链接）+ PPT 第 9.4 版；等老师打分' },
       ],
       checklist: [
@@ -185,7 +186,8 @@ MBA.addModule({
         '<b>截止 12 月 11 日 23:59</b>（11/5 查 Moodle 提交页确认，11/27 开放；之前记的 12/2 作废）；我们的目标 12/4 交。',
         '<b>字数</b>：Induction PPS 写“最多 1000 词（±10%）”，即 900–1100 词。报告是“对小组 Mind Map 内容的理论回顾 + 你自己的理论分析”，再加上反思。',
         '<b>3 份往届样例的写法</b>（详见素材库）：样例 1（Unilever 并购）几乎全是公司分析，最后一段才反思；样例 2（IKEA）用 <b>Gibbs 反思循环 + Belbin 团队角色</b>，有具体问题（两套 PPT 重复劳动、当众演讲紧张）和行动计划；样例 3（Tesla）用 <b>Kolb 体验学习循环</b>的四个阶段做小标题，文末附了整套 PPT 和 Mind Map。<b>样例 2 最值得学</b>：评分里“扎实度”要求深入写自己的角色和改进建议。',
-        '<b>老师的硬性要求</b>：只能用 <b>Google Scholar 上已发表的学术论文</b>，不能用未发表资料或 AI 生成内容；至少 5 篇；建议在 Google Scholar 用“自定义范围”只看 <b>2020–2022 年</b>；相似度<b>必须低于 25%</b>，超过 30% 可能要<b>口头答辩</b>（老师说会用答辩检查是否 AI 代写）。',
+        '<b>⭐ 11/21 老师详细讲了报告要求</b>（见第 9 次课笔记）：① 文献改成 <b>Google Scholar 2022 年至今</b>（越新越好）；② 按 <b>1,000 词</b>写，不要写 2,000 词，<b>按评分权重分配字数</b>；③ 相关性和扎实度各 30% 最重要；④ 附录<b>全组统一用一套展示材料</b>；⑤ 团队表现要有批判性评价，可以回看展示录像，可以写真实的组内问题；⑥ 也要写“我怎样能贡献更多”；⑦ 结构要像讲故事；⑧ 找文献的关键词：多元化团队合作、自我反思、团队动力；⑨ 11/28、12/5 不讲课，用来写报告。',
+        '<b>老师的硬性要求</b>：只能用 <b>Google Scholar 上已发表的学术论文</b>，不能用未发表资料或 AI 生成内容；至少 5 篇；建议在 Google Scholar 用“自定义范围”只看 <b>2020–2022 年</b>（<b>11/21 老师改为 2022 年至今</b>）；相似度<b>必须低于 25%</b>，超过 30% 可能要<b>口头答辩</b>（老师说会用答辩检查是否 AI 代写）。',
       ],
       brief: [
         '个人写一篇<b>学术反思报告</b>：反思你参与 Mind Map 海报制作和小组展示的经历。',
@@ -224,7 +226,7 @@ MBA.addModule({
       workspace: 'content/busi1763/b-workspace.md',
       milestones: [
         { d: '2026-11-20', t: '趁记忆新，用中文回答写作区的 8 个问题（展示经过、你的角色、困难、感受、收获）' },
-        { d: '2026-11-23', t: '在 Google Scholar 找 5 篇以上已发表论文（2020–2022），发给 Claude 看' },
+        { d: '2026-11-23', t: '在 Google Scholar 找 5 篇以上已发表论文（<b>2022 年至今</b>，11/21 老师说），发给 Claude 看' },
         { d: '2026-11-28', t: '各节中文样板 → 你翻译成英文 → Claude 改语法' },
         { d: '2026-12-01', t: '统稿成 Word（封面、附录海报 + PPT、参考文献、AI 声明），请老师查相似度（<25%）' },
         { d: '2026-12-04', t: '反思报告正式提交（官方截止 12/11 23:59，提交页 11/27 开放）' },
