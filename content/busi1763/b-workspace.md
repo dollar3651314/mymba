@@ -44,7 +44,27 @@
 
 > 回答后 Claude 帮你串成各节的中文样板 → 你确认 → 你翻译成英文 → Claude 改语法。和 A2 一样的流程。
 
-## 📚 第 2 步：找 5 篇 Google Scholar 论文
+## 📚 第 2 步：5 篇论文（11/23 Claude 找好并核对过，都在 2022 年以后）
+> 都用 Crossref / OpenAlex 核对过作者、年份、期刊、卷期和 DOI。**请你在 Google Scholar 搜一下题目，确认能找到**（老师要求来自 Google Scholar），读一遍摘要（下面有中文要点），用你自己的话写。前 3 篇和第 5 篇可以免费下载全文。
+
+| # | 用在哪一节 | 论文讲了什么（摘要要点） |
+|---|---|---|
+| 1 | **3 团队表现**（老师点名的“团队动力”） | Licorish 等研究学生软件团队的 5 类团队动力：沟通、时间管理、投入程度、分析和解决问题、主动参与。发现：表现好的团队**更投入**；没有一种固定模式保证成功，但成功的团队**最有条理、最会反思**；能力会带动好的团队氛围。👉 可以对照你们组：试讲被批评后重新组织、按老师意见反思修改 |
+| 2 | **3 团队表现 / 5 建议**（老师点名的“多元化团队”） | Jiang、Dahl 和 Du 系统回顾了 77 篇关于跨文化学生团队的论文，把挑战和应对办法分成**个人、人际关系、环境**三个层面。👉 你们组四个人背景不同（不同国家、母语），可以用它分析沟通和分工上的困难和怎么解决 |
+| 3 | **4 我的角色**（Belbin） | Flores Ureba 等用 Belbin 团队角色理论研究 149 名商科学生的 21 个小组：**角色平衡的小组成绩更整齐，整体表现更好**。👉 分析你们组四人各是什么角色、缺什么角色 |
+| 4 | **3 团队表现 / 6 结论** | McKay 和 Sridharan 研究澳大利亚学生怎么看小组合作作业：学生认为小组合作**有很多好处，也有挑战**（研究期间遇上疫情、网上协作更难）；他们认为看学生自己的感受比只看分数更能判断小组合作有没有用。👉 支持“这次小组作业虽然难，但学到了合作” |
+| 5 | **2 理论回顾（你的 FDI 部分）** | Ahmed 等结合 **Dunning 的折衷范式（OLI）**和制度理论，研究 2003–2016 年中国企业的跨国并购和新建投资：两种进入方式的决定因素不一样，**不能把并购的结论直接套到新建投资上**。👉 支持你讲的 Unilever 在美国用**并购**（不是新建）进入、用 OLI 解释 |
+
+**参考文献（Harvard 格式，按字母排；如果老师说用 APA 再改）**
+- Ahmed, B., Xie, H., Ali, Z., Ahmad, I. and Guo, M. (2022) 'Internationalization of emerging economies: empirical investigation of cross-border mergers & acquisitions and greenfield investment by Chinese firms', *Journal of Innovation & Knowledge*, 7(3), 100200. https://doi.org/10.1016/j.jik.2022.100200
+- Flores Ureba, S., Simón de Blas, C., Borrás-Gené, O. and Macías-Guillén, A. (2022) 'Analyzing the influence of Belbin's roles on the quality of collaborative learning for the study of business fundamentals', *Education Sciences*, 12(9), 594. https://doi.org/10.3390/educsci12090594
+- Jiang, D., Dahl, B. and Du, X. (2023) 'A systematic review of engineering students in intercultural teamwork: characteristics, challenges, and coping strategies', *Education Sciences*, 13(6), 540. https://doi.org/10.3390/educsci13060540
+- Licorish, S.A., da Costa, D.A., Zolduoarrati, E. and Grattan, N. (2024) 'Relating team atmosphere and group dynamics to student software development teams' performance', *Information and Software Technology*, 167, 107377. https://doi.org/10.1016/j.infsof.2023.107377
+- McKay, J. and Sridharan, B. (2024) 'Student perceptions of collaborative group work (CGW) in higher education', *Studies in Higher Education*, 49(2), pp. 221–234. https://doi.org/10.1080/03075079.2023.2227677
+
+> ⚠️ 经典理论原文（Tuckman 1965、Belbin 1981、Gibbs 1988、Dunning 1988）比 2022 年早。老师要“2022 年至今”的文献——建议提到这些理论时**引用上面的新论文**来说明它们今天的应用；原作者名字可以在正文里提，但 5 篇硬性要求用上面的新论文来满足。拿不准就问老师。
+
+## 📚 自己再找时的关键词
 在 Google Scholar 搜下面的关键词，左边选“**自定义范围 2022 至今**”（11/21 老师说），挑期刊论文（不要书评、学位论文），把题目和链接发给 Claude，Claude 帮你看能不能用、用在哪一节：
 - `group dynamics multicultural student teams`（老师点名的方向：多元化团队、团队动力）
 - `self-reflection teamwork higher education`
