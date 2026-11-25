@@ -330,7 +330,7 @@
     return h;
   };
 
-  const MOD_SECS = [['alert', '⚠️ 提醒'], ['todo', '✅ 待办'], ['asm', '作业'], ['weeks', '📅 12 周课程'], ['lo', '学习目标'], ['read', '📚 阅读'], ['people', '👤 联系人']];
+  const MOD_SECS = [['alert', '⚠️ 提醒'], ['todo', '✅ 待办'], ['asm', '作业'], ['weeks', '📅 每周课程'], ['lo', '学习目标'], ['read', '📚 阅读'], ['people', '👤 联系人']];
   views.module = id => {
     const m = mod(id); if (!m) return notFound();
     const t = termOf(m.term); const cw = moduleWeek(m);
@@ -350,7 +350,7 @@
         <div class="small">${goalNote(m, a) ? esc(goalNote(m, a)) : `${fmt(a.due)} 截止`} · ${esc(lenLabel(a))} · 占 <b>${a.weight}%</b> · LO ${a.lo.join(', ')}</div>
         ${(() => { const r = (M.readiness || {})[`${m.id}/${a.id}`]; const d = r && typeof r.done === 'number' ? r.done : null; return `<div class="progress"><i style="width:${d ?? 0}%"></i></div><div class="small muted">${d !== null ? `作业完成度 <b>${d}%</b>` : '还没开始写'}${r ? ` · ${readyCard(m.id, a.id)}` : ''} · 提交清单 ${p.done}/${p.total}</div>`; })()}</a>`;
     }
-    h += `<h2 id="sec-weeks">12 周课程</h2><div class="card"><ul class="list">`;
+    h += `<h2 id="sec-weeks">${m.weeks.length} 周课程</h2><div class="card"><ul class="list">`;
     for (const w of m.weeks) {
       const p = progressOf(weekTasks(m, w.n).map(x => x.k));
       h += `<li><div class="date-badge"><b>${w.n}</b>周</div><div class="grow"><a href="#/w/${m.id}/${w.n}">${esc(w.zh)}</a><div class="en small">${esc(w.en)}</div>${sessOf(m, w.n) ? `<div class="small muted">${esc(sessLabel(sessOf(m, w.n)))}${held(sessOf(m, w.n)) ? (w.noRec ? ' · 无录音（' + esc(w.noRec) + '）' : w.rec ? ' · 录音已收到' : ' · <span style="color:var(--warn)">待发录音</span>') : ''}</div>` : ''}

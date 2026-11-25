@@ -3,6 +3,9 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-11-25
+- **学期 3 备课**：用户本地 Claude Code 下载 4 门课到 linshi（commit 6d207c7）。用户更正 1268 → **MARK 1286**。读完手册和作业 → 新建 `busi1767.js`（Business Consultancy Project，30 学分，24 周，3 份作业）、`busi1769.js`（Global Supply Chains）、`busi1774.js`（Strategic Management and Leadership）、`mark1286.js`（Marketing and Sales in the Future Economy），term t3，截止日期按上一届推算标“待确认”；课程页“12 周课程”改成按实际周数显示。390px 测试无报错。
+- ⭐ **重要发现**：BUSI 1767 手册写 “Term(s) of delivery: Term 2 & 3”、30 学分 → 很可能 **2027 年 1 月就开课**。这样就能解释学期 2 课表的 COMP 1913：可能排错，学期 2 第 4 门其实是 BUSI 1767 第一段（12 门课 = 11 门 15 学分 + 1 门 30 学分？待核实）。已加待办：问 Ms Jocelyn Tan。
+- 学期 3 要点：BCP 学校安排真实客户、6 人一组两学期不换、每周记心得（A3 素材）、Epigeum 伦理测验；GSC 两份作业可共用一家跨国企业（个人报告上一届是疫情供应链中断）；SML A1 关键是一个 PESTLE + 一个 SWOT + AQCD，A2 领导力小组展示个人分 ±10%；MSFE A1 手绘 A1 海报、A2 本人出镜 vlog（表达占 30%，要提前练口语）。
 - 学期 2 课表右下角图例有新加坡讲师：LMC **Mr Jeffrey**（应是 BUSI 1764 的 Jeffrey Koh）、SLP **Dr Albert**（应是 Albert Ng）、FSM **Mr Sidiki**、IDA（COMP 1913）**Mr Zhou** → 三门新课的联系人最上面加了新加坡讲师。
 - **学期 2 备课**：用户本地 Claude Code 把 Moodle 资料下载到私有仓库 dollar3651314/linshi（mba-materials/，434 个文件）。课程编号：BUSI 1815 Leading and Managing Change（LMC，周二）、BUSI 1765 Simulated Learning Project（SLP，周四）、FINA 1163 Financial Resource Management（FSM，周六 12:00）、COMP 1913（IDA，周六 15:30）。⚠️ **COMP 1913 用户这学期已经在上**（报告已交、展示已做），下学期课表的 IDA 是否需要上、第 4 门课是哪门 → 请用户问 Ms Jocelyn Tan。Moodle 上三门新课的资料都是上一届的（手册、截止日期是 2026 年的），1 月要重新下载新手册核对。
 - 读完三门新课的手册、作业说明、评分标准、范例和每周课件 → 新建 `data/modules/busi1815.js`、`busi1765.js`、`fina1163.js`（term t2）：学期 2 课表（12 次课）、12 周主题、LO、两份作业的要求 / 评分标准 / 易丢分点 / 清单、老师、提醒；截止日期按上一届推算并标“待确认”（LMC 3/10、3/31；SLP 3/10、3/31；FSM 3/15、4/5）。index.html 引入三门课；390px 测试无报错。要点：LMC A1 只能用 Moodle 文献、不能用要点列表，A2 是真实组织的变革计划（要预算、时间表、阻力管理）；SLP 是 PhoneVentures 手机公司模拟游戏，排名不计分，但 75 分和 65 分差在有没有游戏数据，**从第一轮就记录**；FSM 是最难的一门（NPV / WACC / 比率），A1 按邮箱首字母分案例（Apple / 挪威基金 / Unilever），A2 是模拟反思（形式和权重资料里矛盾）。
