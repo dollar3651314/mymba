@@ -40,6 +40,55 @@
 - **D 我的不足**：出初版时没有先和组员对齐主线，团队沟通不足。
 - **8 理论**：讲 Unilever 收购美国品牌时才真正明白 OLI（O 品牌和资金、L 美国最大市场、I 自己收购控制而不授权）；一开始四个理论各讲各的，老师批评后用“美国市场”串起来，才明白四个理论互相联系。
 
+## ✅ 英文全文（11/25 用户翻译 → Claude 改语法，996 词，在 900–1,100 之内）
+
+### 1. Introduction
+This report reflects on my experience of the group Mind Map poster and presentation for BUSI 1763. Our team of four analysed how Unilever, a British multinational consumer goods company, developed in its largest market, the United States, from 2020 to 2025. Each of us was responsible for one theory, and I presented the second part: foreign direct investment (FDI). The report follows a reflective sequence of description, feelings, evaluation, analysis and action. I first review the theory I was responsible for, then evaluate the team's performance and my own role, and finally suggest improvements.
+
+### 2. Theoretical Review: FDI and Our Mind Map
+FDI means that a company owns and controls a business in another country, either by building new operations (greenfield investment) or through mergers and acquisitions. Dunning's OLI framework explains why firms do this. Preparing the presentation helped me truly understand this framework. Unilever has strong brands and financial resources (ownership advantage). The United States is its largest market, accounting for about 21% of its turnover in 2025 (location advantage). Therefore, it chose to acquire and control US brands such as Paula's Choice, Nutrafol and Dr. Squatch itself, rather than licensing them to other firms (internalisation). Ahmed et al. (2022) point out that the factors behind acquisitions and greenfield investment are different, so conclusions about one entry mode cannot be applied directly to the other. This reminded me that our analysis only explained acquisitions and did not consider greenfield investment as an alternative.
+At first, each of us presented our theory separately. After the lecturer's criticism, we used the US market as a common storyline to connect them, and I realised that these theories are interconnected: globalisation explains why the United States matters, FDI explains how Unilever entered it, the theory of multinational enterprises explains Unilever's advantages and its conflicts with the host country, and regional integration explains how it supplies the United States from Mexico.
+
+### 3. Evaluation of Team Performance
+Our work went through two rounds of major revision and several rounds of smaller changes within the group. Our first presentation was not successful: most of us read from the script, our four parts were fragmented and disconnected, and we used more than one currency. Looking back, the main reason was that we wrote the first version separately, without a shared storyline or input from different perspectives. Licorish et al. (2024) found that the most successful student teams were the most organised and reflective; our first version lacked both qualities.
+After the lecturer's criticism, we all felt frustrated, but we sat down together, talked it through and quickly changed our mindset. We refocused on the US market, used US dollars throughout and changed the order of our presentations. This collective reflection made the team more organised, and our final version had a clear storyline, accurate data and good timing. However, these improvements came only after criticism rather than being planned from the start.
+The four of us come from different countries, with different levels of English and different communication styles. Jiang, Dahl and Du (2023) note that diverse teams face challenges at individual, relational and contextual levels. For us, the biggest challenge was communication between members: too little communication at the start led to repeated revisions. McKay and Sridharan (2024) found that students see many benefits in group work but also face challenges, and our experience illustrates this well.
+
+### 4. My Role and Reflection
+I volunteered to collect the materials and produce the first draft, and then discussed revisions with my teammates. In terms of Belbin's team roles, I mainly acted as an Implementer, turning ideas into concrete outputs. Flores Ureba et al. (2022), applying Belbin's theory to business students, found that teams with balanced roles performed better. Looking back, our team lacked a Plant, who proposes new ideas, and a Monitor Evaluator, who judges options objectively. In our first version, nobody checked whether the four parts worked together as a whole, which is exactly why we were criticised.
+I also had weaknesses. I work while studying, so my free time is very limited, and I rushed to produce the first draft. Before writing it, I did not agree on a storyline with my teammates, and our communication was insufficient, which was one reason why the first version was fragmented. I used AI tools to search for information, which saved a lot of time, but I realised that no amount of information can replace agreeing on ideas as a team first. My spoken English and presentation skills are still developing, and I was very nervous when presenting FDI, so I sometimes had to look at my notes. Fortunately, I had prepared for the questions, so my answers went smoothly. My teammates' encouragement and patience helped me improve my speaking a great deal.
+From confusion at the start, to frustration after the criticism, to excitement at the end, this experience taught me that good work is not written in one attempt but improved through feedback.
+
+### 5. Suggestions and Action Plan
+For the team: next time, after choosing a topic, we should first write a draft storyline, discuss it as a group and ask the lecturer for guidance before developing the content separately. One member should also be responsible for checking overall coherence, to fill the gap of a Monitor Evaluator, and everyone should be encouraged to suggest different ideas at the start, to fill the gap of a Plant.
+For myself: I will agree on ideas with my teammates before starting work, and I will rehearse the full presentation more often so that I rely less on notes. In my studies and work in Singapore, I will also communicate more actively, because I work in diverse teams there too.
+
+### 6. Conclusion
+This group assignment helped me understand FDI theory, but it also showed me that a team needs a shared storyline, different roles and timely communication. The lecturer's criticism was discouraging at first, but it ultimately led us to produce better work.
+
+**主要改动**
+| 你写的 | 改成 | 原因 |
+|---|---|---|
+| will develop … from 2020 to 2025 | developed | 说的是过去的事，用过去时 |
+| "experience experience evaluation analysis action" | description, feelings, evaluation, analysis and action | 反思的五个阶段 |
+| I am responsible / I am in charge | I was responsible / I presented | 作业已完成，用过去时 |
+| … by 2025 due to its location advantage | … in 2025 (location advantage) | 原句意思变成“因为区位优势才占 21%” |
+| new investment(s) | greenfield investment | 术语统一 |
+| each of the four theories spoke its own way | each of us presented our theory separately | 理论不会“说话” |
+| used the term "American market" to string them together | used the US market as a common storyline to connect them | 更地道 |
+| teacher | lecturer | 英国大学的说法 |
+| homework | work / assignment | MBA 作业不叫 homework |
+| followed the script | read from the script | “照稿念” |
+| main line | storyline | 术语 |
+| executor / smart stars / supervisors and evaluators | Implementer / Plant / Monitor Evaluator | Belbin 角色的正式名称 |
+| I work while reading | I work while studying | reading 是“阅读” |
+| When the first version was released, I did not align… | Before writing it, I did not agree on a storyline… | 时间顺序：对齐应该在写之前 |
+| read the manuscript | look at my notes | manuscript 是“手稿” |
+| you should / make up for the lack of intelligence | we should / to fill the gap of a Plant | 人称统一；“缺少智力”意思错了 |
+| interpersonal / environmental | relational / contextual | 和 Jiang et al. (2023) 原文用词一致 |
+| 分号后大写（; Our / ; For / ; And） | 改成句号或小写 | 分号后不大写 |
+
+
 ## 📝 中文样板（11/25，约 1,050 词英文的量）
 > ✅ 11/25 已确认：我是执行者；组员来自不同国家；我有工作、空余时间很紧张。
 > ⚠️ **参考用**：Claude 按你的回答和小组的真实经过整理，**你要逐句确认是你的真实想法，再用自己的话翻译成英文**。🟡 = 需要你确认或修改的地方。字数按评分权重分配。
