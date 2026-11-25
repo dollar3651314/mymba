@@ -1,7 +1,7 @@
 # ✍️ 我的写作区：个人反思报告（占 60% · 约 1,000 词 · 截止 12/11 23:59，目标 12/4 交）
 
 ## 📄 Word 已做好（11/25）
-带学号的 Word 只发给你（附录第 1 张幻灯片有四人姓名学号，所以网站不放文件）。共 7 页：UOG x LSBF 封面（Module Name / Code 按老师模板写 “Dynamic Global Business and Practices” / “BUSI1763”，字数 996，老师 Mr Vincent Tai）→ 正文 6 节 → 参考文献 5 篇（Harvard）→ 附录 A 海报 →（PPT 9.6 版单独作为另一个文件提交，报告里注明 “slides submitted as a separate file”）→ 最后一页 AI 声明。
+带学号的 Word 只发给你（附录第 1 张幻灯片有四人姓名学号，所以网站不放文件）。共 8 页：UOG x LSBF 封面 → 目录（Module Name / Code 按老师模板写 “Dynamic Global Business and Practices” / “BUSI1763”，字数 996，老师 Mr Vincent Tai）→ 正文 6 节 → 参考文献 5 篇（Harvard）→ 附录 A 海报 →（PPT 9.6 版单独作为另一个文件提交，报告里注明 “slides submitted as a separate file”）→ 最后一页 AI 声明。
 **交之前**：11/27 入口开放 → 在 Word 里另存为 PDF → 提交（相似度要低于 25%）。
 
 ## 📌 要交什么（一份 Word，提交前自己另存为 PDF，交到 Moodle，Vincent Tai 老师名下，11/27 开放）
