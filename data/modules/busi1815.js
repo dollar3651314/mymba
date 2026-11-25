@@ -6,7 +6,7 @@ MBA.addModule({
   zh: '领导与管理变革',
   term: 't2',
   credits: 15,
-  format: '每周 1 小时录播课（Panopto）+ 2 小时线下 tutorial + 3 小时自学；新加坡课表：每周二晚 19:00（第 1 次 1/13 周三）',
+  format: '每周 1 小时录播课（Panopto）+ 2 小时线下 tutorial + 3 小时自学；新加坡讲师 Mr Jeffrey；课表：每周二晚 19:00（第 1 次 1/13 周三）',
   warning: '现在的资料都是上一届（2026 年 1 月班）的：截止日期、周次可能会变，1 月新手册发布后以新手册为准。',
   alerts: [
     '<b>两份作业都是个人书面作业</b>：A1 案例分析 40%（1,000 词），A2 变革管理计划 60%（2,000 词）。评分标准两份一样：切题 20、文献综合 30、理解扎实 30、结构 10、语言与引用 10。',
@@ -20,6 +20,7 @@ MBA.addModule({
     { d: '2027-01-12', t: '开始想 A2 用哪个组织的变革（你的工作单位、熟悉的公司都可以，要有官网 / 年报可查）' },
   ],
   people: [
+    { role: '⭐ 新加坡讲师（学期 2 课表）', name: 'Mr Jeffrey（应该就是 BUSI 1764 的 Mr. Jeffrey Koh，开课时确认）', email: 'jkoh@lsbf.edu.sg' },
     { role: '课程负责人（英国）', name: 'Catherine (Cath) Farrant', email: 'C.A.Farrant@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Keith Mould', email: 'K.E.Mould@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Dr Tendai Svotwa', email: 'T.Svotwa@greenwich.ac.uk' },

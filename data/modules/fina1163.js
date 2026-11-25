@@ -6,7 +6,7 @@ MBA.addModule({
   zh: '财务资源管理',
   term: 't2',
   credits: 15,
-  format: '每周 1 小时录播课 + 2 小时 tutorial + 3 小时自学；模拟用 Pearson MyLab Finance；新加坡课表：每周六 12:00–15:00（1/23 连上两次）',
+  format: '每周 1 小时录播课 + 2 小时 tutorial + 3 小时自学；模拟用 Pearson MyLab Finance；新加坡讲师 Mr Sidiki；课表：每周六 12:00–15:00（1/23 连上两次）',
   warning: '现在的资料是上一届（2026 年 5–7 月班）的，A2 的形式、权重、字数在资料里互相矛盾，1 月新手册发布后以新手册为准。',
   alerts: [
     '<b>A1 商业财务案例分析 60%（1,500 词）</b>：截止前约 2 周才公布题目；上一届按大学邮箱首字母分案例——A–I Apple、J–R 挪威主权基金、S–Z Unilever（三个案例资料包里都有，可以先熟悉）。要用第 1–5 个专题的概念做<b>批判性分析</b>，还要引用学术文献。',
@@ -20,6 +20,7 @@ MBA.addModule({
     { d: '2027-01-16', t: '第 1 次课在 Moodle 的 MyLab Finance 入口注册账号' },
   ],
   people: [
+    { role: '⭐ 新加坡讲师（学期 2 课表）', name: 'Mr Sidiki（全名和邮箱开课时补上）', email: '' },
     { role: '课程负责人（英国）', name: 'Dr Adeyemi Aderin', email: 'adeyemi.aderin@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Dr Jie Jiang', email: 'jie.jiang@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Dr Barbara Koranteng', email: 'barbara.koranteng@greenwich.ac.uk' },

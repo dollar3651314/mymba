@@ -6,7 +6,7 @@ MBA.addModule({
   zh: '商业模拟项目',
   term: 't2',
   credits: 15,
-  format: '每周 1 小时录播课 + 2 小时 tutorial（课上玩模拟游戏、展示、讨论）；新加坡课表：每周四晚 19:00',
+  format: '每周 1 小时录播课 + 2 小时 tutorial（课上玩模拟游戏、展示、讨论）；新加坡讲师 Dr Albert；课表：每周四晚 19:00',
   warning: '现在的资料都是上一届的：截止日期、周次顺序有好几处矛盾，1 月新手册发布后以新手册为准。',
   alerts: [
     '<b>模拟游戏 PhoneVentures（Edumundo）</b>：3–4 人一队经营一家智能手机公司，每轮 = 1 年；第 2、3 周各一轮试玩，第 5–11 周 7 轮正式比赛。<b>游戏排名不算分</b>，但游戏里的决策和数据是两份作业的核心素材。',
@@ -20,6 +20,7 @@ MBA.addModule({
     { d: '2027-01-14', t: '第 1 次课组队（3–4 人）、分角色（CEO、市场总监等），把组员和你的角色告诉 Claude' },
   ],
   people: [
+    { role: '⭐ 新加坡讲师（学期 2 课表）', name: 'Dr Albert（应该就是 BUSI 1764 的 Dr. Albert Ng，开课时确认）', email: 'ang@lsbf.edu.sg' },
     { role: '课程负责人（英国）', name: 'Jing Wang', email: 'Jing.J.Wang@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Jingwen Shi', email: 'Jingwen.Shi@greenwich.ac.uk' },
     { role: '讲师（英国）', name: 'Vladimir Popov', email: 'V.Popov@greenwich.ac.uk' },
