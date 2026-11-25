@@ -3,6 +3,7 @@
 > 每次和 Claude 对话后更新。最新的在最上面。
 
 ## 2026-11-25
+- ✅ **BUSI 1772 个人测验（Quiz，40%）用户已完成**，等出分。BUSI 1772 论文封面改 Week 2 后重交是否已做，待用户确认。
 - **学期 3 备课**：用户本地 Claude Code 下载 4 门课到 linshi（commit 6d207c7）。用户更正 1268 → **MARK 1286**。读完手册和作业 → 新建 `busi1767.js`（Business Consultancy Project，30 学分，24 周，3 份作业）、`busi1769.js`（Global Supply Chains）、`busi1774.js`（Strategic Management and Leadership）、`mark1286.js`（Marketing and Sales in the Future Economy），term t3，截止日期按上一届推算标“待确认”；课程页“12 周课程”改成按实际周数显示。390px 测试无报错。
 - ⭐ **重要发现**：BUSI 1767 手册写 “Term(s) of delivery: Term 2 & 3”、30 学分 → 很可能 **2027 年 1 月就开课**。这样就能解释学期 2 课表的 COMP 1913：可能排错，学期 2 第 4 门其实是 BUSI 1767 第一段（12 门课 = 11 门 15 学分 + 1 门 30 学分？待核实）。已加待办：问 Ms Jocelyn Tan。
 - 学期 3 要点：BCP 学校安排真实客户、6 人一组两学期不换、每周记心得（A3 素材）、Epigeum 伦理测验；GSC 两份作业可共用一家跨国企业（个人报告上一届是疫情供应链中断）；SML A1 关键是一个 PESTLE + 一个 SWOT + AQCD，A2 领导力小组展示个人分 ±10%；MSFE A1 手绘 A1 海报、A2 本人出镜 vlog（表达占 30%，要提前练口语）。
