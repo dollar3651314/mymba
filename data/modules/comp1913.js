@@ -72,7 +72,7 @@ MBA.addModule({
     { n: 8, en: 'Time series Analysis', zh: '时间序列分析', use: ['a', 'b'], pre: true, rec: true, notes: true, detail: '<p>✅ 11/10 讲了时间序列：四个成分、ARIMA / SARIMA / 指数平滑等模型、平稳性、MAE / RMSE / MAPE；课上用 <b>Excel</b> 做练习（不用 Stata），老师演示了 Python SARIMA（脚本会放 Tutorial 8 文件夹）。</p>' },
     { n: 9, en: 'Emerging Trends in International Data Analytics', zh: '国际数据分析的新趋势', use: ['b'], pre: true, rec: true, notes: true, detail: '<p>Tutorial：按展示小组用 Copilot 做 AI 趋势“寻宝”，结果存共享 OneNote，做 5 分钟小展示。<b>课件里 6/24、7/15 的截止日期是上一期的，不适用</b>；课件写展示 10–15 页，brief 写 15–20 页，要问老师。</p>' },
     { n: 10, en: 'Simple Mathematical Calculations', zh: '简单数学计算', use: ['b'], noRec: '11/21 用户没录到', pre: true, detail: '<p>Tutorial：Masala Brews 第四季度每日数据缺失，要提出假设并估算；Cloudy Drizzle 自建还是收购（PMT、FV、机会成本、风险打分），<b>和 American Egg 的借款、收购问题几乎一样</b>。</p>' },
-    { n: 11, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'], noPre: '小组展示，不用预习' },
+    { n: 11, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'], noRec: '11/24 小组展示，没有录音', noPre: '小组展示，不用预习' },
     { n: 12, en: 'Presentations (no lecture)', zh: '小组展示（无讲座）', use: ['b'], pre: true, detail: '<p>没有课件和录像：复习 + Power BI 实操（十大咨询公司样例数据）。<b>11/28 在展示 PPT 截止（11/27）之后</b>，主要对个人报告“分析工具”部分有用。</p>' },
   ],
   assessments: [

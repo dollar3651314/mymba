@@ -2,6 +2,9 @@
 
 > 每次和 Claude 对话后更新。最新的在最上面。
 
+## 2026-11-25
+- COMP 1913 已在 11/24 展示（没有录音 → 第 11 次课 noRec）。用户发来展示用的最终 PPT 准备提交 → 和 11/23 版对比：删掉了全部演讲者备注、每页加了来源行；第 1 页演讲者 2、4 顺序对调（用户仍是第 3 位）；第 5 页图表去掉“蛋鸡”；第 8 页标题改 “From insights to action”；第 17 页结论重写；第 18 页假设改写。用户负责的第 10–13 页发现 3 处问题，已改好发用户：① 第 10 页 “+ $10M in revenue” 错——1,000 万是散养鸡舍的**成本**，改成 “+ $10M barns”；② 第 10 页 “Cash kept in reserve” 和第 12 页副标题 “keep cash in reserve” 与第 12 页新标题 “Keep borrowing capacity as a reserve” 矛盾（3 亿现金已全部用掉，剩下 4.04 亿是未用的贷款额度）→ 统一成 borrowing capacity；③ 泰国补 “in revenue”。⚠️ 第 1 页只有名字没有学号（老师 11/14 要求第一页写名字和学号）——要补；每个组员上传**同一份**，改动要发组长统一。截止 11/27。
+
 ## 2026-11-24
 - Keith 老师邮件：请在封面 Assignment Title 写明所选周次（如 “Individual Essay (Week 4)”）。用户论文是**第 2 周题目**（石油公司安全：Friedman vs Freeman）→ 网站版封面改成 “Individual Essay (Week 2)”、老师名改成 Mr. Keith Soh；带学号的 Final 版发给用户。建议：在 Keith 名下的提交页重新提交（11/26 23:59 前，提交页如不允许重交就靠邮件说明），同时回邮件告诉老师是 Week 2（英文回信已给）。用户自己改过的版本如有其他改动，只改这一行即可。
 
