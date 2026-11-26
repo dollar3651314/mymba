@@ -23,7 +23,7 @@ MBA.readiness = {
     steps: '选题 ✅ → 大纲 + 立场 ✅ → 引言、第 1 节、第 2 节、结论 ✅ → 统稿 ✅ → 完整版 Word（封面 + 目录 + AI 声明）✅（11/5）→ 发邮件给 Dr Roy ✅（11/5，等回复）→ Turnitin 第 1 次 ✅（21%）→ 第 2 版重交 ✅（17%）→ 按意见改 ⬜ → 提交 ⬜（11/18）',
     have: ['<b>完整版 Word（11/5）</b>：UOG x LSBF 封面、目录、正文 1,988 词、Table 1、List of References 5 篇、AI 声明（放最后）', '学校模板和 Harvard 引用指南都已核对', '所有引用已核对原文和页码'],
     missing: [],
-    next: '已交（11/11，17%）。⭐ Keith 老师 11/24 邮件：封面写成 Individual Essay (Week 2)，11/26 23:59 前重新提交并回邮件。',
+    next: '已交（11/11，17%），等出分。封面不改（用户 11/26 决定）。',
   },
   'busi1772/b': {
     status: 'go', pct: 100, done: 100, submitted: '已完成 · 等出分',
