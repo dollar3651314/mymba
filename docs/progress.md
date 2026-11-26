@@ -2,6 +2,9 @@
 
 > 每次和 Claude 对话后更新。最新的在最上面。
 
+## 2026-11-26
+- ✅ **COMP 1913 小组展示 PPT 用户已上传 Moodle**。COMP 1913 两份作业都已完成，等出分。学期 1 还剩：BUSI 1763 反思报告 + PPT（11/27 入口开放）、BUSI 1764 A2（目标 12/4）；BUSI 1772 论文改封面重交是否已做待确认。
+
 ## 2026-11-25
 - ✅ **BUSI 1772 个人测验（Quiz，40%）用户已完成**，等出分。BUSI 1772 论文封面改 Week 2 后重交是否已做，待用户确认。
 - **学期 3 备课**：用户本地 Claude Code 下载 4 门课到 linshi（commit 6d207c7）。用户更正 1268 → **MARK 1286**。读完手册和作业 → 新建 `busi1767.js`（Business Consultancy Project，30 学分，24 周，3 份作业）、`busi1769.js`（Global Supply Chains）、`busi1774.js`（Strategic Management and Leadership）、`mark1286.js`（Marketing and Sales in the Future Economy），term t3，截止日期按上一届推算标“待确认”；课程页“12 周课程”改成按实际周数显示。390px 测试无报错。
